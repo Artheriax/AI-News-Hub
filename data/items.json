@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T14:22:22.100906+00:00",
+  "generated_at": "2026-09-22T13:58:27.414187+00:00",
   "items": [
     {
       "id": "rss:https://arstechnica.com/gadgets/2026/09/its-500-toothbrush-disappeared-from-stores-dyson-wont-fully-explain-why/",
@@ -127,7 +127,7 @@
       "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 128,
+      "upvotes": 126,
       "arxiv_id": "2609.24972"
     },
     {
@@ -448,7 +448,7 @@
       "summary": "The widespread adoption of long-horizon agents has made model workloads increasingly input-heavy. Although prior work has substantially reduced the cost of long-context computation, prefill remains computationally expensive, and large KV caches continue to strain HBM and SSD capacity and data-transfer bandwidth. Together, these compute, storage, and bandwidth demands constitute the primary bottlen",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 161,
+      "upvotes": 160,
       "arxiv_id": "2609.19969"
     },
     {
@@ -461,7 +461,7 @@
       "summary": "As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning, tool use, and feedback. Token efficiency therefore becomes important for scaling recursive self-improvement. We take an RSI-inspired approach at the harness layer, scaling auto-research loops across increasingly numerou",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 110,
+      "upvotes": 108,
       "arxiv_id": "2609.20519"
     },
     {
@@ -1113,7 +1113,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T14:22:21.990346+00:00",
+      "fetched_at": "2026-09-22T13:58:27.302482+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1195,7 +1195,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T14:22:21.992679+00:00",
+      "fetched_at": "2026-09-22T13:58:27.304892+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1277,7 +1277,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T14:22:21.995387+00:00",
+      "fetched_at": "2026-09-22T13:58:27.307675+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1359,7 +1359,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T14:22:21.996369+00:00",
+      "fetched_at": "2026-09-22T13:58:27.308681+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1427,7 +1427,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T14:22:22.002142+00:00",
+      "fetched_at": "2026-09-22T13:58:27.314844+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1509,7 +1509,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T14:22:22.003141+00:00",
+      "fetched_at": "2026-09-22T13:58:27.315905+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1577,7 +1577,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T14:22:22.004238+00:00",
+      "fetched_at": "2026-09-22T13:58:27.317064+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1659,7 +1659,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-22T14:22:22.037117+00:00",
+      "fetched_at": "2026-09-22T13:58:27.350810+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1741,7 +1741,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-22T14:22:22.072191+00:00",
+      "fetched_at": "2026-09-22T13:58:27.387500+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1823,7 +1823,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T14:22:22.084377+00:00",
+      "fetched_at": "2026-09-22T13:58:27.399008+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1905,7 +1905,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T14:22:22.089099+00:00",
+      "fetched_at": "2026-09-22T13:58:27.403391+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1987,7 +1987,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T14:22:22.097082+00:00",
+      "fetched_at": "2026-09-22T13:58:27.410435+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2069,7 +2069,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T14:22:22.099000+00:00",
+      "fetched_at": "2026-09-22T13:58:27.412231+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2151,14 +2151,14 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T14:22:03.727387+00:00"
+        "checked_at": "2026-09-22T13:58:09.394849+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T14:22:02.556920+00:00"
+        "checked_at": "2026-09-22T13:58:08.371837+00:00"
       },
       {
         "name": "Ars Technica AI",
@@ -2172,41 +2172,41 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T14:22:07.145253+00:00"
+        "checked_at": "2026-09-22T13:58:12.447232+00:00"
       },
       {
         "name": "DeepLearning.AI The Batch",
         "ok": false,
         "items": 4,
         "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
-        "checked_at": "2026-09-22T14:22:09.508868+00:00"
+        "checked_at": "2026-09-22T13:58:14.774138+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T14:22:10.712962+00:00"
+        "checked_at": "2026-09-22T13:58:15.924838+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T14:22:04.842345+00:00"
+        "checked_at": "2026-09-22T13:58:10.411759+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T14:22:05.999871+00:00"
+        "checked_at": "2026-09-22T13:58:11.430536+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-22T14:22:22.100815+00:00"
+      "checked_at": "2026-09-22T13:58:27.414083+00:00"
     }
   }
 }
