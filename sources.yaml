@@ -28,11 +28,6 @@ sources:
     channel_id: UCOCahKBCEUuzDJawM7yN1dg
     category: videos
 
-  - name: DeepLearning.AI The Batch
-    type: batch
-    url: https://www.deeplearning.ai/the-batch/
-    category: newsletter
-
   - name: Hugging Face Papers
     type: papers
     category: papers
