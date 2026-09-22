@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T16:47:01.373378+00:00",
+  "generated_at": "2026-09-22T17:07:39.224024+00:00",
   "items": [
     {
       "id": "yt:5MFORiebZks",
@@ -95,8 +95,21 @@
       "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 140,
+      "upvotes": 142,
       "arxiv_id": "2609.24972"
+    },
+    {
+      "id": "paper:2609.24984",
+      "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+      "url": "https://huggingface.co/papers/2609.24984",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-21T00:00:00+00:00",
+      "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to let the requested viewpoint shape how multi-view evidence is compressed into the video generator's ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 108,
+      "arxiv_id": "2609.24984"
     },
     {
       "id": "paper:2609.25001",
@@ -110,19 +123,6 @@
       "kind": "paper",
       "upvotes": 107,
       "arxiv_id": "2609.25001"
-    },
-    {
-      "id": "paper:2609.24984",
-      "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
-      "url": "https://huggingface.co/papers/2609.24984",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-21T00:00:00+00:00",
-      "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to let the requested viewpoint shape how multi-view evidence is compressed into the video generator's ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 107,
-      "arxiv_id": "2609.24984"
     },
     {
       "id": "yt:hygMRgnDD7w",
@@ -849,7 +849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T16:47:01.265188+00:00",
+      "fetched_at": "2026-09-22T17:06:55.438299+00:00",
       "entries": [
         {
           "rank": 1,
@@ -931,7 +931,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T16:47:01.267446+00:00",
+      "fetched_at": "2026-09-22T17:06:55.439274+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1013,7 +1013,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T16:47:01.270066+00:00",
+      "fetched_at": "2026-09-22T17:06:55.440717+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1095,7 +1095,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T16:47:01.271017+00:00",
+      "fetched_at": "2026-09-22T17:06:55.441122+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1163,7 +1163,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T16:47:01.276639+00:00",
+      "fetched_at": "2026-09-22T17:06:55.443235+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1245,7 +1245,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T16:47:01.277629+00:00",
+      "fetched_at": "2026-09-22T17:06:55.443249+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1313,7 +1313,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T16:47:01.278642+00:00",
+      "fetched_at": "2026-09-22T17:06:55.443709+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1395,76 +1395,76 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-22T16:47:01.310243+00:00",
+      "fetched_at": "2026-09-22T17:06:55.459530+00:00",
       "entries": [
         {
           "rank": 1,
+          "name": "Claude Opus 5.5 (max with fallback)",
+          "creator": "Anthropic",
+          "score": 58.0,
+          "meta": "1M ctx"
+        },
+        {
+          "rank": 2,
+          "name": "Claude Opus 5.5 (xhigh with fallback)",
+          "creator": "Anthropic",
+          "score": 56.0,
+          "meta": "1M ctx"
+        },
+        {
+          "rank": 3,
+          "name": "Claude Opus 5.5 (high with fallback)",
+          "creator": "Anthropic",
+          "score": 54.0,
+          "meta": "1M ctx"
+        },
+        {
+          "rank": 4,
           "name": "Claude Fable 5.1 (max with fallback)",
           "creator": "Anthropic",
           "score": 53.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 2,
+          "rank": 5,
           "name": "Claude Fable 5.1 (xhigh with fallback)",
           "creator": "Anthropic",
           "score": 53.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 3,
+          "rank": 6,
           "name": "GPT-6 Astra (max)",
           "creator": "OpenAI",
           "score": 53.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 4,
+          "rank": 7,
           "name": "GPT-6 Astra (xhigh)",
           "creator": "OpenAI",
           "score": 52.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 5,
+          "rank": 8,
+          "name": "Claude Opus 5.5 (medium with fallback)",
+          "creator": "Anthropic",
+          "score": 51.0,
+          "meta": "1M ctx"
+        },
+        {
+          "rank": 9,
           "name": "Claude Fable 5.1 (high with fallback)",
           "creator": "Anthropic",
           "score": 51.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 6,
+          "rank": 10,
           "name": "GPT-6 Astra (high)",
           "creator": "OpenAI",
           "score": 51.0,
-          "meta": "1M ctx"
-        },
-        {
-          "rank": 7,
-          "name": "Claude Opus 5 (max)",
-          "creator": "Anthropic",
-          "score": 51.0,
-          "meta": "1M ctx"
-        },
-        {
-          "rank": 8,
-          "name": "Claude Opus 5 (xhigh)",
-          "creator": "Anthropic",
-          "score": 50.0,
-          "meta": "1M ctx"
-        },
-        {
-          "rank": 9,
-          "name": "GPT-6 Astra (medium)",
-          "creator": "OpenAI",
-          "score": 50.0,
-          "meta": "1M ctx"
-        },
-        {
-          "rank": 10,
-          "name": "Claude Fable 5.1 (medium with fallback)",
-          "creator": "Anthropic",
-          "score": 49.0,
           "meta": "1M ctx"
         }
       ]
@@ -1477,7 +1477,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-22T16:47:01.345865+00:00",
+      "fetched_at": "2026-09-22T17:06:55.476776+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1559,7 +1559,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T16:47:01.357537+00:00",
+      "fetched_at": "2026-09-22T17:06:55.482029+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1641,7 +1641,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T16:47:01.361998+00:00",
+      "fetched_at": "2026-09-22T17:06:55.483979+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1723,7 +1723,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T16:47:01.369866+00:00",
+      "fetched_at": "2026-09-22T17:06:55.487497+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1805,7 +1805,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T16:47:01.371807+00:00",
+      "fetched_at": "2026-09-22T17:06:55.488552+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1887,55 +1887,48 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T16:46:45.580365+00:00"
+        "checked_at": "2026-09-22T17:06:40.369119+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T16:46:44.367857+00:00"
+        "checked_at": "2026-09-22T17:07:39.223793+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T16:46:48.809526+00:00"
-      },
-      {
-        "name": "DeepLearning.AI The Batch",
-        "ok": false,
-        "items": 0,
-        "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
-        "checked_at": "2026-09-22T15:12:09.530108+00:00"
+        "checked_at": "2026-09-22T17:06:43.430156+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T16:46:49.951469+00:00"
+        "checked_at": "2026-09-22T17:06:44.855106+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T16:46:46.652206+00:00"
+        "checked_at": "2026-09-22T17:06:41.386413+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T16:46:47.702105+00:00"
+        "checked_at": "2026-09-22T17:06:42.406860+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-22T16:47:01.373282+00:00"
+      "checked_at": "2026-09-22T17:06:55.490740+00:00"
     }
   }
 }

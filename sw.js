@@ -1,4 +1,4 @@
-const CACHE = "ainh-v1";
+const CACHE = "ainh-v2";
 const SHELL = [
   "./",
   "index.html",
@@ -43,7 +43,7 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(request.url);
 
   if (url.pathname.endsWith("/data/items.json")) {
-    event.respondWith(staleWhileRevalidate(request));
+    event.respondWith(networkFirst(request));
     return;
   }
 
@@ -52,7 +52,9 @@ self.addEventListener("fetch", (event) => {
       fetch(request)
         .then((response) => {
           const copy = response.clone();
-          caches.open(CACHE).then((cache) => cache.put("index.html", copy));
+          event.waitUntil(
+            caches.open(CACHE).then((cache) => cache.put("index.html", copy)),
+          );
           return response;
         })
         .catch(() => caches.match("index.html")),
@@ -71,7 +73,7 @@ async function cacheFirst(request) {
     if (response.ok && response.type === "basic") {
       const copy = response.clone();
       const cache = await caches.open(CACHE);
-      cache.put(request, copy);
+      await cache.put(request, copy);
     }
     return response;
   } catch (error) {
@@ -79,14 +81,18 @@ async function cacheFirst(request) {
   }
 }
 
-async function staleWhileRevalidate(request) {
-  const cache = await caches.open(CACHE);
-  const cached = await cache.match(request);
-  const network = fetch(request)
-    .then((response) => {
-      if (response.ok) cache.put(request, response.clone());
-      return response;
-    })
-    .catch(() => cached);
-  return cached || network;
+async function networkFirst(request) {
+  try {
+    const response = await fetch(request);
+    if (response.ok) {
+      const copy = response.clone();
+      const cache = await caches.open(CACHE);
+      await cache.put(request, copy);
+    }
+    return response;
+  } catch (error) {
+    const cached = await caches.match(request);
+    if (cached) return cached;
+    return Response.error();
+  }
 }

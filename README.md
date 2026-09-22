@@ -9,13 +9,11 @@ Configured in [`sources.yaml`](sources.yaml):
 | Source | Type |
 | --- | --- |
 | AI Search, AI Explained, Matthew Berman, Two Minute Papers, Bijan Bowen | YouTube channel RSS (no API key) |
-| Ars Technica AI | RSS |
-| DeepLearning.AI The Batch | HTML scrape of weekly issues |
 | Hugging Face Papers | Daily Papers API → top by upvotes over the last 7 days |
 | Artificial Analysis | 13 leaderboards (editing, text-to-image, text-to-video, music, models, TTS — incl. open-weights / no-audio variants) → top 10 each |
 | [ai-search.io](https://ai-search.io) | Featured link |
 
-The fetcher requests each source **sequentially with a delay** (`delay_seconds`, default 3s) to avoid rate limits. A failing source keeps its previous items instead of wiping the feed. Items older than `max_age_days` (default: 30 days / one month) are excluded from `data/items.json` (leaderboard snapshots are exempt — they are replaced on each successful fetch).
+The fetcher requests each source **sequentially with a delay** (`delay_seconds`, currently 1s) to avoid rate limits. A failing source keeps its previous items instead of wiping the feed. Items older than `max_age_days` (default: 30 days / one month) are excluded from `data/items.json` (leaderboard snapshots are exempt — they are replaced on each successful fetch). Sources removed from `sources.yaml` are pruned from the data (items and health rows) on the next run.
 
 ## Local usage
 
@@ -51,7 +49,7 @@ Static site (no framework): [`index.html`](index.html), [`app.js`](app.js), [`st
 
 [`.github/workflows/update.yml`](.github/workflows/update.yml):
 
-- **Hourly:** every hour at :17 UTC (`17 * * * *`) — offset off `:00` to avoid GitHub's top-of-hour schedule congestion, which can drop scheduled runs
+- **Every 30 minutes:** `*/30 * * * *` UTC — avoids GitHub's top-of-hour schedule congestion, which can drop scheduled runs
 - **Manual:** Actions → *Update and deploy* → *Run workflow*
 
 The workflow runs `fetch.py`, commits changed `data/items.json`, and deploys the site to **GitHub Pages** (first run enables Pages automatically; if not, set *Settings → Pages → Source: GitHub Actions*).
@@ -66,5 +64,7 @@ Edit `sources.yaml`:
     url: https://example.com/feed.xml
     category: news       # videos | news | papers | newsletter
 ```
+
+Removing a source from `sources.yaml` prunes its items and health rows from `data/items.json` on the next run.
 
 For YouTube use `type: youtube` and `channel_id: <channel id>` (from the channel page URL or `feed/videos.xml`).

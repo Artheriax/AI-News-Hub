@@ -519,10 +519,15 @@ function goToPage(page) {
 }
 
 function bindEvents() {
+  let searchTimer = null;
   els.search.addEventListener("input", (event) => {
-    state.query = event.target.value.trim().toLowerCase();
-    state.page = 1;
-    renderTimeline();
+    const value = event.target.value;
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+      state.query = value.trim().toLowerCase();
+      state.page = 1;
+      renderTimeline();
+    }, 200);
   });
 
   els.sourceFilter.addEventListener("change", (event) => {
@@ -536,7 +541,8 @@ function bindEvents() {
     if (!btn) return;
     state.category = btn.dataset.category;
     state.page = 1;
-    renderAll();
+    renderCategories(state.items);
+    renderTimeline();
   });
 
   els.prevPage.addEventListener("click", () => {

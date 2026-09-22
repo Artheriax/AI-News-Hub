@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import calendar
 import html as html_lib
 import json
 import re
@@ -38,9 +39,7 @@ def entry_datetime(entry) -> datetime | None:
     parsed = entry.get("published_parsed") or entry.get("updated_parsed")
     if not parsed:
         return None
-    return datetime.fromtimestamp(
-        __import__("calendar").timegm(parsed), tz=timezone.utc
-    )
+    return datetime.fromtimestamp(calendar.timegm(parsed), tz=timezone.utc)
 
 
 def strip_html(text: str) -> str:
@@ -558,9 +557,10 @@ def fetch_leaderboards(
 
     pages = list(dict.fromkeys(lb.get("page") for lb in selected if lb.get("page")))
     page_html: dict[str, str | None] = {}
-    for page in pages:
-        print(f"sleep {delay}s before next request...")
-        time.sleep(delay)
+    for index, page in enumerate(pages):
+        if index > 0:
+            print(f"sleep {delay}s before next request...")
+            time.sleep(delay)
         try:
             resp = http_get(AA_BASE + page)
             page_html[page] = resp.text
@@ -572,6 +572,7 @@ def fetch_leaderboards(
     succeeded = 0
     failed = 0
     results: list[dict] = []
+    parse_cache: dict[tuple[str, str], list[dict]] = {}
     for lb in lb_defs:
         lb_id = lb.get("id")
         if lb_id not in selected_ids:
@@ -594,7 +595,12 @@ def fetch_leaderboards(
             print(f"error LB {lb_id}: unknown parse type {parse_type!r}", file=sys.stderr)
             continue
         try:
-            entries = parser(html_text, top_n)
+            cache_key = (lb.get("page") or "", parse_type)
+            if cache_key in parse_cache:
+                entries = [dict(entry) for entry in parse_cache[cache_key]]
+            else:
+                entries = parser(html_text, top_n)
+                parse_cache[cache_key] = entries
             record = {
                 "id": lb_id,
                 "label": lb.get("label") or lb_id,
@@ -622,19 +628,18 @@ def fetch_leaderboards(
     return results, succeeded, failed
 
 
-def load_existing() -> tuple[list[dict], list[dict], list[dict], dict | None]:
+def load_existing() -> tuple[list[dict], list[dict], dict | None]:
     if DATA_PATH.exists():
         try:
             data = json.loads(DATA_PATH.read_text(encoding="utf-8"))
             return (
                 data.get("items", []),
-                data.get("featured", []),
                 data.get("leaderboards", []),
                 data.get("health"),
             )
         except (json.JSONDecodeError, OSError):
             pass
-    return [], [], [], None
+    return [], [], None
 
 
 def main() -> int:
@@ -660,29 +665,37 @@ def main() -> int:
     lb_defs = config.get("leaderboards") or []
     lb_top_n = int(config.get("leaderboard_top_n", 10))
 
-    existing_items, existing_featured, existing_leaderboards, existing_health = (
-        load_existing()
-    )
+    existing_items, existing_leaderboards, existing_health = load_existing()
+
+    # Only keep prior data for sources still present in the config; sources
+    # removed from sources.yaml are pruned on this run instead of lingering.
+    active_names = {
+        src.get("name") for src in sources if src.get("name")
+    }
     by_source: dict[str, list[dict]] = {}
     for item in existing_items:
-        by_source.setdefault(item.get("source", ""), []).append(item)
+        name = item.get("source", "")
+        if name in active_names:
+            by_source.setdefault(name, []).append(item)
 
     source_health: dict[str, dict] = {}
     if existing_health:
         for row in existing_health.get("sources", []):
-            if row.get("name"):
-                source_health[row["name"]] = row
+            name = row.get("name")
+            if name and name in active_names:
+                source_health[name] = row
 
     succeeded = 0
     failed = 0
-    for index, src in enumerate(sources):
+    did_fetch = False
+    for src in sources:
         name = src.get("name", "?")
         if args.only and args.only.lower() not in name.lower():
             continue
         if src.get("enabled", True) is False:
             print(f"skip  {name} (disabled)")
             continue
-        if index > 0:
+        if did_fetch:
             print(f"sleep {delay}s before next request...")
             time.sleep(delay)
         fetcher = FETCHERS.get(src.get("type"))
@@ -720,6 +733,7 @@ def main() -> int:
                 "checked_at": datetime.now(timezone.utc).isoformat(),
             }
             print(f"error {name}: {exc} (keeping {kept} previous items)", file=sys.stderr)
+        did_fetch = True
 
     merged: list[dict] = []
     seen_ids: set[str] = set()
@@ -787,7 +801,7 @@ def main() -> int:
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "items": merged,
-        "featured": featured or existing_featured,
+        "featured": featured,
         "leaderboards": leaderboards,
         "health": health,
     }
