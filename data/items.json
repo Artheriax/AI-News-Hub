@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-22T17:13:27.622459+00:00",
+  "generated_at": "2026-09-22T19:00:48.940404+00:00",
   "items": [
     {
       "id": "yt:5MFORiebZks",
-      "title": "OPUS 5.5!! (Thariq joining stream!)",
+      "title": "GPT-6 SOL AND LUNA ARE OUT!!!",
       "url": "https://www.youtube.com/watch?v=5MFORiebZks",
       "source": "Matthew Berman",
       "category": "videos",
-      "published": "2026-09-22T16:33:07+00:00",
+      "published": "2026-09-22T18:38:33+00:00",
       "summary": "Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberman_ai 👉🏻 Discord: https://discord.gg/u7wTTGWhuJ 👉🏻 Spotify: https://open.spotify.com",
       "thumbnail": "https://i2.ytimg.com/vi/5MFORiebZks/hqdefault.jpg",
       "kind": "video",
@@ -95,7 +95,7 @@
       "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 142,
+      "upvotes": 148,
       "arxiv_id": "2609.24972"
     },
     {
@@ -108,7 +108,7 @@
       "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to let the requested viewpoint shape how multi-view evidence is compressed into the video generator's ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 108,
+      "upvotes": 111,
       "arxiv_id": "2609.24984"
     },
     {
@@ -121,7 +121,7 @@
       "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack language instructions, or rely on high-variance online rollouts. To address these challenges, we introdu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 107,
+      "upvotes": 109,
       "arxiv_id": "2609.25001"
     },
     {
@@ -146,7 +146,7 @@
       "summary": "Humans can seamlessly adapt to both physical and digital worlds, suggesting that while a digital-to-real gap exists in embodiment, environment and task, human intelligence itself may transfer across this gap. This naturally raises a fundamental question: can the intelligence of vision-language models (VLMs) similarly generalize from the digital world to the physical world for robotic control? We i",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 99,
+      "upvotes": 101,
       "arxiv_id": "2609.22966"
     },
     {
@@ -159,7 +159,7 @@
       "summary": "Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and provide appropriate instructional support. Existing educational language models often focus on either problem solving or tutoring, with training mixtures organized by source or task rather than capability. We present OmniEdu, an open family of foundation models for K-12 learning a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 64,
+      "upvotes": 65,
       "arxiv_id": "2609.23088"
     },
     {
@@ -256,7 +256,7 @@
       "summary": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers. Open-source codebases offer a rich source of such tasks, while existing methods typically rely on development artifacts such as issues and commits, limiting the range of tasks that can be extracted. To better scale RL environments, we present CodeMidas, an agentic pipeline that turns impl",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 105,
+      "upvotes": 106,
       "arxiv_id": "2609.22068"
     },
     {
@@ -319,7 +319,7 @@
       "summary": "The widespread adoption of long-horizon agents has made model workloads increasingly input-heavy. Although prior work has substantially reduced the cost of long-context computation, prefill remains computationally expensive, and large KV caches continue to strain HBM and SSD capacity and data-transfer bandwidth. Together, these compute, storage, and bandwidth demands constitute the primary bottlen",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 163,
+      "upvotes": 165,
       "arxiv_id": "2609.19969"
     },
     {
@@ -332,7 +332,7 @@
       "summary": "As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning, tool use, and feedback. Token efficiency therefore becomes important for scaling recursive self-improvement. We take an RSI-inspired approach at the harness layer, scaling auto-research loops across increasingly numerou",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 117,
+      "upvotes": 119,
       "arxiv_id": "2609.20519"
     },
     {
@@ -358,7 +358,7 @@
       "summary": "Coding harnesses shape how autonomous coding agents translate model capabilities into long-horizon software-engineering performance, yet existing work typically evaluates harnesses as monolithic systems, leaving the effectiveness of individual components unclear. To enable component-level comparisons, we study this question with a lightweight coding harness whose execution loop is fixed while thre",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 79,
+      "upvotes": 80,
       "arxiv_id": "2609.20804"
     },
     {
@@ -849,7 +849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:13:27.532549+00:00",
+      "fetched_at": "2026-09-22T19:00:48.847778+00:00",
       "entries": [
         {
           "rank": 1,
@@ -931,7 +931,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:13:27.534348+00:00",
+      "fetched_at": "2026-09-22T19:00:48.849758+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1013,7 +1013,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:13:27.536469+00:00",
+      "fetched_at": "2026-09-22T19:00:48.852187+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1095,7 +1095,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:13:27.537248+00:00",
+      "fetched_at": "2026-09-22T19:00:48.853009+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1163,7 +1163,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:13:27.541926+00:00",
+      "fetched_at": "2026-09-22T19:00:48.857952+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1245,7 +1245,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:13:27.541937+00:00",
+      "fetched_at": "2026-09-22T19:00:48.857976+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1313,7 +1313,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:13:27.542899+00:00",
+      "fetched_at": "2026-09-22T19:00:48.858788+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1395,7 +1395,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-22T17:13:27.571227+00:00",
+      "fetched_at": "2026-09-22T19:00:48.888408+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1477,7 +1477,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-22T17:13:27.601375+00:00",
+      "fetched_at": "2026-09-22T19:00:48.920173+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1559,7 +1559,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:13:27.610312+00:00",
+      "fetched_at": "2026-09-22T19:00:48.928834+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1641,7 +1641,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:13:27.613768+00:00",
+      "fetched_at": "2026-09-22T19:00:48.932260+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1723,7 +1723,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:13:27.619434+00:00",
+      "fetched_at": "2026-09-22T19:00:48.937967+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1805,7 +1805,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:13:27.620899+00:00",
+      "fetched_at": "2026-09-22T19:00:48.939428+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1887,48 +1887,48 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T17:13:12.222350+00:00"
+        "checked_at": "2026-09-22T19:00:30.104472+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T17:13:11.086856+00:00"
+        "checked_at": "2026-09-22T19:00:28.766417+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T17:13:15.653100+00:00"
+        "checked_at": "2026-09-22T19:00:33.885458+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T17:13:16.881617+00:00"
+        "checked_at": "2026-09-22T19:00:35.098152+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T17:13:13.379236+00:00"
+        "checked_at": "2026-09-22T19:00:31.296763+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T17:13:14.490391+00:00"
+        "checked_at": "2026-09-22T19:00:32.508330+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-22T17:13:27.622373+00:00"
+      "checked_at": "2026-09-22T19:00:48.940327+00:00"
     }
   }
 }
