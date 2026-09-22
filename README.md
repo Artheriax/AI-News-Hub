@@ -38,10 +38,14 @@ python fetch.py --config path/to/sources.yaml
 
 Static site (no framework): [`index.html`](index.html), [`app.js`](app.js), [`styles.css`](styles.css).
 
+- Dark (#161616/#222) + light themes, **Lexend** typeface, yellow/magenta/cyan accents
+- Animated particle background (canvas, respects reduced-motion) + smooth load/scroll reveals
 - Unified timeline (videos, articles, papers, newsletter issues) — 12 items per page with Prev/Next
 - Source & category filters, search, dark mode
 - YouTube thumbnails, source badges, vote counts for papers
 - Artificial Analysis leaderboard cards (top 10 per board, open-weights & no-audio variants)
+- **New** badges for items since your last visit (auto-clear), loading skeletons, stale-data pill (>2h)
+- **PWA** (installable, offline shell via service worker) · SEO/OG tags · `404.html` · per-source **health chips** in the footer
 
 ## Updates
 

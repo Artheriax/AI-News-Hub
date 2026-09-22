@@ -4,23 +4,74 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="AI News Hub — aggregated AI news, papers, and videos from trusted sources." />
+  <meta name="theme-color" content="#161616" />
   <title>AI News Hub</title>
+
+  <link rel="canonical" href="https://artheriax.github.io/AI-News-Hub/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="AI News Hub" />
+  <meta property="og:title" content="AI News Hub" />
+  <meta property="og:description" content="Aggregated AI news, papers, and videos from trusted sources — one timeline, refreshed hourly." />
+  <meta property="og:url" content="https://artheriax.github.io/AI-News-Hub/" />
+  <meta property="og:image" content="https://artheriax.github.io/AI-News-Hub/og.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="AI News Hub" />
+  <meta name="twitter:description" content="Aggregated AI news, papers, and videos from trusted sources — one timeline, refreshed hourly." />
+  <meta name="twitter:image" content="https://artheriax.github.io/AI-News-Hub/og.png" />
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icons/192.png" />
+  <link rel="manifest" href="manifest.webmanifest" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://i.ytimg.com" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "AI News Hub",
+    "url": "https://artheriax.github.io/AI-News-Hub/",
+    "description": "Aggregated AI news, papers, and videos from trusted sources — one timeline, refreshed hourly.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://artheriax.github.io/AI-News-Hub/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
 </head>
 <body>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
   <header class="site-header">
     <div class="container header-inner">
       <div class="brand">
-        <span class="brand-mark" aria-hidden="true">AI</span>
-        <div>
-          <h1>AI News Hub</h1>
-          <p class="tagline">News, papers &amp; videos — one timeline</p>
+        <svg class="brand-logo" viewBox="0 0 42 42" aria-hidden="true">
+          <circle cx="16" cy="16" r="10.5" fill="none" stroke="#ffd60a" stroke-width="3" />
+          <circle cx="26" cy="16" r="10.5" fill="none" stroke="#ff2d95" stroke-width="3" opacity="0.9" />
+          <circle cx="21" cy="26" r="10.5" fill="none" stroke="#00e5ff" stroke-width="3" opacity="0.9" />
+        </svg>
+        <div class="brand-text">
+          <span class="eyebrow">AI · FEED</span>
+          <h1>AI News <span class="brand-accent">Hub</span></h1>
         </div>
       </div>
-      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
-        <span class="theme-icon" aria-hidden="true">◐</span>
-      </button>
+      <div class="header-actions">
+        <nav class="site-nav" aria-label="Sections">
+          <a href="#timeline">Feed</a>
+          <a href="#leaderboards">Leaderboards</a>
+        </nav>
+        <span class="freshness" id="freshness" title="Last data refresh">
+          <span class="fresh-dot" aria-hidden="true"></span>
+          <span id="freshness-text">Loading…</span>
+        </span>
+        <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <span class="theme-icon" aria-hidden="true">◐</span>
+        </button>
+      </div>
     </div>
   </header>
 
@@ -47,7 +98,20 @@
       <p id="updated" class="muted"></p>
     </section>
 
-    <section id="timeline" class="timeline" aria-live="polite"></section>
+    <section id="timeline" class="timeline" aria-live="polite">
+      <article class="skeleton-card"><div class="sk-media"></div><div class="sk-body"><div class="sk-line"></div><div class="sk-line"></div><div class="sk-line short"></div></div></article>
+      <article class="skeleton-card"><div class="sk-media"></div><div class="sk-body"><div class="sk-line"></div><div class="sk-line"></div><div class="sk-line short"></div></div></article>
+      <article class="skeleton-card"><div class="sk-media"></div><div class="sk-body"><div class="sk-line"></div><div class="sk-line"></div><div class="sk-line short"></div></div></article>
+      <article class="skeleton-card"><div class="sk-media"></div><div class="sk-body"><div class="sk-line"></div><div class="sk-line"></div><div class="sk-line short"></div></div></article>
+      <article class="skeleton-card"><div class="sk-media"></div><div class="sk-body"><div class="sk-line"></div><div class="sk-line"></div><div class="sk-line short"></div></div></article>
+      <article class="skeleton-card"><div class="sk-media"></div><div class="sk-body"><div class="sk-line"></div><div class="sk-line"></div><div class="sk-line short"></div></div></article>
+      <article class="skeleton-card"><div class="sk-media"></div><div class="sk-body"><div class="sk-line"></div><div class="sk-line"></div><div class="sk-line short"></div></div></article>
+      <article class="skeleton-card"><div class="sk-media"></div><div class="sk-body"><div class="sk-line"></div><div class="sk-line"></div><div class="sk-line short"></div></div></article>
+      <article class="skeleton-card"><div class="sk-media"></div><div class="sk-body"><div class="sk-line"></div><div class="sk-line"></div><div class="sk-line short"></div></div></article>
+      <article class="skeleton-card"><div class="sk-media"></div><div class="sk-body"><div class="sk-line"></div><div class="sk-line"></div><div class="sk-line short"></div></div></article>
+      <article class="skeleton-card"><div class="sk-media"></div><div class="sk-body"><div class="sk-line"></div><div class="sk-line"></div><div class="sk-line short"></div></div></article>
+      <article class="skeleton-card"><div class="sk-media"></div><div class="sk-body"><div class="sk-line"></div><div class="sk-line"></div><div class="sk-line short"></div></div></article>
+    </section>
 
     <nav id="pagination" class="pagination" hidden aria-label="Timeline pages">
       <button id="prev-page" class="page-btn" type="button">← Prev</button>
@@ -67,6 +131,7 @@
 
   <footer class="site-footer">
     <div class="container">
+      <div id="health" class="health-strip" hidden aria-label="Source health"></div>
       <p>Built with public feeds · <a href="https://github.com/Artheriax/AI-News-Hub" rel="noopener">Source on GitHub</a></p>
     </div>
   </footer>

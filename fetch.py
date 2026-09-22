@@ -622,7 +622,7 @@ def fetch_leaderboards(
     return results, succeeded, failed
 
 
-def load_existing() -> tuple[list[dict], list[dict], list[dict]]:
+def load_existing() -> tuple[list[dict], list[dict], list[dict], dict | None]:
     if DATA_PATH.exists():
         try:
             data = json.loads(DATA_PATH.read_text(encoding="utf-8"))
@@ -630,10 +630,11 @@ def load_existing() -> tuple[list[dict], list[dict], list[dict]]:
                 data.get("items", []),
                 data.get("featured", []),
                 data.get("leaderboards", []),
+                data.get("health"),
             )
         except (json.JSONDecodeError, OSError):
             pass
-    return [], [], []
+    return [], [], [], None
 
 
 def main() -> int:
@@ -659,10 +660,18 @@ def main() -> int:
     lb_defs = config.get("leaderboards") or []
     lb_top_n = int(config.get("leaderboard_top_n", 10))
 
-    existing_items, existing_featured, existing_leaderboards = load_existing()
+    existing_items, existing_featured, existing_leaderboards, existing_health = (
+        load_existing()
+    )
     by_source: dict[str, list[dict]] = {}
     for item in existing_items:
         by_source.setdefault(item.get("source", ""), []).append(item)
+
+    source_health: dict[str, dict] = {}
+    if existing_health:
+        for row in existing_health.get("sources", []):
+            if row.get("name"):
+                source_health[row["name"]] = row
 
     succeeded = 0
     failed = 0
@@ -680,15 +689,36 @@ def main() -> int:
         if not fetcher:
             print(f"error {name}: unknown type {src.get('type')!r}", file=sys.stderr)
             failed += 1
+            source_health[name] = {
+                "name": name,
+                "ok": False,
+                "items": len(by_source.get(name, [])),
+                "error": f"unknown type {src.get('type')!r}",
+                "checked_at": datetime.now(timezone.utc).isoformat(),
+            }
             continue
         try:
             items = fetcher(src, limit)
             by_source[name] = items
             succeeded += 1
+            source_health[name] = {
+                "name": name,
+                "ok": True,
+                "items": len(items),
+                "error": None,
+                "checked_at": datetime.now(timezone.utc).isoformat(),
+            }
             print(f"ok    {name}: {len(items)} items")
         except Exception as exc:  # noqa: BLE001 - isolate per-source failures
             failed += 1
             kept = len(by_source.get(name, []))
+            source_health[name] = {
+                "name": name,
+                "ok": False,
+                "items": kept,
+                "error": str(exc),
+                "checked_at": datetime.now(timezone.utc).isoformat(),
+            }
             print(f"error {name}: {exc} (keeping {kept} previous items)", file=sys.stderr)
 
     merged: list[dict] = []
@@ -730,6 +760,7 @@ def main() -> int:
     leaderboards = existing_leaderboards
     lb_ok = 0
     lb_failed = 0
+    lb_health = (existing_health or {}).get("leaderboards") if existing_health else None
     if lb_defs:
         leaderboards, lb_ok, lb_failed = fetch_leaderboards(
             lb_defs,
@@ -738,6 +769,19 @@ def main() -> int:
             only=args.only,
             previous=existing_leaderboards,
         )
+        if not args.only or lb_ok or lb_failed:
+            lb_health = {
+                "ok": lb_ok,
+                "failed": lb_failed,
+                "checked_at": datetime.now(timezone.utc).isoformat(),
+            }
+
+    health = {
+        "sources": sorted(
+            source_health.values(), key=lambda row: row.get("name", "")
+        ),
+        "leaderboards": lb_health,
+    }
 
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
     output = {
@@ -745,6 +789,7 @@ def main() -> int:
         "items": merged,
         "featured": featured or existing_featured,
         "leaderboards": leaderboards,
+        "health": health,
     }
     DATA_PATH.write_text(
         json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"

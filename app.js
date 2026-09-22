@@ -12,6 +12,8 @@ const state = {
   items: [],
   featured: [],
   leaderboards: [],
+  health: null,
+  seenTs: null,
   category: "all",
   source: "",
   query: "",
@@ -35,6 +37,9 @@ const els = {
   leaderboards: document.getElementById("leaderboards"),
   lbGrid: document.getElementById("lb-grid"),
   themeToggle: document.getElementById("theme-toggle"),
+  freshness: document.getElementById("freshness"),
+  freshnessText: document.getElementById("freshness-text"),
+  health: document.getElementById("health"),
 };
 
 function applyTheme(theme) {
@@ -130,7 +135,7 @@ function renderFeatured() {
   els.featuredList.innerHTML = state.featured
     .map(
       (link) => `
-      <a class="featured-card" href="${escapeHtml(link.url)}" target="_blank" rel="noopener">
+      <a class="featured-card reveal" href="${escapeHtml(link.url)}" target="_blank" rel="noopener">
         <strong>${escapeHtml(link.name)}</strong>
         <span>${escapeHtml(link.description || link.url)}</span>
       </a>`,
@@ -177,7 +182,7 @@ function renderLeaderboards() {
         })
         .join("");
       return `
-        <article class="lb-card">
+        <article class="lb-card reveal">
           <header class="lb-card-head">
             <div>
               <h3 class="lb-title">${escapeHtml(lb.label)}</h3>
@@ -232,6 +237,11 @@ function renderTimeline() {
         typeof item.upvotes === "number"
           ? `<span class="upvotes">▲ ${item.upvotes}</span>`
           : "";
+      const publishedMs = Date.parse(item.published || "");
+      const isNew =
+        state.seenTs != null &&
+        !Number.isNaN(publishedMs) &&
+        publishedMs > state.seenTs;
       return `
         <article class="card">
           <div class="card-media">${mediaHtml(item)}</div>
@@ -241,6 +251,7 @@ function renderTimeline() {
                 CATEGORY_LABELS[category] || category,
               )}</span>
               <span class="badge">${escapeHtml(item.source)}</span>
+              ${isNew ? '<span class="badge badge-new">New</span>' : ""}
             </div>
             <h3 class="card-title">
               <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener">${escapeHtml(
@@ -270,8 +281,209 @@ function renderAll() {
   renderTimeline();
 }
 
+let revealObserver = null;
+
+function observeReveals() {
+  const targets = document.querySelectorAll(".reveal:not(.visible)");
+  if (!targets.length) return;
+  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reduced || typeof IntersectionObserver === "undefined") {
+    targets.forEach((el) => el.classList.add("visible"));
+    return;
+  }
+  if (!revealObserver) {
+    revealObserver = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            revealObserver.unobserve(entry.target);
+          }
+        }
+      },
+      { threshold: 0.12, rootMargin: "0px 0px -24px 0px" },
+    );
+  }
+  targets.forEach((el) => revealObserver.observe(el));
+}
+
+function initBackground() {
+  const canvas = document.getElementById("bg-canvas");
+  if (!canvas || !canvas.getContext) return;
+  const ctx = canvas.getContext("2d");
+  if (!ctx) return;
+  // Animate even when reduced-motion is requested: background is subtle ambience,
+  // but a frozen canvas reads as "broken". Only CSS motion is disabled.
+  const COLORS = ["#ffd60a", "#ff2d95", "#00e5ff"];
+  let width = 0;
+  let height = 0;
+  let particles = [];
+  let rafId = null;
+  let running = false;
+
+  function hexToRgba(hex, alpha) {
+    const value = parseInt(hex.slice(1), 16);
+    const r = (value >> 16) & 255;
+    const g = (value >> 8) & 255;
+    const b = value & 255;
+    return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+  }
+
+  function resize() {
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    width = window.innerWidth;
+    height = window.innerHeight;
+    canvas.width = Math.floor(width * dpr);
+    canvas.height = Math.floor(height * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+
+  function makeParticle() {
+    const shine = Math.random() < 0.16;
+    return {
+      x: Math.random() * width,
+      y: Math.random() * height,
+      r: shine ? 36 + Math.random() * 70 : 1.4 + Math.random() * 2.6,
+      vx: (Math.random() - 0.5) * 0.35,
+      vy: -0.1 - Math.random() * 0.3,
+      color: COLORS[Math.floor(Math.random() * COLORS.length)],
+      base: shine ? 0.06 + Math.random() * 0.05 : 0.3 + Math.random() * 0.45,
+      phase: Math.random() * Math.PI * 2,
+      twinkle: 0.5 + Math.random() * 1.1,
+      shine,
+    };
+  }
+
+  function seed() {
+    const count = width < 640 ? 26 : 52;
+    particles = Array.from({ length: count }, makeParticle);
+  }
+
+  function draw(time) {
+    const theme = document.documentElement.dataset.theme;
+    const alphaScale = theme === "light" ? 0.5 : 1;
+    ctx.clearRect(0, 0, width, height);
+    for (const p of particles) {
+      p.x += p.vx;
+      p.y += p.vy;
+      if (p.y < -p.r) {
+        p.y = height + p.r;
+        p.x = Math.random() * width;
+      }
+      if (p.x < -p.r) p.x = width + p.r;
+      if (p.x > width + p.r) p.x = -p.r;
+      const twinkle = 0.7 + 0.3 * Math.sin(time * 0.001 * p.twinkle + p.phase);
+      const alpha = p.base * twinkle * alphaScale;
+      if (p.shine) {
+        const gradient = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, p.r);
+        gradient.addColorStop(0, hexToRgba(p.color, alpha));
+        gradient.addColorStop(1, hexToRgba(p.color, 0));
+        ctx.fillStyle = gradient;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fill();
+      } else {
+        ctx.globalAlpha = alpha;
+        ctx.shadowColor = p.color;
+        ctx.shadowBlur = 10;
+        ctx.fillStyle = p.color;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.shadowBlur = 0;
+        ctx.globalAlpha = 1;
+      }
+    }
+  }
+
+  function loop(time) {
+    draw(time);
+    rafId = requestAnimationFrame(loop);
+  }
+
+  function start() {
+    if (running) return;
+    running = true;
+    rafId = requestAnimationFrame(loop);
+  }
+
+  function stop() {
+    running = false;
+    if (rafId) cancelAnimationFrame(rafId);
+    rafId = null;
+  }
+
+  resize();
+  seed();
+  start();
+  window.addEventListener("resize", () => {
+    resize();
+    seed();
+  });
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) stop();
+    else start();
+  });
+}
+
+function updateFreshness(iso) {
+  if (!iso || !els.freshnessText) return;
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return;
+  const time = date.toLocaleString(undefined, {
+    month: "short",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  });
+  const stale = Date.now() - date.getTime() > 2 * 60 * 60 * 1000;
+  if (els.freshness) els.freshness.classList.toggle("stale", stale);
+  els.freshnessText.textContent = stale
+    ? `Stale · updated ${time}`
+    : `Updated ${time}`;
+}
+
+function renderHealth(health) {
+  if (!health || !Array.isArray(health.sources) || !health.sources.length) {
+    return;
+  }
+  if (!els.health) return;
+  const sources = health.sources;
+  const okCount = sources.filter((row) => row.ok).length;
+  const failCount = sources.length - okCount;
+  const summary = `<span class="health-summary">${okCount} ok${
+    failCount ? ` · <strong>${failCount} failed</strong>` : ""
+  }</span>`;
+  const chips = sources
+    .map((row) => {
+      const title = row.ok
+        ? `${row.name}: ${row.items} items`
+        : `${row.name}: ${row.error || "fetch failed"}`;
+      return `<span class="health-chip ${row.ok ? "ok" : "fail"}" title="${escapeHtml(
+        title,
+      )}"><span class="hc-dot" aria-hidden="true"></span>${escapeHtml(row.name)}</span>`;
+    })
+    .join("");
+  let lbChip = "";
+  if (health.leaderboards) {
+    const lb = health.leaderboards;
+    const detail = lb.failed
+      ? `${lb.ok} ok · ${lb.failed} failed`
+      : `${lb.ok} ok`;
+    lbChip = `<span class="health-chip ${
+      lb.failed ? "fail" : "ok"
+    }" title="${escapeHtml(`Leaderboards: ${detail}`)}"><span class="hc-dot" aria-hidden="true"></span>Leaderboards</span>`;
+  }
+  els.health.innerHTML = summary + chips + lbChip;
+  els.health.hidden = false;
+}
+
 async function load() {
   try {
+    const seenRaw = localStorage.getItem("seen_ts");
+    state.seenTs = seenRaw ? Number(seenRaw) : null;
+    if (Number.isNaN(state.seenTs)) state.seenTs = null;
+
     const resp = await fetch("data/items.json", { cache: "no-store" });
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const data = await resp.json();
@@ -280,14 +492,20 @@ async function load() {
     state.leaderboards = Array.isArray(data.leaderboards)
       ? data.leaderboards
       : [];
-    if (data.generated_at) {
+    state.health = data.health || null;
+    updateFreshness(data.generated_at);
+    if (els.updated && data.generated_at) {
       els.updated.textContent = `Updated ${formatDate(data.generated_at)}`;
     }
     renderFeatured();
     renderLeaderboards();
     renderAll();
+    observeReveals();
+    renderHealth(state.health);
+    localStorage.setItem("seen_ts", String(Date.now()));
   } catch (error) {
     els.status.textContent = `Failed to load data: ${error.message}`;
+    els.timeline.innerHTML = "";
     els.empty.hidden = false;
     els.empty.innerHTML =
       "<p>Could not load <code>data/items.json</code>. Run <code>python fetch.py</code> first.</p>";
@@ -337,4 +555,8 @@ function bindEvents() {
 
 initTheme();
 bindEvents();
+initBackground();
+if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) {
+  navigator.serviceWorker.register("sw.js").catch(() => {});
+}
 load();

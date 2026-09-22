@@ -47,8 +47,9 @@ jobs:
 
       - name: Assemble site
         run: |
-          mkdir -p _site/data
-          cp index.html app.js styles.css _site/
+          mkdir -p _site/data _site/icons
+          cp index.html app.js styles.css 404.html favicon.svg manifest.webmanifest sw.js og.png _site/
+          cp icons/192.png icons/512.png _site/icons/
           cp data/items.json _site/data/
 
       - name: Configure Pages
