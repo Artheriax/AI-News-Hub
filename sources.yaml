@@ -1,0 +1,152 @@
+delay_seconds: 1
+max_items_per_source: 25
+max_age_days: 30
+
+sources:
+  - name: AI Search
+    type: youtube
+    channel_id: UCIgnGlGkVRhd4qNFcEwLL4A
+    category: videos
+
+  - name: AI Explained
+    type: youtube
+    channel_id: UCNJ1Ymd5yFuUPtn21xtRbbw
+    category: videos
+
+  - name: Matthew Berman
+    type: youtube
+    channel_id: UCawZsQWqfGSbCI5yjkdVkTA
+    category: videos
+
+  - name: Two Minute Papers
+    type: youtube
+    channel_id: UCbfYPyITQ-7l4upoX8nvctg
+    category: videos
+
+  - name: Bijan Bowen
+    type: youtube
+    channel_id: UCOCahKBCEUuzDJawM7yN1dg
+    category: videos
+
+  - name: Ars Technica AI
+    type: rss
+    url: https://arstechnica.com/ai/feed/
+    category: news
+
+  - name: DeepLearning.AI The Batch
+    type: batch
+    url: https://www.deeplearning.ai/the-batch/
+    category: newsletter
+
+  - name: Hugging Face Papers
+    type: papers
+    category: papers
+    days: 7
+    top_n: 15
+
+featured_links:
+  - name: AI Search
+    url: https://ai-search.io
+    description: Directory of AI tools and models — handy for students and anyone trying new models.
+
+leaderboard_top_n: 10
+
+leaderboards:
+  - id: image-editing
+    label: Image Editing
+    group: Image
+    url: https://artificialanalysis.ai/image/leaderboard/editing
+    page: /image/leaderboard/editing
+    parse: table
+
+  - id: image-editing-open
+    label: Image Editing
+    group: Image
+    variant: Open weights
+    url: https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true
+    page: /image/leaderboard/editing/open-weights
+    parse: table
+
+  - id: image-to-video
+    label: Image to Video
+    group: Video
+    url: https://artificialanalysis.ai/video/leaderboard/image-to-video
+    page: /video/leaderboard/image-to-video
+    parse: table
+
+  - id: image-to-video-open
+    label: Image to Video
+    group: Video
+    variant: Open weights
+    url: https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true
+    page: /video/leaderboard/image-to-video/open-weights
+    parse: table
+
+  - id: image-to-video-no-audio
+    label: Image to Video
+    group: Video
+    variant: No audio
+    url: https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false
+    page: /video/leaderboard/image-to-video
+    parse: flight-no-audio
+
+  - id: image-to-video-no-audio-open
+    label: Image to Video
+    group: Video
+    variant: No audio · Open weights
+    note: Approximated with the open-weights arena ranking.
+    url: https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true
+    page: /video/leaderboard/image-to-video/open-weights
+    parse: table
+
+  - id: music-instrumental
+    label: Music (Instrumental)
+    group: Music
+    url: https://artificialanalysis.ai/music/leaderboard/instrumental
+    page: /music/leaderboard/instrumental
+    parse: table
+
+  - id: models
+    label: Text Generation Models
+    group: Models
+    url: https://artificialanalysis.ai/leaderboards/models
+    page: /leaderboards/models
+    parse: models-table
+
+  - id: models-open
+    label: Text Generation Models
+    group: Models
+    variant: Open weights
+    url: https://artificialanalysis.ai/leaderboards/models?weights=open
+    page: /leaderboards/models
+    parse: models-open
+
+  - id: text-to-image
+    label: Text to Image
+    group: Image
+    url: https://artificialanalysis.ai/image/leaderboard/text-to-image
+    page: /image/leaderboard/text-to-image
+    parse: table
+
+  - id: text-to-image-open
+    label: Text to Image
+    group: Image
+    variant: Open weights
+    url: https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true
+    page: /image/leaderboard/text-to-image/open-weights
+    parse: table
+
+  - id: tts-provider-voice
+    label: Text to Speech (Provider Voice)
+    group: Speech
+    url: https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice
+    page: /text-to-speech/leaderboard/provider-voice
+    parse: table
+
+  - id: tts-provider-voice-open
+    label: Text to Speech (Provider Voice)
+    group: Speech
+    variant: Open weights
+    url: https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true
+    page: /text-to-speech/leaderboard/provider-voice/open-weights
+    parse: table

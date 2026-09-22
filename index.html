@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="AI News Hub — aggregated AI news, papers, and videos from trusted sources." />
+  <title>AI News Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://i.ytimg.com" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">AI</span>
+        <div>
+          <h1>AI News Hub</h1>
+          <p class="tagline">News, papers &amp; videos — one timeline</p>
+        </div>
+      </div>
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <span class="theme-icon" aria-hidden="true">◐</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="featured" class="featured" hidden>
+      <h2 class="section-title">Useful links</h2>
+      <div id="featured-list" class="featured-list"></div>
+    </section>
+
+    <section class="controls" aria-label="Filters">
+      <div class="search-wrap">
+        <input id="search" type="search" placeholder="Search titles, sources, summaries…" autocomplete="off" />
+      </div>
+      <div class="filter-row">
+        <div id="category-filters" class="chip-row" role="tablist" aria-label="Category filter"></div>
+        <select id="source-filter" aria-label="Source filter">
+          <option value="">All sources</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="meta-bar">
+      <p id="status">Loading…</p>
+      <p id="updated" class="muted"></p>
+    </section>
+
+    <section id="timeline" class="timeline" aria-live="polite"></section>
+
+    <nav id="pagination" class="pagination" hidden aria-label="Timeline pages">
+      <button id="prev-page" class="page-btn" type="button">← Prev</button>
+      <span id="page-label" class="page-label"></span>
+      <button id="next-page" class="page-btn" type="button">Next →</button>
+    </nav>
+
+    <section id="empty" class="empty" hidden>
+      <p>No items match your filters.</p>
+    </section>
+
+    <section id="leaderboards" class="leaderboards" hidden>
+      <h2 class="section-title">Leaderboards <span class="muted">· Artificial Analysis · top 10</span></h2>
+      <div id="lb-grid" class="lb-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Built with public feeds · <a href="https://github.com/Artheriax/AI-News-Hub" rel="noopener">Source on GitHub</a></p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
