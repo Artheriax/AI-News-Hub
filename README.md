@@ -51,7 +51,7 @@ Static site (no framework): [`index.html`](index.html), [`app.js`](app.js), [`st
 
 [`.github/workflows/update.yml`](.github/workflows/update.yml):
 
-- **Hourly:** every hour at :00 UTC (`0 * * * *`)
+- **Hourly:** every hour at :17 UTC (`17 * * * *`) — offset off `:00` to avoid GitHub's top-of-hour schedule congestion, which can drop scheduled runs
 - **Manual:** Actions → *Update and deploy* → *Run workflow*
 
 The workflow runs `fetch.py`, commits changed `data/items.json`, and deploys the site to **GitHub Pages** (first run enables Pages automatically; if not, set *Settings → Pages → Source: GitHub Actions*).
