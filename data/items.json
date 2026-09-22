@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T17:07:39.224024+00:00",
+  "generated_at": "2026-09-22T17:13:27.622459+00:00",
   "items": [
     {
       "id": "yt:5MFORiebZks",
@@ -849,7 +849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:06:55.438299+00:00",
+      "fetched_at": "2026-09-22T17:13:27.532549+00:00",
       "entries": [
         {
           "rank": 1,
@@ -931,7 +931,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:06:55.439274+00:00",
+      "fetched_at": "2026-09-22T17:13:27.534348+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1013,7 +1013,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:06:55.440717+00:00",
+      "fetched_at": "2026-09-22T17:13:27.536469+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1095,7 +1095,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:06:55.441122+00:00",
+      "fetched_at": "2026-09-22T17:13:27.537248+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1163,7 +1163,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:06:55.443235+00:00",
+      "fetched_at": "2026-09-22T17:13:27.541926+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1245,7 +1245,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:06:55.443249+00:00",
+      "fetched_at": "2026-09-22T17:13:27.541937+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1313,7 +1313,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:06:55.443709+00:00",
+      "fetched_at": "2026-09-22T17:13:27.542899+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1395,7 +1395,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-22T17:06:55.459530+00:00",
+      "fetched_at": "2026-09-22T17:13:27.571227+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1477,7 +1477,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-22T17:06:55.476776+00:00",
+      "fetched_at": "2026-09-22T17:13:27.601375+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1559,7 +1559,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:06:55.482029+00:00",
+      "fetched_at": "2026-09-22T17:13:27.610312+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1641,7 +1641,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:06:55.483979+00:00",
+      "fetched_at": "2026-09-22T17:13:27.613768+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1723,7 +1723,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:06:55.487497+00:00",
+      "fetched_at": "2026-09-22T17:13:27.619434+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1805,7 +1805,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T17:06:55.488552+00:00",
+      "fetched_at": "2026-09-22T17:13:27.620899+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1887,48 +1887,48 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T17:06:40.369119+00:00"
+        "checked_at": "2026-09-22T17:13:12.222350+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T17:07:39.223793+00:00"
+        "checked_at": "2026-09-22T17:13:11.086856+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T17:06:43.430156+00:00"
+        "checked_at": "2026-09-22T17:13:15.653100+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T17:06:44.855106+00:00"
+        "checked_at": "2026-09-22T17:13:16.881617+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T17:06:41.386413+00:00"
+        "checked_at": "2026-09-22T17:13:13.379236+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T17:06:42.406860+00:00"
+        "checked_at": "2026-09-22T17:13:14.490391+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-22T17:06:55.490740+00:00"
+      "checked_at": "2026-09-22T17:13:27.622373+00:00"
     }
   }
 }
