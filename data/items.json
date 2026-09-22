@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-09-22T11:51:23.824507+00:00",
+  "generated_at": "2026-09-22T13:58:27.414187+00:00",
   "items": [
+    {
+      "id": "rss:https://arstechnica.com/gadgets/2026/09/its-500-toothbrush-disappeared-from-stores-dyson-wont-fully-explain-why/",
+      "title": "Its $500 toothbrush disappeared from stores. Dyson won’t fully explain why",
+      "url": "https://arstechnica.com/gadgets/2026/09/its-500-toothbrush-disappeared-from-stores-dyson-wont-fully-explain-why/",
+      "source": "Ars Technica AI",
+      "category": "news",
+      "published": "2026-09-22T13:33:16+00:00",
+      "summary": "Dyson admits a component issue but won't say what's failing in its $500 toothbrush.",
+      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/toothbrush-500x500.jpg",
+      "kind": "article"
+    },
     {
       "id": "yt:qBBRRsH0rQc",
       "title": "Yes, Jev Is Insane, But There's A Catch",
@@ -107,6 +118,19 @@
       "channel": "Matthew Berman"
     },
     {
+      "id": "paper:2609.24972",
+      "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+      "url": "https://huggingface.co/papers/2609.24972",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-21T00:00:00+00:00",
+      "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 126,
+      "arxiv_id": "2609.24972"
+    },
+    {
       "id": "paper:2609.24984",
       "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
       "url": "https://huggingface.co/papers/2609.24984",
@@ -116,7 +140,7 @@
       "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to let the requested viewpoint shape how multi-view evidence is compressed into the video generator's ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 86,
+      "upvotes": 98,
       "arxiv_id": "2609.24984"
     },
     {
@@ -129,21 +153,8 @@
       "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack language instructions, or rely on high-variance online rollouts. To address these challenges, we introdu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 72,
+      "upvotes": 81,
       "arxiv_id": "2609.25001"
-    },
-    {
-      "id": "paper:2609.24972",
-      "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
-      "url": "https://huggingface.co/papers/2609.24972",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-21T00:00:00+00:00",
-      "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 67,
-      "arxiv_id": "2609.24972"
     },
     {
       "id": "yt:hygMRgnDD7w",
@@ -167,7 +178,7 @@
       "summary": "Humans can seamlessly adapt to both physical and digital worlds, suggesting that while a digital-to-real gap exists in embodiment, environment and task, human intelligence itself may transfer across this gap. This naturally raises a fundamental question: can the intelligence of vision-language models (VLMs) similarly generalize from the digital world to the physical world for robotic control? We i",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 93,
+      "upvotes": 95,
       "arxiv_id": "2609.22966"
     },
     {
@@ -308,7 +319,7 @@
       "summary": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers. Open-source codebases offer a rich source of such tasks, while existing methods typically rely on development artifacts such as issues and commits, limiting the range of tasks that can be extracted. To better scale RL environments, we present CodeMidas, an agentic pipeline that turns impl",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 103,
+      "upvotes": 104,
       "arxiv_id": "2609.22068"
     },
     {
@@ -334,7 +345,7 @@
       "summary": "Computer-use agents (CUAs) have advanced along two separate lines: graphical interaction and software development through code and the command line. Real digital work requires both, interleaved rather than stacked end to end. We study hybrid CUAs that autonomously decide when to explore an interface, implement software, and run and visually verify their artifacts. We introduce RecreationWorld, a f",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 63,
+      "upvotes": 64,
       "arxiv_id": "2609.22000"
     },
     {
@@ -437,7 +448,7 @@
       "summary": "The widespread adoption of long-horizon agents has made model workloads increasingly input-heavy. Although prior work has substantially reduced the cost of long-context computation, prefill remains computationally expensive, and large KV caches continue to strain HBM and SSD capacity and data-transfer bandwidth. Together, these compute, storage, and bandwidth demands constitute the primary bottlen",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 159,
+      "upvotes": 160,
       "arxiv_id": "2609.19969"
     },
     {
@@ -450,7 +461,7 @@
       "summary": "As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning, tool use, and feedback. Token efficiency therefore becomes important for scaling recursive self-improvement. We take an RSI-inspired approach at the harness layer, scaling auto-research loops across increasingly numerou",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 106,
+      "upvotes": 108,
       "arxiv_id": "2609.20519"
     },
     {
@@ -476,8 +487,21 @@
       "summary": "Coding harnesses shape how autonomous coding agents translate model capabilities into long-horizon software-engineering performance, yet existing work typically evaluates harnesses as monolithic systems, leaving the effectiveness of individual components unclear. To enable component-level comparisons, we study this question with a lightweight coding harness whose execution loop is fixed while thre",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 77,
+      "upvotes": 79,
       "arxiv_id": "2609.20804"
+    },
+    {
+      "id": "paper:2609.20800",
+      "title": "JEPA-Anything: Learning Predictive Models across Different Worlds",
+      "url": "https://huggingface.co/papers/2609.20800",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-17T00:00:00+00:00",
+      "summary": "World modeling enables intelligence to anticipate consequences, guide interventions, and learn from interaction. Yet predictive models remain domain-specific: can a common learning principle support world modeling across radically different systems? We introduce JEPA-Anything, a domain-agnostic framework based on orthogonal predictive factorization (OPF). Extending joint-embedding predictive archi",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 61,
+      "arxiv_id": "2609.20800"
     },
     {
       "id": "rss:https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/",
@@ -524,7 +548,7 @@
       "summary": "Recent Omni-Modal Generative Models (Omni-Models) have advanced content generation toward unified modeling of text, images, video, and audio. MiniMax-H3 exemplifies this transition by combining multimodal context understanding with joint audio-visual generation in a shared latent framework. Its unified architecture raises a fundamental question: Can multimodal alignment improve the model's world r",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 120,
+      "upvotes": 121,
       "arxiv_id": "2609.18323"
     },
     {
@@ -552,19 +576,6 @@
       "kind": "paper",
       "upvotes": 75,
       "arxiv_id": "2609.18708"
-    },
-    {
-      "id": "paper:2609.18805",
-      "title": "ProgramDistill: From Interactive Web Apps to Verifiable Reference-Guided SWE Tasks",
-      "url": "https://huggingface.co/papers/2609.18805",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-16T00:00:00+00:00",
-      "summary": "Coding agents are typically evaluated with desired behavior specified through issues or instructions. In practical web development, however, agents may need to infer behavior from working software and implement it in an incomplete application. We introduce ProgramDistill, a benchmark evaluating coding agents on features discovered through interaction with fully functional reference applications. W",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 61,
-      "arxiv_id": "2609.18805"
     },
     {
       "id": "yt:AGdPioTEi9g",
@@ -690,17 +701,6 @@
       "published": "2026-09-14T19:28:42+00:00",
       "summary": "This is also the last version of macOS to support Rosetta for Intel apps.",
       "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/Apple-OS-27-500x500-1789411872.jpg",
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed/",
-      "title": "AI leaders want to hit the brakes after years of reckless speed",
-      "url": "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed/",
-      "source": "Ars Technica AI",
-      "category": "news",
-      "published": "2026-09-14T19:06:13+00:00",
-      "summary": "Safety is the watchword, but there could be ulterior benefits for the industry.",
-      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1482639221-500x500-1789407445.jpg",
       "kind": "article"
     },
     {
@@ -1113,7 +1113,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T11:51:23.777217+00:00",
+      "fetched_at": "2026-09-22T13:58:27.302482+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1195,7 +1195,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T11:51:23.778257+00:00",
+      "fetched_at": "2026-09-22T13:58:27.304892+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1277,7 +1277,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T11:51:23.779387+00:00",
+      "fetched_at": "2026-09-22T13:58:27.307675+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1359,7 +1359,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T11:51:23.779806+00:00",
+      "fetched_at": "2026-09-22T13:58:27.308681+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1427,7 +1427,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T11:51:23.781815+00:00",
+      "fetched_at": "2026-09-22T13:58:27.314844+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1509,7 +1509,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T11:51:23.782263+00:00",
+      "fetched_at": "2026-09-22T13:58:27.315905+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1577,7 +1577,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T11:51:23.782745+00:00",
+      "fetched_at": "2026-09-22T13:58:27.317064+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1659,7 +1659,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-22T11:51:23.796633+00:00",
+      "fetched_at": "2026-09-22T13:58:27.350810+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1741,7 +1741,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-22T11:51:23.811762+00:00",
+      "fetched_at": "2026-09-22T13:58:27.387500+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1823,7 +1823,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T11:51:23.816492+00:00",
+      "fetched_at": "2026-09-22T13:58:27.399008+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1905,7 +1905,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T11:51:23.818364+00:00",
+      "fetched_at": "2026-09-22T13:58:27.403391+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1987,7 +1987,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T11:51:23.821455+00:00",
+      "fetched_at": "2026-09-22T13:58:27.410435+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2069,7 +2069,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-22T11:51:23.822399+00:00",
+      "fetched_at": "2026-09-22T13:58:27.412231+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2151,62 +2151,62 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T11:51:04.783258+00:00"
+        "checked_at": "2026-09-22T13:58:09.394849+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T11:51:03.670023+00:00"
+        "checked_at": "2026-09-22T13:58:08.371837+00:00"
       },
       {
         "name": "Ars Technica AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-09-22T11:51:09.724372+00:00"
+        "checked_at": "2026-09-22T13:58:13.708423+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T11:51:07.843459+00:00"
+        "checked_at": "2026-09-22T13:58:12.447232+00:00"
       },
       {
         "name": "DeepLearning.AI The Batch",
-        "ok": true,
-        "items": 16,
-        "error": null,
-        "checked_at": "2026-09-22T11:51:11.051600+00:00"
+        "ok": false,
+        "items": 4,
+        "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
+        "checked_at": "2026-09-22T13:58:14.774138+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T11:51:12.463967+00:00"
+        "checked_at": "2026-09-22T13:58:15.924838+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T11:51:05.803008+00:00"
+        "checked_at": "2026-09-22T13:58:10.411759+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-22T11:51:06.819444+00:00"
+        "checked_at": "2026-09-22T13:58:11.430536+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-22T11:51:23.824283+00:00"
+      "checked_at": "2026-09-22T13:58:27.414083+00:00"
     }
   }
 }
