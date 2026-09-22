@@ -28,11 +28,6 @@ sources:
     channel_id: UCOCahKBCEUuzDJawM7yN1dg
     category: videos
 
-  - name: Ars Technica AI
-    type: rss
-    url: https://arstechnica.com/ai/feed/
-    category: news
-
   - name: DeepLearning.AI The Batch
     type: batch
     url: https://www.deeplearning.ai/the-batch/
