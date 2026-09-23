@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-09-23T10:10:37.199966+00:00",
+  "generated_at": "2026-09-23T15:07:45.027071+00:00",
   "items": [
+    {
+      "id": "yt:GJIkBVSoxUw",
+      "title": "HUGE AI NEWS: GPT-6 Sol & Luna, Opus 5.5, Sonnet 5.5, Haiku 5.5, Qwen 4.0, & Trump To Change AI!",
+      "url": "https://www.youtube.com/watch?v=GJIkBVSoxUw",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-09-23T06:15:08+00:00",
+      "summary": "🚨 Everything you’re about to see, I benchmarked using the tool I made. If you want to run these tests yourself or test models on whatever you actually use them for! → https://www.woaibench.ai/ HUGE day in AI! OpenAI just dropped GPT-6 Sol and GPT-6 Luna, bringing GPT-6-level intelligence at dramatic",
+      "thumbnail": "https://i4.ytimg.com/vi/GJIkBVSoxUw/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
     {
       "id": "yt:OWu2kjKrRTA",
       "title": "Anthropic went CRAZY (Opus 5.5)",
@@ -38,6 +50,18 @@
       "channel": "Matthew Berman"
     },
     {
+      "id": "yt:rFCaGc7owT8",
+      "title": "Claude Opus 5.5 IS THE Greatest AI Model EVER! Cheaper, Fast, & Powerful! (FULLY TESTED)",
+      "url": "https://www.youtube.com/watch?v=rFCaGc7owT8",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-09-22T19:10:47+00:00",
+      "summary": "🚨 Everything you’re about to see, I benchmarked using the tool I made. If you want to run these tests yourself or test models on whatever you actually use them for! → https://www.woaibench.ai/ Join the private community to get WoAI Bench Pro, exclusive AI freebies and discounts, early model access, ",
+      "thumbnail": "https://i3.ytimg.com/vi/rFCaGc7owT8/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
       "id": "yt:5MFORiebZks",
       "title": "GPT-6 SOL AND LUNA ARE OUT!!!",
       "url": "https://www.youtube.com/watch?v=5MFORiebZks",
@@ -62,6 +86,18 @@
       "channel": "Two Minute Papers"
     },
     {
+      "id": "yt:Nv_kTdHIVNY",
+      "title": "Xiaomi MiMo-V2.6 Pro IS THE BEST Open Source Model EVER! (Fully Tested)",
+      "url": "https://www.youtube.com/watch?v=Nv_kTdHIVNY",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-09-22T06:15:02+00:00",
+      "summary": "Join the private community to get WoAI Bench Pro, exclusive AI freebies and discounts, early model access, automation templates, practical resources and upcoming AI training. 👉 Join Today! https://www.skool.com/worldofai Xiaomi is BACK with MiMo-V2.6 Pro, and this might be one of the most impressive",
+      "thumbnail": "https://i3.ytimg.com/vi/Nv_kTdHIVNY/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
       "id": "yt:BaE6UBfNdQk",
       "title": "Finally! New best local AI image editor is here",
       "url": "https://www.youtube.com/watch?v=BaE6UBfNdQk",
@@ -84,6 +120,19 @@
       "thumbnail": "https://i2.ytimg.com/vi/MJllZbpvrAc/hqdefault.jpg",
       "kind": "video",
       "channel": "Matthew Berman"
+    },
+    {
+      "id": "paper:2609.25804",
+      "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
+      "url": "https://huggingface.co/papers/2609.25804",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-22T00:00:00+00:00",
+      "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run. Making these decisions well is becoming a key capability for both engineering and research agents. We refer to the ability to make good long-horizon decisions as the taste of an agent. While exis",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 110,
+      "arxiv_id": "2609.25804"
     },
     {
       "id": "yt:HAi7twQBKlY",
@@ -122,6 +171,18 @@
       "channel": "Matthew Berman"
     },
     {
+      "id": "yt:i00isgmGgGg",
+      "title": "HUGE Opus 5.5 LEAKS + Cheaper? Qwen 4, Kimi K3.1, MiniMax M3.1 & Step 5 Preview! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=i00isgmGgGg",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-09-21T06:15:27+00:00",
+      "summary": "Join the private community to get WoAI Bench Pro, exclusive AI freebies and discounts, early model access, automation templates, practical resources and upcoming AI training. 👉 Join Today! https://www.skool.com/worldofai 🚨 HUGE AI news! Anthropic’s Opus 5.5 is reportedly being stealth tested, with n",
+      "thumbnail": "https://i2.ytimg.com/vi/i00isgmGgGg/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
       "id": "paper:2609.24972",
       "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
       "url": "https://huggingface.co/papers/2609.24972",
@@ -131,7 +192,7 @@
       "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 170,
+      "upvotes": 174,
       "arxiv_id": "2609.24972"
     },
     {
@@ -144,7 +205,7 @@
       "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to let the requested viewpoint shape how multi-view evidence is compressed into the video generator's ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 123,
+      "upvotes": 124,
       "arxiv_id": "2609.24984"
     },
     {
@@ -157,21 +218,8 @@
       "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack language instructions, or rely on high-variance online rollouts. To address these challenges, we introdu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 113,
+      "upvotes": 115,
       "arxiv_id": "2609.25001"
-    },
-    {
-      "id": "paper:2609.24220",
-      "title": "Document Retrieval-Aware Chunking (D-RAC): Universal Retrieval-Aware Ingestion of Enterprise Documents via PDF Normalization and Multimodal Markdown Conversion",
-      "url": "https://huggingface.co/papers/2609.24220",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-21T00:00:00+00:00",
-      "summary": "Retrieval-Augmented Generation (RAG) systems over enterprise knowledge bases must ingest heterogeneous document formats -- PDFs, Word documents, presentations, and scans -- whose content is locked inside complex visual layouts, multi-column pages, and dense tables. Rule-based extraction and OCR destroy reading order, flatten tables, and lose heading hierarchy, while fully agentic chunking over ext",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 51,
-      "arxiv_id": "2609.24220"
     },
     {
       "id": "paper:2609.25270",
@@ -183,8 +231,21 @@
       "summary": "Generating Scalable Vector Graphics (SVG) code from natural-language instructions is an open-ended task without absolute visual ground truth, leaving both evaluation and policy optimization without a faithful signal. Scalar metrics (CLIP, Aesthetic) calibrated on natural images transfer poorly to stylized vector content, and reusing them as RL rewards triggers reward hacking. We address both limit",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 48,
+      "upvotes": 59,
       "arxiv_id": "2609.25270"
+    },
+    {
+      "id": "paper:2609.24220",
+      "title": "Document Retrieval-Aware Chunking (D-RAC): Universal Retrieval-Aware Ingestion of Enterprise Documents via PDF Normalization and Multimodal Markdown Conversion",
+      "url": "https://huggingface.co/papers/2609.24220",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-21T00:00:00+00:00",
+      "summary": "Retrieval-Augmented Generation (RAG) systems over enterprise knowledge bases must ingest heterogeneous document formats -- PDFs, Word documents, presentations, and scans -- whose content is locked inside complex visual layouts, multi-column pages, and dense tables. Rule-based extraction and OCR destroy reading order, flatten tables, and lose heading hierarchy, while fully agentic chunking over ext",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 52,
+      "arxiv_id": "2609.24220"
     },
     {
       "id": "yt:hygMRgnDD7w",
@@ -208,8 +269,20 @@
       "summary": "Manipulation policies must know which objects matter and where they are, yet the pretrained backbones that current robot foundation models build on, from language in vision-language-action models (VLAs) to video generation in world-action models (WAMs), do not directly require this metric grounding, leaving it to be learned implicitly from robot demonstrations. We propose Grounded Action Models (G",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 74,
+      "upvotes": 75,
       "arxiv_id": "2609.23863"
+    },
+    {
+      "id": "yt:hUZNPCSZDaQ",
+      "title": "HUGE Fable 5.2, Opus 5.2, Sonnet 5.2 LEAKS! Gemini World, Google AI HACKS Companies & More! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=hUZNPCSZDaQ",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-09-19T06:15:19+00:00",
+      "summary": "Join the private community to get WoAI Bench Pro, exclusive AI freebies and discounts, early model access, automation templates, practical resources and upcoming AI training. 👉 Join Today! https://www.skool.com/worldofai 🔥 HUGE AI NEWS! Anthropic appears to be cooking up its next wave of models with",
+      "thumbnail": "https://i1.ytimg.com/vi/hUZNPCSZDaQ/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
     },
     {
       "id": "paper:2609.23088",
@@ -221,7 +294,7 @@
       "summary": "Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and provide appropriate instructional support. Existing educational language models often focus on either problem solving or tutoring, with training mixtures organized by source or task rather than capability. We present OmniEdu, an open family of foundation models for K-12 learning a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 139,
+      "upvotes": 141,
       "arxiv_id": "2609.23088"
     },
     {
@@ -234,7 +307,7 @@
       "summary": "Humans can seamlessly adapt to both physical and digital worlds, suggesting that while a digital-to-real gap exists in embodiment, environment and task, human intelligence itself may transfer across this gap. This naturally raises a fundamental question: can the intelligence of vision-language models (VLMs) similarly generalize from the digital world to the physical world for robotic control? We i",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 101,
+      "upvotes": 102,
       "arxiv_id": "2609.22966"
     },
     {
@@ -298,6 +371,18 @@
       "channel": "Two Minute Papers"
     },
     {
+      "id": "yt:ZJ6RUAH--Js",
+      "title": "HUGE Gemini 4 Pro LEAKS! GPT-6 Sol Testing, Grok 4.7 UPDATE, Google RSI & More! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=ZJ6RUAH--Js",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-09-18T06:15:03+00:00",
+      "summary": "🎙️ Ready to stop typing and start talking? Try Wispr Flow for free and prompt your AI faster than ever: https://ref.wisprflow.ai/worldofai Google is cooking again. 🔥 In today’s AI news, we dive into the latest Gemini 4 Pro leaks, including the rumored Argon checkpoint being ghost-tested in Arena and",
+      "thumbnail": "https://i3.ytimg.com/vi/ZJ6RUAH--Js/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
       "id": "yt:OA5cICIzD-c",
       "title": "Bonsai 2 27B First Test – Is THIS the BEST Single-GPU AI Model?",
       "url": "https://www.youtube.com/watch?v=OA5cICIzD-c",
@@ -331,7 +416,7 @@
       "summary": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers. Open-source codebases offer a rich source of such tasks, while existing methods typically rely on development artifacts such as issues and commits, limiting the range of tasks that can be extracted. To better scale RL environments, we present CodeMidas, an agentic pipeline that turns impl",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 116,
+      "upvotes": 122,
       "arxiv_id": "2609.22068"
     },
     {
@@ -344,7 +429,7 @@
       "summary": "Mixture-of-Experts (MoE) scales capacity, but existing designs cannot set three quantities independently. For a single token, participation is how many experts contribute knowledge to its output, execution is how many are actually computed (compute cost), and materialization is how many expert-sized parameter sets must be built and stored (memory cost). Sparse routing keeps execution and materiali",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 95,
+      "upvotes": 96,
       "arxiv_id": "2609.21346"
     },
     {
@@ -357,7 +442,7 @@
       "summary": "Computer-use agents (CUAs) have advanced along two separate lines: graphical interaction and software development through code and the command line. Real digital work requires both, interleaved rather than stacked end to end. We study hybrid CUAs that autonomously decide when to explore an interface, implement software, and run and visually verify their artifacts. We introduce RecreationWorld, a f",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 68,
+      "upvotes": 72,
       "arxiv_id": "2609.22000"
     },
     {
@@ -385,19 +470,6 @@
       "channel": "Matthew Berman"
     },
     {
-      "id": "paper:2609.19969",
-      "title": "DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression",
-      "url": "https://huggingface.co/papers/2609.19969",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-17T00:00:00+00:00",
-      "summary": "The widespread adoption of long-horizon agents has made model workloads increasingly input-heavy. Although prior work has substantially reduced the cost of long-context computation, prefill remains computationally expensive, and large KV caches continue to strain HBM and SSD capacity and data-transfer bandwidth. Together, these compute, storage, and bandwidth demands constitute the primary bottlen",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 171,
-      "arxiv_id": "2609.19969"
-    },
-    {
       "id": "paper:2609.20511",
       "title": "When EOS Tokens Disagree: Understanding Length Inflation in On-Policy Distillation",
       "url": "https://huggingface.co/papers/2609.20511",
@@ -420,7 +492,7 @@
       "summary": "Information retrieval is increasingly important as LLM agents tackle complex tasks involving diverse information needs. Because retrieval relies on an index that represents each document through index keys, retrieval quality depends heavily on how effectively these keys expose the knowledge contained in each document. However, effective index representations vary across retrieval environments, mak",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 58,
+      "upvotes": 59,
       "arxiv_id": "2609.19656"
     },
     {
@@ -433,7 +505,7 @@
       "summary": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivates self on-policy distillation (OPD) to supply dense token-level supervision from a self-teacher with privileged task skills, letting a skill-free student internalize them. This recipe, however, is undermined by two findings in agentic tasks: privileged information alone does not ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 55,
+      "upvotes": 56,
       "arxiv_id": "2609.20784"
     },
     {
@@ -497,6 +569,18 @@
       "channel": "Two Minute Papers"
     },
     {
+      "id": "yt:XMPatH1OxM8",
+      "title": "Grok 5.0 Will Be LEGENDARY, Gemini 4.0 Pro Leaks, China AI vs US AI, & Opus 5.2 Preview! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=XMPatH1OxM8",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-09-15T06:15:13+00:00",
+      "summary": "🚨 AI NEWS is absolutely insane today! Elon Musk just revealed major new details about the future of Grok, including Grok 4.7, Grok 4.8, Grok 4.9, and Grok 5 — with Grok 5 potentially becoming xAI’s most powerful model ever. Join the private community to get WoAI Bench Pro, exclusive AI freebies and ",
+      "thumbnail": "https://i1.ytimg.com/vi/XMPatH1OxM8/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
       "id": "yt:9RtywbN--QE",
       "title": "Forget Suno. New BEST local AI music generator is here!",
       "url": "https://www.youtube.com/watch?v=9RtywbN--QE",
@@ -521,6 +605,30 @@
       "channel": "Bijan Bowen"
     },
     {
+      "id": "yt:TKkdTyT6FlA",
+      "title": "NEW Opus 5.2 LEAKS, AI Development To Be Slowed Down, GPT-6 Sol Preview, DeepSeek Code 2.0, & More!",
+      "url": "https://www.youtube.com/watch?v=TKkdTyT6FlA",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-09-14T06:15:00+00:00",
+      "summary": "Join the private community to get WoAI Bench Pro, exclusive AI freebies and discounts, early model access, automation templates, practical resources and upcoming AI training. 👉 Join Today! https://www.skool.com/worldofai 🔥 NEW Opus 5.2 leaks, GPT-6 Sol previews, DeepSeek Code 2.0 rumors, and a growi",
+      "thumbnail": "https://i1.ytimg.com/vi/TKkdTyT6FlA/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
+      "id": "yt:fyygMxVCAWI",
+      "title": "HUGE Google DeepMind RSI LEAKS! GPT-6 Astra NERFED, Kimi K2.8 Code, & More! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=fyygMxVCAWI",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-09-13T06:15:12+00:00",
+      "summary": "🚨 AI NEWS is getting absolutely wild! Google DeepMind may be making serious progress toward RSI (Recursive Self-Improvement), potentially giving us an early look at what could power the next generation of Gemini models. Join the private community to get WoAI Bench Pro, exclusive AI freebies and disc",
+      "thumbnail": "https://i3.ytimg.com/vi/fyygMxVCAWI/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
       "id": "yt:nZYJdwM-_nI",
       "title": "New Deepseek, human genome map, Navier Stokes, GPT finance, Suno v6, YuE2: AI NEWS",
       "url": "https://www.youtube.com/watch?v=nZYJdwM-_nI",
@@ -531,6 +639,18 @@
       "thumbnail": "https://i3.ytimg.com/vi/nZYJdwM-_nI/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
+    },
+    {
+      "id": "yt:LadJAOZ2seU",
+      "title": "GPT-6 'Sol' Soon! Gemini 4.0 Pro Checkpoint, DeepSeek v4.1 Flash, Nano Banana 2.5, & More! AI NEWS!",
+      "url": "https://www.youtube.com/watch?v=LadJAOZ2seU",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-09-11T06:15:28+00:00",
+      "summary": "🎓 Learn Anything: Ask any question and instantly turn it into a video explainer → https://scrimba.com/explain?via=WorldofAI-explain AI NEWS is absolutely packed today! GPT-6 “Sol” has reportedly been spotted and could be coming soon, while Google is internally testing a promising new Gemini 4.0 Pro ",
+      "thumbnail": "https://i1.ytimg.com/vi/LadJAOZ2seU/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
     },
     {
       "id": "yt:abehaRWPt5E",
@@ -557,6 +677,18 @@
       "channel": "Two Minute Papers"
     },
     {
+      "id": "yt:tbXKZsodiiw",
+      "title": "HUGE GPT-7.0 Bel Leaks! Anthropic's New Model, AI extinction, ChatGPT Images 2.5 & More! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=tbXKZsodiiw",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-09-10T06:15:35+00:00",
+      "summary": "Join the private community to get WoAI Bench Pro, exclusive AI freebies and discounts, early model access, automation templates, practical resources and upcoming AI training. 👉 Join Today! https://www.skool.com/worldofai 🚨 HUGE AI NEWS! GPT-7.0 “Bel” is starting to emerge, and OpenAI’s next-generati",
+      "thumbnail": "https://i1.ytimg.com/vi/tbXKZsodiiw/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
       "id": "yt:q9tpIc8PVKM",
       "title": "New BEST AI image generator is here",
       "url": "https://www.youtube.com/watch?v=q9tpIc8PVKM",
@@ -581,6 +713,18 @@
       "channel": "Bijan Bowen"
     },
     {
+      "id": "yt:T2dnchLabZQ",
+      "title": "DeepSeek V4.1 Flash Is INSANELY GOOD! Fast, Cheap, Powerful! (Fully Tested)",
+      "url": "https://www.youtube.com/watch?v=T2dnchLabZQ",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-09-09T06:15:29+00:00",
+      "summary": "Join the private community to get WoAI Bench Pro, exclusive AI freebies and discounts, early model access, automation templates, practical resources and upcoming AI training. 👉 Join Today! https://www.skool.com/worldofai DeepSeek V4.1 Flash just dropped, and it might be one of DeepSeek’s most exciti",
+      "thumbnail": "https://i1.ytimg.com/vi/T2dnchLabZQ/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
       "id": "yt:eVBJIUxv8N8",
       "title": "GPT-6 Astra Changes Everything",
       "url": "https://www.youtube.com/watch?v=eVBJIUxv8N8",
@@ -591,6 +735,18 @@
       "thumbnail": "https://i2.ytimg.com/vi/eVBJIUxv8N8/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
+    },
+    {
+      "id": "yt:zHRX8pURCho",
+      "title": "HUGE Grok 4.7 Leaks! Fable 5.2 Soon, OpenAI's Post Astra Model, Gemini 4.0 Delayed & More! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=zHRX8pURCho",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-09-08T06:15:40+00:00",
+      "summary": "Join the private community to get WoAI Bench Pro, exclusive AI freebies and discounts, early model access, automation templates, practical resources and upcoming AI training. 👉 Join Today! https://www.skool.com/worldofai 🚨 HUGE Grok 4.7 leaks are here! xAI's next major model could be right around th",
+      "thumbnail": "https://i3.ytimg.com/vi/zHRX8pURCho/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
     },
     {
       "id": "yt:XcjaHF8Su0c",
@@ -605,6 +761,18 @@
       "channel": "Bijan Bowen"
     },
     {
+      "id": "yt:V5NgF_olsTo",
+      "title": "Ponytail Makes Claude Code Write 94% Less Code!",
+      "url": "https://www.youtube.com/watch?v=V5NgF_olsTo",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-09-07T06:15:10+00:00",
+      "summary": "Join the private community to get WoAI Bench Pro, exclusive AI freebies and discounts, early model access, automation templates, practical resources and upcoming AI training. 👉 Join Today! https://www.skool.com/worldofai 🚨 Everything you’re about to see, I benchmarked using the tool I made. If you w",
+      "thumbnail": "https://i3.ytimg.com/vi/V5NgF_olsTo/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
       "id": "yt:Ji4amrxrzVM",
       "title": "GPT 6 Astra is a freak",
       "url": "https://www.youtube.com/watch?v=Ji4amrxrzVM",
@@ -615,6 +783,18 @@
       "thumbnail": "https://i3.ytimg.com/vi/Ji4amrxrzVM/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
+    },
+    {
+      "id": "yt:slpv4sVUN5o",
+      "title": "GPT-6 Astra IS INSANE! Best Usecases & Tricks...",
+      "url": "https://www.youtube.com/watch?v=slpv4sVUN5o",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-09-06T06:15:18+00:00",
+      "summary": "Join the private community to get WoAI Bench Pro, exclusive AI freebies and discounts, early model access, automation templates, practical resources and upcoming AI training. 👉 Join Today! https://www.skool.com/worldofai GPT-6 Astra is absolutely INSANE. 🤯 In this video, I showcase some of the crazi",
+      "thumbnail": "https://i4.ytimg.com/vi/slpv4sVUN5o/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
     },
     {
       "id": "yt:ngyFRCNq0Yc",
@@ -849,7 +1029,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T10:10:37.099746+00:00",
+      "fetched_at": "2026-09-23T15:07:44.918934+00:00",
       "entries": [
         {
           "rank": 1,
@@ -902,17 +1082,17 @@
         },
         {
           "rank": 8,
-          "name": "Seedream 5.0 Pro",
-          "creator": "ByteDance Seed",
+          "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
+          "creator": "Google",
           "score": 1106.0,
-          "meta": "Jul 2026 · $90.0 /1k imgs"
+          "meta": "Feb 2026 · $67.0 /1k imgs"
         },
         {
           "rank": 9,
-          "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
-          "creator": "Google",
+          "name": "Seedream 5.0 Pro",
+          "creator": "ByteDance Seed",
           "score": 1105.0,
-          "meta": "Feb 2026 · $67.0 /1k imgs"
+          "meta": "Jul 2026 · $90.0 /1k imgs"
         },
         {
           "rank": 10,
@@ -931,7 +1111,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T10:10:37.101783+00:00",
+      "fetched_at": "2026-09-23T15:07:44.921212+00:00",
       "entries": [
         {
           "rank": 1,
@@ -944,14 +1124,14 @@
           "rank": 2,
           "name": "Qwen Image Edit Plus 2511 Open Weights",
           "creator": "Alibaba",
-          "score": 1022.0,
+          "score": 1023.0,
           "meta": "Nov 2025 · $60.0 /1k imgs"
         },
         {
           "rank": 3,
           "name": "FLUX.2 [klein] 9B Open Weights",
           "creator": "Black Forest Labs",
-          "score": 1015.0,
+          "score": 1014.0,
           "meta": "Jan 2026 · $17.0 /1k imgs"
         },
         {
@@ -965,14 +1145,14 @@
           "rank": 5,
           "name": "FLUX.2 [dev] Turbo Open Weights",
           "creator": "Fal",
-          "score": 998.0,
+          "score": 999.0,
           "meta": "Dec 2025 · $8.0 /1k imgs"
         },
         {
           "rank": 6,
           "name": "FLUX.2 [dev] Flash Open Weights",
           "creator": "Fal",
-          "score": 997.0,
+          "score": 998.0,
           "meta": "Dec 2025 · $5.0 /1k imgs"
         },
         {
@@ -986,7 +1166,7 @@
           "rank": 8,
           "name": "FLUX.2 [klein] Base 9B Open Weights",
           "creator": "Black Forest Labs",
-          "score": 972.0,
+          "score": 973.0,
           "meta": "Jan 2026 · $22.0 /1k imgs"
         },
         {
@@ -1000,7 +1180,7 @@
           "rank": 10,
           "name": "FLUX.2 [klein] 4B Open Weights",
           "creator": "Black Forest Labs",
-          "score": 948.0,
+          "score": 949.0,
           "meta": "Jan 2026 · $15.0 /1k imgs"
         }
       ]
@@ -1013,7 +1193,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T10:10:37.104223+00:00",
+      "fetched_at": "2026-09-23T15:07:44.923852+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1095,7 +1275,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T10:10:37.105102+00:00",
+      "fetched_at": "2026-09-23T15:07:44.924812+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1163,7 +1343,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T10:10:37.110411+00:00",
+      "fetched_at": "2026-09-23T15:07:44.930566+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1245,7 +1425,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T10:10:37.110426+00:00",
+      "fetched_at": "2026-09-23T15:07:44.930592+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1313,7 +1493,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T10:10:37.111386+00:00",
+      "fetched_at": "2026-09-23T15:07:44.931653+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1395,7 +1575,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-23T10:10:37.141937+00:00",
+      "fetched_at": "2026-09-23T15:07:44.963390+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1477,7 +1657,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-23T10:10:37.175598+00:00",
+      "fetched_at": "2026-09-23T15:07:44.998808+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1559,7 +1739,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T10:10:37.186245+00:00",
+      "fetched_at": "2026-09-23T15:07:45.010980+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1586,14 +1766,14 @@
           "rank": 4,
           "name": "Grok Imagine Image 2.0",
           "creator": "SpaceXAI",
-          "score": 1152.0,
+          "score": 1153.0,
           "meta": "Aug 2026 · $60.0 /1k imgs"
         },
         {
           "rank": 5,
           "name": "MAI-Image-2.6",
           "creator": "Microsoft AI",
-          "score": 1147.0,
+          "score": 1148.0,
           "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
@@ -1641,20 +1821,20 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T10:10:37.190320+00:00",
+      "fetched_at": "2026-09-23T15:07:45.015622+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Ideogram 4.0 (Quality) Open Weights",
           "creator": "Ideogram",
-          "score": 1012.0,
+          "score": 1011.0,
           "meta": "Jun 2026 · $100.0 /1k imgs"
         },
         {
           "rank": 2,
           "name": "Ideogram 4.0 Open Weights",
           "creator": "Ideogram",
-          "score": 1003.0,
+          "score": 1004.0,
           "meta": "Jun 2026 · $60.0 /1k imgs"
         },
         {
@@ -1668,7 +1848,7 @@
           "rank": 4,
           "name": "FLUX.2 [dev] Turbo Open Weights",
           "creator": "Fal",
-          "score": 999.0,
+          "score": 1000.0,
           "meta": "Dec 2025 · $8.0 /1k imgs"
         },
         {
@@ -1696,7 +1876,7 @@
           "rank": 8,
           "name": "Ideogram 4.0 Fast (Quality) Open Weights",
           "creator": "Fal",
-          "score": 986.0,
+          "score": 985.0,
           "meta": "Jul 2026 · $17.5 /1k imgs"
         },
         {
@@ -1723,7 +1903,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T10:10:37.197123+00:00",
+      "fetched_at": "2026-09-23T15:07:45.023405+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1805,7 +1985,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T10:10:37.198821+00:00",
+      "fetched_at": "2026-09-23T15:07:45.025338+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1887,48 +2067,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-23T10:10:20.750350+00:00"
+        "checked_at": "2026-09-23T15:07:29.207519+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-23T10:10:19.589518+00:00"
+        "checked_at": "2026-09-23T15:07:28.035360+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-23T10:10:24.193961+00:00"
+        "checked_at": "2026-09-23T15:07:32.474347+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-23T10:10:25.423286+00:00"
+        "checked_at": "2026-09-23T15:07:34.727139+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-23T10:10:21.904342+00:00"
+        "checked_at": "2026-09-23T15:07:30.330051+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-23T10:10:23.054590+00:00"
+        "checked_at": "2026-09-23T15:07:31.351090+00:00"
+      },
+      {
+        "name": "World of AI",
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-09-23T15:07:33.589632+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-23T10:10:37.199888+00:00"
+      "checked_at": "2026-09-23T15:07:45.026974+00:00"
     }
   }
 }
