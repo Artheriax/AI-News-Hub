@@ -27,6 +27,11 @@ sources:
     type: youtube
     channel_id: UCOCahKBCEUuzDJawM7yN1dg
     category: videos
+  
+  - name: World of AI
+    type: youtube
+    channel_id: UC2WmuBuFq6gL08QYG-JjXKw
+    category: videos
 
   - name: Hugging Face Papers
     type: papers
