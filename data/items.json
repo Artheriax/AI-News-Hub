@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T00:46:59.142070+00:00",
+  "generated_at": "2026-09-23T05:23:09.454129+00:00",
   "items": [
     {
       "id": "yt:ux6Lafw7en0",
@@ -119,7 +119,7 @@
       "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 154,
+      "upvotes": 162,
       "arxiv_id": "2609.24972"
     },
     {
@@ -132,7 +132,7 @@
       "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to let the requested viewpoint shape how multi-view evidence is compressed into the video generator's ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 113,
+      "upvotes": 121,
       "arxiv_id": "2609.24984"
     },
     {
@@ -145,8 +145,21 @@
       "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack language instructions, or rely on high-variance online rollouts. To address these challenges, we introdu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 111,
+      "upvotes": 113,
       "arxiv_id": "2609.25001"
+    },
+    {
+      "id": "paper:2609.24220",
+      "title": "Document Retrieval-Aware Chunking (D-RAC): Universal Retrieval-Aware Ingestion of Enterprise Documents via PDF Normalization and Multimodal Markdown Conversion",
+      "url": "https://huggingface.co/papers/2609.24220",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-21T00:00:00+00:00",
+      "summary": "Retrieval-Augmented Generation (RAG) systems over enterprise knowledge bases must ingest heterogeneous document formats -- PDFs, Word documents, presentations, and scans -- whose content is locked inside complex visual layouts, multi-column pages, and dense tables. Rule-based extraction and OCR destroy reading order, flatten tables, and lose heading hierarchy, while fully agentic chunking over ext",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 51,
+      "arxiv_id": "2609.24220"
     },
     {
       "id": "yt:hygMRgnDD7w",
@@ -161,17 +174,17 @@
       "channel": "AI Search"
     },
     {
-      "id": "paper:2609.22966",
-      "title": "Transferring the Intelligence of VLMs to Robotic Control",
-      "url": "https://huggingface.co/papers/2609.22966",
+      "id": "paper:2609.23863",
+      "title": "Grounded Action Model: 3D Grounding as a Foundation for Robotics",
+      "url": "https://huggingface.co/papers/2609.23863",
       "source": "Hugging Face Papers",
       "category": "papers",
-      "published": "2026-09-19T00:00:00+00:00",
-      "summary": "Humans can seamlessly adapt to both physical and digital worlds, suggesting that while a digital-to-real gap exists in embodiment, environment and task, human intelligence itself may transfer across this gap. This naturally raises a fundamental question: can the intelligence of vision-language models (VLMs) similarly generalize from the digital world to the physical world for robotic control? We i",
+      "published": "2026-09-20T00:00:00+00:00",
+      "summary": "Manipulation policies must know which objects matter and where they are, yet the pretrained backbones that current robot foundation models build on, from language in vision-language-action models (VLAs) to video generation in world-action models (WAMs), do not directly require this metric grounding, leaving it to be learned implicitly from robot demonstrations. We propose Grounded Action Models (G",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 101,
-      "arxiv_id": "2609.22966"
+      "upvotes": 52,
+      "arxiv_id": "2609.23863"
     },
     {
       "id": "paper:2609.23088",
@@ -183,8 +196,21 @@
       "summary": "Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and provide appropriate instructional support. Existing educational language models often focus on either problem solving or tutoring, with training mixtures organized by source or task rather than capability. We present OmniEdu, an open family of foundation models for K-12 learning a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 69,
+      "upvotes": 129,
       "arxiv_id": "2609.23088"
+    },
+    {
+      "id": "paper:2609.22966",
+      "title": "Transferring the Intelligence of VLMs to Robotic Control",
+      "url": "https://huggingface.co/papers/2609.22966",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-19T00:00:00+00:00",
+      "summary": "Humans can seamlessly adapt to both physical and digital worlds, suggesting that while a digital-to-real gap exists in embodiment, environment and task, human intelligence itself may transfer across this gap. This naturally raises a fundamental question: can the intelligence of vision-language models (VLMs) similarly generalize from the digital world to the physical world for robotic control? We i",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 101,
+      "arxiv_id": "2609.22966"
     },
     {
       "id": "yt:Z4no-hhcuas",
@@ -280,7 +306,7 @@
       "summary": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers. Open-source codebases offer a rich source of such tasks, while existing methods typically rely on development artifacts such as issues and commits, limiting the range of tasks that can be extracted. To better scale RL environments, we present CodeMidas, an agentic pipeline that turns impl",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 107,
+      "upvotes": 111,
       "arxiv_id": "2609.22068"
     },
     {
@@ -293,7 +319,7 @@
       "summary": "Mixture-of-Experts (MoE) scales capacity, but existing designs cannot set three quantities independently. For a single token, participation is how many experts contribute knowledge to its output, execution is how many are actually computed (compute cost), and materialization is how many expert-sized parameter sets must be built and stored (memory cost). Sparse routing keeps execution and materiali",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 92,
+      "upvotes": 94,
       "arxiv_id": "2609.21346"
     },
     {
@@ -343,21 +369,8 @@
       "summary": "The widespread adoption of long-horizon agents has made model workloads increasingly input-heavy. Although prior work has substantially reduced the cost of long-context computation, prefill remains computationally expensive, and large KV caches continue to strain HBM and SSD capacity and data-transfer bandwidth. Together, these compute, storage, and bandwidth demands constitute the primary bottlen",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 169,
+      "upvotes": 170,
       "arxiv_id": "2609.19969"
-    },
-    {
-      "id": "paper:2609.20519",
-      "title": "SoL-Pi: Recursively Scaling Auto-Research Loops for Efficient Agent Harness",
-      "url": "https://huggingface.co/papers/2609.20519",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-17T00:00:00+00:00",
-      "summary": "As coding agents move from supervised code completion to unattended, around-the-clock exploration, their work expands from isolated predictions into long trajectories of reasoning, tool use, and feedback. Token efficiency therefore becomes important for scaling recursive self-improvement. We take an RSI-inspired approach at the harness layer, scaling auto-research loops across increasingly numerou",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 124,
-      "arxiv_id": "2609.20519"
     },
     {
       "id": "paper:2609.20511",
@@ -369,21 +382,8 @@
       "summary": "We study length inflation in on-policy distillation (OPD), where student responses can become excessively long and even exhaust the generation budget. We identify termination-token mismatch between base students and post-trained teachers as an important source of this behavior. Across Qwen3, Llama, and Gemma, the two models can place their stopping probability on different EOS tokens, even when th",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 105,
+      "upvotes": 107,
       "arxiv_id": "2609.20511"
-    },
-    {
-      "id": "paper:2609.20804",
-      "title": "An Empirical Study of Harness Design for Coding Agents",
-      "url": "https://huggingface.co/papers/2609.20804",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-17T00:00:00+00:00",
-      "summary": "Coding harnesses shape how autonomous coding agents translate model capabilities into long-horizon software-engineering performance, yet existing work typically evaluates harnesses as monolithic systems, leaving the effectiveness of individual components unclear. To enable component-level comparisons, we study this question with a lightweight coding harness whose execution loop is fixed while thre",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 83,
-      "arxiv_id": "2609.20804"
     },
     {
       "id": "paper:2609.20800",
@@ -395,7 +395,7 @@
       "summary": "World modeling enables intelligence to anticipate consequences, guide interventions, and learn from interaction. Yet predictive models remain domain-specific: can a common learning principle support world modeling across radically different systems? We introduce JEPA-Anything, a domain-agnostic framework based on orthogonal predictive factorization (OPF). Extending joint-embedding predictive archi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 68,
+      "upvotes": 69,
       "arxiv_id": "2609.20800"
     },
     {
@@ -408,7 +408,7 @@
       "summary": "Information retrieval is increasingly important as LLM agents tackle complex tasks involving diverse information needs. Because retrieval relies on an index that represents each document through index keys, retrieval quality depends heavily on how effectively these keys expose the knowledge contained in each document. However, effective index representations vary across retrieval environments, mak",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 56,
+      "upvotes": 58,
       "arxiv_id": "2609.19656"
     },
     {
@@ -421,7 +421,7 @@
       "summary": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivates self on-policy distillation (OPD) to supply dense token-level supervision from a self-teacher with privileged task skills, letting a skill-free student internalize them. This recipe, however, is undermined by two findings in agentic tasks: privileged information alone does not ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 52,
+      "upvotes": 55,
       "arxiv_id": "2609.20784"
     },
     {
@@ -849,76 +849,76 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T00:46:59.033710+00:00",
+      "fetched_at": "2026-09-23T05:23:09.365914+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "OpenAI",
-          "score": 1180.0,
+          "score": 1179.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 2,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "OpenAI",
-          "score": 1161.0,
+          "score": 1159.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 3,
           "name": "MAI-Image-2.6",
           "creator": "Microsoft AI",
-          "score": 1133.0,
+          "score": 1131.0,
           "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
           "rank": 4,
           "name": "MAI-Image-2.6-Flash",
           "creator": "Microsoft AI",
-          "score": 1124.0,
+          "score": 1123.0,
           "meta": "Sep 2026 · $19.5 /1k imgs"
         },
         {
           "rank": 5,
           "name": "GPT Image 2 (high)",
           "creator": "OpenAI",
-          "score": 1122.0,
+          "score": 1121.0,
           "meta": "Apr 2026 · $211.0 /1k imgs"
         },
         {
           "rank": 6,
           "name": "Muse Image",
           "creator": "Meta",
-          "score": 1116.0,
+          "score": 1115.0,
           "meta": "Jul 2026 · $10.0 /1k imgs"
         },
         {
           "rank": 7,
           "name": "MAI-Image-2.5",
           "creator": "Microsoft AI",
-          "score": 1113.0,
+          "score": 1112.0,
           "meta": "Jun 2026 · $48.1 /1k imgs"
         },
         {
           "rank": 8,
           "name": "Seedream 5.0 Pro",
           "creator": "ByteDance Seed",
-          "score": 1107.0,
+          "score": 1105.0,
           "meta": "Jul 2026 · $90.0 /1k imgs"
         },
         {
           "rank": 9,
           "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "creator": "Google",
-          "score": 1106.0,
+          "score": 1105.0,
           "meta": "Feb 2026 · $67.0 /1k imgs"
         },
         {
           "rank": 10,
           "name": "MAI-Image-2.5-Pro",
           "creator": "Microsoft AI",
-          "score": 1106.0,
+          "score": 1104.0,
           "meta": "Jul 2026 · $108.5 /1k imgs"
         }
       ]
@@ -931,27 +931,27 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T00:46:59.035943+00:00",
+      "fetched_at": "2026-09-23T05:23:09.367763+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "HunyuanImage 3.0 Instruct (Fal) Open Weights",
           "creator": "Tencent",
-          "score": 1027.0,
+          "score": 1026.0,
           "meta": "Jan 2026 · $90.0 /1k imgs"
         },
         {
           "rank": 2,
           "name": "Qwen Image Edit Plus 2511 Open Weights",
           "creator": "Alibaba",
-          "score": 1023.0,
+          "score": 1021.0,
           "meta": "Nov 2025 · $60.0 /1k imgs"
         },
         {
           "rank": 3,
           "name": "FLUX.2 [klein] 9B Open Weights",
           "creator": "Black Forest Labs",
-          "score": 1014.0,
+          "score": 1013.0,
           "meta": "Jan 2026 · $17.0 /1k imgs"
         },
         {
@@ -965,42 +965,42 @@
           "rank": 5,
           "name": "FLUX.2 [dev] Turbo Open Weights",
           "creator": "Fal",
-          "score": 999.0,
+          "score": 998.0,
           "meta": "Dec 2025 · $8.0 /1k imgs"
         },
         {
           "rank": 6,
           "name": "FLUX.2 [dev] Flash Open Weights",
           "creator": "Fal",
-          "score": 998.0,
+          "score": 996.0,
           "meta": "Dec 2025 · $5.0 /1k imgs"
         },
         {
           "rank": 7,
           "name": "Qwen Image Edit Plus 2509 Open Weights",
           "creator": "Alibaba",
-          "score": 980.0,
+          "score": 978.0,
           "meta": "Sep 2025 · $30.0 /1k imgs"
         },
         {
           "rank": 8,
           "name": "FLUX.2 [klein] Base 9B Open Weights",
           "creator": "Black Forest Labs",
-          "score": 973.0,
+          "score": 972.0,
           "meta": "Jan 2026 · $22.0 /1k imgs"
         },
         {
           "rank": 9,
           "name": "HiDream-O1-Image Open Weights",
           "creator": "HiDream",
-          "score": 954.0,
+          "score": 952.0,
           "meta": "May 2026 · $10.0 /1k imgs"
         },
         {
           "rank": 10,
           "name": "FLUX.2 [klein] 4B Open Weights",
           "creator": "Black Forest Labs",
-          "score": 950.0,
+          "score": 947.0,
           "meta": "Jan 2026 · $15.0 /1k imgs"
         }
       ]
@@ -1013,7 +1013,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T00:46:59.038583+00:00",
+      "fetched_at": "2026-09-23T05:23:09.369858+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1095,7 +1095,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T00:46:59.039534+00:00",
+      "fetched_at": "2026-09-23T05:23:09.370638+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1163,7 +1163,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T00:46:59.045206+00:00",
+      "fetched_at": "2026-09-23T05:23:09.375316+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1245,7 +1245,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T00:46:59.045221+00:00",
+      "fetched_at": "2026-09-23T05:23:09.375327+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1313,7 +1313,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T00:46:59.046240+00:00",
+      "fetched_at": "2026-09-23T05:23:09.376278+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1395,7 +1395,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-23T00:46:59.078138+00:00",
+      "fetched_at": "2026-09-23T05:23:09.403209+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1477,7 +1477,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-23T00:46:59.113673+00:00",
+      "fetched_at": "2026-09-23T05:23:09.432925+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1559,41 +1559,41 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T00:46:59.125774+00:00",
+      "fetched_at": "2026-09-23T05:23:09.441983+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "OpenAI",
-          "score": 1197.0,
+          "score": 1196.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 2,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "OpenAI",
-          "score": 1190.0,
+          "score": 1191.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 3,
           "name": "GPT Image 2 (high)",
           "creator": "OpenAI",
-          "score": 1171.0,
+          "score": 1170.0,
           "meta": "Apr 2026 · $211.0 /1k imgs"
         },
         {
           "rank": 4,
           "name": "Grok Imagine Image 2.0",
           "creator": "SpaceXAI",
-          "score": 1155.0,
+          "score": 1150.0,
           "meta": "Aug 2026 · $60.0 /1k imgs"
         },
         {
           "rank": 5,
           "name": "MAI-Image-2.6",
           "creator": "Microsoft AI",
-          "score": 1147.0,
+          "score": 1146.0,
           "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
@@ -1607,14 +1607,14 @@
           "rank": 7,
           "name": "Muse Image",
           "creator": "Meta",
-          "score": 1110.0,
+          "score": 1113.0,
           "meta": "Jul 2026 · $10.0 /1k imgs"
         },
         {
           "rank": 8,
           "name": "GPT Image 1.5 (high)",
           "creator": "OpenAI",
-          "score": 1102.0,
+          "score": 1103.0,
           "meta": "Dec 2025 · $133.0 /1k imgs"
         },
         {
@@ -1628,7 +1628,7 @@
           "rank": 10,
           "name": "MAI-Image-2.6-Flash",
           "creator": "Microsoft AI",
-          "score": 1100.0,
+          "score": 1099.0,
           "meta": "Sep 2026 · $19.5 /1k imgs"
         }
       ]
@@ -1641,20 +1641,20 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T00:46:59.130391+00:00",
+      "fetched_at": "2026-09-23T05:23:09.445575+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Ideogram 4.0 (Quality) Open Weights",
           "creator": "Ideogram",
-          "score": 1012.0,
+          "score": 1011.0,
           "meta": "Jun 2026 · $100.0 /1k imgs"
         },
         {
           "rank": 2,
           "name": "Ideogram 4.0 Open Weights",
           "creator": "Ideogram",
-          "score": 1004.0,
+          "score": 1003.0,
           "meta": "Jun 2026 · $60.0 /1k imgs"
         },
         {
@@ -1666,17 +1666,17 @@
         },
         {
           "rank": 4,
-          "name": "Qwen Image Max 2512 Open Weights",
-          "creator": "Alibaba",
-          "score": 998.0,
-          "meta": "Dec 2025 · $20.0 /1k imgs"
-        },
-        {
-          "rank": 5,
           "name": "FLUX.2 [dev] Turbo Open Weights",
           "creator": "Fal",
           "score": 998.0,
           "meta": "Dec 2025 · $8.0 /1k imgs"
+        },
+        {
+          "rank": 5,
+          "name": "Qwen Image Max 2512 Open Weights",
+          "creator": "Alibaba",
+          "score": 998.0,
+          "meta": "Dec 2025 · $20.0 /1k imgs"
         },
         {
           "rank": 6,
@@ -1696,22 +1696,22 @@
           "rank": 8,
           "name": "Ideogram 4.0 Fast (Quality) Open Weights",
           "creator": "Fal",
-          "score": 986.0,
+          "score": 984.0,
           "meta": "Jul 2026 · $17.5 /1k imgs"
         },
         {
           "rank": 9,
-          "name": "Cosmos3-Super-Text2Image Open Weights",
-          "creator": "NVIDIA",
-          "score": 984.0,
-          "meta": "May 2026 · Coming soon"
+          "name": "FLUX.2 [dev] Flash Open Weights",
+          "creator": "Fal",
+          "score": 983.0,
+          "meta": "Dec 2025 · $5.0 /1k imgs"
         },
         {
           "rank": 10,
-          "name": "FLUX.2 [dev] Flash Open Weights",
-          "creator": "Fal",
-          "score": 984.0,
-          "meta": "Dec 2025 · $5.0 /1k imgs"
+          "name": "Cosmos3-Super-Text2Image Open Weights",
+          "creator": "NVIDIA",
+          "score": 982.0,
+          "meta": "May 2026 · Coming soon"
         }
       ]
     },
@@ -1723,7 +1723,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T00:46:59.138253+00:00",
+      "fetched_at": "2026-09-23T05:23:09.451190+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1805,7 +1805,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T00:46:59.140281+00:00",
+      "fetched_at": "2026-09-23T05:23:09.452689+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1884,51 +1884,51 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-09-23T00:46:43.597146+00:00"
+        "ok": false,
+        "items": 3,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-09-23T05:22:54.269996+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-09-23T00:46:42.566768+00:00"
+        "ok": false,
+        "items": 10,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-09-23T05:22:53.209121+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-09-23T00:46:46.745262+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-09-23T05:22:57.455742+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-23T00:46:47.885913+00:00"
+        "checked_at": "2026-09-23T05:22:58.644834+00:00"
       },
       {
         "name": "Matthew Berman",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-09-23T00:46:44.698188+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA",
+        "checked_at": "2026-09-23T05:22:55.325315+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-09-23T00:46:45.722267+00:00"
+        "ok": false,
+        "items": 10,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-09-23T05:22:56.391545+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-23T00:46:59.141965+00:00"
+      "checked_at": "2026-09-23T05:23:09.454047+00:00"
     }
   }
 }
