@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T15:07:45.027071+00:00",
+  "generated_at": "2026-09-23T19:08:28.562446+00:00",
   "items": [
     {
       "id": "yt:GJIkBVSoxUw",
@@ -131,7 +131,7 @@
       "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run. Making these decisions well is becoming a key capability for both engineering and research agents. We refer to the ability to make good long-horizon decisions as the taste of an agent. While exis",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 110,
+      "upvotes": 111,
       "arxiv_id": "2609.25804"
     },
     {
@@ -192,7 +192,7 @@
       "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 174,
+      "upvotes": 176,
       "arxiv_id": "2609.24972"
     },
     {
@@ -205,7 +205,7 @@
       "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to let the requested viewpoint shape how multi-view evidence is compressed into the video generator's ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 124,
+      "upvotes": 125,
       "arxiv_id": "2609.24984"
     },
     {
@@ -294,7 +294,7 @@
       "summary": "Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and provide appropriate instructional support. Existing educational language models often focus on either problem solving or tutoring, with training mixtures organized by source or task rather than capability. We present OmniEdu, an open family of foundation models for K-12 learning a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 141,
+      "upvotes": 142,
       "arxiv_id": "2609.23088"
     },
     {
@@ -307,7 +307,7 @@
       "summary": "Humans can seamlessly adapt to both physical and digital worlds, suggesting that while a digital-to-real gap exists in embodiment, environment and task, human intelligence itself may transfer across this gap. This naturally raises a fundamental question: can the intelligence of vision-language models (VLMs) similarly generalize from the digital world to the physical world for robotic control? We i",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 102,
+      "upvotes": 104,
       "arxiv_id": "2609.22966"
     },
     {
@@ -416,7 +416,7 @@
       "summary": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers. Open-source codebases offer a rich source of such tasks, while existing methods typically rely on development artifacts such as issues and commits, limiting the range of tasks that can be extracted. To better scale RL environments, we present CodeMidas, an agentic pipeline that turns impl",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 122,
+      "upvotes": 127,
       "arxiv_id": "2609.22068"
     },
     {
@@ -429,7 +429,7 @@
       "summary": "Mixture-of-Experts (MoE) scales capacity, but existing designs cannot set three quantities independently. For a single token, participation is how many experts contribute knowledge to its output, execution is how many are actually computed (compute cost), and materialization is how many expert-sized parameter sets must be built and stored (memory cost). Sparse routing keeps execution and materiali",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 96,
+      "upvotes": 97,
       "arxiv_id": "2609.21346"
     },
     {
@@ -442,7 +442,7 @@
       "summary": "Computer-use agents (CUAs) have advanced along two separate lines: graphical interaction and software development through code and the command line. Real digital work requires both, interleaved rather than stacked end to end. We study hybrid CUAs that autonomously decide when to explore an interface, implement software, and run and visually verify their artifacts. We introduce RecreationWorld, a f",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 72,
+      "upvotes": 75,
       "arxiv_id": "2609.22000"
     },
     {
@@ -999,18 +999,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/L9mMfAFwbl4/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
-    },
-    {
-      "id": "yt:wMl6c_r0ubw",
-      "title": "This Small AI Will Change Everything",
-      "url": "https://www.youtube.com/watch?v=wMl6c_r0ubw",
-      "source": "Two Minute Papers",
-      "category": "videos",
-      "published": "2026-08-24T16:48:40+00:00",
-      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 The Qwen3.8-27b is available here: https://huggingface.co/Qwen/Qwen3.8-27B Sources: https://www.reddit.com/r/unsloth/comments/1vogva0/share_your_results_from_qwen3827b/ https://www.reddit.com/r/LocalLLaMA/comments/1",
-      "thumbnail": "https://i4.ytimg.com/vi/wMl6c_r0ubw/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Two Minute Papers"
     }
   ],
   "featured": [
@@ -1029,7 +1017,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T15:07:44.918934+00:00",
+      "fetched_at": "2026-09-23T19:08:28.447655+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1111,7 +1099,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T15:07:44.921212+00:00",
+      "fetched_at": "2026-09-23T19:08:28.449990+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1193,7 +1181,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T15:07:44.923852+00:00",
+      "fetched_at": "2026-09-23T19:08:28.452692+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1275,7 +1263,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T15:07:44.924812+00:00",
+      "fetched_at": "2026-09-23T19:08:28.453676+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1343,7 +1331,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T15:07:44.930566+00:00",
+      "fetched_at": "2026-09-23T19:08:28.459468+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1425,7 +1413,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T15:07:44.930592+00:00",
+      "fetched_at": "2026-09-23T19:08:28.459488+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1493,7 +1481,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T15:07:44.931653+00:00",
+      "fetched_at": "2026-09-23T19:08:28.460647+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1575,7 +1563,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-23T15:07:44.963390+00:00",
+      "fetched_at": "2026-09-23T19:08:28.495588+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1657,7 +1645,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-23T15:07:44.998808+00:00",
+      "fetched_at": "2026-09-23T19:08:28.533768+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1739,7 +1727,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T15:07:45.010980+00:00",
+      "fetched_at": "2026-09-23T19:08:28.545896+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1821,7 +1809,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T15:07:45.015622+00:00",
+      "fetched_at": "2026-09-23T19:08:28.550684+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1903,7 +1891,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T15:07:45.023405+00:00",
+      "fetched_at": "2026-09-23T19:08:28.558747+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1914,66 +1902,66 @@
         },
         {
           "rank": 2,
+          "name": "Gemini 3.8 Flash TTS",
+          "creator": "Google",
+          "score": 1260.0,
+          "meta": "Sept 2026 · $16.5 /1M chars"
+        },
+        {
+          "rank": 3,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Alibaba",
           "score": 1259.0,
           "meta": "Sept 2026 · $27.6 /1M chars"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Realtime TTS-2",
           "creator": "Inworld",
           "score": 1245.0,
           "meta": "Aug 2026 · $20.8 /1M chars"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Simba 3.2",
           "creator": "SpeechifyAI",
           "score": 1237.0,
           "meta": "Jul 2026 · $6.6 /1M chars"
         },
         {
-          "rank": 5,
+          "rank": 6,
+          "name": "Gemini 3.8 Flash-Lite TTS",
+          "creator": "Google",
+          "score": 1235.0,
+          "meta": "Sept 2026 · $11.0 /1M chars"
+        },
+        {
+          "rank": 7,
           "name": "Luna TTS",
           "creator": "VUI Labs",
           "score": 1230.0,
           "meta": "Jun 2026 · $15.0 /1M chars"
         },
         {
-          "rank": 6,
+          "rank": 8,
           "name": "Realtime TTS-2 Flash",
           "creator": "Inworld",
           "score": 1210.0,
           "meta": "Aug 2026 · $10.4 /1M chars"
         },
         {
-          "rank": 7,
+          "rank": 9,
           "name": "Breeze TTS 2 Open Weights",
           "creator": "BreezeBlue",
           "score": 1204.0,
           "meta": "Aug 2026 · $34.0 /1M chars"
         },
         {
-          "rank": 8,
+          "rank": 10,
           "name": "Gemini 3.1 Flash TTS",
           "creator": "Google",
           "score": 1199.0,
           "meta": "Apr 2026 · $18.3 /1M chars"
-        },
-        {
-          "rank": 9,
-          "name": "StepAudio 2.5 TTS (Aug 2026)",
-          "creator": "StepFun",
-          "score": 1199.0,
-          "meta": "Aug 2026 · $85.0 /1M chars"
-        },
-        {
-          "rank": 10,
-          "name": "v3 Conversational",
-          "creator": "ElevenLabs",
-          "score": 1196.0,
-          "meta": "Aug 2026 · $50.0 /1M chars"
         }
       ]
     },
@@ -1985,7 +1973,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T15:07:45.025338+00:00",
+      "fetched_at": "2026-09-23T19:08:28.560673+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2067,55 +2055,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-23T15:07:29.207519+00:00"
+        "checked_at": "2026-09-23T19:08:11.285729+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-23T15:07:28.035360+00:00"
+        "checked_at": "2026-09-23T19:08:10.254620+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-23T15:07:32.474347+00:00"
+        "checked_at": "2026-09-23T19:08:14.530310+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-23T15:07:34.727139+00:00"
+        "checked_at": "2026-09-23T19:08:16.793302+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-23T15:07:30.330051+00:00"
+        "checked_at": "2026-09-23T19:08:12.307917+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-23T15:07:31.351090+00:00"
+        "checked_at": "2026-09-23T19:08:13.420830+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-23T15:07:33.589632+00:00"
+        "checked_at": "2026-09-23T19:08:15.653776+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-23T15:07:45.026974+00:00"
+      "checked_at": "2026-09-23T19:08:28.562358+00:00"
     }
   }
 }
