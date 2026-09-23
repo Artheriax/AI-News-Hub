@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-09-23T19:08:28.562446+00:00",
+  "generated_at": "2026-09-23T22:24:11.276701+00:00",
   "items": [
+    {
+      "id": "yt:Ima_AVPyQ9E",
+      "title": "GPT-6 Luna Might Be the Best Deal in AI",
+      "url": "https://www.youtube.com/watch?v=Ima_AVPyQ9E",
+      "source": "Matthew Berman",
+      "category": "videos",
+      "published": "2026-09-23T20:19:04+00:00",
+      "summary": "Tell your agents to use this: https://here.now/r/matthewberman Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberman_ai 👉🏻 Discord: htt",
+      "thumbnail": "https://i2.ytimg.com/vi/Ima_AVPyQ9E/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Matthew Berman"
+    },
     {
       "id": "yt:GJIkBVSoxUw",
       "title": "HUGE AI NEWS: GPT-6 Sol & Luna, Opus 5.5, Sonnet 5.5, Haiku 5.5, Qwen 4.0, & Trump To Change AI!",
@@ -244,7 +256,7 @@
       "summary": "Retrieval-Augmented Generation (RAG) systems over enterprise knowledge bases must ingest heterogeneous document formats -- PDFs, Word documents, presentations, and scans -- whose content is locked inside complex visual layouts, multi-column pages, and dense tables. Rule-based extraction and OCR destroy reading order, flatten tables, and lose heading hierarchy, while fully agentic chunking over ext",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 52,
+      "upvotes": 53,
       "arxiv_id": "2609.24220"
     },
     {
@@ -442,7 +454,7 @@
       "summary": "Computer-use agents (CUAs) have advanced along two separate lines: graphical interaction and software development through code and the command line. Real digital work requires both, interleaved rather than stacked end to end. We study hybrid CUAs that autonomously decide when to explore an interface, implement software, and run and visually verify their artifacts. We introduce RecreationWorld, a f",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 75,
+      "upvotes": 76,
       "arxiv_id": "2609.22000"
     },
     {
@@ -541,18 +553,6 @@
       "published": "2026-09-15T21:30:37+00:00",
       "summary": "Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberman_ai 👉🏻 Discord: https://discord.gg/u7wTTGWhuJ 👉🏻 Spotify: https://open.spotify.com",
       "thumbnail": "https://i2.ytimg.com/vi/AGdPioTEi9g/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Matthew Berman"
-    },
-    {
-      "id": "yt:_6PR25pkHKI",
-      "title": "The Risk Dario’s AI Warning Leaves Out",
-      "url": "https://www.youtube.com/watch?v=_6PR25pkHKI",
-      "source": "Matthew Berman",
-      "category": "videos",
-      "published": "2026-09-15T15:54:14+00:00",
-      "summary": "Try Morph for FREE: https://modelcode.ai/morph Use code MATTHEWBERMAN to get 60,000 free credits per month for your first year. Dario Amodei’s essay — We Must Pace the Frontier https://darioamodei.com/post/we-must-pace-the-frontier Bill Gurley’s talk on regulatory capture — All-In Summit: 2,851 Mile",
-      "thumbnail": "https://i4.ytimg.com/vi/_6PR25pkHKI/hqdefault.jpg",
       "kind": "video",
       "channel": "Matthew Berman"
     },
@@ -1017,7 +1017,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T19:08:28.447655+00:00",
+      "fetched_at": "2026-09-23T22:24:11.188432+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1030,14 +1030,14 @@
           "rank": 2,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "OpenAI",
-          "score": 1160.0,
+          "score": 1161.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 3,
           "name": "MAI-Image-2.6",
           "creator": "Microsoft AI",
-          "score": 1132.0,
+          "score": 1134.0,
           "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
@@ -1058,14 +1058,14 @@
           "rank": 6,
           "name": "Muse Image",
           "creator": "Meta",
-          "score": 1116.0,
+          "score": 1117.0,
           "meta": "Jul 2026 · $10.0 /1k imgs"
         },
         {
           "rank": 7,
           "name": "MAI-Image-2.5",
           "creator": "Microsoft AI",
-          "score": 1113.0,
+          "score": 1112.0,
           "meta": "Jun 2026 · $48.1 /1k imgs"
         },
         {
@@ -1077,17 +1077,17 @@
         },
         {
           "rank": 9,
-          "name": "Seedream 5.0 Pro",
-          "creator": "ByteDance Seed",
-          "score": 1105.0,
-          "meta": "Jul 2026 · $90.0 /1k imgs"
+          "name": "MAI-Image-2.5-Pro",
+          "creator": "Microsoft AI",
+          "score": 1106.0,
+          "meta": "Jul 2026 · $108.5 /1k imgs"
         },
         {
           "rank": 10,
-          "name": "MAI-Image-2.5-Pro",
-          "creator": "Microsoft AI",
-          "score": 1105.0,
-          "meta": "Jul 2026 · $108.5 /1k imgs"
+          "name": "Seedream 5.0 Pro",
+          "creator": "ByteDance Seed",
+          "score": 1106.0,
+          "meta": "Jul 2026 · $90.0 /1k imgs"
         }
       ]
     },
@@ -1099,7 +1099,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T19:08:28.449990+00:00",
+      "fetched_at": "2026-09-23T22:24:11.190181+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1119,7 +1119,7 @@
           "rank": 3,
           "name": "FLUX.2 [klein] 9B Open Weights",
           "creator": "Black Forest Labs",
-          "score": 1014.0,
+          "score": 1013.0,
           "meta": "Jan 2026 · $17.0 /1k imgs"
         },
         {
@@ -1140,14 +1140,14 @@
           "rank": 6,
           "name": "FLUX.2 [dev] Flash Open Weights",
           "creator": "Fal",
-          "score": 998.0,
+          "score": 997.0,
           "meta": "Dec 2025 · $5.0 /1k imgs"
         },
         {
           "rank": 7,
           "name": "Qwen Image Edit Plus 2509 Open Weights",
           "creator": "Alibaba",
-          "score": 978.0,
+          "score": 980.0,
           "meta": "Sep 2025 · $30.0 /1k imgs"
         },
         {
@@ -1161,7 +1161,7 @@
           "rank": 9,
           "name": "HiDream-O1-Image Open Weights",
           "creator": "HiDream",
-          "score": 952.0,
+          "score": 953.0,
           "meta": "May 2026 · $10.0 /1k imgs"
         },
         {
@@ -1181,7 +1181,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T19:08:28.452692+00:00",
+      "fetched_at": "2026-09-23T22:24:11.192208+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1263,7 +1263,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T19:08:28.453676+00:00",
+      "fetched_at": "2026-09-23T22:24:11.192958+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1331,7 +1331,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T19:08:28.459468+00:00",
+      "fetched_at": "2026-09-23T22:24:11.197568+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1413,7 +1413,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T19:08:28.459488+00:00",
+      "fetched_at": "2026-09-23T22:24:11.197580+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1481,7 +1481,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T19:08:28.460647+00:00",
+      "fetched_at": "2026-09-23T22:24:11.198531+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1563,7 +1563,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-23T19:08:28.495588+00:00",
+      "fetched_at": "2026-09-23T22:24:11.226057+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1645,7 +1645,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-23T19:08:28.533768+00:00",
+      "fetched_at": "2026-09-23T22:24:11.255217+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1727,20 +1727,20 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T19:08:28.545896+00:00",
+      "fetched_at": "2026-09-23T22:24:11.264297+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "OpenAI",
-          "score": 1196.0,
+          "score": 1197.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 2,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "OpenAI",
-          "score": 1191.0,
+          "score": 1190.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
@@ -1754,21 +1754,21 @@
           "rank": 4,
           "name": "Grok Imagine Image 2.0",
           "creator": "SpaceXAI",
-          "score": 1153.0,
+          "score": 1155.0,
           "meta": "Aug 2026 · $60.0 /1k imgs"
         },
         {
           "rank": 5,
           "name": "MAI-Image-2.6",
           "creator": "Microsoft AI",
-          "score": 1148.0,
+          "score": 1147.0,
           "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
           "rank": 6,
           "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "creator": "Google",
-          "score": 1122.0,
+          "score": 1123.0,
           "meta": "Feb 2026 · $67.0 /1k imgs"
         },
         {
@@ -1789,15 +1789,15 @@
           "rank": 9,
           "name": "MAI-Image-2.5",
           "creator": "Microsoft AI",
-          "score": 1103.0,
+          "score": 1102.0,
           "meta": "Jun 2026 · $48.1 /1k imgs"
         },
         {
           "rank": 10,
-          "name": "MAI-Image-2.6-Flash",
-          "creator": "Microsoft AI",
+          "name": "Nano Banana Pro (Gemini 3 Pro Image)",
+          "creator": "Google",
           "score": 1100.0,
-          "meta": "Sep 2026 · $19.5 /1k imgs"
+          "meta": "Nov 2025 · $134.0 /1k imgs"
         }
       ]
     },
@@ -1809,7 +1809,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T19:08:28.550684+00:00",
+      "fetched_at": "2026-09-23T22:24:11.267848+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1822,7 +1822,7 @@
           "rank": 2,
           "name": "Ideogram 4.0 Open Weights",
           "creator": "Ideogram",
-          "score": 1004.0,
+          "score": 1003.0,
           "meta": "Jun 2026 · $60.0 /1k imgs"
         },
         {
@@ -1836,7 +1836,7 @@
           "rank": 4,
           "name": "FLUX.2 [dev] Turbo Open Weights",
           "creator": "Fal",
-          "score": 1000.0,
+          "score": 999.0,
           "meta": "Dec 2025 · $8.0 /1k imgs"
         },
         {
@@ -1857,21 +1857,21 @@
           "rank": 7,
           "name": "Cosmos3-Super-Text2Image (agentic) Open Weights",
           "creator": "NVIDIA",
-          "score": 992.0,
+          "score": 994.0,
           "meta": "May 2026 · Coming soon"
         },
         {
           "rank": 8,
           "name": "Ideogram 4.0 Fast (Quality) Open Weights",
           "creator": "Fal",
-          "score": 985.0,
+          "score": 986.0,
           "meta": "Jul 2026 · $17.5 /1k imgs"
         },
         {
           "rank": 9,
           "name": "Cosmos3-Super-Text2Image Open Weights",
           "creator": "NVIDIA",
-          "score": 984.0,
+          "score": 983.0,
           "meta": "May 2026 · Coming soon"
         },
         {
@@ -1891,7 +1891,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T19:08:28.558747+00:00",
+      "fetched_at": "2026-09-23T22:24:11.273512+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1973,7 +1973,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-23T19:08:28.560673+00:00",
+      "fetched_at": "2026-09-23T22:24:11.274942+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2055,55 +2055,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-23T19:08:11.285729+00:00"
+        "checked_at": "2026-09-23T22:23:55.151417+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-23T19:08:10.254620+00:00"
+        "checked_at": "2026-09-23T22:23:53.999299+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-23T19:08:14.530310+00:00"
+        "checked_at": "2026-09-23T22:23:58.433318+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-23T19:08:16.793302+00:00"
+        "checked_at": "2026-09-23T22:24:00.636072+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-23T19:08:12.307917+00:00"
+        "checked_at": "2026-09-23T22:23:56.272295+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-23T19:08:13.420830+00:00"
+        "checked_at": "2026-09-23T22:23:57.288586+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-23T19:08:15.653776+00:00"
+        "checked_at": "2026-09-23T22:23:59.478337+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-23T19:08:28.562358+00:00"
+      "checked_at": "2026-09-23T22:24:11.276610+00:00"
     }
   }
 }
