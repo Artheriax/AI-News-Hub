@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T00:38:41.001019+00:00",
+  "generated_at": "2026-09-24T05:39:06.233840+00:00",
   "items": [
     {
       "id": "yt:LrUCo_7jor4",
@@ -155,7 +155,7 @@
       "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run. Making these decisions well is becoming a key capability for both engineering and research agents. We refer to the ability to make good long-horizon decisions as the taste of an agent. While exis",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 111,
+      "upvotes": 115,
       "arxiv_id": "2609.25804"
     },
     {
@@ -216,7 +216,7 @@
       "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 176,
+      "upvotes": 179,
       "arxiv_id": "2609.24972"
     },
     {
@@ -229,7 +229,7 @@
       "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to let the requested viewpoint shape how multi-view evidence is compressed into the video generator's ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 125,
+      "upvotes": 131,
       "arxiv_id": "2609.24984"
     },
     {
@@ -242,7 +242,7 @@
       "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack language instructions, or rely on high-variance online rollouts. To address these challenges, we introdu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 115,
+      "upvotes": 118,
       "arxiv_id": "2609.25001"
     },
     {
@@ -255,7 +255,7 @@
       "summary": "Generating Scalable Vector Graphics (SVG) code from natural-language instructions is an open-ended task without absolute visual ground truth, leaving both evaluation and policy optimization without a faithful signal. Scalar metrics (CLIP, Aesthetic) calibrated on natural images transfer poorly to stylized vector content, and reusing them as RL rewards triggers reward hacking. We address both limit",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 59,
+      "upvotes": 62,
       "arxiv_id": "2609.25270"
     },
     {
@@ -281,7 +281,7 @@
       "summary": "Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or ordered events. In this paper, we present VideoGen-Agent, a multimodal agent trained through multitask agentic reinforcement learning to use external tools ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 41,
+      "upvotes": 45,
       "arxiv_id": "2609.24997"
     },
     {
@@ -294,8 +294,21 @@
       "summary": "We present a compact geometry-native latent space as a shared foundation for perception and generation. Visual generators can produce photorealistic frames without preserving a consistent 3D scene. We argue that this is not only a modeling problem but also a representation problem: generators typically evolve appearance-centric latents, while perception models recover geometry in a semantically ri",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 38,
+      "upvotes": 40,
       "arxiv_id": "2609.24981"
+    },
+    {
+      "id": "paper:2609.24058",
+      "title": "All-in-One Multilingual Scene Text Recognition with Script-aware Mixture-of-Experts",
+      "url": "https://huggingface.co/papers/2609.24058",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-21T00:00:00+00:00",
+      "summary": "Multilingual scene text recognition (STR) remains challenging due to the scarcity of training data for most languages and the difficulty of serving diverse scripts within a single model. Existing solutions either deploy one recognizer per language, inflating cost and introducing error accumulation, or rely on massive vision-language models (VLMs) that are expensive and still inaccurate on many scr",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 37,
+      "arxiv_id": "2609.24058"
     },
     {
       "id": "yt:hygMRgnDD7w",
@@ -319,7 +332,7 @@
       "summary": "Manipulation policies must know which objects matter and where they are, yet the pretrained backbones that current robot foundation models build on, from language in vision-language-action models (VLAs) to video generation in world-action models (WAMs), do not directly require this metric grounding, leaving it to be learned implicitly from robot demonstrations. We propose Grounded Action Models (G",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 75,
+      "upvotes": 77,
       "arxiv_id": "2609.23863"
     },
     {
@@ -344,7 +357,7 @@
       "summary": "Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and provide appropriate instructional support. Existing educational language models often focus on either problem solving or tutoring, with training mixtures organized by source or task rather than capability. We present OmniEdu, an open family of foundation models for K-12 learning a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 142,
+      "upvotes": 148,
       "arxiv_id": "2609.23088"
     },
     {
@@ -357,7 +370,7 @@
       "summary": "Humans can seamlessly adapt to both physical and digital worlds, suggesting that while a digital-to-real gap exists in embodiment, environment and task, human intelligence itself may transfer across this gap. This naturally raises a fundamental question: can the intelligence of vision-language models (VLMs) similarly generalize from the digital world to the physical world for robotic control? We i",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 104,
+      "upvotes": 108,
       "arxiv_id": "2609.22966"
     },
     {
@@ -466,7 +479,7 @@
       "summary": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers. Open-source codebases offer a rich source of such tasks, while existing methods typically rely on development artifacts such as issues and commits, limiting the range of tasks that can be extracted. To better scale RL environments, we present CodeMidas, an agentic pipeline that turns impl",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 129,
+      "upvotes": 130,
       "arxiv_id": "2609.22068"
     },
     {
@@ -483,19 +496,6 @@
       "arxiv_id": "2609.21346"
     },
     {
-      "id": "paper:2609.22000",
-      "title": "RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents",
-      "url": "https://huggingface.co/papers/2609.22000",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-18T00:00:00+00:00",
-      "summary": "Computer-use agents (CUAs) have advanced along two separate lines: graphical interaction and software development through code and the command line. Real digital work requires both, interleaved rather than stacked end to end. We study hybrid CUAs that autonomously decide when to explore an interface, implement software, and run and visually verify their artifacts. We introduce RecreationWorld, a f",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 77,
-      "arxiv_id": "2609.22000"
-    },
-    {
       "id": "paper:2609.21465",
       "title": "OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue",
       "url": "https://huggingface.co/papers/2609.21465",
@@ -505,7 +505,7 @@
       "summary": "We define OmniVChat (Omni Video Chat) as the task of native audio-visual dialogue between a user and an omni model. In OmniVChat, omni models directly and simultaneously receive audio and video from a user and return text. The user's query is embedded in the audio and video, without a separate text question, external captioning, or speech recognition. Direct audio-visual input reduces external lat",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 53,
+      "upvotes": 85,
       "arxiv_id": "2609.21465"
     },
     {
@@ -1017,77 +1017,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T00:38:40.889443+00:00",
+      "fetched_at": "2026-09-24T05:39:06.173911+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "OpenAI",
-          "score": 1179.0,
+          "score": 1181.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 2,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "OpenAI",
-          "score": 1160.0,
+          "score": 1163.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 3,
           "name": "MAI-Image-2.6",
           "creator": "Microsoft AI",
-          "score": 1133.0,
+          "score": 1135.0,
           "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
           "rank": 4,
           "name": "MAI-Image-2.6-Flash",
           "creator": "Microsoft AI",
-          "score": 1123.0,
+          "score": 1125.0,
           "meta": "Sep 2026 · $19.5 /1k imgs"
         },
         {
           "rank": 5,
           "name": "GPT Image 2 (high)",
           "creator": "OpenAI",
-          "score": 1119.0,
+          "score": 1122.0,
           "meta": "Apr 2026 · $211.0 /1k imgs"
         },
         {
           "rank": 6,
           "name": "Muse Image",
           "creator": "Meta",
-          "score": 1115.0,
+          "score": 1117.0,
           "meta": "Jul 2026 · $10.0 /1k imgs"
         },
         {
           "rank": 7,
           "name": "MAI-Image-2.5",
           "creator": "Microsoft AI",
-          "score": 1113.0,
+          "score": 1114.0,
           "meta": "Jun 2026 · $48.1 /1k imgs"
         },
         {
           "rank": 8,
           "name": "Seedream 5.0 Pro",
           "creator": "ByteDance Seed",
-          "score": 1106.0,
+          "score": 1109.0,
           "meta": "Jul 2026 · $90.0 /1k imgs"
         },
         {
           "rank": 9,
           "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "creator": "Google",
-          "score": 1106.0,
+          "score": 1108.0,
           "meta": "Feb 2026 · $67.0 /1k imgs"
         },
         {
           "rank": 10,
-          "name": "Grok Imagine Image 2.0",
-          "creator": "SpaceXAI",
+          "name": "MAI-Image-2.5-Pro",
+          "creator": "Microsoft AI",
           "score": 1106.0,
-          "meta": "Aug 2026 · $60.0 /1k imgs"
+          "meta": "Jul 2026 · $108.5 /1k imgs"
         }
       ]
     },
@@ -1099,76 +1099,76 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T00:38:40.891775+00:00",
+      "fetched_at": "2026-09-24T05:39:06.175058+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "HunyuanImage 3.0 Instruct (Fal) Open Weights",
           "creator": "Tencent",
-          "score": 1027.0,
+          "score": 1029.0,
           "meta": "Jan 2026 · $90.0 /1k imgs"
         },
         {
           "rank": 2,
           "name": "Qwen Image Edit Plus 2511 Open Weights",
           "creator": "Alibaba",
-          "score": 1021.0,
+          "score": 1025.0,
           "meta": "Nov 2025 · $60.0 /1k imgs"
         },
         {
           "rank": 3,
           "name": "FLUX.2 [klein] 9B Open Weights",
           "creator": "Black Forest Labs",
-          "score": 1013.0,
+          "score": 1014.0,
           "meta": "Jan 2026 · $17.0 /1k imgs"
         },
         {
           "rank": 4,
+          "name": "FLUX.2 [dev] Turbo Open Weights",
+          "creator": "Fal",
+          "score": 1001.0,
+          "meta": "Dec 2025 · $8.0 /1k imgs"
+        },
+        {
+          "rank": 5,
           "name": "FLUX.2 [dev] Open Weights",
           "creator": "Black Forest Labs",
           "score": 1000.0,
           "meta": "Nov 2025 · $24.0 /1k imgs"
         },
         {
-          "rank": 5,
-          "name": "FLUX.2 [dev] Turbo Open Weights",
-          "creator": "Fal",
-          "score": 999.0,
-          "meta": "Dec 2025 · $8.0 /1k imgs"
-        },
-        {
           "rank": 6,
           "name": "FLUX.2 [dev] Flash Open Weights",
           "creator": "Fal",
-          "score": 997.0,
+          "score": 998.0,
           "meta": "Dec 2025 · $5.0 /1k imgs"
         },
         {
           "rank": 7,
           "name": "Qwen Image Edit Plus 2509 Open Weights",
           "creator": "Alibaba",
-          "score": 979.0,
+          "score": 981.0,
           "meta": "Sep 2025 · $30.0 /1k imgs"
         },
         {
           "rank": 8,
           "name": "FLUX.2 [klein] Base 9B Open Weights",
           "creator": "Black Forest Labs",
-          "score": 972.0,
+          "score": 974.0,
           "meta": "Jan 2026 · $22.0 /1k imgs"
         },
         {
           "rank": 9,
           "name": "HiDream-O1-Image Open Weights",
           "creator": "HiDream",
-          "score": 951.0,
+          "score": 953.0,
           "meta": "May 2026 · $10.0 /1k imgs"
         },
         {
           "rank": 10,
           "name": "FLUX.2 [klein] 4B Open Weights",
           "creator": "Black Forest Labs",
-          "score": 948.0,
+          "score": 950.0,
           "meta": "Jan 2026 · $15.0 /1k imgs"
         }
       ]
@@ -1181,7 +1181,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T00:38:40.894474+00:00",
+      "fetched_at": "2026-09-24T05:39:06.176394+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1263,7 +1263,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T00:38:40.895504+00:00",
+      "fetched_at": "2026-09-24T05:39:06.176882+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1331,7 +1331,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T00:38:40.901325+00:00",
+      "fetched_at": "2026-09-24T05:39:06.180455+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1413,7 +1413,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T00:38:40.901339+00:00",
+      "fetched_at": "2026-09-24T05:39:06.180463+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1481,7 +1481,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T00:38:40.902501+00:00",
+      "fetched_at": "2026-09-24T05:39:06.181071+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1563,7 +1563,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-24T00:38:40.936220+00:00",
+      "fetched_at": "2026-09-24T05:39:06.199137+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1645,7 +1645,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-24T00:38:40.974211+00:00",
+      "fetched_at": "2026-09-24T05:39:06.218951+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1727,7 +1727,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T00:38:40.985501+00:00",
+      "fetched_at": "2026-09-24T05:39:06.224960+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1754,7 +1754,7 @@
           "rank": 4,
           "name": "Grok Imagine Image 2.0",
           "creator": "SpaceXAI",
-          "score": 1153.0,
+          "score": 1154.0,
           "meta": "Aug 2026 · $60.0 /1k imgs"
         },
         {
@@ -1768,36 +1768,36 @@
           "rank": 6,
           "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "creator": "Google",
-          "score": 1123.0,
+          "score": 1122.0,
           "meta": "Feb 2026 · $67.0 /1k imgs"
         },
         {
           "rank": 7,
           "name": "Muse Image",
           "creator": "Meta",
-          "score": 1113.0,
+          "score": 1112.0,
           "meta": "Jul 2026 · $10.0 /1k imgs"
         },
         {
           "rank": 8,
+          "name": "GPT Image 1.5 (high)",
+          "creator": "OpenAI",
+          "score": 1102.0,
+          "meta": "Dec 2025 · $133.0 /1k imgs"
+        },
+        {
+          "rank": 9,
           "name": "MAI-Image-2.5",
           "creator": "Microsoft AI",
           "score": 1102.0,
           "meta": "Jun 2026 · $48.1 /1k imgs"
         },
         {
-          "rank": 9,
-          "name": "GPT Image 1.5 (high)",
-          "creator": "OpenAI",
-          "score": 1101.0,
-          "meta": "Dec 2025 · $133.0 /1k imgs"
-        },
-        {
           "rank": 10,
-          "name": "MAI-Image-2.6-Flash",
-          "creator": "Microsoft AI",
-          "score": 1100.0,
-          "meta": "Sep 2026 · $19.5 /1k imgs"
+          "name": "Nano Banana Pro (Gemini 3 Pro Image)",
+          "creator": "Google",
+          "score": 1101.0,
+          "meta": "Nov 2025 · $134.0 /1k imgs"
         }
       ]
     },
@@ -1809,7 +1809,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T00:38:40.989900+00:00",
+      "fetched_at": "2026-09-24T05:39:06.227269+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1822,7 +1822,7 @@
           "rank": 2,
           "name": "Ideogram 4.0 Open Weights",
           "creator": "Ideogram",
-          "score": 1005.0,
+          "score": 1003.0,
           "meta": "Jun 2026 · $60.0 /1k imgs"
         },
         {
@@ -1843,7 +1843,7 @@
           "rank": 5,
           "name": "FLUX.2 [dev] Turbo Open Weights",
           "creator": "Fal",
-          "score": 997.0,
+          "score": 998.0,
           "meta": "Dec 2025 · $8.0 /1k imgs"
         },
         {
@@ -1864,7 +1864,7 @@
           "rank": 8,
           "name": "Ideogram 4.0 Fast (Quality) Open Weights",
           "creator": "Fal",
-          "score": 986.0,
+          "score": 984.0,
           "meta": "Jul 2026 · $17.5 /1k imgs"
         },
         {
@@ -1878,7 +1878,7 @@
           "rank": 10,
           "name": "FLUX.2 [dev] Flash Open Weights",
           "creator": "Fal",
-          "score": 983.0,
+          "score": 984.0,
           "meta": "Dec 2025 · $5.0 /1k imgs"
         }
       ]
@@ -1891,7 +1891,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T00:38:40.997229+00:00",
+      "fetched_at": "2026-09-24T05:39:06.231277+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1973,7 +1973,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T00:38:40.999099+00:00",
+      "fetched_at": "2026-09-24T05:39:06.232283+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2052,58 +2052,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-09-24T00:38:23.193756+00:00"
+        "ok": false,
+        "items": 3,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-09-24T05:38:49.428333+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-09-24T00:38:21.974350+00:00"
+        "ok": false,
+        "items": 10,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-09-24T05:38:48.316712+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-09-24T00:38:26.382175+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-09-24T05:38:52.632044+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-24T00:38:28.926047+00:00"
+        "checked_at": "2026-09-24T05:38:55.225919+00:00"
       },
       {
         "name": "Matthew Berman",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-09-24T00:38:24.219255+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA",
+        "checked_at": "2026-09-24T05:38:50.492872+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-09-24T00:38:25.247266+00:00"
+        "ok": false,
+        "items": 9,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-09-24T05:38:51.560044+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-09-24T00:38:27.636932+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-09-24T05:38:53.704932+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-24T00:38:41.000925+00:00"
+      "checked_at": "2026-09-24T05:39:06.233750+00:00"
     }
   }
 }
