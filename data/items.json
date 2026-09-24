@@ -1,6 +1,42 @@
 {
-  "generated_at": "2026-09-24T05:39:06.233840+00:00",
+  "generated_at": "2026-09-24T10:45:29.051200+00:00",
   "items": [
+    {
+      "id": "yt:SA9kdAX2Zj0",
+      "title": "Claude Opus 5.5 AI: A Massive Leap Forward",
+      "url": "https://www.youtube.com/watch?v=SA9kdAX2Zj0",
+      "source": "Two Minute Papers",
+      "category": "videos",
+      "published": "2026-09-24T08:40:55+00:00",
+      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers Claude Opus 5.5: https://www.anthropic.com/claude-opus-5-5 Walking creatures video and paper: https://www.youtube.com/watch?v=kQ2bqz3HPJE https://www.goatstream.com/research/papers/SA2013/ Honey coiling video and pape",
+      "thumbnail": "https://i4.ytimg.com/vi/SA9kdAX2Zj0/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Two Minute Papers"
+    },
+    {
+      "id": "yt:zPbbOaX5yJ8",
+      "title": "HUGE GPT-6 Astra Minor LEAK, Claude HUGE Discovery, Mimo V3.0, Sonnet 5.5, & Muse Spark 1.4! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=zPbbOaX5yJ8",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-09-24T06:15:30+00:00",
+      "summary": "You have the right to co-write with AI. Super is live now → https://stealthgpt.ai?via=woai AI news is moving insanely fast. GPT-6 Astra Minor has seemingly leaked through OpenAI’s own documentation, potentially revealing another mysterious model inside the GPT-6 family. Meanwhile, Claude helped unco",
+      "thumbnail": "https://i3.ytimg.com/vi/zPbbOaX5yJ8/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
+      "id": "yt:gX0L0aFA2xg",
+      "title": "Claude Opus 5.5 is ridiculous",
+      "url": "https://www.youtube.com/watch?v=gX0L0aFA2xg",
+      "source": "AI Search",
+      "category": "videos",
+      "published": "2026-09-24T03:25:26+00:00",
+      "summary": "Claude Opus 5.5 review. #ai #ainews #llm #agi #singularity Thanks to our sponsor Higgsfield. Try it today https://higgsfield.ai/s/theaisearch-dkHOlY Claude Opus 5.5 release page https://www.anthropic.com/claude-opus-5-5 Also see GPT 6 Astra review https://youtu.be/Ji4amrxrzVM 00:00 Claude Opus 5.5 i",
+      "thumbnail": "https://i4.ytimg.com/vi/gX0L0aFA2xg/hqdefault.jpg",
+      "kind": "video",
+      "channel": "AI Search"
+    },
     {
       "id": "yt:LrUCo_7jor4",
       "title": "GPT-6 Sol Is VERY GOOD – Is THIS an Opus 5.5 Competitor?",
@@ -155,7 +191,7 @@
       "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run. Making these decisions well is becoming a key capability for both engineering and research agents. We refer to the ability to make good long-horizon decisions as the taste of an agent. While exis",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 115,
+      "upvotes": 116,
       "arxiv_id": "2609.25804"
     },
     {
@@ -216,7 +252,7 @@
       "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 179,
+      "upvotes": 183,
       "arxiv_id": "2609.24972"
     },
     {
@@ -229,7 +265,7 @@
       "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to let the requested viewpoint shape how multi-view evidence is compressed into the video generator's ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 131,
+      "upvotes": 139,
       "arxiv_id": "2609.24984"
     },
     {
@@ -242,7 +278,7 @@
       "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack language instructions, or rely on high-variance online rollouts. To address these challenges, we introdu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 118,
+      "upvotes": 124,
       "arxiv_id": "2609.25001"
     },
     {
@@ -255,7 +291,7 @@
       "summary": "Generating Scalable Vector Graphics (SVG) code from natural-language instructions is an open-ended task without absolute visual ground truth, leaving both evaluation and policy optimization without a faithful signal. Scalar metrics (CLIP, Aesthetic) calibrated on natural images transfer poorly to stylized vector content, and reusing them as RL rewards triggers reward hacking. We address both limit",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 62,
+      "upvotes": 64,
       "arxiv_id": "2609.25270"
     },
     {
@@ -268,7 +304,7 @@
       "summary": "Retrieval-Augmented Generation (RAG) systems over enterprise knowledge bases must ingest heterogeneous document formats -- PDFs, Word documents, presentations, and scans -- whose content is locked inside complex visual layouts, multi-column pages, and dense tables. Rule-based extraction and OCR destroy reading order, flatten tables, and lose heading hierarchy, while fully agentic chunking over ext",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 53,
+      "upvotes": 55,
       "arxiv_id": "2609.24220"
     },
     {
@@ -281,8 +317,21 @@
       "summary": "Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or ordered events. In this paper, we present VideoGen-Agent, a multimodal agent trained through multitask agentic reinforcement learning to use external tools ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 45,
+      "upvotes": 51,
       "arxiv_id": "2609.24997"
+    },
+    {
+      "id": "paper:2609.24983",
+      "title": "onPanda: Efficient Annotation of On-Policy Alignment Data for LLMs and Agents via Token-Level Correction",
+      "url": "https://huggingface.co/papers/2609.24983",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-21T00:00:00+00:00",
+      "summary": "We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator locates the first inappropriate token and either picks a substitute from the model's candidate tokens or types the correct text via free-form editing. The system then truncates ever",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 44,
+      "arxiv_id": "2609.24983"
     },
     {
       "id": "paper:2609.24981",
@@ -294,7 +343,7 @@
       "summary": "We present a compact geometry-native latent space as a shared foundation for perception and generation. Visual generators can produce photorealistic frames without preserving a consistent 3D scene. We argue that this is not only a modeling problem but also a representation problem: generators typically evolve appearance-centric latents, while perception models recover geometry in a semantically ri",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 40,
+      "upvotes": 42,
       "arxiv_id": "2609.24981"
     },
     {
@@ -307,7 +356,7 @@
       "summary": "Multilingual scene text recognition (STR) remains challenging due to the scarcity of training data for most languages and the difficulty of serving diverse scripts within a single model. Existing solutions either deploy one recognizer per language, inflating cost and introducing error accumulation, or rely on massive vision-language models (VLMs) that are expensive and still inaccurate on many scr",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 37,
+      "upvotes": 39,
       "arxiv_id": "2609.24058"
     },
     {
@@ -332,7 +381,7 @@
       "summary": "Manipulation policies must know which objects matter and where they are, yet the pretrained backbones that current robot foundation models build on, from language in vision-language-action models (VLAs) to video generation in world-action models (WAMs), do not directly require this metric grounding, leaving it to be learned implicitly from robot demonstrations. We propose Grounded Action Models (G",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 77,
+      "upvotes": 80,
       "arxiv_id": "2609.23863"
     },
     {
@@ -357,7 +406,7 @@
       "summary": "Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and provide appropriate instructional support. Existing educational language models often focus on either problem solving or tutoring, with training mixtures organized by source or task rather than capability. We present OmniEdu, an open family of foundation models for K-12 learning a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 148,
+      "upvotes": 154,
       "arxiv_id": "2609.23088"
     },
     {
@@ -370,7 +419,7 @@
       "summary": "Humans can seamlessly adapt to both physical and digital worlds, suggesting that while a digital-to-real gap exists in embodiment, environment and task, human intelligence itself may transfer across this gap. This naturally raises a fundamental question: can the intelligence of vision-language models (VLMs) similarly generalize from the digital world to the physical world for robotic control? We i",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 108,
+      "upvotes": 111,
       "arxiv_id": "2609.22966"
     },
     {
@@ -470,17 +519,17 @@
       "channel": "AI Search"
     },
     {
-      "id": "paper:2609.22068",
-      "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
-      "url": "https://huggingface.co/papers/2609.22068",
+      "id": "paper:2609.21465",
+      "title": "OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue",
+      "url": "https://huggingface.co/papers/2609.21465",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-09-18T00:00:00+00:00",
-      "summary": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers. Open-source codebases offer a rich source of such tasks, while existing methods typically rely on development artifacts such as issues and commits, limiting the range of tasks that can be extracted. To better scale RL environments, we present CodeMidas, an agentic pipeline that turns impl",
+      "summary": "We define OmniVChat (Omni Video Chat) as the task of native audio-visual dialogue between a user and an omni model. In OmniVChat, omni models directly and simultaneously receive audio and video from a user and return text. The user's query is embedded in the audio and video, without a separate text question, external captioning, or speech recognition. Direct audio-visual input reduces external lat",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 130,
-      "arxiv_id": "2609.22068"
+      "upvotes": 111,
+      "arxiv_id": "2609.21465"
     },
     {
       "id": "paper:2609.21346",
@@ -492,21 +541,8 @@
       "summary": "Mixture-of-Experts (MoE) scales capacity, but existing designs cannot set three quantities independently. For a single token, participation is how many experts contribute knowledge to its output, execution is how many are actually computed (compute cost), and materialization is how many expert-sized parameter sets must be built and stored (memory cost). Sparse routing keeps execution and materiali",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 98,
+      "upvotes": 99,
       "arxiv_id": "2609.21346"
-    },
-    {
-      "id": "paper:2609.21465",
-      "title": "OmniVChat: Synthesizing, Benchmarking, and Training for Native Audio-Visual Dialogue",
-      "url": "https://huggingface.co/papers/2609.21465",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-18T00:00:00+00:00",
-      "summary": "We define OmniVChat (Omni Video Chat) as the task of native audio-visual dialogue between a user and an omni model. In OmniVChat, omni models directly and simultaneously receive audio and video from a user and return text. The user's query is embedded in the audio and video, without a separate text question, external captioning, or speech recognition. Direct audio-visual input reduces external lat",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 85,
-      "arxiv_id": "2609.21465"
     },
     {
       "id": "yt:_7f2k3g4ym8",
@@ -797,18 +833,6 @@
       "channel": "AI Search"
     },
     {
-      "id": "yt:slpv4sVUN5o",
-      "title": "GPT-6 Astra IS INSANE! Best Usecases & Tricks...",
-      "url": "https://www.youtube.com/watch?v=slpv4sVUN5o",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-09-06T06:15:18+00:00",
-      "summary": "Join the private community to get WoAI Bench Pro, exclusive AI freebies and discounts, early model access, automation templates, practical resources and upcoming AI training. 👉 Join Today! https://www.skool.com/worldofai GPT-6 Astra is absolutely INSANE. 🤯 In this video, I showcase some of the crazi",
-      "thumbnail": "https://i4.ytimg.com/vi/slpv4sVUN5o/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:ngyFRCNq0Yc",
       "title": "GPT 6 Astra, Claude Fable 5.1, Gemini 3.8, realtime Minimax, new world models: AI NEWS",
       "url": "https://www.youtube.com/watch?v=ngyFRCNq0Yc",
@@ -1017,7 +1041,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T05:39:06.173911+00:00",
+      "fetched_at": "2026-09-24T10:45:28.938871+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1099,7 +1123,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T05:39:06.175058+00:00",
+      "fetched_at": "2026-09-24T10:45:28.941112+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1181,7 +1205,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T05:39:06.176394+00:00",
+      "fetched_at": "2026-09-24T10:45:28.943800+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1263,7 +1287,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T05:39:06.176882+00:00",
+      "fetched_at": "2026-09-24T10:45:28.944770+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1331,7 +1355,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T05:39:06.180455+00:00",
+      "fetched_at": "2026-09-24T10:45:28.950583+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1413,7 +1437,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T05:39:06.180463+00:00",
+      "fetched_at": "2026-09-24T10:45:28.950604+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1481,7 +1505,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T05:39:06.181071+00:00",
+      "fetched_at": "2026-09-24T10:45:28.951641+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1563,7 +1587,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-24T05:39:06.199137+00:00",
+      "fetched_at": "2026-09-24T10:45:28.984160+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1645,7 +1669,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-24T05:39:06.218951+00:00",
+      "fetched_at": "2026-09-24T10:45:29.022025+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1727,7 +1751,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T05:39:06.224960+00:00",
+      "fetched_at": "2026-09-24T10:45:29.034646+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1809,7 +1833,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T05:39:06.227269+00:00",
+      "fetched_at": "2026-09-24T10:45:29.039363+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1891,7 +1915,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T05:39:06.231277+00:00",
+      "fetched_at": "2026-09-24T10:45:29.047412+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1973,7 +1997,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T05:39:06.232283+00:00",
+      "fetched_at": "2026-09-24T10:45:29.049395+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2052,58 +2076,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 3,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-09-24T05:38:49.428333+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-09-24T10:45:13.536562+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 10,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-09-24T05:38:48.316712+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-09-24T10:45:12.511212+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-09-24T05:38:52.632044+00:00"
+        "error": null,
+        "checked_at": "2026-09-24T10:45:16.676856+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-24T05:38:55.225919+00:00"
+        "checked_at": "2026-09-24T10:45:18.923027+00:00"
       },
       {
         "name": "Matthew Berman",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA",
-        "checked_at": "2026-09-24T05:38:50.492872+00:00"
+        "error": null,
+        "checked_at": "2026-09-24T10:45:14.554878+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": false,
-        "items": 9,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-09-24T05:38:51.560044+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-09-24T10:45:15.574898+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-09-24T05:38:53.704932+00:00"
+        "error": null,
+        "checked_at": "2026-09-24T10:45:17.818016+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-24T05:39:06.233750+00:00"
+      "checked_at": "2026-09-24T10:45:29.051103+00:00"
     }
   }
 }
