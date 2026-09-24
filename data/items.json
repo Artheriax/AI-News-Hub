@@ -1,14 +1,26 @@
 {
-  "generated_at": "2026-09-24T10:45:29.051200+00:00",
+  "generated_at": "2026-09-24T15:35:57.333594+00:00",
   "items": [
     {
+      "id": "yt:DqoLv_3kNZ8",
+      "title": "Cline Desktop Hands-On – Can OPEN Models Match Fable 5.1?",
+      "url": "https://www.youtube.com/watch?v=DqoLv_3kNZ8",
+      "source": "Bijan Bowen",
+      "category": "videos",
+      "published": "2026-09-24T14:45:27+00:00",
+      "summary": "Get 80% off your first month of ClinePass ($1.99): https://cline.gg/BIJAN80 Timestamps: 00:00 - Intro 00:45 - Cline Desktop First Look 01:21 - ClinePass First Look 02:53 - Cline Desktop Tour 04:00 - Fable 5.1 Subway FPS MD Overview 05:30 - DeepSeek V4.1 Flash Test 06:10 - Fable 5.1 Result Reference ",
+      "thumbnail": "https://i1.ytimg.com/vi/DqoLv_3kNZ8/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Bijan Bowen"
+    },
+    {
       "id": "yt:SA9kdAX2Zj0",
-      "title": "Claude Opus 5.5 AI: A Massive Leap Forward",
+      "title": "Claude Opus 5.5 AI: An Incredible Leap Forward",
       "url": "https://www.youtube.com/watch?v=SA9kdAX2Zj0",
       "source": "Two Minute Papers",
       "category": "videos",
       "published": "2026-09-24T08:40:55+00:00",
-      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers Claude Opus 5.5: https://www.anthropic.com/claude-opus-5-5 Walking creatures video and paper: https://www.youtube.com/watch?v=kQ2bqz3HPJE https://www.goatstream.com/research/papers/SA2013/ Honey coiling video and pape",
+      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers Note: in the walking creatures experiment, Astra used a simplified model and was unable to implement the correct one. Things did not improve after simulating it for more generations. Claude Opus 5.5: https://www.anthr",
       "thumbnail": "https://i4.ytimg.com/vi/SA9kdAX2Zj0/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
@@ -191,8 +203,21 @@
       "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run. Making these decisions well is becoming a key capability for both engineering and research agents. We refer to the ability to make good long-horizon decisions as the taste of an agent. While exis",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 116,
+      "upvotes": 118,
       "arxiv_id": "2609.25804"
+    },
+    {
+      "id": "paper:2609.26780",
+      "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
+      "url": "https://huggingface.co/papers/2609.26780",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-22T00:00:00+00:00",
+      "summary": "Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, how individuals perceive one another, what information is shared by the group, and how states change over time. Recent studies on multi-party dialogue benchmarks show that existing general-purpose LLM m",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 74,
+      "arxiv_id": "2609.26780"
     },
     {
       "id": "yt:HAi7twQBKlY",
@@ -252,7 +277,7 @@
       "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 183,
+      "upvotes": 189,
       "arxiv_id": "2609.24972"
     },
     {
@@ -265,7 +290,7 @@
       "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to let the requested viewpoint shape how multi-view evidence is compressed into the video generator's ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 139,
+      "upvotes": 143,
       "arxiv_id": "2609.24984"
     },
     {
@@ -278,7 +303,7 @@
       "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack language instructions, or rely on high-variance online rollouts. To address these challenges, we introdu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 124,
+      "upvotes": 126,
       "arxiv_id": "2609.25001"
     },
     {
@@ -304,7 +329,7 @@
       "summary": "Retrieval-Augmented Generation (RAG) systems over enterprise knowledge bases must ingest heterogeneous document formats -- PDFs, Word documents, presentations, and scans -- whose content is locked inside complex visual layouts, multi-column pages, and dense tables. Rule-based extraction and OCR destroy reading order, flatten tables, and lose heading hierarchy, while fully agentic chunking over ext",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 55,
+      "upvotes": 61,
       "arxiv_id": "2609.24220"
     },
     {
@@ -317,7 +342,7 @@
       "summary": "Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or ordered events. In this paper, we present VideoGen-Agent, a multimodal agent trained through multitask agentic reinforcement learning to use external tools ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 51,
+      "upvotes": 56,
       "arxiv_id": "2609.24997"
     },
     {
@@ -330,34 +355,8 @@
       "summary": "We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator locates the first inappropriate token and either picks a substitute from the model's candidate tokens or types the correct text via free-form editing. The system then truncates ever",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 44,
+      "upvotes": 45,
       "arxiv_id": "2609.24983"
-    },
-    {
-      "id": "paper:2609.24981",
-      "title": "GAE: Learning a Geometry-Native Latent Space for 3D-Consistent World Generation",
-      "url": "https://huggingface.co/papers/2609.24981",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-21T00:00:00+00:00",
-      "summary": "We present a compact geometry-native latent space as a shared foundation for perception and generation. Visual generators can produce photorealistic frames without preserving a consistent 3D scene. We argue that this is not only a modeling problem but also a representation problem: generators typically evolve appearance-centric latents, while perception models recover geometry in a semantically ri",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 42,
-      "arxiv_id": "2609.24981"
-    },
-    {
-      "id": "paper:2609.24058",
-      "title": "All-in-One Multilingual Scene Text Recognition with Script-aware Mixture-of-Experts",
-      "url": "https://huggingface.co/papers/2609.24058",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-21T00:00:00+00:00",
-      "summary": "Multilingual scene text recognition (STR) remains challenging due to the scarcity of training data for most languages and the difficulty of serving diverse scripts within a single model. Existing solutions either deploy one recognizer per language, inflating cost and introducing error accumulation, or rely on massive vision-language models (VLMs) that are expensive and still inaccurate on many scr",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 39,
-      "arxiv_id": "2609.24058"
     },
     {
       "id": "yt:hygMRgnDD7w",
@@ -381,7 +380,7 @@
       "summary": "Manipulation policies must know which objects matter and where they are, yet the pretrained backbones that current robot foundation models build on, from language in vision-language-action models (VLAs) to video generation in world-action models (WAMs), do not directly require this metric grounding, leaving it to be learned implicitly from robot demonstrations. We propose Grounded Action Models (G",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 80,
+      "upvotes": 82,
       "arxiv_id": "2609.23863"
     },
     {
@@ -406,7 +405,7 @@
       "summary": "Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and provide appropriate instructional support. Existing educational language models often focus on either problem solving or tutoring, with training mixtures organized by source or task rather than capability. We present OmniEdu, an open family of foundation models for K-12 learning a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 154,
+      "upvotes": 160,
       "arxiv_id": "2609.23088"
     },
     {
@@ -419,8 +418,21 @@
       "summary": "Humans can seamlessly adapt to both physical and digital worlds, suggesting that while a digital-to-real gap exists in embodiment, environment and task, human intelligence itself may transfer across this gap. This naturally raises a fundamental question: can the intelligence of vision-language models (VLMs) similarly generalize from the digital world to the physical world for robotic control? We i",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 111,
+      "upvotes": 113,
       "arxiv_id": "2609.22966"
+    },
+    {
+      "id": "paper:2609.23038",
+      "title": "Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World",
+      "url": "https://huggingface.co/papers/2609.23038",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-19T00:00:00+00:00",
+      "summary": "Spatial reasoning is essential for vision-language models (VLMs) to understand and act in the physical world. Reasoning in dynamic environments requires VLMs to perceive local state transitions caused by object motion and viewpoint changes and integrate them over long trajectories to maintain an updated spatial state, yet existing VLMs remain limited in both capabilities. Current spatial training ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 43,
+      "arxiv_id": "2609.23038"
     },
     {
       "id": "yt:Z4no-hhcuas",
@@ -528,7 +540,7 @@
       "summary": "We define OmniVChat (Omni Video Chat) as the task of native audio-visual dialogue between a user and an omni model. In OmniVChat, omni models directly and simultaneously receive audio and video from a user and return text. The user's query is embedded in the audio and video, without a separate text question, external captioning, or speech recognition. Direct audio-visual input reduces external lat",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 111,
+      "upvotes": 141,
       "arxiv_id": "2609.21465"
     },
     {
@@ -989,18 +1001,6 @@
       "channel": "Two Minute Papers"
     },
     {
-      "id": "yt:VmT7SU81tuM",
-      "title": "GLM 5.3 Flash Is HERE – Is THIS Better Than the FULL GLM 5.3?",
-      "url": "https://www.youtube.com/watch?v=VmT7SU81tuM",
-      "source": "Bijan Bowen",
-      "category": "videos",
-      "published": "2026-08-27T20:50:51+00:00",
-      "summary": "Timestamps: 00:00 - Intro 00:48 - First Look 01:10 - Domestic Chip Serving 02:17 - Technical Look 03:53 - Test Setup Info 04:51 - Browser OS Test 10:41 - Wrestling Game Test 13:43 - C++ Replica Test 16:59 - C++ Skate Game Test 18:46 - Model Training Test 28:00 - Blender & Godot Street Yeet Test 31:0",
-      "thumbnail": "https://i3.ytimg.com/vi/VmT7SU81tuM/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Bijan Bowen"
-    },
-    {
       "id": "yt:KL9_1GbmCic",
       "title": "Sam Altman :‘AGI in 2026’, just as Models Start to [Mis]Train Themselves",
       "url": "https://www.youtube.com/watch?v=KL9_1GbmCic",
@@ -1041,7 +1041,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T10:45:28.938871+00:00",
+      "fetched_at": "2026-09-24T15:35:57.222217+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1123,7 +1123,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T10:45:28.941112+00:00",
+      "fetched_at": "2026-09-24T15:35:57.224427+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1205,7 +1205,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T10:45:28.943800+00:00",
+      "fetched_at": "2026-09-24T15:35:57.227025+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1287,7 +1287,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T10:45:28.944770+00:00",
+      "fetched_at": "2026-09-24T15:35:57.228000+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1355,7 +1355,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T10:45:28.950583+00:00",
+      "fetched_at": "2026-09-24T15:35:57.233667+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1437,7 +1437,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T10:45:28.950604+00:00",
+      "fetched_at": "2026-09-24T15:35:57.233682+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1505,7 +1505,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T10:45:28.951641+00:00",
+      "fetched_at": "2026-09-24T15:35:57.234774+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1587,7 +1587,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-24T10:45:28.984160+00:00",
+      "fetched_at": "2026-09-24T15:35:57.268237+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1669,7 +1669,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-24T10:45:29.022025+00:00",
+      "fetched_at": "2026-09-24T15:35:57.304721+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1751,7 +1751,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T10:45:29.034646+00:00",
+      "fetched_at": "2026-09-24T15:35:57.317203+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1833,7 +1833,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T10:45:29.039363+00:00",
+      "fetched_at": "2026-09-24T15:35:57.321895+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1915,7 +1915,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T10:45:29.047412+00:00",
+      "fetched_at": "2026-09-24T15:35:57.329679+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1997,7 +1997,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T10:45:29.049395+00:00",
+      "fetched_at": "2026-09-24T15:35:57.331637+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2079,55 +2079,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-24T10:45:13.536562+00:00"
+        "checked_at": "2026-09-24T15:35:40.182095+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-24T10:45:12.511212+00:00"
+        "checked_at": "2026-09-24T15:35:39.145035+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-24T10:45:16.676856+00:00"
+        "checked_at": "2026-09-24T15:35:43.511791+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-24T10:45:18.923027+00:00"
+        "checked_at": "2026-09-24T15:35:45.792683+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-24T10:45:14.554878+00:00"
+        "checked_at": "2026-09-24T15:35:41.208923+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-24T10:45:15.574898+00:00"
+        "checked_at": "2026-09-24T15:35:42.238647+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-24T10:45:17.818016+00:00"
+        "checked_at": "2026-09-24T15:35:44.559834+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-24T10:45:29.051103+00:00"
+      "checked_at": "2026-09-24T15:35:57.333518+00:00"
     }
   }
 }
