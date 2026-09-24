@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T19:37:15.365510+00:00",
+  "generated_at": "2026-09-24T22:50:03.669523+00:00",
   "items": [
     {
       "id": "yt:jGD_UR4wMJc",
@@ -215,7 +215,7 @@
       "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run. Making these decisions well is becoming a key capability for both engineering and research agents. We refer to the ability to make good long-horizon decisions as the taste of an agent. While exis",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 118,
+      "upvotes": 119,
       "arxiv_id": "2609.25804"
     },
     {
@@ -228,7 +228,7 @@
       "summary": "Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, how individuals perceive one another, what information is shared by the group, and how states change over time. Recent studies on multi-party dialogue benchmarks show that existing general-purpose LLM m",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 76,
+      "upvotes": 77,
       "arxiv_id": "2609.26780"
     },
     {
@@ -289,7 +289,7 @@
       "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 196,
+      "upvotes": 199,
       "arxiv_id": "2609.24972"
     },
     {
@@ -315,7 +315,7 @@
       "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack language instructions, or rely on high-variance online rollouts. To address these challenges, we introdu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 129,
+      "upvotes": 130,
       "arxiv_id": "2609.25001"
     },
     {
@@ -341,7 +341,7 @@
       "summary": "Retrieval-Augmented Generation (RAG) systems over enterprise knowledge bases must ingest heterogeneous document formats -- PDFs, Word documents, presentations, and scans -- whose content is locked inside complex visual layouts, multi-column pages, and dense tables. Rule-based extraction and OCR destroy reading order, flatten tables, and lose heading hierarchy, while fully agentic chunking over ext",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 63,
+      "upvotes": 64,
       "arxiv_id": "2609.24220"
     },
     {
@@ -354,7 +354,7 @@
       "summary": "Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or ordered events. In this paper, we present VideoGen-Agent, a multimodal agent trained through multitask agentic reinforcement learning to use external tools ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 62,
+      "upvotes": 63,
       "arxiv_id": "2609.24997"
     },
     {
@@ -367,7 +367,7 @@
       "summary": "We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator locates the first inappropriate token and either picks a substitute from the model's candidate tokens or types the correct text via free-form editing. The system then truncates ever",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 52,
+      "upvotes": 54,
       "arxiv_id": "2609.24983"
     },
     {
@@ -392,7 +392,7 @@
       "summary": "Manipulation policies must know which objects matter and where they are, yet the pretrained backbones that current robot foundation models build on, from language in vision-language-action models (VLAs) to video generation in world-action models (WAMs), do not directly require this metric grounding, leaving it to be learned implicitly from robot demonstrations. We propose Grounded Action Models (G",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 84,
+      "upvotes": 85,
       "arxiv_id": "2609.23863"
     },
     {
@@ -405,7 +405,7 @@
       "summary": "Repository-level software engineering (SWE) comprises heterogeneous task categories, whose progress under pooled agentic reinforcement learning can be uneven: gains in some categories coincide with regressions in others, while aggregate resolution obscures these changes. Motivated by this category see-saw, we develop a category-aware expert-training and policy-integration framework. Executable tas",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 45,
+      "upvotes": 47,
       "arxiv_id": "2609.23377"
     },
     {
@@ -430,7 +430,7 @@
       "summary": "Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and provide appropriate instructional support. Existing educational language models often focus on either problem solving or tutoring, with training mixtures organized by source or task rather than capability. We present OmniEdu, an open family of foundation models for K-12 learning a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 164,
+      "upvotes": 167,
       "arxiv_id": "2609.23088"
     },
     {
@@ -443,7 +443,7 @@
       "summary": "Humans can seamlessly adapt to both physical and digital worlds, suggesting that while a digital-to-real gap exists in embodiment, environment and task, human intelligence itself may transfer across this gap. This naturally raises a fundamental question: can the intelligence of vision-language models (VLMs) similarly generalize from the digital world to the physical world for robotic control? We i",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 115,
+      "upvotes": 116,
       "arxiv_id": "2609.22966"
     },
     {
@@ -1041,7 +1041,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T19:37:15.251480+00:00",
+      "fetched_at": "2026-09-24T22:50:03.557596+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1123,7 +1123,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T19:37:15.253631+00:00",
+      "fetched_at": "2026-09-24T22:50:03.559824+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1205,13 +1205,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T19:37:15.256311+00:00",
+      "fetched_at": "2026-09-24T22:50:03.562449+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Minimax H3 Max (post-trained by fal)",
           "creator": "Fal",
-          "score": 1194.0,
+          "score": 1193.0,
           "meta": "Aug 2026 · $2.40 /min"
         },
         {
@@ -1230,17 +1230,17 @@
         },
         {
           "rank": 4,
-          "name": "HiDream-O1-Video",
-          "creator": "HiDream",
+          "name": "Dreamina Seedance 2.0 720p",
+          "creator": "ByteDance Seed",
           "score": 1176.0,
-          "meta": "Aug 2026 · $5.80 /min"
+          "meta": "Mar 2026 · $9.07 /min"
         },
         {
           "rank": 5,
-          "name": "Dreamina Seedance 2.0 720p",
-          "creator": "ByteDance Seed",
+          "name": "HiDream-O1-Video",
+          "creator": "HiDream",
           "score": 1175.0,
-          "meta": "Mar 2026 · $9.07 /min"
+          "meta": "Aug 2026 · $5.80 /min"
         },
         {
           "rank": 6,
@@ -1260,21 +1260,21 @@
           "rank": 8,
           "name": "grok-imagine-video-1.5",
           "creator": "SpaceXAI",
-          "score": 1099.0,
+          "score": 1098.0,
           "meta": "May 2026 · $8.40 /min"
         },
         {
           "rank": 9,
           "name": "MAGI-2 Preview Open Weights",
           "creator": "Sand.ai",
-          "score": 1096.0,
+          "score": 1097.0,
           "meta": "Aug 2026 · Coming soon"
         },
         {
           "rank": 10,
           "name": "HappyHorse-1.0",
           "creator": "Alibaba-ATH",
-          "score": 1083.0,
+          "score": 1084.0,
           "meta": "Apr 2026 · $13.20 /min"
         }
       ]
@@ -1287,7 +1287,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T19:37:15.257263+00:00",
+      "fetched_at": "2026-09-24T22:50:03.563401+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1300,14 +1300,14 @@
           "rank": 2,
           "name": "MAGI-2 Preview Open Weights",
           "creator": "Sand.ai",
-          "score": 1096.0,
+          "score": 1097.0,
           "meta": "Aug 2026 · Coming soon"
         },
         {
           "rank": 3,
           "name": "LTX-2.5 Fast Open Weights",
           "creator": "Lightricks",
-          "score": 1037.0,
+          "score": 1036.0,
           "meta": "Aug 2026 · $7.80 /min"
         },
         {
@@ -1321,14 +1321,14 @@
           "rank": 5,
           "name": "LTX-2.3 Pro Open Weights",
           "creator": "Lightricks",
-          "score": 948.0,
+          "score": 947.0,
           "meta": "Mar 2026 · $4.80 /min"
         },
         {
           "rank": 6,
           "name": "LTX-2.3 Fast Open Weights",
           "creator": "Lightricks",
-          "score": 946.0,
+          "score": 947.0,
           "meta": "Mar 2026 · $2.40 /min"
         },
         {
@@ -1355,18 +1355,18 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T19:37:15.262876+00:00",
+      "fetched_at": "2026-09-24T22:50:03.569314+00:00",
       "entries": [
         {
           "rank": 1,
-          "score": 1369.0,
+          "score": 1371.0,
           "name": "Gemini Omni Flash",
           "creator": "Google",
           "meta": ""
         },
         {
           "rank": 2,
-          "score": 1362.0,
+          "score": 1364.0,
           "name": "Wan 3.0",
           "creator": "Alibaba",
           "meta": ""
@@ -1380,21 +1380,21 @@
         },
         {
           "rank": 4,
-          "score": 1355.0,
+          "score": 1356.0,
           "name": "MiniMax H3",
           "creator": "MiniMax",
           "meta": ""
         },
         {
           "rank": 5,
-          "score": 1340.0,
+          "score": 1341.0,
           "name": "PixVerse V6",
           "creator": "PixVerse",
           "meta": ""
         },
         {
           "rank": 6,
-          "score": 1338.0,
+          "score": 1339.0,
           "name": "Dreamina Seedance 2.0 720p",
           "creator": "ByteDance Seed",
           "meta": ""
@@ -1408,7 +1408,7 @@
         },
         {
           "rank": 8,
-          "score": 1328.0,
+          "score": 1329.0,
           "name": "grok-imagine-video",
           "creator": "SpaceXAI",
           "meta": ""
@@ -1437,7 +1437,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T19:37:15.262890+00:00",
+      "fetched_at": "2026-09-24T22:50:03.569329+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1450,14 +1450,14 @@
           "rank": 2,
           "name": "MAGI-2 Preview Open Weights",
           "creator": "Sand.ai",
-          "score": 1096.0,
+          "score": 1097.0,
           "meta": "Aug 2026 · Coming soon"
         },
         {
           "rank": 3,
           "name": "LTX-2.5 Fast Open Weights",
           "creator": "Lightricks",
-          "score": 1037.0,
+          "score": 1036.0,
           "meta": "Aug 2026 · $7.80 /min"
         },
         {
@@ -1471,14 +1471,14 @@
           "rank": 5,
           "name": "LTX-2.3 Pro Open Weights",
           "creator": "Lightricks",
-          "score": 948.0,
+          "score": 947.0,
           "meta": "Mar 2026 · $4.80 /min"
         },
         {
           "rank": 6,
           "name": "LTX-2.3 Fast Open Weights",
           "creator": "Lightricks",
-          "score": 946.0,
+          "score": 947.0,
           "meta": "Mar 2026 · $2.40 /min"
         },
         {
@@ -1505,7 +1505,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T19:37:15.264005+00:00",
+      "fetched_at": "2026-09-24T22:50:03.570502+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1587,7 +1587,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-24T19:37:15.298359+00:00",
+      "fetched_at": "2026-09-24T22:50:03.603692+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1669,7 +1669,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-24T19:37:15.336762+00:00",
+      "fetched_at": "2026-09-24T22:50:03.641861+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1736,10 +1736,10 @@
         },
         {
           "rank": 10,
-          "name": "Qwen3.8 27B (xhigh)",
-          "creator": "Alibaba",
+          "name": "GLM-5.3 (low)",
+          "creator": "Z AI",
           "score": 34.0,
-          "meta": "256k ctx"
+          "meta": "1M ctx"
         }
       ]
     },
@@ -1751,7 +1751,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T19:37:15.348997+00:00",
+      "fetched_at": "2026-09-24T22:50:03.653478+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1833,7 +1833,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T19:37:15.353761+00:00",
+      "fetched_at": "2026-09-24T22:50:03.657997+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1915,7 +1915,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T19:37:15.361821+00:00",
+      "fetched_at": "2026-09-24T22:50:03.665507+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1997,7 +1997,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-24T19:37:15.363799+00:00",
+      "fetched_at": "2026-09-24T22:50:03.667480+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2079,55 +2079,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-24T19:36:58.475041+00:00"
+        "checked_at": "2026-09-24T22:49:46.933582+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-24T19:36:57.268407+00:00"
+        "checked_at": "2026-09-24T22:49:45.896137+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-24T19:37:01.859824+00:00"
+        "checked_at": "2026-09-24T22:49:50.023257+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-24T19:37:04.110117+00:00"
+        "checked_at": "2026-09-24T22:49:52.284471+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-24T19:36:59.631222+00:00"
+        "checked_at": "2026-09-24T22:49:47.964147+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-24T19:37:00.665182+00:00"
+        "checked_at": "2026-09-24T22:49:48.992740+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-24T19:37:02.908410+00:00"
+        "checked_at": "2026-09-24T22:49:51.065996+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-24T19:37:15.365430+00:00"
+      "checked_at": "2026-09-24T22:50:03.669421+00:00"
     }
   }
 }
