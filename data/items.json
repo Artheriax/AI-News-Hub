@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T12:01:49.441383+00:00",
+  "generated_at": "2026-09-25T17:23:40.813898+00:00",
   "items": [
     {
       "id": "yt:h5QwrHhW28Q",
@@ -86,6 +86,19 @@
       "channel": "AI Search"
     },
     {
+      "id": "paper:2609.29845",
+      "title": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+      "url": "https://huggingface.co/papers/2609.29845",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-24T00:00:00+00:00",
+      "summary": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions. We term this the Superposition Linearity Hypothesis. We provide evidence that superposition is an intrinsic property o",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 44,
+      "arxiv_id": "2609.29845"
+    },
+    {
       "id": "yt:LrUCo_7jor4",
       "title": "GPT-6 Sol Is VERY GOOD – Is THIS an Opus 5.5 Competitor?",
       "url": "https://www.youtube.com/watch?v=LrUCo_7jor4",
@@ -143,7 +156,7 @@
       "summary": "Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation models, a paradigmatic class of current world models, have begun to show emerged reasoning abilities, making them ideal candidates for building human-like physical intelligence. Do video models have emerged object permanence in them? If not, could we train them with a core-cognition in",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 120,
+      "upvotes": 153,
       "arxiv_id": "2609.28654"
     },
     {
@@ -252,7 +265,7 @@
       "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run. Making these decisions well is becoming a key capability for both engineering and research agents. We refer to the ability to make good long-horizon decisions as the taste of an agent. While exis",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 128,
+      "upvotes": 134,
       "arxiv_id": "2609.25804"
     },
     {
@@ -265,7 +278,7 @@
       "summary": "Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, how individuals perceive one another, what information is shared by the group, and how states change over time. Recent studies on multi-party dialogue benchmarks show that existing general-purpose LLM m",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 81,
+      "upvotes": 82,
       "arxiv_id": "2609.26780"
     },
     {
@@ -339,7 +352,7 @@
       "summary": "Generating Scalable Vector Graphics (SVG) code from natural-language instructions is an open-ended task without absolute visual ground truth, leaving both evaluation and policy optimization without a faithful signal. Scalar metrics (CLIP, Aesthetic) calibrated on natural images transfer poorly to stylized vector content, and reusing them as RL rewards triggers reward hacking. We address both limit",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 73,
+      "upvotes": 78,
       "arxiv_id": "2609.25270"
     },
     {
@@ -391,7 +404,7 @@
       "summary": "We present a compact geometry-native latent space as a shared foundation for perception and generation. Visual generators can produce photorealistic frames without preserving a consistent 3D scene. We argue that this is not only a modeling problem but also a representation problem: generators typically evolve appearance-centric latents, while perception models recover geometry in a semantically ri",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 47,
+      "upvotes": 49,
       "arxiv_id": "2609.24981"
     },
     {
@@ -404,7 +417,7 @@
       "summary": "In this report, we introduce Ovis-Embedding, a state-of-the-art omni-modal embedding family built on native integration of text, image, video, and audio. Instead of assembling separate modality towers, Ovis-Embedding uses a shared multimodal backbone to encode different modalities in a common representation space. Specifically, we make three key advances: (1) native omni-modal initialization: we a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 44,
+      "upvotes": 45,
       "arxiv_id": "2609.25165"
     },
     {
@@ -417,21 +430,8 @@
       "summary": "Multilingual scene text recognition (STR) remains challenging due to the scarcity of training data for most languages and the difficulty of serving diverse scripts within a single model. Existing solutions either deploy one recognizer per language, inflating cost and introducing error accumulation, or rely on massive vision-language models (VLMs) that are expensive and still inaccurate on many scr",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 41,
+      "upvotes": 42,
       "arxiv_id": "2609.24058"
-    },
-    {
-      "id": "paper:2609.24308",
-      "title": "HappyWorld-Bench",
-      "url": "https://huggingface.co/papers/2609.24308",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-21T00:00:00+00:00",
-      "summary": "Evaluating world models requires assessing both the quality of the worlds they generate and their consistency and responsiveness under exploration, interaction, and modification. We introduce HappyWorld-Bench, a comprehensive benchmark that evaluates whether generated worlds remain reliable as agents interact with them. Our design is built on a hierarchical capability framework of six world capabi",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 40,
-      "arxiv_id": "2609.24308"
     },
     {
       "id": "yt:hygMRgnDD7w",
@@ -1023,18 +1023,6 @@
       "thumbnail": "https://i4.ytimg.com/vi/KL9_1GbmCic/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Explained"
-    },
-    {
-      "id": "yt:L9mMfAFwbl4",
-      "title": "DeepSeek’s New AI System Shouldn’t Be Possible",
-      "url": "https://www.youtube.com/watch?v=L9mMfAFwbl4",
-      "source": "Two Minute Papers",
-      "category": "videos",
-      "published": "2026-08-26T13:10:13+00:00",
-      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 DeepSeek Harness + paper are available here: https://deepseek.com/harness/en/ https://github.com/cordiverse/paper 🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible: Adam Br",
-      "thumbnail": "https://i1.ytimg.com/vi/L9mMfAFwbl4/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Two Minute Papers"
     }
   ],
   "featured": [
@@ -1053,7 +1041,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T12:01:49.332617+00:00",
+      "fetched_at": "2026-09-25T17:23:40.725938+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1135,7 +1123,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T12:01:49.334838+00:00",
+      "fetched_at": "2026-09-25T17:23:40.727801+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1217,7 +1205,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T12:01:49.337452+00:00",
+      "fetched_at": "2026-09-25T17:23:40.729923+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1299,7 +1287,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T12:01:49.338395+00:00",
+      "fetched_at": "2026-09-25T17:23:40.730769+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1367,7 +1355,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T12:01:49.344011+00:00",
+      "fetched_at": "2026-09-25T17:23:40.735808+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1449,7 +1437,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T12:01:49.344026+00:00",
+      "fetched_at": "2026-09-25T17:23:40.735825+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1517,7 +1505,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T12:01:49.345047+00:00",
+      "fetched_at": "2026-09-25T17:23:40.736610+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1599,7 +1587,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-25T12:01:49.377251+00:00",
+      "fetched_at": "2026-09-25T17:23:40.763054+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1681,7 +1669,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-25T12:01:49.413449+00:00",
+      "fetched_at": "2026-09-25T17:23:40.792970+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1763,7 +1751,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T12:01:49.425393+00:00",
+      "fetched_at": "2026-09-25T17:23:40.801955+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1845,7 +1833,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T12:01:49.429900+00:00",
+      "fetched_at": "2026-09-25T17:23:40.805488+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1927,7 +1915,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T12:01:49.437597+00:00",
+      "fetched_at": "2026-09-25T17:23:40.811385+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2009,7 +1997,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T12:01:49.439502+00:00",
+      "fetched_at": "2026-09-25T17:23:40.812876+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2091,55 +2079,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-25T12:01:33.600617+00:00"
+        "checked_at": "2026-09-25T17:23:24.765131+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-25T12:01:32.573766+00:00"
+        "checked_at": "2026-09-25T17:23:23.728254+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-25T12:01:36.661082+00:00"
+        "checked_at": "2026-09-25T17:23:27.843409+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-25T12:01:38.853733+00:00"
+        "checked_at": "2026-09-25T17:23:30.075514+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-25T12:01:34.620573+00:00"
+        "checked_at": "2026-09-25T17:23:25.789592+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-25T12:01:35.641412+00:00"
+        "checked_at": "2026-09-25T17:23:26.816866+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-25T12:01:37.692700+00:00"
+        "checked_at": "2026-09-25T17:23:28.885261+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-25T12:01:49.441280+00:00"
+      "checked_at": "2026-09-25T17:23:40.813803+00:00"
     }
   }
 }
