@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T17:23:40.813898+00:00",
+  "generated_at": "2026-09-25T20:36:36.539347+00:00",
   "items": [
     {
       "id": "yt:h5QwrHhW28Q",
@@ -95,7 +95,7 @@
       "summary": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions. We term this the Superposition Linearity Hypothesis. We provide evidence that superposition is an intrinsic property o",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 44,
+      "upvotes": 53,
       "arxiv_id": "2609.29845"
     },
     {
@@ -156,7 +156,7 @@
       "summary": "Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation models, a paradigmatic class of current world models, have begun to show emerged reasoning abilities, making them ideal candidates for building human-like physical intelligence. Do video models have emerged object permanence in them? If not, could we train them with a core-cognition in",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 153,
+      "upvotes": 154,
       "arxiv_id": "2609.28654"
     },
     {
@@ -265,7 +265,7 @@
       "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run. Making these decisions well is becoming a key capability for both engineering and research agents. We refer to the ability to make good long-horizon decisions as the taste of an agent. While exis",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 134,
+      "upvotes": 135,
       "arxiv_id": "2609.25804"
     },
     {
@@ -352,21 +352,8 @@
       "summary": "Generating Scalable Vector Graphics (SVG) code from natural-language instructions is an open-ended task without absolute visual ground truth, leaving both evaluation and policy optimization without a faithful signal. Scalar metrics (CLIP, Aesthetic) calibrated on natural images transfer poorly to stylized vector content, and reusing them as RL rewards triggers reward hacking. We address both limit",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 78,
+      "upvotes": 79,
       "arxiv_id": "2609.25270"
-    },
-    {
-      "id": "paper:2609.24997",
-      "title": "VideoGen-Agent: Reinforcing Video Generation Agents",
-      "url": "https://huggingface.co/papers/2609.24997",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-21T00:00:00+00:00",
-      "summary": "Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or ordered events. In this paper, we present VideoGen-Agent, a multimodal agent trained through multitask agentic reinforcement learning to use external tools ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 66,
-      "arxiv_id": "2609.24997"
     },
     {
       "id": "paper:2609.24220",
@@ -404,7 +391,7 @@
       "summary": "We present a compact geometry-native latent space as a shared foundation for perception and generation. Visual generators can produce photorealistic frames without preserving a consistent 3D scene. We argue that this is not only a modeling problem but also a representation problem: generators typically evolve appearance-centric latents, while perception models recover geometry in a semantically ri",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 49,
+      "upvotes": 50,
       "arxiv_id": "2609.24981"
     },
     {
@@ -417,7 +404,7 @@
       "summary": "In this report, we introduce Ovis-Embedding, a state-of-the-art omni-modal embedding family built on native integration of text, image, video, and audio. Instead of assembling separate modality towers, Ovis-Embedding uses a shared multimodal backbone to encode different modalities in a common representation space. Specifically, we make three key advances: (1) native omni-modal initialization: we a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 45,
+      "upvotes": 46,
       "arxiv_id": "2609.25165"
     },
     {
@@ -432,6 +419,19 @@
       "kind": "paper",
       "upvotes": 42,
       "arxiv_id": "2609.24058"
+    },
+    {
+      "id": "paper:2609.24308",
+      "title": "HappyWorld-Bench",
+      "url": "https://huggingface.co/papers/2609.24308",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-21T00:00:00+00:00",
+      "summary": "Evaluating world models requires assessing both the quality of the worlds they generate and their consistency and responsiveness under exploration, interaction, and modification. We introduce HappyWorld-Bench, a comprehensive benchmark that evaluates whether generated worlds remain reliable as agents interact with them. Our design is built on a hierarchical capability framework of six world capabi",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 40,
+      "arxiv_id": "2609.24308"
     },
     {
       "id": "yt:hygMRgnDD7w",
@@ -1041,7 +1041,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T17:23:40.725938+00:00",
+      "fetched_at": "2026-09-25T20:36:36.425889+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1123,77 +1123,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T17:23:40.727801+00:00",
+      "fetched_at": "2026-09-25T20:36:36.428229+00:00",
       "entries": [
         {
           "rank": 1,
+          "name": "Qwen-Image-2.1 Open Weights",
+          "creator": "Alibaba",
+          "score": 1063.0,
+          "meta": "Sep 2026 · No API available"
+        },
+        {
+          "rank": 2,
           "name": "HunyuanImage 3.0 Instruct (Fal) Open Weights",
           "creator": "Tencent",
           "score": 1028.0,
           "meta": "Jan 2026 · $90.0 /1k imgs"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Qwen Image Edit Plus 2511 Open Weights",
           "creator": "Alibaba",
           "score": 1025.0,
           "meta": "Nov 2025 · $60.0 /1k imgs"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "FLUX.2 [klein] 9B Open Weights",
           "creator": "Black Forest Labs",
           "score": 1014.0,
           "meta": "Jan 2026 · $17.0 /1k imgs"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "FLUX.2 [dev] Turbo Open Weights",
           "creator": "Fal",
           "score": 1001.0,
           "meta": "Dec 2025 · $8.0 /1k imgs"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "FLUX.2 [dev] Open Weights",
           "creator": "Black Forest Labs",
           "score": 1000.0,
           "meta": "Nov 2025 · $24.0 /1k imgs"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "FLUX.2 [dev] Flash Open Weights",
           "creator": "Fal",
           "score": 997.0,
           "meta": "Dec 2025 · $5.0 /1k imgs"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Qwen Image Edit Plus 2509 Open Weights",
           "creator": "Alibaba",
           "score": 981.0,
           "meta": "Sep 2025 · $30.0 /1k imgs"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "FLUX.2 [klein] Base 9B Open Weights",
           "creator": "Black Forest Labs",
           "score": 974.0,
           "meta": "Jan 2026 · $22.0 /1k imgs"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "HiDream-O1-Image Open Weights",
           "creator": "HiDream",
           "score": 952.0,
           "meta": "May 2026 · $10.0 /1k imgs"
-        },
-        {
-          "rank": 10,
-          "name": "FLUX.2 [klein] 4B Open Weights",
-          "creator": "Black Forest Labs",
-          "score": 949.0,
-          "meta": "Jan 2026 · $15.0 /1k imgs"
         }
       ]
     },
@@ -1205,7 +1205,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T17:23:40.729923+00:00",
+      "fetched_at": "2026-09-25T20:36:36.430866+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1287,7 +1287,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T17:23:40.730769+00:00",
+      "fetched_at": "2026-09-25T20:36:36.431836+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1355,7 +1355,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T17:23:40.735808+00:00",
+      "fetched_at": "2026-09-25T20:36:36.437827+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1437,7 +1437,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T17:23:40.735825+00:00",
+      "fetched_at": "2026-09-25T20:36:36.437842+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1505,7 +1505,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T17:23:40.736610+00:00",
+      "fetched_at": "2026-09-25T20:36:36.439078+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1587,7 +1587,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-25T17:23:40.763054+00:00",
+      "fetched_at": "2026-09-25T20:36:36.473804+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1669,7 +1669,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-25T17:23:40.792970+00:00",
+      "fetched_at": "2026-09-25T20:36:36.511319+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1751,7 +1751,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T17:23:40.801955+00:00",
+      "fetched_at": "2026-09-25T20:36:36.523259+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1778,14 +1778,14 @@
           "rank": 4,
           "name": "Grok Imagine Image 2.0",
           "creator": "SpaceXAI",
-          "score": 1155.0,
+          "score": 1156.0,
           "meta": "Aug 2026 · $60.0 /1k imgs"
         },
         {
           "rank": 5,
           "name": "MAI-Image-2.6",
           "creator": "Microsoft AI",
-          "score": 1148.0,
+          "score": 1147.0,
           "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
@@ -1806,7 +1806,7 @@
           "rank": 8,
           "name": "GPT Image 1.5 (high)",
           "creator": "OpenAI",
-          "score": 1104.0,
+          "score": 1103.0,
           "meta": "Dec 2025 · $133.0 /1k imgs"
         },
         {
@@ -1833,77 +1833,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T17:23:40.805488+00:00",
+      "fetched_at": "2026-09-25T20:36:36.528003+00:00",
       "entries": [
         {
           "rank": 1,
+          "name": "Qwen-Image-2.1 Open Weights",
+          "creator": "Alibaba",
+          "score": 1042.0,
+          "meta": "Sep 2026 · No API available"
+        },
+        {
+          "rank": 2,
           "name": "Ideogram 4.0 (Quality) Open Weights",
           "creator": "Ideogram",
           "score": 1010.0,
           "meta": "Jun 2026 · $100.0 /1k imgs"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Ideogram 4.0 Open Weights",
           "creator": "Ideogram",
-          "score": 1004.0,
+          "score": 1003.0,
           "meta": "Jun 2026 · $60.0 /1k imgs"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "FLUX.2 [dev] Open Weights",
           "creator": "Black Forest Labs",
           "score": 1000.0,
           "meta": "Nov 2025 · $12.0 /1k imgs"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "FLUX.2 [dev] Turbo Open Weights",
           "creator": "Fal",
-          "score": 999.0,
+          "score": 998.0,
           "meta": "Dec 2025 · $8.0 /1k imgs"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Qwen Image Max 2512 Open Weights",
           "creator": "Alibaba",
           "score": 998.0,
           "meta": "Dec 2025 · $20.0 /1k imgs"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Ming-Image-0.1-Design Open Weights",
           "creator": "InclusionAI",
-          "score": 997.0,
+          "score": 996.0,
           "meta": "Sep 2026 · $30.0 /1k imgs"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Cosmos3-Super-Text2Image (agentic) Open Weights",
           "creator": "NVIDIA",
           "score": 995.0,
-          "meta": "May 2026 · Coming soon"
-        },
-        {
-          "rank": 8,
-          "name": "Cosmos3-Super-Text2Image Open Weights",
-          "creator": "NVIDIA",
-          "score": 986.0,
-          "meta": "May 2026 · Coming soon"
+          "meta": "May 2026 · No API available"
         },
         {
           "rank": 9,
+          "name": "Cosmos3-Super-Text2Image Open Weights",
+          "creator": "NVIDIA",
+          "score": 985.0,
+          "meta": "May 2026 · No API available"
+        },
+        {
+          "rank": 10,
           "name": "Ideogram 4.0 Fast (Quality) Open Weights",
           "creator": "Fal",
           "score": 985.0,
           "meta": "Jul 2026 · $17.5 /1k imgs"
-        },
-        {
-          "rank": 10,
-          "name": "FLUX.2 [dev] Flash Open Weights",
-          "creator": "Fal",
-          "score": 985.0,
-          "meta": "Dec 2025 · $5.0 /1k imgs"
         }
       ]
     },
@@ -1915,7 +1915,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T17:23:40.811385+00:00",
+      "fetched_at": "2026-09-25T20:36:36.535404+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1936,7 +1936,7 @@
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Alibaba",
           "score": 1259.0,
-          "meta": "Sept 2026 · $27.6 /1M chars"
+          "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
           "rank": 4,
@@ -1997,7 +1997,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T17:23:40.812876+00:00",
+      "fetched_at": "2026-09-25T20:36:36.537292+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2079,55 +2079,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-25T17:23:24.765131+00:00"
+        "checked_at": "2026-09-25T20:36:20.238028+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-25T17:23:23.728254+00:00"
+        "checked_at": "2026-09-25T20:36:19.062093+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-25T17:23:27.843409+00:00"
+        "checked_at": "2026-09-25T20:36:23.292530+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-25T17:23:30.075514+00:00"
+        "checked_at": "2026-09-25T20:36:25.614788+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-25T17:23:25.789592+00:00"
+        "checked_at": "2026-09-25T20:36:21.254709+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-25T17:23:26.816866+00:00"
+        "checked_at": "2026-09-25T20:36:22.274556+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-25T17:23:28.885261+00:00"
+        "checked_at": "2026-09-25T20:36:24.499499+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-25T17:23:40.813803+00:00"
+      "checked_at": "2026-09-25T20:36:36.539251+00:00"
     }
   }
 }
