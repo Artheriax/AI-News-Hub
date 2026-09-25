@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-09-25T20:36:36.539347+00:00",
+  "generated_at": "2026-09-25T23:42:24.996944+00:00",
   "items": [
+    {
+      "id": "yt:zICv3IJaAfQ",
+      "title": "DeepSeek is CRAZY",
+      "url": "https://www.youtube.com/shorts/zICv3IJaAfQ",
+      "source": "Matthew Berman",
+      "category": "videos",
+      "published": "2026-09-25T21:05:41+00:00",
+      "summary": "Explore DigitalOcean's model catalog: https://do.co/matthewberman #ad Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberman_ai 👉🏻 Disco",
+      "thumbnail": "https://i3.ytimg.com/vi/zICv3IJaAfQ/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Matthew Berman"
+    },
     {
       "id": "yt:h5QwrHhW28Q",
       "title": "Google's Project Suncatcher IS SENDING AI TO SPACE!?, Sonnet 5.5, $500 ChatGPT Plan & More! AI NEWS",
@@ -95,7 +107,7 @@
       "summary": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions. We term this the Superposition Linearity Hypothesis. We provide evidence that superposition is an intrinsic property o",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 53,
+      "upvotes": 55,
       "arxiv_id": "2609.29845"
     },
     {
@@ -156,7 +168,7 @@
       "summary": "Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation models, a paradigmatic class of current world models, have begun to show emerged reasoning abilities, making them ideal candidates for building human-like physical intelligence. Do video models have emerged object permanence in them? If not, could we train them with a core-cognition in",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 154,
+      "upvotes": 155,
       "arxiv_id": "2609.28654"
     },
     {
@@ -265,7 +277,7 @@
       "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run. Making these decisions well is becoming a key capability for both engineering and research agents. We refer to the ability to make good long-horizon decisions as the taste of an agent. While exis",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 135,
+      "upvotes": 136,
       "arxiv_id": "2609.25804"
     },
     {
@@ -352,7 +364,7 @@
       "summary": "Generating Scalable Vector Graphics (SVG) code from natural-language instructions is an open-ended task without absolute visual ground truth, leaving both evaluation and policy optimization without a faithful signal. Scalar metrics (CLIP, Aesthetic) calibrated on natural images transfer poorly to stylized vector content, and reusing them as RL rewards triggers reward hacking. We address both limit",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 79,
+      "upvotes": 82,
       "arxiv_id": "2609.25270"
     },
     {
@@ -404,7 +416,7 @@
       "summary": "In this report, we introduce Ovis-Embedding, a state-of-the-art omni-modal embedding family built on native integration of text, image, video, and audio. Instead of assembling separate modality towers, Ovis-Embedding uses a shared multimodal backbone to encode different modalities in a common representation space. Specifically, we make three key advances: (1) native omni-modal initialization: we a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 46,
+      "upvotes": 49,
       "arxiv_id": "2609.25165"
     },
     {
@@ -480,7 +492,7 @@
       "summary": "Educational foundation models must solve problems, understand curriculum structure, diagnose learner difficulties, and provide appropriate instructional support. Existing educational language models often focus on either problem solving or tutoring, with training mixtures organized by source or task rather than capability. We present OmniEdu, an open family of foundation models for K-12 learning a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 229,
+      "upvotes": 230,
       "arxiv_id": "2609.23088"
     },
     {
@@ -627,18 +639,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/J3ljHm57yU0/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Explained"
-    },
-    {
-      "id": "yt:xAmTQ80tNQA",
-      "title": "Doom in Real Time",
-      "url": "https://www.youtube.com/shorts/xAmTQ80tNQA",
-      "source": "Matthew Berman",
-      "category": "videos",
-      "published": "2026-09-16T19:42:00+00:00",
-      "summary": "Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberman_ai 👉🏻 Discord: https://discord.gg/u7wTTGWhuJ 👉🏻 Spotify: https://open.spotify.com",
-      "thumbnail": "https://i1.ytimg.com/vi/xAmTQ80tNQA/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Matthew Berman"
     },
     {
       "id": "yt:YoEWjZSwoys",
@@ -1041,41 +1041,41 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T20:36:36.425889+00:00",
+      "fetched_at": "2026-09-25T23:42:24.911919+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "OpenAI",
-          "score": 1181.0,
+          "score": 1180.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 2,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "OpenAI",
-          "score": 1162.0,
+          "score": 1161.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 3,
           "name": "MAI-Image-2.6",
           "creator": "Microsoft AI",
-          "score": 1135.0,
+          "score": 1134.0,
           "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
           "rank": 4,
           "name": "MAI-Image-2.6-Flash",
           "creator": "Microsoft AI",
-          "score": 1125.0,
+          "score": 1124.0,
           "meta": "Sep 2026 · $19.5 /1k imgs"
         },
         {
           "rank": 5,
           "name": "GPT Image 2 (high)",
           "creator": "OpenAI",
-          "score": 1122.0,
+          "score": 1121.0,
           "meta": "Apr 2026 · $211.0 /1k imgs"
         },
         {
@@ -1096,22 +1096,22 @@
           "rank": 8,
           "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "creator": "Google",
-          "score": 1108.0,
+          "score": 1107.0,
           "meta": "Feb 2026 · $67.0 /1k imgs"
         },
         {
           "rank": 9,
           "name": "Seedream 5.0 Pro",
           "creator": "ByteDance Seed",
-          "score": 1107.0,
+          "score": 1106.0,
           "meta": "Jul 2026 · $90.0 /1k imgs"
         },
         {
           "rank": 10,
-          "name": "Grok Imagine Image 2.0",
-          "creator": "SpaceXAI",
-          "score": 1106.0,
-          "meta": "Aug 2026 · $60.0 /1k imgs"
+          "name": "MAI-Image-2.5-Pro",
+          "creator": "Microsoft AI",
+          "score": 1105.0,
+          "meta": "Jul 2026 · $108.5 /1k imgs"
         }
       ]
     },
@@ -1123,13 +1123,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T20:36:36.428229+00:00",
+      "fetched_at": "2026-09-25T23:42:24.913800+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Qwen-Image-2.1 Open Weights",
           "creator": "Alibaba",
-          "score": 1063.0,
+          "score": 1067.0,
           "meta": "Sep 2026 · No API available"
         },
         {
@@ -1143,7 +1143,7 @@
           "rank": 3,
           "name": "Qwen Image Edit Plus 2511 Open Weights",
           "creator": "Alibaba",
-          "score": 1025.0,
+          "score": 1023.0,
           "meta": "Nov 2025 · $60.0 /1k imgs"
         },
         {
@@ -1157,7 +1157,7 @@
           "rank": 5,
           "name": "FLUX.2 [dev] Turbo Open Weights",
           "creator": "Fal",
-          "score": 1001.0,
+          "score": 1000.0,
           "meta": "Dec 2025 · $8.0 /1k imgs"
         },
         {
@@ -1171,7 +1171,7 @@
           "rank": 7,
           "name": "FLUX.2 [dev] Flash Open Weights",
           "creator": "Fal",
-          "score": 997.0,
+          "score": 996.0,
           "meta": "Dec 2025 · $5.0 /1k imgs"
         },
         {
@@ -1185,7 +1185,7 @@
           "rank": 9,
           "name": "FLUX.2 [klein] Base 9B Open Weights",
           "creator": "Black Forest Labs",
-          "score": 974.0,
+          "score": 973.0,
           "meta": "Jan 2026 · $22.0 /1k imgs"
         },
         {
@@ -1205,7 +1205,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T20:36:36.430866+00:00",
+      "fetched_at": "2026-09-25T23:42:24.915852+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1287,7 +1287,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T20:36:36.431836+00:00",
+      "fetched_at": "2026-09-25T23:42:24.916624+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1355,7 +1355,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T20:36:36.437827+00:00",
+      "fetched_at": "2026-09-25T23:42:24.921430+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1437,7 +1437,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T20:36:36.437842+00:00",
+      "fetched_at": "2026-09-25T23:42:24.921448+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1505,7 +1505,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T20:36:36.439078+00:00",
+      "fetched_at": "2026-09-25T23:42:24.922263+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1587,7 +1587,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-25T20:36:36.473804+00:00",
+      "fetched_at": "2026-09-25T23:42:24.947715+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1669,7 +1669,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-25T20:36:36.511319+00:00",
+      "fetched_at": "2026-09-25T23:42:24.976799+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1751,7 +1751,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T20:36:36.523259+00:00",
+      "fetched_at": "2026-09-25T23:42:24.985528+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1778,14 +1778,14 @@
           "rank": 4,
           "name": "Grok Imagine Image 2.0",
           "creator": "SpaceXAI",
-          "score": 1156.0,
+          "score": 1157.0,
           "meta": "Aug 2026 · $60.0 /1k imgs"
         },
         {
           "rank": 5,
           "name": "MAI-Image-2.6",
           "creator": "Microsoft AI",
-          "score": 1147.0,
+          "score": 1148.0,
           "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
@@ -1806,22 +1806,22 @@
           "rank": 8,
           "name": "GPT Image 1.5 (high)",
           "creator": "OpenAI",
-          "score": 1103.0,
+          "score": 1104.0,
           "meta": "Dec 2025 · $133.0 /1k imgs"
         },
         {
           "rank": 9,
-          "name": "MAI-Image-2.6-Flash",
-          "creator": "Microsoft AI",
-          "score": 1102.0,
-          "meta": "Sep 2026 · $19.5 /1k imgs"
-        },
-        {
-          "rank": 10,
           "name": "MAI-Image-2.5",
           "creator": "Microsoft AI",
           "score": 1102.0,
           "meta": "Jun 2026 · $48.1 /1k imgs"
+        },
+        {
+          "rank": 10,
+          "name": "MAI-Image-2.6-Flash",
+          "creator": "Microsoft AI",
+          "score": 1102.0,
+          "meta": "Sep 2026 · $19.5 /1k imgs"
         }
       ]
     },
@@ -1833,13 +1833,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T20:36:36.528003+00:00",
+      "fetched_at": "2026-09-25T23:42:24.989091+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Qwen-Image-2.1 Open Weights",
           "creator": "Alibaba",
-          "score": 1042.0,
+          "score": 1035.0,
           "meta": "Sep 2026 · No API available"
         },
         {
@@ -1867,7 +1867,7 @@
           "rank": 5,
           "name": "FLUX.2 [dev] Turbo Open Weights",
           "creator": "Fal",
-          "score": 998.0,
+          "score": 999.0,
           "meta": "Dec 2025 · $8.0 /1k imgs"
         },
         {
@@ -1893,17 +1893,17 @@
         },
         {
           "rank": 9,
-          "name": "Cosmos3-Super-Text2Image Open Weights",
-          "creator": "NVIDIA",
-          "score": 985.0,
-          "meta": "May 2026 · No API available"
-        },
-        {
-          "rank": 10,
           "name": "Ideogram 4.0 Fast (Quality) Open Weights",
           "creator": "Fal",
           "score": 985.0,
           "meta": "Jul 2026 · $17.5 /1k imgs"
+        },
+        {
+          "rank": 10,
+          "name": "Cosmos3-Super-Text2Image Open Weights",
+          "creator": "NVIDIA",
+          "score": 985.0,
+          "meta": "May 2026 · No API available"
         }
       ]
     },
@@ -1915,7 +1915,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T20:36:36.535404+00:00",
+      "fetched_at": "2026-09-25T23:42:24.994691+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1997,7 +1997,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-25T20:36:36.537292+00:00",
+      "fetched_at": "2026-09-25T23:42:24.996126+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2079,55 +2079,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-25T20:36:20.238028+00:00"
+        "checked_at": "2026-09-25T23:42:07.608536+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-25T20:36:19.062093+00:00"
+        "checked_at": "2026-09-25T23:42:06.576641+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-25T20:36:23.292530+00:00"
+        "checked_at": "2026-09-25T23:42:10.674251+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-25T20:36:25.614788+00:00"
+        "checked_at": "2026-09-25T23:42:12.896006+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-25T20:36:21.254709+00:00"
+        "checked_at": "2026-09-25T23:42:08.629311+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-25T20:36:22.274556+00:00"
+        "checked_at": "2026-09-25T23:42:09.652361+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-25T20:36:24.499499+00:00"
+        "checked_at": "2026-09-25T23:42:11.709161+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-25T20:36:36.539251+00:00"
+      "checked_at": "2026-09-25T23:42:24.996885+00:00"
     }
   }
 }
