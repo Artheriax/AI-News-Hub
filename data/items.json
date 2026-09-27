@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T20:36:53.084569+00:00",
+  "generated_at": "2026-09-27T23:29:50.754129+00:00",
   "items": [
     {
       "id": "yt:6DjIjjE3doo",
@@ -244,19 +244,6 @@
       "arxiv_id": "2609.28654"
     },
     {
-      "id": "paper:2609.28466",
-      "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
-      "url": "https://huggingface.co/papers/2609.28466",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-23T00:00:00+00:00",
-      "summary": "Advances in generative models have improved video fidelity, enabling long-horizon generation, interactive world modeling, and evolving visual environments. Autoregressive (AR) video generation extends visual sequences through causal rollouts. However, a fundamental bottleneck emerges: as the generated sequence expands, practical models must operate under strictly bounded context windows, storage, ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 39,
-      "arxiv_id": "2609.28466"
-    },
-    {
       "id": "yt:ux6Lafw7en0",
       "title": "Claude Opus 5.5 Is INSANE – Hands-On With the BEST Model Yet!",
       "url": "https://www.youtube.com/watch?v=ux6Lafw7en0",
@@ -388,7 +375,7 @@
       "summary": "Vector Quantization (VQ) is fundamental to discrete visual tokenizers that power modern autoregressive and masked image generation models. While recent shared-projection codebook methods have substantially advanced codebook utilization, training stability remains a critical and underexplored challenge. We argue that the root cause lies in the entanglement of the Encoder--Decoder and Codebook train",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 52,
+      "upvotes": 53,
       "arxiv_id": "2609.26774"
     },
     {
@@ -475,7 +462,7 @@
       "summary": "Generating Scalable Vector Graphics (SVG) code from natural-language instructions is an open-ended task without absolute visual ground truth, leaving both evaluation and policy optimization without a faithful signal. Scalar metrics (CLIP, Aesthetic) calibrated on natural images transfer poorly to stylized vector content, and reusing them as RL rewards triggers reward hacking. We address both limit",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 98,
+      "upvotes": 100,
       "arxiv_id": "2609.25270"
     },
     {
@@ -514,8 +501,21 @@
       "summary": "We present a compact geometry-native latent space as a shared foundation for perception and generation. Visual generators can produce photorealistic frames without preserving a consistent 3D scene. We argue that this is not only a modeling problem but also a representation problem: generators typically evolve appearance-centric latents, while perception models recover geometry in a semantically ri",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 65,
+      "upvotes": 66,
       "arxiv_id": "2609.24981"
+    },
+    {
+      "id": "paper:2609.24058",
+      "title": "All-in-One Multilingual Scene Text Recognition with Script-aware Mixture-of-Experts",
+      "url": "https://huggingface.co/papers/2609.24058",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-21T00:00:00+00:00",
+      "summary": "Multilingual scene text recognition (STR) remains challenging due to the scarcity of training data for most languages and the difficulty of serving diverse scripts within a single model. Existing solutions either deploy one recognizer per language, inflating cost and introducing error accumulation, or rely on massive vision-language models (VLMs) that are expensive and still inaccurate on many scr",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 55,
+      "arxiv_id": "2609.24058"
     },
     {
       "id": "paper:2609.24983",
@@ -531,19 +531,6 @@
       "arxiv_id": "2609.24983"
     },
     {
-      "id": "paper:2609.24058",
-      "title": "All-in-One Multilingual Scene Text Recognition with Script-aware Mixture-of-Experts",
-      "url": "https://huggingface.co/papers/2609.24058",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-21T00:00:00+00:00",
-      "summary": "Multilingual scene text recognition (STR) remains challenging due to the scarcity of training data for most languages and the difficulty of serving diverse scripts within a single model. Existing solutions either deploy one recognizer per language, inflating cost and introducing error accumulation, or rely on massive vision-language models (VLMs) that are expensive and still inaccurate on many scr",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 54,
-      "arxiv_id": "2609.24058"
-    },
-    {
       "id": "paper:2609.24308",
       "title": "HappyWorld-Bench",
       "url": "https://huggingface.co/papers/2609.24308",
@@ -555,6 +542,19 @@
       "kind": "paper",
       "upvotes": 43,
       "arxiv_id": "2609.24308"
+    },
+    {
+      "id": "paper:2609.24657",
+      "title": "Circuit Hypernetworks for Quantum-Augmented Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2609.24657",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-21T00:00:00+00:00",
+      "summary": "Language models can be adapted by changing the computations applied to individual tokens. Quantum circuits offer one such approach, but evaluating wider circuits inside a large model can be computationally demanding. Here we introduce HyperQ, which adds token-conditioned quantum residual branches to a frozen masked-diffusion language model. A quantum residual branch is a module in each transformer",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 40,
+      "arxiv_id": "2609.24657"
     },
     {
       "id": "yt:hygMRgnDD7w",
@@ -1029,7 +1029,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T20:36:53.011885+00:00",
+      "fetched_at": "2026-09-27T23:29:50.645032+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1111,7 +1111,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T20:36:53.013498+00:00",
+      "fetched_at": "2026-09-27T23:29:50.647403+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1193,7 +1193,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T20:36:53.015187+00:00",
+      "fetched_at": "2026-09-27T23:29:50.650089+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1275,7 +1275,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T20:36:53.015849+00:00",
+      "fetched_at": "2026-09-27T23:29:50.651058+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1343,7 +1343,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T20:36:53.018855+00:00",
+      "fetched_at": "2026-09-27T23:29:50.655403+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1368,7 +1368,7 @@
         },
         {
           "rank": 4,
-          "score": 1358.0,
+          "score": 1357.0,
           "name": "MiniMax H3",
           "creator": "MiniMax",
           "meta": ""
@@ -1396,7 +1396,7 @@
         },
         {
           "rank": 8,
-          "score": 1329.0,
+          "score": 1328.0,
           "name": "grok-imagine-video",
           "creator": "SpaceXAI",
           "meta": ""
@@ -1425,7 +1425,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T20:36:53.018874+00:00",
+      "fetched_at": "2026-09-27T23:29:50.655416+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1493,7 +1493,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T20:36:53.020044+00:00",
+      "fetched_at": "2026-09-27T23:29:50.657196+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1575,7 +1575,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-27T20:36:53.041711+00:00",
+      "fetched_at": "2026-09-27T23:29:50.690341+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1657,7 +1657,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-27T20:36:53.067372+00:00",
+      "fetched_at": "2026-09-27T23:29:50.725692+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1739,7 +1739,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T20:36:53.074885+00:00",
+      "fetched_at": "2026-09-27T23:29:50.738311+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1821,7 +1821,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T20:36:53.077719+00:00",
+      "fetched_at": "2026-09-27T23:29:50.742949+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1903,7 +1903,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T20:36:53.082544+00:00",
+      "fetched_at": "2026-09-27T23:29:50.750631+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1985,7 +1985,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T20:36:53.083717+00:00",
+      "fetched_at": "2026-09-27T23:29:50.752507+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2067,55 +2067,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T20:36:35.575527+00:00"
+        "checked_at": "2026-09-27T23:29:34.920441+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T20:36:34.364790+00:00"
+        "checked_at": "2026-09-27T23:29:33.889968+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T20:36:39.023315+00:00"
+        "checked_at": "2026-09-27T23:29:38.204763+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T20:36:41.410963+00:00"
+        "checked_at": "2026-09-27T23:29:40.485678+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T20:36:36.770605+00:00"
+        "checked_at": "2026-09-27T23:29:36.049854+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T20:36:37.901928+00:00"
+        "checked_at": "2026-09-27T23:29:37.074205+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T20:36:40.167357+00:00"
+        "checked_at": "2026-09-27T23:29:39.334159+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-27T20:36:53.084467+00:00"
+      "checked_at": "2026-09-27T23:29:50.754056+00:00"
     }
   }
 }
