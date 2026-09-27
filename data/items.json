@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-09-27T01:37:01.176370+00:00",
+  "generated_at": "2026-09-27T07:20:44.069303+00:00",
   "items": [
+    {
+      "id": "yt:6DjIjjE3doo",
+      "title": "HUGE OpenAI DevDay LEAK! “o” AI Agent, Sonnet 5.5 BEATS GPT-6, MiniMax M3.1 OUT & More! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=6DjIjjE3doo",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-09-27T06:17:31+00:00",
+      "summary": "🔥 Stop letting your agent guess at errors. Search 70M+ issues, PRs & docs, free, no API key: https://firecrawl.dev/developer-index → https://www.firecrawl.dev/ HUGE OpenAI DevDay leaks are starting to surface ahead of the September 29th event! OpenAI’s mysterious new “o” AI Agent has appeared inside",
+      "thumbnail": "https://i3.ytimg.com/vi/6DjIjjE3doo/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
+      "id": "yt:nX0fgBL3sIM",
+      "title": "Waifus incoming, GPT 6 Sol, Grok 4.7, Opus 5.5, Mimo 2.6, Step 5, OpenMuse: AI NEWS",
+      "url": "https://www.youtube.com/watch?v=nX0fgBL3sIM",
+      "source": "AI Search",
+      "category": "videos",
+      "published": "2026-09-27T03:24:32+00:00",
+      "summary": "HUGE AI NEWS: GPT 6 Sol, Gemini 3.8 TTS, Grok 4.7, Opus 5.5, Mimo 2.6 & more. Thanks to our sponsor Luma. Try it today https://lumalabs.ai/aisearch-sep5 #ai #ainews #aitools #aivideo #agi #singularity WorldCrafter https://drexubery.github.io/WorldCrafter/ Ming Image https://huggingface.co/inclusionA",
+      "thumbnail": "https://i3.ytimg.com/vi/nX0fgBL3sIM/hqdefault.jpg",
+      "kind": "video",
+      "channel": "AI Search"
+    },
     {
       "id": "yt:gRnRCv1t0r8",
       "title": "Space Bunny Alpha First Test – What IS This NEW Stealth Model?",
@@ -155,7 +179,7 @@
       "summary": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions. We term this the Superposition Linearity Hypothesis. We provide evidence that superposition is an intrinsic property o",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 64,
+      "upvotes": 71,
       "arxiv_id": "2609.29845"
     },
     {
@@ -216,7 +240,7 @@
       "summary": "Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation models, a paradigmatic class of current world models, have begun to show emerged reasoning abilities, making them ideal candidates for building human-like physical intelligence. Do video models have emerged object permanence in them? If not, could we train them with a core-cognition in",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 198,
+      "upvotes": 201,
       "arxiv_id": "2609.28654"
     },
     {
@@ -338,7 +362,7 @@
       "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run. Making these decisions well is becoming a key capability for both engineering and research agents. We refer to the ability to make good long-horizon decisions as the taste of an agent. While exis",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 150,
+      "upvotes": 151,
       "arxiv_id": "2609.25804"
     },
     {
@@ -364,7 +388,7 @@
       "summary": "Vector Quantization (VQ) is fundamental to discrete visual tokenizers that power modern autoregressive and masked image generation models. While recent shared-projection codebook methods have substantially advanced codebook utilization, training stability remains a critical and underexplored challenge. We argue that the root cause lies in the entanglement of the Encoder--Decoder and Codebook train",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 44,
+      "upvotes": 47,
       "arxiv_id": "2609.26774"
     },
     {
@@ -451,7 +475,7 @@
       "summary": "Generating Scalable Vector Graphics (SVG) code from natural-language instructions is an open-ended task without absolute visual ground truth, leaving both evaluation and policy optimization without a faithful signal. Scalar metrics (CLIP, Aesthetic) calibrated on natural images transfer poorly to stylized vector content, and reusing them as RL rewards triggers reward hacking. We address both limit",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 88,
+      "upvotes": 90,
       "arxiv_id": "2609.25270"
     },
     {
@@ -477,7 +501,7 @@
       "summary": "In this report, we introduce Ovis-Embedding, a state-of-the-art omni-modal embedding family built on native integration of text, image, video, and audio. Instead of assembling separate modality towers, Ovis-Embedding uses a shared multimodal backbone to encode different modalities in a common representation space. Specifically, we make three key advances: (1) native omni-modal initialization: we a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 63,
+      "upvotes": 65,
       "arxiv_id": "2609.25165"
     },
     {
@@ -490,7 +514,7 @@
       "summary": "We present a compact geometry-native latent space as a shared foundation for perception and generation. Visual generators can produce photorealistic frames without preserving a consistent 3D scene. We argue that this is not only a modeling problem but also a representation problem: generators typically evolve appearance-centric latents, while perception models recover geometry in a semantically ri",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 58,
+      "upvotes": 60,
       "arxiv_id": "2609.24981"
     },
     {
@@ -516,7 +540,7 @@
       "summary": "Multilingual scene text recognition (STR) remains challenging due to the scarcity of training data for most languages and the difficulty of serving diverse scripts within a single model. Existing solutions either deploy one recognizer per language, inflating cost and introducing error accumulation, or rely on massive vision-language models (VLMs) that are expensive and still inaccurate on many scr",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 49,
+      "upvotes": 51,
       "arxiv_id": "2609.24058"
     },
     {
@@ -529,7 +553,7 @@
       "summary": "Evaluating world models requires assessing both the quality of the worlds they generate and their consistency and responsiveness under exploration, interaction, and modification. We introduce HappyWorld-Bench, a comprehensive benchmark that evaluates whether generated worlds remain reliable as agents interact with them. Our design is built on a hierarchical capability framework of six world capabi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 41,
+      "upvotes": 42,
       "arxiv_id": "2609.24308"
     },
     {
@@ -833,18 +857,6 @@
       "channel": "Bijan Bowen"
     },
     {
-      "id": "yt:T2dnchLabZQ",
-      "title": "DeepSeek V4.1 Flash Is INSANELY GOOD! Fast, Cheap, Powerful! (Fully Tested)",
-      "url": "https://www.youtube.com/watch?v=T2dnchLabZQ",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-09-09T06:15:29+00:00",
-      "summary": "Join the private community to get WoAI Bench Pro, exclusive AI freebies and discounts, early model access, automation templates, practical resources and upcoming AI training. 👉 Join Today! https://www.skool.com/worldofai DeepSeek V4.1 Flash just dropped, and it might be one of DeepSeek’s most exciti",
-      "thumbnail": "https://i1.ytimg.com/vi/T2dnchLabZQ/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:eVBJIUxv8N8",
       "title": "GPT-6 Astra Changes Everything",
       "url": "https://www.youtube.com/watch?v=eVBJIUxv8N8",
@@ -1029,7 +1041,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T01:37:01.063741+00:00",
+      "fetched_at": "2026-09-27T07:20:43.959622+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1111,7 +1123,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T01:37:01.066126+00:00",
+      "fetched_at": "2026-09-27T07:20:43.961916+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1193,7 +1205,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T01:37:01.068859+00:00",
+      "fetched_at": "2026-09-27T07:20:43.964601+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1275,7 +1287,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T01:37:01.069847+00:00",
+      "fetched_at": "2026-09-27T07:20:43.965553+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1343,7 +1355,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T01:37:01.074171+00:00",
+      "fetched_at": "2026-09-27T07:20:43.969771+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1425,7 +1437,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T01:37:01.074184+00:00",
+      "fetched_at": "2026-09-27T07:20:43.969785+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1493,7 +1505,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T01:37:01.076024+00:00",
+      "fetched_at": "2026-09-27T07:20:43.971595+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1575,7 +1587,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-27T01:37:01.109237+00:00",
+      "fetched_at": "2026-09-27T07:20:44.004888+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1657,7 +1669,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-27T01:37:01.147029+00:00",
+      "fetched_at": "2026-09-27T07:20:44.041368+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1739,7 +1751,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T01:37:01.159458+00:00",
+      "fetched_at": "2026-09-27T07:20:44.053458+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1821,7 +1833,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T01:37:01.164120+00:00",
+      "fetched_at": "2026-09-27T07:20:44.057969+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1903,7 +1915,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T01:37:01.172847+00:00",
+      "fetched_at": "2026-09-27T07:20:44.065546+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1985,7 +1997,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T01:37:01.174777+00:00",
+      "fetched_at": "2026-09-27T07:20:44.067417+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2067,55 +2079,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T01:36:45.600731+00:00"
+        "checked_at": "2026-09-27T07:20:27.952005+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T01:36:44.570277+00:00"
+        "checked_at": "2026-09-27T07:20:26.752616+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-09-27T01:36:48.774349+00:00"
+        "error": null,
+        "checked_at": "2026-09-27T07:20:31.216350+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T01:36:50.984850+00:00"
+        "checked_at": "2026-09-27T07:20:33.454297+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T01:36:46.720942+00:00"
+        "checked_at": "2026-09-27T07:20:29.043923+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T01:36:47.745052+00:00"
+        "checked_at": "2026-09-27T07:20:30.063883+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-09-27T01:36:49.810467+00:00"
+        "error": null,
+        "checked_at": "2026-09-27T07:20:32.345391+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-27T01:37:01.176292+00:00"
+      "checked_at": "2026-09-27T07:20:44.069214+00:00"
     }
   }
 }
