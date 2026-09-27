@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T17:52:19.266216+00:00",
+  "generated_at": "2026-09-27T20:36:53.084569+00:00",
   "items": [
     {
       "id": "yt:6DjIjjE3doo",
@@ -240,7 +240,7 @@
       "summary": "Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation models, a paradigmatic class of current world models, have begun to show emerged reasoning abilities, making them ideal candidates for building human-like physical intelligence. Do video models have emerged object permanence in them? If not, could we train them with a core-cognition in",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 202,
+      "upvotes": 203,
       "arxiv_id": "2609.28654"
     },
     {
@@ -388,7 +388,7 @@
       "summary": "Vector Quantization (VQ) is fundamental to discrete visual tokenizers that power modern autoregressive and masked image generation models. While recent shared-projection codebook methods have substantially advanced codebook utilization, training stability remains a critical and underexplored challenge. We argue that the root cause lies in the entanglement of the Encoder--Decoder and Codebook train",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 50,
+      "upvotes": 52,
       "arxiv_id": "2609.26774"
     },
     {
@@ -488,7 +488,7 @@
       "summary": "In this report, we introduce Ovis-Embedding, a state-of-the-art omni-modal embedding family built on native integration of text, image, video, and audio. Instead of assembling separate modality towers, Ovis-Embedding uses a shared multimodal backbone to encode different modalities in a common representation space. Specifically, we make three key advances: (1) native omni-modal initialization: we a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 70,
+      "upvotes": 71,
       "arxiv_id": "2609.25165"
     },
     {
@@ -514,7 +514,7 @@
       "summary": "We present a compact geometry-native latent space as a shared foundation for perception and generation. Visual generators can produce photorealistic frames without preserving a consistent 3D scene. We argue that this is not only a modeling problem but also a representation problem: generators typically evolve appearance-centric latents, while perception models recover geometry in a semantically ri",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 62,
+      "upvotes": 65,
       "arxiv_id": "2609.24981"
     },
     {
@@ -1029,7 +1029,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T17:52:19.153917+00:00",
+      "fetched_at": "2026-09-27T20:36:53.011885+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1111,7 +1111,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T17:52:19.156348+00:00",
+      "fetched_at": "2026-09-27T20:36:53.013498+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1193,7 +1193,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T17:52:19.159101+00:00",
+      "fetched_at": "2026-09-27T20:36:53.015187+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1275,7 +1275,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T17:52:19.160094+00:00",
+      "fetched_at": "2026-09-27T20:36:53.015849+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1343,7 +1343,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T17:52:19.164445+00:00",
+      "fetched_at": "2026-09-27T20:36:53.018855+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1425,7 +1425,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T17:52:19.164459+00:00",
+      "fetched_at": "2026-09-27T20:36:53.018874+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1493,7 +1493,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T17:52:19.166252+00:00",
+      "fetched_at": "2026-09-27T20:36:53.020044+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1575,7 +1575,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-27T17:52:19.201325+00:00",
+      "fetched_at": "2026-09-27T20:36:53.041711+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1657,7 +1657,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-27T17:52:19.237727+00:00",
+      "fetched_at": "2026-09-27T20:36:53.067372+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1739,7 +1739,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T17:52:19.250127+00:00",
+      "fetched_at": "2026-09-27T20:36:53.074885+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1821,7 +1821,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T17:52:19.254867+00:00",
+      "fetched_at": "2026-09-27T20:36:53.077719+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1903,76 +1903,76 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T17:52:19.262678+00:00",
+      "fetched_at": "2026-09-27T20:36:53.082544+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Sonic 3.6",
           "creator": "Cartesia",
-          "score": 1277.0,
+          "score": 1274.0,
           "meta": "Aug 2026 · $49.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Google",
-          "score": 1268.0,
+          "score": 1265.0,
           "meta": "Sept 2026 · $16.5 /1M chars"
         },
         {
           "rank": 3,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Alibaba",
-          "score": 1259.0,
+          "score": 1261.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
           "rank": 4,
           "name": "Realtime TTS-2",
           "creator": "Inworld",
-          "score": 1244.0,
+          "score": 1245.0,
           "meta": "Aug 2026 · $20.8 /1M chars"
         },
         {
           "rank": 5,
-          "name": "Gemini 3.8 Flash-Lite TTS",
-          "creator": "Google",
-          "score": 1240.0,
-          "meta": "Sept 2026 · $11.0 /1M chars"
+          "name": "Simba 3.2",
+          "creator": "SpeechifyAI",
+          "score": 1241.0,
+          "meta": "Jul 2026 · $6.6 /1M chars"
         },
         {
           "rank": 6,
-          "name": "Simba 3.2",
-          "creator": "SpeechifyAI",
-          "score": 1238.0,
-          "meta": "Jul 2026 · $6.6 /1M chars"
+          "name": "Gemini 3.8 Flash-Lite TTS",
+          "creator": "Google",
+          "score": 1239.0,
+          "meta": "Sept 2026 · $11.0 /1M chars"
         },
         {
           "rank": 7,
           "name": "Luna TTS",
           "creator": "VUI Labs",
-          "score": 1232.0,
+          "score": 1233.0,
           "meta": "Jun 2026 · $15.0 /1M chars"
         },
         {
           "rank": 8,
           "name": "Realtime TTS-2 Flash",
           "creator": "Inworld",
-          "score": 1212.0,
+          "score": 1209.0,
           "meta": "Aug 2026 · $10.4 /1M chars"
         },
         {
           "rank": 9,
           "name": "Breeze TTS 2 Open Weights",
           "creator": "BreezeBlue",
-          "score": 1206.0,
+          "score": 1204.0,
           "meta": "Aug 2026 · $34.0 /1M chars"
         },
         {
           "rank": 10,
           "name": "Gemini 3.1 Flash TTS",
           "creator": "Google",
-          "score": 1202.0,
+          "score": 1203.0,
           "meta": "Apr 2026 · $18.3 /1M chars"
         }
       ]
@@ -1985,20 +1985,20 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T17:52:19.264590+00:00",
+      "fetched_at": "2026-09-27T20:36:53.083717+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Breeze TTS 2 Open Weights",
           "creator": "BreezeBlue",
-          "score": 1206.0,
+          "score": 1204.0,
           "meta": "Aug 2026 · $34.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Fish Audio S2 Pro Open Weights",
           "creator": "Fish Audio",
-          "score": 1119.0,
+          "score": 1118.0,
           "meta": "Mar 2026 · $15.0 /1M chars"
         },
         {
@@ -2012,7 +2012,7 @@
           "rank": 4,
           "name": "Voxtral TTS Open Weights",
           "creator": "Mistral",
-          "score": 1079.0,
+          "score": 1080.0,
           "meta": "Mar 2026 · $16.0 /1M chars"
         },
         {
@@ -2026,14 +2026,14 @@
           "rank": 6,
           "name": "Magpie-Multilingual 357M (Feb 2026) Open Weights",
           "creator": "NVIDIA",
-          "score": 1063.0,
+          "score": 1064.0,
           "meta": "Feb 2026 · N/A"
         },
         {
           "rank": 7,
           "name": "Maya1 Open Weights",
           "creator": "Maya Research",
-          "score": 1043.0,
+          "score": 1044.0,
           "meta": "Jun 2025 · N/A"
         },
         {
@@ -2047,14 +2047,14 @@
           "rank": 9,
           "name": "Higgs Audio V3 TTS Open Weights",
           "creator": "Boson AI",
-          "score": 1035.0,
+          "score": 1037.0,
           "meta": "Jun 2026 · $15.0 /1M chars"
         },
         {
           "rank": 10,
           "name": "Chatterbox Open Weights",
           "creator": "Resemble AI",
-          "score": 1023.0,
+          "score": 1024.0,
           "meta": "May 2025 · $25.0 /1M chars"
         }
       ]
@@ -2067,55 +2067,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T17:52:03.070304+00:00"
+        "checked_at": "2026-09-27T20:36:35.575527+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T17:52:01.894338+00:00"
+        "checked_at": "2026-09-27T20:36:34.364790+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T17:52:06.545936+00:00"
+        "checked_at": "2026-09-27T20:36:39.023315+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T17:52:08.971662+00:00"
+        "checked_at": "2026-09-27T20:36:41.410963+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T17:52:04.277818+00:00"
+        "checked_at": "2026-09-27T20:36:36.770605+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T17:52:05.419412+00:00"
+        "checked_at": "2026-09-27T20:36:37.901928+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T17:52:07.737180+00:00"
+        "checked_at": "2026-09-27T20:36:40.167357+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-27T17:52:19.266139+00:00"
+      "checked_at": "2026-09-27T20:36:53.084467+00:00"
     }
   }
 }
