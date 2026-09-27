@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T13:11:02.776997+00:00",
+  "generated_at": "2026-09-27T17:52:19.266216+00:00",
   "items": [
     {
       "id": "yt:6DjIjjE3doo",
@@ -179,7 +179,7 @@
       "summary": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions. We term this the Superposition Linearity Hypothesis. We provide evidence that superposition is an intrinsic property o",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 74,
+      "upvotes": 75,
       "arxiv_id": "2609.29845"
     },
     {
@@ -362,7 +362,7 @@
       "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run. Making these decisions well is becoming a key capability for both engineering and research agents. We refer to the ability to make good long-horizon decisions as the taste of an agent. While exis",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 152,
+      "upvotes": 157,
       "arxiv_id": "2609.25804"
     },
     {
@@ -401,7 +401,7 @@
       "summary": "LLM-as-a-judge enables evaluation across diverse tasks, but inference cost and confidence reliability become critical at scale. We study whether a decision-only judge can provide an economical first pass and identify when stronger evaluation is needed. Comparing jev-as-a-judge with sixteen generative and reward-model judges, with blinded human adjudication, we find it within three percentage point",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 39,
+      "upvotes": 41,
       "arxiv_id": "2609.26550"
     },
     {
@@ -475,7 +475,7 @@
       "summary": "Generating Scalable Vector Graphics (SVG) code from natural-language instructions is an open-ended task without absolute visual ground truth, leaving both evaluation and policy optimization without a faithful signal. Scalar metrics (CLIP, Aesthetic) calibrated on natural images transfer poorly to stylized vector content, and reusing them as RL rewards triggers reward hacking. We address both limit",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 95,
+      "upvotes": 98,
       "arxiv_id": "2609.25270"
     },
     {
@@ -488,7 +488,7 @@
       "summary": "In this report, we introduce Ovis-Embedding, a state-of-the-art omni-modal embedding family built on native integration of text, image, video, and audio. Instead of assembling separate modality towers, Ovis-Embedding uses a shared multimodal backbone to encode different modalities in a common representation space. Specifically, we make three key advances: (1) native omni-modal initialization: we a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 67,
+      "upvotes": 70,
       "arxiv_id": "2609.25165"
     },
     {
@@ -514,7 +514,7 @@
       "summary": "We present a compact geometry-native latent space as a shared foundation for perception and generation. Visual generators can produce photorealistic frames without preserving a consistent 3D scene. We argue that this is not only a modeling problem but also a representation problem: generators typically evolve appearance-centric latents, while perception models recover geometry in a semantically ri",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 61,
+      "upvotes": 62,
       "arxiv_id": "2609.24981"
     },
     {
@@ -540,7 +540,7 @@
       "summary": "Multilingual scene text recognition (STR) remains challenging due to the scarcity of training data for most languages and the difficulty of serving diverse scripts within a single model. Existing solutions either deploy one recognizer per language, inflating cost and introducing error accumulation, or rely on massive vision-language models (VLMs) that are expensive and still inaccurate on many scr",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 52,
+      "upvotes": 54,
       "arxiv_id": "2609.24058"
     },
     {
@@ -1029,7 +1029,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T13:11:02.667964+00:00",
+      "fetched_at": "2026-09-27T17:52:19.153917+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1111,7 +1111,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T13:11:02.670356+00:00",
+      "fetched_at": "2026-09-27T17:52:19.156348+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1193,7 +1193,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T13:11:02.673140+00:00",
+      "fetched_at": "2026-09-27T17:52:19.159101+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1275,7 +1275,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T13:11:02.674104+00:00",
+      "fetched_at": "2026-09-27T17:52:19.160094+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1343,7 +1343,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T13:11:02.678387+00:00",
+      "fetched_at": "2026-09-27T17:52:19.164445+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1425,7 +1425,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T13:11:02.678402+00:00",
+      "fetched_at": "2026-09-27T17:52:19.164459+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1493,7 +1493,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T13:11:02.680090+00:00",
+      "fetched_at": "2026-09-27T17:52:19.166252+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1575,7 +1575,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-27T13:11:02.712050+00:00",
+      "fetched_at": "2026-09-27T17:52:19.201325+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1657,7 +1657,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-27T13:11:02.747282+00:00",
+      "fetched_at": "2026-09-27T17:52:19.237727+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1710,24 +1710,24 @@
         },
         {
           "rank": 8,
+          "name": "MiMo-V2.6-Flash",
+          "creator": "Xiaomi",
+          "score": 38.0,
+          "meta": "1M ctx"
+        },
+        {
+          "rank": 9,
           "name": "DeepSeek V4 Pro 0813 (max)",
           "creator": "DeepSeek",
           "score": 36.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Kimi K3 (low)",
           "creator": "Kimi",
           "score": 34.0,
           "meta": "1.05M ctx"
-        },
-        {
-          "rank": 10,
-          "name": "GLM-5.3 (low)",
-          "creator": "Z AI",
-          "score": 34.0,
-          "meta": "1M ctx"
         }
       ]
     },
@@ -1739,7 +1739,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T13:11:02.760166+00:00",
+      "fetched_at": "2026-09-27T17:52:19.250127+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1821,7 +1821,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T13:11:02.764980+00:00",
+      "fetched_at": "2026-09-27T17:52:19.254867+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1903,7 +1903,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T13:11:02.772936+00:00",
+      "fetched_at": "2026-09-27T17:52:19.262678+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1985,7 +1985,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-27T13:11:02.774861+00:00",
+      "fetched_at": "2026-09-27T17:52:19.264590+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2067,55 +2067,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T13:10:47.071085+00:00"
+        "checked_at": "2026-09-27T17:52:03.070304+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T13:10:46.046337+00:00"
+        "checked_at": "2026-09-27T17:52:01.894338+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T13:10:50.312104+00:00"
+        "checked_at": "2026-09-27T17:52:06.545936+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T13:10:52.572684+00:00"
+        "checked_at": "2026-09-27T17:52:08.971662+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T13:10:48.089849+00:00"
+        "checked_at": "2026-09-27T17:52:04.277818+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T13:10:49.110114+00:00"
+        "checked_at": "2026-09-27T17:52:05.419412+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-27T13:10:51.344441+00:00"
+        "checked_at": "2026-09-27T17:52:07.737180+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-27T13:11:02.776883+00:00"
+      "checked_at": "2026-09-27T17:52:19.266139+00:00"
     }
   }
 }
