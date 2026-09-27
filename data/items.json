@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T23:02:19.056401+00:00",
+  "generated_at": "2026-09-27T01:37:01.176370+00:00",
   "items": [
     {
       "id": "yt:gRnRCv1t0r8",
@@ -216,7 +216,7 @@
       "summary": "Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation models, a paradigmatic class of current world models, have begun to show emerged reasoning abilities, making them ideal candidates for building human-like physical intelligence. Do video models have emerged object permanence in them? If not, could we train them with a core-cognition in",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 197,
+      "upvotes": 198,
       "arxiv_id": "2609.28654"
     },
     {
@@ -338,7 +338,7 @@
       "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run. Making these decisions well is becoming a key capability for both engineering and research agents. We refer to the ability to make good long-horizon decisions as the taste of an agent. While exis",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 148,
+      "upvotes": 150,
       "arxiv_id": "2609.25804"
     },
     {
@@ -366,6 +366,19 @@
       "kind": "paper",
       "upvotes": 44,
       "arxiv_id": "2609.26774"
+    },
+    {
+      "id": "paper:2609.26550",
+      "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
+      "url": "https://huggingface.co/papers/2609.26550",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-22T00:00:00+00:00",
+      "summary": "LLM-as-a-judge enables evaluation across diverse tasks, but inference cost and confidence reliability become critical at scale. We study whether a decision-only judge can provide an economical first pass and identify when stronger evaluation is needed. Comparing jev-as-a-judge with sixteen generative and reward-model judges, with blinded human adjudication, we find it within three percentage point",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 39,
+      "arxiv_id": "2609.26550"
     },
     {
       "id": "yt:HAi7twQBKlY",
@@ -464,7 +477,7 @@
       "summary": "In this report, we introduce Ovis-Embedding, a state-of-the-art omni-modal embedding family built on native integration of text, image, video, and audio. Instead of assembling separate modality towers, Ovis-Embedding uses a shared multimodal backbone to encode different modalities in a common representation space. Specifically, we make three key advances: (1) native omni-modal initialization: we a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 62,
+      "upvotes": 63,
       "arxiv_id": "2609.25165"
     },
     {
@@ -490,7 +503,7 @@
       "summary": "We present onPanda, an interactive tool for efficiently annotating LLM alignment data and agent trajectories. onPanda adopts token-level correction as its core interaction: while reading a model response, the annotator locates the first inappropriate token and either picks a substitute from the model's candidate tokens or types the correct text via free-form editing. The system then truncates ever",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 54,
+      "upvotes": 55,
       "arxiv_id": "2609.24983"
     },
     {
@@ -503,7 +516,7 @@
       "summary": "Multilingual scene text recognition (STR) remains challenging due to the scarcity of training data for most languages and the difficulty of serving diverse scripts within a single model. Existing solutions either deploy one recognizer per language, inflating cost and introducing error accumulation, or rely on massive vision-language models (VLMs) that are expensive and still inaccurate on many scr",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 48,
+      "upvotes": 49,
       "arxiv_id": "2609.24058"
     },
     {
@@ -530,19 +543,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/hygMRgnDD7w/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "paper:2609.23863",
-      "title": "Grounded Action Model: 3D Grounding as a Foundation for Robotics",
-      "url": "https://huggingface.co/papers/2609.23863",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-20T00:00:00+00:00",
-      "summary": "Manipulation policies must know which objects matter and where they are, yet the pretrained backbones that current robot foundation models build on, from language in vision-language-action models (VLAs) to video generation in world-action models (WAMs), do not directly require this metric grounding, leaving it to be learned implicitly from robot demonstrations. We propose Grounded Action Models (G",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 87,
-      "arxiv_id": "2609.23863"
     },
     {
       "id": "yt:hUZNPCSZDaQ",
@@ -1029,7 +1029,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-26T23:02:18.956080+00:00",
+      "fetched_at": "2026-09-27T01:37:01.063741+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1111,7 +1111,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-26T23:02:18.958305+00:00",
+      "fetched_at": "2026-09-27T01:37:01.066126+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1193,7 +1193,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-26T23:02:18.960793+00:00",
+      "fetched_at": "2026-09-27T01:37:01.068859+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1275,7 +1275,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-26T23:02:18.961680+00:00",
+      "fetched_at": "2026-09-27T01:37:01.069847+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1343,7 +1343,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-26T23:02:18.965750+00:00",
+      "fetched_at": "2026-09-27T01:37:01.074171+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1425,7 +1425,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-26T23:02:18.965767+00:00",
+      "fetched_at": "2026-09-27T01:37:01.074184+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1493,7 +1493,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-26T23:02:18.967372+00:00",
+      "fetched_at": "2026-09-27T01:37:01.076024+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1575,7 +1575,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-26T23:02:18.997578+00:00",
+      "fetched_at": "2026-09-27T01:37:01.109237+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1657,7 +1657,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-26T23:02:19.031704+00:00",
+      "fetched_at": "2026-09-27T01:37:01.147029+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1739,7 +1739,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-26T23:02:19.042440+00:00",
+      "fetched_at": "2026-09-27T01:37:01.159458+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1821,7 +1821,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-26T23:02:19.046589+00:00",
+      "fetched_at": "2026-09-27T01:37:01.164120+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1903,7 +1903,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-26T23:02:19.053427+00:00",
+      "fetched_at": "2026-09-27T01:37:01.172847+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1985,7 +1985,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-26T23:02:19.055131+00:00",
+      "fetched_at": "2026-09-27T01:37:01.174777+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2067,55 +2067,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-26T23:02:02.942806+00:00"
+        "checked_at": "2026-09-27T01:36:45.600731+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-26T23:02:01.918497+00:00"
+        "checked_at": "2026-09-27T01:36:44.570277+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-09-26T23:02:06.331789+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-09-27T01:36:48.774349+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-26T23:02:08.654230+00:00"
+        "checked_at": "2026-09-27T01:36:50.984850+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-26T23:02:04.138599+00:00"
+        "checked_at": "2026-09-27T01:36:46.720942+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-26T23:02:05.157593+00:00"
+        "checked_at": "2026-09-27T01:36:47.745052+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-09-26T23:02:07.490563+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-09-27T01:36:49.810467+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-26T23:02:19.056318+00:00"
+      "checked_at": "2026-09-27T01:37:01.176292+00:00"
     }
   }
 }
