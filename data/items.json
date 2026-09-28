@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T01:54:28.065336+00:00",
+  "generated_at": "2026-09-28T07:58:36.089943+00:00",
   "items": [
     {
       "id": "yt:6DjIjjE3doo",
@@ -98,6 +98,19 @@
       "channel": "WorldofAI"
     },
     {
+      "id": "paper:2609.31620",
+      "title": "FuseReg: Regularizing Layer Fusion Mitigates the Reconstruction-Generation Gap in Representation Autoencoders",
+      "url": "https://huggingface.co/papers/2609.31620",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-25T00:00:00+00:00",
+      "summary": "Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image generation. However, RAEs still need to decide which encoder layers form the shared latent space for the generator and pixel decoder. This choice involves a trade-off. Shallower layers tend to preserve fine pixel details be",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 71,
+      "arxiv_id": "2609.31620"
+    },
+    {
       "id": "yt:R9momwXV9w4",
       "title": "Opus 5.5: How Close Are We to Automated AI Research?",
       "url": "https://www.youtube.com/watch?v=R9momwXV9w4",
@@ -179,7 +192,7 @@
       "summary": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions. We term this the Superposition Linearity Hypothesis. We provide evidence that superposition is an intrinsic property o",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 75,
+      "upvotes": 77,
       "arxiv_id": "2609.29845"
     },
     {
@@ -194,19 +207,6 @@
       "kind": "paper",
       "upvotes": 36,
       "arxiv_id": "2609.30221"
-    },
-    {
-      "id": "paper:2609.29421",
-      "title": "Rufus-Air: An Open LLM Post-Training Recipe",
-      "url": "https://huggingface.co/papers/2609.29421",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-24T00:00:00+00:00",
-      "summary": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instruction-Following RL, General Agent, Coding Agent, Search Agent, and RLHF. We document the data, reward design, infrastructure, stage order, and stagewise results needed to reproduce the recipe. Stages progress from basic to a",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 17,
-      "arxiv_id": "2609.29421"
     },
     {
       "id": "yt:LrUCo_7jor4",
@@ -266,7 +266,7 @@
       "summary": "Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation models, a paradigmatic class of current world models, have begun to show emerged reasoning abilities, making them ideal candidates for building human-like physical intelligence. Do video models have emerged object permanence in them? If not, could we train them with a core-cognition in",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 204,
+      "upvotes": 207,
       "arxiv_id": "2609.28654"
     },
     {
@@ -279,7 +279,7 @@
       "summary": "Advances in generative models have improved video fidelity, enabling long-horizon generation, interactive world modeling, and evolving visual environments. Autoregressive (AR) video generation extends visual sequences through causal rollouts. However, a fundamental bottleneck emerges: as the generated sequence expands, practical models must operate under strictly bounded context windows, storage, ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 39,
+      "upvotes": 50,
       "arxiv_id": "2609.28466"
     },
     {
@@ -292,7 +292,7 @@
       "summary": "Agentic memory systems reuse past experience to improve future performance, yet most existing designs curate memory at write time: once a task is completed, its trajectory is distilled into a fixed artifact, such as a reflection, workflow, skill, or reasoning strategy, that is later retrieved by similarity. This forces the system to decide what is worth remembering before the future query is known",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 35,
+      "upvotes": 40,
       "arxiv_id": "2609.27334"
     },
     {
@@ -305,7 +305,7 @@
       "summary": "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environment observations, yet reconstructing high-entropy, execution-dependent tool responses offers limited value when real feedback is available. Meanwhile, agents suffer from task-stat",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 19,
+      "upvotes": 20,
       "arxiv_id": "2609.28416"
     },
     {
@@ -414,7 +414,7 @@
       "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run. Making these decisions well is becoming a key capability for both engineering and research agents. We refer to the ability to make good long-horizon decisions as the taste of an agent. While exis",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 157,
+      "upvotes": 159,
       "arxiv_id": "2609.25804"
     },
     {
@@ -427,7 +427,7 @@
       "summary": "Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, how individuals perceive one another, what information is shared by the group, and how states change over time. Recent studies on multi-party dialogue benchmarks show that existing general-purpose LLM m",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 84,
+      "upvotes": 89,
       "arxiv_id": "2609.26780"
     },
     {
@@ -453,7 +453,7 @@
       "summary": "LLM-as-a-judge enables evaluation across diverse tasks, but inference cost and confidence reliability become critical at scale. We study whether a decision-only judge can provide an economical first pass and identify when stronger evaluation is needed. Comparing jev-as-a-judge with sixteen generative and reward-model judges, with blinded human adjudication, we find it within three percentage point",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 41,
+      "upvotes": 42,
       "arxiv_id": "2609.26550"
     },
     {
@@ -470,6 +470,19 @@
       "arxiv_id": "2609.26796"
     },
     {
+      "id": "paper:2609.26781",
+      "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
+      "url": "https://huggingface.co/papers/2609.26781",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-22T00:00:00+00:00",
+      "summary": "A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems. However, the scalability of current multi-agent harnesses is often constrained by a central orchestrator's capacity to allocate tasks and coordinate workers. To address this limitation, we introduce Agensh, a scalable self-organized multi-agent",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 27,
+      "arxiv_id": "2609.26781"
+    },
+    {
       "id": "paper:2609.26457",
       "title": "Recursive self-improvement of AI research agents",
       "url": "https://huggingface.co/papers/2609.26457",
@@ -483,19 +496,6 @@
       "arxiv_id": "2609.26457"
     },
     {
-      "id": "paper:2609.26781",
-      "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
-      "url": "https://huggingface.co/papers/2609.26781",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-22T00:00:00+00:00",
-      "summary": "A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems. However, the scalability of current multi-agent harnesses is often constrained by a central orchestrator's capacity to allocate tasks and coordinate workers. To address this limitation, we introduce Agensh, a scalable self-organized multi-agent",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 26,
-      "arxiv_id": "2609.26781"
-    },
-    {
       "id": "paper:2609.26355",
       "title": "PACT: From Credit Assignment to Critic Alignment",
       "url": "https://huggingface.co/papers/2609.26355",
@@ -505,7 +505,7 @@
       "summary": "Reinforcement learning has become a central component of large language model (LLM) post-training, yet token-level credit lacks a generally accepted mathematical definition, leaving its relationship to commonly used training signals unclear. We formulate three regularity conditions, namely Completeness, Prefix Consistency, and Neutrality, and prove that they uniquely determine token-level credit. ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 16,
+      "upvotes": 23,
       "arxiv_id": "2609.26355"
     },
     {
@@ -1029,7 +1029,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T01:54:27.957320+00:00",
+      "fetched_at": "2026-09-28T07:58:35.981979+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1111,7 +1111,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T01:54:27.959764+00:00",
+      "fetched_at": "2026-09-28T07:58:35.984295+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1193,7 +1193,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T01:54:27.962511+00:00",
+      "fetched_at": "2026-09-28T07:58:35.986941+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1275,7 +1275,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T01:54:27.963518+00:00",
+      "fetched_at": "2026-09-28T07:58:35.987894+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1343,7 +1343,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T01:54:27.967958+00:00",
+      "fetched_at": "2026-09-28T07:58:35.992265+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1425,7 +1425,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T01:54:27.967973+00:00",
+      "fetched_at": "2026-09-28T07:58:35.992281+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1493,7 +1493,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T01:54:27.969797+00:00",
+      "fetched_at": "2026-09-28T07:58:35.994004+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1575,7 +1575,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-28T01:54:28.001179+00:00",
+      "fetched_at": "2026-09-28T07:58:36.025232+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1657,7 +1657,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-28T01:54:28.037904+00:00",
+      "fetched_at": "2026-09-28T07:58:36.061161+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1739,7 +1739,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T01:54:28.049171+00:00",
+      "fetched_at": "2026-09-28T07:58:36.073607+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1821,7 +1821,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T01:54:28.053834+00:00",
+      "fetched_at": "2026-09-28T07:58:36.078297+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1903,69 +1903,69 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T01:54:28.061546+00:00",
+      "fetched_at": "2026-09-28T07:58:36.086191+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Sonic 3.6",
           "creator": "Cartesia",
-          "score": 1274.0,
+          "score": 1276.0,
           "meta": "Aug 2026 · $49.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Google",
-          "score": 1265.0,
+          "score": 1267.0,
           "meta": "Sept 2026 · $16.5 /1M chars"
         },
         {
           "rank": 3,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Alibaba",
-          "score": 1261.0,
+          "score": 1258.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
           "rank": 4,
           "name": "Realtime TTS-2",
           "creator": "Inworld",
-          "score": 1245.0,
+          "score": 1246.0,
           "meta": "Aug 2026 · $20.8 /1M chars"
         },
         {
           "rank": 5,
-          "name": "Simba 3.2",
-          "creator": "SpeechifyAI",
+          "name": "Gemini 3.8 Flash-Lite TTS",
+          "creator": "Google",
           "score": 1241.0,
-          "meta": "Jul 2026 · $6.6 /1M chars"
+          "meta": "Sept 2026 · $11.0 /1M chars"
         },
         {
           "rank": 6,
-          "name": "Gemini 3.8 Flash-Lite TTS",
-          "creator": "Google",
-          "score": 1239.0,
-          "meta": "Sept 2026 · $11.0 /1M chars"
+          "name": "Simba 3.2",
+          "creator": "SpeechifyAI",
+          "score": 1240.0,
+          "meta": "Jul 2026 · $6.6 /1M chars"
         },
         {
           "rank": 7,
           "name": "Luna TTS",
           "creator": "VUI Labs",
-          "score": 1233.0,
+          "score": 1231.0,
           "meta": "Jun 2026 · $15.0 /1M chars"
         },
         {
           "rank": 8,
           "name": "Realtime TTS-2 Flash",
           "creator": "Inworld",
-          "score": 1209.0,
+          "score": 1210.0,
           "meta": "Aug 2026 · $10.4 /1M chars"
         },
         {
           "rank": 9,
           "name": "Breeze TTS 2 Open Weights",
           "creator": "BreezeBlue",
-          "score": 1204.0,
+          "score": 1206.0,
           "meta": "Aug 2026 · $34.0 /1M chars"
         },
         {
@@ -1985,20 +1985,20 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T01:54:28.063505+00:00",
+      "fetched_at": "2026-09-28T07:58:36.088088+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Breeze TTS 2 Open Weights",
           "creator": "BreezeBlue",
-          "score": 1204.0,
+          "score": 1206.0,
           "meta": "Aug 2026 · $34.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Fish Audio S2 Pro Open Weights",
           "creator": "Fish Audio",
-          "score": 1118.0,
+          "score": 1119.0,
           "meta": "Mar 2026 · $15.0 /1M chars"
         },
         {
@@ -2033,7 +2033,7 @@
           "rank": 7,
           "name": "Maya1 Open Weights",
           "creator": "Maya Research",
-          "score": 1044.0,
+          "score": 1046.0,
           "meta": "Jun 2025 · N/A"
         },
         {
@@ -2054,7 +2054,7 @@
           "rank": 10,
           "name": "Chatterbox Open Weights",
           "creator": "Resemble AI",
-          "score": 1024.0,
+          "score": 1023.0,
           "meta": "May 2025 · $25.0 /1M chars"
         }
       ]
@@ -2064,58 +2064,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 3,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-09-28T01:54:11.393945+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-09-28T07:58:19.323075+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 12,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-09-28T01:54:10.360532+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-09-28T07:58:18.205795+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-09-28T01:54:14.530898+00:00"
+        "error": null,
+        "checked_at": "2026-09-28T07:58:22.477392+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-28T01:54:16.745495+00:00"
+        "checked_at": "2026-09-28T07:58:24.744827+00:00"
       },
       {
         "name": "Matthew Berman",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA",
-        "checked_at": "2026-09-28T01:54:12.420065+00:00"
+        "error": null,
+        "checked_at": "2026-09-28T07:58:20.342705+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": false,
-        "items": 8,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-09-28T01:54:13.499316+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-09-28T07:58:21.374582+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-09-28T01:54:15.642611+00:00"
+        "error": null,
+        "checked_at": "2026-09-28T07:58:23.611524+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-28T01:54:28.065246+00:00"
+      "checked_at": "2026-09-28T07:58:36.089862+00:00"
     }
   }
 }
