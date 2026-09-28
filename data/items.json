@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-09-28T07:58:36.089943+00:00",
+  "generated_at": "2026-09-28T16:28:59.458924+00:00",
   "items": [
+    {
+      "id": "yt:W9m9S-At4FQ",
+      "title": "GPT-6 Luna First Test – Is OpenAI’s CHEAPEST Model Actually Good?",
+      "url": "https://www.youtube.com/watch?v=W9m9S-At4FQ",
+      "source": "Bijan Bowen",
+      "category": "videos",
+      "published": "2026-09-28T10:54:24+00:00",
+      "summary": "Timestamps: 00:00 - Intro 00:52 - First Look 01:36 - Technical Look 02:19 - Test Setup Info 03:12 - Browser OS Test 06:36 - C++ Skate Test 09:41 - Subway FPS Test 12:45 - Robot Arm Test 14:22 - Blender & Godot Wrestling Test 16:10 - Watch Website Test 18:40 - C++ Rally Test 20:30 - Usage Overview 21",
+      "thumbnail": "https://i4.ytimg.com/vi/W9m9S-At4FQ/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Bijan Bowen"
+    },
     {
       "id": "yt:6DjIjjE3doo",
       "title": "HUGE OpenAI DevDay LEAK! “o” AI Agent, Sonnet 5.5 BEATS GPT-6, MiniMax M3.1 OUT & More! AI NEWS",
@@ -107,7 +119,7 @@
       "summary": "Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image generation. However, RAEs still need to decide which encoder layers form the shared latent space for the generator and pixel decoder. This choice involves a trade-off. Shallower layers tend to preserve fine pixel details be",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 71,
+      "upvotes": 111,
       "arxiv_id": "2609.31620"
     },
     {
@@ -192,7 +204,7 @@
       "summary": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions. We term this the Superposition Linearity Hypothesis. We provide evidence that superposition is an intrinsic property o",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 77,
+      "upvotes": 78,
       "arxiv_id": "2609.29845"
     },
     {
@@ -266,7 +278,7 @@
       "summary": "Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation models, a paradigmatic class of current world models, have begun to show emerged reasoning abilities, making them ideal candidates for building human-like physical intelligence. Do video models have emerged object permanence in them? If not, could we train them with a core-cognition in",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 207,
+      "upvotes": 209,
       "arxiv_id": "2609.28654"
     },
     {
@@ -279,7 +291,7 @@
       "summary": "Advances in generative models have improved video fidelity, enabling long-horizon generation, interactive world modeling, and evolving visual environments. Autoregressive (AR) video generation extends visual sequences through causal rollouts. However, a fundamental bottleneck emerges: as the generated sequence expands, practical models must operate under strictly bounded context windows, storage, ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 50,
+      "upvotes": 59,
       "arxiv_id": "2609.28466"
     },
     {
@@ -292,8 +304,34 @@
       "summary": "Agentic memory systems reuse past experience to improve future performance, yet most existing designs curate memory at write time: once a task is completed, its trajectory is distilled into a fixed artifact, such as a reflection, workflow, skill, or reasoning strategy, that is later retrieved by similarity. This forces the system to decide what is worth remembering before the future query is known",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 40,
+      "upvotes": 47,
       "arxiv_id": "2609.27334"
+    },
+    {
+      "id": "paper:2609.27284",
+      "title": "Hunyuan-A13B Technical Report",
+      "url": "https://huggingface.co/papers/2609.27284",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-23T00:00:00+00:00",
+      "summary": "We present Hunyuan-A13B, an open-source large language model based on a Mixture-of-Experts architecture. It contains 80 billion total parameters but activates only 13 billion during inference, balancing model capability, computational efficiency, and deployment cost. The model is pretrained on a rigorously filtered 20T-token corpus with enhanced STEM data curation, improving factual reliability an",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 21,
+      "arxiv_id": "2609.27284"
+    },
+    {
+      "id": "paper:2609.27321",
+      "title": "Verifiable Hidden Dynamics Play: Generating Agentic RL Environments from Solved Mechanisms",
+      "url": "https://huggingface.co/papers/2609.27321",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-23T00:00:00+00:00",
+      "summary": "Language-model agents increasingly face long-horizon tasks with evolving state, interdependent decisions, and delayed outcomes. Scaling their training requires diverse agentic environments, dependable outcome signals, and low extension cost. Existing generation pipelines commonly construct an environment before defining its outcome rule or annotating its trajectories, leaving dynamics and evaluati",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 21,
+      "arxiv_id": "2609.27321"
     },
     {
       "id": "paper:2609.28416",
@@ -427,7 +465,7 @@
       "summary": "Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, how individuals perceive one another, what information is shared by the group, and how states change over time. Recent studies on multi-party dialogue benchmarks show that existing general-purpose LLM m",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 89,
+      "upvotes": 90,
       "arxiv_id": "2609.26780"
     },
     {
@@ -457,19 +495,6 @@
       "arxiv_id": "2609.26550"
     },
     {
-      "id": "paper:2609.26796",
-      "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
-      "url": "https://huggingface.co/papers/2609.26796",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-22T00:00:00+00:00",
-      "summary": "Diffusion Large Language Models (dLLMs) have recently emerged as a promising alternative to autoregressive LLMs by enabling non-autoregressive text generation. However, their practical deployment remains limited by inefficient inference, largely due to the absence of effective Key-Value (KV) caching and scalable parallel decoding mechanisms. Existing acceleration methods typically study KV caching",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 36,
-      "arxiv_id": "2609.26796"
-    },
-    {
       "id": "paper:2609.26781",
       "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
       "url": "https://huggingface.co/papers/2609.26781",
@@ -483,19 +508,6 @@
       "arxiv_id": "2609.26781"
     },
     {
-      "id": "paper:2609.26457",
-      "title": "Recursive self-improvement of AI research agents",
-      "url": "https://huggingface.co/papers/2609.26457",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-22T00:00:00+00:00",
-      "summary": "AI agents are beginning to automate research and development across the AI stack, from improving training efficiency to optimizing inference. A natural next step is to improve the research efficiency of the agents themselves. When an AI research agent's own code is the object of optimization, each accepted rewrite becomes the agent that the next round edits. We refer to this loop as recursive self",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 27,
-      "arxiv_id": "2609.26457"
-    },
-    {
       "id": "paper:2609.26355",
       "title": "PACT: From Credit Assignment to Critic Alignment",
       "url": "https://huggingface.co/papers/2609.26355",
@@ -505,7 +517,7 @@
       "summary": "Reinforcement learning has become a central component of large language model (LLM) post-training, yet token-level credit lacks a generally accepted mathematical definition, leaving its relationship to commonly used training signals unclear. We formulate three regularity conditions, namely Completeness, Prefix Consistency, and Neutrality, and prove that they uniquely determine token-level credit. ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 23,
+      "upvotes": 25,
       "arxiv_id": "2609.26355"
     },
     {
@@ -977,18 +989,6 @@
       "channel": "Bijan Bowen"
     },
     {
-      "id": "yt:9Z9rPZavjUU",
-      "title": "Claude Fable 5.1 Is INSANE – Hands-On With the BEST Model Yet!",
-      "url": "https://www.youtube.com/watch?v=9Z9rPZavjUU",
-      "source": "Bijan Bowen",
-      "category": "videos",
-      "published": "2026-09-01T23:31:45+00:00",
-      "summary": "Timestamps: 00:00 - Intro 01:06 - First Look 02:37 - Technical Look 03:49 - Hidden Benchmark 05:15 - Browser OS Test 11:50 - C++ Skate Game Test 17:20 - Jerry’s Apartment Test 19:47 - 3D CAD Model Test 23:57 - Watch Website Test 26:21 - C++ Rally Test 28:36 - UltraCode Subway FPS Test 34:58 - Cost I",
-      "thumbnail": "https://i2.ytimg.com/vi/9Z9rPZavjUU/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Bijan Bowen"
-    },
-    {
       "id": "yt:w9RDunJACkc",
       "title": "GLM 5.3: Powerful AI Is Becoming Almost Free",
       "url": "https://www.youtube.com/watch?v=w9RDunJACkc",
@@ -1029,7 +1029,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T07:58:35.981979+00:00",
+      "fetched_at": "2026-09-28T16:28:59.372898+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1111,7 +1111,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T07:58:35.984295+00:00",
+      "fetched_at": "2026-09-28T16:28:59.374737+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1193,7 +1193,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T07:58:35.986941+00:00",
+      "fetched_at": "2026-09-28T16:28:59.376830+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1275,7 +1275,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T07:58:35.987894+00:00",
+      "fetched_at": "2026-09-28T16:28:59.377590+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1343,7 +1343,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T07:58:35.992265+00:00",
+      "fetched_at": "2026-09-28T16:28:59.381015+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1425,7 +1425,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T07:58:35.992281+00:00",
+      "fetched_at": "2026-09-28T16:28:59.381026+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1493,7 +1493,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T07:58:35.994004+00:00",
+      "fetched_at": "2026-09-28T16:28:59.382533+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1575,7 +1575,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-28T07:58:36.025232+00:00",
+      "fetched_at": "2026-09-28T16:28:59.409826+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1657,7 +1657,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-28T07:58:36.061161+00:00",
+      "fetched_at": "2026-09-28T16:28:59.438355+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1739,7 +1739,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T07:58:36.073607+00:00",
+      "fetched_at": "2026-09-28T16:28:59.447205+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1821,7 +1821,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T07:58:36.078297+00:00",
+      "fetched_at": "2026-09-28T16:28:59.450623+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1903,77 +1903,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T07:58:36.086191+00:00",
+      "fetched_at": "2026-09-28T16:28:59.456242+00:00",
       "entries": [
         {
           "rank": 1,
+          "name": "Eleven v4",
+          "creator": "ElevenLabs",
+          "score": 1319.0,
+          "meta": "Sept 2026 · $80.0 /1M chars"
+        },
+        {
+          "rank": 2,
           "name": "Sonic 3.6",
           "creator": "Cartesia",
           "score": 1276.0,
           "meta": "Aug 2026 · $49.0 /1M chars"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Google",
           "score": 1267.0,
           "meta": "Sept 2026 · $16.5 /1M chars"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Alibaba",
           "score": 1258.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Realtime TTS-2",
           "creator": "Inworld",
           "score": 1246.0,
           "meta": "Aug 2026 · $20.8 /1M chars"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Gemini 3.8 Flash-Lite TTS",
           "creator": "Google",
           "score": 1241.0,
           "meta": "Sept 2026 · $11.0 /1M chars"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Simba 3.2",
           "creator": "SpeechifyAI",
           "score": 1240.0,
           "meta": "Jul 2026 · $6.6 /1M chars"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Luna TTS",
           "creator": "VUI Labs",
           "score": 1231.0,
           "meta": "Jun 2026 · $15.0 /1M chars"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Realtime TTS-2 Flash",
           "creator": "Inworld",
           "score": 1210.0,
           "meta": "Aug 2026 · $10.4 /1M chars"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Breeze TTS 2 Open Weights",
           "creator": "BreezeBlue",
           "score": 1206.0,
           "meta": "Aug 2026 · $34.0 /1M chars"
-        },
-        {
-          "rank": 10,
-          "name": "Gemini 3.1 Flash TTS",
-          "creator": "Google",
-          "score": 1203.0,
-          "meta": "Apr 2026 · $18.3 /1M chars"
         }
       ]
     },
@@ -1985,7 +1985,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T07:58:36.088088+00:00",
+      "fetched_at": "2026-09-28T16:28:59.457651+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2067,55 +2067,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-28T07:58:19.323075+00:00"
+        "checked_at": "2026-09-28T16:28:43.389899+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-28T07:58:18.205795+00:00"
+        "checked_at": "2026-09-28T16:28:42.233399+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-28T07:58:22.477392+00:00"
+        "checked_at": "2026-09-28T16:28:46.862647+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-28T07:58:24.744827+00:00"
+        "checked_at": "2026-09-28T16:28:49.262143+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-28T07:58:20.342705+00:00"
+        "checked_at": "2026-09-28T16:28:44.524074+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-28T07:58:21.374582+00:00"
+        "checked_at": "2026-09-28T16:28:45.668099+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-28T07:58:23.611524+00:00"
+        "checked_at": "2026-09-28T16:28:48.021626+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-28T07:58:36.089862+00:00"
+      "checked_at": "2026-09-28T16:28:59.458842+00:00"
     }
   }
 }
