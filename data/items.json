@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-09-28T22:13:39.773353+00:00",
+  "generated_at": "2026-09-29T02:07:28.223908+00:00",
   "items": [
+    {
+      "id": "yt:0NhtHVPQwt8",
+      "title": "What We Built With Sonnet 5.5",
+      "url": "https://www.youtube.com/shorts/0NhtHVPQwt8",
+      "source": "Matthew Berman",
+      "category": "videos",
+      "published": "2026-09-29T00:01:18+00:00",
+      "summary": "Play Crownfall, the Age of Empires-style game: https://saffron-flint-kkcm.here.now/ Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberm",
+      "thumbnail": "https://i1.ytimg.com/vi/0NhtHVPQwt8/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Matthew Berman"
+    },
     {
       "id": "yt:TyhlQ0ufH3Y",
       "title": "MYSTERIOUS Stealth AI Model BEATS GPT-6 Astra & It’s COMPLETELY FREE!",
@@ -131,8 +143,34 @@
       "summary": "Representation autoencoders (RAEs) reuse features from a pretrained visual encoder as reconstruction and diffusion latents, integrating strong visual representations into image generation. However, RAEs still need to decide which encoder layers form the shared latent space for the generator and pixel decoder. This choice involves a trade-off. Shallower layers tend to preserve fine pixel details be",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 114,
+      "upvotes": 115,
       "arxiv_id": "2609.31620"
+    },
+    {
+      "id": "paper:2609.31093",
+      "title": "Block Sparse Attention with Log-Linear Complexity",
+      "url": "https://huggingface.co/papers/2609.31093",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-25T00:00:00+00:00",
+      "summary": "Scaling language models to long contexts is limited by the quadratic cost of self-attention. Block sparse attention offers an efficient alternative, but selecting the retained blocks remains a bottleneck. Conventional block selection requires scoring all query-block pairs and therefore remains quadratic in sequence length. To address this issue, we propose PISA, a block-sparse attention mechanism ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 20,
+      "arxiv_id": "2609.31093"
+    },
+    {
+      "id": "paper:2609.31394",
+      "title": "InternW0-Δ: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data",
+      "url": "https://huggingface.co/papers/2609.31394",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-25T00:00:00+00:00",
+      "summary": "World Action Models (WAMs) jointly model visual dynamics and action generation for generalist robot manipulation. A central challenge is to integrate priors from large-scale pretrained models---including visual dynamics, scene semantics, geometry, and motion---into a unified framework for robot action generation. We introduce InternW0-Δ, a unified WAM pretrained on a heterogeneous corpus that outp",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 18,
+      "arxiv_id": "2609.31394"
     },
     {
       "id": "yt:R9momwXV9w4",
@@ -216,7 +254,7 @@
       "summary": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions. We term this the Superposition Linearity Hypothesis. We provide evidence that superposition is an intrinsic property o",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 79,
+      "upvotes": 80,
       "arxiv_id": "2609.29845"
     },
     {
@@ -229,7 +267,7 @@
       "summary": "Video generation begins in text space by authoring a cinematic screenplay, then materializes into pixels. As contemporary video generators scale to 30 seconds and faithfully follow complex conditions, the textual prompt largely directs the production, planning how actions, camera trajectories, lighting, and sound unfold across multi-shot sequences. In this paper, we present WanPE, a 397B-parameter",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 36,
+      "upvotes": 37,
       "arxiv_id": "2609.30221"
     },
     {
@@ -244,6 +282,19 @@
       "kind": "paper",
       "upvotes": 21,
       "arxiv_id": "2609.29421"
+    },
+    {
+      "id": "paper:2609.30199",
+      "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
+      "url": "https://huggingface.co/papers/2609.30199",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-24T00:00:00+00:00",
+      "summary": "Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses, designing experiments, and iterating on the results. However, evaluating this ability is difficult: (1) how to verify whether a genuinely new hypothesis holds, and (2) how to determine whether a system has discovered it through exploration or merely recalled related knowledge fro",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 19,
+      "arxiv_id": "2609.30199"
     },
     {
       "id": "yt:LrUCo_7jor4",
@@ -303,7 +354,7 @@
       "summary": "Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation models, a paradigmatic class of current world models, have begun to show emerged reasoning abilities, making them ideal candidates for building human-like physical intelligence. Do video models have emerged object permanence in them? If not, could we train them with a core-cognition in",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 209,
+      "upvotes": 210,
       "arxiv_id": "2609.28654"
     },
     {
@@ -316,7 +367,7 @@
       "summary": "Advances in generative models have improved video fidelity, enabling long-horizon generation, interactive world modeling, and evolving visual environments. Autoregressive (AR) video generation extends visual sequences through causal rollouts. However, a fundamental bottleneck emerges: as the generated sequence expands, practical models must operate under strictly bounded context windows, storage, ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 61,
+      "upvotes": 64,
       "arxiv_id": "2609.28466"
     },
     {
@@ -329,7 +380,7 @@
       "summary": "Agentic memory systems reuse past experience to improve future performance, yet most existing designs curate memory at write time: once a task is completed, its trajectory is distilled into a fixed artifact, such as a reflection, workflow, skill, or reasoning strategy, that is later retrieved by similarity. This forces the system to decide what is worth remembering before the future query is known",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 50,
+      "upvotes": 51,
       "arxiv_id": "2609.27334"
     },
     {
@@ -344,6 +395,58 @@
       "kind": "paper",
       "upvotes": 24,
       "arxiv_id": "2609.27284"
+    },
+    {
+      "id": "paper:2609.28416",
+      "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
+      "url": "https://huggingface.co/papers/2609.28416",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-23T00:00:00+00:00",
+      "summary": "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environment observations, yet reconstructing high-entropy, execution-dependent tool responses offers limited value when real feedback is available. Meanwhile, agents suffer from task-stat",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 22,
+      "arxiv_id": "2609.28416"
+    },
+    {
+      "id": "paper:2609.27321",
+      "title": "Verifiable Hidden Dynamics Play: Generating Agentic RL Environments from Solved Mechanisms",
+      "url": "https://huggingface.co/papers/2609.27321",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-23T00:00:00+00:00",
+      "summary": "Language-model agents increasingly face long-horizon tasks with evolving state, interdependent decisions, and delayed outcomes. Scaling their training requires diverse agentic environments, dependable outcome signals, and low extension cost. Existing generation pipelines commonly construct an environment before defining its outcome rule or annotating its trajectories, leaving dynamics and evaluati",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 21,
+      "arxiv_id": "2609.27321"
+    },
+    {
+      "id": "paper:2609.28473",
+      "title": "On the Diffusibility of High-Dimensional Latents",
+      "url": "https://huggingface.co/papers/2609.28473",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-23T00:00:00+00:00",
+      "summary": "Representation Autoencoders (RAEs) enable diffusion models to operate in the feature spaces of pretrained visual encoders. However, many off-the-shelf encoders are not optimized for faithful reconstruction, discarding fine-grained visual details. As expected, finetuning these encoders for image reconstruction recovers such details. However, perhaps counterintuitively, this procedure reduces the ef",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 18,
+      "arxiv_id": "2609.28473"
+    },
+    {
+      "id": "paper:2609.27901",
+      "title": "All modalities are equal, but video is more equal: Closing the Cross-Attention Gap in Joint Video Generation",
+      "url": "https://huggingface.co/papers/2609.27901",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-23T00:00:00+00:00",
+      "summary": "Video is a rich representation of a physical event, capturing appearance, geometry, motion, and temporal evolution. Other modalities, such as 3D body motion or audio, encode narrower aspects of the same event. We find that joint multimodal diffusion transformers exhibit a corresponding asymmetry in cross-modal correspondence: companion modalities develop strong correspondences to video, but the re",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 18,
+      "arxiv_id": "2609.27901"
     },
     {
       "id": "yt:ux6Lafw7en0",
@@ -440,97 +543,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/MJllZbpvrAc/hqdefault.jpg",
       "kind": "video",
       "channel": "Matthew Berman"
-    },
-    {
-      "id": "paper:2609.25804",
-      "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
-      "url": "https://huggingface.co/papers/2609.25804",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-22T00:00:00+00:00",
-      "summary": "LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run. Making these decisions well is becoming a key capability for both engineering and research agents. We refer to the ability to make good long-horizon decisions as the taste of an agent. While exis",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 159,
-      "arxiv_id": "2609.25804"
-    },
-    {
-      "id": "paper:2609.26780",
-      "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
-      "url": "https://huggingface.co/papers/2609.26780",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-22T00:00:00+00:00",
-      "summary": "Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each statement concerns, how individuals perceive one another, what information is shared by the group, and how states change over time. Recent studies on multi-party dialogue benchmarks show that existing general-purpose LLM m",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 96,
-      "arxiv_id": "2609.26780"
-    },
-    {
-      "id": "paper:2609.26774",
-      "title": "StableVQ: Practical Guidelines for Stable Vector-Quantized Tokenizer Training",
-      "url": "https://huggingface.co/papers/2609.26774",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-22T00:00:00+00:00",
-      "summary": "Vector Quantization (VQ) is fundamental to discrete visual tokenizers that power modern autoregressive and masked image generation models. While recent shared-projection codebook methods have substantially advanced codebook utilization, training stability remains a critical and underexplored challenge. We argue that the root cause lies in the entanglement of the Encoder--Decoder and Codebook train",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 55,
-      "arxiv_id": "2609.26774"
-    },
-    {
-      "id": "paper:2609.26333",
-      "title": "Disaggregated Quantization: Specializing LLM Prefill and Decode",
-      "url": "https://huggingface.co/papers/2609.26333",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-22T00:00:00+00:00",
-      "summary": "Prefill and decode reward different approaches to quantization: low-precision arithmetic accelerates prompt processing, while compact weights reduce memory traffic during generation. We propose \"disaggregated quantization\" (DQ), which specializes computation formats, weights and storage placement to both of these phases. On Qwen 3 and Gemma 3, removing activation quantization specifically on decod",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 42,
-      "arxiv_id": "2609.26333"
-    },
-    {
-      "id": "paper:2609.26550",
-      "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
-      "url": "https://huggingface.co/papers/2609.26550",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-22T00:00:00+00:00",
-      "summary": "LLM-as-a-judge enables evaluation across diverse tasks, but inference cost and confidence reliability become critical at scale. We study whether a decision-only judge can provide an economical first pass and identify when stronger evaluation is needed. Comparing jev-as-a-judge with sixteen generative and reward-model judges, with blinded human adjudication, we find it within three percentage point",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 42,
-      "arxiv_id": "2609.26550"
-    },
-    {
-      "id": "paper:2609.26781",
-      "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
-      "url": "https://huggingface.co/papers/2609.26781",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-22T00:00:00+00:00",
-      "summary": "A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems. However, the scalability of current multi-agent harnesses is often constrained by a central orchestrator's capacity to allocate tasks and coordinate workers. To address this limitation, we introduce Agensh, a scalable self-organized multi-agent",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 27,
-      "arxiv_id": "2609.26781"
-    },
-    {
-      "id": "paper:2609.26355",
-      "title": "PACT: From Credit Assignment to Critic Alignment",
-      "url": "https://huggingface.co/papers/2609.26355",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-22T00:00:00+00:00",
-      "summary": "Reinforcement learning has become a central component of large language model (LLM) post-training, yet token-level credit lacks a generally accepted mathematical definition, leaving its relationship to commonly used training signals unclear. We formulate three regularity conditions, namely Completeness, Prefix Consistency, and Neutrality, and prove that they uniquely determine token-level credit. ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 26,
-      "arxiv_id": "2609.26355"
     },
     {
       "id": "yt:HAi7twQBKlY",
@@ -699,18 +711,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/MImgH4KMtj8/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "yt:_7f2k3g4ym8",
-      "title": "Can You Tell What's Real and What's AI?",
-      "url": "https://www.youtube.com/shorts/_7f2k3g4ym8",
-      "source": "Matthew Berman",
-      "category": "videos",
-      "published": "2026-09-17T23:18:46+00:00",
-      "summary": "Get your Higgsfield API key: https://higgsfield.ai/s/yEKpiu Higgsfield API gives builders one key for AI image and video models, with pay-per-generation pricing and no monthly subscription. Use it on desktop for the best experience. Sponsored by Higgsfield. Join My Newsletter for Regular AI Updates ",
-      "thumbnail": "https://i4.ytimg.com/vi/_7f2k3g4ym8/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Matthew Berman"
     },
     {
       "id": "yt:J3ljHm57yU0",
@@ -1029,69 +1029,69 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T22:13:39.659247+00:00",
+      "fetched_at": "2026-09-29T02:07:28.114421+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "OpenAI",
-          "score": 1181.0,
+          "score": 1180.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 2,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "OpenAI",
-          "score": 1159.0,
+          "score": 1162.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 3,
           "name": "MAI-Image-2.6",
           "creator": "Microsoft AI",
-          "score": 1133.0,
+          "score": 1135.0,
           "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
           "rank": 4,
           "name": "MAI-Image-2.6-Flash",
           "creator": "Microsoft AI",
-          "score": 1124.0,
+          "score": 1125.0,
           "meta": "Sep 2026 · $19.5 /1k imgs"
         },
         {
           "rank": 5,
           "name": "GPT Image 2 (high)",
           "creator": "OpenAI",
-          "score": 1122.0,
+          "score": 1123.0,
           "meta": "Apr 2026 · $211.0 /1k imgs"
         },
         {
           "rank": 6,
           "name": "Muse Image",
           "creator": "Meta",
-          "score": 1117.0,
+          "score": 1118.0,
           "meta": "Jul 2026 · $10.0 /1k imgs"
         },
         {
           "rank": 7,
           "name": "MAI-Image-2.5",
           "creator": "Microsoft AI",
-          "score": 1113.0,
+          "score": 1114.0,
           "meta": "Jun 2026 · $48.1 /1k imgs"
         },
         {
           "rank": 8,
           "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "creator": "Google",
-          "score": 1107.0,
+          "score": 1108.0,
           "meta": "Feb 2026 · $67.0 /1k imgs"
         },
         {
           "rank": 9,
           "name": "Seedream 5.0 Pro",
           "creator": "ByteDance Seed",
-          "score": 1106.0,
+          "score": 1107.0,
           "meta": "Jul 2026 · $90.0 /1k imgs"
         },
         {
@@ -1111,21 +1111,21 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T22:13:39.661634+00:00",
+      "fetched_at": "2026-09-29T02:07:28.116727+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Qwen-Image-2.1 Open Weights",
           "creator": "Alibaba",
-          "score": 1070.0,
+          "score": 1073.0,
           "meta": "Sep 2026 · No API available"
         },
         {
           "rank": 2,
-          "name": "HunyuanImage 3.0 Instruct (Fal) Open Weights",
+          "name": "HunyuanImage 3.0 Instruct Open Weights",
           "creator": "Tencent",
-          "score": 1026.0,
-          "meta": "Jan 2026 · $90.0 /1k imgs"
+          "score": 1057.0,
+          "meta": "Jan 2026 · No API available"
         },
         {
           "rank": 3,
@@ -1138,14 +1138,14 @@
           "rank": 4,
           "name": "FLUX.2 [klein] 9B Open Weights",
           "creator": "Black Forest Labs",
-          "score": 1013.0,
+          "score": 1014.0,
           "meta": "Jan 2026 · $17.0 /1k imgs"
         },
         {
           "rank": 5,
           "name": "FLUX.2 [dev] Turbo Open Weights",
           "creator": "Fal",
-          "score": 1000.0,
+          "score": 1001.0,
           "meta": "Dec 2025 · $8.0 /1k imgs"
         },
         {
@@ -1166,21 +1166,21 @@
           "rank": 8,
           "name": "Qwen Image Edit Plus 2509 Open Weights",
           "creator": "Alibaba",
-          "score": 981.0,
+          "score": 982.0,
           "meta": "Sep 2025 · $30.0 /1k imgs"
         },
         {
           "rank": 9,
           "name": "FLUX.2 [klein] Base 9B Open Weights",
           "creator": "Black Forest Labs",
-          "score": 973.0,
+          "score": 974.0,
           "meta": "Jan 2026 · $22.0 /1k imgs"
         },
         {
           "rank": 10,
           "name": "HiDream-O1-Image Open Weights",
           "creator": "HiDream",
-          "score": 951.0,
+          "score": 952.0,
           "meta": "May 2026 · $10.0 /1k imgs"
         }
       ]
@@ -1193,7 +1193,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T22:13:39.664382+00:00",
+      "fetched_at": "2026-09-29T02:07:28.119347+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1275,7 +1275,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T22:13:39.665372+00:00",
+      "fetched_at": "2026-09-29T02:07:28.120300+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1343,7 +1343,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T22:13:39.669777+00:00",
+      "fetched_at": "2026-09-29T02:07:28.124516+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1425,7 +1425,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T22:13:39.669791+00:00",
+      "fetched_at": "2026-09-29T02:07:28.124530+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1493,7 +1493,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T22:13:39.671687+00:00",
+      "fetched_at": "2026-09-29T02:07:28.126266+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1575,7 +1575,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-28T22:13:39.705846+00:00",
+      "fetched_at": "2026-09-29T02:07:28.157820+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1657,7 +1657,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-28T22:13:39.743926+00:00",
+      "fetched_at": "2026-09-29T02:07:28.194923+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1739,20 +1739,20 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T22:13:39.756896+00:00",
+      "fetched_at": "2026-09-29T02:07:28.207461+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "OpenAI",
-          "score": 1194.0,
+          "score": 1195.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 2,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "OpenAI",
-          "score": 1190.0,
+          "score": 1189.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
@@ -1773,7 +1773,7 @@
           "rank": 5,
           "name": "MAI-Image-2.6",
           "creator": "Microsoft AI",
-          "score": 1147.0,
+          "score": 1148.0,
           "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
@@ -1792,17 +1792,17 @@
         },
         {
           "rank": 8,
-          "name": "GPT Image 1.5 (high)",
-          "creator": "OpenAI",
-          "score": 1104.0,
-          "meta": "Dec 2025 · $133.0 /1k imgs"
-        },
-        {
-          "rank": 9,
           "name": "MAI-Image-2.6-Flash",
           "creator": "Microsoft AI",
           "score": 1103.0,
           "meta": "Sep 2026 · $19.5 /1k imgs"
+        },
+        {
+          "rank": 9,
+          "name": "GPT Image 1.5 (high)",
+          "creator": "OpenAI",
+          "score": 1103.0,
+          "meta": "Dec 2025 · $133.0 /1k imgs"
         },
         {
           "rank": 10,
@@ -1821,27 +1821,27 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T22:13:39.761746+00:00",
+      "fetched_at": "2026-09-29T02:07:28.212081+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Qwen-Image-2.1 Open Weights",
           "creator": "Alibaba",
-          "score": 1033.0,
+          "score": 1035.0,
           "meta": "Sep 2026 · No API available"
         },
         {
           "rank": 2,
           "name": "Ideogram 4.0 (Quality) Open Weights",
           "creator": "Ideogram",
-          "score": 1011.0,
+          "score": 1010.0,
           "meta": "Jun 2026 · $100.0 /1k imgs"
         },
         {
           "rank": 3,
           "name": "Ideogram 4.0 Open Weights",
           "creator": "Ideogram",
-          "score": 1002.0,
+          "score": 1003.0,
           "meta": "Jun 2026 · $60.0 /1k imgs"
         },
         {
@@ -1853,45 +1853,45 @@
         },
         {
           "rank": 5,
-          "name": "FLUX.2 [dev] Turbo Open Weights",
-          "creator": "Fal",
-          "score": 999.0,
-          "meta": "Dec 2025 · $8.0 /1k imgs"
-        },
-        {
-          "rank": 6,
           "name": "Qwen Image Max 2512 Open Weights",
           "creator": "Alibaba",
           "score": 998.0,
           "meta": "Dec 2025 · $20.0 /1k imgs"
         },
         {
-          "rank": 7,
-          "name": "Ming-Image-0.1-Design Open Weights",
-          "creator": "InclusionAI",
+          "rank": 6,
+          "name": "FLUX.2 [dev] Turbo Open Weights",
+          "creator": "Fal",
           "score": 998.0,
-          "meta": "Sep 2026 · $30.0 /1k imgs"
+          "meta": "Dec 2025 · $8.0 /1k imgs"
+        },
+        {
+          "rank": 7,
+          "name": "HunyuanImage 3.0 Instruct Open Weights",
+          "creator": "Tencent",
+          "score": 997.0,
+          "meta": "Jan 2026 · No API available"
         },
         {
           "rank": 8,
-          "name": "Cosmos3-Super-Text2Image (agentic) Open Weights",
-          "creator": "NVIDIA",
-          "score": 995.0,
-          "meta": "May 2026 · No API available"
+          "name": "Ming-Image-0.1-Design Open Weights",
+          "creator": "InclusionAI",
+          "score": 996.0,
+          "meta": "Sep 2026 · $30.0 /1k imgs"
         },
         {
           "rank": 9,
+          "name": "Cosmos3-Super-Text2Image (agentic) Open Weights",
+          "creator": "NVIDIA",
+          "score": 994.0,
+          "meta": "May 2026 · No API available"
+        },
+        {
+          "rank": 10,
           "name": "Cosmos3-Super-Text2Image Open Weights",
           "creator": "NVIDIA",
           "score": 985.0,
           "meta": "May 2026 · $40.0 /1k imgs"
-        },
-        {
-          "rank": 10,
-          "name": "Ideogram 4.0 Fast (Quality) Open Weights",
-          "creator": "Fal",
-          "score": 984.0,
-          "meta": "Jul 2026 · $17.5 /1k imgs"
         }
       ]
     },
@@ -1903,20 +1903,20 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T22:13:39.769842+00:00",
+      "fetched_at": "2026-09-29T02:07:28.219887+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Eleven v4",
           "creator": "ElevenLabs",
-          "score": 1319.0,
+          "score": 1315.0,
           "meta": "Sept 2026 · $80.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Sonic 3.6",
           "creator": "Cartesia",
-          "score": 1276.0,
+          "score": 1275.0,
           "meta": "Aug 2026 · $49.0 /1M chars"
         },
         {
@@ -1937,7 +1937,7 @@
           "rank": 5,
           "name": "Realtime TTS-2",
           "creator": "Inworld",
-          "score": 1246.0,
+          "score": 1244.0,
           "meta": "Aug 2026 · $20.8 /1M chars"
         },
         {
@@ -1951,28 +1951,28 @@
           "rank": 7,
           "name": "Simba 3.2",
           "creator": "SpeechifyAI",
-          "score": 1240.0,
+          "score": 1239.0,
           "meta": "Jul 2026 · $6.6 /1M chars"
         },
         {
           "rank": 8,
           "name": "Luna TTS",
           "creator": "VUI Labs",
-          "score": 1231.0,
+          "score": 1230.0,
           "meta": "Jun 2026 · $15.0 /1M chars"
         },
         {
           "rank": 9,
           "name": "Realtime TTS-2 Flash",
           "creator": "Inworld",
-          "score": 1210.0,
+          "score": 1213.0,
           "meta": "Aug 2026 · $10.4 /1M chars"
         },
         {
           "rank": 10,
           "name": "Breeze TTS 2 Open Weights",
           "creator": "BreezeBlue",
-          "score": 1206.0,
+          "score": 1207.0,
           "meta": "Aug 2026 · $34.0 /1M chars"
         }
       ]
@@ -1985,27 +1985,27 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-28T22:13:39.771862+00:00",
+      "fetched_at": "2026-09-29T02:07:28.221985+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Breeze TTS 2 Open Weights",
           "creator": "BreezeBlue",
-          "score": 1206.0,
+          "score": 1207.0,
           "meta": "Aug 2026 · $34.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Fish Audio S2 Pro Open Weights",
           "creator": "Fish Audio",
-          "score": 1119.0,
+          "score": 1118.0,
           "meta": "Mar 2026 · $15.0 /1M chars"
         },
         {
           "rank": 3,
           "name": "Step Audio EditX (Mar 2026) Open Weights",
           "creator": "StepFun",
-          "score": 1095.0,
+          "score": 1094.0,
           "meta": "Feb 2026 · N/A"
         },
         {
@@ -2026,7 +2026,7 @@
           "rank": 6,
           "name": "Magpie-Multilingual 357M (Feb 2026) Open Weights",
           "creator": "NVIDIA",
-          "score": 1064.0,
+          "score": 1063.0,
           "meta": "Feb 2026 · N/A"
         },
         {
@@ -2064,58 +2064,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-09-28T22:13:23.924894+00:00"
+        "ok": false,
+        "items": 3,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-09-29T02:07:11.751129+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-09-28T22:13:22.899646+00:00"
+        "ok": false,
+        "items": 12,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-09-29T02:07:10.665421+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-09-28T22:13:27.135982+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-09-29T02:07:15.002821+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-28T22:13:29.391522+00:00"
+        "checked_at": "2026-09-29T02:07:17.309173+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-28T22:13:24.944431+00:00"
+        "checked_at": "2026-09-29T02:07:12.796590+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-09-28T22:13:25.964180+00:00"
+        "ok": false,
+        "items": 8,
+        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-09-29T02:07:13.975031+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-28T22:13:28.169451+00:00"
+        "checked_at": "2026-09-29T02:07:16.037849+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-28T22:13:39.773267+00:00"
+      "checked_at": "2026-09-29T02:07:28.223834+00:00"
     }
   }
 }
