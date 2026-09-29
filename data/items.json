@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T08:47:50.057912+00:00",
+  "generated_at": "2026-09-29T15:14:25.274407+00:00",
   "items": [
     {
       "id": "yt:WzoDOZnHbCk",
@@ -83,7 +83,7 @@
       "summary": "Reinforcement learning can turn one language model into several specialists, each excellent at a single skill such as mathematics, coding or following instructions, but users need one model with all of these skills. Multi-teacher on-policy distillation (MOPD) merges them by letting the specialists teach one student: the student answers each prompt, and the specialist for that prompt's domain gives",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 55,
+      "upvotes": 126,
       "arxiv_id": "2609.35347"
     },
     {
@@ -96,21 +96,8 @@
       "summary": "Vision-language-action (VLA) and world-action (WAM) models map observations and instructions directly to robot actions. This directness ties a policy to training: minor layout or viewpoint changes cause failure, and instructions generalize poorly. The root cause lies in representation: task requirements, conditions, progress, and failure recovery are implicitly encoded in action sequences, making ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 41,
+      "upvotes": 88,
       "arxiv_id": "2609.35432"
-    },
-    {
-      "id": "paper:2609.35748",
-      "title": "Improving Test-Time Scaling with Adaptive Looped Transformers",
-      "url": "https://huggingface.co/papers/2609.35748",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-28T00:00:00+00:00",
-      "summary": "Looped transformers have demonstrated promising parameter efficiency by reusing layers for latent computation. Prior studies compare looped and non-looped models at matched parameters or per-token FLOPs. However, to the best of our knowledge, whether looping improves test-time scaling as outputs grow longer remains underexplored. Through post-training looped transformers, we study the accuracy-com",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 35,
-      "arxiv_id": "2609.35748"
     },
     {
       "id": "paper:2609.35457",
@@ -122,21 +109,21 @@
       "summary": "Most modern multimodal large language models (MLLMs) build on a pretrained visual encoder that provides a strong visual prior. Encoder-free MLLMs instead learn visual representations directly from raw pixels, offering a simple and unified architecture, but their scaling behavior has not been systematically characterized. To fill this gap, we compare scaling laws for encoder-free and encoder-based ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 29,
+      "upvotes": 51,
       "arxiv_id": "2609.35457"
     },
     {
-      "id": "paper:2609.34327",
-      "title": "Knowing When Thinking Is Not Enough: Teaching Small Reasoning Models to Reason Beyond Their Parametric Knowledge",
-      "url": "https://huggingface.co/papers/2609.34327",
+      "id": "paper:2609.35748",
+      "title": "Improving Test-Time Scaling with Adaptive Looped Transformers",
+      "url": "https://huggingface.co/papers/2609.35748",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-09-28T00:00:00+00:00",
-      "summary": "Scaling test-time computation is a powerful way to improve language-model reasoning, and is particularly appealing for small reasoning models (sRMs) that are cheap to serve. However, is additional thinking always the right operation? By intervening at intermediate reasoning states across two model families and multiple scales, we find that self-refinement largely consolidates probability mass onto",
+      "summary": "Looped transformers have demonstrated promising parameter efficiency by reusing layers for latent computation. Prior studies compare looped and non-looped models at matched parameters or per-token FLOPs. However, to the best of our knowledge, whether looping improves test-time scaling as outputs grow longer remains underexplored. Through post-training looped transformers, we study the accuracy-com",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 25,
-      "arxiv_id": "2609.34327"
+      "upvotes": 41,
+      "arxiv_id": "2609.35748"
     },
     {
       "id": "paper:2609.35767",
@@ -148,21 +135,21 @@
       "summary": "Unified multimodal models can both look at and render images, so in principle they can repair their own generations: diagnose what an image gets wrong, revise it, observe the result, and diagnose again. Whether a revision helps is known only after it is rendered, so the reflection text and the image generation must be learned jointly, over the whole loop. Supervised fine-tuning (SFT) on reflection",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 24,
+      "upvotes": 32,
       "arxiv_id": "2609.35767"
     },
     {
-      "id": "paper:2609.35560",
-      "title": "WorldPlay2: Extending Real-Time Interactive World Models in Control and Horizon",
-      "url": "https://huggingface.co/papers/2609.35560",
+      "id": "paper:2609.34327",
+      "title": "Knowing When Thinking Is Not Enough: Teaching Small Reasoning Models to Reason Beyond Their Parametric Knowledge",
+      "url": "https://huggingface.co/papers/2609.34327",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-09-28T00:00:00+00:00",
-      "summary": "Interactive world models require responding in real time to versatile controls and maintaining long-horizon consistency. However, modeling heterogeneous controls remains difficult, while explosive contexts and unstable distillation impede achieving both long-horizon consistency and real-time responsiveness. In this paper, we present WorldPlay2, an interactive world model that couples a factorized ",
+      "summary": "Scaling test-time computation is a powerful way to improve language-model reasoning, and is particularly appealing for small reasoning models (sRMs) that are cheap to serve. However, is additional thinking always the right operation? By intervening at intermediate reasoning states across two model families and multiple scales, we find that self-refinement largely consolidates probability mass onto",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 22,
-      "arxiv_id": "2609.35560"
+      "upvotes": 27,
+      "arxiv_id": "2609.34327"
     },
     {
       "id": "yt:6DjIjjE3doo",
@@ -198,7 +185,7 @@
       "summary": "Symbolic models make melody, harmony, rhythm, and form explicit but typically stop before a finished recording; audio models produce complete songs while leaving composition implicit. We introduce YuE2, which unifies symbolic and audio music generation at frontier quality through symbolic planning. A single AR-NAR Mixture-of-Transformers (MoT) first writes a readable score specifying melody and ha",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 56,
+      "upvotes": 132,
       "arxiv_id": "2609.33757"
     },
     {
@@ -211,47 +198,21 @@
       "summary": "An agent can complete a task while exhibiting undesirable behavior during execution. Developers need tests for the specific behaviors encountered in deployment, beyond fixed benchmark suites. We present TraceDance, an agent system that constructs targeted benchmarks from deployment traces for user-specified undesirable behaviors. For efficient construction, Anchor-and-Confirm combines programmable",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 49,
+      "upvotes": 56,
       "arxiv_id": "2609.33295"
     },
     {
-      "id": "paper:2609.33665",
-      "title": "CompoWorld: Compositional Environment Scaling for General Agents",
-      "url": "https://huggingface.co/papers/2609.33665",
+      "id": "paper:2609.33378",
+      "title": "Recursive Harness Distillation across Agents for Robot Manipulation",
+      "url": "https://huggingface.co/papers/2609.33378",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-09-27T00:00:00+00:00",
-      "summary": "Automatically generated environments provide a scalable source of interaction data for training general agents. However, existing approaches mainly generate tasks within a single environment, while real-world workflows require agents to connect information and actions across multiple services. We introduce Compositional Environment Scaling (CompoWorld), which expands the task space by composing a ",
+      "summary": "A central goal in robotics is to enable manipulation across changing tasks and environments. Vision-language-action (VLA) models provide broad manipulation capabilities but can struggle when execution requires diagnosing failures and adapting behavior. Strong agents can discover effective interventions through interaction with these policies. We propose Recursive Harness Distillation to accumulate",
       "thumbnail": null,
       "kind": "paper",
       "upvotes": 27,
-      "arxiv_id": "2609.33665"
-    },
-    {
-      "id": "paper:2609.33781",
-      "title": "Surprising Success, Repeated Failure: Entropy-Guided Credit Assignment for Exploration in LLM Reasoning",
-      "url": "https://huggingface.co/papers/2609.33781",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-27T00:00:00+00:00",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) enhances reasoning in large language models (LLMs) through outcome-level feedback, yet recent approaches to finer-grained credit assignment often require auxiliary models, additional sampling, or privileged information. Although policy entropy provides a readily available signal, prioritizing uncertain positions under both reinforcement and pen",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 24,
-      "arxiv_id": "2609.33781"
-    },
-    {
-      "id": "paper:2609.33642",
-      "title": "Learning to Learn from Context: Synthetic Training from Perturbed Public Documents",
-      "url": "https://huggingface.co/papers/2609.33642",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-27T00:00:00+00:00",
-      "summary": "Real-world tasks often require large language models (LLMs) to learn from complex task-specific context rather than pretrained parametric knowledge. This capability remains a weakness of LLMs, while human annotation for such task contexts is expensive and difficult to scale. Public high-quality documents are an abundant alternative, but much of the public web has already been consumed during pretr",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 22,
-      "arxiv_id": "2609.33642"
+      "arxiv_id": "2609.33378"
     },
     {
       "id": "yt:gRnRCv1t0r8",
@@ -302,6 +263,45 @@
       "channel": "Matthew Berman"
     },
     {
+      "id": "paper:2609.32577",
+      "title": "Groupwise Agentic Grading and Advantage Redistribution for Code Agent RL",
+      "url": "https://huggingface.co/papers/2609.32577",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-26T00:00:00+00:00",
+      "summary": "Reinforcement learning (RL) for code agents often uses executable tests to provide binary rewards. With these rewards, Group Relative Policy Optimization (GRPO) assigns identical advantages to test-passing trajectories within each rollout group, overlooking differences in implementation quality and adherence to task requirements. This leaves the policy without a learning signal that favors clean, ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 64,
+      "arxiv_id": "2609.32577"
+    },
+    {
+      "id": "paper:2609.32712",
+      "title": "MassAlloc Attention: Let Attention Allocate Its Own Compute",
+      "url": "https://huggingface.co/papers/2609.32712",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-26T00:00:00+00:00",
+      "summary": "FullAttn often assigns negligible normalized mass to much of the causal score space, yet dense kernels execute the complete post-score path after forming each QK tile. We introduce MALA, a fused attention primitive that preserves score access to every legal causal interaction and uses normalized contribution to allocate post-score computation. Forward uses its evolving online-softmax normalizer, w",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 63,
+      "arxiv_id": "2609.32712"
+    },
+    {
+      "id": "paper:2609.32704",
+      "title": "CoWindow Attention: Full Causal Coverage Is a Collective Property",
+      "url": "https://huggingface.co/papers/2609.32704",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-26T00:00:00+00:00",
+      "summary": "FullAttn repeatedly exposes the complete causal history to every attention head, creating substantial redundant computation and memory traffic even with IO-efficient dense kernels. We introduce CoWA, a structured attention architecture that distributes access to the causal history across KV heads. All heads share near-diagonal and prefix-sink windows, while complementary long-range windows partiti",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 59,
+      "arxiv_id": "2609.32704"
+    },
+    {
       "id": "yt:zICv3IJaAfQ",
       "title": "DeepSeek is CRAZY",
       "url": "https://www.youtube.com/shorts/zICv3IJaAfQ",
@@ -335,7 +335,7 @@
       "summary": "Real-time full-duplex speech models can listen while speaking, enabling natural interaction without rigid turn boundaries. Existing benchmarks evaluate turn-taking, interruption handling and multi-round dialogue, but largely centre on a designated user rather than an assistant participating in a shared conversation among several people. We introduce Duplex-MPE to evaluate when such an assistant sh",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 27,
+      "upvotes": 79,
       "arxiv_id": "2609.31948"
     },
     {
@@ -420,7 +420,7 @@
       "summary": "We find that language models can transfer capabilities through task-unrelated text. Post-training typically improves language models using task-specific data. Prior work on subliminal learning shows that information about these updates can pass through unrelated generations, but has largely focused on traits or preferences using extensive teacher outputs. We introduce Active Taskless Distillation ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 43,
+      "upvotes": 124,
       "arxiv_id": "2609.29233"
     },
     {
@@ -481,7 +481,7 @@
       "summary": "Long-horizon embodied interaction requires agents to retain and continually update information about the environment as they observe, act, and encounter change. Yet current agents struggle to maintain such memory reliably. Our analysis traces this limitation to four key deficiencies: weak fine-grained visual memory, unreliable dynamic world-state tracking, failing to record world state revealed by",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 27,
+      "upvotes": 29,
       "arxiv_id": "2609.28236"
     },
     {
@@ -1017,7 +1017,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T08:47:49.986273+00:00",
+      "fetched_at": "2026-09-29T15:14:25.158444+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1099,7 +1099,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T08:47:49.987765+00:00",
+      "fetched_at": "2026-09-29T15:14:25.160875+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1181,7 +1181,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T08:47:49.989441+00:00",
+      "fetched_at": "2026-09-29T15:14:25.163616+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1263,7 +1263,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T08:47:49.990064+00:00",
+      "fetched_at": "2026-09-29T15:14:25.164608+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1331,7 +1331,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T08:47:49.992878+00:00",
+      "fetched_at": "2026-09-29T15:14:25.168958+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1413,7 +1413,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T08:47:49.992894+00:00",
+      "fetched_at": "2026-09-29T15:14:25.168972+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1481,7 +1481,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T08:47:49.994099+00:00",
+      "fetched_at": "2026-09-29T15:14:25.170893+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1563,7 +1563,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-29T08:47:50.016163+00:00",
+      "fetched_at": "2026-09-29T15:14:25.206597+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1645,7 +1645,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-29T08:47:50.040654+00:00",
+      "fetched_at": "2026-09-29T15:14:25.246005+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1727,7 +1727,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T08:47:50.047976+00:00",
+      "fetched_at": "2026-09-29T15:14:25.258098+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1809,7 +1809,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T08:47:50.051112+00:00",
+      "fetched_at": "2026-09-29T15:14:25.262791+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1891,7 +1891,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T08:47:50.055842+00:00",
+      "fetched_at": "2026-09-29T15:14:25.270648+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1973,7 +1973,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T08:47:50.057170+00:00",
+      "fetched_at": "2026-09-29T15:14:25.272542+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2055,55 +2055,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-29T08:47:32.891179+00:00"
+        "checked_at": "2026-09-29T15:14:08.213996+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-29T08:47:31.755434+00:00"
+        "checked_at": "2026-09-29T15:14:07.035742+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-29T08:47:36.274060+00:00"
+        "checked_at": "2026-09-29T15:14:11.630677+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-29T08:47:38.692477+00:00"
+        "checked_at": "2026-09-29T15:14:14.025566+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-29T08:47:34.057439+00:00"
+        "checked_at": "2026-09-29T15:14:09.364593+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-29T08:47:35.166177+00:00"
+        "checked_at": "2026-09-29T15:14:10.500983+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-29T08:47:37.507645+00:00"
+        "checked_at": "2026-09-29T15:14:12.832660+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-29T08:47:50.057824+00:00"
+      "checked_at": "2026-09-29T15:14:25.274329+00:00"
     }
   }
 }
