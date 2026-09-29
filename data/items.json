@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:05:10.786593+00:00",
+  "generated_at": "2026-09-29T23:49:53.547564+00:00",
   "items": [
     {
       "id": "yt:WzoDOZnHbCk",
@@ -96,7 +96,7 @@
       "summary": "Vision-language-action (VLA) and world-action (WAM) models map observations and instructions directly to robot actions. This directness ties a policy to training: minor layout or viewpoint changes cause failure, and instructions generalize poorly. The root cause lies in representation: task requirements, conditions, progress, and failure recovery are implicitly encoded in action sequences, making ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 90,
+      "upvotes": 91,
       "arxiv_id": "2609.35432"
     },
     {
@@ -109,7 +109,7 @@
       "summary": "Most modern multimodal large language models (MLLMs) build on a pretrained visual encoder that provides a strong visual prior. Encoder-free MLLMs instead learn visual representations directly from raw pixels, offering a simple and unified architecture, but their scaling behavior has not been systematically characterized. To fill this gap, we compare scaling laws for encoder-free and encoder-based ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 54,
+      "upvotes": 55,
       "arxiv_id": "2609.35457"
     },
     {
@@ -122,7 +122,7 @@
       "summary": "Looped transformers have demonstrated promising parameter efficiency by reusing layers for latent computation. Prior studies compare looped and non-looped models at matched parameters or per-token FLOPs. However, to the best of our knowledge, whether looping improves test-time scaling as outputs grow longer remains underexplored. Through post-training looped transformers, we study the accuracy-com",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 45,
+      "upvotes": 46,
       "arxiv_id": "2609.35748"
     },
     {
@@ -135,7 +135,7 @@
       "summary": "Unified multimodal models can both look at and render images, so in principle they can repair their own generations: diagnose what an image gets wrong, revise it, observe the result, and diagnose again. Whether a revision helps is known only after it is rendered, so the reflection text and the image generation must be learned jointly, over the whole loop. Supervised fine-tuning (SFT) on reflection",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 35,
+      "upvotes": 36,
       "arxiv_id": "2609.35767"
     },
     {
@@ -148,7 +148,7 @@
       "summary": "Scaling test-time computation is a powerful way to improve language-model reasoning, and is particularly appealing for small reasoning models (sRMs) that are cheap to serve. However, is additional thinking always the right operation? By intervening at intermediate reasoning states across two model families and multiple scales, we find that self-refinement largely consolidates probability mass onto",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 31,
+      "upvotes": 32,
       "arxiv_id": "2609.34327"
     },
     {
@@ -185,7 +185,7 @@
       "summary": "Symbolic models make melody, harmony, rhythm, and form explicit but typically stop before a finished recording; audio models produce complete songs while leaving composition implicit. We introduce YuE2, which unifies symbolic and audio music generation at frontier quality through symbolic planning. A single AR-NAR Mixture-of-Transformers (MoT) first writes a readable score specifying melody and ha",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 196,
+      "upvotes": 198,
       "arxiv_id": "2609.33757"
     },
     {
@@ -213,6 +213,19 @@
       "kind": "paper",
       "upvotes": 60,
       "arxiv_id": "2609.33295"
+    },
+    {
+      "id": "paper:2609.33665",
+      "title": "CompoWorld: Compositional Environment Scaling for General Agents",
+      "url": "https://huggingface.co/papers/2609.33665",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-27T00:00:00+00:00",
+      "summary": "Automatically generated environments provide a scalable source of interaction data for training general agents. However, existing approaches mainly generate tasks within a single environment, while real-world workflows require agents to connect information and actions across multiple services. We introduce Compositional Environment Scaling (CompoWorld), which expands the task space by composing a ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 30,
+      "arxiv_id": "2609.33665"
     },
     {
       "id": "yt:gRnRCv1t0r8",
@@ -272,7 +285,7 @@
       "summary": "Reinforcement learning (RL) for code agents often uses executable tests to provide binary rewards. With these rewards, Group Relative Policy Optimization (GRPO) assigns identical advantages to test-passing trajectories within each rollout group, overlooking differences in implementation quality and adherence to task requirements. This leaves the policy without a learning signal that favors clean, ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 69,
+      "upvotes": 81,
       "arxiv_id": "2609.32577"
     },
     {
@@ -470,19 +483,6 @@
       "thumbnail": "https://i4.ytimg.com/vi/OWu2kjKrRTA/hqdefault.jpg",
       "kind": "video",
       "channel": "Matthew Berman"
-    },
-    {
-      "id": "paper:2609.28236",
-      "title": "EmbodiedMemory-Bench: Benchmarking Embodied Memory for Long-Horizon Embodied Tasks",
-      "url": "https://huggingface.co/papers/2609.28236",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-23T00:00:00+00:00",
-      "summary": "Long-horizon embodied interaction requires agents to retain and continually update information about the environment as they observe, act, and encounter change. Yet current agents struggle to maintain such memory reliably. Our analysis traces this limitation to four key deficiencies: weak fine-grained visual memory, unreliable dynamic world-state tracking, failing to record world state revealed by",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 30,
-      "arxiv_id": "2609.28236"
     },
     {
       "id": "yt:ux6Lafw7en0",
@@ -1017,13 +1017,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T20:05:10.677559+00:00",
+      "fetched_at": "2026-09-29T23:49:53.434736+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "OpenAI",
-          "score": 1181.0,
+          "score": 1182.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
@@ -1037,14 +1037,14 @@
           "rank": 3,
           "name": "MAI-Image-2.6",
           "creator": "Microsoft AI",
-          "score": 1135.0,
+          "score": 1136.0,
           "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
           "rank": 4,
           "name": "MAI-Image-2.6-Flash",
           "creator": "Microsoft AI",
-          "score": 1125.0,
+          "score": 1124.0,
           "meta": "Sep 2026 · $19.5 /1k imgs"
         },
         {
@@ -1065,21 +1065,21 @@
           "rank": 7,
           "name": "MAI-Image-2.5",
           "creator": "Microsoft AI",
-          "score": 1113.0,
+          "score": 1114.0,
           "meta": "Jun 2026 · $48.1 /1k imgs"
         },
         {
           "rank": 8,
           "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "creator": "Google",
-          "score": 1108.0,
+          "score": 1107.0,
           "meta": "Feb 2026 · $67.0 /1k imgs"
         },
         {
           "rank": 9,
           "name": "MAI-Image-2.5-Pro",
           "creator": "Microsoft AI",
-          "score": 1107.0,
+          "score": 1106.0,
           "meta": "Jul 2026 · $108.5 /1k imgs"
         },
         {
@@ -1099,41 +1099,41 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T20:05:10.679839+00:00",
+      "fetched_at": "2026-09-29T23:49:53.437063+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Qwen-Image-2.1 Open Weights",
           "creator": "Alibaba",
-          "score": 1074.0,
+          "score": 1073.0,
           "meta": "Sep 2026 · No API available"
         },
         {
           "rank": 2,
           "name": "HunyuanImage 3.0 Instruct Open Weights",
           "creator": "Tencent",
-          "score": 1065.0,
+          "score": 1064.0,
           "meta": "Jan 2026 · No API available"
         },
         {
           "rank": 3,
           "name": "Qwen Image Edit Plus 2511 Open Weights",
           "creator": "Alibaba",
-          "score": 1022.0,
+          "score": 1023.0,
           "meta": "Nov 2025 · $60.0 /1k imgs"
         },
         {
           "rank": 4,
           "name": "FLUX.2 [klein] 9B Open Weights",
           "creator": "Black Forest Labs",
-          "score": 1015.0,
+          "score": 1014.0,
           "meta": "Jan 2026 · $17.0 /1k imgs"
         },
         {
           "rank": 5,
           "name": "FLUX.2 [dev] Turbo Open Weights",
           "creator": "Fal",
-          "score": 1000.0,
+          "score": 1001.0,
           "meta": "Dec 2025 · $8.0 /1k imgs"
         },
         {
@@ -1181,11 +1181,11 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T20:05:10.682569+00:00",
+      "fetched_at": "2026-09-29T23:49:53.439856+00:00",
       "entries": [
         {
           "rank": 1,
-          "name": "Minimax H3 Max (post-trained by fal)",
+          "name": "Minimax H3 Max (Based on MiniMax H3)",
           "creator": "Fal",
           "score": 1194.0,
           "meta": "Aug 2026 · $2.40 /min"
@@ -1213,7 +1213,7 @@
         },
         {
           "rank": 5,
-          "name": "HiDream-O1-Video",
+          "name": "HiDream-O1-Video-1.0",
           "creator": "HiDream",
           "score": 1174.0,
           "meta": "Aug 2026 · $5.80 /min"
@@ -1263,7 +1263,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T20:05:10.683535+00:00",
+      "fetched_at": "2026-09-29T23:49:53.440854+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1331,7 +1331,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T20:05:10.687804+00:00",
+      "fetched_at": "2026-09-29T23:49:53.445338+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1413,7 +1413,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T20:05:10.687822+00:00",
+      "fetched_at": "2026-09-29T23:49:53.445356+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1481,76 +1481,76 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T20:05:10.689624+00:00",
+      "fetched_at": "2026-09-29T23:49:53.447203+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Suno v6",
           "creator": "Suno v6",
-          "score": 1143.0,
+          "score": 1139.0,
           "meta": ""
         },
         {
           "rank": 2,
           "name": "Suno v6-mini",
           "creator": "Suno v6-mini",
-          "score": 1112.0,
+          "score": 1108.0,
           "meta": ""
         },
         {
           "rank": 3,
           "name": "Mureka V9.5",
           "creator": "Mureka V9.5",
-          "score": 1083.0,
+          "score": 1078.0,
           "meta": ""
         },
         {
           "rank": 4,
-          "name": "Lyria 3 Pro",
-          "creator": "Lyria 3 Pro",
-          "score": 1082.0,
+          "name": "Lyria 3.5",
+          "creator": "Lyria 3.5",
+          "score": 1078.0,
           "meta": ""
         },
         {
           "rank": 5,
-          "name": "Mureka V9",
-          "creator": "Mureka V9",
-          "score": 1081.0,
+          "name": "Lyria 3 Pro",
+          "creator": "Lyria 3 Pro",
+          "score": 1077.0,
           "meta": ""
         },
         {
           "rank": 6,
-          "name": "Lyria 3.5",
-          "creator": "Lyria 3.5",
-          "score": 1081.0,
+          "name": "Mureka V9",
+          "creator": "Mureka V9",
+          "score": 1077.0,
           "meta": ""
         },
         {
           "rank": 7,
           "name": "Eleven Music",
           "creator": "Eleven Music",
-          "score": 1024.0,
+          "score": 1020.0,
           "meta": ""
         },
         {
           "rank": 8,
           "name": "Stable Audio 3 Large",
           "creator": "Stable Audio 3 Large",
-          "score": 1019.0,
+          "score": 1016.0,
           "meta": ""
         },
         {
           "rank": 9,
           "name": "Eleven Music v2",
           "creator": "Eleven Music v2",
-          "score": 1012.0,
+          "score": 1009.0,
           "meta": ""
         },
         {
           "rank": 10,
           "name": "MiniMax Music 2.5+",
           "creator": "MiniMax Music 2.5+",
-          "score": 1010.0,
+          "score": 1006.0,
           "meta": ""
         }
       ]
@@ -1563,7 +1563,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-29T20:05:10.721941+00:00",
+      "fetched_at": "2026-09-29T23:49:53.480667+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1645,7 +1645,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-29T20:05:10.758337+00:00",
+      "fetched_at": "2026-09-29T23:49:53.519051+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1680,7 +1680,7 @@
           "name": "Qwen3.8 2.4T A95B",
           "creator": "Alibaba",
           "score": 40.0,
-          "meta": "984k ctx"
+          "meta": "262k ctx"
         },
         {
           "rank": 6,
@@ -1727,20 +1727,20 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T20:05:10.770643+00:00",
+      "fetched_at": "2026-09-29T23:49:53.531273+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "OpenAI",
-          "score": 1195.0,
+          "score": 1196.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 2,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "OpenAI",
-          "score": 1189.0,
+          "score": 1190.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
@@ -1754,21 +1754,21 @@
           "rank": 4,
           "name": "Grok Imagine Image 2.0",
           "creator": "SpaceXAI",
-          "score": 1153.0,
+          "score": 1155.0,
           "meta": "Aug 2026 · $60.0 /1k imgs"
         },
         {
           "rank": 5,
           "name": "MAI-Image-2.6",
           "creator": "Microsoft AI",
-          "score": 1148.0,
+          "score": 1149.0,
           "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
           "rank": 6,
           "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "creator": "Google",
-          "score": 1124.0,
+          "score": 1125.0,
           "meta": "Feb 2026 · $67.0 /1k imgs"
         },
         {
@@ -1780,17 +1780,17 @@
         },
         {
           "rank": 8,
-          "name": "MAI-Image-2.6-Flash",
-          "creator": "Microsoft AI",
-          "score": 1105.0,
-          "meta": "Sep 2026 · $19.5 /1k imgs"
+          "name": "GPT Image 1.5 (high)",
+          "creator": "OpenAI",
+          "score": 1106.0,
+          "meta": "Dec 2025 · $133.0 /1k imgs"
         },
         {
           "rank": 9,
-          "name": "GPT Image 1.5 (high)",
-          "creator": "OpenAI",
-          "score": 1105.0,
-          "meta": "Dec 2025 · $133.0 /1k imgs"
+          "name": "MAI-Image-2.6-Flash",
+          "creator": "Microsoft AI",
+          "score": 1103.0,
+          "meta": "Sep 2026 · $19.5 /1k imgs"
         },
         {
           "rank": 10,
@@ -1809,13 +1809,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T20:05:10.775332+00:00",
+      "fetched_at": "2026-09-29T23:49:53.535959+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Qwen-Image-2.1 Open Weights",
           "creator": "Alibaba",
-          "score": 1035.0,
+          "score": 1036.0,
           "meta": "Sep 2026 · No API available"
         },
         {
@@ -1829,7 +1829,7 @@
           "rank": 3,
           "name": "Ideogram 4.0 Open Weights",
           "creator": "Ideogram",
-          "score": 1003.0,
+          "score": 1004.0,
           "meta": "Jun 2026 · $60.0 /1k imgs"
         },
         {
@@ -1843,7 +1843,7 @@
           "rank": 5,
           "name": "Qwen Image Max 2512 Open Weights",
           "creator": "Alibaba",
-          "score": 998.0,
+          "score": 999.0,
           "meta": "Dec 2025 · $20.0 /1k imgs"
         },
         {
@@ -1864,7 +1864,7 @@
           "rank": 8,
           "name": "HunyuanImage 3.0 Instruct Open Weights",
           "creator": "Tencent",
-          "score": 994.0,
+          "score": 993.0,
           "meta": "Jan 2026 · No API available"
         },
         {
@@ -1891,13 +1891,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T20:05:10.783092+00:00",
+      "fetched_at": "2026-09-29T23:49:53.543769+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Eleven v4",
           "creator": "ElevenLabs",
-          "score": 1315.0,
+          "score": 1316.0,
           "meta": "Sept 2026 · $80.0 /1M chars"
         },
         {
@@ -1911,7 +1911,7 @@
           "rank": 3,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Google",
-          "score": 1267.0,
+          "score": 1268.0,
           "meta": "Sept 2026 · $16.5 /1M chars"
         },
         {
@@ -1925,22 +1925,22 @@
           "rank": 5,
           "name": "Realtime TTS-2",
           "creator": "Inworld",
-          "score": 1244.0,
+          "score": 1247.0,
           "meta": "Aug 2026 · $20.8 /1M chars"
         },
         {
           "rank": 6,
-          "name": "Gemini 3.8 Flash-Lite TTS",
-          "creator": "Google",
+          "name": "Simba 3.2",
+          "creator": "SpeechifyAI",
           "score": 1241.0,
-          "meta": "Sept 2026 · $11.0 /1M chars"
+          "meta": "Jul 2026 · $6.6 /1M chars"
         },
         {
           "rank": 7,
-          "name": "Simba 3.2",
-          "creator": "SpeechifyAI",
-          "score": 1239.0,
-          "meta": "Jul 2026 · $6.6 /1M chars"
+          "name": "Gemini 3.8 Flash-Lite TTS",
+          "creator": "Google",
+          "score": 1240.0,
+          "meta": "Sept 2026 · $11.0 /1M chars"
         },
         {
           "rank": 8,
@@ -1953,7 +1953,7 @@
           "rank": 9,
           "name": "Realtime TTS-2 Flash",
           "creator": "Inworld",
-          "score": 1213.0,
+          "score": 1210.0,
           "meta": "Aug 2026 · $10.4 /1M chars"
         },
         {
@@ -1973,7 +1973,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-29T20:05:10.785019+00:00",
+      "fetched_at": "2026-09-29T23:49:53.545652+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1993,7 +1993,7 @@
           "rank": 3,
           "name": "Step Audio EditX (Mar 2026) Open Weights",
           "creator": "StepFun",
-          "score": 1094.0,
+          "score": 1093.0,
           "meta": "Feb 2026 · N/A"
         },
         {
@@ -2007,7 +2007,7 @@
           "rank": 5,
           "name": "Kokoro 82M v1.0 Open Weights",
           "creator": "Kokoro",
-          "score": 1065.0,
+          "score": 1064.0,
           "meta": "Jan 2025 · $0.7 /1M chars"
         },
         {
@@ -2021,7 +2021,7 @@
           "rank": 7,
           "name": "Maya1 Open Weights",
           "creator": "Maya Research",
-          "score": 1046.0,
+          "score": 1045.0,
           "meta": "Jun 2025 · N/A"
         },
         {
@@ -2055,55 +2055,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-29T20:04:55.338396+00:00"
+        "checked_at": "2026-09-29T23:49:37.248116+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-29T20:04:54.311931+00:00"
+        "checked_at": "2026-09-29T23:49:36.221407+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-29T20:04:58.396068+00:00"
+        "checked_at": "2026-09-29T23:49:40.306187+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-29T20:05:00.784532+00:00"
+        "checked_at": "2026-09-29T23:49:42.462325+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-29T20:04:56.357150+00:00"
+        "checked_at": "2026-09-29T23:49:38.266945+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-29T20:04:57.377630+00:00"
+        "checked_at": "2026-09-29T23:49:39.287197+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-29T20:04:59.601035+00:00"
+        "checked_at": "2026-09-29T23:49:41.337770+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-29T20:05:10.786505+00:00"
+      "checked_at": "2026-09-29T23:49:53.547483+00:00"
     }
   }
 }
