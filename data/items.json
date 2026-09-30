@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T16:10:16.635696+00:00",
+  "generated_at": "2026-09-30T20:54:15.590141+00:00",
   "items": [
     {
       "id": "yt:uJNP_FdlR3I",
@@ -83,7 +83,7 @@
       "summary": "World action models (WAMs) predict the future alongside actions during training. Due to the heavy computation cost of video denoising, whether the future must still be generated during inference is disputed: Explicit WAMs denoise it into clean frames along with every action chunk, whereas Latent WAMs discard it entirely for acceleration. We find that latent WAMs, despite matching explicit ones on ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 60,
+      "upvotes": 65,
       "arxiv_id": "2609.34981"
     },
     {
@@ -96,7 +96,7 @@
       "summary": "On-policy distillation (OPD) reduces train-test state mismatch by training a student on its own generated trajectories, but weak students may visit teacher-misaligned prefixes where supervision is less representative. We introduce SAKI (Supervision Allocation with KL-constrained Interpolation), which combines a KL-constrained teacher-guided rollout with maximal coupling and reuses realized accept/",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 48,
+      "upvotes": 60,
       "arxiv_id": "2609.36601"
     },
     {
@@ -109,7 +109,7 @@
       "summary": "Visual reward models are essential for evaluating and improving visual generation models, yet existing approaches typically map task conditions and candidate outputs directly to scalar rewards, leaving implicit what should be evaluated for each individual case. We introduce Think Before You Score, a paradigm that explicitly determines what matters for each case before judging how well the candidat",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 48,
+      "upvotes": 56,
       "arxiv_id": "2609.37372"
     },
     {
@@ -122,7 +122,7 @@
       "summary": "Answering questions about long videos often requires connecting events involving the same objects across hours or days. Chronological descriptions and text-derived entities can leave physical identity unresolved: different objects may share a description, while observations of the same object remain disconnected across events. Retrieving relevant events therefore does not necessarily recover the \"",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 44,
+      "upvotes": 55,
       "arxiv_id": "2609.38155"
     },
     {
@@ -135,7 +135,7 @@
       "summary": "Answering questions and completing tasks over large document collections often requires connecting evidence spread across multiple documents, such as a project's approval recorded in one, its requirements in another, and its latest status in a third. Recent LLM agents approach this by iteratively searching the full corpus rather than reading only a fixed set of top-ranked documents. However, when ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 38,
+      "upvotes": 54,
       "arxiv_id": "2609.37226"
     },
     {
@@ -175,19 +175,6 @@
       "channel": "Bijan Bowen"
     },
     {
-      "id": "paper:2609.34309",
-      "title": "MaLiang-Harness: A Programmable Path to Image and Video Generation",
-      "url": "https://huggingface.co/papers/2609.34309",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-28T00:00:00+00:00",
-      "summary": "Executable programs offer explicit control over how images and videos are constructed, but generating runnable code is only the beginning of visual creation. A program can execute correctly while violating the requested composition, appearance, or motion. We define this discrepancy as the Program-to-Visual (P2V) gap and introduce MaLiang-Harness, a unified framework for organizing MLLM-driven visu",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 218,
-      "arxiv_id": "2609.34309"
-    },
-    {
       "id": "paper:2609.36012",
       "title": "In-Context Learning for Robots: Methods and Applications",
       "url": "https://huggingface.co/papers/2609.36012",
@@ -197,8 +184,21 @@
       "summary": "General-purpose robots must infer what a new task requires and translate that understanding into appropriate physical action. In-context learning (ICL) for robots supports this process by using demonstrations and interaction to direct existing competence with neural parameters held fixed during deployment. We organize this literature review around the interfaces connecting contextual evidence to e",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 209,
+      "upvotes": 260,
       "arxiv_id": "2609.36012"
+    },
+    {
+      "id": "paper:2609.34309",
+      "title": "MaLiang-Harness: A Programmable Path to Image and Video Generation",
+      "url": "https://huggingface.co/papers/2609.34309",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-28T00:00:00+00:00",
+      "summary": "Executable programs offer explicit control over how images and videos are constructed, but generating runnable code is only the beginning of visual creation. A program can execute correctly while violating the requested composition, appearance, or motion. We define this discrepancy as the Program-to-Visual (P2V) gap and introduce MaLiang-Harness, a unified framework for organizing MLLM-driven visu",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 229,
+      "arxiv_id": "2609.34309"
     },
     {
       "id": "paper:2609.34759",
@@ -210,7 +210,7 @@
       "summary": "Recent vision-language models (VLMs) have advanced vision-and-language navigation (VLN), enabling models to predict navigation actions from visual observations and language instructions. In this work, we explore VLN with panoramic observations and introduce PanoVLN. The motivation is straightforward: more complete visual context should enable better-informed navigation decisions. For example, a pa",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 105,
+      "upvotes": 119,
       "arxiv_id": "2609.34759"
     },
     {
@@ -223,21 +223,21 @@
       "summary": "A 3D scene reconstructed from a single image is most useful when represented not as a rendering or a fixed 3D output, but as an explicit scene program whose execution yields a scene that can be inspected, edited, and queried. We present LEGO-Anything, an Image-to-Code framework in which a coding agent iteratively writes and executes Blender code, inspects scenes and renderings, and revises the pro",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 71,
+      "upvotes": 83,
       "arxiv_id": "2609.36380"
     },
     {
-      "id": "paper:2609.35427",
-      "title": "LLMs are General Asynchronous Agents",
-      "url": "https://huggingface.co/papers/2609.35427",
+      "id": "paper:2609.36322",
+      "title": "Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression",
+      "url": "https://huggingface.co/papers/2609.36322",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-09-28T00:00:00+00:00",
-      "summary": "Modern LLMs are increasingly capable as autonomous agents, but they follow sequential interaction cycles: read, think, reply or call tools, repeat. Many real-world use cases are not sequential: voice assistants, embodied agents, and monitoring systems receive new inputs while they think or perform another task. Modern LLMs address this with specialized architectures for voice interaction and video",
+      "summary": "Chunked KV-cache compression reduces the memory and attention costs of long-context inference by compressing windows of consecutive tokens into fewer cache entries at a fixed stride. Such compression also introduces a new positional coordinate: a token's phase, or its position relative to compression-window boundaries. We uncover a systematic asymmetry in models using such compression: the same in",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 37,
-      "arxiv_id": "2609.35427"
+      "upvotes": 63,
+      "arxiv_id": "2609.36322"
     },
     {
       "id": "yt:6DjIjjE3doo",
@@ -273,21 +273,8 @@
       "summary": "As large language models advance, AI agents are moving beyond isolated, domain-specific tasks toward long-horizon, cross-domain workflows. This transition exposes two challenges: increasing harness complexity makes manual design difficult to scale, while tighter coupling to specific domains limits the generality of a single harness. The central question thus shifts from how to engineer a stronger ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 283,
+      "upvotes": 442,
       "arxiv_id": "2609.33439"
-    },
-    {
-      "id": "paper:2609.33325",
-      "title": "VisionHOPE: Visual Backbones as Self-Modifying Learning Systems",
-      "url": "https://huggingface.co/papers/2609.33325",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-27T00:00:00+00:00",
-      "summary": "Visual backbones have evolved from Convolutional Neural Networks (CNNs) with local aggregation to Vision Transformers (ViTs) with global interactions, State-Space Models (SSMs) with input-dependent state transitions, and Test-Time Training (TTT) layers that adapt an inner learner while processing an image. Across this progression, visual computation has become increasingly adaptive to each input, ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 118,
-      "arxiv_id": "2609.33325"
     },
     {
       "id": "yt:gRnRCv1t0r8",
@@ -347,8 +334,21 @@
       "summary": "Spoken conversational systems must recover information from prior interactions (i.e., memory), yet relevant information in speech extends beyond what was said to who said it, how it was spoken, and what was audible, information that exists only in the audio signal and cannot be recovered from a transcript. Beyond what to remember, memory also demands diverse operations: retrieving a single fact, i",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 113,
+      "upvotes": 119,
       "arxiv_id": "2609.32607"
+    },
+    {
+      "id": "paper:2609.32722",
+      "title": "Scaling Properties of Same-Family On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2609.32722",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-26T00:00:00+00:00",
+      "summary": "*Reinforcement learning (RL)* can induce substantial reasoning capabilities in large language models (LLMs), but how much of this capability transfers across model scales, and how quickly, remains unclear. We study the scaling properties of *on-policy distillation (OPD)* across *weak-to-strong*, *same-base*, and *strong-to-weak* teacher--student setups. We find that early OPD training dynamics uni",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 90,
+      "arxiv_id": "2609.32722"
     },
     {
       "id": "paper:2609.32522",
@@ -360,7 +360,7 @@
       "summary": "Long-term memory enables agents to accumulate information and reason across sessions, yet existing research primarily focuses on dyadic text or image-text conversations, leaving long-term memory for multi-party spoken conversations underexplored. This setting requires preserving conversational content, identifying participants across sessions, and retaining who speaks to whom. To this end, we prop",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 43,
+      "upvotes": 53,
       "arxiv_id": "2609.32522"
     },
     {
@@ -397,7 +397,7 @@
       "summary": "General-purpose agents can plan, reason, and act over long horizons, yet their production capabilities remain fragmented across text, images, audio, video, documents, 3D assets, and code. Extending a foundation model to additional modalities ties capability growth to costly model updates, while assembling specialist models and tools leaves unresolved how procedures, dependencies, intermediate asse",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 128,
+      "upvotes": 142,
       "arxiv_id": "2609.31847"
     },
     {
@@ -1017,7 +1017,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-09-30T16:10:16.510977+00:00",
+      "fetched_at": "2026-09-30T20:54:15.467270+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1099,7 +1099,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-30T16:10:16.514264+00:00",
+      "fetched_at": "2026-09-30T20:54:15.470539+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1181,77 +1181,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-09-30T16:10:16.518301+00:00",
+      "fetched_at": "2026-09-30T20:54:15.474413+00:00",
       "entries": [
         {
           "rank": 1,
-          "name": "Minimax H3 Max (Based on MiniMax H3)",
-          "creator": "Minimax H3 Max (Based on MiniMax H3)",
-          "score": 1195.0,
-          "meta": "Aug 2026 · $2.40 /min"
-        },
-        {
-          "rank": 2,
           "name": "MiniMax H3",
           "creator": "MiniMax H3",
           "score": 1181.0,
           "meta": "Jul 2026 · $7.80 /min"
         },
         {
-          "rank": 3,
+          "rank": 2,
           "name": "Gemini Omni Flash",
           "creator": "Gemini Omni Flash",
           "score": 1178.0,
           "meta": "May 2026 · $6.00 /min"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "name": "Dreamina Seedance 2.0 720p",
           "creator": "Dreamina Seedance 2.0 720p",
           "score": 1176.0,
           "meta": "Mar 2026 · $9.07 /min"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "name": "HiDream-O1-Video-1.0",
           "creator": "HiDream-O1-Video-1.0",
           "score": 1175.0,
           "meta": "Aug 2026 · $5.80 /min"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "name": "Wan 3.0",
           "creator": "Wan 3.0",
           "score": 1164.0,
           "meta": "Aug 2026 · $12.00 /min"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "name": "HappyHorse-1.1",
           "creator": "HappyHorse-1.1",
           "score": 1104.0,
           "meta": "Jun 2026 · $9.90 /min"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "name": "grok-imagine-video-1.5",
           "creator": "grok-imagine-video-1.5",
           "score": 1098.0,
           "meta": "May 2026 · $8.40 /min"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "name": "MAGI-2 Preview",
           "creator": "MAGI-2 Preview",
           "score": 1093.0,
           "meta": "Aug 2026 · Coming soon"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "name": "HappyHorse-1.0",
           "creator": "HappyHorse-1.0",
           "score": 1083.0,
           "meta": "Apr 2026 · $13.20 /min"
+        },
+        {
+          "rank": 10,
+          "name": "Veo 3.1",
+          "creator": "Veo 3.1",
+          "score": 1082.0,
+          "meta": "Jan 2026 · $24.00 /min"
         }
       ]
     },
@@ -1263,7 +1263,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-30T16:10:16.519600+00:00",
+      "fetched_at": "2026-09-30T20:54:15.475626+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1331,7 +1331,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-09-30T16:10:16.525301+00:00",
+      "fetched_at": "2026-09-30T20:54:15.481167+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1413,7 +1413,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-30T16:10:16.525325+00:00",
+      "fetched_at": "2026-09-30T20:54:15.481182+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1481,7 +1481,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-09-30T16:10:16.527246+00:00",
+      "fetched_at": "2026-09-30T20:54:15.483039+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1563,7 +1563,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-30T16:10:16.559024+00:00",
+      "fetched_at": "2026-09-30T20:54:15.515207+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1616,22 +1616,22 @@
         },
         {
           "rank": 8,
+          "name": "Gemini 4 Argon (high)",
+          "creator": "Google",
+          "score": 53.0,
+          "meta": "1M ctx"
+        },
+        {
+          "rank": 9,
           "name": "GPT-6 Astra (xhigh)",
           "creator": "OpenAI",
           "score": 52.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Claude Sonnet 5.5 (xhigh with fallback)",
           "creator": "Anthropic",
-          "score": 52.0,
-          "meta": "1M ctx"
-        },
-        {
-          "rank": 10,
-          "name": "GPT-6.1 Sol (max)",
-          "creator": "OpenAI",
           "score": 52.0,
           "meta": "1M ctx"
         }
@@ -1645,7 +1645,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-09-30T16:10:16.596073+00:00",
+      "fetched_at": "2026-09-30T20:54:15.550927+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1727,7 +1727,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-09-30T16:10:16.614116+00:00",
+      "fetched_at": "2026-09-30T20:54:15.569063+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1809,7 +1809,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-30T16:10:16.620650+00:00",
+      "fetched_at": "2026-09-30T20:54:15.575599+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1891,7 +1891,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-09-30T16:10:16.631919+00:00",
+      "fetched_at": "2026-09-30T20:54:15.586363+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1973,7 +1973,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-09-30T16:10:16.634374+00:00",
+      "fetched_at": "2026-09-30T20:54:15.588708+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2055,55 +2055,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-30T16:10:00.563321+00:00"
+        "checked_at": "2026-09-30T20:53:58.699536+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-30T16:09:59.537654+00:00"
+        "checked_at": "2026-09-30T20:53:57.658657+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-30T16:10:03.896424+00:00"
+        "checked_at": "2026-09-30T20:54:01.789703+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-30T16:10:06.289271+00:00"
+        "checked_at": "2026-09-30T20:54:04.074723+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-30T16:10:01.714797+00:00"
+        "checked_at": "2026-09-30T20:53:59.727731+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-30T16:10:02.736435+00:00"
+        "checked_at": "2026-09-30T20:54:00.759473+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-09-30T16:10:05.106695+00:00"
+        "checked_at": "2026-09-30T20:54:02.867452+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-09-30T16:10:16.635603+00:00"
+      "checked_at": "2026-09-30T20:54:15.590054+00:00"
     }
   }
 }
