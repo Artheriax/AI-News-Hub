@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T06:14:22.916738+00:00",
+  "generated_at": "2026-10-01T13:37:48.563896+00:00",
   "items": [
     {
       "id": "yt:RMTWayrwYkQ",
@@ -50,19 +50,6 @@
       "channel": "Bijan Bowen"
     },
     {
-      "id": "paper:2609.40340",
-      "title": "EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery",
-      "url": "https://huggingface.co/papers/2609.40340",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-30T00:00:00+00:00",
-      "summary": "Evolutionary search with large language models (LLMs) can stall when progress requires external knowledge the model lacks. Supplying relevant documents helps, but simply adding web search tool can keep returning the same pages as solutions change. We introduce EvoDuet, a bi-level optimization method that co-evolves solutions and search queries with fixed model parameters. At each iteration, a retr",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 47,
-      "arxiv_id": "2609.40340"
-    },
-    {
       "id": "paper:2609.38721",
       "title": "UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement",
       "url": "https://huggingface.co/papers/2609.38721",
@@ -72,8 +59,47 @@
       "summary": "Modern multimodal models bring generation and understanding into a single unified system, which enables them to provide and learn from their own feedback. Motivated by this unified capacity, we introduce UniEvo-VL, a self-evolving framework for multimodal models to learn from this constructive self-correction feedback during test-time compute. Instead of relying on a separate, often larger, teache",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 40,
+      "upvotes": 155,
       "arxiv_id": "2609.38721"
+    },
+    {
+      "id": "paper:2609.39102",
+      "title": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
+      "url": "https://huggingface.co/papers/2609.39102",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-30T00:00:00+00:00",
+      "summary": "Self-evolving search agents build their own training curricula by jointly optimizing a proposer that generates questions and a solver that answers them. This closed loop introduces a failure mode we call co-cheating: the proposer and solver increasingly agree on shared errors, so internal reward improves without a matching gain in external correctness. A post-hoc audit against source evidence show",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 118,
+      "arxiv_id": "2609.39102"
+    },
+    {
+      "id": "paper:2609.39982",
+      "title": "Mid-Harness: Scaling Actions Between Model and Harness for Terminal Agents",
+      "url": "https://huggingface.co/papers/2609.39982",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-30T00:00:00+00:00",
+      "summary": "Terminal agents act through stochastic model generations, yet the ability to generate a useful action does not ensure its reliable execution. A poor command (e.g., wrong package install) can change the environment in ways that hinder subsequent progress, even when the model could generate a better alternative. We investigate whether allocating test-time compute at the model-harness boundary can im",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 68,
+      "arxiv_id": "2609.39982"
+    },
+    {
+      "id": "paper:2609.40340",
+      "title": "EvoDuet: Bilevel Co-Evolution of Web Searching and Task Solving for Scientific Discovery",
+      "url": "https://huggingface.co/papers/2609.40340",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-30T00:00:00+00:00",
+      "summary": "Evolutionary search with large language models (LLMs) can stall when progress requires external knowledge the model lacks. Supplying relevant documents helps, but simply adding web search tool can keep returning the same pages as solutions change. We introduce EvoDuet, a bi-level optimization method that co-evolves solutions and search queries with fixed model parameters. At each iteration, a retr",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 66,
+      "arxiv_id": "2609.40340"
     },
     {
       "id": "paper:2609.40325",
@@ -85,8 +111,34 @@
       "summary": "As interactive 3D worlds are increasingly used to study intelligent behavior, it becomes important to develop efficient pipelines for identifying anomalies in these simulated environments, such as floating objects, traversable walls, or objects inconsistent with the surrounding scene. Multimodal AI systems, including vision-language models (VLMs) and vision-language-action models (VLAs), have show",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 36,
+      "upvotes": 66,
       "arxiv_id": "2609.40325"
+    },
+    {
+      "id": "paper:2609.39045",
+      "title": "RSIGame: Autonomous Agentic Game Development with Recursive Self-improvement",
+      "url": "https://huggingface.co/papers/2609.39045",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-30T00:00:00+00:00",
+      "summary": "Recent advances in large language models have made automatic game generation increasingly feasible, yet reliably improving generated games beyond a playable version remains challenging. Naive iterative refinement can easily overfit a small set of test cases, producing fragile games with unresolved bugs, missing behaviors, and poor generalization to broader player interactions. We introduce RSIGame",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 30,
+      "arxiv_id": "2609.39045"
+    },
+    {
+      "id": "paper:2609.38827",
+      "title": "More Choices, Fewer Decisions: Ordinal-Scale Bias in JEV-like Direct-Decision Models",
+      "url": "https://huggingface.co/papers/2609.38827",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-30T00:00:00+00:00",
+      "summary": "Direct-decision models turn text into low-latency structured labels and scores, making them attractive for classification and automatic evaluation. Yet reliability requires more than accuracy: a model must also use the ordinal decision scale supplied by the user faithfully. We analyze JEV~1.13 and three open KEV models. Our investigation begins with ANLI, where JEV assigns 38.8\\% of all prediction",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 29,
+      "arxiv_id": "2609.38827"
     },
     {
       "id": "yt:WzoDOZnHbCk",
@@ -134,34 +186,21 @@
       "summary": "On-policy distillation (OPD) trains a student to match the teacher's next-token distributions on the student's own trajectories and has yielded substantial empirical gains. Generalized variants allow the student to surpass the teacher by extrapolating an implicit reward in output space. The language-model head, however, attenuates this change anisotropically: much of the change encoded in the teac",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 114,
+      "upvotes": 234,
       "arxiv_id": "2609.36484"
     },
     {
-      "id": "paper:2609.37226",
-      "title": "Follow the Entities: A Corpus Map for Agentic Search",
-      "url": "https://huggingface.co/papers/2609.37226",
+      "id": "paper:2609.38288",
+      "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+      "url": "https://huggingface.co/papers/2609.38288",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-09-29T00:00:00+00:00",
-      "summary": "Answering questions and completing tasks over large document collections often requires connecting evidence spread across multiple documents, such as a project's approval recorded in one, its requirements in another, and its latest status in a third. Recent LLM agents approach this by iteratively searching the full corpus rather than reading only a fixed set of top-ranked documents. However, when ",
+      "summary": "We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to iteratively refine a solution at test time. This ability rests on two complementary capabilities: reflection, which produces a solution better than the current one, and long-horizon execution, which keeps the iteration effective over many rounds. We hypothesize that both capabilit",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 76,
-      "arxiv_id": "2609.37226"
-    },
-    {
-      "id": "paper:2609.37686",
-      "title": "EngiWorld: What Can Frontier Agents Deliver in Professional Engineering Environments?",
-      "url": "https://huggingface.co/papers/2609.37686",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-29T00:00:00+00:00",
-      "summary": "Autonomous agents have made rapid progress in general-purpose computer use, but reliable automation of professional industrial engineering remains out of reach, as engineering workflows demand reasoning over geometric and physical constraints and dependencies preserved across software and design stages. We present EngiWorld, the first benchmark structured around the complete design loop: 1,301 exp",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 53,
-      "arxiv_id": "2609.37686"
+      "upvotes": 86,
+      "arxiv_id": "2609.38288"
     },
     {
       "id": "paper:2609.38143",
@@ -173,8 +212,21 @@
       "summary": "Agent performance depends on both reasoning ability and the environment in which it acts. We study test-time AI-for-AI, asking how a Builder can learn to construct better execution environments for a Target while both models' weights remain fixed. To make the Builder's experience reusable, we introduce Meta-Skill: principles specifying when support is needed and what resources to provide. The Buil",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 36,
+      "upvotes": 42,
       "arxiv_id": "2609.38143"
+    },
+    {
+      "id": "paper:2609.38334",
+      "title": "EVOKE: Eliciting World Knowledge in Agents for Transferable Decision-Making",
+      "url": "https://huggingface.co/papers/2609.38334",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-29T00:00:00+00:00",
+      "summary": "Large language models (LLMs) are increasingly deployed as agents for multi-step decision-making, yet transfer poorly to unseen environments. World-model methods address this by training agents to predict future observations, at the cost of additional training and errors that compound when predictions are used for planning. However, for LLM agents operating in digital environments, much of this wor",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 38,
+      "arxiv_id": "2609.38334"
     },
     {
       "id": "paper:2609.37559",
@@ -186,7 +238,7 @@
       "summary": "To serve as real-world personal assistants, streaming video models need persistent memory that retains past experiences for later use. Yet existing streaming benchmarks and methods often focus on individual continuous videos or short clips, overlooking that real-world interactions are often intermittent and require memory to persist across interruptions. To fill this gap, we introduce APM-Bench, w",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 32,
+      "upvotes": 33,
       "arxiv_id": "2609.37559"
     },
     {
@@ -248,21 +300,8 @@
       "summary": "Modern LLMs are increasingly capable as autonomous agents, but they follow sequential interaction cycles: read, think, reply or call tools, repeat. Many real-world use cases are not sequential: voice assistants, embodied agents, and monitoring systems receive new inputs while they think or perform another task. Modern LLMs address this with specialized architectures for voice interaction and video",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 64,
+      "upvotes": 65,
       "arxiv_id": "2609.35427"
-    },
-    {
-      "id": "paper:2609.36071",
-      "title": "LongCat-DeepResearch Technical Report",
-      "url": "https://huggingface.co/papers/2609.36071",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-28T00:00:00+00:00",
-      "summary": "We present LongCat-DeepResearch, a deep research system that combines an enhanced LongCat model with a multi-agent workflow for producing comprehensive, evidence-grounded reports. The workflow separates global planning from detailed investigation and coordinates revision at the section level. Multiple planning agents first explore external sources and refine an actionable research plan, termed Res",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 54,
-      "arxiv_id": "2609.36071"
     },
     {
       "id": "yt:6DjIjjE3doo",
@@ -346,34 +385,8 @@
       "summary": "*Reinforcement learning (RL)* can induce substantial reasoning capabilities in large language models (LLMs), but how much of this capability transfers across model scales, and how quickly, remains unclear. We study the scaling properties of *on-policy distillation (OPD)* across *weak-to-strong*, *same-base*, and *strong-to-weak* teacher--student setups. We find that early OPD training dynamics uni",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 220,
+      "upvotes": 222,
       "arxiv_id": "2609.32722"
-    },
-    {
-      "id": "paper:2609.32607",
-      "title": "VoxMem: Benchmarking Multimodal Memory in Large Audio Language Models",
-      "url": "https://huggingface.co/papers/2609.32607",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-26T00:00:00+00:00",
-      "summary": "Spoken conversational systems must recover information from prior interactions (i.e., memory), yet relevant information in speech extends beyond what was said to who said it, how it was spoken, and what was audible, information that exists only in the audio signal and cannot be recovered from a transcript. Beyond what to remember, memory also demands diverse operations: retrieving a single fact, i",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 126,
-      "arxiv_id": "2609.32607"
-    },
-    {
-      "id": "paper:2609.32522",
-      "title": "Beyond Dyadic Memory: Interaction-Aware Multimodal Memory with Adaptive Agentic Retrieval for Multi-Party Spoken Conversations",
-      "url": "https://huggingface.co/papers/2609.32522",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-26T00:00:00+00:00",
-      "summary": "Long-term memory enables agents to accumulate information and reason across sessions, yet existing research primarily focuses on dyadic text or image-text conversations, leaving long-term memory for multi-party spoken conversations underexplored. This setting requires preserving conversational content, identifying participants across sessions, and retaining who speaks to whom. To this end, we prop",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 69,
-      "arxiv_id": "2609.32522"
     },
     {
       "id": "yt:zICv3IJaAfQ",
@@ -398,19 +411,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/h5QwrHhW28Q/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
-    },
-    {
-      "id": "paper:2609.31847",
-      "title": "Omni-IO Skills: Harnessing Your Agent Omni-Native",
-      "url": "https://huggingface.co/papers/2609.31847",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-25T00:00:00+00:00",
-      "summary": "General-purpose agents can plan, reason, and act over long horizons, yet their production capabilities remain fragmented across text, images, audio, video, documents, 3D assets, and code. Extending a foundation model to additional modalities ties capability growth to costly model updates, while assembling specialist models and tools leaves unresolved how procedures, dependencies, intermediate asse",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 193,
-      "arxiv_id": "2609.31847"
     },
     {
       "id": "yt:R9momwXV9w4",
@@ -987,18 +987,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/RmlP_nqOhsk/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "yt:w9RDunJACkc",
-      "title": "GLM 5.3: Powerful AI Is Becoming Almost Free",
-      "url": "https://www.youtube.com/watch?v=w9RDunJACkc",
-      "source": "Two Minute Papers",
-      "category": "videos",
-      "published": "2026-09-01T09:04:56+00:00",
-      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 GLM 5.3 Flash: https://z.ai/blog/glm-5.3-flash Sources: https://x.com/louszbd/status/2092694163104113016 https://x.com/semianalysis_/status/2092623833630998556 https://x.com/skalskip92/status/2092748209802154201 htt",
-      "thumbnail": "https://i4.ytimg.com/vi/w9RDunJACkc/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Two Minute Papers"
     }
   ],
   "featured": [
@@ -1017,7 +1005,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T06:14:22.792729+00:00",
+      "fetched_at": "2026-10-01T13:37:48.441680+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1099,7 +1087,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T06:14:22.796003+00:00",
+      "fetched_at": "2026-10-01T13:37:48.444815+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1181,7 +1169,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T06:14:22.799949+00:00",
+      "fetched_at": "2026-10-01T13:37:48.448608+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1263,7 +1251,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T06:14:22.801182+00:00",
+      "fetched_at": "2026-10-01T13:37:48.449771+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1331,7 +1319,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T06:14:22.806676+00:00",
+      "fetched_at": "2026-10-01T13:37:48.455194+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1413,7 +1401,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T06:14:22.806690+00:00",
+      "fetched_at": "2026-10-01T13:37:48.455208+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1481,7 +1469,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T06:14:22.808577+00:00",
+      "fetched_at": "2026-10-01T13:37:48.457058+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1563,7 +1551,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-01T06:14:22.841138+00:00",
+      "fetched_at": "2026-10-01T13:37:48.489323+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1645,7 +1633,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-01T06:14:22.877296+00:00",
+      "fetched_at": "2026-10-01T13:37:48.525114+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1727,7 +1715,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T06:14:22.895246+00:00",
+      "fetched_at": "2026-10-01T13:37:48.542548+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1809,7 +1797,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T06:14:22.901683+00:00",
+      "fetched_at": "2026-10-01T13:37:48.548831+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1891,7 +1879,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T06:14:22.912490+00:00",
+      "fetched_at": "2026-10-01T13:37:48.559999+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1904,28 +1892,28 @@
           "rank": 2,
           "name": "Sonic 3.6",
           "creator": "Sonic 3.6",
-          "score": 1275.0,
+          "score": 1273.0,
           "meta": "Aug 2026 · $49.0 /1M chars"
         },
         {
           "rank": 3,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Gemini 3.8 Flash TTS",
-          "score": 1270.0,
+          "score": 1272.0,
           "meta": "Sept 2026 · $16.5 /1M chars"
         },
         {
           "rank": 4,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Qwen-Audio-3.0-TTS-Plus",
-          "score": 1257.0,
+          "score": 1259.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
           "rank": 5,
           "name": "Realtime TTS-2",
           "creator": "Realtime TTS-2",
-          "score": 1248.0,
+          "score": 1247.0,
           "meta": "Aug 2026 · $20.8 /1M chars"
         },
         {
@@ -1946,7 +1934,7 @@
           "rank": 8,
           "name": "Luna TTS",
           "creator": "Luna TTS",
-          "score": 1227.0,
+          "score": 1226.0,
           "meta": "Jun 2026 · $15.0 /1M chars"
         },
         {
@@ -1960,7 +1948,7 @@
           "rank": 10,
           "name": "Breeze TTS 2",
           "creator": "Breeze TTS 2",
-          "score": 1209.0,
+          "score": 1206.0,
           "meta": "Aug 2026 · $34.0 /1M chars"
         }
       ]
@@ -1973,20 +1961,20 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T06:14:22.914965+00:00",
+      "fetched_at": "2026-10-01T13:37:48.562420+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Breeze TTS 2",
           "creator": "Breeze TTS 2",
-          "score": 1209.0,
+          "score": 1206.0,
           "meta": "Aug 2026 · $34.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Fish Audio S2 Pro",
           "creator": "Fish Audio S2 Pro",
-          "score": 1116.0,
+          "score": 1117.0,
           "meta": "Mar 2026 · $15.0 /1M chars"
         },
         {
@@ -2007,21 +1995,21 @@
           "rank": 5,
           "name": "Kokoro 82M v1.0",
           "creator": "Kokoro 82M v1.0",
-          "score": 1064.0,
+          "score": 1063.0,
           "meta": "Jan 2025 · $0.7 /1M chars"
         },
         {
           "rank": 6,
           "name": "Magpie-Multilingual 357M (Feb 2026)",
           "creator": "Magpie-Multilingual 357M (Feb 2026)",
-          "score": 1063.0,
+          "score": 1062.0,
           "meta": "Feb 2026 · N/A"
         },
         {
           "rank": 7,
           "name": "Maya1",
           "creator": "Maya1",
-          "score": 1045.0,
+          "score": 1046.0,
           "meta": "Jun 2025 · N/A"
         },
         {
@@ -2035,7 +2023,7 @@
           "rank": 9,
           "name": "Higgs Audio V3 TTS",
           "creator": "Higgs Audio V3 TTS",
-          "score": 1037.0,
+          "score": 1036.0,
           "meta": "Jun 2026 · $15.0 /1M chars"
         },
         {
@@ -2052,58 +2040,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 3,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-10-01T06:14:05.450335+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-01T13:37:32.808349+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 11,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-10-01T06:14:04.371312+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-01T13:37:31.783835+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-10-01T06:14:08.703456+00:00"
+        "error": null,
+        "checked_at": "2026-10-01T13:37:36.094697+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-01T06:14:11.077659+00:00"
+        "checked_at": "2026-10-01T13:37:38.366617+00:00"
       },
       {
         "name": "Matthew Berman",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA",
-        "checked_at": "2026-10-01T06:14:06.541121+00:00"
+        "error": null,
+        "checked_at": "2026-10-01T13:37:33.826209+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": false,
-        "items": 8,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-10-01T06:14:07.619077+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-01T13:37:35.076503+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-10-01T06:14:09.838980+00:00"
+        "error": null,
+        "checked_at": "2026-10-01T13:37:37.127758+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-01T06:14:22.916663+00:00"
+      "checked_at": "2026-10-01T13:37:48.563818+00:00"
     }
   }
 }
