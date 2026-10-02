@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T23:17:32.083557+00:00",
+  "generated_at": "2026-10-02T02:22:39.456457+00:00",
   "items": [
     {
       "id": "yt:_rtp1XzaP6Q",
@@ -95,7 +95,7 @@
       "summary": "Modern multimodal models bring generation and understanding into a single unified system, which enables them to provide and learn from their own feedback. Motivated by this unified capacity, we introduce UniEvo-VL, a self-evolving framework for multimodal models to learn from this constructive self-correction feedback during test-time compute. Instead of relying on a separate, often larger, teache",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 192,
+      "upvotes": 229,
       "arxiv_id": "2609.38721"
     },
     {
@@ -108,7 +108,7 @@
       "summary": "Self-evolving search agents build their own training curricula by jointly optimizing a proposer that generates questions and a solver that answers them. This closed loop introduces a failure mode we call co-cheating: the proposer and solver increasingly agree on shared errors, so internal reward improves without a matching gain in external correctness. A post-hoc audit against source evidence show",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 186,
+      "upvotes": 190,
       "arxiv_id": "2609.39102"
     },
     {
@@ -121,7 +121,7 @@
       "summary": "Terminal agents act through stochastic model generations, yet the ability to generate a useful action does not ensure its reliable execution. A poor command (e.g., wrong package install) can change the environment in ways that hinder subsequent progress, even when the model could generate a better alternative. We investigate whether allocating test-time compute at the model-harness boundary can im",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 98,
+      "upvotes": 102,
       "arxiv_id": "2609.39982"
     },
     {
@@ -134,7 +134,7 @@
       "summary": "Evolutionary search with large language models (LLMs) can stall when progress requires external knowledge the model lacks. Supplying relevant documents helps, but simply adding web search tool can keep returning the same pages as solutions change. We introduce EvoDuet, a bi-level optimization method that co-evolves solutions and search queries with fixed model parameters. At each iteration, a retr",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 92,
+      "upvotes": 96,
       "arxiv_id": "2609.40340"
     },
     {
@@ -147,21 +147,8 @@
       "summary": "As interactive 3D worlds are increasingly used to study intelligent behavior, it becomes important to develop efficient pipelines for identifying anomalies in these simulated environments, such as floating objects, traversable walls, or objects inconsistent with the surrounding scene. Multimodal AI systems, including vision-language models (VLMs) and vision-language-action models (VLAs), have show",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 90,
+      "upvotes": 93,
       "arxiv_id": "2609.40325"
-    },
-    {
-      "id": "paper:2609.39578",
-      "title": "Thinking Outside the Box: Can Language Models Rely on External Guidance Selectively?",
-      "url": "https://huggingface.co/papers/2609.39578",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-30T00:00:00+00:00",
-      "summary": "Agent harnesses often improve language models with human-designed workflows, but as models grow more capable, unreliable guidance can increasingly constrain their execution. We call the ability to benefit from useful guidance while overriding unreliable guidance thinking outside the box. We introduce Box^2-Bench, which holds the model and task fixed while varying workflow reliability to isolate ho",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 60,
-      "arxiv_id": "2609.39578"
     },
     {
       "id": "paper:2609.39045",
@@ -173,8 +160,47 @@
       "summary": "Recent advances in large language models have made automatic game generation increasingly feasible, yet reliably improving generated games beyond a playable version remains challenging. Naive iterative refinement can easily overfit a small set of test cases, producing fragile games with unresolved bugs, missing behaviors, and poor generalization to broader player interactions. We introduce RSIGame",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 60,
+      "upvotes": 75,
       "arxiv_id": "2609.39045"
+    },
+    {
+      "id": "paper:2609.39578",
+      "title": "Thinking Outside the Box: Can Language Models Rely on External Guidance Selectively?",
+      "url": "https://huggingface.co/papers/2609.39578",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-30T00:00:00+00:00",
+      "summary": "Agent harnesses often improve language models with human-designed workflows, but as models grow more capable, unreliable guidance can increasingly constrain their execution. We call the ability to benefit from useful guidance while overriding unreliable guidance thinking outside the box. We introduce Box^2-Bench, which holds the model and task fixed while varying workflow reliability to isolate ho",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 61,
+      "arxiv_id": "2609.39578"
+    },
+    {
+      "id": "paper:2609.38827",
+      "title": "More Choices, Fewer Decisions: Ordinal-Scale Bias in JEV-like Direct-Decision Models",
+      "url": "https://huggingface.co/papers/2609.38827",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-30T00:00:00+00:00",
+      "summary": "Direct-decision models turn text into low-latency structured labels and scores, making them attractive for classification and automatic evaluation. Yet reliability requires more than accuracy: a model must also use the ordinal decision scale supplied by the user faithfully. We analyze JEV~1.13 and three open KEV models. Our investigation begins with ANLI, where JEV assigns 38.8\\% of all prediction",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 50,
+      "arxiv_id": "2609.38827"
+    },
+    {
+      "id": "paper:2609.40111",
+      "title": "Agent Error Dataset: Scaling 50,000 Error--Diagnosis Pairs for Failure Analysis and Error-Aware Post-Training",
+      "url": "https://huggingface.co/papers/2609.40111",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-30T00:00:00+00:00",
+      "summary": "An unsuccessful LLM agent rollout contains more information than its final reward: the observations available to the agent, the actions it chose, and the environment's responses. Reusing this experience for learning requires identifying a decision to revise and testing a concrete alternative. We introduce the Agent Error Dataset (AED), comprising 50,228 error-diagnosis pairs from 9,961 source task",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 45,
+      "arxiv_id": "2609.40111"
     },
     {
       "id": "yt:WzoDOZnHbCk",
@@ -222,7 +248,7 @@
       "summary": "On-policy distillation (OPD) trains a student to match the teacher's next-token distributions on the student's own trajectories and has yielded substantial empirical gains. Generalized variants allow the student to surpass the teacher by extrapolating an implicit reward in output space. The language-model head, however, attenuates this change anisotropically: much of the change encoded in the teac",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 271,
+      "upvotes": 276,
       "arxiv_id": "2609.36484"
     },
     {
@@ -235,7 +261,7 @@
       "summary": "We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to iteratively refine a solution at test time. This ability rests on two complementary capabilities: reflection, which produces a solution better than the current one, and long-horizon execution, which keeps the iteration effective over many rounds. We hypothesize that both capabilit",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 116,
+      "upvotes": 119,
       "arxiv_id": "2609.38288"
     },
     {
@@ -248,7 +274,7 @@
       "summary": "Agent performance depends on both reasoning ability and the environment in which it acts. We study test-time AI-for-AI, asking how a Builder can learn to construct better execution environments for a Target while both models' weights remain fixed. To make the Builder's experience reusable, we introduce Meta-Skill: principles specifying when support is needed and what resources to provide. The Buil",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 71,
+      "upvotes": 76,
       "arxiv_id": "2609.38143"
     },
     {
@@ -261,7 +287,7 @@
       "summary": "Large language models (LLMs) are increasingly deployed as agents for multi-step decision-making, yet transfer poorly to unseen environments. World-model methods address this by training agents to predict future observations, at the cost of additional training and errors that compound when predictions are used for planning. However, for LLM agents operating in digital environments, much of this wor",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 63,
+      "upvotes": 66,
       "arxiv_id": "2609.38334"
     },
     {
@@ -274,7 +300,7 @@
       "summary": "Reasoning about the 3D world from multi-view images remains a fundamental challenge for Multimodal Large Language Models (MLLMs). While modern MLLMs handle single-image inputs effectively, they struggle to integrate evidence across viewpoints into a coherent 3D understanding. A growing body of work attempts to close this gap by injecting 3D awareness into MLLMs, either by boosting fine-grained pix",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 53,
+      "upvotes": 55,
       "arxiv_id": "2609.38177"
     },
     {
@@ -323,21 +349,8 @@
       "summary": "Latent visual reasoning (LVR) enables multimodal large language models (MLLMs) to perform intermediate computation in continuous latent tokens rather than expressing every reasoning step in words. However, unlike textual CoT, latent reasoning is not directly observable, making it difficult to supervise what latent tokens learn. In this work, we first conduct a thorough analysis of latent-token beh",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 202,
+      "upvotes": 206,
       "arxiv_id": "2609.34563"
-    },
-    {
-      "id": "paper:2609.36322",
-      "title": "Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression",
-      "url": "https://huggingface.co/papers/2609.36322",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-28T00:00:00+00:00",
-      "summary": "Chunked KV-cache compression reduces the memory and attention costs of long-context inference by compressing windows of consecutive tokens into fewer cache entries at a fixed stride. Such compression also introduces a new positional coordinate: a token's phase, or its position relative to compression-window boundaries. We uncover a systematic asymmetry in models using such compression: the same in",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 99,
-      "arxiv_id": "2609.36322"
     },
     {
       "id": "yt:6DjIjjE3doo",
@@ -410,19 +423,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/rgO5v8MFtFg/hqdefault.jpg",
       "kind": "video",
       "channel": "Matthew Berman"
-    },
-    {
-      "id": "paper:2609.32722",
-      "title": "Scaling Properties of Same-Family On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2609.32722",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-26T00:00:00+00:00",
-      "summary": "*Reinforcement learning (RL)* can induce substantial reasoning capabilities in large language models (LLMs), but how much of this capability transfers across model scales, and how quickly, remains unclear. We study the scaling properties of *on-policy distillation (OPD)* across *weak-to-strong*, *same-base*, and *strong-to-weak* teacher--student setups. We find that early OPD training dynamics uni",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 281,
-      "arxiv_id": "2609.32722"
     },
     {
       "id": "yt:zICv3IJaAfQ",
@@ -1017,7 +1017,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T23:17:31.954357+00:00",
+      "fetched_at": "2026-10-02T02:22:39.331256+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1099,7 +1099,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T23:17:31.957686+00:00",
+      "fetched_at": "2026-10-02T02:22:39.334511+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1181,7 +1181,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T23:17:31.961721+00:00",
+      "fetched_at": "2026-10-02T02:22:39.338507+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1263,7 +1263,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T23:17:31.962965+00:00",
+      "fetched_at": "2026-10-02T02:22:39.339741+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1331,7 +1331,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T23:17:31.968816+00:00",
+      "fetched_at": "2026-10-02T02:22:39.345341+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1413,7 +1413,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T23:17:31.968831+00:00",
+      "fetched_at": "2026-10-02T02:22:39.345355+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1481,7 +1481,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T23:17:31.970896+00:00",
+      "fetched_at": "2026-10-02T02:22:39.347345+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1563,7 +1563,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-01T23:17:32.005578+00:00",
+      "fetched_at": "2026-10-02T02:22:39.381430+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1645,7 +1645,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-01T23:17:32.043215+00:00",
+      "fetched_at": "2026-10-02T02:22:39.416821+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1727,7 +1727,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T23:17:32.061866+00:00",
+      "fetched_at": "2026-10-02T02:22:39.435093+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1809,7 +1809,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T23:17:32.068607+00:00",
+      "fetched_at": "2026-10-02T02:22:39.441619+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1891,7 +1891,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T23:17:32.079551+00:00",
+      "fetched_at": "2026-10-02T02:22:39.452587+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1973,7 +1973,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-01T23:17:32.081983+00:00",
+      "fetched_at": "2026-10-02T02:22:39.455032+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2055,55 +2055,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-01T23:17:14.873855+00:00"
+        "checked_at": "2026-10-02T02:22:16.632181+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-01T23:17:13.840057+00:00"
+        "checked_at": "2026-10-02T02:22:15.605224+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-01T23:17:18.108084+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-10-02T02:22:19.721849+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-01T23:17:20.332218+00:00"
+        "checked_at": "2026-10-02T02:22:21.868633+00:00"
       },
       {
         "name": "Matthew Berman",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-01T23:17:15.901227+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA",
+        "checked_at": "2026-10-02T02:22:17.662293+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-01T23:17:16.932896+00:00"
+        "ok": false,
+        "items": 7,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-10-02T02:22:18.690234+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-01T23:17:19.148694+00:00"
+        "checked_at": "2026-10-02T02:22:20.755336+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-01T23:17:32.083466+00:00"
+      "checked_at": "2026-10-02T02:22:39.456381+00:00"
     }
   }
 }
