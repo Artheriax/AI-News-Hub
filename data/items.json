@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T15:11:44.647558+00:00",
+  "generated_at": "2026-10-02T20:01:39.312286+00:00",
   "items": [
     {
       "id": "yt:9zVYS00N6mg",
@@ -59,7 +59,7 @@
       "summary": "Automated harness optimization can substantially improve LLM agents by iteratively updating their prompts, tool interfaces, and control logic from execution feedback. However, existing methods primarily optimize how the harness is updated while largely fixing which training scenarios generate the feedback that drives those updates. As the harness evolves, the scenarios most useful for further opti",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 34,
+      "upvotes": 40,
       "arxiv_id": "2610.00906"
     },
     {
@@ -72,7 +72,7 @@
       "summary": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available. The challenge is to form reusable factual memory without compromising real-time perception. We introduce OneStreamer, which jointly learns query-independent evidence recording and task response through a shared proactive generation process. Its Proactive H",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 127,
+      "upvotes": 144,
       "arxiv_id": "2610.01762"
     },
     {
@@ -85,21 +85,8 @@
       "summary": "Large language model (LLM) agents can now undertake increasingly complex tasks, but the way they organize interaction history into memory does not ensure a coherent understanding of the current world. We introduce PoS, an inference-time framework that constructs and continually maintains explicit belief states as the agent's decision context. Each belief combines an estimate of the current world s",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 64,
+      "upvotes": 67,
       "arxiv_id": "2610.01415"
-    },
-    {
-      "id": "paper:2610.02193",
-      "title": "Hierarchical Continuous Diffusion Language Models",
-      "url": "https://huggingface.co/papers/2610.02193",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-01T00:00:00+00:00",
-      "summary": "Discrete diffusion language models offer a compelling alternative to autoregressive generation for tasks demanding bidirectional reasoning and global constraint satisfaction. Yet they share a structural bottleneck: when decoding in parallel, each token is sampled independently from its marginal, severing the statistical dependencies among the tokens decoded together. Continuous diffusion language ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 52,
-      "arxiv_id": "2610.02193"
     },
     {
       "id": "paper:2610.02162",
@@ -111,8 +98,21 @@
       "summary": "How can a world model continuously observe regions beyond the actor's current view? Video world models simulate how an environment evolves from an agent's actions, yet remain actor-centric. Once an object leaves the actor's view, they lose direct evidence of its evolution, often failing to preserve its state and dynamics upon re-entry. To address this, we introduce World Observer, which decouples ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 40,
+      "upvotes": 57,
       "arxiv_id": "2610.02162"
+    },
+    {
+      "id": "paper:2610.02193",
+      "title": "Hierarchical Continuous Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2610.02193",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-01T00:00:00+00:00",
+      "summary": "Discrete diffusion language models offer a compelling alternative to autoregressive generation for tasks demanding bidirectional reasoning and global constraint satisfaction. Yet they share a structural bottleneck: when decoding in parallel, each token is sampled independently from its marginal, severing the statistical dependencies among the tokens decoded together. Continuous diffusion language ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 57,
+      "arxiv_id": "2610.02193"
     },
     {
       "id": "paper:2610.01509",
@@ -124,7 +124,7 @@
       "summary": "An emerging hypothesis about reinforcement learning (RL) post-training of large language models (LLMs) is that it merely sharpens existing behaviors of a base model, improving single-shot accuracy at the cost of solution coverage. Although this trade-off has been observed in math and coding tasks, it need not extend to agentic tasks, where multi-turn tool use and interaction may require capabiliti",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 38,
+      "upvotes": 45,
       "arxiv_id": "2610.01509"
     },
     {
@@ -137,7 +137,7 @@
       "summary": "Programmable world models separate executable dynamics from visual generation, offering a promising foundation for next-generation game engines. However, their visual adherence to explicit rules and interactions remains insufficiently evaluated. Existing benchmarks assess visual quality, controllability, and instruction or physical adherence, but rarely test fidelity to fine-grained, program-speci",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 30,
+      "upvotes": 34,
       "arxiv_id": "2610.02205"
     },
     {
@@ -150,7 +150,7 @@
       "summary": "GUI agents require high-quality interaction trajectories to learn how software environments respond to actions, maintain state, and support multi-step workflows. However, the diversity of available trajectories is constrained by the applications, interface states, and workflows accessible in the underlying environments. Expanding this coverage requires deploying increasingly diverse and complex so",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 30,
+      "upvotes": 34,
       "arxiv_id": "2610.01215"
     },
     {
@@ -211,7 +211,7 @@
       "summary": "AI reviewers can assign different judgments to manuscripts that report the same science in different wording, potentially rewarding rhetorical optimization over scientific improvement. We formulate Rhetorical Robustness as the joint requirement of stability across content-preserving rewrites and discrimination across papers. We introduce RobustReview, a controlled full-manuscript benchmark with 1,",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 33,
+      "upvotes": 43,
       "arxiv_id": "2609.39027"
     },
     {
@@ -260,21 +260,21 @@
       "summary": "Multi-reward guided reinforcement learning (i.e., RL) offers a promising way to improve joint audio-video diffusion models along several complementary objectives, including modality-specific quality, cross-modal semantic alignment, and temporal synchronization. Its effectiveness, however, depends on two quantities that change during training: where reward-driven updates should act, and how competi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 115,
+      "upvotes": 116,
       "arxiv_id": "2609.37200"
     },
     {
-      "id": "paper:2609.37863",
-      "title": "It's Not What the Image Shows: Irrelevant Context Destabilises VLM Judges Without Informing Them",
-      "url": "https://huggingface.co/papers/2609.37863",
+      "id": "paper:2609.37533",
+      "title": "E-MoE: Enhanced Mixture-of-Experts for Non-Factorized Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2609.37533",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-09-29T00:00:00+00:00",
-      "summary": "Vision-language models (VLMs) are increasingly used in place of human annotators, making it important that substitutability tests reflect the model rather than incidental evaluation conditions. We introduce MIST, the Misleading-Image Stress Test: 200 English sentences, each built around a phrase readable either figuratively or literally and shown with an aligned image depicting its reading, a misl",
+      "summary": "Masked diffusion models (MDMs) generate sequences by progressively unmasking several tokens per denoising step, but their reverse process is typically factorized over positions, limiting sample quality in the few-step regime where diffusion's speed advantage over autoregressive decoding matters most. A recent line of work introduces a continuous Gaussian latent, trained as a variational autoencode",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 36,
-      "arxiv_id": "2609.37863"
+      "upvotes": 34,
+      "arxiv_id": "2609.37533"
     },
     {
       "id": "paper:2609.38653",
@@ -288,19 +288,6 @@
       "kind": "paper",
       "upvotes": 33,
       "arxiv_id": "2609.38653"
-    },
-    {
-      "id": "paper:2609.38024",
-      "title": "Retrieval-Augmented Skill Optimization via Cross-Harness Adaptation",
-      "url": "https://huggingface.co/papers/2609.38024",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-29T00:00:00+00:00",
-      "summary": "An agent skill is a reusable, actionable natural-language artifact that guides an agent to perform a task effectively under a given harness. Recent studies have explored the optimization of agent skills, contributing to a growing collection of publicly available skills spanning diverse tasks, domains, and harnesses. Despite millions of publicly shared skills, existing skill optimization methods la",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 24,
-      "arxiv_id": "2609.38024"
     },
     {
       "id": "yt:ENWVpqtOdRI",
@@ -348,7 +335,7 @@
       "summary": "Latent visual reasoning (LVR) enables multimodal large language models (MLLMs) to perform intermediate computation in continuous latent tokens rather than expressing every reasoning step in words. However, unlike textual CoT, latent reasoning is not directly observable, making it difficult to supervise what latent tokens learn. In this work, we first conduct a thorough analysis of latent-token beh",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 208,
+      "upvotes": 209,
       "arxiv_id": "2609.34563"
     },
     {
@@ -361,8 +348,21 @@
       "summary": "Robots that learn from a few demonstrations often require two forms of generalization. Compositional generalization recombines skills to solve new tasks, and skill generalization lets the learned policy behind each skill work in new situations. The two depend on each other, yet information is lost between composition and the skills it calls. Where a skill works is determined by the structure its p",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 55,
+      "upvotes": 56,
       "arxiv_id": "2609.35690"
+    },
+    {
+      "id": "paper:2609.35259",
+      "title": "On-Policy or Off-Policy Learning? A Systematic Study of Distillation Dynamics",
+      "url": "https://huggingface.co/papers/2609.35259",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-28T00:00:00+00:00",
+      "summary": "On-policy learning has been argued to reduce catastrophic forgetting, produce sparser parameter updates, and improve generalisation. However, existing comparisons between supervised fine-tuning and reinforcement learning vary many factors simultaneously, making the contribution of rollout policy difficult to isolate. We study the effect of rollout policy in a controlled strong-to-weak distillation",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 42,
+      "arxiv_id": "2609.35259"
     },
     {
       "id": "yt:6DjIjjE3doo",
@@ -1017,7 +1017,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-02T15:11:44.538070+00:00",
+      "fetched_at": "2026-10-02T20:01:39.214601+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1099,7 +1099,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-02T15:11:44.540789+00:00",
+      "fetched_at": "2026-10-02T20:01:39.217145+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1181,7 +1181,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-02T15:11:44.544229+00:00",
+      "fetched_at": "2026-10-02T20:01:39.220231+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1263,7 +1263,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-02T15:11:44.545273+00:00",
+      "fetched_at": "2026-10-02T20:01:39.221208+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1331,7 +1331,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-02T15:11:44.550238+00:00",
+      "fetched_at": "2026-10-02T20:01:39.226031+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1413,7 +1413,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-02T15:11:44.550254+00:00",
+      "fetched_at": "2026-10-02T20:01:39.226045+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1481,7 +1481,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-02T15:11:44.551922+00:00",
+      "fetched_at": "2026-10-02T20:01:39.227579+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1563,7 +1563,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-02T15:11:44.581447+00:00",
+      "fetched_at": "2026-10-02T20:01:39.253391+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1574,14 +1574,14 @@
         },
         {
           "rank": 2,
-          "name": "Claude Opus 5.5 (xhigh with fallback)",
+          "name": "Claude Sonnet 5.5 (max with fallback)",
           "creator": "Anthropic",
           "score": 56.0,
           "meta": "1M ctx"
         },
         {
           "rank": 3,
-          "name": "Claude Sonnet 5.5 (max with fallback)",
+          "name": "Claude Opus 5.5 (xhigh with fallback)",
           "creator": "Anthropic",
           "score": 56.0,
           "meta": "1M ctx"
@@ -1645,7 +1645,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-02T15:11:44.614892+00:00",
+      "fetched_at": "2026-10-02T20:01:39.282537+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1727,7 +1727,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-02T15:11:44.629783+00:00",
+      "fetched_at": "2026-10-02T20:01:39.296266+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1809,7 +1809,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-02T15:11:44.635141+00:00",
+      "fetched_at": "2026-10-02T20:01:39.301252+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1891,7 +1891,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-02T15:11:44.644493+00:00",
+      "fetched_at": "2026-10-02T20:01:39.309327+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1973,7 +1973,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-02T15:11:44.646620+00:00",
+      "fetched_at": "2026-10-02T20:01:39.311116+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2055,55 +2055,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-02T15:11:27.109638+00:00"
+        "checked_at": "2026-10-02T20:01:23.112136+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-02T15:11:26.073617+00:00"
+        "checked_at": "2026-10-02T20:01:22.092250+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-02T15:11:30.604956+00:00"
+        "checked_at": "2026-10-02T20:01:26.245966+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-02T15:11:33.048070+00:00"
+        "checked_at": "2026-10-02T20:01:29.154054+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-02T15:11:28.246771+00:00"
+        "checked_at": "2026-10-02T20:01:24.126212+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-02T15:11:29.449570+00:00"
+        "checked_at": "2026-10-02T20:01:25.141322+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-02T15:11:31.788156+00:00"
+        "checked_at": "2026-10-02T20:01:27.273047+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-02T15:11:44.647472+00:00"
+      "checked_at": "2026-10-02T20:01:39.312207+00:00"
     }
   }
 }
