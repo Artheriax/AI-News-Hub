@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:04:31.786855+00:00",
+  "generated_at": "2026-10-03T18:04:35.068667+00:00",
   "items": [
     {
       "id": "yt:N3REfH4N9Dg",
@@ -84,8 +84,21 @@
       "summary": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available. The challenge is to form reusable factual memory without compromising real-time perception. We introduce OneStreamer, which jointly learns query-independent evidence recording and task response through a shared proactive generation process. Its Proactive H",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 157,
+      "upvotes": 159,
       "arxiv_id": "2610.01762"
+    },
+    {
+      "id": "paper:2610.01415",
+      "title": "Beyond Memory: Harnessing Long-Horizon Agents with Explicit Belief States",
+      "url": "https://huggingface.co/papers/2610.01415",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-01T00:00:00+00:00",
+      "summary": "Large language model (LLM) agents can now undertake increasingly complex tasks, but the way they organize interaction history into memory does not ensure a coherent understanding of the current world. We introduce PoS, an inference-time framework that constructs and continually maintains explicit belief states as the agent's decision context. Each belief combines an estimate of the current world s",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 77,
+      "arxiv_id": "2610.01415"
     },
     {
       "id": "paper:2610.02193",
@@ -101,19 +114,6 @@
       "arxiv_id": "2610.02193"
     },
     {
-      "id": "paper:2610.01415",
-      "title": "Beyond Memory: Harnessing Long-Horizon Agents with Explicit Belief States",
-      "url": "https://huggingface.co/papers/2610.01415",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-01T00:00:00+00:00",
-      "summary": "Large language model (LLM) agents can now undertake increasingly complex tasks, but the way they organize interaction history into memory does not ensure a coherent understanding of the current world. We introduce PoS, an inference-time framework that constructs and continually maintains explicit belief states as the agent's decision context. Each belief combines an estimate of the current world s",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 76,
-      "arxiv_id": "2610.01415"
-    },
-    {
       "id": "paper:2610.01509",
       "title": "Sharpening Tax in Post-Training",
       "url": "https://huggingface.co/papers/2610.01509",
@@ -123,7 +123,7 @@
       "summary": "An emerging hypothesis about reinforcement learning (RL) post-training of large language models (LLMs) is that it merely sharpens existing behaviors of a base model, improving single-shot accuracy at the cost of solution coverage. Although this trade-off has been observed in math and coding tasks, it need not extend to agentic tasks, where multi-turn tool use and interaction may require capabiliti",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 75,
+      "upvotes": 76,
       "arxiv_id": "2610.01509"
     },
     {
@@ -136,7 +136,7 @@
       "summary": "How can a world model continuously observe regions beyond the actor's current view? Video world models simulate how an environment evolves from an agent's actions, yet remain actor-centric. Once an object leaves the actor's view, they lose direct evidence of its evolution, often failing to preserve its state and dynamics upon re-entry. To address this, we introduce World Observer, which decouples ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 70,
+      "upvotes": 71,
       "arxiv_id": "2610.02162"
     },
     {
@@ -149,21 +149,8 @@
       "summary": "Programmable world models separate executable dynamics from visual generation, offering a promising foundation for next-generation game engines. However, their visual adherence to explicit rules and interactions remains insufficiently evaluated. Existing benchmarks assess visual quality, controllability, and instruction or physical adherence, but rarely test fidelity to fine-grained, program-speci",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 56,
+      "upvotes": 57,
       "arxiv_id": "2610.02205"
-    },
-    {
-      "id": "paper:2610.01215",
-      "title": "AutoGUIWorld: Image Generators as Visual World Models for GUI Agent",
-      "url": "https://huggingface.co/papers/2610.01215",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-01T00:00:00+00:00",
-      "summary": "GUI agents require high-quality interaction trajectories to learn how software environments respond to actions, maintain state, and support multi-step workflows. However, the diversity of available trajectories is constrained by the applications, interface states, and workflows accessible in the underlying environments. Expanding this coverage requires deploying increasingly diverse and complex so",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 47,
-      "arxiv_id": "2610.01215"
     },
     {
       "id": "yt:RMTWayrwYkQ",
@@ -212,6 +199,19 @@
       "thumbnail": "https://i4.ytimg.com/vi/WxuGIqpkfdc/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
+    },
+    {
+      "id": "paper:2609.38923",
+      "title": "GraphForge: Training Working Agents with Graph-Anchored Workspace Synthesis",
+      "url": "https://huggingface.co/papers/2609.38923",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-30T00:00:00+00:00",
+      "summary": "Working agents need to read diverse files, coordinate tools, and produce deliverables. Training such agents requires tasks built on many real files with verifiable results, but few pipelines exist to synthesize this kind of data. Existing pipelines either generate files with models, which lack realism and diversity, or build tasks on real files without task-specific verifiers, leaving result quali",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 82,
+      "arxiv_id": "2609.38923"
     },
     {
       "id": "paper:2609.39027",
@@ -285,7 +285,7 @@
       "summary": "Multi-reward guided reinforcement learning (i.e., RL) offers a promising way to improve joint audio-video diffusion models along several complementary objectives, including modality-specific quality, cross-modal semantic alignment, and temporal synchronization. Its effectiveness, however, depends on two quantities that change during training: where reward-driven updates should act, and how competi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 122,
+      "upvotes": 123,
       "arxiv_id": "2609.37200"
     },
     {
@@ -311,7 +311,7 @@
       "summary": "Masked diffusion models (MDMs) generate sequences by progressively unmasking several tokens per denoising step, but their reverse process is typically factorized over positions, limiting sample quality in the few-step regime where diffusion's speed advantage over autoregressive decoding matters most. A recent line of work introduces a continuous Gaussian latent, trained as a variational autoencode",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 55,
+      "upvotes": 56,
       "arxiv_id": "2609.37533"
     },
     {
@@ -360,7 +360,7 @@
       "summary": "On-policy learning has been argued to reduce catastrophic forgetting, produce sparser parameter updates, and improve generalisation. However, existing comparisons between supervised fine-tuning and reinforcement learning vary many factors simultaneously, making the contribution of rollout policy difficult to isolate. We study the effect of rollout policy in a controlled strong-to-weak distillation",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 150,
+      "upvotes": 151,
       "arxiv_id": "2609.35259"
     },
     {
@@ -993,7 +993,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T14:04:31.663560+00:00",
+      "fetched_at": "2026-10-03T18:04:34.948068+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1075,7 +1075,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T14:04:31.666838+00:00",
+      "fetched_at": "2026-10-03T18:04:34.951316+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1157,7 +1157,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T14:04:31.670772+00:00",
+      "fetched_at": "2026-10-03T18:04:34.955198+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1239,7 +1239,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T14:04:31.671983+00:00",
+      "fetched_at": "2026-10-03T18:04:34.956410+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1307,7 +1307,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T14:04:31.677551+00:00",
+      "fetched_at": "2026-10-03T18:04:34.961946+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1389,7 +1389,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T14:04:31.677564+00:00",
+      "fetched_at": "2026-10-03T18:04:34.961960+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1457,7 +1457,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T14:04:31.679421+00:00",
+      "fetched_at": "2026-10-03T18:04:34.963835+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1539,7 +1539,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-03T14:04:31.712832+00:00",
+      "fetched_at": "2026-10-03T18:04:34.995352+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1621,7 +1621,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-03T14:04:31.747941+00:00",
+      "fetched_at": "2026-10-03T18:04:35.030267+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1703,7 +1703,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T14:04:31.765869+00:00",
+      "fetched_at": "2026-10-03T18:04:35.047474+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1785,7 +1785,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T14:04:31.772320+00:00",
+      "fetched_at": "2026-10-03T18:04:35.053929+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1867,7 +1867,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T14:04:31.783131+00:00",
+      "fetched_at": "2026-10-03T18:04:35.064996+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1949,7 +1949,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T14:04:31.785516+00:00",
+      "fetched_at": "2026-10-03T18:04:35.067377+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2031,55 +2031,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-03T14:04:16.420049+00:00"
+        "checked_at": "2026-10-03T18:04:19.032460+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-03T14:04:15.394307+00:00"
+        "checked_at": "2026-10-03T18:04:18.000045+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-03T14:04:19.478121+00:00"
+        "checked_at": "2026-10-03T18:04:22.099366+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-03T14:04:21.636173+00:00"
+        "checked_at": "2026-10-03T18:04:24.404298+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-03T14:04:17.438532+00:00"
+        "checked_at": "2026-10-03T18:04:20.053843+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-03T14:04:18.458555+00:00"
+        "checked_at": "2026-10-03T18:04:21.077550+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-03T14:04:20.511021+00:00"
+        "checked_at": "2026-10-03T18:04:23.135594+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-03T14:04:31.786781+00:00"
+      "checked_at": "2026-10-03T18:04:35.068602+00:00"
     }
   }
 }
