@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T21:34:48.358210+00:00",
+  "generated_at": "2026-10-04T00:14:38.150906+00:00",
   "items": [
     {
       "id": "yt:N3REfH4N9Dg",
@@ -88,6 +88,19 @@
       "arxiv_id": "2610.01762"
     },
     {
+      "id": "paper:2610.02193",
+      "title": "Hierarchical Continuous Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2610.02193",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-01T00:00:00+00:00",
+      "summary": "Discrete diffusion language models offer a compelling alternative to autoregressive generation for tasks demanding bidirectional reasoning and global constraint satisfaction. Yet they share a structural bottleneck: when decoding in parallel, each token is sampled independently from its marginal, severing the statistical dependencies among the tokens decoded together. Continuous diffusion language ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 79,
+      "arxiv_id": "2610.02193"
+    },
+    {
       "id": "paper:2610.01509",
       "title": "Sharpening Tax in Post-Training",
       "url": "https://huggingface.co/papers/2610.01509",
@@ -112,19 +125,6 @@
       "kind": "paper",
       "upvotes": 78,
       "arxiv_id": "2610.01415"
-    },
-    {
-      "id": "paper:2610.02193",
-      "title": "Hierarchical Continuous Diffusion Language Models",
-      "url": "https://huggingface.co/papers/2610.02193",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-01T00:00:00+00:00",
-      "summary": "Discrete diffusion language models offer a compelling alternative to autoregressive generation for tasks demanding bidirectional reasoning and global constraint satisfaction. Yet they share a structural bottleneck: when decoding in parallel, each token is sampled independently from its marginal, severing the statistical dependencies among the tokens decoded together. Continuous diffusion language ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 78,
-      "arxiv_id": "2610.02193"
     },
     {
       "id": "paper:2610.02162",
@@ -210,7 +210,7 @@
       "summary": "Working agents need to read diverse files, coordinate tools, and produce deliverables. Training such agents requires tasks built on many real files with verifiable results, but few pipelines exist to synthesize this kind of data. Existing pipelines either generate files with models, which lack realism and diversity, or build tasks on real files without task-specific verifiers, leaving result quali",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 83,
+      "upvotes": 88,
       "arxiv_id": "2609.38923"
     },
     {
@@ -993,7 +993,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T21:34:48.235860+00:00",
+      "fetched_at": "2026-10-04T00:14:38.055104+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1075,7 +1075,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T21:34:48.239063+00:00",
+      "fetched_at": "2026-10-04T00:14:38.057875+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1157,7 +1157,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T21:34:48.242952+00:00",
+      "fetched_at": "2026-10-04T00:14:38.061056+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1239,7 +1239,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T21:34:48.244157+00:00",
+      "fetched_at": "2026-10-04T00:14:38.062004+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1307,7 +1307,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T21:34:48.249852+00:00",
+      "fetched_at": "2026-10-04T00:14:38.066401+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1389,7 +1389,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T21:34:48.249869+00:00",
+      "fetched_at": "2026-10-04T00:14:38.066414+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1457,7 +1457,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T21:34:48.251853+00:00",
+      "fetched_at": "2026-10-04T00:14:38.068009+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1539,7 +1539,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-03T21:34:48.284814+00:00",
+      "fetched_at": "2026-10-04T00:14:38.093382+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1621,7 +1621,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-03T21:34:48.320733+00:00",
+      "fetched_at": "2026-10-04T00:14:38.122180+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1703,7 +1703,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T21:34:48.337569+00:00",
+      "fetched_at": "2026-10-04T00:14:38.135196+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1785,7 +1785,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T21:34:48.343653+00:00",
+      "fetched_at": "2026-10-04T00:14:38.139884+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1867,7 +1867,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T21:34:48.354162+00:00",
+      "fetched_at": "2026-10-04T00:14:38.147738+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1949,7 +1949,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-03T21:34:48.356592+00:00",
+      "fetched_at": "2026-10-04T00:14:38.149703+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2031,55 +2031,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-03T21:34:31.852960+00:00"
+        "checked_at": "2026-10-04T00:14:20.629307+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-03T21:34:30.814761+00:00"
+        "checked_at": "2026-10-04T00:14:19.286879+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-03T21:34:35.044448+00:00"
+        "checked_at": "2026-10-04T00:14:24.033818+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-03T21:34:37.291327+00:00"
+        "checked_at": "2026-10-04T00:14:26.365516+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-03T21:34:32.881782+00:00"
+        "checked_at": "2026-10-04T00:14:21.768786+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-03T21:34:33.914303+00:00"
+        "checked_at": "2026-10-04T00:14:22.902028+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-03T21:34:36.089542+00:00"
+        "checked_at": "2026-10-04T00:14:25.191136+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-03T21:34:48.358109+00:00"
+      "checked_at": "2026-10-04T00:14:38.150822+00:00"
     }
   }
 }
