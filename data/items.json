@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-10-04T06:06:28.433561+00:00",
+  "generated_at": "2026-10-04T12:37:55.892420+00:00",
   "items": [
+    {
+      "id": "yt:lHmZoRHMZyM",
+      "title": "Gemini 4, GPT 6.1, Dots, Claude Sonnet 5.5, Ideogram 4.5, Flux 3: AI NEWS",
+      "url": "https://www.youtube.com/watch?v=lHmZoRHMZyM",
+      "source": "AI Search",
+      "category": "videos",
+      "published": "2026-10-04T03:28:38+00:00",
+      "summary": "HUGE AI NEWS: Gemini 4 Argon, GPT 6.1 Sol, Dots, Claude Sonnet 5.5, Flux 3, Elevenlabs V4 & more. Thanks to our sponsor Luma. Try it today https://lumalabs.ai/aisearch-oct1 #ai #ainews #aitools #aivideo #agi #singularity Inspatio World 1.5 https://inspatio.github.io/inspatio-world-1.5/ Sol Refiner h",
+      "thumbnail": "https://i1.ytimg.com/vi/lHmZoRHMZyM/hqdefault.jpg",
+      "kind": "video",
+      "channel": "AI Search"
+    },
     {
       "id": "yt:N3REfH4N9Dg",
       "title": "HUGE Fable 5.5 LEAK + First Preview, Gemini 4 Argon, Claude Code Update, FREE Model, & More! AI NEWS",
@@ -71,7 +83,7 @@
       "summary": "Automated harness optimization can substantially improve LLM agents by iteratively updating their prompts, tool interfaces, and control logic from execution feedback. However, existing methods primarily optimize how the harness is updated while largely fixing which training scenarios generate the feedback that drives those updates. As the harness evolves, the scenarios most useful for further opti",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 55,
+      "upvotes": 56,
       "arxiv_id": "2610.00906"
     },
     {
@@ -84,8 +96,21 @@
       "summary": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available. The challenge is to form reusable factual memory without compromising real-time perception. We introduce OneStreamer, which jointly learns query-independent evidence recording and task response through a shared proactive generation process. Its Proactive H",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 160,
+      "upvotes": 163,
       "arxiv_id": "2610.01762"
+    },
+    {
+      "id": "paper:2610.01415",
+      "title": "Beyond Memory: Harnessing Long-Horizon Agents with Explicit Belief States",
+      "url": "https://huggingface.co/papers/2610.01415",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-01T00:00:00+00:00",
+      "summary": "Large language model (LLM) agents can now undertake increasingly complex tasks, but the way they organize interaction history into memory does not ensure a coherent understanding of the current world. We introduce PoS, an inference-time framework that constructs and continually maintains explicit belief states as the agent's decision context. Each belief combines an estimate of the current world s",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 79,
+      "arxiv_id": "2610.01415"
     },
     {
       "id": "paper:2610.02193",
@@ -112,19 +137,6 @@
       "kind": "paper",
       "upvotes": 78,
       "arxiv_id": "2610.01509"
-    },
-    {
-      "id": "paper:2610.01415",
-      "title": "Beyond Memory: Harnessing Long-Horizon Agents with Explicit Belief States",
-      "url": "https://huggingface.co/papers/2610.01415",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-01T00:00:00+00:00",
-      "summary": "Large language model (LLM) agents can now undertake increasingly complex tasks, but the way they organize interaction history into memory does not ensure a coherent understanding of the current world. We introduce PoS, an inference-time framework that constructs and continually maintains explicit belief states as the agent's decision context. Each belief combines an estimate of the current world s",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 78,
-      "arxiv_id": "2610.01415"
     },
     {
       "id": "paper:2610.02162",
@@ -236,7 +248,7 @@
       "summary": "Multi-reward reinforcement learning trains large language models to satisfy multiple behavioral objectives simultaneously. Reward-wise normalization, as used in GDPO, preserves reward-specific relative information within rollout groups, but different objectives can still exhibit uneven learning progress. We study this behavior through advantage energy, the sum of a reward's squared advantages over",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 49,
+      "upvotes": 50,
       "arxiv_id": "2610.00574"
     },
     {
@@ -360,7 +372,7 @@
       "summary": "On-policy learning has been argued to reduce catastrophic forgetting, produce sparser parameter updates, and improve generalisation. However, existing comparisons between supervised fine-tuning and reinforcement learning vary many factors simultaneously, making the contribution of rollout policy difficult to isolate. We study the effect of rollout policy in a controlled strong-to-weak distillation",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 154,
+      "upvotes": 160,
       "arxiv_id": "2609.35259"
     },
     {
@@ -963,18 +975,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/ngyFRCNq0Yc/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "yt:Spuza-KwTJ4",
-      "title": "GPT 6 Astra, so good even OpenAI are worried",
-      "url": "https://www.youtube.com/watch?v=Spuza-KwTJ4",
-      "source": "AI Explained",
-      "category": "videos",
-      "published": "2026-09-04T11:37:27+00:00",
-      "summary": "Where to start? A new era of cost-efficient AI on a day benchmark-makers got humbled, traders got excited, and AI safety researchers got unnerved. From monitorability losing hold of GPT-6 Astra’s chains of thought to breakthrough discoveries, Fable-mogging and much more… Exclusive Vids ($9!): https:",
-      "thumbnail": "https://i4.ytimg.com/vi/Spuza-KwTJ4/hqdefault.jpg",
-      "kind": "video",
-      "channel": "AI Explained"
     }
   ],
   "featured": [
@@ -993,7 +993,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T06:06:28.298040+00:00",
+      "fetched_at": "2026-10-04T12:37:55.767848+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1075,7 +1075,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T06:06:28.301174+00:00",
+      "fetched_at": "2026-10-04T12:37:55.771114+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1157,7 +1157,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T06:06:28.304931+00:00",
+      "fetched_at": "2026-10-04T12:37:55.775034+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1239,7 +1239,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T06:06:28.306115+00:00",
+      "fetched_at": "2026-10-04T12:37:55.776236+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1307,7 +1307,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T06:06:28.311541+00:00",
+      "fetched_at": "2026-10-04T12:37:55.781812+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1389,7 +1389,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T06:06:28.311557+00:00",
+      "fetched_at": "2026-10-04T12:37:55.781825+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1457,7 +1457,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T06:06:28.313348+00:00",
+      "fetched_at": "2026-10-04T12:37:55.783722+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1539,7 +1539,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-04T06:06:28.345466+00:00",
+      "fetched_at": "2026-10-04T12:37:55.815599+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1621,7 +1621,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-04T06:06:28.390171+00:00",
+      "fetched_at": "2026-10-04T12:37:55.852709+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1703,7 +1703,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T06:06:28.411633+00:00",
+      "fetched_at": "2026-10-04T12:37:55.870953+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1785,7 +1785,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T06:06:28.418254+00:00",
+      "fetched_at": "2026-10-04T12:37:55.877503+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1867,7 +1867,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T06:06:28.429495+00:00",
+      "fetched_at": "2026-10-04T12:37:55.888558+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1949,7 +1949,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T06:06:28.431958+00:00",
+      "fetched_at": "2026-10-04T12:37:55.890947+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2028,58 +2028,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 4,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-10-04T06:06:07.735794+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-04T12:37:40.068804+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 10,
-        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-10-04T06:06:06.634378+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-04T12:37:39.042534+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-10-04T06:06:10.839356+00:00"
+        "error": null,
+        "checked_at": "2026-10-04T12:37:43.127604+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-04T06:06:13.020746+00:00"
+        "checked_at": "2026-10-04T12:37:45.455836+00:00"
       },
       {
         "name": "Matthew Berman",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA",
-        "checked_at": "2026-10-04T06:06:08.771339+00:00"
+        "error": null,
+        "checked_at": "2026-10-04T12:37:41.087797+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": false,
-        "items": 6,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-10-04T06:06:09.804419+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-04T12:37:42.108382+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-10-04T06:06:11.872789+00:00"
+        "error": null,
+        "checked_at": "2026-10-04T12:37:44.263592+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-04T06:06:28.433476+00:00"
+      "checked_at": "2026-10-04T12:37:55.892347+00:00"
     }
   }
 }
