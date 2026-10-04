@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T20:16:58.335215+00:00",
+  "generated_at": "2026-10-04T23:21:15.528070+00:00",
   "items": [
     {
       "id": "yt:jo70OkhryIA",
@@ -95,7 +95,7 @@
       "summary": "Automated harness optimization can substantially improve LLM agents by iteratively updating their prompts, tool interfaces, and control logic from execution feedback. However, existing methods primarily optimize how the harness is updated while largely fixing which training scenarios generate the feedback that drives those updates. As the harness evolves, the scenarios most useful for further opti",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 62,
+      "upvotes": 64,
       "arxiv_id": "2610.00906"
     },
     {
@@ -160,7 +160,7 @@
       "summary": "How can a world model continuously observe regions beyond the actor's current view? Video world models simulate how an environment evolves from an agent's actions, yet remain actor-centric. Once an object leaves the actor's view, they lose direct evidence of its evolution, often failing to preserve its state and dynamics upon re-entry. To address this, we introduce World Observer, which decouples ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 74,
+      "upvotes": 75,
       "arxiv_id": "2610.02162"
     },
     {
@@ -247,7 +247,7 @@
       "summary": "AI reviewers can assign different judgments to manuscripts that report the same science in different wording, potentially rewarding rhetorical optimization over scientific improvement. We formulate Rhetorical Robustness as the joint requirement of stability across content-preserving rewrites and discrimination across papers. We introduce RobustReview, a controlled full-manuscript benchmark with 1,",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 70,
+      "upvotes": 71,
       "arxiv_id": "2609.39027"
     },
     {
@@ -300,19 +300,6 @@
       "arxiv_id": "2609.37200"
     },
     {
-      "id": "paper:2609.36585",
-      "title": "Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It",
-      "url": "https://huggingface.co/papers/2609.36585",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-29T00:00:00+00:00",
-      "summary": "Pretrained transformers use little of their depth to follow references in context. Thirteen base models reliably follow only 1.4-3.6 lines, and extra pretrained loops add little. A task-trained rank-8 LoRA at one early layer extends this computation with all model weights frozen. Qwen3-8B improves from 15.5% to 99% exact accuracy on 24-line chains; a longer-trained LoRA reaches 50 lines. Ouro-1.4B",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 66,
-      "arxiv_id": "2609.36585"
-    },
-    {
       "id": "paper:2610.00314",
       "title": "Predictive Credit: Measuring What Scientific Explanations Add to Experimental Forecasts",
       "url": "https://huggingface.co/papers/2610.00314",
@@ -322,21 +309,34 @@
       "summary": "Research agents explain planned experiments. We measure predictive credit with paired forecasts sharing an intervention, forecaster, and outcome while varying description, matched explanation, and donor context. Five checks track commitment, delivery, predictive gain, alignment, and known-signal uptake. Across 336 prospective states in controlled learning, 12 Tox21 endpoints, and 24 OpenML tasks, ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 66,
+      "upvotes": 90,
       "arxiv_id": "2610.00314"
     },
     {
-      "id": "paper:2609.37533",
-      "title": "E-MoE: Enhanced Mixture-of-Experts for Non-Factorized Diffusion Language Models",
-      "url": "https://huggingface.co/papers/2609.37533",
+      "id": "paper:2609.36585",
+      "title": "Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It",
+      "url": "https://huggingface.co/papers/2609.36585",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-09-29T00:00:00+00:00",
-      "summary": "Masked diffusion models (MDMs) generate sequences by progressively unmasking several tokens per denoising step, but their reverse process is typically factorized over positions, limiting sample quality in the few-step regime where diffusion's speed advantage over autoregressive decoding matters most. A recent line of work introduces a continuous Gaussian latent, trained as a variational autoencode",
+      "summary": "Pretrained transformers use little of their depth to follow references in context. Thirteen base models reliably follow only 1.4-3.6 lines, and extra pretrained loops add little. A task-trained rank-8 LoRA at one early layer extends this computation with all model weights frozen. Qwen3-8B improves from 15.5% to 99% exact accuracy on 24-line chains; a longer-trained LoRA reaches 50 lines. Ouro-1.4B",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 60,
-      "arxiv_id": "2609.37533"
+      "upvotes": 68,
+      "arxiv_id": "2609.36585"
+    },
+    {
+      "id": "paper:2609.32259",
+      "title": "Prefill-Free Cross-Family KV Cache Transfer for Heterogeneous Multi-Agent LLMs",
+      "url": "https://huggingface.co/papers/2609.32259",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-29T00:00:00+00:00",
+      "summary": "Recent multi-agent LLM systems increasingly combine heterogeneous models for specialized agent roles. However, text-based communication requires each receiver to prefill shared context already processed by the sender. Reusing the sender's key-value (KV) cache avoids this redundancy, but prefill-free transfer across model families must handle differences in tokenization, model depth, and KV represe",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 64,
+      "arxiv_id": "2609.32259"
     },
     {
       "id": "yt:ENWVpqtOdRI",
@@ -397,7 +397,7 @@
       "summary": "Robots that learn from a few demonstrations often require two forms of generalization. Compositional generalization recombines skills to solve new tasks, and skill generalization lets the learned policy behind each skill work in new situations. The two depend on each other, yet information is lost between composition and the skills it calls. Where a skill works is determined by the structure its p",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 75,
+      "upvotes": 76,
       "arxiv_id": "2609.35690"
     },
     {
@@ -993,7 +993,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T20:16:58.213488+00:00",
+      "fetched_at": "2026-10-04T23:21:15.432000+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1075,7 +1075,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T20:16:58.216612+00:00",
+      "fetched_at": "2026-10-04T23:21:15.434571+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1157,7 +1157,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T20:16:58.220365+00:00",
+      "fetched_at": "2026-10-04T23:21:15.437568+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1239,7 +1239,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T20:16:58.221541+00:00",
+      "fetched_at": "2026-10-04T23:21:15.438506+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1307,7 +1307,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T20:16:58.226929+00:00",
+      "fetched_at": "2026-10-04T23:21:15.442922+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1389,7 +1389,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T20:16:58.226943+00:00",
+      "fetched_at": "2026-10-04T23:21:15.442936+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1457,7 +1457,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T20:16:58.228778+00:00",
+      "fetched_at": "2026-10-04T23:21:15.444459+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1539,7 +1539,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-04T20:16:58.260375+00:00",
+      "fetched_at": "2026-10-04T23:21:15.469863+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1621,7 +1621,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-04T20:16:58.295876+00:00",
+      "fetched_at": "2026-10-04T23:21:15.497925+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1703,7 +1703,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T20:16:58.313601+00:00",
+      "fetched_at": "2026-10-04T23:21:15.511795+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1785,7 +1785,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T20:16:58.319988+00:00",
+      "fetched_at": "2026-10-04T23:21:15.516760+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1867,7 +1867,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T20:16:58.331189+00:00",
+      "fetched_at": "2026-10-04T23:21:15.524763+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1949,7 +1949,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-04T20:16:58.333660+00:00",
+      "fetched_at": "2026-10-04T23:21:15.526600+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2031,55 +2031,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-04T20:16:38.946972+00:00"
+        "checked_at": "2026-10-04T23:20:58.222509+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-04T20:16:37.719602+00:00"
+        "checked_at": "2026-10-04T23:20:57.202482+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-04T20:16:42.265869+00:00"
+        "checked_at": "2026-10-04T23:21:01.438964+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-04T20:16:44.609405+00:00"
+        "checked_at": "2026-10-04T23:21:03.734917+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-04T20:16:40.070914+00:00"
+        "checked_at": "2026-10-04T23:20:59.236757+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-04T20:16:41.091673+00:00"
+        "checked_at": "2026-10-04T23:21:00.251617+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-04T20:16:43.477580+00:00"
+        "checked_at": "2026-10-04T23:21:02.596726+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-04T20:16:58.335118+00:00"
+      "checked_at": "2026-10-04T23:21:15.527967+00:00"
     }
   }
 }
