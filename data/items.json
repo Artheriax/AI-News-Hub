@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T02:10:55.426045+00:00",
+  "generated_at": "2026-10-05T09:19:00.694590+00:00",
   "items": [
     {
       "id": "yt:jo70OkhryIA",
@@ -86,19 +86,6 @@
       "channel": "Matthew Berman"
     },
     {
-      "id": "paper:2610.00906",
-      "title": "ActiveSaddler: Automated Curriculum Learning for Agent Harness Optimization",
-      "url": "https://huggingface.co/papers/2610.00906",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-01T01:36:03+00:00",
-      "summary": "Automated harness optimization can substantially improve LLM agents by iteratively updating their prompts, tool interfaces, and control logic from execution feedback. However, existing methods primarily optimize how the harness is updated while largely fixing which training scenarios generate the feedback that drives those updates. As the harness evolves, the scenarios most useful for further opti",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 64,
-      "arxiv_id": "2610.00906"
-    },
-    {
       "id": "paper:2610.01762",
       "title": "OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction",
       "url": "https://huggingface.co/papers/2610.01762",
@@ -108,47 +95,8 @@
       "summary": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available. The challenge is to form reusable factual memory without compromising real-time perception. We introduce OneStreamer, which jointly learns query-independent evidence recording and task response through a shared proactive generation process. Its Proactive H",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 165,
+      "upvotes": 214,
       "arxiv_id": "2610.01762"
-    },
-    {
-      "id": "paper:2610.01509",
-      "title": "Sharpening Tax in Post-Training",
-      "url": "https://huggingface.co/papers/2610.01509",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-01T00:00:00+00:00",
-      "summary": "An emerging hypothesis about reinforcement learning (RL) post-training of large language models (LLMs) is that it merely sharpens existing behaviors of a base model, improving single-shot accuracy at the cost of solution coverage. Although this trade-off has been observed in math and coding tasks, it need not extend to agentic tasks, where multi-turn tool use and interaction may require capabiliti",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 83,
-      "arxiv_id": "2610.01509"
-    },
-    {
-      "id": "paper:2610.01415",
-      "title": "Beyond Memory: Harnessing Long-Horizon Agents with Explicit Belief States",
-      "url": "https://huggingface.co/papers/2610.01415",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-01T00:00:00+00:00",
-      "summary": "Large language model (LLM) agents can now undertake increasingly complex tasks, but the way they organize interaction history into memory does not ensure a coherent understanding of the current world. We introduce PoS, an inference-time framework that constructs and continually maintains explicit belief states as the agent's decision context. Each belief combines an estimate of the current world s",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 82,
-      "arxiv_id": "2610.01415"
-    },
-    {
-      "id": "paper:2610.02193",
-      "title": "Hierarchical Continuous Diffusion Language Models",
-      "url": "https://huggingface.co/papers/2610.02193",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-01T00:00:00+00:00",
-      "summary": "Discrete diffusion language models offer a compelling alternative to autoregressive generation for tasks demanding bidirectional reasoning and global constraint satisfaction. Yet they share a structural bottleneck: when decoding in parallel, each token is sampled independently from its marginal, severing the statistical dependencies among the tokens decoded together. Continuous diffusion language ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 79,
-      "arxiv_id": "2610.02193"
     },
     {
       "id": "paper:2610.02162",
@@ -160,21 +108,34 @@
       "summary": "How can a world model continuously observe regions beyond the actor's current view? Video world models simulate how an environment evolves from an agent's actions, yet remain actor-centric. Once an object leaves the actor's view, they lose direct evidence of its evolution, often failing to preserve its state and dynamics upon re-entry. To address this, we introduce World Observer, which decouples ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 76,
+      "upvotes": 77,
       "arxiv_id": "2610.02162"
     },
     {
-      "id": "paper:2610.02205",
-      "title": "ROWBench: Do Video Models Render What the Program Specifies?",
-      "url": "https://huggingface.co/papers/2610.02205",
+      "id": "paper:2610.02196",
+      "title": "InterEvolve: Test-Time Evolution of Reward Programs for Humanoid Loco-Manipulation",
+      "url": "https://huggingface.co/papers/2610.02196",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-01T00:00:00+00:00",
-      "summary": "Programmable world models separate executable dynamics from visual generation, offering a promising foundation for next-generation game engines. However, their visual adherence to explicit rules and interactions remains insufficiently evaluated. Existing benchmarks assess visual quality, controllability, and instruction or physical adherence, but rarely test fidelity to fine-grained, program-speci",
+      "summary": "We study test-time evolution for humanoid loco-manipulation: solving tasks that a controller was never trained for by repurposing its existing skills, improving from its own attempts, and retaining what it learns, without retraining. Our key insight is that a broad controller already holds much of the competence a new task needs, and that this competence becomes accessible through an interface bet",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 64,
-      "arxiv_id": "2610.02205"
+      "upvotes": 55,
+      "arxiv_id": "2610.02196"
+    },
+    {
+      "id": "paper:2610.01939",
+      "title": "Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens",
+      "url": "https://huggingface.co/papers/2610.01939",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-01T00:00:00+00:00",
+      "summary": "Vision language model (VLM) agents can control robots through visual feedback and action primitives, but repeated model invocations and redundant observations incur substantial token overhead. We introduce PyRUA-Lean, an interactive code-execution framework that couples feedback-driven primitive composition with selective observation: the agent composes classical robot primitives and learned visio",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 45,
+      "arxiv_id": "2610.01939"
     },
     {
       "id": "yt:RMTWayrwYkQ",
@@ -225,17 +186,17 @@
       "channel": "Bijan Bowen"
     },
     {
-      "id": "paper:2609.38923",
-      "title": "GraphForge: Training Working Agents with Graph-Anchored Workspace Synthesis",
-      "url": "https://huggingface.co/papers/2609.38923",
+      "id": "paper:2609.38879",
+      "title": "Does Learning Protein Folding Generalize to Broader Reasoning?",
+      "url": "https://huggingface.co/papers/2609.38879",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-09-30T00:00:00+00:00",
-      "summary": "Working agents need to read diverse files, coordinate tools, and produce deliverables. Training such agents requires tasks built on many real files with verifiable results, but few pipelines exist to synthesize this kind of data. Existing pipelines either generate files with models, which lack realism and diversity, or build tasks on real files without task-specific verifiers, leaving result quali",
+      "summary": "Large language models rely heavily on human text, which often conveys surface answers rather than the spatial and structural logic behind them. Protein folding is a natural testbed, because one solved structure yields thousands of exactly checkable spatial and topological statements. We ask: can learning to fold proteins teach general models reusable reasoning capabilities? To answer this, we buil",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 144,
-      "arxiv_id": "2609.38923"
+      "upvotes": 81,
+      "arxiv_id": "2609.38879"
     },
     {
       "id": "paper:2609.39027",
@@ -262,6 +223,58 @@
       "kind": "paper",
       "upvotes": 57,
       "arxiv_id": "2609.39378"
+    },
+    {
+      "id": "paper:2610.00574",
+      "title": "Make Sparse Rewards Count: Density-Aware Reward Aggregation for Multi-Reward RL",
+      "url": "https://huggingface.co/papers/2610.00574",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-30T00:00:00+00:00",
+      "summary": "Multi-reward reinforcement learning trains large language models to satisfy multiple behavioral objectives simultaneously. Reward-wise normalization, as used in GDPO, preserves reward-specific relative information within rollout groups, but different objectives can still exhibit uneven learning progress. We study this behavior through advantage energy, the sum of a reward's squared advantages over",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 57,
+      "arxiv_id": "2610.00574"
+    },
+    {
+      "id": "paper:2610.00812",
+      "title": "Video Generation Models: A Survey of Post-Training and Alignment",
+      "url": "https://huggingface.co/papers/2610.00812",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-30T00:00:00+00:00",
+      "summary": "Video generation has rapidly progressed from short, low-quality clips to high-resolution, long-duration sequences with complex spatiotemporal dynamics. Despite strong generative priors learned through large-scale pretraining, pretrained video models often fail to reliably follow human intent, maintain temporal coherence, or satisfy physical and safety constraints. Compared with image and text gene",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 56,
+      "arxiv_id": "2610.00812"
+    },
+    {
+      "id": "paper:2609.39375",
+      "title": "Beyond the Current Scene: Event-Referential Grasping with Active View Selection",
+      "url": "https://huggingface.co/papers/2609.39375",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-30T00:00:00+00:00",
+      "summary": "A robot that observes people interacting with objects should be able to carry out later requests that refer back to those interactions. Such requests may specify a grasp target by the role it played in a past event rather than by its name or appearance. Moreover, the target may no longer be visible when the robot is asked to act. We present BeyondSCe, a zero-shot robotic grasping system for this e",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 46,
+      "arxiv_id": "2609.39375"
+    },
+    {
+      "id": "paper:2606.10953",
+      "title": "Architect-Ant: Editable Automatic Furnishing of Architectural Floor Plans",
+      "url": "https://huggingface.co/papers/2606.10953",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-30T00:00:00+00:00",
+      "summary": "Furnished floor plans support real-estate visualization, interior design, and architectural workflows, yet automatic furnishing remains challenged by limited real-world data and the need to satisfy interacting geometric and functional constraints. We ask whether professional furnishing knowledge can be learned from real floor plans using a pretrained model, enabling direct constraint-aware layout ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 43,
+      "arxiv_id": "2606.10953"
     },
     {
       "id": "yt:WzoDOZnHbCk",
@@ -300,32 +313,6 @@
       "channel": "Matthew Berman"
     },
     {
-      "id": "paper:2609.37200",
-      "title": "Adaptive Reward Routing: Dynamic Multi-Reward Optimization for Joint Audio-Video Diffusion via Forward-Process RL",
-      "url": "https://huggingface.co/papers/2609.37200",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-29T00:00:00+00:00",
-      "summary": "Multi-reward guided reinforcement learning (i.e., RL) offers a promising way to improve joint audio-video diffusion models along several complementary objectives, including modality-specific quality, cross-modal semantic alignment, and temporal synchronization. Its effectiveness, however, depends on two quantities that change during training: where reward-driven updates should act, and how competi",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 124,
-      "arxiv_id": "2609.37200"
-    },
-    {
-      "id": "paper:2610.00314",
-      "title": "Predictive Credit: Measuring What Scientific Explanations Add to Experimental Forecasts",
-      "url": "https://huggingface.co/papers/2610.00314",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-29T00:00:00+00:00",
-      "summary": "Research agents explain planned experiments. We measure predictive credit with paired forecasts sharing an intervention, forecaster, and outcome while varying description, matched explanation, and donor context. Five checks track commitment, delivery, predictive gain, alignment, and known-signal uptake. Across 336 prospective states in controlled learning, 12 Tox21 endpoints, and 24 OpenML tasks, ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 90,
-      "arxiv_id": "2610.00314"
-    },
-    {
       "id": "paper:2609.36585",
       "title": "Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It",
       "url": "https://huggingface.co/papers/2609.36585",
@@ -335,7 +322,7 @@
       "summary": "Pretrained transformers use little of their depth to follow references in context. Thirteen base models reliably follow only 1.4-3.6 lines, and extra pretrained loops add little. A task-trained rank-8 LoRA at one early layer extends this computation with all model weights frozen. Qwen3-8B improves from 15.5% to 99% exact accuracy on 24-line chains; a longer-trained LoRA reaches 50 lines. Ouro-1.4B",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 71,
+      "upvotes": 72,
       "arxiv_id": "2609.36585"
     },
     {
@@ -348,8 +335,21 @@
       "summary": "Recent multi-agent LLM systems increasingly combine heterogeneous models for specialized agent roles. However, text-based communication requires each receiver to prefill shared context already processed by the sender. Reusing the sender's key-value (KV) cache avoids this redundancy, but prefill-free transfer across model families must handle differences in tokenization, model depth, and KV represe",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 65,
+      "upvotes": 67,
       "arxiv_id": "2609.32259"
+    },
+    {
+      "id": "paper:2609.38078",
+      "title": "MotorMind: Scaffolding General Vision Language Models for Zero-Shot Robot Manipulation",
+      "url": "https://huggingface.co/papers/2609.38078",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-29T00:00:00+00:00",
+      "summary": "Vision-language-action (VLA) models have advanced robotic manipulation, but their zero-shot generalization in new tasks and environments remains limited, and their reliance on specialized training keeps them from benefiting directly from rapidly advancing general-purpose vision-language models (VLMs). In parallel, recent agentic robotic systems leverage VLMs for high-level reasoning or coding agen",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 63,
+      "arxiv_id": "2609.38078"
     },
     {
       "id": "paper:2609.37533",
@@ -993,7 +993,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T02:10:55.303230+00:00",
+      "fetched_at": "2026-10-05T09:19:00.567678+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1075,7 +1075,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T02:10:55.306476+00:00",
+      "fetched_at": "2026-10-05T09:19:00.570673+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1157,7 +1157,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T02:10:55.310434+00:00",
+      "fetched_at": "2026-10-05T09:19:00.574312+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1239,7 +1239,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T02:10:55.311667+00:00",
+      "fetched_at": "2026-10-05T09:19:00.575451+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1307,7 +1307,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T02:10:55.317260+00:00",
+      "fetched_at": "2026-10-05T09:19:00.580733+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1389,7 +1389,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T02:10:55.317273+00:00",
+      "fetched_at": "2026-10-05T09:19:00.580748+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1457,7 +1457,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T02:10:55.319145+00:00",
+      "fetched_at": "2026-10-05T09:19:00.582546+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1539,7 +1539,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-05T02:10:55.350837+00:00",
+      "fetched_at": "2026-10-05T09:19:00.615441+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1621,7 +1621,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-05T02:10:55.386177+00:00",
+      "fetched_at": "2026-10-05T09:19:00.653945+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1703,7 +1703,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T02:10:55.404632+00:00",
+      "fetched_at": "2026-10-05T09:19:00.672413+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1785,7 +1785,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T02:10:55.411158+00:00",
+      "fetched_at": "2026-10-05T09:19:00.679247+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1867,7 +1867,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T02:10:55.422213+00:00",
+      "fetched_at": "2026-10-05T09:19:00.690588+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1949,7 +1949,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T02:10:55.424667+00:00",
+      "fetched_at": "2026-10-05T09:19:00.693038+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2031,55 +2031,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-05T02:10:36.734451+00:00"
+        "checked_at": "2026-10-05T09:18:43.284354+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-05T02:10:35.703296+00:00"
+        "checked_at": "2026-10-05T09:18:42.252773+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-05T02:10:39.941924+00:00"
+        "checked_at": "2026-10-05T09:18:46.514473+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-05T02:10:42.145276+00:00"
+        "checked_at": "2026-10-05T09:18:48.698164+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-05T02:10:37.755180+00:00"
+        "checked_at": "2026-10-05T09:18:44.381131+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-05T02:10:38.774038+00:00"
+        "checked_at": "2026-10-05T09:18:45.405246+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-05T02:10:40.974138+00:00"
+        "checked_at": "2026-10-05T09:18:47.553315+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-05T02:10:55.425965+00:00"
+      "checked_at": "2026-10-05T09:19:00.694508+00:00"
     }
   }
 }
