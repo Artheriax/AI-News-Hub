@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T08:25:18.899268+00:00",
+  "generated_at": "2026-10-06T08:34:55.100648+00:00",
   "items": [
     {
       "id": "yt:PQw0TRzpCkk",
@@ -83,7 +83,7 @@
       "summary": "We present Kandinsky 6.0 Video, a family of foundation diffusion models for synchronized text-to-audio-video generation, comprising Kandinsky 6.0 Video Lite (3B parameters) and Kandinsky 6.0 Video Pro (29B parameters). Both models generate 5-second video clips with synchronized 44 kHz audio, including lip-sync, in text-to-audio-video (T2AV) and image-to-audio-video (I2AV) modes; a built-in super-r",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 70,
+      "upvotes": 74,
       "arxiv_id": "2610.05608"
     },
     {
@@ -264,6 +264,19 @@
       "arxiv_id": "2610.02298"
     },
     {
+      "id": "paper:2610.02304",
+      "title": "SimuVerity: Benchmarking Agents for Engineering-Grade Simulink Model Generation",
+      "url": "https://huggingface.co/papers/2610.02304",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-01T00:00:00+00:00",
+      "summary": "Existing Simulink benchmarks mainly evaluate whether generated models compile, execute, or resemble a reference model. These criteria do not establish whether a model satisfies its engineering requirements. We introduce SimuVerity, a benchmark of 101 text-to-executable Simulink model-generation tasks across ten engineering domains. For each task, executable-system profiles ground the engineering s",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 47,
+      "arxiv_id": "2610.02304"
+    },
+    {
       "id": "yt:RMTWayrwYkQ",
       "title": "Gemini 4 Argon Is Google’s Most Powerful AI Model + Early Tests!",
       "url": "https://www.youtube.com/watch?v=RMTWayrwYkQ",
@@ -336,19 +349,6 @@
       "kind": "paper",
       "upvotes": 91,
       "arxiv_id": "2609.38839"
-    },
-    {
-      "id": "paper:2610.00812",
-      "title": "Video Generation Models: A Survey of Post-Training and Alignment",
-      "url": "https://huggingface.co/papers/2610.00812",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-30T00:00:00+00:00",
-      "summary": "Video generation has rapidly progressed from short, low-quality clips to high-resolution, long-duration sequences with complex spatiotemporal dynamics. Despite strong generative priors learned through large-scale pretraining, pretrained video models often fail to reliably follow human intent, maintain temporal coherence, or satisfy physical and safety constraints. Compared with image and text gene",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 57,
-      "arxiv_id": "2610.00812"
     },
     {
       "id": "paper:2610.00531",
@@ -969,7 +969,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T08:25:18.804253+00:00",
+      "fetched_at": "2026-10-06T08:34:54.979155+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1051,7 +1051,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T08:25:18.807239+00:00",
+      "fetched_at": "2026-10-06T08:34:54.982243+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1133,7 +1133,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T08:25:18.810429+00:00",
+      "fetched_at": "2026-10-06T08:34:54.986014+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1215,7 +1215,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T08:25:18.811455+00:00",
+      "fetched_at": "2026-10-06T08:34:54.987169+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1283,7 +1283,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T08:25:18.817048+00:00",
+      "fetched_at": "2026-10-06T08:34:54.992550+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1365,7 +1365,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T08:25:18.817071+00:00",
+      "fetched_at": "2026-10-06T08:34:54.992563+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1433,7 +1433,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T08:25:18.818962+00:00",
+      "fetched_at": "2026-10-06T08:34:54.994439+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1515,7 +1515,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-06T08:25:18.847425+00:00",
+      "fetched_at": "2026-10-06T08:34:55.026504+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1597,7 +1597,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-06T08:25:18.872063+00:00",
+      "fetched_at": "2026-10-06T08:34:55.062380+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1679,7 +1679,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T08:25:18.883667+00:00",
+      "fetched_at": "2026-10-06T08:34:55.079849+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1761,7 +1761,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T08:25:18.887818+00:00",
+      "fetched_at": "2026-10-06T08:34:55.086136+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1843,7 +1843,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T08:25:18.895123+00:00",
+      "fetched_at": "2026-10-06T08:34:55.097064+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1925,7 +1925,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T08:25:18.896727+00:00",
+      "fetched_at": "2026-10-06T08:34:55.099394+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2007,55 +2007,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T08:24:47.730572+00:00"
+        "checked_at": "2026-10-06T08:34:37.531509+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T08:24:46.698908+00:00"
+        "checked_at": "2026-10-06T08:34:36.501962+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T08:24:50.883840+00:00"
+        "checked_at": "2026-10-06T08:34:41.123801+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T08:24:48.760459+00:00"
+        "checked_at": "2026-10-06T08:34:38.554084+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T08:24:53.704112+00:00"
+        "checked_at": "2026-10-06T08:34:43.588596+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T08:24:49.798962+00:00"
+        "checked_at": "2026-10-06T08:34:40.102137+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T08:24:51.943518+00:00"
+        "checked_at": "2026-10-06T08:34:42.161620+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-06T08:25:18.898632+00:00"
+      "checked_at": "2026-10-06T08:34:55.100562+00:00"
     }
   }
 }
