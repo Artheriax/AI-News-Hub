@@ -1,6 +1,42 @@
 {
-  "generated_at": "2026-10-06T06:43:28.111542+00:00",
+  "generated_at": "2026-10-06T08:25:18.899268+00:00",
   "items": [
+    {
+      "id": "yt:PQw0TRzpCkk",
+      "title": "MYSTERIOUS GPT-Next Model LEAKED,  Fable 5.5 TODAY? Gemini 4 Argon + RSI Update & More! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=PQw0TRzpCkk",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-10-06T06:51:19+00:00",
+      "summary": "Try Decodo for free using the link in the description-no credit card required. And when you’re ready to scale, use code WORLDOFAI for ten percent off your first paid Web Scraping API plan: https://visit.decodo.com/NGJZkv Decodo helps feed fresh web data into AI workflows through MCP, handling IP rot",
+      "thumbnail": "https://i1.ytimg.com/vi/PQw0TRzpCkk/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
+      "id": "yt:h5zkzon0gM4",
+      "title": "The AI unlock has begun",
+      "url": "https://www.youtube.com/watch?v=h5zkzon0gM4",
+      "source": "AI Search",
+      "category": "videos",
+      "published": "2026-10-06T03:36:24+00:00",
+      "summary": "How AI is used to mod games. Pass through mod, rebuilding in rust, porting mechanics. Claude Opus 5.5 game mod. Thanks to our sponsor Runway. https://runwayml.com/aisearch-oct Use code MKTG50 for 50% off any paid plan for the 1st month #ai #aitools #gaming #ainews #singularity Resources https://gith",
+      "thumbnail": "https://i1.ytimg.com/vi/h5zkzon0gM4/hqdefault.jpg",
+      "kind": "video",
+      "channel": "AI Search"
+    },
+    {
+      "id": "yt:_5p1_TNSWqQ",
+      "title": "PewDiePie is setting AI free... and OpenAI is furious",
+      "url": "https://www.youtube.com/watch?v=_5p1_TNSWqQ",
+      "source": "Fireship",
+      "category": "videos",
+      "published": "2026-10-05T20:34:44+00:00",
+      "summary": "Namespace is actually the fastest way to run your GitHub Actions (and more). Try it for free - https://namespace.so/github-actions PewDiePie is building Ajax, an uncensored AI model he trained at home after OpenAI banned him twice for distillation. Let's dive in. Want more Fireship? 🗞️ Newsletter: h",
+      "thumbnail": "https://i4.ytimg.com/vi/_5p1_TNSWqQ/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Fireship"
+    },
     {
       "id": "yt:9uyxtJDd_j0",
       "title": "Ling 3.1 Flash First Test – Is THIS Really a DeepSeek Competitor?",
@@ -26,18 +62,6 @@
       "channel": "Two Minute Papers"
     },
     {
-      "id": "yt:jo70OkhryIA",
-      "title": "DeepSeek Painted My Portrait",
-      "url": "https://www.youtube.com/shorts/jo70OkhryIA",
-      "source": "Matthew Berman",
-      "category": "videos",
-      "published": "2026-10-04T20:05:25+00:00",
-      "summary": "Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberman_ai 👉🏻 Discord: https://discord.gg/u7wTTGWhuJ 👉🏻 Spotify: https://open.spotify.com",
-      "thumbnail": "https://i3.ytimg.com/vi/jo70OkhryIA/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Matthew Berman"
-    },
-    {
       "id": "yt:lHmZoRHMZyM",
       "title": "Gemini 4, GPT 6.1, Dots, Claude Sonnet 5.5, Ideogram 4.5, Flux 3: AI NEWS",
       "url": "https://www.youtube.com/watch?v=lHmZoRHMZyM",
@@ -48,6 +72,19 @@
       "thumbnail": "https://i1.ytimg.com/vi/lHmZoRHMZyM/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
+    },
+    {
+      "id": "paper:2610.05608",
+      "title": "Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation",
+      "url": "https://huggingface.co/papers/2610.05608",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-04T00:00:00+00:00",
+      "summary": "We present Kandinsky 6.0 Video, a family of foundation diffusion models for synchronized text-to-audio-video generation, comprising Kandinsky 6.0 Video Lite (3B parameters) and Kandinsky 6.0 Video Pro (29B parameters). Both models generate 5-second video clips with synchronized 44 kHz audio, including lip-sync, in text-to-audio-video (T2AV) and image-to-audio-video (I2AV) modes; a built-in super-r",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 70,
+      "arxiv_id": "2610.05608"
     },
     {
       "id": "yt:N3REfH4N9Dg",
@@ -109,7 +146,7 @@
       "summary": "We introduce HyperBrowseComp, a multilingual and multimodal browsing benchmark comprising 423 manually authored and human-validated questions across 13 languages, written by native or highly proficient speakers. Questions are designed to be extremely challenging. Each question targets a concise, publicly verifiable answer whose discovery requires locating obscure evidence, following multi-step clu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 52,
+      "upvotes": 53,
       "arxiv_id": "2610.03574"
     },
     {
@@ -138,6 +175,18 @@
       "channel": "AI Explained"
     },
     {
+      "id": "yt:No-JPdFvYWU",
+      "title": "The one OpenAI announcement that can actually make you money...",
+      "url": "https://www.youtube.com/watch?v=No-JPdFvYWU",
+      "source": "Fireship",
+      "category": "videos",
+      "published": "2026-10-01T19:34:14+00:00",
+      "summary": "Try the faster, open-weight version of Jev at https://fastino.ai/. Use code: FIRESHIPFIVE to get free credits. In this video we'll cover everything you missed at OpenAI Dev Day 2026. Let's dive in. #coding #programming Want more Fireship? 🗞️ Newsletter: https://bytes.dev 🧠 Courses: https://fireship.",
+      "thumbnail": "https://i3.ytimg.com/vi/No-JPdFvYWU/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Fireship"
+    },
+    {
       "id": "yt:pYH8x-Nbhbc",
       "title": "GPT-6.1 Sol vs Claude Sonnet 5.5 – This Was NOT Even CLOSE!",
       "url": "https://www.youtube.com/watch?v=pYH8x-Nbhbc",
@@ -150,18 +199,6 @@
       "channel": "Bijan Bowen"
     },
     {
-      "id": "yt:OODvXcQJyVo",
-      "title": "Muse from Meta Can Work Through Your To-Do List",
-      "url": "https://www.youtube.com/shorts/OODvXcQJyVo",
-      "source": "Matthew Berman",
-      "category": "videos",
-      "published": "2026-10-01T16:59:24+00:00",
-      "summary": "Try these four tasks with Muse from Meta. You can text Muse like a friend and ask it to do real work for you. Make a personalized birthday card, plan meals around your budget and what’s in your fridge, build a grocery list, or ask Muse to negotiate a refund on your behalf. You can also have Muse man",
-      "thumbnail": "https://i4.ytimg.com/vi/OODvXcQJyVo/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Matthew Berman"
-    },
-    {
       "id": "paper:2610.01780",
       "title": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
       "url": "https://huggingface.co/papers/2610.01780",
@@ -171,7 +208,7 @@
       "summary": "A companion that talks with a person for months should come to understand them. It should remember what they said, infer who they are, and know when the past bears on the message in front of it. Testing this requires a real person's record, and such records are private, so benchmarks generate the person and the questions and settle in advance what matters. We release \\bench, ten real relationships",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 258,
+      "upvotes": 259,
       "arxiv_id": "2610.01780"
     },
     {
@@ -197,7 +234,7 @@
       "summary": "On-policy distillation (OPD) trains a student on the responses it generates. Existing LLM multi-teacher OPD transfers what specialists predict through their output distributions. We introduce Latent-MOPD, to our knowledge the first representation-level multi-teacher OPD method for LLMs. It integrates existing specialists through both their predictions and the hidden states used to compute them, wi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 55,
+      "upvotes": 56,
       "arxiv_id": "2610.02381"
     },
     {
@@ -227,19 +264,6 @@
       "arxiv_id": "2610.02298"
     },
     {
-      "id": "paper:2610.02304",
-      "title": "SimuVerity: Benchmarking Agents for Engineering-Grade Simulink Model Generation",
-      "url": "https://huggingface.co/papers/2610.02304",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-01T00:00:00+00:00",
-      "summary": "Existing Simulink benchmarks mainly evaluate whether generated models compile, execute, or resemble a reference model. These criteria do not establish whether a model satisfies its engineering requirements. We introduce SimuVerity, a benchmark of 101 text-to-executable Simulink model-generation tasks across ten engineering domains. For each task, executable-system profiles ground the engineering s",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 47,
-      "arxiv_id": "2610.02304"
-    },
-    {
       "id": "yt:RMTWayrwYkQ",
       "title": "Gemini 4 Argon Is Google’s Most Powerful AI Model + Early Tests!",
       "url": "https://www.youtube.com/watch?v=RMTWayrwYkQ",
@@ -252,6 +276,18 @@
       "channel": "WorldofAI"
     },
     {
+      "id": "yt:I_KVMFrUtPk",
+      "title": "Did a 50 year old military secret just solve agent prompt injection?",
+      "url": "https://www.youtube.com/watch?v=I_KVMFrUtPk",
+      "source": "Fireship",
+      "category": "videos",
+      "published": "2026-09-30T17:16:43+00:00",
+      "summary": "Check out the OpenAPPA repo: https://github.com/archestra-ai/OpenAPPA A new open source project claims to have fixed the rogue agent problem. Let's dive in. Want more Fireship? 🗞️ Newsletter: https://bytes.dev 🧠 Courses: https://fireship.dev",
+      "thumbnail": "https://i2.ytimg.com/vi/I_KVMFrUtPk/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Fireship"
+    },
+    {
       "id": "yt:uJNP_FdlR3I",
       "title": "GPT-6.1 Sol IS INSANE! + OpenAI's DevDay: Dots, Pro 500, Ultrafast, Codex & More! AI NEWS",
       "url": "https://www.youtube.com/watch?v=uJNP_FdlR3I",
@@ -262,18 +298,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/uJNP_FdlR3I/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
-    },
-    {
-      "id": "yt:Xc6ERvZM1NY",
-      "title": "OpenAI COOKED",
-      "url": "https://www.youtube.com/watch?v=Xc6ERvZM1NY",
-      "source": "Matthew Berman",
-      "category": "videos",
-      "published": "2026-09-30T01:26:37+00:00",
-      "summary": "Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberman_ai 👉🏻 Discord: https://discord.gg/u7wTTGWhuJ 👉🏻 Spotify: https://open.spotify.com",
-      "thumbnail": "https://i1.ytimg.com/vi/Xc6ERvZM1NY/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Matthew Berman"
     },
     {
       "id": "yt:WxuGIqpkfdc",
@@ -297,7 +321,7 @@
       "summary": "Large language models rely heavily on human text, which often conveys surface answers rather than the spatial and structural logic behind them. Protein folding is a natural testbed, because one solved structure yields thousands of exactly checkable spatial and topological statements. We ask: can learning to fold proteins teach general models reusable reasoning capabilities? To answer this, we buil",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 118,
+      "upvotes": 119,
       "arxiv_id": "2609.38879"
     },
     {
@@ -349,7 +373,7 @@
       "summary": "Legal language models require reward signals that capture not only answer correctness but also the multidimensional quality of legal responses. Existing reward methods, however, often rely on coarse-grained holistic judgments, providing limited domain specificity and interpretability. We introduce LexReward, a taxonomy-driven framework for legal reward modeling. LexReward characterizes legal respo",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 50,
+      "upvotes": 51,
       "arxiv_id": "2609.39071"
     },
     {
@@ -365,30 +389,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "yt:T-E7rmD6rh4",
-      "title": "How Did Anthropic Pull This Off?",
-      "url": "https://www.youtube.com/watch?v=T-E7rmD6rh4",
-      "source": "Matthew Berman",
-      "category": "videos",
-      "published": "2026-09-29T05:04:38+00:00",
-      "summary": "Try CodeRabbit: https://coderabbit.link/matthew-berman-001 Use code MATTHEWCR for a free CodeRabbit Pro Plus subscription, available to the first 50 first-time users. Sonnet 5.5 projects Crownfall: https://saffron-flint-kkcm.here.now/ Bounce Lab: https://granite-intent-25rt.here.now/ Marrow Manor: h",
-      "thumbnail": "https://i1.ytimg.com/vi/T-E7rmD6rh4/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Matthew Berman"
-    },
-    {
-      "id": "yt:0NhtHVPQwt8",
-      "title": "What We Built With Sonnet 5.5",
-      "url": "https://www.youtube.com/shorts/0NhtHVPQwt8",
-      "source": "Matthew Berman",
-      "category": "videos",
-      "published": "2026-09-29T00:01:18+00:00",
-      "summary": "Play Crownfall, the Age of Empires-style game: https://saffron-flint-kkcm.here.now/ Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberm",
-      "thumbnail": "https://i1.ytimg.com/vi/0NhtHVPQwt8/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Matthew Berman"
-    },
-    {
       "id": "yt:ENWVpqtOdRI",
       "title": "Claude Sonnet 5.5 Is INSANE – Seriously, This Model Is Ridiculous!",
       "url": "https://www.youtube.com/watch?v=ENWVpqtOdRI",
@@ -399,6 +399,18 @@
       "thumbnail": "https://i2.ytimg.com/vi/ENWVpqtOdRI/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
+    },
+    {
+      "id": "yt:OuNKBjuV7A4",
+      "title": "DHH has gone completely off the rails...",
+      "url": "https://www.youtube.com/watch?v=OuNKBjuV7A4",
+      "source": "Fireship",
+      "category": "videos",
+      "published": "2026-09-28T19:27:59+00:00",
+      "summary": "CodeRabbit Triage prioritizes all your team's pull requests for you. Try it free: https://coderabbit.link/fireship-014 DHH told 1,200 Rails developers that writing code by hand is over... so let's find out which programming skills are actually still worth having. Want more Fireship? 🗞️ Newsletter: h",
+      "thumbnail": "https://i4.ytimg.com/vi/OuNKBjuV7A4/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Fireship"
     },
     {
       "id": "yt:TyhlQ0ufH3Y",
@@ -485,28 +497,16 @@
       "channel": "Bijan Bowen"
     },
     {
-      "id": "yt:rgO5v8MFtFg",
-      "title": "What People Are Building With Opus 5.5",
-      "url": "https://www.youtube.com/shorts/rgO5v8MFtFg",
-      "source": "Matthew Berman",
+      "id": "yt:c1rPlzxSZ8E",
+      "title": "Meta is pivoting again... everything you missed from Connect 2026",
+      "url": "https://www.youtube.com/watch?v=c1rPlzxSZ8E",
+      "source": "Fireship",
       "category": "videos",
-      "published": "2026-09-26T01:30:30+00:00",
-      "summary": "Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberman_ai 👉🏻 Discord: https://discord.gg/u7wTTGWhuJ 👉🏻 Spotify: https://open.spotify.com",
-      "thumbnail": "https://i3.ytimg.com/vi/rgO5v8MFtFg/hqdefault.jpg",
+      "published": "2026-09-25T19:22:32+00:00",
+      "summary": "Get $100 in Hyperagent bonus credits when you sign up for a paid plan - https://www.hyperagent.com/fireship100 In this video we break down everything from Meta Connect 2026. Let's dive in. Want more Fireship? 🗞️ Newsletter: https://bytes.dev 🧠 Courses: https://fireship.dev",
+      "thumbnail": "https://i4.ytimg.com/vi/c1rPlzxSZ8E/hqdefault.jpg",
       "kind": "video",
-      "channel": "Matthew Berman"
-    },
-    {
-      "id": "yt:zICv3IJaAfQ",
-      "title": "DeepSeek is CRAZY",
-      "url": "https://www.youtube.com/shorts/zICv3IJaAfQ",
-      "source": "Matthew Berman",
-      "category": "videos",
-      "published": "2026-09-25T21:05:41+00:00",
-      "summary": "Explore DigitalOcean's model catalog: https://do.co/matthewberman #ad Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberman_ai 👉🏻 Disco",
-      "thumbnail": "https://i3.ytimg.com/vi/zICv3IJaAfQ/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Matthew Berman"
+      "channel": "Fireship"
     },
     {
       "id": "yt:h5QwrHhW28Q",
@@ -531,18 +531,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/R9momwXV9w4/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Explained"
-    },
-    {
-      "id": "yt:jGD_UR4wMJc",
-      "title": "8 Jev Use Cases That Feel Like Cheating",
-      "url": "https://www.youtube.com/watch?v=jGD_UR4wMJc",
-      "source": "Matthew Berman",
-      "category": "videos",
-      "published": "2026-09-24T18:37:13+00:00",
-      "summary": "Check out Zapier: https://bit.ly/4jlEapW Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberman_ai 👉🏻 Discord: https://discord.gg/u7wTTG",
-      "thumbnail": "https://i3.ytimg.com/vi/jGD_UR4wMJc/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Matthew Berman"
     },
     {
       "id": "yt:DqoLv_3kNZ8",
@@ -605,16 +593,16 @@
       "channel": "Bijan Bowen"
     },
     {
-      "id": "yt:Ima_AVPyQ9E",
-      "title": "GPT-6 Sol and Luna Are HERE!",
-      "url": "https://www.youtube.com/watch?v=Ima_AVPyQ9E",
-      "source": "Matthew Berman",
+      "id": "yt:ylO0DQeVEBQ",
+      "title": "The most expensive 33 hours in WordPress history...",
+      "url": "https://www.youtube.com/watch?v=ylO0DQeVEBQ",
+      "source": "Fireship",
       "category": "videos",
-      "published": "2026-09-23T20:19:04+00:00",
-      "summary": "Tell your agents to use this: https://here.now/r/matthewberman Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberman_ai 👉🏻 Discord: htt",
-      "thumbnail": "https://i2.ytimg.com/vi/Ima_AVPyQ9E/hqdefault.jpg",
+      "published": "2026-09-23T17:17:22+00:00",
+      "summary": "Greptile is the only AI code reviewer that actually runs your code. Try it for free: http://greptile.com/go/fireship Automattic's board fired WordPress co-founder Matt Mullenweg while he was at Burning Man... 33 hours later, he replaced the board and declared himself a pirate. Let's dive in. Want mo",
+      "thumbnail": "https://i2.ytimg.com/vi/ylO0DQeVEBQ/hqdefault.jpg",
       "kind": "video",
-      "channel": "Matthew Berman"
+      "channel": "Fireship"
     },
     {
       "id": "yt:GJIkBVSoxUw",
@@ -629,18 +617,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "yt:OWu2kjKrRTA",
-      "title": "Anthropic went CRAZY (Opus 5.5)",
-      "url": "https://www.youtube.com/watch?v=OWu2kjKrRTA",
-      "source": "Matthew Berman",
-      "category": "videos",
-      "published": "2026-09-23T03:41:24+00:00",
-      "summary": "Check out all our Opus 5.5 tests: https://forwardfuture.com/opus-5-5-review Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com Thanks to Thariq for joining! https://x.com/trq212 My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Insta",
-      "thumbnail": "https://i4.ytimg.com/vi/OWu2kjKrRTA/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Matthew Berman"
-    },
-    {
       "id": "yt:ux6Lafw7en0",
       "title": "Claude Opus 5.5 Is INSANE – Hands-On With the BEST Model Yet!",
       "url": "https://www.youtube.com/watch?v=ux6Lafw7en0",
@@ -653,18 +629,6 @@
       "channel": "Bijan Bowen"
     },
     {
-      "id": "yt:bn4uvtg8ECY",
-      "title": "How I Use Eight Sleep to Improve My Sleep",
-      "url": "https://www.youtube.com/shorts/bn4uvtg8ECY",
-      "source": "Matthew Berman",
-      "category": "videos",
-      "published": "2026-09-22T21:33:00+00:00",
-      "summary": "Use code MATTHEWBERMAN at checkout: https://eightsleep.com/matthewberman Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberman_ai 👉🏻 Di",
-      "thumbnail": "https://i3.ytimg.com/vi/bn4uvtg8ECY/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Matthew Berman"
-    },
-    {
       "id": "yt:rFCaGc7owT8",
       "title": "Claude Opus 5.5 IS THE Greatest AI Model EVER! Cheaper, Fast, & Powerful! (FULLY TESTED)",
       "url": "https://www.youtube.com/watch?v=rFCaGc7owT8",
@@ -675,18 +639,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/rFCaGc7owT8/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
-    },
-    {
-      "id": "yt:5MFORiebZks",
-      "title": "GPT-6 SOL AND LUNA ARE OUT!!!",
-      "url": "https://www.youtube.com/watch?v=5MFORiebZks",
-      "source": "Matthew Berman",
-      "category": "videos",
-      "published": "2026-09-22T18:38:33+00:00",
-      "summary": "Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberman_ai 👉🏻 Discord: https://discord.gg/u7wTTGWhuJ 👉🏻 Spotify: https://open.spotify.com",
-      "thumbnail": "https://i2.ytimg.com/vi/5MFORiebZks/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Matthew Berman"
     },
     {
       "id": "yt:qBBRRsH0rQc",
@@ -725,18 +677,6 @@
       "channel": "AI Search"
     },
     {
-      "id": "yt:MJllZbpvrAc",
-      "title": "Did Elon catch up? (Grok 4.7 is here)",
-      "url": "https://www.youtube.com/watch?v=MJllZbpvrAc",
-      "source": "Matthew Berman",
-      "category": "videos",
-      "published": "2026-09-22T00:13:35+00:00",
-      "summary": "Check out Zapier! https://bit.ly/3TLc4tQ Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberman_ai 👉🏻 Discord: https://discord.gg/u7wTTG",
-      "thumbnail": "https://i2.ytimg.com/vi/MJllZbpvrAc/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Matthew Berman"
-    },
-    {
       "id": "yt:HAi7twQBKlY",
       "title": "Grok 4.7 Is HERE – Is THIS the CHEAPEST Frontier Model?",
       "url": "https://www.youtube.com/watch?v=HAi7twQBKlY",
@@ -749,28 +689,16 @@
       "channel": "Bijan Bowen"
     },
     {
-      "id": "yt:6ov1JaMVT_U",
-      "title": "What People Are Building With Jev Is Incredible",
-      "url": "https://www.youtube.com/shorts/6ov1JaMVT_U",
-      "source": "Matthew Berman",
+      "id": "yt:TbkUKCm3CHQ",
+      "title": "An ex-OpenAI researcher just deleted language from the LLM...",
+      "url": "https://www.youtube.com/watch?v=TbkUKCm3CHQ",
+      "source": "Fireship",
       "category": "videos",
-      "published": "2026-09-21T16:46:24+00:00",
-      "summary": "Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberman_ai 👉🏻 Discord: https://discord.gg/u7wTTGWhuJ 👉🏻 Spotify: https://open.spotify.com",
-      "thumbnail": "https://i3.ytimg.com/vi/6ov1JaMVT_U/hqdefault.jpg",
+      "published": "2026-09-21T17:52:29+00:00",
+      "summary": "Mux is the video API that translates audio and answers questions about your video. Get $50 in free credits: https://mux.com/fireship Ex-OpenAI researcher Diogo Almeida spent two years in stealth building Jev, a \"System 1\" AI model that can't talk or write code but claims to be 200x faster, 400x chea",
+      "thumbnail": "https://i1.ytimg.com/vi/TbkUKCm3CHQ/hqdefault.jpg",
       "kind": "video",
-      "channel": "Matthew Berman"
-    },
-    {
-      "id": "yt:S4VUMFELhaQ",
-      "title": "Is This Simulated Fruit Fly Real?",
-      "url": "https://www.youtube.com/shorts/S4VUMFELhaQ",
-      "source": "Matthew Berman",
-      "category": "videos",
-      "published": "2026-09-21T06:18:26+00:00",
-      "summary": "Join My Newsletter for Regular AI Updates 👇🏼 https://forwardfuture.com My Links 🔗 👉🏻 X: https://x.com/matthewberman 👉🏻 Forward Future X: https://x.com/forwardfuture 👉🏻 Instagram: https://www.instagram.com/matthewberman_ai 👉🏻 Discord: https://discord.gg/u7wTTGWhuJ 👉🏻 Spotify: https://open.spotify.com",
-      "thumbnail": "https://i4.ytimg.com/vi/S4VUMFELhaQ/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Matthew Berman"
+      "channel": "Fireship"
     },
     {
       "id": "yt:i00isgmGgGg",
@@ -795,18 +723,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/hygMRgnDD7w/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "yt:hUZNPCSZDaQ",
-      "title": "HUGE Fable 5.2, Opus 5.2, Sonnet 5.2 LEAKS! Gemini World, Google AI HACKS Companies & More! AI NEWS",
-      "url": "https://www.youtube.com/watch?v=hUZNPCSZDaQ",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-09-19T06:15:19+00:00",
-      "summary": "Join the private community to get WoAI Bench Pro, exclusive AI freebies and discounts, early model access, automation templates, practical resources and upcoming AI training. 👉 Join Today! https://www.skool.com/worldofai 🔥 HUGE AI NEWS! Anthropic appears to be cooking up its next wave of models with",
-      "thumbnail": "https://i1.ytimg.com/vi/hUZNPCSZDaQ/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
     },
     {
       "id": "yt:vIHw_2VjSUw",
@@ -845,6 +761,18 @@
       "channel": "AI Search"
     },
     {
+      "id": "yt:LoLYw--s-5w",
+      "title": "Did Google just kickstart the intelligence explosion?",
+      "url": "https://www.youtube.com/watch?v=LoLYw--s-5w",
+      "source": "Fireship",
+      "category": "videos",
+      "published": "2026-09-17T20:33:55+00:00",
+      "summary": "Run GitHub Actions 2x faster and build with Codesmith at https://www.blacksmith.sh/ Google DeepMind just published Dream-RSI, a technique that turns an AI's old discovery logs into a simulator so it can test thousands of exploration strategies. But is this actually RSI or just a search algorithm wit",
+      "thumbnail": "https://i1.ytimg.com/vi/LoLYw--s-5w/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Fireship"
+    },
+    {
       "id": "yt:J3ljHm57yU0",
       "title": "What AI Researchers Saw, Before Their Demand to ‘Pace’ AI",
       "url": "https://www.youtube.com/watch?v=J3ljHm57yU0",
@@ -855,6 +783,18 @@
       "thumbnail": "https://i3.ytimg.com/vi/J3ljHm57yU0/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Explained"
+    },
+    {
+      "id": "yt:7r4ikZHm9AI",
+      "title": "Anthropic researchers are quitting... and now we know why",
+      "url": "https://www.youtube.com/watch?v=7r4ikZHm9AI",
+      "source": "Fireship",
+      "category": "videos",
+      "published": "2026-09-15T17:45:39+00:00",
+      "summary": "Macroscope can auto-approve your team’s PRs safely. Try it here: https://macroscope.com/?utm_source=fireship Anthropic just dropped a 154-page report on how hackers, scientists, and rival AI labs have been abusing Claude. Let's dive in. #coding #programming Want more Fireship? 🗞️ Newsletter: https:/",
+      "thumbnail": "https://i4.ytimg.com/vi/7r4ikZHm9AI/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Fireship"
     },
     {
       "id": "yt:YoEWjZSwoys",
@@ -905,6 +845,18 @@
       "channel": "AI Search"
     },
     {
+      "id": "yt:aspmNhKAFMc",
+      "title": "OpenAI's biggest math breakthrough is getting ugly...",
+      "url": "https://www.youtube.com/watch?v=aspmNhKAFMc",
+      "source": "Fireship",
+      "category": "videos",
+      "published": "2026-09-11T17:24:40+00:00",
+      "summary": "Railway is the smoothest way to deploy software: https://railway.com/?referralCode=fireship OpenAI claims it cracked a 90 year old math problem, but one NYU professor isn't happy about it. Let's dive in. #coding #programming Want more Fireship? 🗞️ Newsletter: https://bytes.dev 🧠 Courses: https://fir",
+      "thumbnail": "https://i2.ytimg.com/vi/aspmNhKAFMc/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Fireship"
+    },
+    {
       "id": "yt:abehaRWPt5E",
       "title": "DeepSeek V4.1 Flash Is INSANE – Is THIS the Best Open Model Yet?",
       "url": "https://www.youtube.com/watch?v=abehaRWPt5E",
@@ -941,6 +893,18 @@
       "channel": "AI Search"
     },
     {
+      "id": "yt:2Xiljy4xzbc",
+      "title": "I built the same game with Astra and Fable 5.1... only one was fun",
+      "url": "https://www.youtube.com/watch?v=2Xiljy4xzbc",
+      "source": "Fireship",
+      "category": "videos",
+      "published": "2026-09-09T16:34:27+00:00",
+      "summary": "Get 20% off Mobbin Pro to help your agent design UIs that actually convert - https://mobbin.com/fireship Now that Astra is actually available to use, let's see if it lives up to the hype. #coding #programming Want more Fireship? 🗞️ Newsletter: https://bytes.dev 🧠 Courses: https://fireship.dev",
+      "thumbnail": "https://i3.ytimg.com/vi/2Xiljy4xzbc/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Fireship"
+    },
+    {
       "id": "yt:UzvTJSuFsWA",
       "title": "Gemini 3.8 Flash Is HERE – Testing Google’s BEST Model Yet!",
       "url": "https://www.youtube.com/watch?v=UzvTJSuFsWA",
@@ -963,6 +927,18 @@
       "thumbnail": "https://i2.ytimg.com/vi/eVBJIUxv8N8/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
+    },
+    {
+      "id": "yt:Y5rSSvXfL4g",
+      "title": "5 open source tools that replaced my $320/mo AI stack...",
+      "url": "https://www.youtube.com/watch?v=Y5rSSvXfL4g",
+      "source": "Fireship",
+      "category": "videos",
+      "published": "2026-09-07T17:24:51+00:00",
+      "summary": "Get 67% off VPS hosting with Hostinger's one-click templates. Use code FIRESHIP for an extra discount - https://hostinger.com/fireship In this video we cover 5 free and open-source tools that'll help you cut token costs. Let's dive in. - Ollama - 9router - Headroom - Diffy - OpenHands #coding #progr",
+      "thumbnail": "https://i2.ytimg.com/vi/Y5rSSvXfL4g/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Fireship"
     },
     {
       "id": "yt:Ji4amrxrzVM",
@@ -993,7 +969,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T06:43:28.049667+00:00",
+      "fetched_at": "2026-10-06T08:25:18.804253+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1075,7 +1051,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T06:43:28.051153+00:00",
+      "fetched_at": "2026-10-06T08:25:18.807239+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1157,7 +1133,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T06:43:28.052953+00:00",
+      "fetched_at": "2026-10-06T08:25:18.810429+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1239,7 +1215,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T06:43:28.053522+00:00",
+      "fetched_at": "2026-10-06T08:25:18.811455+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1307,7 +1283,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T06:43:28.056210+00:00",
+      "fetched_at": "2026-10-06T08:25:18.817048+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1389,7 +1365,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T06:43:28.056217+00:00",
+      "fetched_at": "2026-10-06T08:25:18.817071+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1457,7 +1433,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T06:43:28.057194+00:00",
+      "fetched_at": "2026-10-06T08:25:18.818962+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1539,7 +1515,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-06T06:43:28.073925+00:00",
+      "fetched_at": "2026-10-06T08:25:18.847425+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1621,7 +1597,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-06T06:43:28.092629+00:00",
+      "fetched_at": "2026-10-06T08:25:18.872063+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1703,7 +1679,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T06:43:28.101260+00:00",
+      "fetched_at": "2026-10-06T08:25:18.883667+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1785,7 +1761,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T06:43:28.104307+00:00",
+      "fetched_at": "2026-10-06T08:25:18.887818+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1867,7 +1843,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T06:43:28.109420+00:00",
+      "fetched_at": "2026-10-06T08:25:18.895123+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1949,7 +1925,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T06:43:28.110554+00:00",
+      "fetched_at": "2026-10-06T08:25:18.896727+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2028,58 +2004,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 3,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-10-06T06:43:11.810634+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-06T08:24:47.730572+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 11,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-10-06T06:43:10.767176+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-06T08:24:46.698908+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-10-06T06:43:14.936149+00:00"
+        "error": null,
+        "checked_at": "2026-10-06T08:24:50.883840+00:00"
+      },
+      {
+        "name": "Fireship",
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-06T08:24:48.760459+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T06:43:17.182933+00:00"
-      },
-      {
-        "name": "Matthew Berman",
-        "ok": false,
-        "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCawZsQWqfGSbCI5yjkdVkTA",
-        "checked_at": "2026-10-06T06:43:12.849800+00:00"
+        "checked_at": "2026-10-06T08:24:53.704112+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": false,
-        "items": 7,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-10-06T06:43:13.893452+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-06T08:24:49.798962+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-10-06T06:43:15.987947+00:00"
+        "error": null,
+        "checked_at": "2026-10-06T08:24:51.943518+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-06T06:43:28.111484+00:00"
+      "checked_at": "2026-10-06T08:25:18.898632+00:00"
     }
   }
 }

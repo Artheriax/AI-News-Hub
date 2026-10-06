@@ -8,7 +8,7 @@ Configured in [`sources.yaml`](sources.yaml):
 
 | Source | Type |
 | --- | --- |
-| AI Search, AI Explained, Matthew Berman, Two Minute Papers, Bijan Bowen | YouTube channel RSS (no API key) |
+| AI Search, AI Explained, Fireship, Two Minute Papers, Bijan Bowen | YouTube channel RSS (no API key) |
 | Hugging Face Papers | Daily Papers API → top by upvotes over the last 7 days |
 | Artificial Analysis | 13 leaderboards (editing, text-to-image, text-to-video, music, models, TTS — incl. open-weights / no-audio variants) → top 10 each |
 | [ai-search.io](https://ai-search.io) | Featured link |
