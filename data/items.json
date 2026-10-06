@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T13:47:27.221134+00:00",
+  "generated_at": "2026-10-06T19:14:13.876101+00:00",
   "items": [
     {
       "id": "yt:PQw0TRzpCkk",
@@ -62,6 +62,32 @@
       "channel": "Two Minute Papers"
     },
     {
+      "id": "paper:2610.06577",
+      "title": "Optimizing the Optimizer: Language Models Discover Faster Molecular Relaxation",
+      "url": "https://huggingface.co/papers/2610.06577",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-05T00:00:00+00:00",
+      "summary": "Geometry optimization is a major cost in many quantum-chemical workflows: each optimization step requires one force evaluation, and at the density-functional level that evaluation dominates the wall time. Research in this area has produced a broad range of optimization methods, and we ask whether a language model can improve on the best of them through autoresearch. An agent rewrites the optimizer",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 15,
+      "arxiv_id": "2610.06577"
+    },
+    {
+      "id": "paper:2610.06833",
+      "title": "Towards Looped Models Done Right, Part II: Rethinking at Fixed Points",
+      "url": "https://huggingface.co/papers/2610.06833",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-05T00:00:00+00:00",
+      "summary": "Every recurrence of a looped language model adds cost in training, decoding, prefill, and reinforcement learning (RL). The closer recurrent states get to fixed points, the less the path to them matters. This enables truncated backpropagation in training; terminal key-value (KV) sharing for decoding with almost no loss in accuracy; a distilled student that prefills up to 1.79x faster; and RL update",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 15,
+      "arxiv_id": "2610.06833"
+    },
+    {
       "id": "yt:lHmZoRHMZyM",
       "title": "Gemini 4, GPT 6.1, Dots, Claude Sonnet 5.5, Ideogram 4.5, Flux 3: AI NEWS",
       "url": "https://www.youtube.com/watch?v=lHmZoRHMZyM",
@@ -83,8 +109,34 @@
       "summary": "We present Kandinsky 6.0 Video, a family of foundation diffusion models for synchronized text-to-audio-video generation, comprising Kandinsky 6.0 Video Lite (3B parameters) and Kandinsky 6.0 Video Pro (29B parameters). Both models generate 5-second video clips with synchronized 44 kHz audio, including lip-sync, in text-to-audio-video (T2AV) and image-to-audio-video (I2AV) modes; a built-in super-r",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 103,
+      "upvotes": 113,
       "arxiv_id": "2610.05608"
+    },
+    {
+      "id": "paper:2610.05162",
+      "title": "Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy",
+      "url": "https://huggingface.co/papers/2610.05162",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-04T00:00:00+00:00",
+      "summary": "Long-term memory enables LLM-based agents to retain and reuse information across tasks and sessions, supporting personalization and long-horizon interactions. However, persistent memories can also induce sycophancy, causing agents to over-align with users' historical beliefs even when they are inaccurate, outdated, or inconsistent with objective evidence. Existing mitigation methods assume that me",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 26,
+      "arxiv_id": "2610.05162"
+    },
+    {
+      "id": "paper:2610.05076",
+      "title": "Self-Generated Feedback Destabilizes Test-Time Training: A Causal Decomposition of Long-Horizon Adaptation",
+      "url": "https://huggingface.co/papers/2610.05076",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-04T00:00:00+00:00",
+      "summary": "Test-time training (TTT) lets a model store information in its weights during inference. When the model learns from its own output, however, each update also changes the model that generates the next training example. Across 128K-token streams, retaining generated-text updates worsens prediction on independent human-written text with three TTT-E2E model configurations (labeled 125M, 760M, and 3B).",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 18,
+      "arxiv_id": "2610.05076"
     },
     {
       "id": "yt:N3REfH4N9Dg",
@@ -108,8 +160,21 @@
       "summary": "Diffusion language models (DLMs) enable fast generation by predicting multiple tokens in parallel, but their practical adoption remains limited by a persistent quality gap relative to comparably sized autoregressive (AR) models. We attribute this gap to a computation-difficulty mismatch: within a partially observed sequence, some unknown tokens are easy to predict, while others require substantial",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 39,
+      "upvotes": 48,
       "arxiv_id": "2610.04198"
+    },
+    {
+      "id": "paper:2610.04292",
+      "title": "LMBuild: Evaluating LLM Agents for Generating Buildable and Functional Structures",
+      "url": "https://huggingface.co/papers/2610.04292",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-03T00:00:00+00:00",
+      "summary": "LLM-based agents are increasingly capable of generating complex 3D structures, with the potential to reshape how objects are designed and realized in the physical world. Yet, producing elegant geometry is fundamentally different from producing objects that can be built and perform their intended functions. Existing evaluations largely focus on geometric quality while overlooking physical realizabi",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 21,
+      "arxiv_id": "2610.04292"
     },
     {
       "id": "yt:9zVYS00N6mg",
@@ -124,58 +189,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2610.03391",
-      "title": "Native Action-Prior Learning from Videos for World Action Models",
-      "url": "https://huggingface.co/papers/2610.03391",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-02T00:00:00+00:00",
-      "summary": "World action models integrate future visual dynamics with robot action prediction, but their scalability remains limited by the need for action-annotated robot trajectories. Observation-only videos contain rich evidence about interaction dynamics, but existing approaches typically use them either to pretrain visual representations that must later be adapted for control, or to infer latent actions ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 78,
-      "arxiv_id": "2610.03391"
-    },
-    {
-      "id": "paper:2610.03574",
-      "title": "HyperBrowseComp: A Multilingual and Multimodal Stress Test for Web-Browsing Agents",
-      "url": "https://huggingface.co/papers/2610.03574",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-02T00:00:00+00:00",
-      "summary": "We introduce HyperBrowseComp, a multilingual and multimodal browsing benchmark comprising 423 manually authored and human-validated questions across 13 languages, written by native or highly proficient speakers. Questions are designed to be extremely challenging. Each question targets a concise, publicly verifiable answer whose discovery requires locating obscure evidence, following multi-step clu",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 53,
-      "arxiv_id": "2610.03574"
-    },
-    {
-      "id": "paper:2610.03665",
-      "title": "Pivot-SD: Efficient Self-Distillation for Masked Diffusion Language Models",
-      "url": "https://huggingface.co/papers/2610.03665",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-02T00:00:00+00:00",
-      "summary": "Masked diffusion language models (dLMs) offer a promising parallel alternative to autoregressive models for complex reasoning. However, they face a distinct credit-assignment challenge, since a few commitments during denoising sharply reduce the uncertainty over the remaining masked positions and shape much of the response. Most post-training recipes for dLMs do not use this signal to decide which",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 52,
-      "arxiv_id": "2610.03665"
-    },
-    {
-      "id": "paper:2610.03367",
-      "title": "Multilingual GSM-Symbolic: What determines capability transfer across languages?",
-      "url": "https://huggingface.co/papers/2610.03367",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-02T00:00:00+00:00",
-      "summary": "We understand little about how capabilities acquired in one language carry over to another, or what governs this transfer: evaluations rely on incomparable, saturation-prone datasets and rarely examine its determinants jointly. Identifying what predicts transfer would let us avoid exhaustive evaluation across all language pairs and let developers target the factors that limit performance in low-re",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 43,
-      "arxiv_id": "2610.03367"
-    },
-    {
       "id": "paper:2610.02840",
       "title": "PointWAM: 3D World Action Modeling for Dexterous Robotic Manipulation",
       "url": "https://huggingface.co/papers/2610.02840",
@@ -185,8 +198,60 @@
       "summary": "World action models jointly learn to forecast world dynamics and predict robot actions, such that the learned internal world dynamics guide accurate actions. Existing approaches typically represent the world as RGB frames or latent counterparts while predicting actions as end-effector poses or joint angles, but they often struggle to capture the 3D spatial structure and contact geometry central to",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 39,
+      "upvotes": 41,
       "arxiv_id": "2610.02840"
+    },
+    {
+      "id": "paper:2610.03695",
+      "title": "Language Models that Play Chess and Explain Their Moves",
+      "url": "https://huggingface.co/papers/2610.03695",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-02T00:00:00+00:00",
+      "summary": "Modern chess engines are silent experts: they play at a superhuman level, but do not offer explanations for their play. On the other hand, language models (LMs) can generate plausible-sounding explanations, but their weak playing strength limits the utility of their explanations. We introduce Queen, a 4B-parameter chess-language model that can explain its moves and plans while playing at the level",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 31,
+      "arxiv_id": "2610.03695"
+    },
+    {
+      "id": "paper:2610.03120",
+      "title": "In-Distribution Forcing for Long Video Generation at Test Time",
+      "url": "https://huggingface.co/papers/2610.03120",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-02T00:00:00+00:00",
+      "summary": "Modern autoregressive (AR) video diffusion models excel at short-horizon video generation, yet generating long videos remains challenging due to drifting, where colors and textures shift, and motion dynamics decay. Existing works primarily rely on KV conditioning, which selects or modifies cached key-value (KV) entries to mitigate drifting. However, we observe that KV conditioning alone is insuffi",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 25,
+      "arxiv_id": "2610.03120"
+    },
+    {
+      "id": "paper:2610.03715",
+      "title": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
+      "url": "https://huggingface.co/papers/2610.03715",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-02T00:00:00+00:00",
+      "summary": "We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs. To accomplish this, agents must translate visual observations into compact representations of scene structure and dynamics, by implementing abstractions such as physical simulations to reproduce complex behavior. To evaluate t",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 22,
+      "arxiv_id": "2610.03715"
+    },
+    {
+      "id": "paper:2610.03675",
+      "title": "FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution",
+      "url": "https://huggingface.co/papers/2610.03675",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-02T00:00:00+00:00",
+      "summary": "LLM-guided evolutionary methods, such as AlphaEvolve, have emerged as powerful approaches for challenging computational optimization problems, such as circle packing. However, prior work typically optimizes performance gain over a fixed number of iterations. We argue that practical optimization should maximize gain per unit cost. To this end, we propose FrugalEvo, a cost-aware evolutionary framewo",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 21,
+      "arxiv_id": "2610.03675"
     },
     {
       "id": "yt:_rtp1XzaP6Q",
@@ -234,21 +299,8 @@
       "summary": "A companion that talks with a person for months should come to understand them. It should remember what they said, infer who they are, and know when the past bears on the message in front of it. Testing this requires a real person's record, and such records are private, so benchmarks generate the person and the questions and settle in advance what matters. We release \\bench, ten real relationships",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 262,
+      "upvotes": 264,
       "arxiv_id": "2610.01780"
-    },
-    {
-      "id": "paper:2610.02508",
-      "title": "World Action Modeling with Progressive Visual Planning",
-      "url": "https://huggingface.co/papers/2610.02508",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-01T00:00:00+00:00",
-      "summary": "World action models (WAMs) have emerged as a promising paradigm for robotic control by jointly predicting future visual dynamics and actions from an initial observation and instruction. However, existing WAMs struggle with long-horizon prediction, as generating dense video rollouts is highly inefficient. Some recent WAMs address this by predicting a single future frame without generating the full ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 80,
-      "arxiv_id": "2610.02508"
     },
     {
       "id": "paper:2610.02381",
@@ -260,47 +312,21 @@
       "summary": "On-policy distillation (OPD) trains a student on the responses it generates. Existing LLM multi-teacher OPD transfers what specialists predict through their output distributions. We introduce Latent-MOPD, to our knowledge the first representation-level multi-teacher OPD method for LLMs. It integrates existing specialists through both their predictions and the hidden states used to compute them, wi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 57,
+      "upvotes": 59,
       "arxiv_id": "2610.02381"
     },
     {
-      "id": "paper:2610.00972",
-      "title": "VeriHarness: Scaling Agentic Verification for Long-Horizon Tasks",
-      "url": "https://huggingface.co/papers/2610.00972",
+      "id": "paper:2610.00923",
+      "title": "CANOPY: Adaptive-Granularity Evidence Compression for Multimodal RAG",
+      "url": "https://huggingface.co/papers/2610.00923",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-01T00:00:00+00:00",
-      "summary": "As LLM agents undertake increasingly complex, long-horizon tasks, verifying their outputs becomes increasingly challenging. We study how verification capability can be strengthened with a fixed base model, without access to reference answers or grading rubrics at test time. Repeated sampling yields multiple rollouts that can contain complementary correct claims, but we need a reliable verification",
+      "summary": "Multimodal RAG retrieves text, tables, images, and videos, but choosing a retrieval granularity does not determine how much context to retain within each item. Coarse units include irrelevant content, while uniformly fine selection can remove context needed to interpret the evidence. Existing compressors address this trade-off with modality-specific mechanisms, leaving open a shared procedure for ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 48,
-      "arxiv_id": "2610.00972"
-    },
-    {
-      "id": "paper:2610.02521",
-      "title": "Spatial Memory Intelligence: Endowing World Models with Understanding-Driven Long-Term Memory",
-      "url": "https://huggingface.co/papers/2610.02521",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-01T00:00:00+00:00",
-      "summary": "Long-video generation and world models have shown strong potential for interactive entertainment and embodied simulation by predicting future observations conditioned on user actions and historical memory. However, as memory sequences grow longer and their structures become increasingly complex, managing long-range spatial context becomes increasingly challenging, calling for a more intelligent an",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 47,
-      "arxiv_id": "2610.02521"
-    },
-    {
-      "id": "paper:2610.02304",
-      "title": "SimuVerity: Benchmarking Agents for Engineering-Grade Simulink Model Generation",
-      "url": "https://huggingface.co/papers/2610.02304",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-01T00:00:00+00:00",
-      "summary": "Existing Simulink benchmarks mainly evaluate whether generated models compile, execute, or resemble a reference model. These criteria do not establish whether a model satisfies its engineering requirements. We introduce SimuVerity, a benchmark of 101 text-to-executable Simulink model-generation tasks across ten engineering domains. For each task, executable-system profiles ground the engineering s",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 47,
-      "arxiv_id": "2610.02304"
+      "upvotes": 14,
+      "arxiv_id": "2610.00923"
     },
     {
       "id": "yt:RMTWayrwYkQ",
@@ -349,32 +375,6 @@
       "thumbnail": "https://i4.ytimg.com/vi/WxuGIqpkfdc/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
-    },
-    {
-      "id": "paper:2609.38879",
-      "title": "Does Learning Protein Folding Generalize to Broader Reasoning?",
-      "url": "https://huggingface.co/papers/2609.38879",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-30T00:00:00+00:00",
-      "summary": "Large language models rely heavily on human text, which often conveys surface answers rather than the spatial and structural logic behind them. Protein folding is a natural testbed, because one solved structure yields thousands of exactly checkable spatial and topological statements. We ask: can learning to fold proteins teach general models reusable reasoning capabilities? To answer this, we buil",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 120,
-      "arxiv_id": "2609.38879"
-    },
-    {
-      "id": "paper:2609.39071",
-      "title": "LexReward: A Taxonomy-Driven Reward Framework for Legal Language Models",
-      "url": "https://huggingface.co/papers/2609.39071",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-30T00:00:00+00:00",
-      "summary": "Legal language models require reward signals that capture not only answer correctness but also the multidimensional quality of legal responses. Existing reward methods, however, often rely on coarse-grained holistic judgments, providing limited domain specificity and interpretability. We introduce LexReward, a taxonomy-driven framework for legal reward modeling. LexReward characterizes legal respo",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 51,
-      "arxiv_id": "2609.39071"
     },
     {
       "id": "yt:WzoDOZnHbCk",
@@ -969,7 +969,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T13:47:27.099810+00:00",
+      "fetched_at": "2026-10-06T19:14:13.808715+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1051,7 +1051,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T13:47:27.102936+00:00",
+      "fetched_at": "2026-10-06T19:14:13.810374+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1133,7 +1133,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T13:47:27.106697+00:00",
+      "fetched_at": "2026-10-06T19:14:13.812318+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1215,7 +1215,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T13:47:27.107901+00:00",
+      "fetched_at": "2026-10-06T19:14:13.812927+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1283,7 +1283,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T13:47:27.113309+00:00",
+      "fetched_at": "2026-10-06T19:14:13.815831+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1365,7 +1365,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T13:47:27.113323+00:00",
+      "fetched_at": "2026-10-06T19:14:13.815840+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1433,7 +1433,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T13:47:27.115131+00:00",
+      "fetched_at": "2026-10-06T19:14:13.816901+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1515,7 +1515,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-06T13:47:27.146899+00:00",
+      "fetched_at": "2026-10-06T19:14:13.834695+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1597,7 +1597,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-06T13:47:27.182627+00:00",
+      "fetched_at": "2026-10-06T19:14:13.855395+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1679,7 +1679,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T13:47:27.199871+00:00",
+      "fetched_at": "2026-10-06T19:14:13.864540+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1761,7 +1761,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T13:47:27.206100+00:00",
+      "fetched_at": "2026-10-06T19:14:13.867829+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1843,7 +1843,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T13:47:27.217170+00:00",
+      "fetched_at": "2026-10-06T19:14:13.873475+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1925,7 +1925,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T13:47:27.219554+00:00",
+      "fetched_at": "2026-10-06T19:14:13.874702+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2007,55 +2007,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T13:47:07.970422+00:00"
+        "checked_at": "2026-10-06T19:13:55.652891+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T13:47:06.937454+00:00"
+        "checked_at": "2026-10-06T19:13:54.625923+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T13:47:11.202385+00:00"
+        "checked_at": "2026-10-06T19:13:58.714456+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T13:47:08.991318+00:00"
+        "checked_at": "2026-10-06T19:13:56.671723+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T13:47:13.480376+00:00"
+        "checked_at": "2026-10-06T19:14:00.931650+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T13:47:10.015687+00:00"
+        "checked_at": "2026-10-06T19:13:57.693157+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T13:47:12.241134+00:00"
+        "checked_at": "2026-10-06T19:13:59.744353+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-06T13:47:27.221056+00:00"
+      "checked_at": "2026-10-06T19:14:13.876002+00:00"
     }
   }
 }
