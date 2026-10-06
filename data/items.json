@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T19:14:13.876101+00:00",
+  "generated_at": "2026-10-06T23:09:50.022729+00:00",
   "items": [
     {
       "id": "yt:PQw0TRzpCkk",
@@ -71,7 +71,7 @@
       "summary": "Geometry optimization is a major cost in many quantum-chemical workflows: each optimization step requires one force evaluation, and at the density-functional level that evaluation dominates the wall time. Research in this area has produced a broad range of optimization methods, and we ask whether a language model can improve on the best of them through autoresearch. An agent rewrites the optimizer",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 15,
+      "upvotes": 16,
       "arxiv_id": "2610.06577"
     },
     {
@@ -84,12 +84,25 @@
       "summary": "Every recurrence of a looped language model adds cost in training, decoding, prefill, and reinforcement learning (RL). The closer recurrent states get to fixed points, the less the path to them matters. This enables truncated backpropagation in training; terminal key-value (KV) sharing for decoding with almost no loss in accuracy; a distilled student that prefills up to 1.79x faster; and RL update",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 15,
+      "upvotes": 16,
       "arxiv_id": "2610.06833"
     },
     {
+      "id": "paper:2610.06648",
+      "title": "Representation-Space MMD for Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2610.06648",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-05T00:00:00+00:00",
+      "summary": "We introduce a post-training method for diffusion language models (DLMs) that minimizes Maximum Mean Discrepancy (MMD) between generated and reference distributions in the feature space of a frozen pretrained DLM. To estimate MMD, we retain contextual features at individual token positions, obtaining multiple observations per sequence from a single extractor pass. We optimize this objective using ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 15,
+      "arxiv_id": "2610.06648"
+    },
+    {
       "id": "yt:lHmZoRHMZyM",
-      "title": "Gemini 4, GPT 6.1, Dots, Claude Sonnet 5.5, Ideogram 4.5, Flux 3: AI NEWS",
+      "title": "Gemini 4, GPT 6.1, Plasma conjecture, Napoleon code solved, OpenAI Dots, Claude Sonnet 5.5: AI NEWS",
       "url": "https://www.youtube.com/watch?v=lHmZoRHMZyM",
       "source": "AI Search",
       "category": "videos",
@@ -160,7 +173,7 @@
       "summary": "Diffusion language models (DLMs) enable fast generation by predicting multiple tokens in parallel, but their practical adoption remains limited by a persistent quality gap relative to comparably sized autoregressive (AR) models. We attribute this gap to a computation-difficulty mismatch: within a partially observed sequence, some unknown tokens are easy to predict, while others require substantial",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 48,
+      "upvotes": 53,
       "arxiv_id": "2610.04198"
     },
     {
@@ -173,7 +186,7 @@
       "summary": "LLM-based agents are increasingly capable of generating complex 3D structures, with the potential to reshape how objects are designed and realized in the physical world. Yet, producing elegant geometry is fundamentally different from producing objects that can be built and perform their intended functions. Existing evaluations largely focus on geometric quality while overlooking physical realizabi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 21,
+      "upvotes": 23,
       "arxiv_id": "2610.04292"
     },
     {
@@ -224,7 +237,7 @@
       "summary": "Modern autoregressive (AR) video diffusion models excel at short-horizon video generation, yet generating long videos remains challenging due to drifting, where colors and textures shift, and motion dynamics decay. Existing works primarily rely on KV conditioning, which selects or modifies cached key-value (KV) entries to mitigate drifting. However, we observe that KV conditioning alone is insuffi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 25,
+      "upvotes": 27,
       "arxiv_id": "2610.03120"
     },
     {
@@ -237,7 +250,7 @@
       "summary": "We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs. To accomplish this, agents must translate visual observations into compact representations of scene structure and dynamics, by implementing abstractions such as physical simulations to reproduce complex behavior. To evaluate t",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 22,
+      "upvotes": 23,
       "arxiv_id": "2610.03715"
     },
     {
@@ -299,7 +312,7 @@
       "summary": "A companion that talks with a person for months should come to understand them. It should remember what they said, infer who they are, and know when the past bears on the message in front of it. Testing this requires a real person's record, and such records are private, so benchmarks generate the person and the questions and settle in advance what matters. We release \\bench, ten real relationships",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 264,
+      "upvotes": 267,
       "arxiv_id": "2610.01780"
     },
     {
@@ -312,21 +325,8 @@
       "summary": "On-policy distillation (OPD) trains a student on the responses it generates. Existing LLM multi-teacher OPD transfers what specialists predict through their output distributions. We introduce Latent-MOPD, to our knowledge the first representation-level multi-teacher OPD method for LLMs. It integrates existing specialists through both their predictions and the hidden states used to compute them, wi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 59,
+      "upvotes": 61,
       "arxiv_id": "2610.02381"
-    },
-    {
-      "id": "paper:2610.00923",
-      "title": "CANOPY: Adaptive-Granularity Evidence Compression for Multimodal RAG",
-      "url": "https://huggingface.co/papers/2610.00923",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-01T00:00:00+00:00",
-      "summary": "Multimodal RAG retrieves text, tables, images, and videos, but choosing a retrieval granularity does not determine how much context to retain within each item. Coarse units include irrelevant content, while uniformly fine selection can remove context needed to interpret the evidence. Existing compressors address this trade-off with modality-specific mechanisms, leaving open a shared procedure for ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 14,
-      "arxiv_id": "2610.00923"
     },
     {
       "id": "yt:RMTWayrwYkQ",
@@ -969,20 +969,20 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T19:14:13.808715+00:00",
+      "fetched_at": "2026-10-06T23:09:49.903284+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "GPT Image 2.5 Sunburst (max)",
-          "score": 1182.0,
+          "score": 1181.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 2,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "GPT Image 2.5 Flare (max)",
-          "score": 1162.0,
+          "score": 1163.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
@@ -1010,7 +1010,7 @@
           "rank": 6,
           "name": "Muse Image",
           "creator": "Muse Image",
-          "score": 1118.0,
+          "score": 1119.0,
           "meta": "Jul 2026 · $10.0 /1k imgs"
         },
         {
@@ -1029,17 +1029,17 @@
         },
         {
           "rank": 9,
-          "name": "MAI-Image-2.5-Pro",
-          "creator": "MAI-Image-2.5-Pro",
-          "score": 1107.0,
-          "meta": "Jul 2026 · $108.5 /1k imgs"
-        },
-        {
-          "rank": 10,
           "name": "Grok Imagine Image 2.0",
           "creator": "Grok Imagine Image 2.0",
           "score": 1107.0,
           "meta": "Aug 2026 · $60.0 /1k imgs"
+        },
+        {
+          "rank": 10,
+          "name": "Seedream 5.0 Pro",
+          "creator": "Seedream 5.0 Pro",
+          "score": 1107.0,
+          "meta": "Jul 2026 · $90.0 /1k imgs"
         }
       ]
     },
@@ -1051,13 +1051,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T19:14:13.810374+00:00",
+      "fetched_at": "2026-10-06T23:09:49.906413+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Qwen-Image-2.1",
           "creator": "Qwen-Image-2.1",
-          "score": 1073.0,
+          "score": 1071.0,
           "meta": "Sep 2026 · No API available"
         },
         {
@@ -1078,7 +1078,7 @@
           "rank": 4,
           "name": "FLUX.2 [klein] 9B",
           "creator": "FLUX.2 [klein] 9B",
-          "score": 1013.0,
+          "score": 1011.0,
           "meta": "Jan 2026 · $17.0 /1k imgs"
         },
         {
@@ -1133,7 +1133,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T19:14:13.812318+00:00",
+      "fetched_at": "2026-10-06T23:09:49.910170+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1215,7 +1215,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T19:14:13.812927+00:00",
+      "fetched_at": "2026-10-06T23:09:49.911341+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1283,7 +1283,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T19:14:13.815831+00:00",
+      "fetched_at": "2026-10-06T23:09:49.916731+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1365,7 +1365,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T19:14:13.815840+00:00",
+      "fetched_at": "2026-10-06T23:09:49.916744+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1433,7 +1433,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T19:14:13.816901+00:00",
+      "fetched_at": "2026-10-06T23:09:49.918526+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1515,7 +1515,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-06T19:14:13.834695+00:00",
+      "fetched_at": "2026-10-06T23:09:49.949541+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1597,7 +1597,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-06T19:14:13.855395+00:00",
+      "fetched_at": "2026-10-06T23:09:49.984286+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1679,7 +1679,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T19:14:13.864540+00:00",
+      "fetched_at": "2026-10-06T23:09:50.001545+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1692,21 +1692,21 @@
           "rank": 2,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "GPT Image 2.5 Flare (max)",
-          "score": 1191.0,
+          "score": 1190.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 3,
           "name": "GPT Image 2 (high)",
           "creator": "GPT Image 2 (high)",
-          "score": 1172.0,
+          "score": 1173.0,
           "meta": "Apr 2026 · $211.0 /1k imgs"
         },
         {
           "rank": 4,
           "name": "Grok Imagine Image 2.0",
           "creator": "Grok Imagine Image 2.0",
-          "score": 1155.0,
+          "score": 1154.0,
           "meta": "Aug 2026 · $60.0 /1k imgs"
         },
         {
@@ -1761,7 +1761,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T19:14:13.867829+00:00",
+      "fetched_at": "2026-10-06T23:09:50.007715+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1816,7 +1816,7 @@
           "rank": 8,
           "name": "HunyuanImage 3.0 Instruct",
           "creator": "HunyuanImage 3.0 Instruct",
-          "score": 995.0,
+          "score": 997.0,
           "meta": "Jan 2026 · No API available"
         },
         {
@@ -1828,10 +1828,10 @@
         },
         {
           "rank": 10,
-          "name": "FLUX.2 [dev] Flash",
-          "creator": "FLUX.2 [dev] Flash",
+          "name": "Cosmos3-Super-Text2Image",
+          "creator": "Cosmos3-Super-Text2Image",
           "score": 987.0,
-          "meta": "Dec 2025 · $5.0 /1k imgs"
+          "meta": "May 2026 · $40.0 /1k imgs"
         }
       ]
     },
@@ -1843,7 +1843,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T19:14:13.873475+00:00",
+      "fetched_at": "2026-10-06T23:09:50.018967+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1925,7 +1925,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-06T19:14:13.874702+00:00",
+      "fetched_at": "2026-10-06T23:09:50.021400+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2007,55 +2007,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T19:13:55.652891+00:00"
+        "checked_at": "2026-10-06T23:09:32.597772+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T19:13:54.625923+00:00"
+        "checked_at": "2026-10-06T23:09:31.572012+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T19:13:58.714456+00:00"
+        "checked_at": "2026-10-06T23:09:35.908419+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T19:13:56.671723+00:00"
+        "checked_at": "2026-10-06T23:09:33.614722+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T19:14:00.931650+00:00"
+        "checked_at": "2026-10-06T23:09:38.464867+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T19:13:57.693157+00:00"
+        "checked_at": "2026-10-06T23:09:34.635254+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-06T19:13:59.744353+00:00"
+        "checked_at": "2026-10-06T23:09:37.210344+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-06T19:14:13.876002+00:00"
+      "checked_at": "2026-10-06T23:09:50.022645+00:00"
     }
   }
 }
