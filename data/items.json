@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T18:38:58.752910+00:00",
+  "generated_at": "2026-10-06T00:29:38.945674+00:00",
   "items": [
     {
       "id": "yt:9uyxtJDd_j0",
@@ -83,7 +83,7 @@
       "summary": "Successful trajectories on difficult tasks provide valuable supervision for model improvement, but specialized harnesses introduce interventions that may be unavailable during deployment. We propose Recursive Self-Rewrite (RSR), a framework that uses one base model, Qwen-3.8-27B, to discover successful solutions under diverse harnesses and reconstruct them as training trajectories under a general ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 74,
+      "upvotes": 82,
       "arxiv_id": "2610.02826"
     },
     {
@@ -96,8 +96,34 @@
       "summary": "World action models integrate future visual dynamics with robot action prediction, but their scalability remains limited by the need for action-annotated robot trajectories. Observation-only videos contain rich evidence about interaction dynamics, but existing approaches typically use them either to pretrain visual representations that must later be adapted for control, or to infer latent actions ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 55,
+      "upvotes": 73,
       "arxiv_id": "2610.03391"
+    },
+    {
+      "id": "paper:2610.03574",
+      "title": "HyperBrowseComp: A Multilingual and Multimodal Stress Test for Web-Browsing Agents",
+      "url": "https://huggingface.co/papers/2610.03574",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-02T00:00:00+00:00",
+      "summary": "We introduce HyperBrowseComp, a multilingual and multimodal browsing benchmark comprising 423 manually authored and human-validated questions across 13 languages, written by native or highly proficient speakers. Questions are designed to be extremely challenging. Each question targets a concise, publicly verifiable answer whose discovery requires locating obscure evidence, following multi-step clu",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 51,
+      "arxiv_id": "2610.03574"
+    },
+    {
+      "id": "paper:2610.03665",
+      "title": "Pivot-SD: Efficient Self-Distillation for Masked Diffusion Language Models",
+      "url": "https://huggingface.co/papers/2610.03665",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-02T00:00:00+00:00",
+      "summary": "Masked diffusion language models (dLMs) offer a promising parallel alternative to autoregressive models for complex reasoning. However, they face a distinct credit-assignment challenge, since a few commitments during denoising sharply reduce the uncertainty over the remaining masked positions and shape much of the response. Most post-training recipes for dLMs do not use this signal to decide which",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 50,
+      "arxiv_id": "2610.03665"
     },
     {
       "id": "yt:_rtp1XzaP6Q",
@@ -136,19 +162,6 @@
       "channel": "Matthew Berman"
     },
     {
-      "id": "paper:2610.01762",
-      "title": "OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction",
-      "url": "https://huggingface.co/papers/2610.01762",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-01T00:00:00+00:00",
-      "summary": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available. The challenge is to form reusable factual memory without compromising real-time perception. We introduce OneStreamer, which jointly learns query-independent evidence recording and task response through a shared proactive generation process. Its Proactive H",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 221,
-      "arxiv_id": "2610.01762"
-    },
-    {
       "id": "paper:2610.01780",
       "title": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
       "url": "https://huggingface.co/papers/2610.01780",
@@ -158,8 +171,21 @@
       "summary": "A companion that talks with a person for months should come to understand them. It should remember what they said, infer who they are, and know when the past bears on the message in front of it. Testing this requires a real person's record, and such records are private, so benchmarks generate the person and the questions and settle in advance what matters. We release \\bench, ten real relationships",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 95,
+      "upvotes": 250,
       "arxiv_id": "2610.01780"
+    },
+    {
+      "id": "paper:2610.01762",
+      "title": "OneStreamer: Unifying Perception, Memory, and Proactive Response in Streaming Video Interaction",
+      "url": "https://huggingface.co/papers/2610.01762",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-01T00:00:00+00:00",
+      "summary": "Streaming video LLMs must retain evidence before its relevance to future tasks is known and respond when sufficient evidence becomes available. The challenge is to form reusable factual memory without compromising real-time perception. We introduce OneStreamer, which jointly learns query-independent evidence recording and task response through a shared proactive generation process. Its Proactive H",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 222,
+      "arxiv_id": "2610.01762"
     },
     {
       "id": "paper:2610.02508",
@@ -171,8 +197,21 @@
       "summary": "World action models (WAMs) have emerged as a promising paradigm for robotic control by jointly predicting future visual dynamics and actions from an initial observation and instruction. However, existing WAMs struggle with long-horizon prediction, as generating dense video rollouts is highly inefficient. Some recent WAMs address this by predicting a single future frame without generating the full ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 61,
+      "upvotes": 74,
       "arxiv_id": "2610.02508"
+    },
+    {
+      "id": "paper:2610.02381",
+      "title": "Latent-MOPD: Latent Multi-Teacher On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2610.02381",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-01T00:00:00+00:00",
+      "summary": "On-policy distillation (OPD) trains a student on the responses it generates. Existing LLM multi-teacher OPD transfers what specialists predict through their output distributions. We introduce Latent-MOPD, to our knowledge the first representation-level multi-teacher OPD method for LLMs. It integrates existing specialists through both their predictions and the hidden states used to compute them, wi",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 52,
+      "arxiv_id": "2610.02381"
     },
     {
       "id": "paper:2610.01939",
@@ -245,7 +284,7 @@
       "summary": "Large language models rely heavily on human text, which often conveys surface answers rather than the spatial and structural logic behind them. Protein folding is a natural testbed, because one solved structure yields thousands of exactly checkable spatial and topological statements. We ask: can learning to fold proteins teach general models reusable reasoning capabilities? To answer this, we buil",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 109,
+      "upvotes": 113,
       "arxiv_id": "2609.38879"
     },
     {
@@ -258,7 +297,7 @@
       "summary": "Long-horizon video generation requires models to effectively leverage an increasingly long generation history. As the generated history grows, retaining all previous content becomes increasingly expensive and redundant, making effective historical selection essential. Existing approaches often determine historical relevance based on the current content. However, information relevant to the present",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 85,
+      "upvotes": 90,
       "arxiv_id": "2609.38839"
     },
     {
@@ -271,7 +310,7 @@
       "summary": "Real-world embodied tasks, from everyday activities to professional procedures, require agents to act under physical constraints while tracking evolving object and task states. Tool use sits at the heart of such tasks, as many everyday and professional activities are tool-mediated. Understanding them requires reasoning about affordances, hand-tool-object geometry, procedural progress, and causal e",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 58,
+      "upvotes": 59,
       "arxiv_id": "2609.39378"
     },
     {
@@ -288,17 +327,30 @@
       "arxiv_id": "2610.00812"
     },
     {
-      "id": "paper:2606.10953",
-      "title": "Architect-Ant: Editable Automatic Furnishing of Architectural Floor Plans",
-      "url": "https://huggingface.co/papers/2606.10953",
+      "id": "paper:2609.39071",
+      "title": "LexReward: A Taxonomy-Driven Reward Framework for Legal Language Models",
+      "url": "https://huggingface.co/papers/2609.39071",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-09-30T00:00:00+00:00",
-      "summary": "Furnished floor plans support real-estate visualization, interior design, and architectural workflows, yet automatic furnishing remains challenged by limited real-world data and the need to satisfy interacting geometric and functional constraints. We ask whether professional furnishing knowledge can be learned from real floor plans using a pretrained model, enabling direct constraint-aware layout ",
+      "summary": "Legal language models require reward signals that capture not only answer correctness but also the multidimensional quality of legal responses. Existing reward methods, however, often rely on coarse-grained holistic judgments, providing limited domain specificity and interpretability. We introduce LexReward, a taxonomy-driven framework for legal reward modeling. LexReward characterizes legal respo",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 45,
-      "arxiv_id": "2606.10953"
+      "upvotes": 47,
+      "arxiv_id": "2609.39071"
+    },
+    {
+      "id": "paper:2610.00531",
+      "title": "Science or Slop?: Benchmarking and Mitigating Scientific Slop in AI-Generated Papers",
+      "url": "https://huggingface.co/papers/2610.00531",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-09-30T00:00:00+00:00",
+      "summary": "AI-generated content, often called AI slop, is increasingly common everywhere, particularly in academia. Slop in AI-generated scientific papers, however, has more complex patterns that cannot be easily detected by existing token-based AI detectors. Each part of such a paper looks plausible while the scientific reasoning that connects the parts breaks down, which can mislead how readers assess the ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 46,
+      "arxiv_id": "2610.00531"
     },
     {
       "id": "yt:WzoDOZnHbCk",
@@ -335,58 +387,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/0NhtHVPQwt8/hqdefault.jpg",
       "kind": "video",
       "channel": "Matthew Berman"
-    },
-    {
-      "id": "paper:2609.38078",
-      "title": "MotorMind: Scaffolding General Vision Language Models for Zero-Shot Robot Manipulation",
-      "url": "https://huggingface.co/papers/2609.38078",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-29T00:00:00+00:00",
-      "summary": "Vision-language-action (VLA) models have advanced robotic manipulation, but their zero-shot generalization in new tasks and environments remains limited, and their reliance on specialized training keeps them from benefiting directly from rapidly advancing general-purpose vision-language models (VLMs). In parallel, recent agentic robotic systems leverage VLMs for high-level reasoning or coding agen",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 82,
-      "arxiv_id": "2609.38078"
-    },
-    {
-      "id": "paper:2609.36585",
-      "title": "Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It",
-      "url": "https://huggingface.co/papers/2609.36585",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-29T00:00:00+00:00",
-      "summary": "Pretrained transformers use little of their depth to follow references in context. Thirteen base models reliably follow only 1.4-3.6 lines, and extra pretrained loops add little. A task-trained rank-8 LoRA at one early layer extends this computation with all model weights frozen. Qwen3-8B improves from 15.5% to 99% exact accuracy on 24-line chains; a longer-trained LoRA reaches 50 lines. Ouro-1.4B",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 73,
-      "arxiv_id": "2609.36585"
-    },
-    {
-      "id": "paper:2609.36659",
-      "title": "On-Policy Parameter Update Direction Underlies Generalization in LLM Post-Training",
-      "url": "https://huggingface.co/papers/2609.36659",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-29T00:00:00+00:00",
-      "summary": "The strong generalization performance of on-policy post-training paradigms has motivated studies of their parameter update behaviors. However, these studies treat the observed behaviors only as byproducts in on-policy training, overlooking their potential to serve as optimization principles for improving the generalization of other paradigms such as supervised fine-tuning (SFT). To address this li",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 65,
-      "arxiv_id": "2609.36659"
-    },
-    {
-      "id": "paper:2609.37533",
-      "title": "E-MoE: Enhanced Mixture-of-Experts for Non-Factorized Diffusion Language Models",
-      "url": "https://huggingface.co/papers/2609.37533",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-09-29T00:00:00+00:00",
-      "summary": "Masked diffusion models (MDMs) generate sequences by progressively unmasking several tokens per denoising step, but their reverse process is typically factorized over positions, limiting sample quality in the few-step regime where diffusion's speed advantage over autoregressive decoding matters most. A recent line of work introduces a continuous Gaussian latent, trained as a variational autoencode",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 61,
-      "arxiv_id": "2609.37533"
     },
     {
       "id": "yt:ENWVpqtOdRI",
@@ -1005,7 +1005,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T18:38:58.630623+00:00",
+      "fetched_at": "2026-10-06T00:29:38.829146+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1087,7 +1087,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T18:38:58.633721+00:00",
+      "fetched_at": "2026-10-06T00:29:38.831980+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1169,7 +1169,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T18:38:58.637472+00:00",
+      "fetched_at": "2026-10-06T00:29:38.835407+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1251,7 +1251,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T18:38:58.638625+00:00",
+      "fetched_at": "2026-10-06T00:29:38.836507+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1319,7 +1319,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T18:38:58.644059+00:00",
+      "fetched_at": "2026-10-06T00:29:38.841781+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1401,7 +1401,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T18:38:58.644079+00:00",
+      "fetched_at": "2026-10-06T00:29:38.841799+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1469,7 +1469,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T18:38:58.645875+00:00",
+      "fetched_at": "2026-10-06T00:29:38.843572+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1551,7 +1551,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-05T18:38:58.677808+00:00",
+      "fetched_at": "2026-10-06T00:29:38.874450+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1633,7 +1633,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-05T18:38:58.713684+00:00",
+      "fetched_at": "2026-10-06T00:29:38.910899+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1715,7 +1715,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T18:38:58.731439+00:00",
+      "fetched_at": "2026-10-06T00:29:38.926930+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1797,7 +1797,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T18:38:58.737776+00:00",
+      "fetched_at": "2026-10-06T00:29:38.932679+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1879,77 +1879,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T18:38:58.748970+00:00",
+      "fetched_at": "2026-10-06T00:29:38.942554+00:00",
       "entries": [
         {
           "rank": 1,
+          "name": "Eleven v4 Turbo",
+          "creator": "Eleven v4 Turbo",
+          "score": 1334.0,
+          "meta": "Sept 2026 · $40.0 /1M chars"
+        },
+        {
+          "rank": 2,
           "name": "Eleven v4",
           "creator": "Eleven v4",
           "score": 1321.0,
           "meta": "Sept 2026 · $80.0 /1M chars"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Qwen-Audio-3.1-TTS-Plus",
           "creator": "Qwen-Audio-3.1-TTS-Plus",
           "score": 1292.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Sonic 3.6",
           "creator": "Sonic 3.6",
           "score": 1278.0,
           "meta": "Aug 2026 · $49.0 /1M chars"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Gemini 3.8 Flash TTS",
           "score": 1275.0,
           "meta": "Sept 2026 · $16.5 /1M chars"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Qwen-Audio-3.0-TTS-Plus",
           "score": 1261.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Realtime TTS-2",
           "creator": "Realtime TTS-2",
           "score": 1251.0,
           "meta": "Aug 2026 · $20.8 /1M chars"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Simba 3.2",
           "creator": "Simba 3.2",
           "score": 1242.0,
           "meta": "Jul 2026 · $6.6 /1M chars"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Gemini 3.8 Flash-Lite TTS",
           "creator": "Gemini 3.8 Flash-Lite TTS",
           "score": 1242.0,
           "meta": "Sept 2026 · $11.0 /1M chars"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Luna TTS",
           "creator": "Luna TTS",
           "score": 1227.0,
           "meta": "Jun 2026 · $15.0 /1M chars"
-        },
-        {
-          "rank": 10,
-          "name": "Breeze TTS 2",
-          "creator": "Breeze TTS 2",
-          "score": 1216.0,
-          "meta": "Aug 2026 · $34.0 /1M chars"
         }
       ]
     },
@@ -1961,7 +1961,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-05T18:38:58.751500+00:00",
+      "fetched_at": "2026-10-06T00:29:38.944809+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2043,55 +2043,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-05T18:38:42.242765+00:00"
+        "checked_at": "2026-10-06T00:29:19.268794+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-05T18:38:41.091166+00:00"
+        "checked_at": "2026-10-06T00:29:18.060704+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-05T18:38:45.728509+00:00"
+        "checked_at": "2026-10-06T00:29:22.865926+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-05T18:38:48.152479+00:00"
+        "checked_at": "2026-10-06T00:29:25.365590+00:00"
       },
       {
         "name": "Matthew Berman",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-05T18:38:43.445318+00:00"
+        "checked_at": "2026-10-06T00:29:20.504943+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-05T18:38:44.589244+00:00"
+        "checked_at": "2026-10-06T00:29:21.678800+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-05T18:38:46.951347+00:00"
+        "checked_at": "2026-10-06T00:29:24.096553+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-05T18:38:58.752816+00:00"
+      "checked_at": "2026-10-06T00:29:38.945578+00:00"
     }
   }
 }
