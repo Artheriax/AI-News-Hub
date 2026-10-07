@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-10-07T17:06:24.675486+00:00",
+  "generated_at": "2026-10-07T22:07:41.658174+00:00",
   "items": [
+    {
+      "id": "yt:WrCjAAl9okA",
+      "title": "A $6.3 billion open-weight model just got embarrassed by the French...",
+      "url": "https://www.youtube.com/watch?v=WrCjAAl9okA",
+      "source": "Fireship",
+      "category": "videos",
+      "published": "2026-10-07T20:24:27+00:00",
+      "summary": "Kernel is the simplest way to let your agents act on any website. Use code: FIRESHIP to get $30 in free credits - https://kernel.sh/fireship Mistral, Reflection AI, and Moonshot all made big moves in the open-weight race this week. Let's dive in. Want more Fireship? 🗞️ Newsletter: https://bytes.dev ",
+      "thumbnail": "https://i4.ytimg.com/vi/WrCjAAl9okA/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Fireship"
+    },
     {
       "id": "yt:Wkaw03p3BrM",
       "title": "DeepMind's New AI Just Cracked The Code Of Life",
@@ -71,7 +83,7 @@
       "summary": "On-Policy Distillation (OPD) trains a student on its own generations using teacher feedback. With different tokenizers, comparing teacher and student predictions requires alignment at both sequence and vocabulary levels. In this paper, we examine whether expanding this alignment coverage improves learning. Across three heterogeneous teacher--student pairs on mathematical reasoning and code generat",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 151,
+      "upvotes": 153,
       "arxiv_id": "2610.08448"
     },
     {
@@ -84,7 +96,7 @@
       "summary": "Reinforcement learning (RL) for post-training large language models (LLMs) incurs substantial computation and memory overhead during rollout generation, which motivates low-precision rollout for efficient RL training. However, existing FP4 RL methods suffer from a key limitation: they primarily optimize quantization accuracy on the training and rollout paths independently rather than directly redu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 58,
+      "upvotes": 70,
       "arxiv_id": "2610.07767"
     },
     {
@@ -97,7 +109,7 @@
       "summary": "Static-analysis checker synthesis requires agents to interpret a defect specification, inspect a repository, implement analyzer-specific logic, and refine the checker through repeated compilation and analysis feedback. Existing coding-agent benchmarks focus on tasks such as patch generation or vulnerability detection and rarely assess whether an agent can develop a working checker in a repository ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 51,
+      "upvotes": 52,
       "arxiv_id": "2610.07557"
     },
     {
@@ -123,7 +135,7 @@
       "summary": "Long-context inference and Retrieval-Augmented Generation (RAG) handle evidence selection at vastly different scales, from a single long prompt to an entire corpus. We ask whether a single model-internal mechanism can select evidence across this range. We introduce UNifying REtrieval And Long-Context with a Single Model (UNREAL), a model-native evidence selection framework to span corpus retrieval",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 18,
+      "upvotes": 19,
       "arxiv_id": "2610.08463"
     },
     {
@@ -176,6 +188,19 @@
       "arxiv_id": "2610.05966"
     },
     {
+      "id": "paper:2610.05912",
+      "title": "MiniCorp: The Last Mile of the AI Agent Firm",
+      "url": "https://huggingface.co/papers/2610.05912",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-05T00:00:00+00:00",
+      "summary": "The last mile toward enterprise AGI is a company that runs itself. Training and adapting such agents require longitudinal enterprise data, which remain scarce, costly to acquire, and often restricted by privacy constraints. Historical archives are also frequently incomplete and record only what actually happened. They cannot show the outcomes of alternative decisions. We introduce MiniCorp, an off",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 15,
+      "arxiv_id": "2610.05912"
+    },
+    {
       "id": "yt:lHmZoRHMZyM",
       "title": "Gemini 4, GPT 6.1, Plasma conjecture, Napoleon code solved, OpenAI Dots, Claude Sonnet 5.5: AI NEWS",
       "url": "https://www.youtube.com/watch?v=lHmZoRHMZyM",
@@ -197,7 +222,7 @@
       "summary": "Continual skill evolution enables LLM agents to accumulate and refine reusable procedural knowledge from interaction experience without updating model parameters. Its effectiveness depends on determining not only what to change, but also why a change is justified and when it should become persistent guidance. However, existing experience-driven methods can lose the behavioral evidence and task con",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 35,
+      "upvotes": 36,
       "arxiv_id": "2610.05030"
     },
     {
@@ -210,7 +235,7 @@
       "summary": "As agents rapidly evolve, existing benchmarks can become saturated, limiting their ability to distinguish capabilities and reveal remaining failure modes. Particularly in scientific domains, constructing and updating benchmarks requires substantial time, labor, and domain expertise, making it difficult to keep evaluation aligned with advances in agent capabilities. We address this challenge by inv",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 25,
+      "upvotes": 26,
       "arxiv_id": "2610.05140"
     },
     {
@@ -260,7 +285,7 @@
       "summary": "Streaming video generation has benefited from distribution matching distillation (DMD), which matches the joint distribution of video frames to a video teacher's approximation of the real video distribution. Although this joint matching mitigates drift during autoregressive rollouts, limitations remain in visual quality and semantic alignment. To address these limitations, we propose DuoMatching, ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 67,
+      "upvotes": 69,
       "arxiv_id": "2610.03543"
     },
     {
@@ -286,7 +311,7 @@
       "summary": "Real-world time series are frequently driven by exogenous events and structural shifts, rendering conventional forecasting based solely on historical numerical observations insufficient. While language models can retrieve external news, standard retrieval-augmented approaches struggle with high noise, missing signals, and an inability to reason causally about event impacts. We propose SEER (Self-E",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 17,
+      "upvotes": 18,
       "arxiv_id": "2610.04109"
     },
     {
@@ -350,19 +375,6 @@
       "kind": "paper",
       "upvotes": 16,
       "arxiv_id": "2610.01218"
-    },
-    {
-      "id": "paper:2610.01892",
-      "title": "Selection-Based Structured Reasoning: Toward Efficient Multimodal Search Agents",
-      "url": "https://huggingface.co/papers/2610.01892",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-01T00:00:00+00:00",
-      "summary": "Multimodal agents commonly generate free-form reasoning before each action. For small models, limited model capacity can result in lengthy reasoning that provides little useful guidance for action generation while incurring substantial inference cost. To address this challenge, we introduce Selection-based Structured Reasoning (SSR), a framework that reformulates reasoning as selection instead of ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 14,
-      "arxiv_id": "2610.01892"
     },
     {
       "id": "yt:RMTWayrwYkQ",
@@ -939,18 +951,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/eVBJIUxv8N8/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
-    },
-    {
-      "id": "yt:Y5rSSvXfL4g",
-      "title": "5 open source tools that replaced my $320/mo AI stack...",
-      "url": "https://www.youtube.com/watch?v=Y5rSSvXfL4g",
-      "source": "Fireship",
-      "category": "videos",
-      "published": "2026-09-07T17:24:51+00:00",
-      "summary": "Get 67% off VPS hosting with Hostinger's one-click templates. Use code FIRESHIP for an extra discount - https://hostinger.com/fireship In this video we cover 5 free and open-source tools that'll help you cut token costs. Let's dive in. - Ollama - 9router - Headroom - Diffy - OpenHands #coding #progr",
-      "thumbnail": "https://i2.ytimg.com/vi/Y5rSSvXfL4g/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Fireship"
     }
   ],
   "featured": [
@@ -969,7 +969,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T17:06:24.592191+00:00",
+      "fetched_at": "2026-10-07T22:07:41.528692+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1051,7 +1051,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T17:06:24.594308+00:00",
+      "fetched_at": "2026-10-07T22:07:41.531935+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1133,7 +1133,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T17:06:24.596929+00:00",
+      "fetched_at": "2026-10-07T22:07:41.535879+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1215,7 +1215,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T17:06:24.597738+00:00",
+      "fetched_at": "2026-10-07T22:07:41.537087+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1283,7 +1283,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T17:06:24.601629+00:00",
+      "fetched_at": "2026-10-07T22:07:41.542687+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1365,7 +1365,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T17:06:24.601644+00:00",
+      "fetched_at": "2026-10-07T22:07:41.542701+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1433,7 +1433,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T17:06:24.602975+00:00",
+      "fetched_at": "2026-10-07T22:07:41.544546+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1515,7 +1515,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-07T17:06:24.625301+00:00",
+      "fetched_at": "2026-10-07T22:07:41.578416+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1597,7 +1597,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-07T17:06:24.649288+00:00",
+      "fetched_at": "2026-10-07T22:07:41.618842+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1679,7 +1679,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T17:06:24.661164+00:00",
+      "fetched_at": "2026-10-07T22:07:41.636802+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1761,7 +1761,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T17:06:24.665395+00:00",
+      "fetched_at": "2026-10-07T22:07:41.643246+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1843,7 +1843,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T17:06:24.672832+00:00",
+      "fetched_at": "2026-10-07T22:07:41.654323+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1856,14 +1856,14 @@
           "rank": 2,
           "name": "Eleven v4",
           "creator": "Eleven v4",
-          "score": 1321.0,
+          "score": 1322.0,
           "meta": "Sept 2026 · $80.0 /1M chars"
         },
         {
           "rank": 3,
           "name": "Qwen-Audio-3.1-TTS-Plus",
           "creator": "Qwen-Audio-3.1-TTS-Plus",
-          "score": 1292.0,
+          "score": 1295.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
@@ -1877,42 +1877,42 @@
           "rank": 5,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Gemini 3.8 Flash TTS",
-          "score": 1275.0,
+          "score": 1276.0,
           "meta": "Sept 2026 · $16.5 /1M chars"
         },
         {
           "rank": 6,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Qwen-Audio-3.0-TTS-Plus",
-          "score": 1261.0,
+          "score": 1260.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
           "rank": 7,
           "name": "Realtime TTS-2",
           "creator": "Realtime TTS-2",
-          "score": 1251.0,
+          "score": 1250.0,
           "meta": "Aug 2026 · $20.8 /1M chars"
         },
         {
           "rank": 8,
-          "name": "Simba 3.2",
-          "creator": "Simba 3.2",
-          "score": 1242.0,
-          "meta": "Jul 2026 · $6.6 /1M chars"
-        },
-        {
-          "rank": 9,
           "name": "Gemini 3.8 Flash-Lite TTS",
           "creator": "Gemini 3.8 Flash-Lite TTS",
           "score": 1242.0,
           "meta": "Sept 2026 · $11.0 /1M chars"
         },
         {
+          "rank": 9,
+          "name": "Simba 3.2",
+          "creator": "Simba 3.2",
+          "score": 1241.0,
+          "meta": "Jul 2026 · $6.6 /1M chars"
+        },
+        {
           "rank": 10,
           "name": "Luna TTS",
           "creator": "Luna TTS",
-          "score": 1227.0,
+          "score": 1226.0,
           "meta": "Jun 2026 · $15.0 /1M chars"
         }
       ]
@@ -1925,13 +1925,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T17:06:24.674414+00:00",
+      "fetched_at": "2026-10-07T22:07:41.656691+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Breeze TTS 2",
           "creator": "Breeze TTS 2",
-          "score": 1216.0,
+          "score": 1219.0,
           "meta": "Aug 2026 · $34.0 /1M chars"
         },
         {
@@ -1945,14 +1945,14 @@
           "rank": 3,
           "name": "Step Audio EditX (Mar 2026)",
           "creator": "Step Audio EditX (Mar 2026)",
-          "score": 1095.0,
+          "score": 1093.0,
           "meta": "Feb 2026 · N/A"
         },
         {
           "rank": 4,
           "name": "Voxtral TTS",
           "creator": "Voxtral TTS",
-          "score": 1083.0,
+          "score": 1084.0,
           "meta": "Mar 2026 · $16.0 /1M chars"
         },
         {
@@ -1973,7 +1973,7 @@
           "rank": 7,
           "name": "Maya1",
           "creator": "Maya1",
-          "score": 1049.0,
+          "score": 1048.0,
           "meta": "Jun 2025 · N/A"
         },
         {
@@ -1987,7 +1987,7 @@
           "rank": 9,
           "name": "Higgs Audio V3 TTS",
           "creator": "Higgs Audio V3 TTS",
-          "score": 1038.0,
+          "score": 1037.0,
           "meta": "Jun 2026 · $15.0 /1M chars"
         },
         {
@@ -2007,55 +2007,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-07T17:06:06.016356+00:00"
+        "checked_at": "2026-10-07T22:07:20.586566+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-07T17:06:04.985515+00:00"
+        "checked_at": "2026-10-07T22:07:19.559515+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-07T17:06:09.133136+00:00"
+        "checked_at": "2026-10-07T22:07:23.738404+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-07T17:06:07.065196+00:00"
+        "checked_at": "2026-10-07T22:07:21.605370+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-07T17:06:11.377808+00:00"
+        "checked_at": "2026-10-07T22:07:26.024338+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-07T17:06:08.108790+00:00"
+        "checked_at": "2026-10-07T22:07:22.626495+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-07T17:06:10.185678+00:00"
+        "checked_at": "2026-10-07T22:07:24.893020+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-07T17:06:24.675386+00:00"
+      "checked_at": "2026-10-07T22:07:41.658099+00:00"
     }
   }
 }
