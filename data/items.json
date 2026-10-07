@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-10-07T09:32:23.159727+00:00",
+  "generated_at": "2026-10-07T17:06:24.675486+00:00",
   "items": [
+    {
+      "id": "yt:Wkaw03p3BrM",
+      "title": "DeepMind's New AI Just Cracked The Code Of Life",
+      "url": "https://www.youtube.com/watch?v=Wkaw03p3BrM",
+      "source": "Two Minute Papers",
+      "category": "videos",
+      "published": "2026-10-07T13:29:33+00:00",
+      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers Thank you Google DeepMind for the invite. 📝 AlphaGenome Atlas is available here: https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/ https://blog.go",
+      "thumbnail": "https://i4.ytimg.com/vi/Wkaw03p3BrM/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Two Minute Papers"
+    },
     {
       "id": "yt:-mv1Tf26Vms",
       "title": "GPT-7 'Bel' First Preview, Mythos 5.1 Access, Mistral Large 4, Claude Code Update, & More! AI NEWS",
@@ -59,7 +71,7 @@
       "summary": "On-Policy Distillation (OPD) trains a student on its own generations using teacher feedback. With different tokenizers, comparing teacher and student predictions requires alignment at both sequence and vocabulary levels. In this paper, we examine whether expanding this alignment coverage improves learning. Across three heterogeneous teacher--student pairs on mathematical reasoning and code generat",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 95,
+      "upvotes": 151,
       "arxiv_id": "2610.08448"
     },
     {
@@ -72,8 +84,21 @@
       "summary": "Reinforcement learning (RL) for post-training large language models (LLMs) incurs substantial computation and memory overhead during rollout generation, which motivates low-precision rollout for efficient RL training. However, existing FP4 RL methods suffer from a key limitation: they primarily optimize quantization accuracy on the training and rollout paths independently rather than directly redu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 39,
+      "upvotes": 58,
       "arxiv_id": "2610.07767"
+    },
+    {
+      "id": "paper:2610.07557",
+      "title": "CheckerBench: Can Long-Horizon Agents Synthesize Static-Analysis Checkers?",
+      "url": "https://huggingface.co/papers/2610.07557",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-06T00:00:00+00:00",
+      "summary": "Static-analysis checker synthesis requires agents to interpret a defect specification, inspect a repository, implement analyzer-specific logic, and refine the checker through repeated compilation and analysis feedback. Existing coding-agent benchmarks focus on tasks such as patch generation or vulnerability detection and rarely assess whether an agent can develop a working checker in a repository ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 51,
+      "arxiv_id": "2610.07557"
     },
     {
       "id": "paper:2610.07753",
@@ -85,8 +110,21 @@
       "summary": "Tool-using agents make consequential changes to external state, yet correct outcomes do not guarantee that their actions were supported by evidence established beforehand. We study where this evidence-to-action chain breaks as agents move from deciding whether to act to executing single actions and dependent workflows. Across ten model-harness configurations, strong static action assessment can co",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 28,
+      "upvotes": 34,
       "arxiv_id": "2610.07753"
+    },
+    {
+      "id": "paper:2610.08463",
+      "title": "UNREAL: Unifying Retrieval and Long-Context with a Single Model",
+      "url": "https://huggingface.co/papers/2610.08463",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-06T00:00:00+00:00",
+      "summary": "Long-context inference and Retrieval-Augmented Generation (RAG) handle evidence selection at vastly different scales, from a single long prompt to an entire corpus. We ask whether a single model-internal mechanism can select evidence across this range. We introduce UNifying REtrieval And Long-Context with a Single Model (UNREAL), a model-native evidence selection framework to span corpus retrieval",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 18,
+      "arxiv_id": "2610.08463"
     },
     {
       "id": "yt:_5p1_TNSWqQ",
@@ -125,32 +163,6 @@
       "channel": "Two Minute Papers"
     },
     {
-      "id": "paper:2610.06648",
-      "title": "Representation-Space MMD for Diffusion Language Models",
-      "url": "https://huggingface.co/papers/2610.06648",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-05T00:00:00+00:00",
-      "summary": "We introduce a post-training method for diffusion language models (DLMs) that minimizes Maximum Mean Discrepancy (MMD) between generated and reference distributions in the feature space of a frozen pretrained DLM. To estimate MMD, we retain contextual features at individual token positions, obtaining multiple observations per sequence from a single extractor pass. We optimize this objective using ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 21,
-      "arxiv_id": "2610.06648"
-    },
-    {
-      "id": "paper:2610.06577",
-      "title": "Optimizing the Optimizer: Language Models Discover Faster Molecular Relaxation",
-      "url": "https://huggingface.co/papers/2610.06577",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-05T00:00:00+00:00",
-      "summary": "Geometry optimization is a major cost in many quantum-chemical workflows: each optimization step requires one force evaluation, and at the density-functional level that evaluation dominates the wall time. Research in this area has produced a broad range of optimization methods, and we ask whether a language model can improve on the best of them through autoresearch. An agent rewrites the optimizer",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 20,
-      "arxiv_id": "2610.06577"
-    },
-    {
       "id": "paper:2610.05966",
       "title": "HuatuoGPT-3: RL-Only Domain Adaptation from Base Models",
       "url": "https://huggingface.co/papers/2610.05966",
@@ -160,7 +172,7 @@
       "summary": "Domain adaptation aims to turn a general-purpose large language model (LLM) into an expert for a target domain. While the dominant SFT+RL pipeline offers a convenient cold start, it may reduce exploration diversity and introduces additional complexity through multi-stage optimization. These limitations motivate RL-only adaptation. However, pure on-policy RL suffers from a cold-start problem, while",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 18,
+      "upvotes": 21,
       "arxiv_id": "2610.05966"
     },
     {
@@ -185,7 +197,7 @@
       "summary": "Continual skill evolution enables LLM agents to accumulate and refine reusable procedural knowledge from interaction experience without updating model parameters. Its effectiveness depends on determining not only what to change, but also why a change is justified and when it should become persistent guidance. However, existing experience-driven methods can lose the behavioral evidence and task con",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 32,
+      "upvotes": 35,
       "arxiv_id": "2610.05030"
     },
     {
@@ -198,34 +210,8 @@
       "summary": "As agents rapidly evolve, existing benchmarks can become saturated, limiting their ability to distinguish capabilities and reveal remaining failure modes. Particularly in scientific domains, constructing and updating benchmarks requires substantial time, labor, and domain expertise, making it difficult to keep evaluation aligned with advances in agent capabilities. We address this challenge by inv",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 23,
+      "upvotes": 25,
       "arxiv_id": "2610.05140"
-    },
-    {
-      "id": "paper:2610.05076",
-      "title": "Self-Generated Feedback Destabilizes Test-Time Training: A Causal Decomposition of Long-Horizon Adaptation",
-      "url": "https://huggingface.co/papers/2610.05076",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-04T00:00:00+00:00",
-      "summary": "Test-time training (TTT) lets a model store information in its weights during inference. When the model learns from its own output, however, each update also changes the model that generates the next training example. Across 128K-token streams, retaining generated-text updates worsens prediction on independent human-written text with three TTT-E2E model configurations (labeled 125M, 760M, and 3B).",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 23,
-      "arxiv_id": "2610.05076"
-    },
-    {
-      "id": "paper:2610.05107",
-      "title": "SearchJev: A Fast and Calibrated System-1 Model for Search Agents",
-      "url": "https://huggingface.co/papers/2610.05107",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-04T00:00:00+00:00",
-      "summary": "Search agents repeatedly make short decisions about relevance, evidence sufficiency, and search actions. Using generative language models for these decisions introduces latency and unreliable confidence. We present SearchJev, a fast and calibrated System-1 model that separates search decisions from System-2 reasoning and generation. Given a search state and a decision schema, SearchJev directly sc",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 20,
-      "arxiv_id": "2610.05107"
     },
     {
       "id": "yt:N3REfH4N9Dg",
@@ -249,7 +235,7 @@
       "summary": "LLM-based agents are increasingly capable of generating complex 3D structures, with the potential to reshape how objects are designed and realized in the physical world. Yet, producing elegant geometry is fundamentally different from producing objects that can be built and perform their intended functions. Existing evaluations largely focus on geometric quality while overlooking physical realizabi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 31,
+      "upvotes": 32,
       "arxiv_id": "2610.04292"
     },
     {
@@ -274,21 +260,8 @@
       "summary": "Streaming video generation has benefited from distribution matching distillation (DMD), which matches the joint distribution of video frames to a video teacher's approximation of the real video distribution. Although this joint matching mitigates drift during autoregressive rollouts, limitations remain in visual quality and semantic alignment. To address these limitations, we propose DuoMatching, ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 54,
+      "upvotes": 67,
       "arxiv_id": "2610.03543"
-    },
-    {
-      "id": "paper:2610.03120",
-      "title": "In-Distribution Forcing for Long Video Generation at Test Time",
-      "url": "https://huggingface.co/papers/2610.03120",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-02T00:00:00+00:00",
-      "summary": "Modern autoregressive (AR) video diffusion models excel at short-horizon video generation, yet generating long videos remains challenging due to drifting, where colors and textures shift, and motion dynamics decay. Existing works primarily rely on KV conditioning, which selects or modifies cached key-value (KV) entries to mitigate drifting. However, we observe that KV conditioning alone is insuffi",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 35,
-      "arxiv_id": "2610.03120"
     },
     {
       "id": "paper:2610.03607",
@@ -300,8 +273,21 @@
       "summary": "Learning general-purpose robot policies requires large-scale real-world interaction data, yet collecting robot demonstrations remains expensive and difficult to scale. Egocentric videos offer abundant human interaction experience with task-relevant semantics for robotic manipulation, but direct transfer is challenging for two reasons: latent actions inferred from frame reconstruction can be domina",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 23,
+      "upvotes": 24,
       "arxiv_id": "2610.03607"
+    },
+    {
+      "id": "paper:2610.04109",
+      "title": "SEER: Self-Evolving Event Reasoning and Retrieval for Time Series Forecasting",
+      "url": "https://huggingface.co/papers/2610.04109",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-02T00:00:00+00:00",
+      "summary": "Real-world time series are frequently driven by exogenous events and structural shifts, rendering conventional forecasting based solely on historical numerical observations insufficient. While language models can retrieve external news, standard retrieval-augmented approaches struggle with high noise, missing signals, and an inability to reason causally about event impacts. We propose SEER (Self-E",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 17,
+      "arxiv_id": "2610.04109"
     },
     {
       "id": "yt:_rtp1XzaP6Q",
@@ -349,8 +335,34 @@
       "summary": "Interactive world models are increasingly capable of generating environments and acting within them, yet deliberately editing an existing executable world remains underexplored. We formulate world editing as intervening on an existing world while preserving properties that should remain unchanged, and introduce intervention depth as an axis describing how strongly an edit couples world entities, d",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 17,
+      "upvotes": 18,
       "arxiv_id": "2610.02331"
+    },
+    {
+      "id": "paper:2610.01218",
+      "title": "AGO AI Quality Gate: Evidence-First Release Decisions for Retrieval-Augmented Generation",
+      "url": "https://huggingface.co/papers/2610.01218",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-01T00:00:00+00:00",
+      "summary": "Enterprises adopting retrieval-augmented generation (RAG) face a recurring operational decision: promote, revise, or block a system version. The evidence is incomplete and the metrics come from fallible LLM judges. We report on AGO AI Quality Gate (AGO), an evidence-first quality-gate framework deployed in industrial RAG assessment engagements. AGO integrates four key components: a four-state deci",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 16,
+      "arxiv_id": "2610.01218"
+    },
+    {
+      "id": "paper:2610.01892",
+      "title": "Selection-Based Structured Reasoning: Toward Efficient Multimodal Search Agents",
+      "url": "https://huggingface.co/papers/2610.01892",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-01T00:00:00+00:00",
+      "summary": "Multimodal agents commonly generate free-form reasoning before each action. For small models, limited model capacity can result in lengthy reasoning that provides little useful guidance for action generation while incurring substantial inference cost. To address this challenge, we introduce Selection-based Structured Reasoning (SSR), a framework that reformulates reasoning as selection instead of ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 14,
+      "arxiv_id": "2610.01892"
     },
     {
       "id": "yt:RMTWayrwYkQ",
@@ -957,7 +969,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T09:32:23.039487+00:00",
+      "fetched_at": "2026-10-07T17:06:24.592191+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1039,7 +1051,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T09:32:23.042482+00:00",
+      "fetched_at": "2026-10-07T17:06:24.594308+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1121,7 +1133,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T09:32:23.046290+00:00",
+      "fetched_at": "2026-10-07T17:06:24.596929+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1203,7 +1215,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T09:32:23.047445+00:00",
+      "fetched_at": "2026-10-07T17:06:24.597738+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1271,7 +1283,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T09:32:23.052877+00:00",
+      "fetched_at": "2026-10-07T17:06:24.601629+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1353,7 +1365,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T09:32:23.052891+00:00",
+      "fetched_at": "2026-10-07T17:06:24.601644+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1421,7 +1433,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T09:32:23.054794+00:00",
+      "fetched_at": "2026-10-07T17:06:24.602975+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1503,7 +1515,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-07T09:32:23.087560+00:00",
+      "fetched_at": "2026-10-07T17:06:24.625301+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1585,7 +1597,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-07T09:32:23.122465+00:00",
+      "fetched_at": "2026-10-07T17:06:24.649288+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1667,7 +1679,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T09:32:23.139050+00:00",
+      "fetched_at": "2026-10-07T17:06:24.661164+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1749,7 +1761,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T09:32:23.145220+00:00",
+      "fetched_at": "2026-10-07T17:06:24.665395+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1831,7 +1843,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T09:32:23.156213+00:00",
+      "fetched_at": "2026-10-07T17:06:24.672832+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1913,7 +1925,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T09:32:23.158607+00:00",
+      "fetched_at": "2026-10-07T17:06:24.674414+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1995,55 +2007,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-07T09:32:06.757717+00:00"
+        "checked_at": "2026-10-07T17:06:06.016356+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-07T09:32:05.731776+00:00"
+        "checked_at": "2026-10-07T17:06:04.985515+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-07T09:32:10.036409+00:00"
+        "checked_at": "2026-10-07T17:06:09.133136+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-07T09:32:07.775345+00:00"
+        "checked_at": "2026-10-07T17:06:07.065196+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-07T09:32:12.178007+00:00"
+        "checked_at": "2026-10-07T17:06:11.377808+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-07T09:32:08.944610+00:00"
+        "checked_at": "2026-10-07T17:06:08.108790+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-07T09:32:11.070535+00:00"
+        "checked_at": "2026-10-07T17:06:10.185678+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-07T09:32:23.159648+00:00"
+      "checked_at": "2026-10-07T17:06:24.675386+00:00"
     }
   }
 }
