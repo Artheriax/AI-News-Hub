@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-10-08T02:07:25.343927+00:00",
+  "generated_at": "2026-10-08T09:13:31.827934+00:00",
   "items": [
+    {
+      "id": "yt:6gfACqBAKfw",
+      "title": "Claude Haiku 5.5 Is a GAME CHANGER! 90% CHEAPER & INSANE Performance! (Fully Tested)",
+      "url": "https://www.youtube.com/watch?v=6gfACqBAKfw",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-10-08T02:01:33+00:00",
+      "summary": "🚀 Get $100 in free credits on Gamut!: https://gamut.so/worldofai Gamut gives every agent its own cloud computer, so it runs 24/7 even with your laptop closed. Pick any model (Claude, GPT, Grok, Meta, open models) or bring in your existing Codex or Grok subscription. Anthropic just released Claude Ha",
+      "thumbnail": "https://i3.ytimg.com/vi/6gfACqBAKfw/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
+      "id": "yt:rGUzoHunuV8",
+      "title": "Claude Haiku 5.5 Is INSANE – This IS the BEST Cheap Model Yet!",
+      "url": "https://www.youtube.com/watch?v=rGUzoHunuV8",
+      "source": "Bijan Bowen",
+      "category": "videos",
+      "published": "2026-10-07T23:32:41+00:00",
+      "summary": "Timestamps: 00:00 - Intro 01:07 - First Look 02:00 - Technical Look 04:00 - Browser OS Test 09:13 - C++ Skate Game Test 13:59 - Blender & Godot Pool Game Test 18:10 - Subway FPS Test 22:47 - RuneScape 2007 Replica Test 25:33 - Demo Derby Test 28:10 - Usage Overview 29:27 - Results Overview Join the ",
+      "thumbnail": "https://i3.ytimg.com/vi/rGUzoHunuV8/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Bijan Bowen"
+    },
     {
       "id": "yt:WrCjAAl9okA",
       "title": "A $6.3 billion open-weight model just got embarrassed by the French...",
@@ -8,7 +32,7 @@
       "source": "Fireship",
       "category": "videos",
       "published": "2026-10-07T20:24:27+00:00",
-      "summary": "Kernel is the simplest way to let your agents act on any website. Use code: FIRESHIP to get $30 in free credits - https://kernel.sh/fireship Mistral, Reflection AI, and Moonshot all made big moves in the open-weight race this week. Let's dive in. Want more Fireship? 🗞️ Newsletter: https://bytes.dev ",
+      "summary": "KERNEL is the simplest way to let your agents act on any website. Use code: FIRESHIP to get a free upgrade to the Hobbyist tier ($30 value) at https://kernel.sh/fireship Mistral, Reflection AI, and Moonshot all made big moves in the open-weight race this week. Let's dive in. Want more Fireship? 🗞️ N",
       "thumbnail": "https://i4.ytimg.com/vi/WrCjAAl9okA/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
@@ -36,6 +60,71 @@
       "thumbnail": "https://i2.ytimg.com/vi/-mv1Tf26Vms/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
+    },
+    {
+      "id": "paper:2610.10528",
+      "title": "Long-WAM: Scaling the Context of World-Action Models",
+      "url": "https://huggingface.co/papers/2610.10528",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-07T00:00:00+00:00",
+      "summary": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that access to history is not the same as using it: longer histories pay off far more when the video foun",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 76,
+      "arxiv_id": "2610.10528"
+    },
+    {
+      "id": "paper:2610.10524",
+      "title": "GRACE: Generation-aware latent compression for efficient video generation",
+      "url": "https://huggingface.co/papers/2610.10524",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-07T00:00:00+00:00",
+      "summary": "Highly compressed video autoencoders offer an effective way to accelerate video diffusion models, as the Diffusion Transformer (DiT) operates on far fewer tokens. However, such autoencoders are challenging to train, since a higher compression ratio degrades reconstruction quality and recovering it requires more channels, which is known to slow the convergence of the DiT. The compressed latent also",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 55,
+      "arxiv_id": "2610.10524"
+    },
+    {
+      "id": "paper:2610.10429",
+      "title": "SGF+: Decoupling Gradient Flows for Autoregressive Video Generation",
+      "url": "https://huggingface.co/papers/2610.10429",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-07T00:00:00+00:00",
+      "summary": "Autoregressive video generation requires denoising the current frames while writing their key-value representations as context for future predictions. However, these two roles typically share parameters, and we find that their gradients exhibit distinct patterns and systematic negative alignment, hindering the joint optimization of visual quality and temporal consistency. We introduce Self Gradien",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 46,
+      "arxiv_id": "2610.10429"
+    },
+    {
+      "id": "paper:2610.10444",
+      "title": "RunningTab: Direct Workspace Interaction with Environment-Side Tabs",
+      "url": "https://huggingface.co/papers/2610.10444",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-07T00:00:00+00:00",
+      "summary": "Much knowledge work produces new deliverables from files a workspace already holds, and LLM agents are beginning to take such work over. Through direct corpus interaction, an agent can search and read any of those files from a terminal with no indexing, and producing a deliverable from many of them in this way is what we call direct workspace interaction (DWI). Reaching the files, however, is only",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 32,
+      "arxiv_id": "2610.10444"
+    },
+    {
+      "id": "paper:2610.10539",
+      "title": "Tetris3D: 3D Scene Generation With Objects That Fit Together",
+      "url": "https://huggingface.co/papers/2610.10539",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-07T00:00:00+00:00",
+      "summary": "We propose Tetris3D, a generative framework for single-image 3D scene reconstruction that recovers objects which are physically and geometrically coherent as a scene. Existing methods often generate objects independently or couple them implicitly, providing limited guidance for ensuring fine-grained spatial compatibility between neighboring objects that interact with one another. To address this, ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 29,
+      "arxiv_id": "2610.10539"
     },
     {
       "id": "yt:OyzP0Rgiz2I",
@@ -83,7 +172,7 @@
       "summary": "On-Policy Distillation (OPD) trains a student on its own generations using teacher feedback. With different tokenizers, comparing teacher and student predictions requires alignment at both sequence and vocabulary levels. In this paper, we examine whether expanding this alignment coverage improves learning. Across three heterogeneous teacher--student pairs on mathematical reasoning and code generat",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 155,
+      "upvotes": 160,
       "arxiv_id": "2610.08448"
     },
     {
@@ -96,8 +185,47 @@
       "summary": "Reinforcement learning (RL) for post-training large language models (LLMs) incurs substantial computation and memory overhead during rollout generation, which motivates low-precision rollout for efficient RL training. However, existing FP4 RL methods suffer from a key limitation: they primarily optimize quantization accuracy on the training and rollout paths independently rather than directly redu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 79,
+      "upvotes": 92,
       "arxiv_id": "2610.07767"
+    },
+    {
+      "id": "paper:2610.08699",
+      "title": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
+      "url": "https://huggingface.co/papers/2610.08699",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-06T00:00:00+00:00",
+      "summary": "Assistants from 2011 answered and waited, and agents from 2023 did a task and stopped. In September 2026 Meta's Muse showed an agent for one person, with accounts, devices, memory and a conversation that lasts, closed, in a vendor's cloud, in one country. Such an agent is expected to act on a person's accounts and devices, remember them across weeks, speak first when it is worth it, and answer for",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 66,
+      "arxiv_id": "2610.08699"
+    },
+    {
+      "id": "paper:2610.08621",
+      "title": "Recursive Game Creator: An Agentic Product-Level Experience-Oriented Game Harness",
+      "url": "https://huggingface.co/papers/2610.08621",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-06T00:00:00+00:00",
+      "summary": "Recent game design agents have made substantial progress in generating playable games. However, program correctness does not ensure an enjoyable experience for players. We present Recursive Game Creator, an experience-oriented harness to advance agentic game development from rough game prototypes into entertaining games. Recursive Game Creator organizes recursive development around four components",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 61,
+      "arxiv_id": "2610.08621"
+    },
+    {
+      "id": "paper:2610.07967",
+      "title": "DecepEval: A Benchmark for Evaluating Deception in LLM Agents",
+      "url": "https://huggingface.co/papers/2610.07967",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-06T00:00:00+00:00",
+      "summary": "As large language model (LLM) agents become increasingly autonomous, they may pursue task performance through deception, raising concerns about their reliable deployment. Existing evaluations show that LLM agents can deceive, but often examine isolated scenarios or narrowly defined conditions, limiting systematic understanding of when deception becomes more likely. To address this gap, we introduc",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 55,
+      "arxiv_id": "2610.07967"
     },
     {
       "id": "paper:2610.07557",
@@ -109,7 +237,7 @@
       "summary": "Static-analysis checker synthesis requires agents to interpret a defect specification, inspect a repository, implement analyzer-specific logic, and refine the checker through repeated compilation and analysis feedback. Existing coding-agent benchmarks focus on tasks such as patch generation or vulnerability detection and rarely assess whether an agent can develop a working checker in a repository ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 52,
+      "upvotes": 53,
       "arxiv_id": "2610.07557"
     },
     {
@@ -122,21 +250,21 @@
       "summary": "Tool-using agents make consequential changes to external state, yet correct outcomes do not guarantee that their actions were supported by evidence established beforehand. We study where this evidence-to-action chain breaks as agents move from deciding whether to act to executing single actions and dependent workflows. Across ten model-harness configurations, strong static action assessment can co",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 34,
+      "upvotes": 36,
       "arxiv_id": "2610.07753"
     },
     {
-      "id": "paper:2610.08463",
-      "title": "UNREAL: Unifying Retrieval and Long-Context with a Single Model",
-      "url": "https://huggingface.co/papers/2610.08463",
+      "id": "paper:2610.08760",
+      "title": "WorldSonus: Bringing Sound to Worlds",
+      "url": "https://huggingface.co/papers/2610.08760",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-06T00:00:00+00:00",
-      "summary": "Long-context inference and Retrieval-Augmented Generation (RAG) handle evidence selection at vastly different scales, from a single long prompt to an entire corpus. We ask whether a single model-internal mechanism can select evidence across this range. We introduce UNifying REtrieval And Long-Context with a Single Model (UNREAL), a model-native evidence selection framework to span corpus retrieval",
+      "summary": "Recent advances in world models have enabled increasingly realistic visual synthesis. However, these generated environments remain largely silent. Bringing sound to world models poses three core challenges: real-time generation to keep pace with interactive video streams, interactive control to respond to mid-stream sound instructions, and spatially aligned stereo to reflect scene geometry and cam",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 19,
-      "arxiv_id": "2610.08463"
+      "upvotes": 31,
+      "arxiv_id": "2610.08760"
     },
     {
       "id": "yt:_5p1_TNSWqQ",
@@ -175,56 +303,17 @@
       "channel": "Two Minute Papers"
     },
     {
-      "id": "paper:2610.06647",
-      "title": "LoGRA: Scaling LLM Reinforcement Learning with Low-Rank Gradient Sketches",
-      "url": "https://huggingface.co/papers/2610.06647",
+      "id": "paper:2610.06293",
+      "title": "VepAgent: Bridging Causal-Transition via Tool-Augmented Reinforcement Learning for Video Event Prediction",
+      "url": "https://huggingface.co/papers/2610.06293",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-05T00:00:00+00:00",
-      "summary": "Reinforcement learning (RL) has greatly advanced the capabilities of large language models (LLMs), but its memory demands remain a barrier to broader adoption. We introduce LoGRA, an approach to RL post-training that reduces memory by retaining useful learning signals in low-rank gradient sketches. These compact representations support both model updates and efficient policy synchronization. To pr",
+      "summary": "Multimodal Large Language Models (MLLMs) have demonstrated remarkable potential in video understanding, yet their reliance on retrospective summarization and text-centric priors often limits their ability to bridge unobserved causal transitions when applied to Video Event Prediction (VEP). To address this, we propose VepAgent, an agentic framework that integrates causal-transition reasoning with t",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 23,
-      "arxiv_id": "2610.06647"
-    },
-    {
-      "id": "paper:2610.05966",
-      "title": "HuatuoGPT-3: RL-Only Domain Adaptation from Base Models",
-      "url": "https://huggingface.co/papers/2610.05966",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-05T00:00:00+00:00",
-      "summary": "Domain adaptation aims to turn a general-purpose large language model (LLM) into an expert for a target domain. While the dominant SFT+RL pipeline offers a convenient cold start, it may reduce exploration diversity and introduces additional complexity through multi-stage optimization. These limitations motivate RL-only adaptation. However, pure on-policy RL suffers from a cold-start problem, while",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 22,
-      "arxiv_id": "2610.05966"
-    },
-    {
-      "id": "paper:2610.05912",
-      "title": "MiniCorp: The Last Mile of the AI Agent Firm",
-      "url": "https://huggingface.co/papers/2610.05912",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-05T00:00:00+00:00",
-      "summary": "The last mile toward enterprise AGI is a company that runs itself. Training and adapting such agents require longitudinal enterprise data, which remain scarce, costly to acquire, and often restricted by privacy constraints. Historical archives are also frequently incomplete and record only what actually happened. They cannot show the outcomes of alternative decisions. We introduce MiniCorp, an off",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 20,
-      "arxiv_id": "2610.05912"
-    },
-    {
-      "id": "paper:2610.06361",
-      "title": "Capability-Driven Self-Evolution of Agent Memory",
-      "url": "https://huggingface.co/papers/2610.06361",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-05T00:00:00+00:00",
-      "summary": "Memory self-evolution uses task feedback to iteratively improve executable memory programs that store and retrieve information from past interactions. Existing approaches typically adopt holistic evolution, deriving revision directions from mixed feedback and judging progress by overall performance. This can obscure optimization directions and hide capability-specific gains offset by regressions e",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 14,
-      "arxiv_id": "2610.06361"
+      "upvotes": 51,
+      "arxiv_id": "2610.06293"
     },
     {
       "id": "yt:lHmZoRHMZyM",
@@ -239,32 +328,6 @@
       "channel": "AI Search"
     },
     {
-      "id": "paper:2610.05030",
-      "title": "EVISKILL: Grounding Skill Evolution in Replayable Evidence",
-      "url": "https://huggingface.co/papers/2610.05030",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-04T00:00:00+00:00",
-      "summary": "Continual skill evolution enables LLM agents to accumulate and refine reusable procedural knowledge from interaction experience without updating model parameters. Its effectiveness depends on determining not only what to change, but also why a change is justified and when it should become persistent guidance. However, existing experience-driven methods can lose the behavioral evidence and task con",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 36,
-      "arxiv_id": "2610.05030"
-    },
-    {
-      "id": "paper:2610.05140",
-      "title": "AutoSciBench: Autonomous Benchmark Generation for Evaluating Scientific Agents",
-      "url": "https://huggingface.co/papers/2610.05140",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-04T00:00:00+00:00",
-      "summary": "As agents rapidly evolve, existing benchmarks can become saturated, limiting their ability to distinguish capabilities and reveal remaining failure modes. Particularly in scientific domains, constructing and updating benchmarks requires substantial time, labor, and domain expertise, making it difficult to keep evaluation aligned with advances in agent capabilities. We address this challenge by inv",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 27,
-      "arxiv_id": "2610.05140"
-    },
-    {
       "id": "yt:N3REfH4N9Dg",
       "title": "HUGE Fable 5.5 LEAK + First Preview, Gemini 4 Argon, Claude Code Update, FREE Model, & More! AI NEWS",
       "url": "https://www.youtube.com/watch?v=N3REfH4N9Dg",
@@ -277,17 +340,17 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2610.04596",
-      "title": "DiffGate: Difficulty-Gated Teacher Guidance for On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2610.04596",
+      "id": "paper:2610.04299",
+      "title": "Questioning the Questions: Sustaining Self-Evolution in Reasoning Models",
+      "url": "https://huggingface.co/papers/2610.04299",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-03T00:00:00+00:00",
-      "summary": "On-policy distillation (OPD) has emerged as a widely used paradigm for post-training large language models, reducing the train--test mismatch of conventional distillation by supervising the student on its own generated trajectories. However, existing OPD objectives remain largely token-local and outcome-agnostic, optimizing teacher--student agreement at each prefix despite reasoning quality being ",
+      "summary": "Self-evolving reasoning models learn from their own generated questions, yet repeated self-training can lead to performance collapse. In this paper, we investigate why performance deteriorates over successive rounds and how to sustain self-evolution. Our analysis identifies two recurring quality problems in self-generated questions: invalid questions and repeated variants of the same mathematical ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 12,
-      "arxiv_id": "2610.04596"
+      "upvotes": 57,
+      "arxiv_id": "2610.04299"
     },
     {
       "id": "yt:9zVYS00N6mg",
@@ -300,45 +363,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/9zVYS00N6mg/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
-    },
-    {
-      "id": "paper:2610.03543",
-      "title": "DuoMatching: Joint-Marginal Distribution Matching for Few-Step Video Generation",
-      "url": "https://huggingface.co/papers/2610.03543",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-02T00:00:00+00:00",
-      "summary": "Streaming video generation has benefited from distribution matching distillation (DMD), which matches the joint distribution of video frames to a video teacher's approximation of the real video distribution. Although this joint matching mitigates drift during autoregressive rollouts, limitations remain in visual quality and semantic alignment. To address these limitations, we propose DuoMatching, ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 70,
-      "arxiv_id": "2610.03543"
-    },
-    {
-      "id": "paper:2610.03607",
-      "title": "World Action Learning via Interaction-Centric Spectral Latent Guidance",
-      "url": "https://huggingface.co/papers/2610.03607",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-02T00:00:00+00:00",
-      "summary": "Learning general-purpose robot policies requires large-scale real-world interaction data, yet collecting robot demonstrations remains expensive and difficult to scale. Egocentric videos offer abundant human interaction experience with task-relevant semantics for robotic manipulation, but direct transfer is challenging for two reasons: latent actions inferred from frame reconstruction can be domina",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 25,
-      "arxiv_id": "2610.03607"
-    },
-    {
-      "id": "paper:2610.04109",
-      "title": "SEER: Self-Evolving Event Reasoning and Retrieval for Time Series Forecasting",
-      "url": "https://huggingface.co/papers/2610.04109",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-02T00:00:00+00:00",
-      "summary": "Real-world time series are frequently driven by exogenous events and structural shifts, rendering conventional forecasting based solely on historical numerical observations insufficient. While language models can retrieve external news, standard retrieval-augmented approaches struggle with high noise, missing signals, and an inability to reason causally about event impacts. We propose SEER (Self-E",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 19,
-      "arxiv_id": "2610.04109"
     },
     {
       "id": "yt:_rtp1XzaP6Q",
@@ -701,18 +725,6 @@
       "channel": "Two Minute Papers"
     },
     {
-      "id": "yt:Nv_kTdHIVNY",
-      "title": "Xiaomi MiMo-V2.6 Pro IS THE BEST Open Source Model EVER! (Fully Tested)",
-      "url": "https://www.youtube.com/watch?v=Nv_kTdHIVNY",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-09-22T06:15:02+00:00",
-      "summary": "Join the private community to get WoAI Bench Pro, exclusive AI freebies and discounts, early model access, automation templates, practical resources and upcoming AI training. 👉 Join Today! https://www.skool.com/worldofai Xiaomi is BACK with MiMo-V2.6 Pro, and this might be one of the most impressive",
-      "thumbnail": "https://i3.ytimg.com/vi/Nv_kTdHIVNY/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:BaE6UBfNdQk",
       "title": "Finally! New best local AI image editor is here",
       "url": "https://www.youtube.com/watch?v=BaE6UBfNdQk",
@@ -893,18 +905,6 @@
       "channel": "Fireship"
     },
     {
-      "id": "yt:abehaRWPt5E",
-      "title": "DeepSeek V4.1 Flash Is INSANE – Is THIS the Best Open Model Yet?",
-      "url": "https://www.youtube.com/watch?v=abehaRWPt5E",
-      "source": "Bijan Bowen",
-      "category": "videos",
-      "published": "2026-09-10T15:23:17+00:00",
-      "summary": "Timestamps: 00:00 - Intro 00:55 - First Look 02:26 - Technical Look 05:09 - Testing Setup 05:48 - Browser OS Test 10:22 - C++ Skate Game Test 14:00 - Robot Arm Control Test 17:11 - Subway FPS Test 20:14 - Blender & Godot Wrestling Game Test 26:57 - C++ Rally Game Test 30:53 - 3D CAD Model Test 32:45",
-      "thumbnail": "https://i2.ytimg.com/vi/abehaRWPt5E/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Bijan Bowen"
-    },
-    {
       "id": "yt:mOvtumfyjCs",
       "title": "I Never Thought I’d See This Happen",
       "url": "https://www.youtube.com/watch?v=mOvtumfyjCs",
@@ -939,18 +939,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/2Xiljy4xzbc/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
-    },
-    {
-      "id": "yt:eVBJIUxv8N8",
-      "title": "GPT-6 Astra Changes Everything",
-      "url": "https://www.youtube.com/watch?v=eVBJIUxv8N8",
-      "source": "Two Minute Papers",
-      "category": "videos",
-      "published": "2026-09-08T08:24:27+00:00",
-      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers Links / sources: Honey sim: search for \"Variational Stokes: A Unified Pressure-Viscosity Solver for Accurate Viscous Liquids\" here: https://cs.uwaterloo.ca/~c2batty/ https://x.com/mindblown_ai/status/20956618740378132",
-      "thumbnail": "https://i2.ytimg.com/vi/eVBJIUxv8N8/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Two Minute Papers"
     }
   ],
   "featured": [
@@ -969,7 +957,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T02:07:25.274661+00:00",
+      "fetched_at": "2026-10-08T09:13:31.701288+00:00",
       "entries": [
         {
           "rank": 1,
@@ -994,52 +982,52 @@
         },
         {
           "rank": 4,
+          "name": "Nano Banana 2.1",
+          "creator": "Nano Banana 2.1",
+          "score": 1137.0,
+          "meta": "Oct 2026 · $33.6 /1k imgs"
+        },
+        {
+          "rank": 5,
           "name": "MAI-Image-2.6-Flash",
           "creator": "MAI-Image-2.6-Flash",
           "score": 1127.0,
           "meta": "Sep 2026 · $19.5 /1k imgs"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "GPT Image 2 (high)",
           "creator": "GPT Image 2 (high)",
           "score": 1125.0,
           "meta": "Apr 2026 · $211.0 /1k imgs"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Muse Image",
           "creator": "Muse Image",
           "score": 1120.0,
           "meta": "Jul 2026 · $10.0 /1k imgs"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "MAI-Image-2.5",
           "creator": "MAI-Image-2.5",
           "score": 1114.0,
           "meta": "Jun 2026 · $48.1 /1k imgs"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Grok Imagine Image 2.0",
           "creator": "Grok Imagine Image 2.0",
           "score": 1110.0,
           "meta": "Aug 2026 · $60.0 /1k imgs"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "creator": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "score": 1110.0,
           "meta": "Feb 2026 · $67.0 /1k imgs"
-        },
-        {
-          "rank": 10,
-          "name": "MAI-Image-2.5-Pro",
-          "creator": "MAI-Image-2.5-Pro",
-          "score": 1110.0,
-          "meta": "Jul 2026 · $108.5 /1k imgs"
         }
       ]
     },
@@ -1051,7 +1039,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T02:07:25.276294+00:00",
+      "fetched_at": "2026-10-08T09:13:31.704528+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1133,7 +1121,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T02:07:25.278316+00:00",
+      "fetched_at": "2026-10-08T09:13:31.708543+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1215,7 +1203,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T02:07:25.278926+00:00",
+      "fetched_at": "2026-10-08T09:13:31.709772+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1283,7 +1271,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T02:07:25.282078+00:00",
+      "fetched_at": "2026-10-08T09:13:31.715662+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1365,7 +1353,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T02:07:25.282086+00:00",
+      "fetched_at": "2026-10-08T09:13:31.715676+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1433,7 +1421,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T02:07:25.283118+00:00",
+      "fetched_at": "2026-10-08T09:13:31.717603+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1515,7 +1503,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-08T02:07:25.301876+00:00",
+      "fetched_at": "2026-10-08T09:13:31.751308+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1597,7 +1585,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-08T02:07:25.322677+00:00",
+      "fetched_at": "2026-10-08T09:13:31.788317+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1679,7 +1667,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T02:07:25.332447+00:00",
+      "fetched_at": "2026-10-08T09:13:31.805860+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1704,52 +1692,52 @@
         },
         {
           "rank": 4,
+          "name": "Nano Banana 2.1",
+          "creator": "Nano Banana 2.1",
+          "score": 1160.0,
+          "meta": "Oct 2026 · $33.6 /1k imgs"
+        },
+        {
+          "rank": 5,
           "name": "Grok Imagine Image 2.0",
           "creator": "Grok Imagine Image 2.0",
           "score": 1156.0,
           "meta": "Aug 2026 · $60.0 /1k imgs"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "MAI-Image-2.6",
           "creator": "MAI-Image-2.6",
           "score": 1151.0,
           "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "creator": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "score": 1126.0,
           "meta": "Feb 2026 · $67.0 /1k imgs"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Muse Image",
           "creator": "Muse Image",
           "score": 1115.0,
           "meta": "Jul 2026 · $10.0 /1k imgs"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "GPT Image 1.5 (high)",
           "creator": "GPT Image 1.5 (high)",
           "score": 1107.0,
           "meta": "Dec 2025 · $133.0 /1k imgs"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "MAI-Image-2.6-Flash",
           "creator": "MAI-Image-2.6-Flash",
           "score": 1105.0,
           "meta": "Sep 2026 · $19.5 /1k imgs"
-        },
-        {
-          "rank": 10,
-          "name": "MAI-Image-2.5",
-          "creator": "MAI-Image-2.5",
-          "score": 1104.0,
-          "meta": "Jun 2026 · $48.1 /1k imgs"
         }
       ]
     },
@@ -1761,7 +1749,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T02:07:25.335944+00:00",
+      "fetched_at": "2026-10-08T09:13:31.812274+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1843,20 +1831,20 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T02:07:25.341639+00:00",
+      "fetched_at": "2026-10-08T09:13:31.824195+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Eleven v4 Turbo",
           "creator": "Eleven v4 Turbo",
-          "score": 1334.0,
+          "score": 1332.0,
           "meta": "Sept 2026 · $40.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Eleven v4",
           "creator": "Eleven v4",
-          "score": 1322.0,
+          "score": 1324.0,
           "meta": "Sept 2026 · $80.0 /1M chars"
         },
         {
@@ -1870,7 +1858,7 @@
           "rank": 4,
           "name": "Sonic 3.6",
           "creator": "Sonic 3.6",
-          "score": 1278.0,
+          "score": 1279.0,
           "meta": "Aug 2026 · $49.0 /1M chars"
         },
         {
@@ -1884,21 +1872,21 @@
           "rank": 6,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Qwen-Audio-3.0-TTS-Plus",
-          "score": 1260.0,
+          "score": 1263.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
           "rank": 7,
           "name": "Realtime TTS-2",
           "creator": "Realtime TTS-2",
-          "score": 1250.0,
+          "score": 1252.0,
           "meta": "Aug 2026 · $20.8 /1M chars"
         },
         {
           "rank": 8,
           "name": "Gemini 3.8 Flash-Lite TTS",
           "creator": "Gemini 3.8 Flash-Lite TTS",
-          "score": 1242.0,
+          "score": 1243.0,
           "meta": "Sept 2026 · $11.0 /1M chars"
         },
         {
@@ -1912,7 +1900,7 @@
           "rank": 10,
           "name": "Luna TTS",
           "creator": "Luna TTS",
-          "score": 1226.0,
+          "score": 1223.0,
           "meta": "Jun 2026 · $15.0 /1M chars"
         }
       ]
@@ -1925,7 +1913,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T02:07:25.342849+00:00",
+      "fetched_at": "2026-10-08T09:13:31.826753+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1945,21 +1933,21 @@
           "rank": 3,
           "name": "Step Audio EditX (Mar 2026)",
           "creator": "Step Audio EditX (Mar 2026)",
-          "score": 1093.0,
+          "score": 1097.0,
           "meta": "Feb 2026 · N/A"
         },
         {
           "rank": 4,
           "name": "Voxtral TTS",
           "creator": "Voxtral TTS",
-          "score": 1084.0,
+          "score": 1083.0,
           "meta": "Mar 2026 · $16.0 /1M chars"
         },
         {
           "rank": 5,
           "name": "Magpie-Multilingual 357M (Feb 2026)",
           "creator": "Magpie-Multilingual 357M (Feb 2026)",
-          "score": 1065.0,
+          "score": 1066.0,
           "meta": "Feb 2026 · N/A"
         },
         {
@@ -2004,58 +1992,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 3,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-10-08T02:07:04.574266+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-08T09:13:12.587262+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 10,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-10-08T02:07:03.465463+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-08T09:13:11.554459+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-10-08T02:07:07.721335+00:00"
+        "error": null,
+        "checked_at": "2026-10-08T09:13:15.778459+00:00"
       },
       {
         "name": "Fireship",
-        "ok": false,
-        "items": 12,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-10-08T02:07:05.616496+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-08T09:13:13.609234+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-08T02:07:09.923345+00:00"
+        "checked_at": "2026-10-08T09:13:18.104069+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-08T02:07:06.649899+00:00"
+        "checked_at": "2026-10-08T09:13:14.634393+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-08T02:07:08.754151+00:00"
+        "checked_at": "2026-10-08T09:13:16.919656+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-08T02:07:25.343840+00:00"
+      "checked_at": "2026-10-08T09:13:31.827860+00:00"
     }
   }
 }
