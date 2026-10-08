@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T22:07:41.658174+00:00",
+  "generated_at": "2026-10-08T02:07:25.343927+00:00",
   "items": [
     {
       "id": "yt:WrCjAAl9okA",
@@ -83,7 +83,7 @@
       "summary": "On-Policy Distillation (OPD) trains a student on its own generations using teacher feedback. With different tokenizers, comparing teacher and student predictions requires alignment at both sequence and vocabulary levels. In this paper, we examine whether expanding this alignment coverage improves learning. Across three heterogeneous teacher--student pairs on mathematical reasoning and code generat",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 153,
+      "upvotes": 155,
       "arxiv_id": "2610.08448"
     },
     {
@@ -96,7 +96,7 @@
       "summary": "Reinforcement learning (RL) for post-training large language models (LLMs) incurs substantial computation and memory overhead during rollout generation, which motivates low-precision rollout for efficient RL training. However, existing FP4 RL methods suffer from a key limitation: they primarily optimize quantization accuracy on the training and rollout paths independently rather than directly redu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 70,
+      "upvotes": 79,
       "arxiv_id": "2610.07767"
     },
     {
@@ -175,6 +175,19 @@
       "channel": "Two Minute Papers"
     },
     {
+      "id": "paper:2610.06647",
+      "title": "LoGRA: Scaling LLM Reinforcement Learning with Low-Rank Gradient Sketches",
+      "url": "https://huggingface.co/papers/2610.06647",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-05T00:00:00+00:00",
+      "summary": "Reinforcement learning (RL) has greatly advanced the capabilities of large language models (LLMs), but its memory demands remain a barrier to broader adoption. We introduce LoGRA, an approach to RL post-training that reduces memory by retaining useful learning signals in low-rank gradient sketches. These compact representations support both model updates and efficient policy synchronization. To pr",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 23,
+      "arxiv_id": "2610.06647"
+    },
+    {
       "id": "paper:2610.05966",
       "title": "HuatuoGPT-3: RL-Only Domain Adaptation from Base Models",
       "url": "https://huggingface.co/papers/2610.05966",
@@ -184,7 +197,7 @@
       "summary": "Domain adaptation aims to turn a general-purpose large language model (LLM) into an expert for a target domain. While the dominant SFT+RL pipeline offers a convenient cold start, it may reduce exploration diversity and introduces additional complexity through multi-stage optimization. These limitations motivate RL-only adaptation. However, pure on-policy RL suffers from a cold-start problem, while",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 21,
+      "upvotes": 22,
       "arxiv_id": "2610.05966"
     },
     {
@@ -197,8 +210,21 @@
       "summary": "The last mile toward enterprise AGI is a company that runs itself. Training and adapting such agents require longitudinal enterprise data, which remain scarce, costly to acquire, and often restricted by privacy constraints. Historical archives are also frequently incomplete and record only what actually happened. They cannot show the outcomes of alternative decisions. We introduce MiniCorp, an off",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 15,
+      "upvotes": 20,
       "arxiv_id": "2610.05912"
+    },
+    {
+      "id": "paper:2610.06361",
+      "title": "Capability-Driven Self-Evolution of Agent Memory",
+      "url": "https://huggingface.co/papers/2610.06361",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-05T00:00:00+00:00",
+      "summary": "Memory self-evolution uses task feedback to iteratively improve executable memory programs that store and retrieve information from past interactions. Existing approaches typically adopt holistic evolution, deriving revision directions from mixed feedback and judging progress by overall performance. This can obscure optimization directions and hide capability-specific gains offset by regressions e",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 14,
+      "arxiv_id": "2610.06361"
     },
     {
       "id": "yt:lHmZoRHMZyM",
@@ -235,7 +261,7 @@
       "summary": "As agents rapidly evolve, existing benchmarks can become saturated, limiting their ability to distinguish capabilities and reveal remaining failure modes. Particularly in scientific domains, constructing and updating benchmarks requires substantial time, labor, and domain expertise, making it difficult to keep evaluation aligned with advances in agent capabilities. We address this challenge by inv",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 26,
+      "upvotes": 27,
       "arxiv_id": "2610.05140"
     },
     {
@@ -251,17 +277,17 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2610.04292",
-      "title": "LMBuild: Evaluating LLM Agents for Generating Buildable and Functional Structures",
-      "url": "https://huggingface.co/papers/2610.04292",
+      "id": "paper:2610.04596",
+      "title": "DiffGate: Difficulty-Gated Teacher Guidance for On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2610.04596",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-03T00:00:00+00:00",
-      "summary": "LLM-based agents are increasingly capable of generating complex 3D structures, with the potential to reshape how objects are designed and realized in the physical world. Yet, producing elegant geometry is fundamentally different from producing objects that can be built and perform their intended functions. Existing evaluations largely focus on geometric quality while overlooking physical realizabi",
+      "summary": "On-policy distillation (OPD) has emerged as a widely used paradigm for post-training large language models, reducing the train--test mismatch of conventional distillation by supervising the student on its own generated trajectories. However, existing OPD objectives remain largely token-local and outcome-agnostic, optimizing teacher--student agreement at each prefix despite reasoning quality being ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 32,
-      "arxiv_id": "2610.04292"
+      "upvotes": 12,
+      "arxiv_id": "2610.04596"
     },
     {
       "id": "yt:9zVYS00N6mg",
@@ -285,7 +311,7 @@
       "summary": "Streaming video generation has benefited from distribution matching distillation (DMD), which matches the joint distribution of video frames to a video teacher's approximation of the real video distribution. Although this joint matching mitigates drift during autoregressive rollouts, limitations remain in visual quality and semantic alignment. To address these limitations, we propose DuoMatching, ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 69,
+      "upvotes": 70,
       "arxiv_id": "2610.03543"
     },
     {
@@ -298,7 +324,7 @@
       "summary": "Learning general-purpose robot policies requires large-scale real-world interaction data, yet collecting robot demonstrations remains expensive and difficult to scale. Egocentric videos offer abundant human interaction experience with task-relevant semantics for robotic manipulation, but direct transfer is challenging for two reasons: latent actions inferred from frame reconstruction can be domina",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 24,
+      "upvotes": 25,
       "arxiv_id": "2610.03607"
     },
     {
@@ -311,7 +337,7 @@
       "summary": "Real-world time series are frequently driven by exogenous events and structural shifts, rendering conventional forecasting based solely on historical numerical observations insufficient. While language models can retrieve external news, standard retrieval-augmented approaches struggle with high noise, missing signals, and an inability to reason causally about event impacts. We propose SEER (Self-E",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 18,
+      "upvotes": 19,
       "arxiv_id": "2610.04109"
     },
     {
@@ -349,32 +375,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/pYH8x-Nbhbc/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
-    },
-    {
-      "id": "paper:2610.02331",
-      "title": "World Editing: Intervening on Executable Worlds at Increasing Depth",
-      "url": "https://huggingface.co/papers/2610.02331",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-01T00:00:00+00:00",
-      "summary": "Interactive world models are increasingly capable of generating environments and acting within them, yet deliberately editing an existing executable world remains underexplored. We formulate world editing as intervening on an existing world while preserving properties that should remain unchanged, and introduce intervention depth as an axis describing how strongly an edit couples world entities, d",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 18,
-      "arxiv_id": "2610.02331"
-    },
-    {
-      "id": "paper:2610.01218",
-      "title": "AGO AI Quality Gate: Evidence-First Release Decisions for Retrieval-Augmented Generation",
-      "url": "https://huggingface.co/papers/2610.01218",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-01T00:00:00+00:00",
-      "summary": "Enterprises adopting retrieval-augmented generation (RAG) face a recurring operational decision: promote, revise, or block a system version. The evidence is incomplete and the metrics come from fallible LLM judges. We report on AGO AI Quality Gate (AGO), an evidence-first quality-gate framework deployed in industrial RAG assessment engagements. AGO integrates four key components: a four-state deci",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 16,
-      "arxiv_id": "2610.01218"
     },
     {
       "id": "yt:RMTWayrwYkQ",
@@ -969,7 +969,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T22:07:41.528692+00:00",
+      "fetched_at": "2026-10-08T02:07:25.274661+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1051,7 +1051,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T22:07:41.531935+00:00",
+      "fetched_at": "2026-10-08T02:07:25.276294+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1133,7 +1133,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T22:07:41.535879+00:00",
+      "fetched_at": "2026-10-08T02:07:25.278316+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1151,59 +1151,59 @@
         },
         {
           "rank": 3,
+          "name": "Vidu Q4 Preview",
+          "creator": "Vidu Q4 Preview",
+          "score": 1179.0,
+          "meta": "Oct 2026 · $7.20 /min"
+        },
+        {
+          "rank": 4,
           "name": "Gemini Omni Flash",
           "creator": "Gemini Omni Flash",
           "score": 1178.0,
           "meta": "May 2026 · $6.00 /min"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Dreamina Seedance 2.0 720p",
           "creator": "Dreamina Seedance 2.0 720p",
           "score": 1176.0,
           "meta": "Mar 2026 · $9.07 /min"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "HiDream-O1-Video-1.0",
           "creator": "HiDream-O1-Video-1.0",
           "score": 1175.0,
           "meta": "Aug 2026 · $5.80 /min"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Wan 3.0",
           "creator": "Wan 3.0",
           "score": 1164.0,
           "meta": "Aug 2026 · $12.00 /min"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "HappyHorse-1.1",
           "creator": "HappyHorse-1.1",
           "score": 1104.0,
           "meta": "Jun 2026 · $9.90 /min"
         },
         {
-          "rank": 8,
-          "name": "grok-imagine-video-1.5",
-          "creator": "grok-imagine-video-1.5",
+          "rank": 9,
+          "name": "Grok Imagine Video 1.5",
+          "creator": "Grok Imagine Video 1.5",
           "score": 1098.0,
           "meta": "May 2026 · $8.40 /min"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "MAGI-2 Preview",
           "creator": "MAGI-2 Preview",
           "score": 1093.0,
           "meta": "Aug 2026 · Coming soon"
-        },
-        {
-          "rank": 10,
-          "name": "HappyHorse-1.0",
-          "creator": "HappyHorse-1.0",
-          "score": 1083.0,
-          "meta": "Apr 2026 · $13.20 /min"
         }
       ]
     },
@@ -1215,7 +1215,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T22:07:41.537087+00:00",
+      "fetched_at": "2026-10-08T02:07:25.278926+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1283,7 +1283,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T22:07:41.542687+00:00",
+      "fetched_at": "2026-10-08T02:07:25.282078+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1337,7 +1337,7 @@
         {
           "rank": 8,
           "score": 1331.0,
-          "name": "grok-imagine-video-1.5",
+          "name": "Grok Imagine Video 1.5",
           "creator": "SpaceXAI",
           "meta": ""
         },
@@ -1365,7 +1365,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T22:07:41.542701+00:00",
+      "fetched_at": "2026-10-08T02:07:25.282086+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1433,7 +1433,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T22:07:41.544546+00:00",
+      "fetched_at": "2026-10-08T02:07:25.283118+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1515,7 +1515,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-07T22:07:41.578416+00:00",
+      "fetched_at": "2026-10-08T02:07:25.301876+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1597,7 +1597,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-07T22:07:41.618842+00:00",
+      "fetched_at": "2026-10-08T02:07:25.322677+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1679,7 +1679,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T22:07:41.636802+00:00",
+      "fetched_at": "2026-10-08T02:07:25.332447+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1761,7 +1761,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T22:07:41.643246+00:00",
+      "fetched_at": "2026-10-08T02:07:25.335944+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1843,7 +1843,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T22:07:41.654323+00:00",
+      "fetched_at": "2026-10-08T02:07:25.341639+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1925,7 +1925,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-07T22:07:41.656691+00:00",
+      "fetched_at": "2026-10-08T02:07:25.342849+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2004,58 +2004,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-07T22:07:20.586566+00:00"
+        "ok": false,
+        "items": 3,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-10-08T02:07:04.574266+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-07T22:07:19.559515+00:00"
+        "ok": false,
+        "items": 10,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-10-08T02:07:03.465463+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-07T22:07:23.738404+00:00"
+        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-10-08T02:07:07.721335+00:00"
       },
       {
         "name": "Fireship",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-07T22:07:21.605370+00:00"
+        "ok": false,
+        "items": 12,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "checked_at": "2026-10-08T02:07:05.616496+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-07T22:07:26.024338+00:00"
+        "checked_at": "2026-10-08T02:07:09.923345+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-07T22:07:22.626495+00:00"
+        "checked_at": "2026-10-08T02:07:06.649899+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-07T22:07:24.893020+00:00"
+        "checked_at": "2026-10-08T02:07:08.754151+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-07T22:07:41.658099+00:00"
+      "checked_at": "2026-10-08T02:07:25.343840+00:00"
     }
   }
 }
