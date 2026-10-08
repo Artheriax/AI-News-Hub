@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T09:13:31.827934+00:00",
+  "generated_at": "2026-10-08T16:40:51.885768+00:00",
   "items": [
     {
       "id": "yt:6gfACqBAKfw",
@@ -71,7 +71,7 @@
       "summary": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that access to history is not the same as using it: longer histories pay off far more when the video foun",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 76,
+      "upvotes": 84,
       "arxiv_id": "2610.10528"
     },
     {
@@ -84,7 +84,7 @@
       "summary": "Highly compressed video autoencoders offer an effective way to accelerate video diffusion models, as the Diffusion Transformer (DiT) operates on far fewer tokens. However, such autoencoders are challenging to train, since a higher compression ratio degrades reconstruction quality and recovering it requires more channels, which is known to slow the convergence of the DiT. The compressed latent also",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 55,
+      "upvotes": 60,
       "arxiv_id": "2610.10524"
     },
     {
@@ -97,21 +97,21 @@
       "summary": "Autoregressive video generation requires denoising the current frames while writing their key-value representations as context for future predictions. However, these two roles typically share parameters, and we find that their gradients exhibit distinct patterns and systematic negative alignment, hindering the joint optimization of visual quality and temporal consistency. We introduce Self Gradien",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 46,
+      "upvotes": 47,
       "arxiv_id": "2610.10429"
     },
     {
-      "id": "paper:2610.10444",
-      "title": "RunningTab: Direct Workspace Interaction with Environment-Side Tabs",
-      "url": "https://huggingface.co/papers/2610.10444",
+      "id": "paper:2610.09823",
+      "title": "UltraText Bench: A Comprehensive Bilingual Benchmark for Evaluating Visual Text Rendering in Image Generation",
+      "url": "https://huggingface.co/papers/2610.09823",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-07T00:00:00+00:00",
-      "summary": "Much knowledge work produces new deliverables from files a workspace already holds, and LLM agents are beginning to take such work over. Through direct corpus interaction, an agent can search and read any of those files from a terminal with no indexing, and producing a deliverable from many of them in this way is what we call direct workspace interaction (DWI). Reaching the files, however, is only",
+      "summary": "Dense visual text requires image generators to reproduce long strings across multiple regions with correct placement and legibility. As short-string rendering improves, evaluation must test sustained performance across more demanding scenes. We introduce UltraText Bench, a bilingual benchmark for prompt-only generation of dense visual text. It contains 432 prompts spanning 24 real-world scene cate",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 32,
-      "arxiv_id": "2610.10444"
+      "upvotes": 37,
+      "arxiv_id": "2610.09823"
     },
     {
       "id": "paper:2610.10539",
@@ -123,8 +123,34 @@
       "summary": "We propose Tetris3D, a generative framework for single-image 3D scene reconstruction that recovers objects which are physically and geometrically coherent as a scene. Existing methods often generate objects independently or couple them implicitly, providing limited guidance for ensuring fine-grained spatial compatibility between neighboring objects that interact with one another. To address this, ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 29,
+      "upvotes": 35,
       "arxiv_id": "2610.10539"
+    },
+    {
+      "id": "paper:2610.10444",
+      "title": "RunningTab: Direct Workspace Interaction with Environment-Side Tabs",
+      "url": "https://huggingface.co/papers/2610.10444",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-07T00:00:00+00:00",
+      "summary": "Much knowledge work produces new deliverables from files a workspace already holds, and LLM agents are beginning to take such work over. Through direct corpus interaction, an agent can search and read any of those files from a terminal with no indexing, and producing a deliverable from many of them in this way is what we call direct workspace interaction (DWI). Reaching the files, however, is only",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 34,
+      "arxiv_id": "2610.10444"
+    },
+    {
+      "id": "paper:2610.10409",
+      "title": "RobotWorld: Benchmarking Multimodal Agents for Robot Use Across Diverse Tasks and Embodiments",
+      "url": "https://huggingface.co/papers/2610.10409",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-07T00:00:00+00:00",
+      "summary": "General-purpose agents increasingly write code, use tools, and complete complex digital tasks, raising the question of how far these capabilities carry into the physical world. To investigate this, we introduce RobotWorld, a challenging simulation testbed for robot use: turning instructions and observations into physical task execution through robot interfaces. Its 84 tasks span manipulation, mobi",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 29,
+      "arxiv_id": "2610.10409"
     },
     {
       "id": "yt:OyzP0Rgiz2I",
@@ -163,32 +189,6 @@
       "channel": "AI Search"
     },
     {
-      "id": "paper:2610.08448",
-      "title": "Rethinking Cross-Tokenizer On-Policy Distillation: From Alignment Coverage to Supervision Reliability",
-      "url": "https://huggingface.co/papers/2610.08448",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-06T00:00:00+00:00",
-      "summary": "On-Policy Distillation (OPD) trains a student on its own generations using teacher feedback. With different tokenizers, comparing teacher and student predictions requires alignment at both sequence and vocabulary levels. In this paper, we examine whether expanding this alignment coverage improves learning. Across three heterogeneous teacher--student pairs on mathematical reasoning and code generat",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 160,
-      "arxiv_id": "2610.08448"
-    },
-    {
-      "id": "paper:2610.07767",
-      "title": "TRACE: Rollout-Guided Quantization-Aware Training for FP4 Reinforcement Learning of MoE Language Models",
-      "url": "https://huggingface.co/papers/2610.07767",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-06T00:00:00+00:00",
-      "summary": "Reinforcement learning (RL) for post-training large language models (LLMs) incurs substantial computation and memory overhead during rollout generation, which motivates low-precision rollout for efficient RL training. However, existing FP4 RL methods suffer from a key limitation: they primarily optimize quantization accuracy on the training and rollout paths independently rather than directly redu",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 92,
-      "arxiv_id": "2610.07767"
-    },
-    {
       "id": "paper:2610.08699",
       "title": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
       "url": "https://huggingface.co/papers/2610.08699",
@@ -198,7 +198,7 @@
       "summary": "Assistants from 2011 answered and waited, and agents from 2023 did a task and stopped. In September 2026 Meta's Muse showed an agent for one person, with accounts, devices, memory and a conversation that lasts, closed, in a vendor's cloud, in one country. Such an agent is expected to act on a person's accounts and devices, remember them across weeks, speak first when it is worth it, and answer for",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 66,
+      "upvotes": 79,
       "arxiv_id": "2610.08699"
     },
     {
@@ -211,7 +211,7 @@
       "summary": "Recent game design agents have made substantial progress in generating playable games. However, program correctness does not ensure an enjoyable experience for players. We present Recursive Game Creator, an experience-oriented harness to advance agentic game development from rough game prototypes into entertaining games. Recursive Game Creator organizes recursive development around four components",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 61,
+      "upvotes": 76,
       "arxiv_id": "2610.08621"
     },
     {
@@ -224,7 +224,7 @@
       "summary": "As large language model (LLM) agents become increasingly autonomous, they may pursue task performance through deception, raising concerns about their reliable deployment. Existing evaluations show that LLM agents can deceive, but often examine isolated scenarios or narrowly defined conditions, limiting systematic understanding of when deception becomes more likely. To address this gap, we introduc",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 55,
+      "upvotes": 64,
       "arxiv_id": "2610.07967"
     },
     {
@@ -241,19 +241,6 @@
       "arxiv_id": "2610.07557"
     },
     {
-      "id": "paper:2610.07753",
-      "title": "From Evidence to Action: How Tool-Using Agents Fail",
-      "url": "https://huggingface.co/papers/2610.07753",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-06T00:00:00+00:00",
-      "summary": "Tool-using agents make consequential changes to external state, yet correct outcomes do not guarantee that their actions were supported by evidence established beforehand. We study where this evidence-to-action chain breaks as agents move from deciding whether to act to executing single actions and dependent workflows. Across ten model-harness configurations, strong static action assessment can co",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 36,
-      "arxiv_id": "2610.07753"
-    },
-    {
       "id": "paper:2610.08760",
       "title": "WorldSonus: Bringing Sound to Worlds",
       "url": "https://huggingface.co/papers/2610.08760",
@@ -263,7 +250,7 @@
       "summary": "Recent advances in world models have enabled increasingly realistic visual synthesis. However, these generated environments remain largely silent. Bringing sound to world models poses three core challenges: real-time generation to keep pace with interactive video streams, interactive control to respond to mid-stream sound instructions, and spatially aligned stereo to reflect scene geometry and cam",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 31,
+      "upvotes": 32,
       "arxiv_id": "2610.08760"
     },
     {
@@ -312,8 +299,21 @@
       "summary": "Multimodal Large Language Models (MLLMs) have demonstrated remarkable potential in video understanding, yet their reliance on retrospective summarization and text-centric priors often limits their ability to bridge unobserved causal transitions when applied to Video Event Prediction (VEP). To address this, we propose VepAgent, an agentic framework that integrates causal-transition reasoning with t",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 51,
+      "upvotes": 52,
       "arxiv_id": "2610.06293"
+    },
+    {
+      "id": "paper:2610.07043",
+      "title": "TRIAGE: Direction-Aware Mismatch Stabilization of Native NVFP4 Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2610.07043",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-05T00:00:00+00:00",
+      "summary": "Low-precision execution can substantially accelerate reinforcement learning (RL) for large language models, but discrepancies between learner and sampler execution can destabilize policy optimization. In this paper, we characterize the interaction between mismatch and the policy-gradient direction, distinguishing locally amplifying from contracting update contributions that mismatch magnitude alon",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 29,
+      "arxiv_id": "2610.07043"
     },
     {
       "id": "yt:lHmZoRHMZyM",
@@ -349,7 +349,7 @@
       "summary": "Self-evolving reasoning models learn from their own generated questions, yet repeated self-training can lead to performance collapse. In this paper, we investigate why performance deteriorates over successive rounds and how to sustain self-evolution. Our analysis identifies two recurring quality problems in self-generated questions: invalid questions and repeated variants of the same mathematical ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 57,
+      "upvotes": 61,
       "arxiv_id": "2610.04299"
     },
     {
@@ -957,7 +957,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T09:13:31.701288+00:00",
+      "fetched_at": "2026-10-08T16:40:51.752159+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1039,7 +1039,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T09:13:31.704528+00:00",
+      "fetched_at": "2026-10-08T16:40:51.755488+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1121,7 +1121,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T09:13:31.708543+00:00",
+      "fetched_at": "2026-10-08T16:40:51.759683+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1203,7 +1203,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T09:13:31.709772+00:00",
+      "fetched_at": "2026-10-08T16:40:51.760937+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1271,7 +1271,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T09:13:31.715662+00:00",
+      "fetched_at": "2026-10-08T16:40:51.766950+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1353,7 +1353,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T09:13:31.715676+00:00",
+      "fetched_at": "2026-10-08T16:40:51.766964+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1421,7 +1421,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T09:13:31.717603+00:00",
+      "fetched_at": "2026-10-08T16:40:51.768982+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1503,7 +1503,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-08T09:13:31.751308+00:00",
+      "fetched_at": "2026-10-08T16:40:51.805500+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1585,7 +1585,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-08T09:13:31.788317+00:00",
+      "fetched_at": "2026-10-08T16:40:51.844420+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1667,7 +1667,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T09:13:31.805860+00:00",
+      "fetched_at": "2026-10-08T16:40:51.863078+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1749,7 +1749,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T09:13:31.812274+00:00",
+      "fetched_at": "2026-10-08T16:40:51.869758+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1831,7 +1831,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T09:13:31.824195+00:00",
+      "fetched_at": "2026-10-08T16:40:51.881536+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1913,7 +1913,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T09:13:31.826753+00:00",
+      "fetched_at": "2026-10-08T16:40:51.884097+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1995,55 +1995,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-08T09:13:12.587262+00:00"
+        "checked_at": "2026-10-08T16:40:35.782145+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-08T09:13:11.554459+00:00"
+        "checked_at": "2026-10-08T16:40:34.751611+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-08T09:13:15.778459+00:00"
+        "checked_at": "2026-10-08T16:40:38.853910+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-08T09:13:13.609234+00:00"
+        "checked_at": "2026-10-08T16:40:36.804066+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-08T09:13:18.104069+00:00"
+        "checked_at": "2026-10-08T16:40:41.142632+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-08T09:13:14.634393+00:00"
+        "checked_at": "2026-10-08T16:40:37.828232+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-08T09:13:16.919656+00:00"
+        "checked_at": "2026-10-08T16:40:39.895203+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-08T09:13:31.827860+00:00"
+      "checked_at": "2026-10-08T16:40:51.885689+00:00"
     }
   }
 }
