@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T21:39:00.765345+00:00",
+  "generated_at": "2026-10-09T01:34:04.242648+00:00",
   "items": [
     {
       "id": "yt:6gfACqBAKfw",
@@ -71,21 +71,8 @@
       "summary": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that access to history is not the same as using it: longer histories pay off far more when the video foun",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 88,
+      "upvotes": 89,
       "arxiv_id": "2610.10528"
-    },
-    {
-      "id": "paper:2610.10524",
-      "title": "GRACE: Generation-aware latent compression for efficient video generation",
-      "url": "https://huggingface.co/papers/2610.10524",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-07T00:00:00+00:00",
-      "summary": "Highly compressed video autoencoders offer an effective way to accelerate video diffusion models, as the Diffusion Transformer (DiT) operates on far fewer tokens. However, such autoencoders are challenging to train, since a higher compression ratio degrades reconstruction quality and recovering it requires more channels, which is known to slow the convergence of the DiT. The compressed latent also",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 63,
-      "arxiv_id": "2610.10524"
     },
     {
       "id": "paper:2610.09823",
@@ -97,8 +84,21 @@
       "summary": "Dense visual text requires image generators to reproduce long strings across multiple regions with correct placement and legibility. As short-string rendering improves, evaluation must test sustained performance across more demanding scenes. We introduce UltraText Bench, a bilingual benchmark for prompt-only generation of dense visual text. It contains 432 prompts spanning 24 real-world scene cate",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 53,
+      "upvotes": 64,
       "arxiv_id": "2610.09823"
+    },
+    {
+      "id": "paper:2610.10524",
+      "title": "GRACE: Generation-aware latent compression for efficient video generation",
+      "url": "https://huggingface.co/papers/2610.10524",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-07T00:00:00+00:00",
+      "summary": "Highly compressed video autoencoders offer an effective way to accelerate video diffusion models, as the Diffusion Transformer (DiT) operates on far fewer tokens. However, such autoencoders are challenging to train, since a higher compression ratio degrades reconstruction quality and recovering it requires more channels, which is known to slow the convergence of the DiT. The compressed latent also",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 64,
+      "arxiv_id": "2610.10524"
     },
     {
       "id": "paper:2610.10429",
@@ -140,6 +140,19 @@
       "arxiv_id": "2610.10444"
     },
     {
+      "id": "paper:2610.10114",
+      "title": "Mechanics of Long-Context Hybrid Models Part 1.1: From Hybrid Attention to Hybrid Position",
+      "url": "https://huggingface.co/papers/2610.10114",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-07T00:00:00+00:00",
+      "summary": "The architectural design of Large Language Models (LLMs) is shifting from traditional full-attention-only models to hybrid models, which combine different attention modules to improve long-context efficiency and performance in length extrapolation and context extension. To explain why hybrid models work and how to design them better, we propose Mechanics of Long-Context Hybrid Models. As Part 1.1 ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 30,
+      "arxiv_id": "2610.10114"
+    },
+    {
       "id": "paper:2610.10409",
       "title": "RobotWorld: Benchmarking Multimodal Agents for Robot Use Across Diverse Tasks and Embodiments",
       "url": "https://huggingface.co/papers/2610.10409",
@@ -151,19 +164,6 @@
       "kind": "paper",
       "upvotes": 29,
       "arxiv_id": "2610.10409"
-    },
-    {
-      "id": "paper:2610.10114",
-      "title": "Mechanics of Long-Context Hybrid Models Part 1.1: From Hybrid Attention to Hybrid Position",
-      "url": "https://huggingface.co/papers/2610.10114",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-07T00:00:00+00:00",
-      "summary": "The architectural design of Large Language Models (LLMs) is shifting from traditional full-attention-only models to hybrid models, which combine different attention modules to improve long-context efficiency and performance in length extrapolation and context extension. To explain why hybrid models work and how to design them better, we propose Mechanics of Long-Context Hybrid Models. As Part 1.1 ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 29,
-      "arxiv_id": "2610.10114"
     },
     {
       "id": "yt:OyzP0Rgiz2I",
@@ -211,7 +211,7 @@
       "summary": "Assistants from 2011 answered and waited, and agents from 2023 did a task and stopped. In September 2026 Meta's Muse showed an agent for one person, with accounts, devices, memory and a conversation that lasts, closed, in a vendor's cloud, in one country. Such an agent is expected to act on a person's accounts and devices, remember them across weeks, speak first when it is worth it, and answer for",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 82,
+      "upvotes": 83,
       "arxiv_id": "2610.08699"
     },
     {
@@ -224,7 +224,7 @@
       "summary": "Recent game design agents have made substantial progress in generating playable games. However, program correctness does not ensure an enjoyable experience for players. We present Recursive Game Creator, an experience-oriented harness to advance agentic game development from rough game prototypes into entertaining games. Recursive Game Creator organizes recursive development around four components",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 79,
+      "upvotes": 80,
       "arxiv_id": "2610.08621"
     },
     {
@@ -263,7 +263,7 @@
       "summary": "Recent advances in world models have enabled increasingly realistic visual synthesis. However, these generated environments remain largely silent. Bringing sound to world models poses three core challenges: real-time generation to keep pace with interactive video streams, interactive control to respond to mid-stream sound instructions, and spatially aligned stereo to reflect scene geometry and cam",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 32,
+      "upvotes": 33,
       "arxiv_id": "2610.08760"
     },
     {
@@ -957,7 +957,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T21:39:00.689381+00:00",
+      "fetched_at": "2026-10-09T01:34:04.151811+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1039,7 +1039,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T21:39:00.691337+00:00",
+      "fetched_at": "2026-10-09T01:34:04.154172+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1121,7 +1121,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T21:39:00.693889+00:00",
+      "fetched_at": "2026-10-09T01:34:04.157082+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1203,7 +1203,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T21:39:00.694652+00:00",
+      "fetched_at": "2026-10-09T01:34:04.158001+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1271,7 +1271,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T21:39:00.698333+00:00",
+      "fetched_at": "2026-10-09T01:34:04.162511+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1353,7 +1353,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T21:39:00.698349+00:00",
+      "fetched_at": "2026-10-09T01:34:04.162526+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1421,7 +1421,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T21:39:00.699546+00:00",
+      "fetched_at": "2026-10-09T01:34:04.163904+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1503,7 +1503,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-08T21:39:00.719632+00:00",
+      "fetched_at": "2026-10-09T01:34:04.186975+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1585,7 +1585,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-08T21:39:00.741369+00:00",
+      "fetched_at": "2026-10-09T01:34:04.213249+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1667,7 +1667,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T21:39:00.752310+00:00",
+      "fetched_at": "2026-10-09T01:34:04.227133+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1749,7 +1749,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T21:39:00.756395+00:00",
+      "fetched_at": "2026-10-09T01:34:04.231992+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1831,77 +1831,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T21:39:00.763028+00:00",
+      "fetched_at": "2026-10-09T01:34:04.240057+00:00",
       "entries": [
         {
           "rank": 1,
-          "name": "Eleven v4",
-          "creator": "Eleven v4",
-          "score": 1327.0,
-          "meta": "Sept 2026 · $80.0 /1M chars"
+          "name": "Eleven v4 Turbo",
+          "creator": "Eleven v4 Turbo",
+          "score": 1329.0,
+          "meta": "Sept 2026 · $40.0 /1M chars"
         },
         {
           "rank": 2,
-          "name": "Eleven v4 Turbo",
-          "creator": "Eleven v4 Turbo",
+          "name": "Eleven v4",
+          "creator": "Eleven v4",
           "score": 1326.0,
-          "meta": "Sept 2026 · $40.0 /1M chars"
+          "meta": "Sept 2026 · $80.0 /1M chars"
         },
         {
           "rank": 3,
           "name": "Qwen-Audio-3.1-TTS-Plus",
           "creator": "Qwen-Audio-3.1-TTS-Plus",
-          "score": 1297.0,
+          "score": 1298.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
           "rank": 4,
           "name": "Sonic 3.6",
           "creator": "Sonic 3.6",
-          "score": 1279.0,
+          "score": 1281.0,
           "meta": "Aug 2026 · $49.0 /1M chars"
         },
         {
           "rank": 5,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Gemini 3.8 Flash TTS",
-          "score": 1277.0,
+          "score": 1275.0,
           "meta": "Sept 2026 · $16.5 /1M chars"
         },
         {
           "rank": 6,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Qwen-Audio-3.0-TTS-Plus",
-          "score": 1263.0,
+          "score": 1267.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
           "rank": 7,
           "name": "Realtime TTS-2",
           "creator": "Realtime TTS-2",
-          "score": 1249.0,
+          "score": 1257.0,
           "meta": "Aug 2026 · $20.8 /1M chars"
         },
         {
           "rank": 8,
           "name": "Simba 3.2",
           "creator": "Simba 3.2",
-          "score": 1242.0,
+          "score": 1244.0,
           "meta": "Jul 2026 · $6.6 /1M chars"
         },
         {
           "rank": 9,
           "name": "Gemini 3.8 Flash-Lite TTS",
           "creator": "Gemini 3.8 Flash-Lite TTS",
-          "score": 1242.0,
+          "score": 1243.0,
           "meta": "Sept 2026 · $11.0 /1M chars"
         },
         {
           "rank": 10,
-          "name": "Luna TTS",
-          "creator": "Luna TTS",
+          "name": "Breeze TTS 2",
+          "creator": "Breeze TTS 2",
           "score": 1222.0,
-          "meta": "Jun 2026 · $15.0 /1M chars"
+          "meta": "Aug 2026 · $34.0 /1M chars"
         }
       ]
     },
@@ -1913,76 +1913,76 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-08T21:39:00.764438+00:00",
+      "fetched_at": "2026-10-09T01:34:04.241767+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Breeze TTS 2",
           "creator": "Breeze TTS 2",
-          "score": 1221.0,
+          "score": 1222.0,
           "meta": "Aug 2026 · $34.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Fish Audio S2 Pro",
           "creator": "Fish Audio S2 Pro",
-          "score": 1115.0,
+          "score": 1116.0,
           "meta": "Mar 2026 · $15.0 /1M chars"
         },
         {
           "rank": 3,
           "name": "Step Audio EditX (Mar 2026)",
           "creator": "Step Audio EditX (Mar 2026)",
-          "score": 1096.0,
+          "score": 1097.0,
           "meta": "Feb 2026 · N/A"
         },
         {
           "rank": 4,
           "name": "Voxtral TTS",
           "creator": "Voxtral TTS",
-          "score": 1083.0,
+          "score": 1085.0,
           "meta": "Mar 2026 · $16.0 /1M chars"
         },
         {
           "rank": 5,
-          "name": "Kokoro 82M v1.0",
-          "creator": "Kokoro 82M v1.0",
-          "score": 1065.0,
-          "meta": "Jan 2025 · $0.7 /1M chars"
-        },
-        {
-          "rank": 6,
           "name": "Magpie-Multilingual 357M (Feb 2026)",
           "creator": "Magpie-Multilingual 357M (Feb 2026)",
           "score": 1065.0,
           "meta": "Feb 2026 · N/A"
         },
         {
+          "rank": 6,
+          "name": "Kokoro 82M v1.0",
+          "creator": "Kokoro 82M v1.0",
+          "score": 1065.0,
+          "meta": "Jan 2025 · $0.7 /1M chars"
+        },
+        {
           "rank": 7,
           "name": "Maya1",
           "creator": "Maya1",
-          "score": 1046.0,
+          "score": 1048.0,
           "meta": "Jun 2025 · N/A"
         },
         {
           "rank": 8,
           "name": "OpenAudio S1 Mini",
           "creator": "OpenAudio S1 Mini",
-          "score": 1044.0,
+          "score": 1045.0,
           "meta": "Jun 2025 · $15.0 /1M chars"
         },
         {
           "rank": 9,
           "name": "Higgs Audio V3 TTS",
           "creator": "Higgs Audio V3 TTS",
-          "score": 1037.0,
+          "score": 1038.0,
           "meta": "Jun 2026 · $15.0 /1M chars"
         },
         {
           "rank": 10,
           "name": "Chatterbox",
           "creator": "Chatterbox",
-          "score": 1025.0,
+          "score": 1028.0,
           "meta": "May 2025 · $25.0 /1M chars"
         }
       ]
@@ -1995,55 +1995,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-08T21:38:44.296990+00:00"
+        "checked_at": "2026-10-09T01:33:47.849646+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-08T21:38:43.266259+00:00"
+        "checked_at": "2026-10-09T01:33:46.822767+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-08T21:38:47.369691+00:00"
+        "checked_at": "2026-10-09T01:33:51.384909+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-08T21:38:45.323129+00:00"
+        "checked_at": "2026-10-09T01:33:49.031769+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-08T21:38:49.579129+00:00"
+        "checked_at": "2026-10-09T01:33:53.742332+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-08T21:38:46.348009+00:00"
+        "checked_at": "2026-10-09T01:33:50.248812+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-08T21:38:48.407980+00:00"
+        "checked_at": "2026-10-09T01:33:52.556037+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-08T21:39:00.765247+00:00"
+      "checked_at": "2026-10-09T01:34:04.242558+00:00"
     }
   }
 }
