@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T17:32:21.915639+00:00",
+  "generated_at": "2026-10-10T20:53:48.434327+00:00",
   "items": [
     {
       "id": "yt:USpkPjv-lxs",
@@ -47,7 +47,7 @@
       "summary": "Interactive virtual worlds allow agents to learn through exploration and interaction. What agents can learn is bounded by the environments they practice in, which must be faithful, with consistent state, rules, and dynamics, and realistic, with observations that follow the real-world visual distributions. Achieving both across diverse worlds remains a bottleneck. We introduce AgentGarten, a framew",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 141,
+      "upvotes": 145,
       "arxiv_id": "2610.12374"
     },
     {
@@ -60,7 +60,7 @@
       "summary": "Learning from experience is essential for LLM agents to adapt to unfamiliar and dynmaic environments. Evaluating this ability is therefore important for understanding how effectively agents acquire and use new knowledge. Existing benchmarks have sought to evaluate this ability, but they primarily evaluate tasks whose rules are provided in the instructions or already familiar to pretrained models, ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 130,
+      "upvotes": 131,
       "arxiv_id": "2610.08215"
     },
     {
@@ -73,8 +73,21 @@
       "summary": "Large language model (LLM) routing distributes inference work across different models, advancing the cost-quality Pareto frontier of LLM serving. While coarse-grained routing at the session or query level has been widely adopted in production systems, recent algorithmic work shows that fine-grained token-level routing can yield substantial efficiency and quality gains. However, efficiently serving",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 121,
+      "upvotes": 123,
       "arxiv_id": "2610.12242"
+    },
+    {
+      "id": "paper:2610.12126",
+      "title": "SuperNav: An Agentic Navigation System for Any Task in Any Scene",
+      "url": "https://huggingface.co/papers/2610.12126",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-08T00:00:00+00:00",
+      "summary": "General-purpose service robots need navigation systems that can handle diverse human requests in unfamiliar environments, combining task generality with scene generality. Some existing methods fine-tune multimodal large language models (MLLMs) to predict navigation actions, making their behavior dependent on the coverage of navigation training data and potentially limiting generalization to new re",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 66,
+      "arxiv_id": "2610.12126"
     },
     {
       "id": "paper:2610.11959",
@@ -88,19 +101,6 @@
       "kind": "paper",
       "upvotes": 65,
       "arxiv_id": "2610.11959"
-    },
-    {
-      "id": "paper:2610.12126",
-      "title": "SuperNav: An Agentic Navigation System for Any Task in Any Scene",
-      "url": "https://huggingface.co/papers/2610.12126",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-08T00:00:00+00:00",
-      "summary": "General-purpose service robots need navigation systems that can handle diverse human requests in unfamiliar environments, combining task generality with scene generality. Some existing methods fine-tune multimodal large language models (MLLMs) to predict navigation actions, making their behavior dependent on the coverage of navigation training data and potentially limiting generalization to new re",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 65,
-      "arxiv_id": "2610.12126"
     },
     {
       "id": "paper:2610.12299",
@@ -274,7 +274,7 @@
       "summary": "Reinforcement learning with verifiable rewards (RLVR) turns agent experience into learning signals primarily through scalar outcome rewards after interaction. For group-relative objectives, however, this signal vanishes when all rollouts receive the same reward, even though their trajectories may reveal useful information about what the task requires and how the agent fails. We ask a complementary",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 139,
+      "upvotes": 140,
       "arxiv_id": "2610.08077"
     },
     {
@@ -336,7 +336,7 @@
       "summary": "Realistic environment replicas are increasingly valuable for training and evaluating LLM agents, yet the original systems may be inaccessible or impractical to reproduce. We explore agentic language world modeling: rather than rebuilding an executable environment, a world model agent serves as the environment for a task agent and supports faithful and stateful simulation. We instantiate this parad",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 123,
+      "upvotes": 125,
       "arxiv_id": "2610.06100"
     },
     {
@@ -921,7 +921,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T17:32:21.854006+00:00",
+      "fetched_at": "2026-10-10T20:53:48.343852+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1003,7 +1003,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T17:32:21.855563+00:00",
+      "fetched_at": "2026-10-10T20:53:48.346152+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1085,7 +1085,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T17:32:21.857474+00:00",
+      "fetched_at": "2026-10-10T20:53:48.349006+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1167,7 +1167,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T17:32:21.858083+00:00",
+      "fetched_at": "2026-10-10T20:53:48.349895+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1235,7 +1235,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T17:32:21.861012+00:00",
+      "fetched_at": "2026-10-10T20:53:48.354232+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1317,7 +1317,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T17:32:21.861020+00:00",
+      "fetched_at": "2026-10-10T20:53:48.354243+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1385,7 +1385,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T17:32:21.861953+00:00",
+      "fetched_at": "2026-10-10T20:53:48.355642+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1467,7 +1467,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-10T17:32:21.878406+00:00",
+      "fetched_at": "2026-10-10T20:53:48.378684+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1549,7 +1549,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-10T17:32:21.896264+00:00",
+      "fetched_at": "2026-10-10T20:53:48.403450+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1631,7 +1631,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T17:32:21.904729+00:00",
+      "fetched_at": "2026-10-10T20:53:48.417296+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1651,28 +1651,28 @@
           "rank": 3,
           "name": "GPT Image 2 (high)",
           "creator": "GPT Image 2 (high)",
-          "score": 1171.0,
+          "score": 1172.0,
           "meta": "Apr 2026 · $211.0 /1k imgs"
         },
         {
           "rank": 4,
           "name": "Nano Banana 2.1",
           "creator": "Nano Banana 2.1",
-          "score": 1160.0,
+          "score": 1161.0,
           "meta": "Oct 2026 · $33.6 /1k imgs"
         },
         {
           "rank": 5,
           "name": "Grok Imagine Image 2.0",
           "creator": "Grok Imagine Image 2.0",
-          "score": 1157.0,
+          "score": 1156.0,
           "meta": "Aug 2026 · $60.0 /1k imgs"
         },
         {
           "rank": 6,
           "name": "MAI-Image-2.6",
           "creator": "MAI-Image-2.6",
-          "score": 1152.0,
+          "score": 1151.0,
           "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
@@ -1686,7 +1686,7 @@
           "rank": 8,
           "name": "FLUX 3 Image",
           "creator": "FLUX 3 Image",
-          "score": 1115.0,
+          "score": 1117.0,
           "meta": "Oct 2026 · $48.0 /1k imgs"
         },
         {
@@ -1700,7 +1700,7 @@
           "rank": 10,
           "name": "GPT Image 1.5 (high)",
           "creator": "GPT Image 1.5 (high)",
-          "score": 1109.0,
+          "score": 1108.0,
           "meta": "Dec 2025 · $133.0 /1k imgs"
         }
       ]
@@ -1713,7 +1713,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T17:32:21.907794+00:00",
+      "fetched_at": "2026-10-10T20:53:48.422299+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1733,7 +1733,7 @@
           "rank": 3,
           "name": "Ideogram 4.0",
           "creator": "Ideogram 4.0",
-          "score": 1003.0,
+          "score": 1004.0,
           "meta": "Jun 2026 · $60.0 /1k imgs"
         },
         {
@@ -1754,36 +1754,36 @@
           "rank": 6,
           "name": "Ming-Image-0.1-Design",
           "creator": "Ming-Image-0.1-Design",
-          "score": 998.0,
+          "score": 999.0,
           "meta": "Sep 2026 · $30.0 /1k imgs"
         },
         {
           "rank": 7,
           "name": "FLUX.2 [dev] Turbo",
           "creator": "FLUX.2 [dev] Turbo",
-          "score": 997.0,
+          "score": 998.0,
           "meta": "Dec 2025 · $8.0 /1k imgs"
         },
         {
           "rank": 8,
           "name": "HunyuanImage 3.0 Instruct",
           "creator": "HunyuanImage 3.0 Instruct",
-          "score": 995.0,
+          "score": 996.0,
           "meta": "Jan 2026 · No API available"
         },
         {
           "rank": 9,
           "name": "Cosmos3-Super-Text2Image (agentic)",
           "creator": "Cosmos3-Super-Text2Image (agentic)",
-          "score": 995.0,
+          "score": 996.0,
           "meta": "May 2026 · No API available"
         },
         {
           "rank": 10,
-          "name": "Cosmos3-Super-Text2Image",
-          "creator": "Cosmos3-Super-Text2Image",
+          "name": "Ideogram 4.0 Fast (Quality)",
+          "creator": "Ideogram 4.0 Fast (Quality)",
           "score": 987.0,
-          "meta": "May 2026 · $40.0 /1k imgs"
+          "meta": "Jul 2026 · $17.5 /1k imgs"
         }
       ]
     },
@@ -1795,7 +1795,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T17:32:21.913198+00:00",
+      "fetched_at": "2026-10-10T20:53:48.431160+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1877,7 +1877,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T17:32:21.914332+00:00",
+      "fetched_at": "2026-10-10T20:53:48.433057+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1959,55 +1959,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-10T17:32:04.914582+00:00"
+        "checked_at": "2026-10-10T20:53:32.291052+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-10T17:32:03.755295+00:00"
+        "checked_at": "2026-10-10T20:53:31.122511+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-10T17:32:08.303334+00:00"
+        "checked_at": "2026-10-10T20:53:35.718301+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-10T17:32:05.938284+00:00"
+        "checked_at": "2026-10-10T20:53:33.453023+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-10T17:32:10.650465+00:00"
+        "checked_at": "2026-10-10T20:53:38.131213+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-10T17:32:07.140380+00:00"
+        "checked_at": "2026-10-10T20:53:34.580635+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-10T17:32:09.471184+00:00"
+        "checked_at": "2026-10-10T20:53:36.956135+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-10T17:32:21.915549+00:00"
+      "checked_at": "2026-10-10T20:53:48.434241+00:00"
     }
   }
 }
