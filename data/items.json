@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T20:10:50.207869+00:00",
+  "generated_at": "2026-10-10T00:08:12.284166+00:00",
   "items": [
     {
       "id": "yt:ATBnss54_t4",
@@ -35,7 +35,7 @@
       "summary": "Interactive virtual worlds allow agents to learn through exploration and interaction. What agents can learn is bounded by the environments they practice in, which must be faithful, with consistent state, rules, and dynamics, and realistic, with observations that follow the real-world visual distributions. Achieving both across diverse worlds remains a bottleneck. We introduce AgentGarten, a framew",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 130,
+      "upvotes": 131,
       "arxiv_id": "2610.12374"
     },
     {
@@ -48,7 +48,7 @@
       "summary": "Large language model (LLM) routing distributes inference work across different models, advancing the cost-quality Pareto frontier of LLM serving. While coarse-grained routing at the session or query level has been widely adopted in production systems, recent algorithmic work shows that fine-grained token-level routing can yield substantial efficiency and quality gains. However, efficiently serving",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 100,
+      "upvotes": 102,
       "arxiv_id": "2610.12242"
     },
     {
@@ -61,7 +61,7 @@
       "summary": "Learning from experience is essential for LLM agents to adapt to unfamiliar and dynmaic environments. Evaluating this ability is therefore important for understanding how effectively agents acquire and use new knowledge. Existing benchmarks have sought to evaluate this ability, but they primarily evaluate tasks whose rules are provided in the instructions or already familiar to pretrained models, ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 70,
+      "upvotes": 76,
       "arxiv_id": "2610.08215"
     },
     {
@@ -74,7 +74,7 @@
       "summary": "General-purpose service robots need navigation systems that can handle diverse human requests in unfamiliar environments, combining task generality with scene generality. Some existing methods fine-tune multimodal large language models (MLLMs) to predict navigation actions, making their behavior dependent on the coverage of navigation training data and potentially limiting generalization to new re",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 61,
+      "upvotes": 62,
       "arxiv_id": "2610.12126"
     },
     {
@@ -100,7 +100,7 @@
       "summary": "Egocentric world models predict first-person observations conditioned on an agent's actions, but most focus on a single agent. Real embodied settings often involve multiple agents that act and interact within a shared environment. Existing multi-agent world models rely on coarse actions like locomotion, camera control, or discrete commands, leaving fine-grained embodied interactions underexplored.",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 41,
+      "upvotes": 43,
       "arxiv_id": "2610.12299"
     },
     {
@@ -262,7 +262,7 @@
       "summary": "Reinforcement learning with verifiable rewards (RLVR) turns agent experience into learning signals primarily through scalar outcome rewards after interaction. For group-relative objectives, however, this signal vanishes when all rollouts receive the same reward, even though their trajectories may reveal useful information about what the task requires and how the agent fails. We ask a complementary",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 129,
+      "upvotes": 133,
       "arxiv_id": "2610.08077"
     },
     {
@@ -275,7 +275,7 @@
       "summary": "Large language models are informing decisions with ever-higher stakes. As the consequences of their errors grow, a central question becomes harder to ignore: how much can we trust an individual answer? Yet recognizing when to defer remains difficult because language models can present incorrect conclusions with fluent explanations and an authoritative tone. Uncertainty quantification seeks to addr",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 27,
+      "upvotes": 29,
       "arxiv_id": "2610.09087"
     },
     {
@@ -945,41 +945,41 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-09T20:10:50.147445+00:00",
+      "fetched_at": "2026-10-10T00:08:12.158091+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "GPT Image 2.5 Sunburst (max)",
-          "score": 1183.0,
+          "score": 1182.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 2,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "GPT Image 2.5 Flare (max)",
-          "score": 1163.0,
+          "score": 1165.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 3,
-          "name": "MAI-Image-2.6",
-          "creator": "MAI-Image-2.6",
-          "score": 1139.0,
-          "meta": "Aug 2026 · $38.9 /1k imgs"
+          "name": "Nano Banana 2.1",
+          "creator": "Nano Banana 2.1",
+          "score": 1140.0,
+          "meta": "Oct 2026 · $33.6 /1k imgs"
         },
         {
           "rank": 4,
-          "name": "Nano Banana 2.1",
-          "creator": "Nano Banana 2.1",
-          "score": 1137.0,
-          "meta": "Oct 2026 · $33.6 /1k imgs"
+          "name": "MAI-Image-2.6",
+          "creator": "MAI-Image-2.6",
+          "score": 1140.0,
+          "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
           "rank": 5,
           "name": "MAI-Image-2.6-Flash",
           "creator": "MAI-Image-2.6-Flash",
-          "score": 1127.0,
+          "score": 1128.0,
           "meta": "Sep 2026 · $19.5 /1k imgs"
         },
         {
@@ -1000,21 +1000,21 @@
           "rank": 8,
           "name": "MAI-Image-2.5",
           "creator": "MAI-Image-2.5",
-          "score": 1114.0,
+          "score": 1115.0,
           "meta": "Jun 2026 · $48.1 /1k imgs"
         },
         {
           "rank": 9,
           "name": "Grok Imagine Image 2.0",
           "creator": "Grok Imagine Image 2.0",
-          "score": 1110.0,
+          "score": 1111.0,
           "meta": "Aug 2026 · $60.0 /1k imgs"
         },
         {
           "rank": 10,
           "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "creator": "Nano Banana 2 (Gemini 3.1 Flash Image)",
-          "score": 1110.0,
+          "score": 1111.0,
           "meta": "Feb 2026 · $67.0 /1k imgs"
         }
       ]
@@ -1027,13 +1027,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-09T20:10:50.148967+00:00",
+      "fetched_at": "2026-10-10T00:08:12.161331+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Qwen-Image-2.1",
           "creator": "Qwen-Image-2.1",
-          "score": 1074.0,
+          "score": 1075.0,
           "meta": "Sep 2026 · No API available"
         },
         {
@@ -1082,14 +1082,14 @@
           "rank": 8,
           "name": "Qwen Image Edit Plus 2509",
           "creator": "Qwen Image Edit Plus 2509",
-          "score": 982.0,
+          "score": 984.0,
           "meta": "Sep 2025 · $30.0 /1k imgs"
         },
         {
           "rank": 9,
           "name": "FLUX.2 [klein] Base 9B",
           "creator": "FLUX.2 [klein] Base 9B",
-          "score": 974.0,
+          "score": 975.0,
           "meta": "Jan 2026 · $22.0 /1k imgs"
         },
         {
@@ -1109,7 +1109,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-09T20:10:50.150825+00:00",
+      "fetched_at": "2026-10-10T00:08:12.165340+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1191,7 +1191,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-09T20:10:50.151389+00:00",
+      "fetched_at": "2026-10-10T00:08:12.166559+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1259,7 +1259,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-09T20:10:50.154260+00:00",
+      "fetched_at": "2026-10-10T00:08:12.172419+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1341,7 +1341,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-09T20:10:50.154268+00:00",
+      "fetched_at": "2026-10-10T00:08:12.172433+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1409,7 +1409,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-09T20:10:50.155186+00:00",
+      "fetched_at": "2026-10-10T00:08:12.174408+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1491,7 +1491,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-09T20:10:50.171277+00:00",
+      "fetched_at": "2026-10-10T00:08:12.207362+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1573,7 +1573,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-09T20:10:50.188792+00:00",
+      "fetched_at": "2026-10-10T00:08:12.244216+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1655,7 +1655,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-09T20:10:50.197331+00:00",
+      "fetched_at": "2026-10-10T00:08:12.262380+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1737,7 +1737,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-09T20:10:50.200357+00:00",
+      "fetched_at": "2026-10-10T00:08:12.268670+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1819,41 +1819,41 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-09T20:10:50.205594+00:00",
+      "fetched_at": "2026-10-10T00:08:12.280461+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Eleven v4 Turbo",
           "creator": "Eleven v4 Turbo",
-          "score": 1328.0,
+          "score": 1327.0,
           "meta": "Sept 2026 · $40.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Eleven v4",
           "creator": "Eleven v4",
-          "score": 1320.0,
+          "score": 1323.0,
           "meta": "Sept 2026 · $80.0 /1M chars"
         },
         {
           "rank": 3,
           "name": "Qwen-Audio-3.1-TTS-Plus",
           "creator": "Qwen-Audio-3.1-TTS-Plus",
-          "score": 1296.0,
+          "score": 1298.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
           "rank": 4,
           "name": "Sonic 3.6",
           "creator": "Sonic 3.6",
-          "score": 1280.0,
+          "score": 1284.0,
           "meta": "Aug 2026 · $49.0 /1M chars"
         },
         {
           "rank": 5,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Gemini 3.8 Flash TTS",
-          "score": 1273.0,
+          "score": 1272.0,
           "meta": "Sept 2026 · $16.5 /1M chars"
         },
         {
@@ -1867,29 +1867,29 @@
           "rank": 7,
           "name": "Realtime TTS-2",
           "creator": "Realtime TTS-2",
-          "score": 1254.0,
+          "score": 1257.0,
           "meta": "Aug 2026 · $20.8 /1M chars"
         },
         {
           "rank": 8,
           "name": "Gemini 3.8 Flash-Lite TTS",
           "creator": "Gemini 3.8 Flash-Lite TTS",
-          "score": 1243.0,
+          "score": 1244.0,
           "meta": "Sept 2026 · $11.0 /1M chars"
         },
         {
           "rank": 9,
           "name": "Simba 3.2",
           "creator": "Simba 3.2",
-          "score": 1242.0,
+          "score": 1243.0,
           "meta": "Jul 2026 · $6.6 /1M chars"
         },
         {
           "rank": 10,
-          "name": "Luna TTS",
-          "creator": "Luna TTS",
-          "score": 1220.0,
-          "meta": "Jun 2026 · $15.0 /1M chars"
+          "name": "Breeze TTS 2",
+          "creator": "Breeze TTS 2",
+          "score": 1222.0,
+          "meta": "Aug 2026 · $34.0 /1M chars"
         }
       ]
     },
@@ -1901,7 +1901,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-09T20:10:50.206731+00:00",
+      "fetched_at": "2026-10-10T00:08:12.282982+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1921,56 +1921,56 @@
           "rank": 3,
           "name": "Step Audio EditX (Mar 2026)",
           "creator": "Step Audio EditX (Mar 2026)",
-          "score": 1097.0,
+          "score": 1096.0,
           "meta": "Feb 2026 · N/A"
         },
         {
           "rank": 4,
           "name": "Voxtral TTS",
           "creator": "Voxtral TTS",
-          "score": 1085.0,
+          "score": 1086.0,
           "meta": "Mar 2026 · $16.0 /1M chars"
         },
         {
           "rank": 5,
-          "name": "Magpie-Multilingual 357M (Feb 2026)",
-          "creator": "Magpie-Multilingual 357M (Feb 2026)",
-          "score": 1065.0,
-          "meta": "Feb 2026 · N/A"
+          "name": "Kokoro 82M v1.0",
+          "creator": "Kokoro 82M v1.0",
+          "score": 1064.0,
+          "meta": "Jan 2025 · $0.7 /1M chars"
         },
         {
           "rank": 6,
-          "name": "Kokoro 82M v1.0",
-          "creator": "Kokoro 82M v1.0",
-          "score": 1065.0,
-          "meta": "Jan 2025 · $0.7 /1M chars"
+          "name": "Magpie-Multilingual 357M (Feb 2026)",
+          "creator": "Magpie-Multilingual 357M (Feb 2026)",
+          "score": 1062.0,
+          "meta": "Feb 2026 · N/A"
         },
         {
           "rank": 7,
           "name": "Maya1",
           "creator": "Maya1",
-          "score": 1048.0,
+          "score": 1046.0,
           "meta": "Jun 2025 · N/A"
         },
         {
           "rank": 8,
           "name": "OpenAudio S1 Mini",
           "creator": "OpenAudio S1 Mini",
-          "score": 1045.0,
+          "score": 1044.0,
           "meta": "Jun 2025 · $15.0 /1M chars"
         },
         {
           "rank": 9,
           "name": "Higgs Audio V3 TTS",
           "creator": "Higgs Audio V3 TTS",
-          "score": 1038.0,
+          "score": 1036.0,
           "meta": "Jun 2026 · $15.0 /1M chars"
         },
         {
           "rank": 10,
           "name": "Chatterbox",
           "creator": "Chatterbox",
-          "score": 1028.0,
+          "score": 1026.0,
           "meta": "May 2025 · $25.0 /1M chars"
         }
       ]
@@ -1983,55 +1983,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-09T20:10:31.240805+00:00"
+        "checked_at": "2026-10-10T00:07:52.629096+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-09T20:10:30.212046+00:00"
+        "checked_at": "2026-10-10T00:07:51.601334+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-09T20:10:34.306248+00:00"
+        "checked_at": "2026-10-10T00:07:55.689788+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-09T20:10:32.261482+00:00"
+        "checked_at": "2026-10-10T00:07:53.648119+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-09T20:10:36.514576+00:00"
+        "checked_at": "2026-10-10T00:07:57.832659+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-09T20:10:33.284235+00:00"
+        "checked_at": "2026-10-10T00:07:54.669445+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-09T20:10:35.340314+00:00"
+        "checked_at": "2026-10-10T00:07:56.726768+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-09T20:10:50.207763+00:00"
+      "checked_at": "2026-10-10T00:08:12.284083+00:00"
     }
   }
 }
