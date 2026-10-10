@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T20:53:48.434327+00:00",
+  "generated_at": "2026-10-10T23:59:10.536237+00:00",
   "items": [
     {
       "id": "yt:USpkPjv-lxs",
@@ -274,7 +274,7 @@
       "summary": "Reinforcement learning with verifiable rewards (RLVR) turns agent experience into learning signals primarily through scalar outcome rewards after interaction. For group-relative objectives, however, this signal vanishes when all rollouts receive the same reward, even though their trajectories may reveal useful information about what the task requires and how the agent fails. We ask a complementary",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 140,
+      "upvotes": 141,
       "arxiv_id": "2610.08077"
     },
     {
@@ -921,7 +921,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T20:53:48.343852+00:00",
+      "fetched_at": "2026-10-10T23:59:10.407819+00:00",
       "entries": [
         {
           "rank": 1,
@@ -934,7 +934,7 @@
           "rank": 2,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "GPT Image 2.5 Flare (max)",
-          "score": 1164.0,
+          "score": 1165.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
@@ -962,7 +962,7 @@
           "rank": 6,
           "name": "GPT Image 2 (high)",
           "creator": "GPT Image 2 (high)",
-          "score": 1126.0,
+          "score": 1127.0,
           "meta": "Apr 2026 · $211.0 /1k imgs"
         },
         {
@@ -990,7 +990,7 @@
           "rank": 10,
           "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "creator": "Nano Banana 2 (Gemini 3.1 Flash Image)",
-          "score": 1110.0,
+          "score": 1111.0,
           "meta": "Feb 2026 · $67.0 /1k imgs"
         }
       ]
@@ -1003,7 +1003,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T20:53:48.346152+00:00",
+      "fetched_at": "2026-10-10T23:59:10.411071+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1030,7 +1030,7 @@
           "rank": 4,
           "name": "FLUX.2 [klein] 9B",
           "creator": "FLUX.2 [klein] 9B",
-          "score": 1014.0,
+          "score": 1013.0,
           "meta": "Jan 2026 · $17.0 /1k imgs"
         },
         {
@@ -1058,14 +1058,14 @@
           "rank": 8,
           "name": "Qwen Image Edit Plus 2509",
           "creator": "Qwen Image Edit Plus 2509",
-          "score": 983.0,
+          "score": 984.0,
           "meta": "Sep 2025 · $30.0 /1k imgs"
         },
         {
           "rank": 9,
           "name": "FLUX.2 [klein] Base 9B",
           "creator": "FLUX.2 [klein] Base 9B",
-          "score": 975.0,
+          "score": 976.0,
           "meta": "Jan 2026 · $22.0 /1k imgs"
         },
         {
@@ -1085,7 +1085,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T20:53:48.349006+00:00",
+      "fetched_at": "2026-10-10T23:59:10.415081+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1167,7 +1167,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T20:53:48.349895+00:00",
+      "fetched_at": "2026-10-10T23:59:10.416321+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1235,7 +1235,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T20:53:48.354232+00:00",
+      "fetched_at": "2026-10-10T23:59:10.422198+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1317,7 +1317,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T20:53:48.354243+00:00",
+      "fetched_at": "2026-10-10T23:59:10.422212+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1385,7 +1385,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T20:53:48.355642+00:00",
+      "fetched_at": "2026-10-10T23:59:10.424177+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1467,7 +1467,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-10T20:53:48.378684+00:00",
+      "fetched_at": "2026-10-10T23:59:10.459195+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1549,7 +1549,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-10T20:53:48.403450+00:00",
+      "fetched_at": "2026-10-10T23:59:10.496125+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1631,7 +1631,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T20:53:48.417296+00:00",
+      "fetched_at": "2026-10-10T23:59:10.514191+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1658,14 +1658,14 @@
           "rank": 4,
           "name": "Nano Banana 2.1",
           "creator": "Nano Banana 2.1",
-          "score": 1161.0,
+          "score": 1160.0,
           "meta": "Oct 2026 · $33.6 /1k imgs"
         },
         {
           "rank": 5,
           "name": "Grok Imagine Image 2.0",
           "creator": "Grok Imagine Image 2.0",
-          "score": 1156.0,
+          "score": 1155.0,
           "meta": "Aug 2026 · $60.0 /1k imgs"
         },
         {
@@ -1679,14 +1679,14 @@
           "rank": 7,
           "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "creator": "Nano Banana 2 (Gemini 3.1 Flash Image)",
-          "score": 1126.0,
+          "score": 1125.0,
           "meta": "Feb 2026 · $67.0 /1k imgs"
         },
         {
           "rank": 8,
           "name": "FLUX 3 Image",
           "creator": "FLUX 3 Image",
-          "score": 1117.0,
+          "score": 1116.0,
           "meta": "Oct 2026 · $48.0 /1k imgs"
         },
         {
@@ -1713,13 +1713,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T20:53:48.422299+00:00",
+      "fetched_at": "2026-10-10T23:59:10.520647+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Qwen-Image-2.1",
           "creator": "Qwen-Image-2.1",
-          "score": 1037.0,
+          "score": 1036.0,
           "meta": "Sep 2026 · No API available"
         },
         {
@@ -1761,7 +1761,7 @@
           "rank": 7,
           "name": "FLUX.2 [dev] Turbo",
           "creator": "FLUX.2 [dev] Turbo",
-          "score": 998.0,
+          "score": 997.0,
           "meta": "Dec 2025 · $8.0 /1k imgs"
         },
         {
@@ -1775,7 +1775,7 @@
           "rank": 9,
           "name": "Cosmos3-Super-Text2Image (agentic)",
           "creator": "Cosmos3-Super-Text2Image (agentic)",
-          "score": 996.0,
+          "score": 995.0,
           "meta": "May 2026 · No API available"
         },
         {
@@ -1795,7 +1795,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T20:53:48.431160+00:00",
+      "fetched_at": "2026-10-10T23:59:10.532378+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1877,7 +1877,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T20:53:48.433057+00:00",
+      "fetched_at": "2026-10-10T23:59:10.534909+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1959,55 +1959,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-10T20:53:32.291052+00:00"
+        "checked_at": "2026-10-10T23:58:54.847442+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-10T20:53:31.122511+00:00"
+        "ok": false,
+        "items": 9,
+        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-10-10T23:58:53.805942+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-10T20:53:35.718301+00:00"
+        "checked_at": "2026-10-10T23:58:57.959137+00:00"
       },
       {
         "name": "Fireship",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-10T20:53:33.453023+00:00"
+        "ok": false,
+        "items": 11,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "checked_at": "2026-10-10T23:58:55.916878+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-10T20:53:38.131213+00:00"
+        "checked_at": "2026-10-10T23:59:00.353765+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-10T20:53:34.580635+00:00"
+        "checked_at": "2026-10-10T23:58:56.938497+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-10T20:53:36.956135+00:00"
+        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-10-10T23:58:59.126448+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-10T20:53:48.434241+00:00"
+      "checked_at": "2026-10-10T23:59:10.536149+00:00"
     }
   }
 }
