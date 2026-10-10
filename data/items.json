@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-10-10T06:06:31.321510+00:00",
+  "generated_at": "2026-10-10T12:47:13.343222+00:00",
   "items": [
+    {
+      "id": "yt:USpkPjv-lxs",
+      "title": "HUGE Gemini 4 Carbon LEAKS, Claude Fable 6, GPT-7 Bel, Google CRACKED RSI?! & More! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=USpkPjv-lxs",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-10-10T07:34:33+00:00",
+      "summary": "While Gemini 4 Argon hasn't even launched, Google is allegedly testing a newer checkpoint called Carbon that employees are comparing to Claude Opus 5.5 in coding... 🚨 Everything you’re about to see, I benchmarked using the tool I made. If you want to run these tests yourself or test models on whatev",
+      "thumbnail": "https://i2.ytimg.com/vi/USpkPjv-lxs/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
     {
       "id": "yt:ATBnss54_t4",
       "title": "HUGE Gemini 4 Argon UPDATE, Fable 5.5 LEAKS, GPT-6.1 Ultrafast, Claude Motion, & Step 5! AI NEWS",
@@ -35,21 +47,8 @@
       "summary": "Interactive virtual worlds allow agents to learn through exploration and interaction. What agents can learn is bounded by the environments they practice in, which must be faithful, with consistent state, rules, and dynamics, and realistic, with observations that follow the real-world visual distributions. Achieving both across diverse worlds remains a bottleneck. We introduce AgentGarten, a framew",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 134,
+      "upvotes": 139,
       "arxiv_id": "2610.12374"
-    },
-    {
-      "id": "paper:2610.12242",
-      "title": "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
-      "url": "https://huggingface.co/papers/2610.12242",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-08T00:00:00+00:00",
-      "summary": "Large language model (LLM) routing distributes inference work across different models, advancing the cost-quality Pareto frontier of LLM serving. While coarse-grained routing at the session or query level has been widely adopted in production systems, recent algorithmic work shows that fine-grained token-level routing can yield substantial efficiency and quality gains. However, efficiently serving",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 111,
-      "arxiv_id": "2610.12242"
     },
     {
       "id": "paper:2610.08215",
@@ -61,8 +60,21 @@
       "summary": "Learning from experience is essential for LLM agents to adapt to unfamiliar and dynmaic environments. Evaluating this ability is therefore important for understanding how effectively agents acquire and use new knowledge. Existing benchmarks have sought to evaluate this ability, but they primarily evaluate tasks whose rules are provided in the instructions or already familiar to pretrained models, ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 109,
+      "upvotes": 129,
       "arxiv_id": "2610.08215"
+    },
+    {
+      "id": "paper:2610.12242",
+      "title": "TokenRouter: Efficient Serving System for Token-Level LLM Routing",
+      "url": "https://huggingface.co/papers/2610.12242",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-08T00:00:00+00:00",
+      "summary": "Large language model (LLM) routing distributes inference work across different models, advancing the cost-quality Pareto frontier of LLM serving. While coarse-grained routing at the session or query level has been widely adopted in production systems, recent algorithmic work shows that fine-grained token-level routing can yield substantial efficiency and quality gains. However, efficiently serving",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 120,
+      "arxiv_id": "2610.12242"
     },
     {
       "id": "paper:2610.12126",
@@ -74,7 +86,7 @@
       "summary": "General-purpose service robots need navigation systems that can handle diverse human requests in unfamiliar environments, combining task generality with scene generality. Some existing methods fine-tune multimodal large language models (MLLMs) to predict navigation actions, making their behavior dependent on the coverage of navigation training data and potentially limiting generalization to new re",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 64,
+      "upvotes": 65,
       "arxiv_id": "2610.12126"
     },
     {
@@ -87,7 +99,7 @@
       "summary": "Reinforcement learning (RL) is the central training paradigm for advancing large foundation models towards self-improvement. This report introduces the MiMo-V2.6 series, an omni-modal family that pushes the frontier of model intelligence by scaling RL compute. Prior to RL, we conduct mid-training on a broad multimodal corpus to provide ample exploration space, and build a solid infrastructure on t",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 58,
+      "upvotes": 64,
       "arxiv_id": "2610.11959"
     },
     {
@@ -100,8 +112,47 @@
       "summary": "Egocentric world models predict first-person observations conditioned on an agent's actions, but most focus on a single agent. Real embodied settings often involve multiple agents that act and interact within a shared environment. Existing multi-agent world models rely on coarse actions like locomotion, camera control, or discrete commands, leaving fine-grained embodied interactions underexplored.",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 44,
+      "upvotes": 46,
       "arxiv_id": "2610.12299"
+    },
+    {
+      "id": "paper:2501.09223",
+      "title": "Foundations of Large Language Models",
+      "url": "https://huggingface.co/papers/2501.09223",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-08T00:00:00+00:00",
+      "summary": "This is a book about large language models. As indicated by the title, it primarily focuses on foundational concepts rather than comprehensive coverage of all cutting-edge technologies. The book is structured into six main chapters, each exploring a key area: pre-training, generative models, prompting, alignment, inference, and reasoning. It is intended for college students, professionals, and pra",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 38,
+      "arxiv_id": "2501.09223"
+    },
+    {
+      "id": "paper:2610.12461",
+      "title": "OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs",
+      "url": "https://huggingface.co/papers/2610.12461",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-08T00:00:00+00:00",
+      "summary": "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoint. A vision-language model infers plausible dynamics and guides a video model to synthesize a reference video, which we",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 35,
+      "arxiv_id": "2610.12461"
+    },
+    {
+      "id": "paper:2610.12421",
+      "title": "Beyond Spatio-Temporal Priors: A Generalizable Approach for Dense Correspondence Matching",
+      "url": "https://huggingface.co/papers/2610.12421",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-08T00:00:00+00:00",
+      "summary": "Dense correspondence matching has historically been bounded by simplifying spatio-temporal priors, such as smooth motion and rigid geometry. While effective for classical tasks, these assumptions break down in image editing and reference-guided generation (IEG), where transformations can preserve visual identity while breaking physical continuity. To establish identity-preserving correspondence ac",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 34,
+      "arxiv_id": "2610.12421"
     },
     {
       "id": "paper:2610.12468",
@@ -117,45 +168,6 @@
       "arxiv_id": "2610.12468"
     },
     {
-      "id": "paper:2501.09223",
-      "title": "Foundations of Large Language Models",
-      "url": "https://huggingface.co/papers/2501.09223",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-08T00:00:00+00:00",
-      "summary": "This is a book about large language models. As indicated by the title, it primarily focuses on foundational concepts rather than comprehensive coverage of all cutting-edge technologies. The book is structured into six main chapters, each exploring a key area: pre-training, generative models, prompting, alignment, inference, and reasoning. It is intended for college students, professionals, and pra",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 33,
-      "arxiv_id": "2501.09223"
-    },
-    {
-      "id": "paper:2610.12461",
-      "title": "OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs",
-      "url": "https://huggingface.co/papers/2610.12461",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-08T00:00:00+00:00",
-      "summary": "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoint. A vision-language model infers plausible dynamics and guides a video model to synthesize a reference video, which we",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 33,
-      "arxiv_id": "2610.12461"
-    },
-    {
-      "id": "paper:2610.12421",
-      "title": "Beyond Spatio-Temporal Priors: A Generalizable Approach for Dense Correspondence Matching",
-      "url": "https://huggingface.co/papers/2610.12421",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-08T00:00:00+00:00",
-      "summary": "Dense correspondence matching has historically been bounded by simplifying spatio-temporal priors, such as smooth motion and rigid geometry. While effective for classical tasks, these assumptions break down in image editing and reference-guided generation (IEG), where transformations can preserve visual identity while breaking physical continuity. To establish identity-preserving correspondence ac",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 32,
-      "arxiv_id": "2610.12421"
-    },
-    {
       "id": "paper:2610.12289",
       "title": "TestPrism: Rethinking Test Evaluation Beyond a Single Reference",
       "url": "https://huggingface.co/papers/2610.12289",
@@ -165,7 +177,7 @@
       "summary": "Large language model (LLM) coding agents have advanced test generation across diverse programming tasks. However, the common practice of evaluating tests against a single reference solution overlooks alternative valid implementations and can overstate test quality. We introduce TestPrism, comprising 300 test tasks from 17 sources and 3000 candidate implementations, evenly split between valid and i",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 29,
+      "upvotes": 30,
       "arxiv_id": "2610.12289"
     },
     {
@@ -262,7 +274,7 @@
       "summary": "Reinforcement learning with verifiable rewards (RLVR) turns agent experience into learning signals primarily through scalar outcome rewards after interaction. For group-relative objectives, however, this signal vanishes when all rollouts receive the same reward, even though their trajectories may reveal useful information about what the task requires and how the agent fails. We ask a complementary",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 135,
+      "upvotes": 137,
       "arxiv_id": "2610.08077"
     },
     {
@@ -275,7 +287,7 @@
       "summary": "Large language models are informing decisions with ever-higher stakes. As the consequences of their errors grow, a central question becomes harder to ignore: how much can we trust an individual answer? Yet recognizing when to defer remains difficult because language models can present incorrect conclusions with fluent explanations and an authoritative tone. Uncertainty quantification seeks to addr",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 30,
+      "upvotes": 33,
       "arxiv_id": "2610.09087"
     },
     {
@@ -324,7 +336,7 @@
       "summary": "Realistic environment replicas are increasingly valuable for training and evaluating LLM agents, yet the original systems may be inaccessible or impractical to reproduce. We explore agentic language world modeling: rather than rebuilding an executable environment, a world model agent serves as the environment for a task agent and supports faithful and stateful simulation. We instantiate this parad",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 122,
+      "upvotes": 123,
       "arxiv_id": "2610.06100"
     },
     {
@@ -337,7 +349,7 @@
       "summary": "Sparse attention is a primary approach to reducing the latency of diffusion transformers in long-sequence generation tasks, such as video and high-resolution 3D asset generation. However, existing methods can degrade generation quality and fidelity at high sparsity levels. Through controlled oracle comparisons, we trace this degradation to three sources: constraints imposed by token grouping, inac",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 30,
+      "upvotes": 33,
       "arxiv_id": "2610.06801"
     },
     {
@@ -689,18 +701,6 @@
       "channel": "Fireship"
     },
     {
-      "id": "yt:GJIkBVSoxUw",
-      "title": "HUGE AI NEWS: GPT-6 Sol & Luna, Opus 5.5, Sonnet 5.5, Haiku 5.5, Qwen 4.0, & Trump To Change AI!",
-      "url": "https://www.youtube.com/watch?v=GJIkBVSoxUw",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-09-23T06:15:08+00:00",
-      "summary": "🚨 Everything you’re about to see, I benchmarked using the tool I made. If you want to run these tests yourself or test models on whatever you actually use them for! → https://www.woaibench.ai/ HUGE day in AI! OpenAI just dropped GPT-6 Sol and GPT-6 Luna, bringing GPT-6-level intelligence at dramatic",
-      "thumbnail": "https://i4.ytimg.com/vi/GJIkBVSoxUw/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:ux6Lafw7en0",
       "title": "Claude Opus 5.5 Is INSANE – Hands-On With the BEST Model Yet!",
       "url": "https://www.youtube.com/watch?v=ux6Lafw7en0",
@@ -903,18 +903,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/aspmNhKAFMc/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
-    },
-    {
-      "id": "yt:mOvtumfyjCs",
-      "title": "I Never Thought I’d See This Happen",
-      "url": "https://www.youtube.com/watch?v=mOvtumfyjCs",
-      "source": "Two Minute Papers",
-      "category": "videos",
-      "published": "2026-09-10T08:47:23+00:00",
-      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 The Navier-Stokes solution paper is available here: https://openai.com/index/navier-stokes-solution/ My fluid simulations and papers: https://users.cg.tuwien.ac.at/zsolnai/gfx/fluid_control_msc_thesis/ https://users",
-      "thumbnail": "https://i2.ytimg.com/vi/mOvtumfyjCs/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Two Minute Papers"
     }
   ],
   "featured": [
@@ -933,7 +921,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T06:06:31.257012+00:00",
+      "fetched_at": "2026-10-10T12:47:13.213020+00:00",
       "entries": [
         {
           "rank": 1,
@@ -946,42 +934,42 @@
           "rank": 2,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "GPT Image 2.5 Flare (max)",
-          "score": 1164.0,
+          "score": 1165.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 3,
           "name": "MAI-Image-2.6",
           "creator": "MAI-Image-2.6",
-          "score": 1140.0,
+          "score": 1141.0,
           "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
           "rank": 4,
           "name": "Nano Banana 2.1",
           "creator": "Nano Banana 2.1",
-          "score": 1139.0,
+          "score": 1140.0,
           "meta": "Oct 2026 · $33.6 /1k imgs"
         },
         {
           "rank": 5,
           "name": "MAI-Image-2.6-Flash",
           "creator": "MAI-Image-2.6-Flash",
-          "score": 1129.0,
+          "score": 1128.0,
           "meta": "Sep 2026 · $19.5 /1k imgs"
         },
         {
           "rank": 6,
           "name": "GPT Image 2 (high)",
           "creator": "GPT Image 2 (high)",
-          "score": 1126.0,
+          "score": 1127.0,
           "meta": "Apr 2026 · $211.0 /1k imgs"
         },
         {
           "rank": 7,
           "name": "Muse Image",
           "creator": "Muse Image",
-          "score": 1121.0,
+          "score": 1122.0,
           "meta": "Jul 2026 · $10.0 /1k imgs"
         },
         {
@@ -995,15 +983,15 @@
           "rank": 9,
           "name": "Grok Imagine Image 2.0",
           "creator": "Grok Imagine Image 2.0",
-          "score": 1112.0,
+          "score": 1114.0,
           "meta": "Aug 2026 · $60.0 /1k imgs"
         },
         {
           "rank": 10,
-          "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
-          "creator": "Nano Banana 2 (Gemini 3.1 Flash Image)",
-          "score": 1111.0,
-          "meta": "Feb 2026 · $67.0 /1k imgs"
+          "name": "MAI-Image-2.5-Pro",
+          "creator": "MAI-Image-2.5-Pro",
+          "score": 1112.0,
+          "meta": "Jul 2026 · $108.5 /1k imgs"
         }
       ]
     },
@@ -1015,20 +1003,20 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T06:06:31.258605+00:00",
+      "fetched_at": "2026-10-10T12:47:13.216232+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Qwen-Image-2.1",
           "creator": "Qwen-Image-2.1",
-          "score": 1075.0,
+          "score": 1074.0,
           "meta": "Sep 2026 · No API available"
         },
         {
           "rank": 2,
           "name": "HunyuanImage 3.0 Instruct",
           "creator": "HunyuanImage 3.0 Instruct",
-          "score": 1069.0,
+          "score": 1068.0,
           "meta": "Jan 2026 · No API available"
         },
         {
@@ -1070,7 +1058,7 @@
           "rank": 8,
           "name": "Qwen Image Edit Plus 2509",
           "creator": "Qwen Image Edit Plus 2509",
-          "score": 984.0,
+          "score": 985.0,
           "meta": "Sep 2025 · $30.0 /1k imgs"
         },
         {
@@ -1084,7 +1072,7 @@
           "rank": 10,
           "name": "HiDream-O1-Image",
           "creator": "HiDream-O1-Image",
-          "score": 952.0,
+          "score": 954.0,
           "meta": "May 2026 · $10.0 /1k imgs"
         }
       ]
@@ -1097,7 +1085,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T06:06:31.260615+00:00",
+      "fetched_at": "2026-10-10T12:47:13.220252+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1179,7 +1167,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T06:06:31.261232+00:00",
+      "fetched_at": "2026-10-10T12:47:13.221490+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1247,7 +1235,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T06:06:31.264488+00:00",
+      "fetched_at": "2026-10-10T12:47:13.227424+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1329,7 +1317,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T06:06:31.264497+00:00",
+      "fetched_at": "2026-10-10T12:47:13.227438+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1397,7 +1385,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T06:06:31.265497+00:00",
+      "fetched_at": "2026-10-10T12:47:13.229444+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1479,7 +1467,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-10T06:06:31.282954+00:00",
+      "fetched_at": "2026-10-10T12:47:13.264488+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1561,7 +1549,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-10T06:06:31.301600+00:00",
+      "fetched_at": "2026-10-10T12:47:13.301714+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1643,7 +1631,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T06:06:31.310519+00:00",
+      "fetched_at": "2026-10-10T12:47:13.320437+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1663,7 +1651,7 @@
           "rank": 3,
           "name": "GPT Image 2 (high)",
           "creator": "GPT Image 2 (high)",
-          "score": 1172.0,
+          "score": 1171.0,
           "meta": "Apr 2026 · $211.0 /1k imgs"
         },
         {
@@ -1691,22 +1679,22 @@
           "rank": 7,
           "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "creator": "Nano Banana 2 (Gemini 3.1 Flash Image)",
-          "score": 1126.0,
+          "score": 1127.0,
           "meta": "Feb 2026 · $67.0 /1k imgs"
         },
         {
           "rank": 8,
-          "name": "FLUX 3 Image",
-          "creator": "FLUX 3 Image",
-          "score": 1117.0,
-          "meta": "Oct 2026 · $48.0 /1k imgs"
+          "name": "Muse Image",
+          "creator": "Muse Image",
+          "score": 1116.0,
+          "meta": "Jul 2026 · $10.0 /1k imgs"
         },
         {
           "rank": 9,
-          "name": "Muse Image",
-          "creator": "Muse Image",
+          "name": "FLUX 3 Image",
+          "creator": "FLUX 3 Image",
           "score": 1115.0,
-          "meta": "Jul 2026 · $10.0 /1k imgs"
+          "meta": "Oct 2026 · $48.0 /1k imgs"
         },
         {
           "rank": 10,
@@ -1725,13 +1713,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T06:06:31.313686+00:00",
+      "fetched_at": "2026-10-10T12:47:13.327098+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Qwen-Image-2.1",
           "creator": "Qwen-Image-2.1",
-          "score": 1035.0,
+          "score": 1038.0,
           "meta": "Sep 2026 · No API available"
         },
         {
@@ -1745,7 +1733,7 @@
           "rank": 3,
           "name": "Ideogram 4.0",
           "creator": "Ideogram 4.0",
-          "score": 1004.0,
+          "score": 1003.0,
           "meta": "Jun 2026 · $60.0 /1k imgs"
         },
         {
@@ -1764,17 +1752,17 @@
         },
         {
           "rank": 6,
+          "name": "Ming-Image-0.1-Design",
+          "creator": "Ming-Image-0.1-Design",
+          "score": 998.0,
+          "meta": "Sep 2026 · $30.0 /1k imgs"
+        },
+        {
+          "rank": 7,
           "name": "FLUX.2 [dev] Turbo",
           "creator": "FLUX.2 [dev] Turbo",
           "score": 998.0,
           "meta": "Dec 2025 · $8.0 /1k imgs"
-        },
-        {
-          "rank": 7,
-          "name": "Ming-Image-0.1-Design",
-          "creator": "Ming-Image-0.1-Design",
-          "score": 997.0,
-          "meta": "Sep 2026 · $30.0 /1k imgs"
         },
         {
           "rank": 8,
@@ -1787,7 +1775,7 @@
           "rank": 9,
           "name": "Cosmos3-Super-Text2Image (agentic)",
           "creator": "Cosmos3-Super-Text2Image (agentic)",
-          "score": 994.0,
+          "score": 993.0,
           "meta": "May 2026 · No API available"
         },
         {
@@ -1807,7 +1795,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T06:06:31.319150+00:00",
+      "fetched_at": "2026-10-10T12:47:13.339244+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1889,7 +1877,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T06:06:31.320348+00:00",
+      "fetched_at": "2026-10-10T12:47:13.341803+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1971,55 +1959,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-10T06:06:11.213094+00:00"
+        "checked_at": "2026-10-10T12:46:57.347449+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 10,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-10-10T06:06:10.179070+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-10T12:46:56.320364+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-10-10T06:06:14.317200+00:00"
+        "error": null,
+        "checked_at": "2026-10-10T12:47:00.407507+00:00"
       },
       {
         "name": "Fireship",
-        "ok": false,
-        "items": 11,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-10-10T06:06:12.254617+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-10T12:46:58.366277+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-10T06:06:16.534390+00:00"
+        "checked_at": "2026-10-10T12:47:02.582214+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-10T06:06:13.274274+00:00"
+        "checked_at": "2026-10-10T12:46:59.387339+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-10-10T06:06:15.353916+00:00"
+        "error": null,
+        "checked_at": "2026-10-10T12:47:01.443745+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-10T06:06:31.321424+00:00"
+      "checked_at": "2026-10-10T12:47:13.343127+00:00"
     }
   }
 }
