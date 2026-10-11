@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T20:29:52.705803+00:00",
+  "generated_at": "2026-10-11T23:51:46.127815+00:00",
   "items": [
     {
       "id": "yt:4fLVq6HJsKc",
@@ -83,7 +83,7 @@
       "summary": "Interactive virtual worlds allow agents to learn through exploration and interaction. What agents can learn is bounded by the environments they practice in, which must be faithful, with consistent state, rules, and dynamics, and realistic, with observations that follow the real-world visual distributions. Achieving both across diverse worlds remains a bottleneck. We introduce AgentGarten, a framew",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 218,
+      "upvotes": 253,
       "arxiv_id": "2610.12374"
     },
     {
@@ -933,7 +933,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T20:29:52.577812+00:00",
+      "fetched_at": "2026-10-11T23:51:46.063793+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1015,7 +1015,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T20:29:52.581044+00:00",
+      "fetched_at": "2026-10-11T23:51:46.065368+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1097,7 +1097,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T20:29:52.585010+00:00",
+      "fetched_at": "2026-10-11T23:51:46.067311+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1179,7 +1179,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T20:29:52.586209+00:00",
+      "fetched_at": "2026-10-11T23:51:46.067904+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1247,7 +1247,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T20:29:52.592060+00:00",
+      "fetched_at": "2026-10-11T23:51:46.070880+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1329,7 +1329,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T20:29:52.592073+00:00",
+      "fetched_at": "2026-10-11T23:51:46.070888+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1397,7 +1397,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T20:29:52.593942+00:00",
+      "fetched_at": "2026-10-11T23:51:46.071843+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1479,7 +1479,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-11T20:29:52.626864+00:00",
+      "fetched_at": "2026-10-11T23:51:46.089077+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1561,7 +1561,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-11T20:29:52.664872+00:00",
+      "fetched_at": "2026-10-11T23:51:46.107381+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1643,7 +1643,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T20:29:52.683061+00:00",
+      "fetched_at": "2026-10-11T23:51:46.116473+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1725,7 +1725,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T20:29:52.689727+00:00",
+      "fetched_at": "2026-10-11T23:51:46.119755+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1807,7 +1807,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T20:29:52.701606+00:00",
+      "fetched_at": "2026-10-11T23:51:46.125424+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1889,7 +1889,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T20:29:52.704144+00:00",
+      "fetched_at": "2026-10-11T23:51:46.126603+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1968,58 +1968,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-11T20:29:36.223585+00:00"
+        "ok": false,
+        "items": 3,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-10-11T23:51:30.332078+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-11T20:29:35.192075+00:00"
+        "ok": false,
+        "items": 10,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-10-11T23:51:29.276832+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-11T20:29:39.293509+00:00"
+        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-10-11T23:51:33.588557+00:00"
       },
       {
         "name": "Fireship",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-11T20:29:37.246856+00:00"
+        "ok": false,
+        "items": 10,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "checked_at": "2026-10-11T23:51:31.392863+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-11T20:29:41.749725+00:00"
+        "checked_at": "2026-10-11T23:51:35.804453+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-11T20:29:38.270867+00:00"
+        "ok": false,
+        "items": 7,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-10-11T23:51:32.447228+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-11T20:29:40.528644+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-10-11T23:51:34.651511+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-11T20:29:52.705713+00:00"
+      "checked_at": "2026-10-11T23:51:46.127754+00:00"
     }
   }
 }
