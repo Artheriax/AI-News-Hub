@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-10-11T04:26:30.577327+00:00",
+  "generated_at": "2026-10-11T10:56:52.979918+00:00",
   "items": [
+    {
+      "id": "yt:0EwN9bb157M",
+      "title": "China AI ACHIEVED RSI? GLM 5.5, NEW Fable 5.5 Checkpoint, Qwen4, Kimi K3.1, M3.1 Pro & More! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=0EwN9bb157M",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-10-11T07:45:11+00:00",
+      "summary": "🚨 Everything you’re about to see, I benchmarked using the tool I made. If you want to run these tests yourself or test models on whatever you actually use them for! → https://www.woaibench.ai/ China's AI scene is HEATING UP, and we might be witnessing the beginning of a massive shift toward recursiv",
+      "thumbnail": "https://i1.ytimg.com/vi/0EwN9bb157M/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
+      "id": "yt:X0_GDOkLKzQ",
+      "title": "New AI enzymes, 700+ math breakthroughs, AI for DNA mutations, room temp semiconductors: AI NEWS",
+      "url": "https://www.youtube.com/watch?v=X0_GDOkLKzQ",
+      "source": "AI Search",
+      "category": "videos",
+      "published": "2026-10-11T03:27:53+00:00",
+      "summary": "HUGE AI NEWS: OpenAI math breakthroughs, AlphaProtein Novo, Botanic-1, Iris 3B, Kandinsky 6.0, Mistral Large 4, Haiku 5.5 & more. Thanks to our sponsor Higgsfield. Try it today https://higgsfield.ai/s/theaisearch-SjGrCf #ai #ainews #aitools #aivideo #agi #singularity WorldPlay 2 https://worldplay2.g",
+      "thumbnail": "https://i1.ytimg.com/vi/X0_GDOkLKzQ/hqdefault.jpg",
+      "kind": "video",
+      "channel": "AI Search"
+    },
     {
       "id": "yt:USpkPjv-lxs",
       "title": "HUGE Gemini 4 Carbon LEAKS, Claude Fable 6, GPT-7 Bel, Google CRACKED RSI?! & More! AI NEWS",
@@ -73,8 +97,21 @@
       "summary": "Large language model (LLM) routing distributes inference work across different models, advancing the cost-quality Pareto frontier of LLM serving. While coarse-grained routing at the session or query level has been widely adopted in production systems, recent algorithmic work shows that fine-grained token-level routing can yield substantial efficiency and quality gains. However, efficiently serving",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 128,
+      "upvotes": 129,
       "arxiv_id": "2610.12242"
+    },
+    {
+      "id": "paper:2610.11959",
+      "title": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
+      "url": "https://huggingface.co/papers/2610.11959",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-08T00:00:00+00:00",
+      "summary": "Reinforcement learning (RL) is the central training paradigm for advancing large foundation models towards self-improvement. This report introduces the MiMo-V2.6 series, an omni-modal family that pushes the frontier of model intelligence by scaling RL compute. Prior to RL, we conduct mid-training on a broad multimodal corpus to provide ample exploration space, and build a solid infrastructure on t",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 72,
+      "arxiv_id": "2610.11959"
     },
     {
       "id": "paper:2610.12126",
@@ -90,19 +127,6 @@
       "arxiv_id": "2610.12126"
     },
     {
-      "id": "paper:2610.11959",
-      "title": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
-      "url": "https://huggingface.co/papers/2610.11959",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-08T00:00:00+00:00",
-      "summary": "Reinforcement learning (RL) is the central training paradigm for advancing large foundation models towards self-improvement. This report introduces the MiMo-V2.6 series, an omni-modal family that pushes the frontier of model intelligence by scaling RL compute. Prior to RL, we conduct mid-training on a broad multimodal corpus to provide ample exploration space, and build a solid infrastructure on t",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 70,
-      "arxiv_id": "2610.11959"
-    },
-    {
       "id": "paper:2610.12299",
       "title": "Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction",
       "url": "https://huggingface.co/papers/2610.12299",
@@ -112,7 +136,7 @@
       "summary": "Egocentric world models predict first-person observations conditioned on an agent's actions, but most focus on a single agent. Real embodied settings often involve multiple agents that act and interact within a shared environment. Existing multi-agent world models rely on coarse actions like locomotion, camera control, or discrete commands, leaving fine-grained embodied interactions underexplored.",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 51,
+      "upvotes": 52,
       "arxiv_id": "2610.12299"
     },
     {
@@ -138,7 +162,7 @@
       "summary": "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoint. A vision-language model infers plausible dynamics and guides a video model to synthesize a reference video, which we",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 41,
+      "upvotes": 42,
       "arxiv_id": "2610.12461"
     },
     {
@@ -155,6 +179,19 @@
       "arxiv_id": "2610.12421"
     },
     {
+      "id": "paper:2610.11287",
+      "title": "REMORY: Learning Residual Memory for Context Compaction",
+      "url": "https://huggingface.co/papers/2610.11287",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-08T00:00:00+00:00",
+      "summary": "Long-horizon agents compact their history to continue within a finite context window, but a textual summary alone may not support every subsequent decision. We introduce REMORY, a neural memory network that supplements the summary with a bounded sequence of soft memory tokens. Given the history and summary, the network learns to generate tokens that help a frozen LLM approximate the continuation i",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 37,
+      "arxiv_id": "2610.11287"
+    },
+    {
       "id": "paper:2610.12468",
       "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
       "url": "https://huggingface.co/papers/2610.12468",
@@ -166,19 +203,6 @@
       "kind": "paper",
       "upvotes": 37,
       "arxiv_id": "2610.12468"
-    },
-    {
-      "id": "paper:2610.12289",
-      "title": "TestPrism: Rethinking Test Evaluation Beyond a Single Reference",
-      "url": "https://huggingface.co/papers/2610.12289",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-08T00:00:00+00:00",
-      "summary": "Large language model (LLM) coding agents have advanced test generation across diverse programming tasks. However, the common practice of evaluating tests against a single reference solution overlooks alternative valid implementations and can overstate test quality. We introduce TestPrism, comprising 300 test tasks from 17 sources and 3000 candidate implementations, evenly split between valid and i",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 34,
-      "arxiv_id": "2610.12289"
     },
     {
       "id": "yt:rGUzoHunuV8",
@@ -274,7 +298,7 @@
       "summary": "Reinforcement learning with verifiable rewards (RLVR) turns agent experience into learning signals primarily through scalar outcome rewards after interaction. For group-relative objectives, however, this signal vanishes when all rollouts receive the same reward, even though their trajectories may reveal useful information about what the task requires and how the agent fails. We ask a complementary",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 149,
+      "upvotes": 156,
       "arxiv_id": "2610.08077"
     },
     {
@@ -653,18 +677,6 @@
       "channel": "Two Minute Papers"
     },
     {
-      "id": "yt:zPbbOaX5yJ8",
-      "title": "HUGE GPT-6 Astra Minor LEAK, Claude HUGE Discovery, Mimo V3.0, Sonnet 5.5, & Muse Spark 1.4! AI NEWS",
-      "url": "https://www.youtube.com/watch?v=zPbbOaX5yJ8",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-09-24T06:15:30+00:00",
-      "summary": "You have the right to co-write with AI. Super is live now → https://stealthgpt.ai?via=woai AI news is moving insanely fast. GPT-6 Astra Minor has seemingly leaked through OpenAI’s own documentation, potentially revealing another mysterious model inside the GPT-6 family. Meanwhile, Claude helped unco",
-      "thumbnail": "https://i3.ytimg.com/vi/zPbbOaX5yJ8/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:gX0L0aFA2xg",
       "title": "Claude Opus 5.5 is ridiculous",
       "url": "https://www.youtube.com/watch?v=gX0L0aFA2xg",
@@ -921,7 +933,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T04:26:30.517360+00:00",
+      "fetched_at": "2026-10-11T10:56:52.891248+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1003,7 +1015,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T04:26:30.518881+00:00",
+      "fetched_at": "2026-10-11T10:56:52.893550+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1085,7 +1097,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T04:26:30.520754+00:00",
+      "fetched_at": "2026-10-11T10:56:52.896400+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1167,7 +1179,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T04:26:30.521336+00:00",
+      "fetched_at": "2026-10-11T10:56:52.897273+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1235,7 +1247,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T04:26:30.524226+00:00",
+      "fetched_at": "2026-10-11T10:56:52.901637+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1317,7 +1329,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T04:26:30.524236+00:00",
+      "fetched_at": "2026-10-11T10:56:52.901648+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1385,7 +1397,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T04:26:30.525151+00:00",
+      "fetched_at": "2026-10-11T10:56:52.903072+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1467,7 +1479,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-11T04:26:30.541131+00:00",
+      "fetched_at": "2026-10-11T10:56:52.926230+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1549,7 +1561,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-11T04:26:30.558395+00:00",
+      "fetched_at": "2026-10-11T10:56:52.950958+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1631,7 +1643,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T04:26:30.566778+00:00",
+      "fetched_at": "2026-10-11T10:56:52.963861+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1713,7 +1725,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T04:26:30.569746+00:00",
+      "fetched_at": "2026-10-11T10:56:52.968644+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1795,7 +1807,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T04:26:30.575078+00:00",
+      "fetched_at": "2026-10-11T10:56:52.977045+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1877,7 +1889,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T04:26:30.576189+00:00",
+      "fetched_at": "2026-10-11T10:56:52.978861+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1956,58 +1968,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 3,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-10-11T04:26:14.191122+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-11T10:56:37.162920+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 9,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-10-11T04:26:13.033118+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-11T10:56:36.142242+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-10-11T04:26:17.470142+00:00"
+        "error": null,
+        "checked_at": "2026-10-11T10:56:40.379441+00:00"
       },
       {
         "name": "Fireship",
-        "ok": false,
-        "items": 11,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-10-11T04:26:15.266070+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-11T10:56:38.176776+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-11T04:26:19.769792+00:00"
+        "checked_at": "2026-10-11T10:56:42.732509+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": false,
-        "items": 6,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-10-11T04:26:16.336573+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-11T10:56:39.192606+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-10-11T04:26:18.552903+00:00"
+        "error": null,
+        "checked_at": "2026-10-11T10:56:41.562863+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-11T04:26:30.577233+00:00"
+      "checked_at": "2026-10-11T10:56:52.979830+00:00"
     }
   }
 }
