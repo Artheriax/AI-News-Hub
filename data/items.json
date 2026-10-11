@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-10-11T16:29:32.922567+00:00",
+  "generated_at": "2026-10-11T20:29:52.705803+00:00",
   "items": [
+    {
+      "id": "yt:4fLVq6HJsKc",
+      "title": "DeepSeek Solved AI’s Memory Problem",
+      "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
+      "source": "Two Minute Papers",
+      "category": "videos",
+      "published": "2026-10-11T16:53:17+00:00",
+      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 The DeepSeek OCR paper is available here: https://github.com/deepseek-ai/DeepSeek-OCR 🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible: Adam Bridges, B Shang, Carlos Galar",
+      "thumbnail": "https://i1.ytimg.com/vi/4fLVq6HJsKc/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Two Minute Papers"
+    },
     {
       "id": "yt:0EwN9bb157M",
       "title": "China AI ACHIEVED RSI? GLM 5.5, NEW Fable 5.5 Checkpoint, Qwen4, Kimi K3.1, M3.1 Pro & More! AI NEWS",
@@ -71,7 +83,7 @@
       "summary": "Interactive virtual worlds allow agents to learn through exploration and interaction. What agents can learn is bounded by the environments they practice in, which must be faithful, with consistent state, rules, and dynamics, and realistic, with observations that follow the real-world visual distributions. Achieving both across diverse worlds remains a bottleneck. We introduce AgentGarten, a framew",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 184,
+      "upvotes": 218,
       "arxiv_id": "2610.12374"
     },
     {
@@ -110,7 +122,7 @@
       "summary": "Reinforcement learning (RL) is the central training paradigm for advancing large foundation models towards self-improvement. This report introduces the MiMo-V2.6 series, an omni-modal family that pushes the frontier of model intelligence by scaling RL compute. Prior to RL, we conduct mid-training on a broad multimodal corpus to provide ample exploration space, and build a solid infrastructure on t",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 72,
+      "upvotes": 74,
       "arxiv_id": "2610.11959"
     },
     {
@@ -298,7 +310,7 @@
       "summary": "Reinforcement learning with verifiable rewards (RLVR) turns agent experience into learning signals primarily through scalar outcome rewards after interaction. For group-relative objectives, however, this signal vanishes when all rollouts receive the same reward, even though their trajectories may reveal useful information about what the task requires and how the agent fails. We ask a complementary",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 159,
+      "upvotes": 160,
       "arxiv_id": "2610.08077"
     },
     {
@@ -373,7 +385,7 @@
       "summary": "Sparse attention is a primary approach to reducing the latency of diffusion transformers in long-sequence generation tasks, such as video and high-resolution 3D asset generation. However, existing methods can degrade generation quality and fidelity at high sparsity levels. Through controlled oracle comparisons, we trace this degradation to three sources: constraints imposed by token grouping, inac",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 37,
+      "upvotes": 38,
       "arxiv_id": "2610.06801"
     },
     {
@@ -903,18 +915,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/nZYJdwM-_nI/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "yt:aspmNhKAFMc",
-      "title": "OpenAI's biggest math breakthrough is getting ugly...",
-      "url": "https://www.youtube.com/watch?v=aspmNhKAFMc",
-      "source": "Fireship",
-      "category": "videos",
-      "published": "2026-09-11T17:24:40+00:00",
-      "summary": "Railway is the smoothest way to deploy software: https://railway.com/?referralCode=fireship OpenAI claims it cracked a 90 year old math problem, but one NYU professor isn't happy about it. Let's dive in. #coding #programming Want more Fireship? 🗞️ Newsletter: https://bytes.dev 🧠 Courses: https://fir",
-      "thumbnail": "https://i2.ytimg.com/vi/aspmNhKAFMc/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Fireship"
     }
   ],
   "featured": [
@@ -933,7 +933,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T16:29:32.790365+00:00",
+      "fetched_at": "2026-10-11T20:29:52.577812+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1015,7 +1015,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T16:29:32.793746+00:00",
+      "fetched_at": "2026-10-11T20:29:52.581044+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1097,7 +1097,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T16:29:32.797928+00:00",
+      "fetched_at": "2026-10-11T20:29:52.585010+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1179,7 +1179,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T16:29:32.799199+00:00",
+      "fetched_at": "2026-10-11T20:29:52.586209+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1247,7 +1247,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T16:29:32.805235+00:00",
+      "fetched_at": "2026-10-11T20:29:52.592060+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1329,7 +1329,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T16:29:32.805249+00:00",
+      "fetched_at": "2026-10-11T20:29:52.592073+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1397,7 +1397,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T16:29:32.807204+00:00",
+      "fetched_at": "2026-10-11T20:29:52.593942+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1479,7 +1479,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-11T16:29:32.843244+00:00",
+      "fetched_at": "2026-10-11T20:29:52.626864+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1561,7 +1561,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-11T16:29:32.881248+00:00",
+      "fetched_at": "2026-10-11T20:29:52.664872+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1643,7 +1643,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T16:29:32.900054+00:00",
+      "fetched_at": "2026-10-11T20:29:52.683061+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1725,7 +1725,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T16:29:32.906783+00:00",
+      "fetched_at": "2026-10-11T20:29:52.689727+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1807,7 +1807,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T16:29:32.918731+00:00",
+      "fetched_at": "2026-10-11T20:29:52.701606+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1889,7 +1889,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T16:29:32.921277+00:00",
+      "fetched_at": "2026-10-11T20:29:52.704144+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1971,55 +1971,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-11T16:29:16.374555+00:00"
+        "checked_at": "2026-10-11T20:29:36.223585+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-11T16:29:15.185643+00:00"
+        "checked_at": "2026-10-11T20:29:35.192075+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-11T16:29:19.639053+00:00"
+        "checked_at": "2026-10-11T20:29:39.293509+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-11T16:29:17.398475+00:00"
+        "checked_at": "2026-10-11T20:29:37.246856+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-11T16:29:21.946672+00:00"
+        "checked_at": "2026-10-11T20:29:41.749725+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-11T16:29:18.543333+00:00"
+        "checked_at": "2026-10-11T20:29:38.270867+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-11T16:29:20.820556+00:00"
+        "checked_at": "2026-10-11T20:29:40.528644+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-11T16:29:32.922489+00:00"
+      "checked_at": "2026-10-11T20:29:52.705713+00:00"
     }
   }
 }
