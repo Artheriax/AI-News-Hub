@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T23:59:10.536237+00:00",
+  "generated_at": "2026-10-11T04:26:30.577327+00:00",
   "items": [
     {
       "id": "yt:USpkPjv-lxs",
@@ -47,7 +47,7 @@
       "summary": "Interactive virtual worlds allow agents to learn through exploration and interaction. What agents can learn is bounded by the environments they practice in, which must be faithful, with consistent state, rules, and dynamics, and realistic, with observations that follow the real-world visual distributions. Achieving both across diverse worlds remains a bottleneck. We introduce AgentGarten, a framew",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 145,
+      "upvotes": 149,
       "arxiv_id": "2610.12374"
     },
     {
@@ -60,7 +60,7 @@
       "summary": "Learning from experience is essential for LLM agents to adapt to unfamiliar and dynmaic environments. Evaluating this ability is therefore important for understanding how effectively agents acquire and use new knowledge. Existing benchmarks have sought to evaluate this ability, but they primarily evaluate tasks whose rules are provided in the instructions or already familiar to pretrained models, ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 131,
+      "upvotes": 135,
       "arxiv_id": "2610.08215"
     },
     {
@@ -73,7 +73,7 @@
       "summary": "Large language model (LLM) routing distributes inference work across different models, advancing the cost-quality Pareto frontier of LLM serving. While coarse-grained routing at the session or query level has been widely adopted in production systems, recent algorithmic work shows that fine-grained token-level routing can yield substantial efficiency and quality gains. However, efficiently serving",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 123,
+      "upvotes": 128,
       "arxiv_id": "2610.12242"
     },
     {
@@ -86,7 +86,7 @@
       "summary": "General-purpose service robots need navigation systems that can handle diverse human requests in unfamiliar environments, combining task generality with scene generality. Some existing methods fine-tune multimodal large language models (MLLMs) to predict navigation actions, making their behavior dependent on the coverage of navigation training data and potentially limiting generalization to new re",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 66,
+      "upvotes": 71,
       "arxiv_id": "2610.12126"
     },
     {
@@ -99,7 +99,7 @@
       "summary": "Reinforcement learning (RL) is the central training paradigm for advancing large foundation models towards self-improvement. This report introduces the MiMo-V2.6 series, an omni-modal family that pushes the frontier of model intelligence by scaling RL compute. Prior to RL, we conduct mid-training on a broad multimodal corpus to provide ample exploration space, and build a solid infrastructure on t",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 65,
+      "upvotes": 70,
       "arxiv_id": "2610.11959"
     },
     {
@@ -112,7 +112,7 @@
       "summary": "Egocentric world models predict first-person observations conditioned on an agent's actions, but most focus on a single agent. Real embodied settings often involve multiple agents that act and interact within a shared environment. Existing multi-agent world models rely on coarse actions like locomotion, camera control, or discrete commands, leaving fine-grained embodied interactions underexplored.",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 47,
+      "upvotes": 51,
       "arxiv_id": "2610.12299"
     },
     {
@@ -125,7 +125,7 @@
       "summary": "This is a book about large language models. As indicated by the title, it primarily focuses on foundational concepts rather than comprehensive coverage of all cutting-edge technologies. The book is structured into six main chapters, each exploring a key area: pre-training, generative models, prompting, alignment, inference, and reasoning. It is intended for college students, professionals, and pra",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 38,
+      "upvotes": 42,
       "arxiv_id": "2501.09223"
     },
     {
@@ -138,7 +138,7 @@
       "summary": "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoint. A vision-language model infers plausible dynamics and guides a video model to synthesize a reference video, which we",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 37,
+      "upvotes": 41,
       "arxiv_id": "2610.12461"
     },
     {
@@ -151,7 +151,7 @@
       "summary": "Dense correspondence matching has historically been bounded by simplifying spatio-temporal priors, such as smooth motion and rigid geometry. While effective for classical tasks, these assumptions break down in image editing and reference-guided generation (IEG), where transformations can preserve visual identity while breaking physical continuity. To establish identity-preserving correspondence ac",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 34,
+      "upvotes": 38,
       "arxiv_id": "2610.12421"
     },
     {
@@ -164,7 +164,7 @@
       "summary": "We present DreamTrue, a multi-view, cross-embodiment robot world model for action-faithful and physically plausible video prediction. Training such a model on existing robot datasets faces two obstacles: imprecise calibration can impair action following, while limited coverage of unsuccessful interactions can bias predictions toward successful outcomes. To improve action following across embodimen",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 34,
+      "upvotes": 37,
       "arxiv_id": "2610.12468"
     },
     {
@@ -177,7 +177,7 @@
       "summary": "Large language model (LLM) coding agents have advanced test generation across diverse programming tasks. However, the common practice of evaluating tests against a single reference solution overlooks alternative valid implementations and can overstate test quality. We introduce TestPrism, comprising 300 test tasks from 17 sources and 3000 candidate implementations, evenly split between valid and i",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 30,
+      "upvotes": 34,
       "arxiv_id": "2610.12289"
     },
     {
@@ -274,7 +274,7 @@
       "summary": "Reinforcement learning with verifiable rewards (RLVR) turns agent experience into learning signals primarily through scalar outcome rewards after interaction. For group-relative objectives, however, this signal vanishes when all rollouts receive the same reward, even though their trajectories may reveal useful information about what the task requires and how the agent fails. We ask a complementary",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 141,
+      "upvotes": 149,
       "arxiv_id": "2610.08077"
     },
     {
@@ -287,7 +287,7 @@
       "summary": "Large language models are informing decisions with ever-higher stakes. As the consequences of their errors grow, a central question becomes harder to ignore: how much can we trust an individual answer? Yet recognizing when to defer remains difficult because language models can present incorrect conclusions with fluent explanations and an authoritative tone. Uncertainty quantification seeks to addr",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 33,
+      "upvotes": 38,
       "arxiv_id": "2610.09087"
     },
     {
@@ -336,7 +336,7 @@
       "summary": "Realistic environment replicas are increasingly valuable for training and evaluating LLM agents, yet the original systems may be inaccessible or impractical to reproduce. We explore agentic language world modeling: rather than rebuilding an executable environment, a world model agent serves as the environment for a task agent and supports faithful and stateful simulation. We instantiate this parad",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 125,
+      "upvotes": 129,
       "arxiv_id": "2610.06100"
     },
     {
@@ -349,7 +349,7 @@
       "summary": "Sparse attention is a primary approach to reducing the latency of diffusion transformers in long-sequence generation tasks, such as video and high-resolution 3D asset generation. However, existing methods can degrade generation quality and fidelity at high sparsity levels. Through controlled oracle comparisons, we trace this degradation to three sources: constraints imposed by token grouping, inac",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 33,
+      "upvotes": 37,
       "arxiv_id": "2610.06801"
     },
     {
@@ -921,7 +921,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T23:59:10.407819+00:00",
+      "fetched_at": "2026-10-11T04:26:30.517360+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1003,7 +1003,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T23:59:10.411071+00:00",
+      "fetched_at": "2026-10-11T04:26:30.518881+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1085,7 +1085,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T23:59:10.415081+00:00",
+      "fetched_at": "2026-10-11T04:26:30.520754+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1167,7 +1167,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T23:59:10.416321+00:00",
+      "fetched_at": "2026-10-11T04:26:30.521336+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1235,7 +1235,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T23:59:10.422198+00:00",
+      "fetched_at": "2026-10-11T04:26:30.524226+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1317,7 +1317,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T23:59:10.422212+00:00",
+      "fetched_at": "2026-10-11T04:26:30.524236+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1385,7 +1385,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T23:59:10.424177+00:00",
+      "fetched_at": "2026-10-11T04:26:30.525151+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1467,7 +1467,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-10T23:59:10.459195+00:00",
+      "fetched_at": "2026-10-11T04:26:30.541131+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1549,7 +1549,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-10T23:59:10.496125+00:00",
+      "fetched_at": "2026-10-11T04:26:30.558395+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1631,7 +1631,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T23:59:10.514191+00:00",
+      "fetched_at": "2026-10-11T04:26:30.566778+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1713,7 +1713,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T23:59:10.520647+00:00",
+      "fetched_at": "2026-10-11T04:26:30.569746+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1795,7 +1795,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T23:59:10.532378+00:00",
+      "fetched_at": "2026-10-11T04:26:30.575078+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1877,7 +1877,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-10T23:59:10.534909+00:00",
+      "fetched_at": "2026-10-11T04:26:30.576189+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1956,58 +1956,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-10T23:58:54.847442+00:00"
+        "ok": false,
+        "items": 3,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-10-11T04:26:14.191122+00:00"
       },
       {
         "name": "AI Search",
         "ok": false,
         "items": 9,
-        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-10-10T23:58:53.805942+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-10-11T04:26:13.033118+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-10T23:58:57.959137+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-10-11T04:26:17.470142+00:00"
       },
       {
         "name": "Fireship",
         "ok": false,
         "items": 11,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-10-10T23:58:55.916878+00:00"
+        "checked_at": "2026-10-11T04:26:15.266070+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-10T23:59:00.353765+00:00"
+        "checked_at": "2026-10-11T04:26:19.769792+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-10T23:58:56.938497+00:00"
+        "ok": false,
+        "items": 6,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-10-11T04:26:16.336573+00:00"
       },
       {
         "name": "World of AI",
         "ok": false,
         "items": 15,
-        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-10-10T23:58:59.126448+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-10-11T04:26:18.552903+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-10T23:59:10.536149+00:00"
+      "checked_at": "2026-10-11T04:26:30.577233+00:00"
     }
   }
 }
