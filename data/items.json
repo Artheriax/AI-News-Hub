@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T23:51:46.127815+00:00",
+  "generated_at": "2026-10-12T03:19:47.550432+00:00",
   "items": [
     {
       "id": "yt:4fLVq6HJsKc",
@@ -83,7 +83,7 @@
       "summary": "Interactive virtual worlds allow agents to learn through exploration and interaction. What agents can learn is bounded by the environments they practice in, which must be faithful, with consistent state, rules, and dynamics, and realistic, with observations that follow the real-world visual distributions. Achieving both across diverse worlds remains a bottleneck. We introduce AgentGarten, a framew",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 253,
+      "upvotes": 257,
       "arxiv_id": "2610.12374"
     },
     {
@@ -217,6 +217,32 @@
       "arxiv_id": "2610.12468"
     },
     {
+      "id": "paper:2610.11794",
+      "title": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
+      "url": "https://huggingface.co/papers/2610.11794",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-08T00:00:00+00:00",
+      "summary": "Learning to act in unfamiliar environments requires agents to infer how the world works and revise that understanding as new evidence arrives. Yet limited observations can support multiple world models that explain past interactions but predict different outcomes in unseen states. We introduce Memento 3, building on the Memento series to enable frozen LLM agents to continually learn explicit world",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 35,
+      "arxiv_id": "2610.11794"
+    },
+    {
+      "id": "paper:2610.12289",
+      "title": "TestPrism: Rethinking Test Evaluation Beyond a Single Reference",
+      "url": "https://huggingface.co/papers/2610.12289",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-08T00:00:00+00:00",
+      "summary": "Large language model (LLM) coding agents have advanced test generation across diverse programming tasks. However, the common practice of evaluating tests against a single reference solution overlooks alternative valid implementations and can overstate test quality. We introduce TestPrism, comprising 300 test tasks from 17 sources and 3000 candidate implementations, evenly split between valid and i",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 34,
+      "arxiv_id": "2610.12289"
+    },
+    {
       "id": "yt:rGUzoHunuV8",
       "title": "Claude Haiku 5.5 Is INSANE – This IS the BEST Cheap Model Yet!",
       "url": "https://www.youtube.com/watch?v=rGUzoHunuV8",
@@ -310,7 +336,7 @@
       "summary": "Reinforcement learning with verifiable rewards (RLVR) turns agent experience into learning signals primarily through scalar outcome rewards after interaction. For group-relative objectives, however, this signal vanishes when all rollouts receive the same reward, even though their trajectories may reveal useful information about what the task requires and how the agent fails. We ask a complementary",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 160,
+      "upvotes": 162,
       "arxiv_id": "2610.08077"
     },
     {
@@ -323,7 +349,7 @@
       "summary": "Large language models are informing decisions with ever-higher stakes. As the consequences of their errors grow, a central question becomes harder to ignore: how much can we trust an individual answer? Yet recognizing when to defer remains difficult because language models can present incorrect conclusions with fluent explanations and an authoritative tone. Uncertainty quantification seeks to addr",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 39,
+      "upvotes": 40,
       "arxiv_id": "2610.09087"
     },
     {
@@ -361,32 +387,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/ZHVNTTKu9fU/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
-    },
-    {
-      "id": "paper:2610.06100",
-      "title": "From Traces to Agentic Worlds: Agentic Language World Models for Interactive Environment Simulation",
-      "url": "https://huggingface.co/papers/2610.06100",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-05T00:00:00+00:00",
-      "summary": "Realistic environment replicas are increasingly valuable for training and evaluating LLM agents, yet the original systems may be inaccessible or impractical to reproduce. We explore agentic language world modeling: rather than rebuilding an executable environment, a world model agent serves as the environment for a task agent and supports faithful and stateful simulation. We instantiate this parad",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 129,
-      "arxiv_id": "2610.06100"
-    },
-    {
-      "id": "paper:2610.06801",
-      "title": "MC-Sparse: Deconstructing and Closing the Dense-Sparse Attention Gap in Diffusion Transformers",
-      "url": "https://huggingface.co/papers/2610.06801",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-05T00:00:00+00:00",
-      "summary": "Sparse attention is a primary approach to reducing the latency of diffusion transformers in long-sequence generation tasks, such as video and high-resolution 3D asset generation. However, existing methods can degrade generation quality and fidelity at high sparsity levels. Through controlled oracle comparisons, we trace this degradation to three sources: constraints imposed by token grouping, inac",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 38,
-      "arxiv_id": "2610.06801"
     },
     {
       "id": "yt:lHmZoRHMZyM",
@@ -933,7 +933,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T23:51:46.063793+00:00",
+      "fetched_at": "2026-10-12T03:19:47.425921+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1015,7 +1015,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T23:51:46.065368+00:00",
+      "fetched_at": "2026-10-12T03:19:47.429145+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1097,7 +1097,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T23:51:46.067311+00:00",
+      "fetched_at": "2026-10-12T03:19:47.433120+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1179,7 +1179,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T23:51:46.067904+00:00",
+      "fetched_at": "2026-10-12T03:19:47.434338+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1247,7 +1247,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T23:51:46.070880+00:00",
+      "fetched_at": "2026-10-12T03:19:47.440136+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1329,7 +1329,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T23:51:46.070888+00:00",
+      "fetched_at": "2026-10-12T03:19:47.440150+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1397,7 +1397,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T23:51:46.071843+00:00",
+      "fetched_at": "2026-10-12T03:19:47.442020+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1479,7 +1479,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-11T23:51:46.089077+00:00",
+      "fetched_at": "2026-10-12T03:19:47.475011+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1561,7 +1561,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-11T23:51:46.107381+00:00",
+      "fetched_at": "2026-10-12T03:19:47.510708+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1643,7 +1643,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T23:51:46.116473+00:00",
+      "fetched_at": "2026-10-12T03:19:47.528029+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1725,7 +1725,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T23:51:46.119755+00:00",
+      "fetched_at": "2026-10-12T03:19:47.534492+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1807,7 +1807,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T23:51:46.125424+00:00",
+      "fetched_at": "2026-10-12T03:19:47.546349+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1889,7 +1889,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-11T23:51:46.126603+00:00",
+      "fetched_at": "2026-10-12T03:19:47.548821+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1971,55 +1971,55 @@
         "ok": false,
         "items": 3,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-10-11T23:51:30.332078+00:00"
+        "checked_at": "2026-10-12T03:19:31.515927+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 10,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-10-11T23:51:29.276832+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-12T03:19:30.476393+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": false,
         "items": 15,
         "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-10-11T23:51:33.588557+00:00"
+        "checked_at": "2026-10-12T03:19:34.632096+00:00"
       },
       {
         "name": "Fireship",
-        "ok": false,
-        "items": 10,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-10-11T23:51:31.392863+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-12T03:19:32.534654+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-11T23:51:35.804453+00:00"
+        "checked_at": "2026-10-12T03:19:36.782254+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": false,
         "items": 7,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-10-11T23:51:32.447228+00:00"
+        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-10-12T03:19:33.584572+00:00"
       },
       {
         "name": "World of AI",
         "ok": false,
         "items": 15,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-10-11T23:51:34.651511+00:00"
+        "checked_at": "2026-10-12T03:19:35.663506+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-11T23:51:46.127754+00:00"
+      "checked_at": "2026-10-12T03:19:47.550350+00:00"
     }
   }
 }
