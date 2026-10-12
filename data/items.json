@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-10-12T03:19:47.550432+00:00",
+  "generated_at": "2026-10-12T11:10:00.671495+00:00",
   "items": [
+    {
+      "id": "yt:4iKUaUmeoWk",
+      "title": "Claude Opus 6 LEAKED, Gemini 4 Carbon Leaks, HUGE OpenAI Update, Claude 24/7 Agent, & More! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-10-12T07:25:21+00:00",
+      "summary": "🚨 Everything you’re about to see, I benchmarked using the tool I made. If you want to run these tests yourself or test models on whatever you actually use them for! → https://www.woaibench.ai/ 🚨 Claude Opus 6 LEAKED?! Anthropic might be secretly testing its next-generation Claude model, and the earl",
+      "thumbnail": "https://i1.ytimg.com/vi/4iKUaUmeoWk/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
     {
       "id": "yt:4fLVq6HJsKc",
       "title": "DeepSeek Solved AI’s Memory Problem",
@@ -50,6 +62,19 @@
       "channel": "WorldofAI"
     },
     {
+      "id": "paper:2610.13527",
+      "title": "S-Space: Exploring Spatial Workspace in Multimodal Language Models",
+      "url": "https://huggingface.co/papers/2610.13527",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-09T12:48:41+00:00",
+      "summary": "Multimodal language models (MLLMs) exhibit promising spatial reasoning capabilities, yet the internal mechanisms supporting them remain poorly understood. We uncover S-Space, a linear representation subspace in which object-token representations encode continuous coordinates along horizontal, vertical, and distance axes. Although we identify these axes by differentiating spatial-answer scores with",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 120,
+      "arxiv_id": "2610.13527"
+    },
+    {
       "id": "yt:ATBnss54_t4",
       "title": "HUGE Gemini 4 Argon UPDATE, Fable 5.5 LEAKS, GPT-6.1 Ultrafast, Claude Motion, & Step 5! AI NEWS",
       "url": "https://www.youtube.com/watch?v=ATBnss54_t4",
@@ -60,6 +85,32 @@
       "thumbnail": "https://i2.ytimg.com/vi/ATBnss54_t4/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
+    },
+    {
+      "id": "paper:2610.13021",
+      "title": "EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents",
+      "url": "https://huggingface.co/papers/2610.13021",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-09T00:00:00+00:00",
+      "summary": "Continual learning requires models to accumulate past experience and transfer it to new tasks. Despite substantial research on continual learning, existing work remains largely confined to non-embodied settings, without extending to embodied environments. To address this gap, we introduce EmbodiedCLBench, the first benchmark in embodied simulation for evaluating the continual learning capability o",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 56,
+      "arxiv_id": "2610.13021"
+    },
+    {
+      "id": "paper:2610.13395",
+      "title": "ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents",
+      "url": "https://huggingface.co/papers/2610.13395",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-09T00:00:00+00:00",
+      "summary": "Coding agents are increasingly used to build programs from scratch as software engineers do rather than to resolve issues within a repository or to generate a repository from a given requirements document. However, scalable verifiable training environments that force agents to discover what is required and to decide how the system should be designed remain scarce. Moreover, existing agent workflow",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 43,
+      "arxiv_id": "2610.13395"
     },
     {
       "id": "yt:6gfACqBAKfw",
@@ -74,17 +125,17 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2610.12374",
-      "title": "AgentGarten: Code Worlds for Evolving Agents",
-      "url": "https://huggingface.co/papers/2610.12374",
+      "id": "paper:2610.12572",
+      "title": "DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models",
+      "url": "https://huggingface.co/papers/2610.12572",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-08T00:00:00+00:00",
-      "summary": "Interactive virtual worlds allow agents to learn through exploration and interaction. What agents can learn is bounded by the environments they practice in, which must be faithful, with consistent state, rules, and dynamics, and realistic, with observations that follow the real-world visual distributions. Achieving both across diverse worlds remains a bottleneck. We introduce AgentGarten, a framew",
+      "summary": "Online reinforcement learning (RL) fine-tunes diffusion models with black-box rewards, but reverse-process methods such as Flow-GRPO are limited in efficiency by poor credit assignment, while forward-process methods such as DiffusionNFT are efficient yet unstable without carefully tuned exponential-moving-average (EMA) off-policy training. We show that NFT-style objectives contain a hidden forward",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 257,
-      "arxiv_id": "2610.12374"
+      "upvotes": 146,
+      "arxiv_id": "2610.12572"
     },
     {
       "id": "paper:2610.08215",
@@ -113,6 +164,19 @@
       "arxiv_id": "2610.12242"
     },
     {
+      "id": "paper:2610.12772",
+      "title": "Reflex: Visually Grounded Reactive Humanoid Control",
+      "url": "https://huggingface.co/papers/2610.12772",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-08T00:00:00+00:00",
+      "summary": "Humans effortlessly react to the world; they adeptly return a tennis shot, catch a falling cup, step aside from a passing cart, or pass a box tossed during truck unloading. These everyday actions require anticipating a moving target and reflexively responding with the whole body within about a second. Such visual reactive whole-body control remains challenging for humanoids, which must (1) coordin",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 118,
+      "arxiv_id": "2610.12772"
+    },
+    {
       "id": "paper:2610.11959",
       "title": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
       "url": "https://huggingface.co/papers/2610.11959",
@@ -122,21 +186,21 @@
       "summary": "Reinforcement learning (RL) is the central training paradigm for advancing large foundation models towards self-improvement. This report introduces the MiMo-V2.6 series, an omni-modal family that pushes the frontier of model intelligence by scaling RL compute. Prior to RL, we conduct mid-training on a broad multimodal corpus to provide ample exploration space, and build a solid infrastructure on t",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 74,
+      "upvotes": 76,
       "arxiv_id": "2610.11959"
     },
     {
-      "id": "paper:2610.12126",
-      "title": "SuperNav: An Agentic Navigation System for Any Task in Any Scene",
-      "url": "https://huggingface.co/papers/2610.12126",
+      "id": "paper:2610.12611",
+      "title": "SoftwareGym: Scaling Computer-Use Agent Training with Diverse Synthesized Software Environments",
+      "url": "https://huggingface.co/papers/2610.12611",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-08T00:00:00+00:00",
-      "summary": "General-purpose service robots need navigation systems that can handle diverse human requests in unfamiliar environments, combining task generality with scene generality. Some existing methods fine-tune multimodal large language models (MLLMs) to predict navigation actions, making their behavior dependent on the coverage of navigation training data and potentially limiting generalization to new re",
+      "summary": "Computer-use agents (CUAs) are rapidly improving, yet synthesizing diverse and reliable software environments at scale remains challenging. Native application environments require substantial construction and integration effort, which limits application coverage and increases the risk of application-specific overfitting. Browser-hosted environments provide limited interaction depth and workflow co",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 72,
-      "arxiv_id": "2610.12126"
+      "upvotes": 64,
+      "arxiv_id": "2610.12611"
     },
     {
       "id": "paper:2610.12299",
@@ -148,8 +212,21 @@
       "summary": "Egocentric world models predict first-person observations conditioned on an agent's actions, but most focus on a single agent. Real embodied settings often involve multiple agents that act and interact within a shared environment. Existing multi-agent world models rely on coarse actions like locomotion, camera control, or discrete commands, leaving fine-grained embodied interactions underexplored.",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 52,
+      "upvotes": 55,
       "arxiv_id": "2610.12299"
+    },
+    {
+      "id": "paper:2610.12461",
+      "title": "OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs",
+      "url": "https://huggingface.co/papers/2610.12461",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-08T00:00:00+00:00",
+      "summary": "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoint. A vision-language model infers plausible dynamics and guides a video model to synthesize a reference video, which we",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 43,
+      "arxiv_id": "2610.12461"
     },
     {
       "id": "paper:2501.09223",
@@ -165,82 +242,17 @@
       "arxiv_id": "2501.09223"
     },
     {
-      "id": "paper:2610.12461",
-      "title": "OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs",
-      "url": "https://huggingface.co/papers/2610.12461",
+      "id": "paper:2610.12341",
+      "title": "Can AI Agents Learn Their Way to the Top? Evaluating Heuristic Learning in a Long-Running Game Agent Competition",
+      "url": "https://huggingface.co/papers/2610.12341",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-08T00:00:00+00:00",
-      "summary": "Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoint. A vision-language model infers plausible dynamics and guides a video model to synthesize a reference video, which we",
+      "summary": "Adversarial games have driven advances from heuristic search to reinforcement learning, yet learning and adapting strategies from limited samples remain challenging. AI agents offer an alternative by turning game experience into revisions of executable policies. Building on heuristic learning (HL), we formalize Adversarial Heuristic Learning (AHL), a paradigm that uses AI agents as learning engine",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 42,
-      "arxiv_id": "2610.12461"
-    },
-    {
-      "id": "paper:2610.11287",
-      "title": "REMORY: Learning Residual Memory for Context Compaction",
-      "url": "https://huggingface.co/papers/2610.11287",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-08T00:00:00+00:00",
-      "summary": "Long-horizon agents compact their history to continue within a finite context window, but a textual summary alone may not support every subsequent decision. We introduce REMORY, a neural memory network that supplements the summary with a bounded sequence of soft memory tokens. Given the history and summary, the network learns to generate tokens that help a frozen LLM approximate the continuation i",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 38,
-      "arxiv_id": "2610.11287"
-    },
-    {
-      "id": "paper:2610.12421",
-      "title": "Beyond Spatio-Temporal Priors: A Generalizable Approach for Dense Correspondence Matching",
-      "url": "https://huggingface.co/papers/2610.12421",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-08T00:00:00+00:00",
-      "summary": "Dense correspondence matching has historically been bounded by simplifying spatio-temporal priors, such as smooth motion and rigid geometry. While effective for classical tasks, these assumptions break down in image editing and reference-guided generation (IEG), where transformations can preserve visual identity while breaking physical continuity. To establish identity-preserving correspondence ac",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 38,
-      "arxiv_id": "2610.12421"
-    },
-    {
-      "id": "paper:2610.12468",
-      "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
-      "url": "https://huggingface.co/papers/2610.12468",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-08T00:00:00+00:00",
-      "summary": "We present DreamTrue, a multi-view, cross-embodiment robot world model for action-faithful and physically plausible video prediction. Training such a model on existing robot datasets faces two obstacles: imprecise calibration can impair action following, while limited coverage of unsuccessful interactions can bias predictions toward successful outcomes. To improve action following across embodimen",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 37,
-      "arxiv_id": "2610.12468"
-    },
-    {
-      "id": "paper:2610.11794",
-      "title": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
-      "url": "https://huggingface.co/papers/2610.11794",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-08T00:00:00+00:00",
-      "summary": "Learning to act in unfamiliar environments requires agents to infer how the world works and revise that understanding as new evidence arrives. Yet limited observations can support multiple world models that explain past interactions but predict different outcomes in unseen states. We introduce Memento 3, building on the Memento series to enable frozen LLM agents to continually learn explicit world",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 35,
-      "arxiv_id": "2610.11794"
-    },
-    {
-      "id": "paper:2610.12289",
-      "title": "TestPrism: Rethinking Test Evaluation Beyond a Single Reference",
-      "url": "https://huggingface.co/papers/2610.12289",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-08T00:00:00+00:00",
-      "summary": "Large language model (LLM) coding agents have advanced test generation across diverse programming tasks. However, the common practice of evaluating tests against a single reference solution overlooks alternative valid implementations and can overstate test quality. We introduce TestPrism, comprising 300 test tasks from 17 sources and 3000 candidate implementations, evenly split between valid and i",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 34,
-      "arxiv_id": "2610.12289"
+      "upvotes": 41,
+      "arxiv_id": "2610.12341"
     },
     {
       "id": "yt:rGUzoHunuV8",
@@ -327,17 +339,17 @@
       "channel": "AI Search"
     },
     {
-      "id": "paper:2610.08077",
-      "title": "Self-Retrospection Distillation: Turning Post-hoc Experiences into Prior Foresight",
-      "url": "https://huggingface.co/papers/2610.08077",
+      "id": "paper:2610.07987",
+      "title": "VisionWeave: Weaving Elastic Visual Representations as a Native Capability of MLLMs",
+      "url": "https://huggingface.co/papers/2610.07987",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-06T00:00:00+00:00",
-      "summary": "Reinforcement learning with verifiable rewards (RLVR) turns agent experience into learning signals primarily through scalar outcome rewards after interaction. For group-relative objectives, however, this signal vanishes when all rollouts receive the same reward, even though their trajectories may reveal useful information about what the task requires and how the agent fails. We ask a complementary",
+      "summary": "Multimodal large language models have become the dominant paradigm for visual understanding, but incur substantial costs by encoding inputs into dense, fixed-size patch tokens. However, visual information is unevenly distributed: some regions require fine-grained detail, while others admit compact representations. Downsampling sacrifices this detail, while existing token pruning and adaptive appro",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 162,
-      "arxiv_id": "2610.08077"
+      "upvotes": 49,
+      "arxiv_id": "2610.07987"
     },
     {
       "id": "paper:2610.09087",
@@ -349,7 +361,7 @@
       "summary": "Large language models are informing decisions with ever-higher stakes. As the consequences of their errors grow, a central question becomes harder to ignore: how much can we trust an individual answer? Yet recognizing when to defer remains difficult because language models can present incorrect conclusions with fluent explanations and an authoritative tone. Uncertainty quantification seeks to addr",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 40,
+      "upvotes": 41,
       "arxiv_id": "2610.09087"
     },
     {
@@ -641,18 +653,6 @@
       "channel": "Fireship"
     },
     {
-      "id": "yt:h5QwrHhW28Q",
-      "title": "Google's Project Suncatcher IS SENDING AI TO SPACE!?, Sonnet 5.5, $500 ChatGPT Plan & More! AI NEWS",
-      "url": "https://www.youtube.com/watch?v=h5QwrHhW28Q",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-09-25T06:39:28+00:00",
-      "summary": "🚀 Give your AI agent 1,800+ tools through one key. Get $1 in free credit automatically - no card needed! 👉 Try Today: https://monid.ai?fpr=woai AI is officially heading to SPACE?! 🚀 In today’s HUGE AI news, we break down Google’s Project Suncatcher, an ambitious moonshot exploring whether massive AI",
-      "thumbnail": "https://i1.ytimg.com/vi/h5QwrHhW28Q/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:R9momwXV9w4",
       "title": "Opus 5.5: How Close Are We to Automated AI Research?",
       "url": "https://www.youtube.com/watch?v=R9momwXV9w4",
@@ -933,7 +933,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T03:19:47.425921+00:00",
+      "fetched_at": "2026-10-12T11:10:00.541542+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1015,7 +1015,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T03:19:47.429145+00:00",
+      "fetched_at": "2026-10-12T11:10:00.544811+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1097,7 +1097,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T03:19:47.433120+00:00",
+      "fetched_at": "2026-10-12T11:10:00.548812+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1179,7 +1179,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T03:19:47.434338+00:00",
+      "fetched_at": "2026-10-12T11:10:00.550033+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1247,7 +1247,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T03:19:47.440136+00:00",
+      "fetched_at": "2026-10-12T11:10:00.555882+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1329,7 +1329,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T03:19:47.440150+00:00",
+      "fetched_at": "2026-10-12T11:10:00.555896+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1397,7 +1397,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T03:19:47.442020+00:00",
+      "fetched_at": "2026-10-12T11:10:00.557916+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1479,7 +1479,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-12T03:19:47.475011+00:00",
+      "fetched_at": "2026-10-12T11:10:00.592820+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1561,7 +1561,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-12T03:19:47.510708+00:00",
+      "fetched_at": "2026-10-12T11:10:00.629995+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1643,7 +1643,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T03:19:47.528029+00:00",
+      "fetched_at": "2026-10-12T11:10:00.648685+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1725,7 +1725,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T03:19:47.534492+00:00",
+      "fetched_at": "2026-10-12T11:10:00.655365+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1807,7 +1807,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T03:19:47.546349+00:00",
+      "fetched_at": "2026-10-12T11:10:00.667544+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1889,7 +1889,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T03:19:47.548821+00:00",
+      "fetched_at": "2026-10-12T11:10:00.670138+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1968,58 +1968,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 3,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-10-12T03:19:31.515927+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-12T11:09:33.078334+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-12T03:19:30.476393+00:00"
+        "checked_at": "2026-10-12T11:09:32.042152+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-10-12T03:19:34.632096+00:00"
+        "error": null,
+        "checked_at": "2026-10-12T11:09:36.276410+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-12T03:19:32.534654+00:00"
+        "checked_at": "2026-10-12T11:09:34.103702+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-12T03:19:36.782254+00:00"
+        "checked_at": "2026-10-12T11:09:38.441076+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": false,
-        "items": 7,
-        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-10-12T03:19:33.584572+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-12T11:09:35.131382+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-10-12T03:19:35.663506+00:00"
+        "error": null,
+        "checked_at": "2026-10-12T11:09:37.321405+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-12T03:19:47.550350+00:00"
+      "checked_at": "2026-10-12T11:10:00.671410+00:00"
     }
   }
 }
