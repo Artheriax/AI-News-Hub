@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T17:15:23.393346+00:00",
+  "generated_at": "2026-10-13T21:55:03.523443+00:00",
   "items": [
     {
       "id": "yt:z_sXLlLVUls",
@@ -194,7 +194,7 @@
       "summary": "Continual learning requires models to accumulate past experience and transfer it to new tasks. Despite substantial research on continual learning, existing work remains largely confined to non-embodied settings, without extending to embodied environments. To address this gap, we introduce EmbodiedCLBench, the first benchmark in embodied simulation for evaluating the continual learning capability o",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 65,
+      "upvotes": 66,
       "arxiv_id": "2610.13021"
     },
     {
@@ -233,7 +233,7 @@
       "summary": "Continual post-training faces a dual challenge of acquisition and retention: models must learn new capabilities while preserving prior knowledge. While Self-Distillation Fine-Tuning (SDFT) mitigates this using self-supervision with in-context demonstrations, it relies on strong in-context learning and instruction-following abilities. Consequently, SDFT fails on smaller models critical for low-late",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 41,
+      "upvotes": 42,
       "arxiv_id": "2610.13113"
     },
     {
@@ -271,7 +271,7 @@
       "summary": "Large Language Models (LLMs) increasingly ship with explicit \"thinking modes\", yet their counterpart, \"no-thinking\", has received far less attention. We study LLMs' no-thinking behavior along two axes. a. How to measure no-thinking? Prior work typically defines no-thinking through proxies such as a disabled thinking mode or the absence of long traces. These proxies are unreliable: disabled thinkin",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 177,
+      "upvotes": 214,
       "arxiv_id": "2610.11765"
     },
     {
@@ -284,7 +284,7 @@
       "summary": "Humans effortlessly react to the world; they adeptly return a tennis shot, catch a falling cup, step aside from a passing cart, or pass a box tossed during truck unloading. These everyday actions require anticipating a moving target and reflexively responding with the whole body within about a second. Such visual reactive whole-body control remains challenging for humanoids, which must (1) coordin",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 137,
+      "upvotes": 138,
       "arxiv_id": "2610.12772"
     },
     {
@@ -327,17 +327,17 @@
       "arxiv_id": "2610.12341"
     },
     {
-      "id": "paper:2610.11794",
-      "title": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
-      "url": "https://huggingface.co/papers/2610.11794",
+      "id": "paper:2610.11361",
+      "title": "SepGen: Multi-Stem Audio-Video Separation and Generation in a Single Model",
+      "url": "https://huggingface.co/papers/2610.11361",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-08T00:00:00+00:00",
-      "summary": "Learning to act in unfamiliar environments requires agents to infer how the world works and revise that understanding as new evidence arrives. Yet limited observations can support multiple world models that explain past interactions but predict different outcomes in unseen states. We introduce Memento 3, building on the Memento series to enable frozen LLM agents to continually learn explicit world",
+      "summary": "A 4D audio-visual scene comprises a video, the dynamic geometry it depicts, and the sound sources that populate it, each with its own position and trajectory. Rendering such a scene from a novel viewpoint requires that every source be available as an individual waveform, so that it can be localized in the scene and propagated to the observer before the signals are mixed. Joint audio-video generato",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 42,
-      "arxiv_id": "2610.11794"
+      "upvotes": 39,
+      "arxiv_id": "2610.11361"
     },
     {
       "id": "yt:rGUzoHunuV8",
@@ -397,7 +397,7 @@
       "summary": "Video interactive storytelling enables viewers to actively steer how a video unfolds. However, once we allow viewers to intervene during generation, a new challenge arises: The viewer's request can have latent dependencies on both the grounding source and the current rendered video state. These dependencies may not be explicitly stated in any individual input, but emerge only when the source, rend",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 69,
+      "upvotes": 77,
       "arxiv_id": "2610.09326"
     },
     {
@@ -957,7 +957,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T17:15:23.329185+00:00",
+      "fetched_at": "2026-10-13T21:55:03.392849+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1039,7 +1039,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T17:15:23.330812+00:00",
+      "fetched_at": "2026-10-13T21:55:03.396080+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1121,76 +1121,76 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T17:15:23.332296+00:00",
+      "fetched_at": "2026-10-13T21:55:03.398942+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1131.0,
+          "score": 1130.0,
           "meta": "Jul 2026 · $5.40 /min"
         },
         {
           "rank": 2,
           "name": "Vidu Q4 Preview",
           "creator": "Vidu Q4 Preview",
-          "score": 1130.0,
+          "score": 1129.0,
           "meta": "Oct 2026 · $5.04 /min"
         },
         {
           "rank": 3,
           "name": "Gemini Omni Flash 1.1",
           "creator": "Gemini Omni Flash 1.1",
-          "score": 1130.0,
+          "score": 1126.0,
           "meta": "Aug 2026 · $9.12 /min"
         },
         {
           "rank": 4,
           "name": "Dreamina Seedance 2.5",
           "creator": "Dreamina Seedance 2.5",
-          "score": 1125.0,
+          "score": 1120.0,
           "meta": "Jul 2026 · $24.60 /min"
         },
         {
           "rank": 5,
           "name": "Wan 3.0",
           "creator": "Wan 3.0",
-          "score": 1118.0,
+          "score": 1119.0,
           "meta": "Aug 2026 · $12.00 /min"
         },
         {
           "rank": 6,
           "name": "MiniMax H3 Max",
           "creator": "MiniMax H3 Max",
-          "score": 1117.0,
+          "score": 1116.0,
           "meta": "Aug 2026 · $5.76 /min"
         },
         {
           "rank": 7,
           "name": "Dreamina Seedance 2.0",
           "creator": "Dreamina Seedance 2.0",
-          "score": 1114.0,
+          "score": 1113.0,
           "meta": "Mar 2026 · $22.45 /min"
         },
         {
           "rank": 8,
           "name": "FLUX 3",
           "creator": "FLUX 3",
-          "score": 1084.0,
+          "score": 1082.0,
           "meta": "Jul 2026 · $17.40 /min"
         },
         {
           "rank": 9,
           "name": "Grok Imagine Video 1.5",
           "creator": "Grok Imagine Video 1.5",
-          "score": 1065.0,
+          "score": 1061.0,
           "meta": "May 2026 · $15.00 /min"
         },
         {
           "rank": 10,
           "name": "HappyHorse-1.1",
           "creator": "HappyHorse-1.1",
-          "score": 1060.0,
+          "score": 1057.0,
           "meta": "Jun 2026 · $9.90 /min"
         }
       ]
@@ -1203,34 +1203,34 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T17:15:23.332792+00:00",
+      "fetched_at": "2026-10-13T21:55:03.399916+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1131.0,
+          "score": 1130.0,
           "meta": "Jul 2026 · $5.40 /min"
         },
         {
           "rank": 2,
           "name": "MAGI-2 Preview",
           "creator": "MAGI-2 Preview",
-          "score": 1044.0,
+          "score": 1040.0,
           "meta": "Aug 2026 · Coming soon"
         },
         {
           "rank": 3,
           "name": "LTX-2.5 Fast",
           "creator": "LTX-2.5 Fast",
-          "score": 997.0,
+          "score": 993.0,
           "meta": "Aug 2026 · $7.80 /min"
         },
         {
           "rank": 4,
           "name": "LTX-2.5 Pro",
           "creator": "LTX-2.5 Pro",
-          "score": 974.0,
+          "score": 970.0,
           "meta": "Aug 2026 · $10.20 /min"
         },
         {
@@ -1244,7 +1244,7 @@
           "rank": 6,
           "name": "LTX-2.3 Fast",
           "creator": "LTX-2.3 Fast",
-          "score": 895.0,
+          "score": 894.0,
           "meta": "Mar 2026 · $2.40 /min"
         }
       ]
@@ -1257,7 +1257,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T17:15:23.335213+00:00",
+      "fetched_at": "2026-10-13T21:55:03.404459+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1339,34 +1339,34 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T17:15:23.335221+00:00",
+      "fetched_at": "2026-10-13T21:55:03.404472+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1131.0,
+          "score": 1130.0,
           "meta": "Jul 2026 · $5.40 /min"
         },
         {
           "rank": 2,
           "name": "MAGI-2 Preview",
           "creator": "MAGI-2 Preview",
-          "score": 1044.0,
+          "score": 1040.0,
           "meta": "Aug 2026 · Coming soon"
         },
         {
           "rank": 3,
           "name": "LTX-2.5 Fast",
           "creator": "LTX-2.5 Fast",
-          "score": 997.0,
+          "score": 993.0,
           "meta": "Aug 2026 · $7.80 /min"
         },
         {
           "rank": 4,
           "name": "LTX-2.5 Pro",
           "creator": "LTX-2.5 Pro",
-          "score": 974.0,
+          "score": 970.0,
           "meta": "Aug 2026 · $10.20 /min"
         },
         {
@@ -1380,7 +1380,7 @@
           "rank": 6,
           "name": "LTX-2.3 Fast",
           "creator": "LTX-2.3 Fast",
-          "score": 895.0,
+          "score": 894.0,
           "meta": "Mar 2026 · $2.40 /min"
         }
       ]
@@ -1393,7 +1393,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T17:15:23.336231+00:00",
+      "fetched_at": "2026-10-13T21:55:03.406486+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1475,7 +1475,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-13T17:15:23.353510+00:00",
+      "fetched_at": "2026-10-13T21:55:03.442794+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1557,7 +1557,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-13T17:15:23.372232+00:00",
+      "fetched_at": "2026-10-13T21:55:03.481432+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1639,7 +1639,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T17:15:23.381700+00:00",
+      "fetched_at": "2026-10-13T21:55:03.500175+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1721,7 +1721,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T17:15:23.385022+00:00",
+      "fetched_at": "2026-10-13T21:55:03.506857+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1803,7 +1803,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T17:15:23.390710+00:00",
+      "fetched_at": "2026-10-13T21:55:03.519357+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1816,14 +1816,14 @@
           "rank": 2,
           "name": "Eleven v4",
           "creator": "Eleven v4",
-          "score": 1326.0,
+          "score": 1328.0,
           "meta": "Sept 2026 · $80.0 /1M chars"
         },
         {
           "rank": 3,
           "name": "Qwen-Audio-3.1-TTS-Plus",
           "creator": "Qwen-Audio-3.1-TTS-Plus",
-          "score": 1298.0,
+          "score": 1300.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
@@ -1844,7 +1844,7 @@
           "rank": 6,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Qwen-Audio-3.0-TTS-Plus",
-          "score": 1267.0,
+          "score": 1268.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
@@ -1858,22 +1858,22 @@
           "rank": 8,
           "name": "Gemini 3.8 Flash-Lite TTS",
           "creator": "Gemini 3.8 Flash-Lite TTS",
-          "score": 1246.0,
+          "score": 1248.0,
           "meta": "Sept 2026 · $11.0 /1M chars"
         },
         {
           "rank": 9,
           "name": "Simba 3.2",
           "creator": "Simba 3.2",
-          "score": 1244.0,
+          "score": 1245.0,
           "meta": "Jul 2026 · $6.6 /1M chars"
         },
         {
           "rank": 10,
-          "name": "Breeze TTS 2",
-          "creator": "Breeze TTS 2",
-          "score": 1223.0,
-          "meta": "Aug 2026 · $34.0 /1M chars"
+          "name": "Fish Audio Drama 3 Preview",
+          "creator": "Fish Audio Drama 3 Preview",
+          "score": 1243.0,
+          "meta": "Oct 2026 · $15.0 /1M chars"
         }
       ]
     },
@@ -1885,77 +1885,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T17:15:23.391902+00:00",
+      "fetched_at": "2026-10-13T21:55:03.522071+00:00",
       "entries": [
         {
           "rank": 1,
-          "name": "Breeze TTS 2",
-          "creator": "Breeze TTS 2",
-          "score": 1223.0,
-          "meta": "Aug 2026 · $34.0 /1M chars"
+          "name": "Fish Audio Drama 3 Preview",
+          "creator": "Fish Audio Drama 3 Preview",
+          "score": 1243.0,
+          "meta": "Oct 2026 · $15.0 /1M chars"
         },
         {
           "rank": 2,
-          "name": "Fish Audio S2 Pro",
-          "creator": "Fish Audio S2 Pro",
-          "score": 1116.0,
-          "meta": "Mar 2026 · $15.0 /1M chars"
+          "name": "Breeze TTS 2",
+          "creator": "Breeze TTS 2",
+          "score": 1221.0,
+          "meta": "Aug 2026 · $34.0 /1M chars"
         },
         {
           "rank": 3,
-          "name": "Step Audio EditX (Mar 2026)",
-          "creator": "Step Audio EditX (Mar 2026)",
-          "score": 1098.0,
-          "meta": "Feb 2026 · N/A"
+          "name": "Fish Audio S2 Pro",
+          "creator": "Fish Audio S2 Pro",
+          "score": 1118.0,
+          "meta": "Mar 2026 · $15.0 /1M chars"
         },
         {
           "rank": 4,
+          "name": "Step Audio EditX (Mar 2026)",
+          "creator": "Step Audio EditX (Mar 2026)",
+          "score": 1097.0,
+          "meta": "Feb 2026 · N/A"
+        },
+        {
+          "rank": 5,
           "name": "Voxtral TTS",
           "creator": "Voxtral TTS",
           "score": 1088.0,
           "meta": "Mar 2026 · $16.0 /1M chars"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Magpie-Multilingual 357M (Feb 2026)",
           "creator": "Magpie-Multilingual 357M (Feb 2026)",
-          "score": 1063.0,
+          "score": 1065.0,
           "meta": "Feb 2026 · N/A"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Kokoro 82M v1.0",
           "creator": "Kokoro 82M v1.0",
           "score": 1063.0,
           "meta": "Jan 2025 · $0.7 /1M chars"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Maya1",
           "creator": "Maya1",
           "score": 1047.0,
           "meta": "Jun 2025 · N/A"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "OpenAudio S1 Mini",
           "creator": "OpenAudio S1 Mini",
           "score": 1045.0,
           "meta": "Jun 2025 · $15.0 /1M chars"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Higgs Audio V3 TTS",
           "creator": "Higgs Audio V3 TTS",
-          "score": 1038.0,
+          "score": 1039.0,
           "meta": "Jun 2026 · $15.0 /1M chars"
-        },
-        {
-          "rank": 10,
-          "name": "Chatterbox",
-          "creator": "Chatterbox",
-          "score": 1027.0,
-          "meta": "May 2025 · $25.0 /1M chars"
         }
       ]
     }
@@ -1967,55 +1967,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-13T17:15:07.236402+00:00"
+        "checked_at": "2026-10-13T21:54:47.091260+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-13T17:15:06.084042+00:00"
+        "ok": false,
+        "items": 9,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-10-13T21:54:46.049443+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-13T17:15:10.677533+00:00"
+        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-10-13T21:54:50.397375+00:00"
       },
       {
         "name": "Fireship",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-13T17:15:08.387757+00:00"
+        "ok": false,
+        "items": 11,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "checked_at": "2026-10-13T21:54:48.169372+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-13T17:15:13.000840+00:00"
+        "checked_at": "2026-10-13T21:54:52.762598+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-13T17:15:09.551416+00:00"
+        "ok": false,
+        "items": 8,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-10-13T21:54:49.252842+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-13T17:15:11.831429+00:00"
+        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-10-13T21:54:51.540895+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-13T17:15:23.393250+00:00"
+      "checked_at": "2026-10-13T21:55:03.523369+00:00"
     }
   }
 }
