@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T20:22:34.527785+00:00",
+  "generated_at": "2026-10-13T02:09:26.374413+00:00",
   "items": [
     {
       "id": "yt:wajoP_5Cpw8",
@@ -95,7 +95,7 @@
       "summary": "Multimodal language models (MLLMs) exhibit promising spatial reasoning capabilities, yet the internal mechanisms supporting them remain poorly understood. We uncover S-Space, a linear representation subspace in which object-token representations encode continuous coordinates along horizontal, vertical, and distance axes. Although we identify these axes by differentiating spatial-answer scores with",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 200,
+      "upvotes": 202,
       "arxiv_id": "2610.13527"
     },
     {
@@ -120,7 +120,7 @@
       "summary": "Continual learning requires models to accumulate past experience and transfer it to new tasks. Despite substantial research on continual learning, existing work remains largely confined to non-embodied settings, without extending to embodied environments. To address this gap, we introduce EmbodiedCLBench, the first benchmark in embodied simulation for evaluating the continual learning capability o",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 62,
+      "upvotes": 63,
       "arxiv_id": "2610.13021"
     },
     {
@@ -133,7 +133,7 @@
       "summary": "Coding agents are increasingly used to build programs from scratch as software engineers do rather than to resolve issues within a repository or to generate a repository from a given requirements document. However, scalable verifiable training environments that force agents to discover what is required and to decide how the system should be designed remain scarce. Moreover, existing agent workflow",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 47,
+      "upvotes": 49,
       "arxiv_id": "2610.13395"
     },
     {
@@ -146,7 +146,7 @@
       "summary": "Continual post-training faces a dual challenge of acquisition and retention: models must learn new capabilities while preserving prior knowledge. While Self-Distillation Fine-Tuning (SDFT) mitigates this using self-supervision with in-context demonstrations, it relies on strong in-context learning and instruction-following abilities. Consequently, SDFT fails on smaller models critical for low-late",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 40,
+      "upvotes": 41,
       "arxiv_id": "2610.13113"
     },
     {
@@ -184,7 +184,7 @@
       "summary": "Online reinforcement learning (RL) fine-tunes diffusion models with black-box rewards, but reverse-process methods such as Flow-GRPO are limited in efficiency by poor credit assignment, while forward-process methods such as DiffusionNFT are efficient yet unstable without carefully tuned exponential-moving-average (EMA) off-policy training. We show that NFT-style objectives contain a hidden forward",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 227,
+      "upvotes": 229,
       "arxiv_id": "2610.12572"
     },
     {
@@ -197,7 +197,7 @@
       "summary": "Humans effortlessly react to the world; they adeptly return a tennis shot, catch a falling cup, step aside from a passing cart, or pass a box tossed during truck unloading. These everyday actions require anticipating a moving target and reflexively responding with the whole body within about a second. Such visual reactive whole-body control remains challenging for humanoids, which must (1) coordin",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 128,
+      "upvotes": 132,
       "arxiv_id": "2610.12772"
     },
     {
@@ -210,7 +210,7 @@
       "summary": "Computer-use agents (CUAs) are rapidly improving, yet synthesizing diverse and reliable software environments at scale remains challenging. Native application environments require substantial construction and integration effort, which limits application coverage and increases the risk of application-specific overfitting. Browser-hosted environments provide limited interaction depth and workflow co",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 82,
+      "upvotes": 83,
       "arxiv_id": "2610.12611"
     },
     {
@@ -277,6 +277,32 @@
       "kind": "paper",
       "upvotes": 42,
       "arxiv_id": "2610.12341"
+    },
+    {
+      "id": "paper:2610.11361",
+      "title": "SepGen: Multi-Stem Audio-Video Separation and Generation in a Single Model",
+      "url": "https://huggingface.co/papers/2610.11361",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-08T00:00:00+00:00",
+      "summary": "A 4D audio-visual scene comprises a video, the dynamic geometry it depicts, and the sound sources that populate it, each with its own position and trajectory. Rendering such a scene from a novel viewpoint requires that every source be available as an individual waveform, so that it can be localized in the scene and propagated to the observer before the signals are mixed. Joint audio-video generato",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 39,
+      "arxiv_id": "2610.11361"
+    },
+    {
+      "id": "paper:2610.12421",
+      "title": "Beyond Spatio-Temporal Priors: A Generalizable Approach for Dense Correspondence Matching",
+      "url": "https://huggingface.co/papers/2610.12421",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-08T00:00:00+00:00",
+      "summary": "Dense correspondence matching has historically been bounded by simplifying spatio-temporal priors, such as smooth motion and rigid geometry. While effective for classical tasks, these assumptions break down in image editing and reference-guided generation (IEG), where transformations can preserve visual identity while breaking physical continuity. To establish identity-preserving correspondence ac",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 38,
+      "arxiv_id": "2610.12421"
     },
     {
       "id": "yt:rGUzoHunuV8",
@@ -361,32 +387,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/h5zkzon0gM4/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "paper:2610.07987",
-      "title": "VisionWeave: Weaving Elastic Visual Representations as a Native Capability of MLLMs",
-      "url": "https://huggingface.co/papers/2610.07987",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-06T00:00:00+00:00",
-      "summary": "Multimodal large language models have become the dominant paradigm for visual understanding, but incur substantial costs by encoding inputs into dense, fixed-size patch tokens. However, visual information is unevenly distributed: some regions require fine-grained detail, while others admit compact representations. Downsampling sacrifices this detail, while existing token pruning and adaptive appro",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 56,
-      "arxiv_id": "2610.07987"
-    },
-    {
-      "id": "paper:2610.09087",
-      "title": "U-Space: Uncovering When and Why Uncertainty Arises in Language Models",
-      "url": "https://huggingface.co/papers/2610.09087",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-06T00:00:00+00:00",
-      "summary": "Large language models are informing decisions with ever-higher stakes. As the consequences of their errors grow, a central question becomes harder to ignore: how much can we trust an individual answer? Yet recognizing when to defer remains difficult because language models can present incorrect conclusions with fluent explanations and an authoritative tone. Uncertainty quantification seeks to addr",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 43,
-      "arxiv_id": "2610.09087"
     },
     {
       "id": "yt:_5p1_TNSWqQ",
@@ -945,7 +945,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T20:22:34.438391+00:00",
+      "fetched_at": "2026-10-13T02:09:26.310793+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1027,7 +1027,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T20:22:34.440702+00:00",
+      "fetched_at": "2026-10-13T02:09:26.312353+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1109,14 +1109,14 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T20:22:34.443570+00:00",
+      "fetched_at": "2026-10-13T02:09:26.314285+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MiniMax H3 Max",
           "creator": "MiniMax H3 Max",
           "score": 1194.0,
-          "meta": "Aug 2026 · $4.80 /min"
+          "meta": "Aug 2026 · $5.76 /min"
         },
         {
           "rank": 2,
@@ -1172,7 +1172,7 @@
           "name": "Grok Imagine Video 1.5",
           "creator": "Grok Imagine Video 1.5",
           "score": 1097.0,
-          "meta": "May 2026 · $8.40 /min"
+          "meta": "May 2026 · $15.00 /min"
         },
         {
           "rank": 10,
@@ -1191,7 +1191,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T20:22:34.444461+00:00",
+      "fetched_at": "2026-10-13T02:09:26.314867+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1259,7 +1259,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T20:22:34.448838+00:00",
+      "fetched_at": "2026-10-13T02:09:26.317873+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1341,7 +1341,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T20:22:34.448849+00:00",
+      "fetched_at": "2026-10-13T02:09:26.317881+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1409,7 +1409,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T20:22:34.450239+00:00",
+      "fetched_at": "2026-10-13T02:09:26.318858+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1491,7 +1491,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-12T20:22:34.473343+00:00",
+      "fetched_at": "2026-10-13T02:09:26.336023+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1573,7 +1573,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-12T20:22:34.498209+00:00",
+      "fetched_at": "2026-10-13T02:09:26.354516+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1655,7 +1655,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T20:22:34.511413+00:00",
+      "fetched_at": "2026-10-13T02:09:26.363504+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1737,7 +1737,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T20:22:34.516150+00:00",
+      "fetched_at": "2026-10-13T02:09:26.366717+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1819,7 +1819,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T20:22:34.524704+00:00",
+      "fetched_at": "2026-10-13T02:09:26.372250+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1901,7 +1901,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-12T20:22:34.526532+00:00",
+      "fetched_at": "2026-10-13T02:09:26.373417+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1980,58 +1980,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-12T20:22:18.748910+00:00"
+        "ok": false,
+        "items": 3,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-10-13T02:09:04.240243+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-12T20:22:17.727101+00:00"
+        "ok": false,
+        "items": 10,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-10-13T02:09:03.184595+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-12T20:22:21.978800+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-10-13T02:09:07.388620+00:00"
       },
       {
         "name": "Fireship",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-12T20:22:19.761531+00:00"
+        "ok": false,
+        "items": 11,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "checked_at": "2026-10-13T02:09:05.289765+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-12T20:22:24.199371+00:00"
+        "checked_at": "2026-10-13T02:09:09.696174+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-12T20:22:20.776031+00:00"
+        "ok": false,
+        "items": 7,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-10-13T02:09:06.341074+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-12T20:22:23.005869+00:00"
+        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-10-13T02:09:08.511711+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-12T20:22:34.527684+00:00"
+      "checked_at": "2026-10-13T02:09:26.374348+00:00"
     }
   }
 }
