@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-10-14T15:38:05.356496+00:00",
+  "generated_at": "2026-10-14T19:51:20.271970+00:00",
   "items": [
+    {
+      "id": "yt:QZVzuq28eFw",
+      "title": "OpenAI’s lead engineer was secretly a spy...",
+      "url": "https://www.youtube.com/watch?v=QZVzuq28eFw",
+      "source": "Fireship",
+      "category": "videos",
+      "published": "2026-10-14T17:48:10+00:00",
+      "summary": "Run GitHub Actions 2x faster and build with Codesmith at https://www.blacksmith.sh/ An OpenAI engineer built a wiretap with his wife’s ChatGPT account, hid it in toilet paper behind the executive boardroom TV, and lasted 48 hours before getting caught. Let's dive in. Want more Fireship? 🗞️ Newslette",
+      "thumbnail": "https://i2.ytimg.com/vi/QZVzuq28eFw/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Fireship"
+    },
     {
       "id": "yt:mfsUVN8ykLA",
       "title": "Gemini 4 Argon Is INSANE – Hands-On With Google’s New Model!",
@@ -38,19 +50,6 @@
       "channel": "Two Minute Papers"
     },
     {
-      "id": "paper:2610.18615",
-      "title": "VideoJev: System One Model for Video Understanding and Interaction",
-      "url": "https://huggingface.co/papers/2610.18615",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-13T00:00:00+00:00",
-      "summary": "Visual agents must turn video observations into timely decisions to track progress and choose what to do next. Building on the emerging System One paradigm, we introduce VideoJev, a family of models that cast video understanding and interaction as structured decision tasks. We adapt pretrained multimodal large language models (MLLMs) by replacing autoregressive answer decoding with a shared head t",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 188,
-      "arxiv_id": "2610.18615"
-    },
-    {
       "id": "paper:2610.18773",
       "title": "Jeva: System One Models from First Principles",
       "url": "https://huggingface.co/papers/2610.18773",
@@ -60,7 +59,7 @@
       "summary": "System one models enable direct, low-latency decision-making. Yet recent practice of predicting an answer from serialized text does not, by itself, respect the structure of a decision problem. We argue that current designs underemphasize four important structural requirements. (i) null-aware: Models should distinguish answer absence from uncertainty among candidates; (ii) permutation-invariant: Re",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 150,
+      "upvotes": 224,
       "arxiv_id": "2610.18773"
     },
     {
@@ -73,8 +72,21 @@
       "summary": "Large language models have evolved from single-turn chatbots into interactive agents capable of long-horizon reasoning. In real deployments, MCP tool services can return noisy feedback and users may intervene to correct the agent, but existing methods provide limited supervision for reflection learning and failure recovery. To bridge this gap, we propose Agent-Reflex, a general training framework ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 142,
+      "upvotes": 192,
       "arxiv_id": "2610.17953"
+    },
+    {
+      "id": "paper:2610.18615",
+      "title": "VideoJev: System One Model for Video Understanding and Interaction",
+      "url": "https://huggingface.co/papers/2610.18615",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-13T00:00:00+00:00",
+      "summary": "Visual agents must turn video observations into timely decisions to track progress and choose what to do next. Building on the emerging System One paradigm, we introduce VideoJev, a family of models that cast video understanding and interaction as structured decision tasks. We adapt pretrained multimodal large language models (MLLMs) by replacing autoregressive answer decoding with a shared head t",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 190,
+      "arxiv_id": "2610.18615"
     },
     {
       "id": "paper:2610.18356",
@@ -90,19 +102,6 @@
       "arxiv_id": "2610.18356"
     },
     {
-      "id": "paper:2610.18860",
-      "title": "AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards",
-      "url": "https://huggingface.co/papers/2610.18860",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-13T00:00:00+00:00",
-      "summary": "Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the outputs are structured, editable, and verifiable. Yet code models cannot see how their choices of layout and color come together on the canvas, often limiting spatial planning and aesthetic quality. Image generators excel at visual design but can misrender requested content, making",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 77,
-      "arxiv_id": "2610.18860"
-    },
-    {
       "id": "paper:2610.18774",
       "title": "GreenWAM: A World Foundation Model for Robotics",
       "url": "https://huggingface.co/papers/2610.18774",
@@ -112,8 +111,21 @@
       "summary": "A robot needs a world model that predicts how its actions will change the scene and a policy that chooses those actions. Models are usually built and evaluated for only one of these roles, and every robot records its actions in its own format. We ask whether one robot world model can serve both roles across different bodies, and what makes this work. We present GreenWAM, a world foundation model f",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 76,
+      "upvotes": 80,
       "arxiv_id": "2610.18774"
+    },
+    {
+      "id": "paper:2610.18860",
+      "title": "AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards",
+      "url": "https://huggingface.co/papers/2610.18860",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-13T00:00:00+00:00",
+      "summary": "Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the outputs are structured, editable, and verifiable. Yet code models cannot see how their choices of layout and color come together on the canvas, often limiting spatial planning and aesthetic quality. Image generators excel at visual design but can misrender requested content, making",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 78,
+      "arxiv_id": "2610.18860"
     },
     {
       "id": "paper:2610.18067",
@@ -125,8 +137,21 @@
       "summary": "Scaling interactive environments is important for training long-horizon agents through reinforcement learning. These environments often require further testing and refinement after initial generation, and correcting defects in a task may also require updating its work context and verifier. However, existing construction pipelines offer limited support for such iterative refinement while keeping th",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 51,
+      "upvotes": 64,
       "arxiv_id": "2610.18067"
+    },
+    {
+      "id": "paper:2610.18868",
+      "title": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
+      "url": "https://huggingface.co/papers/2610.18868",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-13T00:00:00+00:00",
+      "summary": "Long-horizon agents have drawn growing attention for their ability to work autonomously -- from hours to days -- on economically valuable tasks, a capability essential to automated discovery and recursive self-improvement (RSI). Yet open-source models still struggle on long-horizon tasks, largely for lack of both training data and a working recipe, and scaling both is hard: long, complex tasks are",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 63,
+      "arxiv_id": "2610.18868"
     },
     {
       "id": "yt:f7OpKLA-CLI",
@@ -210,7 +235,7 @@
       "summary": "Proximal Policy Optimization (PPO) is widely used in reinforcement learning with verifiable rewards for language-model reasoning. While value evolution along trajectory characterizes relative token-level credit, yet standard critics often fail to track it under sparse terminal rewards. To model this evolution, we analyze the relation between successive prefix values and show that they admit a Baye",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 69,
+      "upvotes": 71,
       "arxiv_id": "2610.16794"
     },
     {
@@ -223,7 +248,7 @@
       "summary": "Chest X-ray (CXR) interpretation often requires integrating visual findings with task-specific evidence rather than relying on direct visual recognition alone. While tool-augmented medical agents can supply such evidence via external modules, they often lack explicit mechanisms for learning when auxiliary evidence is needed and for preventing inapplicable quantitative evidence from entering diagno",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 65,
+      "upvotes": 66,
       "arxiv_id": "2610.16811"
     },
     {
@@ -236,7 +261,7 @@
       "summary": "Multi-player interactive world models aim to simulate shared environments from multiple players' perspectives, but achieving robust generation while scaling to more players remains challenging. Existing approaches that rely on fully-connected communication (e.g., Solaris) incur quadratic attention costs as the number of players grows, while centralized approaches (e.g., γ-World) suffer from interf",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 54,
+      "upvotes": 55,
       "arxiv_id": "2610.17201"
     },
     {
@@ -297,7 +322,7 @@
       "summary": "Large language models are increasingly deployed in applications that act on users' long-term behavior histories, from personal assistants to recommendation and advertising systems. These applications demand the user dimension of LLM intelligence: inferring a person's preferences, intent, and likely future actions from weeks to years of behavior data. Yet current models are trained on static text o",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 68,
+      "upvotes": 69,
       "arxiv_id": "2610.14709"
     },
     {
@@ -326,19 +351,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2610.13361",
-      "title": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
-      "url": "https://huggingface.co/papers/2610.13361",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-09T00:00:00+00:00",
-      "summary": "As the production of software passes into the hands of software itself, coding agents are increasingly commissioned to build agents fitted to their users' own workflows. This delegation carries a quiet assumption, that the delivered agent will faithfully serve the requirement it was built for, rather than merely appear to. No existing benchmark tests that assumption. We introduce AgentSWE, a bench",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 206,
-      "arxiv_id": "2610.13361"
-    },
-    {
       "id": "paper:2610.14224",
       "title": "Harness^2: Recursive Agent Harnessing for an Open World",
       "url": "https://huggingface.co/papers/2610.14224",
@@ -348,7 +360,7 @@
       "summary": "LLM agents' capabilities depend not only on their underlying models but also on their execution harnesses. Recursive self-improvement (RSI) offers a promising approach to automatically evolve these harnesses. However, deploying RSI in open-world settings still faces two critical challenges. First, open-world tasks are typically unseen during the harness design phase and novel at test time, leaving",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 71,
+      "upvotes": 73,
       "arxiv_id": "2610.14224"
     },
     {
@@ -957,7 +969,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T15:38:05.275678+00:00",
+      "fetched_at": "2026-10-14T19:51:20.156414+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1039,7 +1051,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T15:38:05.277579+00:00",
+      "fetched_at": "2026-10-14T19:51:20.159085+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1121,7 +1133,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T15:38:05.279546+00:00",
+      "fetched_at": "2026-10-14T19:51:20.161864+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1203,7 +1215,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T15:38:05.280266+00:00",
+      "fetched_at": "2026-10-14T19:51:20.162861+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1257,7 +1269,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T15:38:05.283654+00:00",
+      "fetched_at": "2026-10-14T19:51:20.167322+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1339,7 +1351,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T15:38:05.283665+00:00",
+      "fetched_at": "2026-10-14T19:51:20.167335+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1393,7 +1405,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T15:38:05.285075+00:00",
+      "fetched_at": "2026-10-14T19:51:20.169280+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1475,7 +1487,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-14T15:38:05.308412+00:00",
+      "fetched_at": "2026-10-14T19:51:20.202606+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1557,7 +1569,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-14T15:38:05.334019+00:00",
+      "fetched_at": "2026-10-14T19:51:20.240221+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1639,7 +1651,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T15:38:05.341841+00:00",
+      "fetched_at": "2026-10-14T19:51:20.251412+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1721,7 +1733,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T15:38:05.344791+00:00",
+      "fetched_at": "2026-10-14T19:51:20.255569+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1803,76 +1815,76 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T15:38:05.353446+00:00",
+      "fetched_at": "2026-10-14T19:51:20.267877+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Eleven v4 Turbo",
           "creator": "Eleven v4 Turbo",
-          "score": 1330.0,
+          "score": 1328.0,
           "meta": "Sept 2026 · $40.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Eleven v4",
           "creator": "Eleven v4",
-          "score": 1328.0,
+          "score": 1326.0,
           "meta": "Sept 2026 · $80.0 /1M chars"
         },
         {
           "rank": 3,
           "name": "Qwen-Audio-3.1-TTS-Plus",
           "creator": "Qwen-Audio-3.1-TTS-Plus",
-          "score": 1300.0,
+          "score": 1297.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
           "rank": 4,
           "name": "Sonic 3.6",
           "creator": "Sonic 3.6",
-          "score": 1286.0,
+          "score": 1283.0,
           "meta": "Aug 2026 · $49.0 /1M chars"
         },
         {
           "rank": 5,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Gemini 3.8 Flash TTS",
-          "score": 1274.0,
+          "score": 1273.0,
           "meta": "Sept 2026 · $16.5 /1M chars"
         },
         {
           "rank": 6,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Qwen-Audio-3.0-TTS-Plus",
-          "score": 1268.0,
+          "score": 1266.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
           "rank": 7,
           "name": "Realtime TTS-2",
           "creator": "Realtime TTS-2",
-          "score": 1260.0,
+          "score": 1259.0,
           "meta": "Aug 2026 · $20.8 /1M chars"
         },
         {
           "rank": 8,
           "name": "Gemini 3.8 Flash-Lite TTS",
           "creator": "Gemini 3.8 Flash-Lite TTS",
-          "score": 1248.0,
+          "score": 1247.0,
           "meta": "Sept 2026 · $11.0 /1M chars"
         },
         {
           "rank": 9,
           "name": "Simba 3.2",
           "creator": "Simba 3.2",
-          "score": 1245.0,
+          "score": 1243.0,
           "meta": "Jul 2026 · $6.6 /1M chars"
         },
         {
           "rank": 10,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio Drama 3 Preview",
-          "score": 1243.0,
+          "score": 1242.0,
           "meta": "Oct 2026 · $15.0 /1M chars"
         }
       ]
@@ -1885,34 +1897,34 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T15:38:05.355372+00:00",
+      "fetched_at": "2026-10-14T19:51:20.270502+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio Drama 3 Preview",
-          "score": 1243.0,
+          "score": 1242.0,
           "meta": "Oct 2026 · $15.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Breeze TTS 2",
           "creator": "Breeze TTS 2",
-          "score": 1221.0,
+          "score": 1220.0,
           "meta": "Aug 2026 · $34.0 /1M chars"
         },
         {
           "rank": 3,
           "name": "Fish Audio S2 Pro",
           "creator": "Fish Audio S2 Pro",
-          "score": 1118.0,
+          "score": 1116.0,
           "meta": "Mar 2026 · $15.0 /1M chars"
         },
         {
           "rank": 4,
           "name": "Step Audio EditX (Mar 2026)",
           "creator": "Step Audio EditX (Mar 2026)",
-          "score": 1097.0,
+          "score": 1096.0,
           "meta": "Feb 2026 · N/A"
         },
         {
@@ -1926,35 +1938,35 @@
           "rank": 6,
           "name": "Magpie-Multilingual 357M (Feb 2026)",
           "creator": "Magpie-Multilingual 357M (Feb 2026)",
-          "score": 1065.0,
+          "score": 1064.0,
           "meta": "Feb 2026 · N/A"
         },
         {
           "rank": 7,
           "name": "Kokoro 82M v1.0",
           "creator": "Kokoro 82M v1.0",
-          "score": 1063.0,
+          "score": 1061.0,
           "meta": "Jan 2025 · $0.7 /1M chars"
         },
         {
           "rank": 8,
           "name": "Maya1",
           "creator": "Maya1",
-          "score": 1047.0,
+          "score": 1046.0,
           "meta": "Jun 2025 · N/A"
         },
         {
           "rank": 9,
           "name": "OpenAudio S1 Mini",
           "creator": "OpenAudio S1 Mini",
-          "score": 1045.0,
+          "score": 1043.0,
           "meta": "Jun 2025 · $15.0 /1M chars"
         },
         {
           "rank": 10,
           "name": "Higgs Audio V3 TTS",
           "creator": "Higgs Audio V3 TTS",
-          "score": 1039.0,
+          "score": 1037.0,
           "meta": "Jun 2026 · $15.0 /1M chars"
         }
       ]
@@ -1967,55 +1979,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-14T15:37:49.454437+00:00"
+        "checked_at": "2026-10-14T19:51:03.174465+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-14T15:37:48.310218+00:00"
+        "checked_at": "2026-10-14T19:51:01.924426+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-14T15:37:52.771918+00:00"
+        "checked_at": "2026-10-14T19:51:06.522100+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-14T15:37:50.603948+00:00"
+        "checked_at": "2026-10-14T19:51:04.201698+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-14T15:37:55.028641+00:00"
+        "checked_at": "2026-10-14T19:51:09.052722+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-14T15:37:51.621517+00:00"
+        "checked_at": "2026-10-14T19:51:05.369851+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-14T15:37:53.907444+00:00"
+        "checked_at": "2026-10-14T19:51:07.759974+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-14T15:38:05.356418+00:00"
+      "checked_at": "2026-10-14T19:51:20.271876+00:00"
     }
   }
 }
