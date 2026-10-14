@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T21:55:03.523443+00:00",
+  "generated_at": "2026-10-14T00:45:03.848858+00:00",
   "items": [
     {
       "id": "yt:z_sXLlLVUls",
@@ -143,7 +143,7 @@
       "summary": "Multimodal language models (MLLMs) exhibit promising spatial reasoning capabilities, yet the internal mechanisms supporting them remain poorly understood. We uncover S-Space, a linear representation subspace in which object-token representations encode continuous coordinates along horizontal, vertical, and distance axes. Although we identify these axes by differentiating spatial-answer scores with",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 271,
+      "upvotes": 272,
       "arxiv_id": "2610.13527"
     },
     {
@@ -181,7 +181,7 @@
       "summary": "Terminal agents are moving beyond local operations toward completing real-world professional tasks. Short trajectories can demonstrate commands and tool calls, but they do not fully show how agents accumulate evidence through exploration, use it to inform judgments, continually adjust strategies based on feedback, and turn intermediate results into final deliverables. High-quality long-horizon tra",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 132,
+      "upvotes": 133,
       "arxiv_id": "2610.13166"
     },
     {
@@ -237,6 +237,19 @@
       "arxiv_id": "2610.13113"
     },
     {
+      "id": "paper:2610.13630",
+      "title": "Multi-Stream Attention Residuals",
+      "url": "https://huggingface.co/papers/2610.13630",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-09T00:00:00+00:00",
+      "summary": "Attention Residuals (AttnRes) enables content-dependent retrieval over network depth, which can be viewed as single-stream softmax attention along the depth axis. Inspired by the success of multi-head attention along the sequence axis, we introduce Multi-Stream Attention Residuals (MSAR), an extension of AttnRes that generalizes this mechanism to multi-head depth attention, yielding substantial pe",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 34,
+      "arxiv_id": "2610.13630"
+    },
+    {
       "id": "yt:6gfACqBAKfw",
       "title": "Claude Haiku 5.5 Is a GAME CHANGER! 90% CHEAPER & INSANE Performance! (Fully Tested)",
       "url": "https://www.youtube.com/watch?v=6gfACqBAKfw",
@@ -271,7 +284,7 @@
       "summary": "Large Language Models (LLMs) increasingly ship with explicit \"thinking modes\", yet their counterpart, \"no-thinking\", has received far less attention. We study LLMs' no-thinking behavior along two axes. a. How to measure no-thinking? Prior work typically defines no-thinking through proxies such as a disabled thinking mode or the absence of long traces. These proxies are unreliable: disabled thinkin",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 214,
+      "upvotes": 215,
       "arxiv_id": "2610.11765"
     },
     {
@@ -386,19 +399,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/-mv1Tf26Vms/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
-    },
-    {
-      "id": "paper:2610.09326",
-      "title": "VIS-Ground: Video Interactive Storytelling with Contextual Grounding",
-      "url": "https://huggingface.co/papers/2610.09326",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-07T00:00:00+00:00",
-      "summary": "Video interactive storytelling enables viewers to actively steer how a video unfolds. However, once we allow viewers to intervene during generation, a new challenge arises: The viewer's request can have latent dependencies on both the grounding source and the current rendered video state. These dependencies may not be explicitly stated in any individual input, but emerge only when the source, rend",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 77,
-      "arxiv_id": "2610.09326"
     },
     {
       "id": "yt:OyzP0Rgiz2I",
@@ -957,7 +957,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T21:55:03.392849+00:00",
+      "fetched_at": "2026-10-14T00:45:03.759823+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1039,7 +1039,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T21:55:03.396080+00:00",
+      "fetched_at": "2026-10-14T00:45:03.762099+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1121,7 +1121,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T21:55:03.398942+00:00",
+      "fetched_at": "2026-10-14T00:45:03.764114+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1203,7 +1203,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T21:55:03.399916+00:00",
+      "fetched_at": "2026-10-14T00:45:03.764820+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1257,7 +1257,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T21:55:03.404459+00:00",
+      "fetched_at": "2026-10-14T00:45:03.768232+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1339,7 +1339,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T21:55:03.404472+00:00",
+      "fetched_at": "2026-10-14T00:45:03.768243+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1393,7 +1393,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T21:55:03.406486+00:00",
+      "fetched_at": "2026-10-14T00:45:03.769630+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1475,7 +1475,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-13T21:55:03.442794+00:00",
+      "fetched_at": "2026-10-14T00:45:03.792766+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1557,7 +1557,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-13T21:55:03.481432+00:00",
+      "fetched_at": "2026-10-14T00:45:03.819048+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1639,7 +1639,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T21:55:03.500175+00:00",
+      "fetched_at": "2026-10-14T00:45:03.832694+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1721,7 +1721,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T21:55:03.506857+00:00",
+      "fetched_at": "2026-10-14T00:45:03.837187+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1803,7 +1803,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T21:55:03.519357+00:00",
+      "fetched_at": "2026-10-14T00:45:03.845630+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1885,7 +1885,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-13T21:55:03.522071+00:00",
+      "fetched_at": "2026-10-14T00:45:03.847559+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1964,58 +1964,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-13T21:54:47.091260+00:00"
+        "ok": false,
+        "items": 4,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-10-14T00:44:47.049876+00:00"
       },
       {
         "name": "AI Search",
         "ok": false,
         "items": 9,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-10-13T21:54:46.049443+00:00"
+        "checked_at": "2026-10-14T00:44:45.911502+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": false,
         "items": 15,
-        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-10-13T21:54:50.397375+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-10-14T00:44:50.255798+00:00"
       },
       {
         "name": "Fireship",
         "ok": false,
         "items": 11,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-10-13T21:54:48.169372+00:00"
+        "checked_at": "2026-10-14T00:44:48.114782+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-13T21:54:52.762598+00:00"
+        "checked_at": "2026-10-14T00:44:52.501476+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": false,
         "items": 8,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-10-13T21:54:49.252842+00:00"
+        "checked_at": "2026-10-14T00:44:49.177659+00:00"
       },
       {
         "name": "World of AI",
         "ok": false,
         "items": 15,
-        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-10-13T21:54:51.540895+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-10-14T00:44:51.324188+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-13T21:55:03.523369+00:00"
+      "checked_at": "2026-10-14T00:45:03.848781+00:00"
     }
   }
 }
