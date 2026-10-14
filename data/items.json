@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T10:51:51.355989+00:00",
+  "generated_at": "2026-10-14T15:38:05.356496+00:00",
   "items": [
     {
       "id": "yt:mfsUVN8ykLA",
@@ -38,32 +38,6 @@
       "channel": "Two Minute Papers"
     },
     {
-      "id": "paper:2610.18356",
-      "title": "Urbex: Agentic Spatial Grounding for City-Scale 3D Scenes",
-      "url": "https://huggingface.co/papers/2610.18356",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-13T00:00:00+00:00",
-      "summary": "City-scale 3D grounding is commonly formulated as candidate ranking, which requires precomputed instance proposals and becomes inefficient in large outdoor scenes. We propose Urbex, an agentic vision-language framework that instead casts grounding as active spatial search. Urbex represents a city-scale 3D scene as an interactive multi-view environment, allowing a VLM agent to query landmarks, zoom",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 90,
-      "arxiv_id": "2610.18356"
-    },
-    {
-      "id": "paper:2610.17953",
-      "title": "Agent-Reflex: Teaching Language Agents to Act Reflectively",
-      "url": "https://huggingface.co/papers/2610.17953",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-13T00:00:00+00:00",
-      "summary": "Large language models have evolved from single-turn chatbots into interactive agents capable of long-horizon reasoning. In real deployments, MCP tool services can return noisy feedback and users may intervene to correct the agent, but existing methods provide limited supervision for reflection learning and failure recovery. To bridge this gap, we propose Agent-Reflex, a general training framework ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 85,
-      "arxiv_id": "2610.17953"
-    },
-    {
       "id": "paper:2610.18615",
       "title": "VideoJev: System One Model for Video Understanding and Interaction",
       "url": "https://huggingface.co/papers/2610.18615",
@@ -73,7 +47,7 @@
       "summary": "Visual agents must turn video observations into timely decisions to track progress and choose what to do next. Building on the emerging System One paradigm, we introduce VideoJev, a family of models that cast video understanding and interaction as structured decision tasks. We adapt pretrained multimodal large language models (MLLMs) by replacing autoregressive answer decoding with a shared head t",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 84,
+      "upvotes": 188,
       "arxiv_id": "2610.18615"
     },
     {
@@ -86,8 +60,34 @@
       "summary": "System one models enable direct, low-latency decision-making. Yet recent practice of predicting an answer from serialized text does not, by itself, respect the structure of a decision problem. We argue that current designs underemphasize four important structural requirements. (i) null-aware: Models should distinguish answer absence from uncertainty among candidates; (ii) permutation-invariant: Re",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 69,
+      "upvotes": 150,
       "arxiv_id": "2610.18773"
+    },
+    {
+      "id": "paper:2610.17953",
+      "title": "Agent-Reflex: Teaching Language Agents to Act Reflectively",
+      "url": "https://huggingface.co/papers/2610.17953",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-13T00:00:00+00:00",
+      "summary": "Large language models have evolved from single-turn chatbots into interactive agents capable of long-horizon reasoning. In real deployments, MCP tool services can return noisy feedback and users may intervene to correct the agent, but existing methods provide limited supervision for reflection learning and failure recovery. To bridge this gap, we propose Agent-Reflex, a general training framework ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 142,
+      "arxiv_id": "2610.17953"
+    },
+    {
+      "id": "paper:2610.18356",
+      "title": "Urbex: Agentic Spatial Grounding for City-Scale 3D Scenes",
+      "url": "https://huggingface.co/papers/2610.18356",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-13T00:00:00+00:00",
+      "summary": "City-scale 3D grounding is commonly formulated as candidate ranking, which requires precomputed instance proposals and becomes inefficient in large outdoor scenes. We propose Urbex, an agentic vision-language framework that instead casts grounding as active spatial search. Urbex represents a city-scale 3D scene as an interactive multi-view environment, allowing a VLM agent to query landmarks, zoom",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 109,
+      "arxiv_id": "2610.18356"
     },
     {
       "id": "paper:2610.18860",
@@ -99,8 +99,34 @@
       "summary": "Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the outputs are structured, editable, and verifiable. Yet code models cannot see how their choices of layout and color come together on the canvas, often limiting spatial planning and aesthetic quality. Image generators excel at visual design but can misrender requested content, making",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 41,
+      "upvotes": 77,
       "arxiv_id": "2610.18860"
+    },
+    {
+      "id": "paper:2610.18774",
+      "title": "GreenWAM: A World Foundation Model for Robotics",
+      "url": "https://huggingface.co/papers/2610.18774",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-13T00:00:00+00:00",
+      "summary": "A robot needs a world model that predicts how its actions will change the scene and a policy that chooses those actions. Models are usually built and evaluated for only one of these roles, and every robot records its actions in its own format. We ask whether one robot world model can serve both roles across different bodies, and what makes this work. We present GreenWAM, a world foundation model f",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 76,
+      "arxiv_id": "2610.18774"
+    },
+    {
+      "id": "paper:2610.18067",
+      "title": "WorkRover: Scaling Long-Horizon Cowork Agent Training Via Recursive Environment Evolution",
+      "url": "https://huggingface.co/papers/2610.18067",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-13T00:00:00+00:00",
+      "summary": "Scaling interactive environments is important for training long-horizon agents through reinforcement learning. These environments often require further testing and refinement after initial generation, and correcting defects in a task may also require updating its work context and verifier. However, existing construction pipelines offer limited support for such iterative refinement while keeping th",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 51,
+      "arxiv_id": "2610.18067"
     },
     {
       "id": "yt:f7OpKLA-CLI",
@@ -175,19 +201,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2610.16811",
-      "title": "X-Ragent: Tool-Augmented Reinforcement Learning for Evidence-Grounded Chest X-Ray Reasoning",
-      "url": "https://huggingface.co/papers/2610.16811",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-12T00:00:00+00:00",
-      "summary": "Chest X-ray (CXR) interpretation often requires integrating visual findings with task-specific evidence rather than relying on direct visual recognition alone. While tool-augmented medical agents can supply such evidence via external modules, they often lack explicit mechanisms for learning when auxiliary evidence is needed and for preventing inapplicable quantitative evidence from entering diagno",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 57,
-      "arxiv_id": "2610.16811"
-    },
-    {
       "id": "paper:2610.16794",
       "title": "TPPO: Tracking-Value PPO For Language Model Reasoning",
       "url": "https://huggingface.co/papers/2610.16794",
@@ -197,8 +210,21 @@
       "summary": "Proximal Policy Optimization (PPO) is widely used in reinforcement learning with verifiable rewards for language-model reasoning. While value evolution along trajectory characterizes relative token-level credit, yet standard critics often fail to track it under sparse terminal rewards. To model this evolution, we analyze the relation between successive prefix values and show that they admit a Baye",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 47,
+      "upvotes": 69,
       "arxiv_id": "2610.16794"
+    },
+    {
+      "id": "paper:2610.16811",
+      "title": "X-Ragent: Tool-Augmented Reinforcement Learning for Evidence-Grounded Chest X-Ray Reasoning",
+      "url": "https://huggingface.co/papers/2610.16811",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-12T00:00:00+00:00",
+      "summary": "Chest X-ray (CXR) interpretation often requires integrating visual findings with task-specific evidence rather than relying on direct visual recognition alone. While tool-augmented medical agents can supply such evidence via external modules, they often lack explicit mechanisms for learning when auxiliary evidence is needed and for preventing inapplicable quantitative evidence from entering diagno",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 65,
+      "arxiv_id": "2610.16811"
     },
     {
       "id": "paper:2610.17201",
@@ -210,7 +236,7 @@
       "summary": "Multi-player interactive world models aim to simulate shared environments from multiple players' perspectives, but achieving robust generation while scaling to more players remains challenging. Existing approaches that rely on fully-connected communication (e.g., Solaris) incur quadratic attention costs as the number of players grows, while centralized approaches (e.g., γ-World) suffer from interf",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 39,
+      "upvotes": 54,
       "arxiv_id": "2610.17201"
     },
     {
@@ -271,21 +297,8 @@
       "summary": "Large language models are increasingly deployed in applications that act on users' long-term behavior histories, from personal assistants to recommendation and advertising systems. These applications demand the user dimension of LLM intelligence: inferring a person's preferences, intent, and likely future actions from weeks to years of behavior data. Yet current models are trained on static text o",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 60,
+      "upvotes": 68,
       "arxiv_id": "2610.14709"
-    },
-    {
-      "id": "paper:2610.14609",
-      "title": "EviScene: Beyond \"Is It AI?\" for Agentic Image Factuality Assessment",
-      "url": "https://huggingface.co/papers/2610.14609",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-10T00:00:00+00:00",
-      "summary": "Determining whether an image is AI-generated does not establish whether the situation it depicts is factually supported. We formulate Image Factuality Assessment: given an image and a generic verification instruction, a system returns a supported or refuted verdict with an evidence-grounded explanation. Without a supplied textual claim, the system must progressively refine factual questions during",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 39,
-      "arxiv_id": "2610.14609"
     },
     {
       "id": "paper:2610.15166",
@@ -297,7 +310,7 @@
       "summary": "Coding agents are increasingly evolving beyond reproducing what a world looks like toward constructing executable worlds that capture how a world works. This shift calls for executable world modeling, which integrates two core capabilities: world understanding, reasoning about the underlying structural, mechanical, and causal principles of a world, and executable realization, translating that unde",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 38,
+      "upvotes": 63,
       "arxiv_id": "2610.15166"
     },
     {
@@ -322,21 +335,21 @@
       "summary": "As the production of software passes into the hands of software itself, coding agents are increasingly commissioned to build agents fitted to their users' own workflows. This delegation carries a quiet assumption, that the delivered agent will faithfully serve the requirement it was built for, rather than merely appear to. No existing benchmark tests that assumption. We introduce AgentSWE, a bench",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 205,
+      "upvotes": 206,
       "arxiv_id": "2610.13361"
     },
     {
-      "id": "paper:2610.13166",
-      "title": "Scaling Agentic Data for Long-Horizon Terminal Intelligence",
-      "url": "https://huggingface.co/papers/2610.13166",
+      "id": "paper:2610.14224",
+      "title": "Harness^2: Recursive Agent Harnessing for an Open World",
+      "url": "https://huggingface.co/papers/2610.14224",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-09T00:00:00+00:00",
-      "summary": "Terminal agents are moving beyond local operations toward completing real-world professional tasks. Short trajectories can demonstrate commands and tool calls, but they do not fully show how agents accumulate evidence through exploration, use it to inform judgments, continually adjust strategies based on feedback, and turn intermediate results into final deliverables. High-quality long-horizon tra",
+      "summary": "LLM agents' capabilities depend not only on their underlying models but also on their execution harnesses. Recursive self-improvement (RSI) offers a promising approach to automatically evolve these harnesses. However, deploying RSI in open-world settings still faces two critical challenges. First, open-world tasks are typically unseen during the harness design phase and novel at test time, leaving",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 138,
-      "arxiv_id": "2610.13166"
+      "upvotes": 71,
+      "arxiv_id": "2610.14224"
     },
     {
       "id": "yt:6gfACqBAKfw",
@@ -351,19 +364,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2610.11765",
-      "title": "Thinking Inertia: LLMs Keep Thinking When Told Not To",
-      "url": "https://huggingface.co/papers/2610.11765",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-08T00:00:00+00:00",
-      "summary": "Large Language Models (LLMs) increasingly ship with explicit \"thinking modes\", yet their counterpart, \"no-thinking\", has received far less attention. We study LLMs' no-thinking behavior along two axes. a. How to measure no-thinking? Prior work typically defines no-thinking through proxies such as a disabled thinking mode or the absence of long traces. These proxies are unreliable: disabled thinkin",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 221,
-      "arxiv_id": "2610.11765"
-    },
-    {
       "id": "paper:2610.12818",
       "title": "LeWAM: End-to-End World and Action Modeling with JEPAs",
       "url": "https://huggingface.co/papers/2610.12818",
@@ -373,7 +373,7 @@
       "summary": "Joint-embedding predictive architectures (JEPAs) learn compact latent world models without pixel reconstruction. Existing JEPA pipelines typically train visual representations and action-conditioned dynamics before adding a control policy or solver. We introduce LeWAM, an end-to-end JEPA for control with: (1) a joint training objective over next latent state prediction and action flow matching, an",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 57,
+      "upvotes": 63,
       "arxiv_id": "2610.12818"
     },
     {
@@ -957,7 +957,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T10:51:51.258245+00:00",
+      "fetched_at": "2026-10-14T15:38:05.275678+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1039,7 +1039,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T10:51:51.260560+00:00",
+      "fetched_at": "2026-10-14T15:38:05.277579+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1121,7 +1121,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T10:51:51.262982+00:00",
+      "fetched_at": "2026-10-14T15:38:05.279546+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1203,7 +1203,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T10:51:51.263823+00:00",
+      "fetched_at": "2026-10-14T15:38:05.280266+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1257,7 +1257,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T10:51:51.267879+00:00",
+      "fetched_at": "2026-10-14T15:38:05.283654+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1339,7 +1339,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T10:51:51.267896+00:00",
+      "fetched_at": "2026-10-14T15:38:05.283665+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1393,7 +1393,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T10:51:51.269594+00:00",
+      "fetched_at": "2026-10-14T15:38:05.285075+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1475,7 +1475,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-14T10:51:51.298516+00:00",
+      "fetched_at": "2026-10-14T15:38:05.308412+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1557,7 +1557,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-14T10:51:51.329866+00:00",
+      "fetched_at": "2026-10-14T15:38:05.334019+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1639,7 +1639,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T10:51:51.339410+00:00",
+      "fetched_at": "2026-10-14T15:38:05.341841+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1721,7 +1721,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T10:51:51.342965+00:00",
+      "fetched_at": "2026-10-14T15:38:05.344791+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1803,7 +1803,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T10:51:51.352890+00:00",
+      "fetched_at": "2026-10-14T15:38:05.353446+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1885,7 +1885,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-14T10:51:51.355090+00:00",
+      "fetched_at": "2026-10-14T15:38:05.355372+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1967,55 +1967,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-14T10:51:34.071409+00:00"
+        "checked_at": "2026-10-14T15:37:49.454437+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-14T10:51:32.862305+00:00"
+        "checked_at": "2026-10-14T15:37:48.310218+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-14T10:51:37.585114+00:00"
+        "checked_at": "2026-10-14T15:37:52.771918+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-14T10:51:35.259930+00:00"
+        "checked_at": "2026-10-14T15:37:50.603948+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-14T10:51:39.847083+00:00"
+        "checked_at": "2026-10-14T15:37:55.028641+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-14T10:51:36.459604+00:00"
+        "checked_at": "2026-10-14T15:37:51.621517+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-14T10:51:38.618788+00:00"
+        "checked_at": "2026-10-14T15:37:53.907444+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-14T10:51:51.355907+00:00"
+      "checked_at": "2026-10-14T15:38:05.356418+00:00"
     }
   }
 }
