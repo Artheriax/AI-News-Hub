@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T11:49:26.654366+00:00",
+  "generated_at": "2026-10-15T15:58:57.466278+00:00",
   "items": [
     {
       "id": "yt:bk1xyTwzsY8",
@@ -35,7 +35,7 @@
       "summary": "Multimodal models and agents have emerged to enable AI systems to learn from and interact with the real world more like humans by integrating information across multiple modalities. However, enabling multimodal agents to continually acquire useful information from complex, heterogeneous multimodal data remains a significant challenge as they move toward long-horizon tasks and lifelong settings. Ad",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 35,
+      "upvotes": 40,
       "arxiv_id": "2610.19366"
     },
     {
@@ -48,7 +48,7 @@
       "summary": "Long-form agentic video generation must turn a screenplay into shots that remain spatially and temporally consistent across nonconsecutive requests. Passing prompts or recent frames between shots does not provide a shared spatial frame for revisiting a scene or a time-indexed record for replaying an earlier event. We present Any Time, Any Space (ATAS), which compiles a screenplay into shot request",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 184,
+      "upvotes": 315,
       "arxiv_id": "2610.20571"
     },
     {
@@ -61,7 +61,7 @@
       "summary": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remain challenging and offer a demanding next step toward general digital control. Current game-agent learning pipelines often rely on large-scale demonstrations with limited coverage of dynamic game state",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 123,
+      "upvotes": 115,
       "arxiv_id": "2610.20584"
     },
     {
@@ -74,8 +74,21 @@
       "summary": "Agents driven by large language models are increasingly deployed on long-horizon tasks, where they use tools and modify real workspaces. How well they perform depends as much on the harness around the model as on the model itself. Existing benchmarks measure downstream task success under a fixed harness, leaving harness engineering itself unexplored. We propose Doc2Harness, a two-stage benchmark t",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 72,
+      "upvotes": 90,
       "arxiv_id": "2610.20344"
+    },
+    {
+      "id": "paper:2610.19789",
+      "title": "More Methods, Better Agents? A Reality Check on Self-Distillation in Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2610.19789",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-14T00:00:00+00:00",
+      "summary": "Self-distillation in agentic reinforcement learning has produced a growing number of methods. However, existing evaluations often reuse published baseline scores under differing experimental conditions, provide few direct comparisons among contemporaneous methods, and give limited attention to training stability and computational cost. These limitations obscure the source of reported gains and the",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 70,
+      "arxiv_id": "2610.19789"
     },
     {
       "id": "paper:2610.20572",
@@ -87,8 +100,21 @@
       "summary": "On-policy distillation (OPD) trains a student model on its own rollouts with token-level supervision from a teacher, assuming that the teacher can reach a correct answer from any prefix the student writes. We call this property the recoverability of the teacher and show it fails on incorrect rollouts: the teacher follows student errors, although it recognizes them. We propose CriticOPD, using erro",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 61,
+      "upvotes": 65,
       "arxiv_id": "2610.20572"
+    },
+    {
+      "id": "paper:2610.20399",
+      "title": "Cortex: Consolidating Context into Parametric Memory",
+      "url": "https://huggingface.co/papers/2610.20399",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-14T00:00:00+00:00",
+      "summary": "Context can improve large language model performance, but these gains may be lost after context removal. Inspired by biological systems consolidation, we formulate Memory Consolidation (MC) as internalizing these gains while preserving non-target capabilities, connecting context-specified editing, skill learning, and behavioral steering under a common objective. We introduce a five-task-family tes",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 62,
+      "arxiv_id": "2610.20399"
     },
     {
       "id": "paper:2610.19975",
@@ -100,7 +126,7 @@
       "summary": "Looped Mixture-of-Experts (MoE) models combine parameter reuse with sparse computation to improve performance under matched budgets. Prior work demonstrates that different loop visits can play different roles even when they share parameters. To probe the contributions of different loop visits, we learn separate residual coefficients in a model that applies a shared block twice, observing a smaller",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 56,
+      "upvotes": 61,
       "arxiv_id": "2610.19975"
     },
     {
@@ -113,21 +139,8 @@
       "summary": "Large language models (LLMs) increasingly tackle complex real-world tasks in specialized domains. However, identifying and correctly applying domain-specific rules remains challenging when scenario information is distributed across multiple files. Existing rule-reasoning benchmarks typically represent scenarios using only a few factual statements, simplifying the identification and application of ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 54,
+      "upvotes": 60,
       "arxiv_id": "2610.19698"
-    },
-    {
-      "id": "paper:2610.20399",
-      "title": "Cortex: Consolidating Context into Parametric Memory",
-      "url": "https://huggingface.co/papers/2610.20399",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-14T00:00:00+00:00",
-      "summary": "Context can improve large language model performance, but these gains may be lost after context removal. Inspired by biological systems consolidation, we formulate Memory Consolidation (MC) as internalizing these gains while preserving non-target capabilities, connecting context-specified editing, skill learning, and behavioral steering under a common objective. We introduce a five-task-family tes",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 52,
-      "arxiv_id": "2610.20399"
     },
     {
       "id": "paper:2610.19820",
@@ -139,21 +152,8 @@
       "summary": "Distilling capable language-model agents into smaller models requires aligning the student's behavior with the teacher's. This raises a fundamental question: at which states and at what granularity should this alignment be performed? Offline imitation provides dense but token-specific supervision and can suffer from state-distribution mismatch. Token-level on-policy distillation (OPD) addresses th",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 46,
+      "upvotes": 52,
       "arxiv_id": "2610.19820"
-    },
-    {
-      "id": "paper:2610.19789",
-      "title": "More Methods, Better Agents? A Reality Check on Self-Distillation in Agentic Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2610.19789",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-14T00:00:00+00:00",
-      "summary": "Self-distillation in agentic reinforcement learning has produced a growing number of methods. However, existing evaluations often reuse published baseline scores under differing experimental conditions, provide few direct comparisons among contemporaneous methods, and give limited attention to training stability and computational cost. These limitations obscure the source of reported gains and the",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 39,
-      "arxiv_id": "2610.19789"
     },
     {
       "id": "yt:mfsUVN8ykLA",
@@ -180,6 +180,19 @@
       "channel": "WorldofAI"
     },
     {
+      "id": "paper:2610.18072",
+      "title": "LensErase: A Foundation Model for Erase Anything",
+      "url": "https://huggingface.co/papers/2610.18072",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-13T09:56:02+00:00",
+      "summary": "We introduce LensErase, a general-purpose mask-based Erase Anything foundation model designed to cover a broad spectrum of real-world erase scenarios. LensErase supports diverse objects, visual text, watermarks, associated visual effects, multiple-object removal, and a wide range of object scales, aspect ratios, and image resolutions. First, to enable such broad coverage, we construct LensErase-10",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 35,
+      "arxiv_id": "2610.18072"
+    },
+    {
       "id": "yt:z_sXLlLVUls",
       "title": "OpenAI’s New AI Is Doing Things We Barely Understand",
       "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
@@ -190,19 +203,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/z_sXLlLVUls/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
-    },
-    {
-      "id": "paper:2610.18774",
-      "title": "GreenWAM: A World Foundation Model for Robotics",
-      "url": "https://huggingface.co/papers/2610.18774",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-13T00:00:00+00:00",
-      "summary": "A robot needs a world model that predicts how its actions will change the scene and a policy that chooses those actions. Models are usually built and evaluated for only one of these roles, and every robot records its actions in its own format. We ask whether one robot world model can serve both roles across different bodies, and what makes this work. We present GreenWAM, a world foundation model f",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 84,
-      "arxiv_id": "2610.18774"
     },
     {
       "id": "yt:f7OpKLA-CLI",
@@ -313,6 +313,19 @@
       "channel": "AI Search"
     },
     {
+      "id": "paper:2610.15542",
+      "title": "Apertus 1.5: From Open Text Models to Open Multimodal Reasoners",
+      "url": "https://huggingface.co/papers/2610.15542",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-11T00:00:00+00:00",
+      "summary": "Language models are becoming infrastructure, and infrastructure built in the open, by public institutions, on documented data, is the alternative to dependence on a few providers; Apertus shows this is viable at scale. Apertus 1.5 extends the fully open Apertus family from text to multimodal reasoning. Continued pretraining of the Apertus 1.0 models, on 4T additional tokens for the 8B and 2T for t",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 34,
+      "arxiv_id": "2610.15542"
+    },
+    {
       "id": "yt:USpkPjv-lxs",
       "title": "HUGE Gemini 4 Carbon LEAKS, Claude Fable 6, GPT-7 Bel, Google CRACKED RSI?! & More! AI NEWS",
       "url": "https://www.youtube.com/watch?v=USpkPjv-lxs",
@@ -325,30 +338,17 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2610.14766",
-      "title": "Last Secure Code Benchmark: Is the Code You Vibe Secure?",
-      "url": "https://huggingface.co/papers/2610.14766",
+      "id": "paper:2610.14448",
+      "title": "KV4-RL: Unlocking Faster Asynchronous Rollouts for RLVR with INT4 KV Cache Quantization",
+      "url": "https://huggingface.co/papers/2610.14448",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-10T00:00:00+00:00",
-      "summary": "AI coding agents now write much of the code that ships, yet whether that code is secure remains unclear. We introduce the Last Secure Code Benchmark, a comprehensive evaluation of secure code generation by coding agents. Built from 150 real vulnerabilities, its 450 tasks span seven widely used languages (Java, C, C++, JavaScript, Python, PHP, and Go), 24 CWEs including 21 of the 2025 CWE Top 25 an",
+      "summary": "Asynchronous rollout improves the efficiency of reinforcement learning with verifiable rewards (RLVR) by reducing under-utilization during long-tail generation. Sustained concurrency also concentrates context processing into fewer decode steps, increasing the KV workload per step. We characterize this KV concentration and find that KV cache quantization delivers substantially greater acceleration ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 61,
-      "arxiv_id": "2610.14766"
-    },
-    {
-      "id": "paper:2610.14609",
-      "title": "EviScene: Beyond \"Is It AI?\" for Agentic Image Factuality Assessment",
-      "url": "https://huggingface.co/papers/2610.14609",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-10T00:00:00+00:00",
-      "summary": "Determining whether an image is AI-generated does not establish whether the situation it depicts is factually supported. We formulate Image Factuality Assessment: given an image and a generic verification instruction, a system returns a supported or refuted verdict with an evidence-grounded explanation. Without a supplied textual claim, the system must progressively refine factual questions during",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 54,
-      "arxiv_id": "2610.14609"
+      "upvotes": 30,
+      "arxiv_id": "2610.14448"
     },
     {
       "id": "yt:ATBnss54_t4",
@@ -372,7 +372,7 @@
       "summary": "Multi-teacher on-policy distillation (MOPD) extends on-policy distillation (OPD) by routing domain-specific data to specialized teachers, integrating their capabilities through dense token-level supervision on student-generated trajectories. However, domain routing only distinguishes the supervision sources for different domains; updates from all domains still act on shared parameters. When teache",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 94,
+      "upvotes": 230,
       "arxiv_id": "2610.13521"
     },
     {
@@ -945,7 +945,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T11:49:26.573532+00:00",
+      "fetched_at": "2026-10-15T15:58:57.376803+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1027,7 +1027,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T11:49:26.575404+00:00",
+      "fetched_at": "2026-10-15T15:58:57.378933+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1109,7 +1109,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T11:49:26.577337+00:00",
+      "fetched_at": "2026-10-15T15:58:57.381130+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1191,7 +1191,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T11:49:26.578054+00:00",
+      "fetched_at": "2026-10-15T15:58:57.382016+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1245,7 +1245,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T11:49:26.581353+00:00",
+      "fetched_at": "2026-10-15T15:58:57.385850+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1327,7 +1327,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T11:49:26.581364+00:00",
+      "fetched_at": "2026-10-15T15:58:57.385865+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1381,7 +1381,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T11:49:26.582748+00:00",
+      "fetched_at": "2026-10-15T15:58:57.387446+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1463,7 +1463,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-15T11:49:26.606052+00:00",
+      "fetched_at": "2026-10-15T15:58:57.413714+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1545,7 +1545,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-15T11:49:26.631292+00:00",
+      "fetched_at": "2026-10-15T15:58:57.441997+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1627,7 +1627,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T11:49:26.639514+00:00",
+      "fetched_at": "2026-10-15T15:58:57.450940+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1709,7 +1709,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T11:49:26.642687+00:00",
+      "fetched_at": "2026-10-15T15:58:57.454280+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1791,7 +1791,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T11:49:26.651342+00:00",
+      "fetched_at": "2026-10-15T15:58:57.463540+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1873,7 +1873,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T11:49:26.653277+00:00",
+      "fetched_at": "2026-10-15T15:58:57.465562+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1955,55 +1955,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T11:49:10.259463+00:00"
+        "checked_at": "2026-10-15T15:58:40.445363+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T11:49:09.239155+00:00"
+        "checked_at": "2026-10-15T15:58:39.299039+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T11:49:13.579137+00:00"
+        "checked_at": "2026-10-15T15:58:43.518946+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T11:49:11.272628+00:00"
+        "checked_at": "2026-10-15T15:58:41.468557+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T11:49:15.930352+00:00"
+        "checked_at": "2026-10-15T15:58:45.784816+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T11:49:12.443108+00:00"
+        "checked_at": "2026-10-15T15:58:42.494544+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T11:49:14.762475+00:00"
+        "checked_at": "2026-10-15T15:58:44.563484+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-15T11:49:26.654279+00:00"
+      "checked_at": "2026-10-15T15:58:57.466168+00:00"
     }
   }
 }
