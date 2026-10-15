@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-10-15T15:58:57.466278+00:00",
+  "generated_at": "2026-10-15T19:43:20.586906+00:00",
   "items": [
+    {
+      "id": "yt:l3L_lETiSzc",
+      "title": "The runtime wars are over... and Node won",
+      "url": "https://www.youtube.com/watch?v=l3L_lETiSzc",
+      "source": "Fireship",
+      "category": "videos",
+      "published": "2026-10-15T17:35:15+00:00",
+      "summary": "Every JetBrains account now comes with a free coding model called Junie Lite. Try it: https://jb.gg/JunieLite Cloudflare just acquired Deno and the creator of Node.js is finally admitting that reimplementing it was a mistake. Let's dive in. Want more Fireship? 🗞️ Newsletter: https://bytes.dev 🧠 Cour",
+      "thumbnail": "https://i1.ytimg.com/vi/l3L_lETiSzc/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Fireship"
+    },
     {
       "id": "yt:bk1xyTwzsY8",
       "title": "FABLE 5.5 THIS WEEK? OpenAI Employee ARRESTED?! HUGE Claude Code Update, & Anthropic IPO! AI NEWS",
@@ -35,7 +47,7 @@
       "summary": "Multimodal models and agents have emerged to enable AI systems to learn from and interact with the real world more like humans by integrating information across multiple modalities. However, enabling multimodal agents to continually acquire useful information from complex, heterogeneous multimodal data remains a significant challenge as they move toward long-horizon tasks and lifelong settings. Ad",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 40,
+      "upvotes": 42,
       "arxiv_id": "2610.19366"
     },
     {
@@ -48,7 +60,7 @@
       "summary": "Long-form agentic video generation must turn a screenplay into shots that remain spatially and temporally consistent across nonconsecutive requests. Passing prompts or recent frames between shots does not provide a shared spatial frame for revisiting a scene or a time-indexed record for replaying an earlier event. We present Any Time, Any Space (ATAS), which compiles a screenplay into shot request",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 315,
+      "upvotes": 320,
       "arxiv_id": "2610.20571"
     },
     {
@@ -61,7 +73,7 @@
       "summary": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remain challenging and offer a demanding next step toward general digital control. Current game-agent learning pipelines often rely on large-scale demonstrations with limited coverage of dynamic game state",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 115,
+      "upvotes": 178,
       "arxiv_id": "2610.20584"
     },
     {
@@ -74,7 +86,7 @@
       "summary": "Agents driven by large language models are increasingly deployed on long-horizon tasks, where they use tools and modify real workspaces. How well they perform depends as much on the harness around the model as on the model itself. Existing benchmarks measure downstream task success under a fixed harness, leaving harness engineering itself unexplored. We propose Doc2Harness, a two-stage benchmark t",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 90,
+      "upvotes": 92,
       "arxiv_id": "2610.20344"
     },
     {
@@ -87,7 +99,7 @@
       "summary": "Self-distillation in agentic reinforcement learning has produced a growing number of methods. However, existing evaluations often reuse published baseline scores under differing experimental conditions, provide few direct comparisons among contemporaneous methods, and give limited attention to training stability and computational cost. These limitations obscure the source of reported gains and the",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 70,
+      "upvotes": 72,
       "arxiv_id": "2610.19789"
     },
     {
@@ -100,8 +112,21 @@
       "summary": "On-policy distillation (OPD) trains a student model on its own rollouts with token-level supervision from a teacher, assuming that the teacher can reach a correct answer from any prefix the student writes. We call this property the recoverability of the teacher and show it fails on incorrect rollouts: the teacher follows student errors, although it recognizes them. We propose CriticOPD, using erro",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 65,
+      "upvotes": 70,
       "arxiv_id": "2610.20572"
+    },
+    {
+      "id": "paper:2610.19975",
+      "title": "LatentLoop: Scaling Looped MoE Models with Asymmetric Compute Allocation",
+      "url": "https://huggingface.co/papers/2610.19975",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-14T00:00:00+00:00",
+      "summary": "Looped Mixture-of-Experts (MoE) models combine parameter reuse with sparse computation to improve performance under matched budgets. Prior work demonstrates that different loop visits can play different roles even when they share parameters. To probe the contributions of different loop visits, we learn separate residual coefficients in a model that applies a shared block twice, observing a smaller",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 64,
+      "arxiv_id": "2610.19975"
     },
     {
       "id": "paper:2610.20399",
@@ -117,19 +142,6 @@
       "arxiv_id": "2610.20399"
     },
     {
-      "id": "paper:2610.19975",
-      "title": "LatentLoop: Scaling Looped MoE Models with Asymmetric Compute Allocation",
-      "url": "https://huggingface.co/papers/2610.19975",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-14T00:00:00+00:00",
-      "summary": "Looped Mixture-of-Experts (MoE) models combine parameter reuse with sparse computation to improve performance under matched budgets. Prior work demonstrates that different loop visits can play different roles even when they share parameters. To probe the contributions of different loop visits, we learn separate residual coefficients in a model that applies a shared block twice, observing a smaller",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 61,
-      "arxiv_id": "2610.19975"
-    },
-    {
       "id": "paper:2610.19698",
       "title": "RuleTrek: Benchmarking Agentic Rule Reasoning in Complex Scenarios",
       "url": "https://huggingface.co/papers/2610.19698",
@@ -139,7 +151,7 @@
       "summary": "Large language models (LLMs) increasingly tackle complex real-world tasks in specialized domains. However, identifying and correctly applying domain-specific rules remains challenging when scenario information is distributed across multiple files. Existing rule-reasoning benchmarks typically represent scenarios using only a few factual statements, simplifying the identification and application of ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 60,
+      "upvotes": 61,
       "arxiv_id": "2610.19698"
     },
     {
@@ -154,6 +166,19 @@
       "kind": "paper",
       "upvotes": 52,
       "arxiv_id": "2610.19820"
+    },
+    {
+      "id": "paper:2610.20442",
+      "title": "Towards Agentic Robots: Model, Data, Environment, and Harness",
+      "url": "https://huggingface.co/papers/2610.20442",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-14T00:00:00+00:00",
+      "summary": "Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration of data collection, model training, task planning, and real-world execution. We characterize this emerging paradigm as an agentic robots, in which agents reason over human instructions, interact with robotic environments, rectify execution errors autonomo",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 29,
+      "arxiv_id": "2610.20442"
     },
     {
       "id": "yt:mfsUVN8ykLA",
@@ -189,7 +214,7 @@
       "summary": "We introduce LensErase, a general-purpose mask-based Erase Anything foundation model designed to cover a broad spectrum of real-world erase scenarios. LensErase supports diverse objects, visual text, watermarks, associated visual effects, multiple-object removal, and a wide range of object scales, aspect ratios, and image resolutions. First, to enable such broad coverage, we construct LensErase-10",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 35,
+      "upvotes": 36,
       "arxiv_id": "2610.18072"
     },
     {
@@ -347,7 +372,7 @@
       "summary": "Asynchronous rollout improves the efficiency of reinforcement learning with verifiable rewards (RLVR) by reducing under-utilization during long-tail generation. Sustained concurrency also concentrates context processing into fewer decode steps, increasing the KV workload per step. We characterize this KV concentration and find that KV cache quantization delivers substantially greater acceleration ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 30,
+      "upvotes": 31,
       "arxiv_id": "2610.14448"
     },
     {
@@ -372,21 +397,8 @@
       "summary": "Multi-teacher on-policy distillation (MOPD) extends on-policy distillation (OPD) by routing domain-specific data to specialized teachers, integrating their capabilities through dense token-level supervision on student-generated trajectories. However, domain routing only distinguishes the supervision sources for different domains; updates from all domains still act on shared parameters. When teache",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 230,
+      "upvotes": 233,
       "arxiv_id": "2610.13521"
-    },
-    {
-      "id": "paper:2610.12843",
-      "title": "APEX: Asynchronous Prefix Denoising for Extreme Compression",
-      "url": "https://huggingface.co/papers/2610.12843",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-09T00:00:00+00:00",
-      "summary": "Fewer latent tokens promise cheaper diffusion. Yet aggressive latent compression creates a reconstruction-generation dilemma: adding channels improves reconstruction but makes generation harder. We introduce APEX, short for Asynchronous Prefix denoising for EXtreme compression, which pairs a hierarchical latent space with asynchronous denoising over channel groups. Our autoencoder orders channel p",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 45,
-      "arxiv_id": "2610.12843"
     },
     {
       "id": "yt:6gfACqBAKfw",
@@ -915,18 +927,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/J3ljHm57yU0/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Explained"
-    },
-    {
-      "id": "yt:7r4ikZHm9AI",
-      "title": "Anthropic researchers are quitting... and now we know why",
-      "url": "https://www.youtube.com/watch?v=7r4ikZHm9AI",
-      "source": "Fireship",
-      "category": "videos",
-      "published": "2026-09-15T17:45:39+00:00",
-      "summary": "Macroscope can auto-approve your team’s PRs safely. Try it here: https://macroscope.com/?utm_source=fireship Anthropic just dropped a 154-page report on how hackers, scientists, and rival AI labs have been abusing Claude. Let's dive in. #coding #programming Want more Fireship? 🗞️ Newsletter: https:/",
-      "thumbnail": "https://i4.ytimg.com/vi/7r4ikZHm9AI/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Fireship"
     }
   ],
   "featured": [
@@ -945,7 +945,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T15:58:57.376803+00:00",
+      "fetched_at": "2026-10-15T19:43:20.528359+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1027,7 +1027,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T15:58:57.378933+00:00",
+      "fetched_at": "2026-10-15T19:43:20.529973+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1109,7 +1109,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T15:58:57.381130+00:00",
+      "fetched_at": "2026-10-15T19:43:20.531566+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1191,7 +1191,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T15:58:57.382016+00:00",
+      "fetched_at": "2026-10-15T19:43:20.532114+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1245,7 +1245,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T15:58:57.385850+00:00",
+      "fetched_at": "2026-10-15T19:43:20.534558+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1327,7 +1327,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T15:58:57.385865+00:00",
+      "fetched_at": "2026-10-15T19:43:20.534567+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1381,7 +1381,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T15:58:57.387446+00:00",
+      "fetched_at": "2026-10-15T19:43:20.535526+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1463,7 +1463,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-15T15:58:57.413714+00:00",
+      "fetched_at": "2026-10-15T19:43:20.552472+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1545,7 +1545,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-15T15:58:57.441997+00:00",
+      "fetched_at": "2026-10-15T19:43:20.571154+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1598,23 +1598,23 @@
         },
         {
           "rank": 8,
+          "name": "Muse Spark Open (xhigh)",
+          "creator": "Meta",
+          "score": 39.0,
+          "meta": "1.05M ctx"
+        },
+        {
+          "rank": 9,
           "name": "MiMo-V2.6-Flash",
           "creator": "Xiaomi",
           "score": 38.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "DeepSeek V4 Pro 0813 (max)",
           "creator": "DeepSeek",
           "score": 36.0,
-          "meta": "1M ctx"
-        },
-        {
-          "rank": 10,
-          "name": "GLM-5.3 (low)",
-          "creator": "Z AI",
-          "score": 34.0,
           "meta": "1M ctx"
         }
       ]
@@ -1627,7 +1627,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T15:58:57.450940+00:00",
+      "fetched_at": "2026-10-15T19:43:20.576469+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1709,7 +1709,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T15:58:57.454280+00:00",
+      "fetched_at": "2026-10-15T19:43:20.578461+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1791,69 +1791,69 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T15:58:57.463540+00:00",
+      "fetched_at": "2026-10-15T19:43:20.584080+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Eleven v4 Turbo",
           "creator": "Eleven v4 Turbo",
-          "score": 1328.0,
+          "score": 1327.0,
           "meta": "Sept 2026 · $40.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Eleven v4",
           "creator": "Eleven v4",
-          "score": 1326.0,
+          "score": 1327.0,
           "meta": "Sept 2026 · $80.0 /1M chars"
         },
         {
           "rank": 3,
           "name": "Qwen-Audio-3.1-TTS-Plus",
           "creator": "Qwen-Audio-3.1-TTS-Plus",
-          "score": 1297.0,
+          "score": 1296.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
           "rank": 4,
           "name": "Sonic 3.6",
           "creator": "Sonic 3.6",
-          "score": 1283.0,
+          "score": 1284.0,
           "meta": "Aug 2026 · $49.0 /1M chars"
         },
         {
           "rank": 5,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Gemini 3.8 Flash TTS",
-          "score": 1273.0,
+          "score": 1272.0,
           "meta": "Sept 2026 · $16.5 /1M chars"
         },
         {
           "rank": 6,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Qwen-Audio-3.0-TTS-Plus",
-          "score": 1266.0,
+          "score": 1264.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
           "rank": 7,
           "name": "Realtime TTS-2",
           "creator": "Realtime TTS-2",
-          "score": 1259.0,
+          "score": 1260.0,
           "meta": "Aug 2026 · $20.8 /1M chars"
         },
         {
           "rank": 8,
           "name": "Gemini 3.8 Flash-Lite TTS",
           "creator": "Gemini 3.8 Flash-Lite TTS",
-          "score": 1247.0,
+          "score": 1246.0,
           "meta": "Sept 2026 · $11.0 /1M chars"
         },
         {
           "rank": 9,
           "name": "Simba 3.2",
           "creator": "Simba 3.2",
-          "score": 1243.0,
+          "score": 1244.0,
           "meta": "Jul 2026 · $6.6 /1M chars"
         },
         {
@@ -1873,7 +1873,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T15:58:57.465562+00:00",
+      "fetched_at": "2026-10-15T19:43:20.585342+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1886,7 +1886,7 @@
           "rank": 2,
           "name": "Breeze TTS 2",
           "creator": "Breeze TTS 2",
-          "score": 1220.0,
+          "score": 1219.0,
           "meta": "Aug 2026 · $34.0 /1M chars"
         },
         {
@@ -1900,21 +1900,21 @@
           "rank": 4,
           "name": "Step Audio EditX (Mar 2026)",
           "creator": "Step Audio EditX (Mar 2026)",
-          "score": 1096.0,
+          "score": 1097.0,
           "meta": "Feb 2026 · N/A"
         },
         {
           "rank": 5,
           "name": "Voxtral TTS",
           "creator": "Voxtral TTS",
-          "score": 1088.0,
+          "score": 1089.0,
           "meta": "Mar 2026 · $16.0 /1M chars"
         },
         {
           "rank": 6,
           "name": "Magpie-Multilingual 357M (Feb 2026)",
           "creator": "Magpie-Multilingual 357M (Feb 2026)",
-          "score": 1064.0,
+          "score": 1063.0,
           "meta": "Feb 2026 · N/A"
         },
         {
@@ -1955,55 +1955,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T15:58:40.445363+00:00"
+        "checked_at": "2026-10-15T19:43:04.186851+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T15:58:39.299039+00:00"
+        "checked_at": "2026-10-15T19:43:03.028846+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T15:58:43.518946+00:00"
+        "checked_at": "2026-10-15T19:43:07.458391+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T15:58:41.468557+00:00"
+        "checked_at": "2026-10-15T19:43:05.320077+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T15:58:45.784816+00:00"
+        "checked_at": "2026-10-15T19:43:09.819479+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T15:58:42.494544+00:00"
+        "checked_at": "2026-10-15T19:43:06.336265+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T15:58:44.563484+00:00"
+        "checked_at": "2026-10-15T19:43:08.635333+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-15T15:58:57.466168+00:00"
+      "checked_at": "2026-10-15T19:43:20.586802+00:00"
     }
   }
 }
