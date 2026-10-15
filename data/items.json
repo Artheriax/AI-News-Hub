@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T19:43:20.586906+00:00",
+  "generated_at": "2026-10-15T22:47:12.537072+00:00",
   "items": [
     {
       "id": "yt:l3L_lETiSzc",
@@ -47,7 +47,7 @@
       "summary": "Multimodal models and agents have emerged to enable AI systems to learn from and interact with the real world more like humans by integrating information across multiple modalities. However, enabling multimodal agents to continually acquire useful information from complex, heterogeneous multimodal data remains a significant challenge as they move toward long-horizon tasks and lifelong settings. Ad",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 42,
+      "upvotes": 44,
       "arxiv_id": "2610.19366"
     },
     {
@@ -60,7 +60,7 @@
       "summary": "Long-form agentic video generation must turn a screenplay into shots that remain spatially and temporally consistent across nonconsecutive requests. Passing prompts or recent frames between shots does not provide a shared spatial frame for revisiting a scene or a time-indexed record for replaying an earlier event. We present Any Time, Any Space (ATAS), which compiles a screenplay into shot request",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 320,
+      "upvotes": 322,
       "arxiv_id": "2610.20571"
     },
     {
@@ -73,7 +73,7 @@
       "summary": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remain challenging and offer a demanding next step toward general digital control. Current game-agent learning pipelines often rely on large-scale demonstrations with limited coverage of dynamic game state",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 178,
+      "upvotes": 231,
       "arxiv_id": "2610.20584"
     },
     {
@@ -86,7 +86,7 @@
       "summary": "Agents driven by large language models are increasingly deployed on long-horizon tasks, where they use tools and modify real workspaces. How well they perform depends as much on the harness around the model as on the model itself. Existing benchmarks measure downstream task success under a fixed harness, leaving harness engineering itself unexplored. We propose Doc2Harness, a two-stage benchmark t",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 92,
+      "upvotes": 93,
       "arxiv_id": "2610.20344"
     },
     {
@@ -164,21 +164,8 @@
       "summary": "Distilling capable language-model agents into smaller models requires aligning the student's behavior with the teacher's. This raises a fundamental question: at which states and at what granularity should this alignment be performed? Offline imitation provides dense but token-specific supervision and can suffer from state-distribution mismatch. Token-level on-policy distillation (OPD) addresses th",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 52,
+      "upvotes": 53,
       "arxiv_id": "2610.19820"
-    },
-    {
-      "id": "paper:2610.20442",
-      "title": "Towards Agentic Robots: Model, Data, Environment, and Harness",
-      "url": "https://huggingface.co/papers/2610.20442",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-14T00:00:00+00:00",
-      "summary": "Foundation models are driving a paradigm shift in robotic intelligence, moving beyond low-level action prediction to goal-directed orchestration of data collection, model training, task planning, and real-world execution. We characterize this emerging paradigm as an agentic robots, in which agents reason over human instructions, interact with robotic environments, rectify execution errors autonomo",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 29,
-      "arxiv_id": "2610.20442"
     },
     {
       "id": "yt:mfsUVN8ykLA",
@@ -228,6 +215,19 @@
       "thumbnail": "https://i3.ytimg.com/vi/z_sXLlLVUls/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
+    },
+    {
+      "id": "paper:2610.17771",
+      "title": "Many Right Answers, One Training Example: Removing Responder Noise from GRPO for LLM Recommenders",
+      "url": "https://huggingface.co/papers/2610.17771",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-13T00:00:00+00:00",
+      "summary": "A recommendation request on Reddit draws several replies, each naming different titles. When an LLM recommender is trained on such threads with reinforcement learning (RL), which replies should a generated list be rewarded against? The state-of-the-art recipe, Rank-GRPO, picks one reply per training example, so the advantage mostly records which reply was drawn (85% of its variance) rather than ho",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 34,
+      "arxiv_id": "2610.17771"
     },
     {
       "id": "yt:f7OpKLA-CLI",
@@ -945,7 +945,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T19:43:20.528359+00:00",
+      "fetched_at": "2026-10-15T22:47:12.446963+00:00",
       "entries": [
         {
           "rank": 1,
@@ -958,28 +958,28 @@
           "rank": 2,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "GPT Image 2.5 Flare (max)",
-          "score": 1177.0,
+          "score": 1178.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 3,
-          "name": "Nano Banana 2.1",
-          "creator": "Nano Banana 2.1",
-          "score": 1148.0,
-          "meta": "Oct 2026 · $33.6 /1k imgs"
-        },
-        {
-          "rank": 4,
           "name": "MAI-Image-2.6",
           "creator": "MAI-Image-2.6",
           "score": 1148.0,
           "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
+          "rank": 4,
+          "name": "Nano Banana 2.1",
+          "creator": "Nano Banana 2.1",
+          "score": 1147.0,
+          "meta": "Oct 2026 · $33.6 /1k imgs"
+        },
+        {
           "rank": 5,
           "name": "MAI-Image-2.6-Flash",
           "creator": "MAI-Image-2.6-Flash",
-          "score": 1140.0,
+          "score": 1141.0,
           "meta": "Sep 2026 · $19.5 /1k imgs"
         },
         {
@@ -1000,7 +1000,7 @@
           "rank": 8,
           "name": "Seedream 5.0 Pro",
           "creator": "Seedream 5.0 Pro",
-          "score": 1125.0,
+          "score": 1126.0,
           "meta": "Jul 2026 · $90.0 /1k imgs"
         },
         {
@@ -1027,7 +1027,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T19:43:20.529973+00:00",
+      "fetched_at": "2026-10-15T22:47:12.449152+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1040,28 +1040,28 @@
           "rank": 2,
           "name": "HunyuanImage 3.0 Instruct",
           "creator": "HunyuanImage 3.0 Instruct",
-          "score": 1061.0,
+          "score": 1060.0,
           "meta": "Jan 2026 · No API available"
         },
         {
           "rank": 3,
           "name": "FLUX.2 [dev] Flash",
           "creator": "FLUX.2 [dev] Flash",
-          "score": 1019.0,
+          "score": 1020.0,
           "meta": "Dec 2025 · $5.0 /1k imgs"
         },
         {
           "rank": 4,
           "name": "FLUX.2 [dev] Turbo",
           "creator": "FLUX.2 [dev] Turbo",
-          "score": 1012.0,
+          "score": 1013.0,
           "meta": "Dec 2025 · $8.0 /1k imgs"
         },
         {
           "rank": 5,
           "name": "FLUX.2 [klein] 9B",
           "creator": "FLUX.2 [klein] 9B",
-          "score": 1011.0,
+          "score": 1012.0,
           "meta": "Jan 2026 · $17.0 /1k imgs"
         },
         {
@@ -1075,14 +1075,14 @@
           "rank": 7,
           "name": "Qwen Image Edit Plus 2511",
           "creator": "Qwen Image Edit Plus 2511",
-          "score": 987.0,
+          "score": 985.0,
           "meta": "Nov 2025 · $60.0 /1k imgs"
         },
         {
           "rank": 8,
           "name": "Qwen Image Edit Plus 2509",
           "creator": "Qwen Image Edit Plus 2509",
-          "score": 967.0,
+          "score": 966.0,
           "meta": "Sep 2025 · $30.0 /1k imgs"
         },
         {
@@ -1109,7 +1109,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T19:43:20.531566+00:00",
+      "fetched_at": "2026-10-15T22:47:12.451322+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1191,7 +1191,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T19:43:20.532114+00:00",
+      "fetched_at": "2026-10-15T22:47:12.452119+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1245,7 +1245,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T19:43:20.534558+00:00",
+      "fetched_at": "2026-10-15T22:47:12.455994+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1327,7 +1327,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T19:43:20.534567+00:00",
+      "fetched_at": "2026-10-15T22:47:12.456009+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1381,7 +1381,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T19:43:20.535526+00:00",
+      "fetched_at": "2026-10-15T22:47:12.457620+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1463,7 +1463,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-15T19:43:20.552472+00:00",
+      "fetched_at": "2026-10-15T22:47:12.484003+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1545,7 +1545,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-15T19:43:20.571154+00:00",
+      "fetched_at": "2026-10-15T22:47:12.512854+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1563,58 +1563,58 @@
         },
         {
           "rank": 3,
+          "name": "Step 5 Preview",
+          "creator": "StepFun",
+          "score": 44.0,
+          "meta": "1M ctx"
+        },
+        {
+          "rank": 4,
           "name": "Kimi K3 (max)",
           "creator": "Kimi",
           "score": 44.0,
           "meta": "1.05M ctx"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "GLM-5.3-Flash",
           "creator": "Z AI",
           "score": 42.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Qwen3.8 2.4T A95B",
           "creator": "Alibaba",
           "score": 40.0,
           "meta": "262k ctx"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Qwen3.8-Flash-Next",
           "creator": "Alibaba",
           "score": 40.0,
           "meta": "256k ctx"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "DeepSeek V4.1 Flash (max)",
           "creator": "DeepSeek",
           "score": 39.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Muse Spark Open (xhigh)",
           "creator": "Meta",
           "score": 39.0,
           "meta": "1.05M ctx"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "MiMo-V2.6-Flash",
           "creator": "Xiaomi",
           "score": 38.0,
-          "meta": "1M ctx"
-        },
-        {
-          "rank": 10,
-          "name": "DeepSeek V4 Pro 0813 (max)",
-          "creator": "DeepSeek",
-          "score": 36.0,
           "meta": "1M ctx"
         }
       ]
@@ -1627,7 +1627,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T19:43:20.576469+00:00",
+      "fetched_at": "2026-10-15T22:47:12.521662+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1709,7 +1709,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T19:43:20.578461+00:00",
+      "fetched_at": "2026-10-15T22:47:12.524984+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1791,20 +1791,20 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T19:43:20.584080+00:00",
+      "fetched_at": "2026-10-15T22:47:12.534065+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Eleven v4 Turbo",
           "creator": "Eleven v4 Turbo",
-          "score": 1327.0,
+          "score": 1330.0,
           "meta": "Sept 2026 · $40.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Eleven v4",
           "creator": "Eleven v4",
-          "score": 1327.0,
+          "score": 1329.0,
           "meta": "Sept 2026 · $80.0 /1M chars"
         },
         {
@@ -1818,35 +1818,35 @@
           "rank": 4,
           "name": "Sonic 3.6",
           "creator": "Sonic 3.6",
-          "score": 1284.0,
+          "score": 1285.0,
           "meta": "Aug 2026 · $49.0 /1M chars"
         },
         {
           "rank": 5,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Gemini 3.8 Flash TTS",
-          "score": 1272.0,
+          "score": 1275.0,
           "meta": "Sept 2026 · $16.5 /1M chars"
         },
         {
           "rank": 6,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Qwen-Audio-3.0-TTS-Plus",
-          "score": 1264.0,
+          "score": 1265.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
           "rank": 7,
           "name": "Realtime TTS-2",
           "creator": "Realtime TTS-2",
-          "score": 1260.0,
+          "score": 1262.0,
           "meta": "Aug 2026 · $20.8 /1M chars"
         },
         {
           "rank": 8,
           "name": "Gemini 3.8 Flash-Lite TTS",
           "creator": "Gemini 3.8 Flash-Lite TTS",
-          "score": 1246.0,
+          "score": 1248.0,
           "meta": "Sept 2026 · $11.0 /1M chars"
         },
         {
@@ -1860,7 +1860,7 @@
           "rank": 10,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio Drama 3 Preview",
-          "score": 1242.0,
+          "score": 1244.0,
           "meta": "Oct 2026 · $15.0 /1M chars"
         }
       ]
@@ -1873,20 +1873,20 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T19:43:20.585342+00:00",
+      "fetched_at": "2026-10-15T22:47:12.536116+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio Drama 3 Preview",
-          "score": 1242.0,
+          "score": 1244.0,
           "meta": "Oct 2026 · $15.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Breeze TTS 2",
           "creator": "Breeze TTS 2",
-          "score": 1219.0,
+          "score": 1222.0,
           "meta": "Aug 2026 · $34.0 /1M chars"
         },
         {
@@ -1907,7 +1907,7 @@
           "rank": 5,
           "name": "Voxtral TTS",
           "creator": "Voxtral TTS",
-          "score": 1089.0,
+          "score": 1087.0,
           "meta": "Mar 2026 · $16.0 /1M chars"
         },
         {
@@ -1935,14 +1935,14 @@
           "rank": 9,
           "name": "OpenAudio S1 Mini",
           "creator": "OpenAudio S1 Mini",
-          "score": 1043.0,
+          "score": 1044.0,
           "meta": "Jun 2025 · $15.0 /1M chars"
         },
         {
           "rank": 10,
           "name": "Higgs Audio V3 TTS",
           "creator": "Higgs Audio V3 TTS",
-          "score": 1037.0,
+          "score": 1038.0,
           "meta": "Jun 2026 · $15.0 /1M chars"
         }
       ]
@@ -1955,55 +1955,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T19:43:04.186851+00:00"
+        "checked_at": "2026-10-15T22:46:56.278038+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T19:43:03.028846+00:00"
+        "checked_at": "2026-10-15T22:46:55.194267+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T19:43:07.458391+00:00"
+        "checked_at": "2026-10-15T22:46:59.366004+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T19:43:05.320077+00:00"
+        "checked_at": "2026-10-15T22:46:57.304459+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T19:43:09.819479+00:00"
+        "checked_at": "2026-10-15T22:47:01.643618+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T19:43:06.336265+00:00"
+        "checked_at": "2026-10-15T22:46:58.333256+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T19:43:08.635333+00:00"
+        "checked_at": "2026-10-15T22:47:00.421927+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-15T19:43:20.586802+00:00"
+      "checked_at": "2026-10-15T22:47:12.536982+00:00"
     }
   }
 }
