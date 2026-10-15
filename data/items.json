@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T01:06:39.880277+00:00",
+  "generated_at": "2026-10-15T06:03:22.157859+00:00",
   "items": [
     {
       "id": "yt:QZVzuq28eFw",
@@ -12,6 +12,58 @@
       "thumbnail": "https://i2.ytimg.com/vi/QZVzuq28eFw/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
+    },
+    {
+      "id": "paper:2610.20571",
+      "title": "Any Time, Any Space: A World-State-Centric Framework for Agentic Video Generation",
+      "url": "https://huggingface.co/papers/2610.20571",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-14T00:00:00+00:00",
+      "summary": "Long-form agentic video generation must turn a screenplay into shots that remain spatially and temporally consistent across nonconsecutive requests. Passing prompts or recent frames between shots does not provide a shared spatial frame for revisiting a scene or a time-indexed record for replaying an earlier event. We present Any Time, Any Space (ATAS), which compiles a screenplay into shot request",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 105,
+      "arxiv_id": "2610.20571"
+    },
+    {
+      "id": "paper:2610.20584",
+      "title": "Player-1: Learning to Play from Synthetic Experience",
+      "url": "https://huggingface.co/papers/2610.20584",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-14T00:00:00+00:00",
+      "summary": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remain challenging and offer a demanding next step toward general digital control. Current game-agent learning pipelines often rely on large-scale demonstrations with limited coverage of dynamic game state",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 98,
+      "arxiv_id": "2610.20584"
+    },
+    {
+      "id": "paper:2610.19975",
+      "title": "LatentLoop: Scaling Looped MoE Models with Asymmetric Compute Allocation",
+      "url": "https://huggingface.co/papers/2610.19975",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-14T00:00:00+00:00",
+      "summary": "Looped Mixture-of-Experts (MoE) models combine parameter reuse with sparse computation to improve performance under matched budgets. Prior work demonstrates that different loop visits can play different roles even when they share parameters. To probe the contributions of different loop visits, we learn separate residual coefficients in a model that applies a shared block twice, observing a smaller",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 42,
+      "arxiv_id": "2610.19975"
+    },
+    {
+      "id": "paper:2610.19820",
+      "title": "ActionOPD: Distilling Decisions, Not Tokens",
+      "url": "https://huggingface.co/papers/2610.19820",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-14T00:00:00+00:00",
+      "summary": "Distilling capable language-model agents into smaller models requires aligning the student's behavior with the teacher's. This raises a fundamental question: at which states and at what granularity should this alignment be performed? Offline imitation provides dense but token-specific supervision and can suffer from state-distribution mismatch. Token-level on-policy distillation (OPD) addresses th",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 40,
+      "arxiv_id": "2610.19820"
     },
     {
       "id": "yt:mfsUVN8ykLA",
@@ -59,21 +111,8 @@
       "summary": "System one models enable direct, low-latency decision-making. Yet recent practice of predicting an answer from serialized text does not, by itself, respect the structure of a decision problem. We argue that current designs underemphasize four important structural requirements. (i) null-aware: Models should distinguish answer absence from uncertainty among candidates; (ii) permutation-invariant: Re",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 266,
+      "upvotes": 270,
       "arxiv_id": "2610.18773"
-    },
-    {
-      "id": "paper:2610.18615",
-      "title": "VideoJev: System One Model for Video Understanding and Interaction",
-      "url": "https://huggingface.co/papers/2610.18615",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-13T00:00:00+00:00",
-      "summary": "Visual agents must turn video observations into timely decisions to track progress and choose what to do next. Building on the emerging System One paradigm, we introduce VideoJev, a family of models that cast video understanding and interaction as structured decision tasks. We adapt pretrained multimodal large language models (MLLMs) by replacing autoregressive answer decoding with a shared head t",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 195,
-      "arxiv_id": "2610.18615"
     },
     {
       "id": "paper:2610.17953",
@@ -85,7 +124,7 @@
       "summary": "Large language models have evolved from single-turn chatbots into interactive agents capable of long-horizon reasoning. In real deployments, MCP tool services can return noisy feedback and users may intervene to correct the agent, but existing methods provide limited supervision for reflection learning and failure recovery. To bridge this gap, we propose Agent-Reflex, a general training framework ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 193,
+      "upvotes": 195,
       "arxiv_id": "2610.17953"
     },
     {
@@ -98,7 +137,7 @@
       "summary": "City-scale 3D grounding is commonly formulated as candidate ranking, which requires precomputed instance proposals and becomes inefficient in large outdoor scenes. We propose Urbex, an agentic vision-language framework that instead casts grounding as active spatial search. Urbex represents a city-scale 3D scene as an interactive multi-view environment, allowing a VLM agent to query landmarks, zoom",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 110,
+      "upvotes": 111,
       "arxiv_id": "2610.18356"
     },
     {
@@ -111,7 +150,7 @@
       "summary": "Long-horizon agents have drawn growing attention for their ability to work autonomously -- from hours to days -- on economically valuable tasks, a capability essential to automated discovery and recursive self-improvement (RSI). Yet open-source models still struggle on long-horizon tasks, largely for lack of both training data and a working recipe, and scaling both is hard: long, complex tasks are",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 95,
+      "upvotes": 96,
       "arxiv_id": "2610.18868"
     },
     {
@@ -137,21 +176,21 @@
       "summary": "Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the outputs are structured, editable, and verifiable. Yet code models cannot see how their choices of layout and color come together on the canvas, often limiting spatial planning and aesthetic quality. Image generators excel at visual design but can misrender requested content, making",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 80,
+      "upvotes": 81,
       "arxiv_id": "2610.18860"
     },
     {
-      "id": "paper:2610.18067",
-      "title": "WorkRover: Scaling Long-Horizon Cowork Agent Training Via Recursive Environment Evolution",
-      "url": "https://huggingface.co/papers/2610.18067",
+      "id": "paper:2610.17928",
+      "title": "Learning How to Remember: Memory Modality Selection for GUI Agents",
+      "url": "https://huggingface.co/papers/2610.17928",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-13T00:00:00+00:00",
-      "summary": "Scaling interactive environments is important for training long-horizon agents through reinforcement learning. These environments often require further testing and refinement after initial generation, and correcting defects in a task may also require updating its work context and verifier. However, existing construction pipelines offer limited support for such iterative refinement while keeping th",
+      "summary": "Recent advances in vision-language models (VLMs) have substantially improved the capabilities of GUI agents, while memory augmentation has emerged as a promising approach for reusing knowledge from past interactions. However, existing memory augmented GUI agents typically adopt a fixed representation strategy, providing retrieved experience as a static modality. It remains unclear whether a single",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 64,
-      "arxiv_id": "2610.18067"
+      "upvotes": 41,
+      "arxiv_id": "2610.17928"
     },
     {
       "id": "yt:f7OpKLA-CLI",
@@ -226,32 +265,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2610.16794",
-      "title": "TPPO: Tracking-Value PPO For Language Model Reasoning",
-      "url": "https://huggingface.co/papers/2610.16794",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-12T00:00:00+00:00",
-      "summary": "Proximal Policy Optimization (PPO) is widely used in reinforcement learning with verifiable rewards for language-model reasoning. While value evolution along trajectory characterizes relative token-level credit, yet standard critics often fail to track it under sparse terminal rewards. To model this evolution, we analyze the relation between successive prefix values and show that they admit a Baye",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 72,
-      "arxiv_id": "2610.16794"
-    },
-    {
-      "id": "paper:2610.16811",
-      "title": "X-Ragent: Tool-Augmented Reinforcement Learning for Evidence-Grounded Chest X-Ray Reasoning",
-      "url": "https://huggingface.co/papers/2610.16811",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-12T00:00:00+00:00",
-      "summary": "Chest X-ray (CXR) interpretation often requires integrating visual findings with task-specific evidence rather than relying on direct visual recognition alone. While tool-augmented medical agents can supply such evidence via external modules, they often lack explicit mechanisms for learning when auxiliary evidence is needed and for preventing inapplicable quantitative evidence from entering diagno",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 66,
-      "arxiv_id": "2610.16811"
-    },
-    {
       "id": "paper:2610.17201",
       "title": "Multics: Generative Multi-Player World Model with Hierarchical Communication",
       "url": "https://huggingface.co/papers/2610.17201",
@@ -261,7 +274,7 @@
       "summary": "Multi-player interactive world models aim to simulate shared environments from multiple players' perspectives, but achieving robust generation while scaling to more players remains challenging. Existing approaches that rely on fully-connected communication (e.g., Solaris) incur quadratic attention costs as the number of players grows, while centralized approaches (e.g., γ-World) suffer from interf",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 55,
+      "upvotes": 56,
       "arxiv_id": "2610.17201"
     },
     {
@@ -313,32 +326,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2610.14709",
-      "title": "Vela: User Behavior as Supervision Sparks LLM Intelligence",
-      "url": "https://huggingface.co/papers/2610.14709",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-10T00:00:00+00:00",
-      "summary": "Large language models are increasingly deployed in applications that act on users' long-term behavior histories, from personal assistants to recommendation and advertising systems. These applications demand the user dimension of LLM intelligence: inferring a person's preferences, intent, and likely future actions from weeks to years of behavior data. Yet current models are trained on static text o",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 69,
-      "arxiv_id": "2610.14709"
-    },
-    {
-      "id": "paper:2610.15166",
-      "title": "ExeWorldBench: Benchmarking Code-Based Executable 3D World Modeling",
-      "url": "https://huggingface.co/papers/2610.15166",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-10T00:00:00+00:00",
-      "summary": "Coding agents are increasingly evolving beyond reproducing what a world looks like toward constructing executable worlds that capture how a world works. This shift calls for executable world modeling, which integrates two core capabilities: world understanding, reasoning about the underlying structural, mechanical, and causal principles of a world, and executable realization, translating that unde",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 63,
-      "arxiv_id": "2610.15166"
-    },
-    {
       "id": "paper:2610.14766",
       "title": "Last Secure Code Benchmark: Is the Code You Vibe Secure?",
       "url": "https://huggingface.co/papers/2610.14766",
@@ -348,8 +335,21 @@
       "summary": "AI coding agents now write much of the code that ships, yet whether that code is secure remains unclear. We introduce the Last Secure Code Benchmark, a comprehensive evaluation of secure code generation by coding agents. Built from 150 real vulnerabilities, its 450 tasks span seven widely used languages (Java, C, C++, JavaScript, Python, PHP, and Go), 24 CWEs including 21 of the 2025 CWE Top 25 an",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 53,
+      "upvotes": 61,
       "arxiv_id": "2610.14766"
+    },
+    {
+      "id": "paper:2610.14609",
+      "title": "EviScene: Beyond \"Is It AI?\" for Agentic Image Factuality Assessment",
+      "url": "https://huggingface.co/papers/2610.14609",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-10T00:00:00+00:00",
+      "summary": "Determining whether an image is AI-generated does not establish whether the situation it depicts is factually supported. We formulate Image Factuality Assessment: given an image and a generic verification instruction, a system returns a supported or refuted verdict with an evidence-grounded explanation. Without a supplied textual claim, the system must progressively refine factual questions during",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 53,
+      "arxiv_id": "2610.14609"
     },
     {
       "id": "yt:ATBnss54_t4",
@@ -364,17 +364,17 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2610.14224",
-      "title": "Harness^2: Recursive Agent Harnessing for an Open World",
-      "url": "https://huggingface.co/papers/2610.14224",
+      "id": "paper:2610.12843",
+      "title": "APEX: Asynchronous Prefix Denoising for Extreme Compression",
+      "url": "https://huggingface.co/papers/2610.12843",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-09T00:00:00+00:00",
-      "summary": "LLM agents' capabilities depend not only on their underlying models but also on their execution harnesses. Recursive self-improvement (RSI) offers a promising approach to automatically evolve these harnesses. However, deploying RSI in open-world settings still faces two critical challenges. First, open-world tasks are typically unseen during the harness design phase and novel at test time, leaving",
+      "summary": "Fewer latent tokens promise cheaper diffusion. Yet aggressive latent compression creates a reconstruction-generation dilemma: adding channels improves reconstruction but makes generation harder. We introduce APEX, short for Asynchronous Prefix denoising for EXtreme compression, which pairs a hierarchical latent space with asynchronous denoising over channel groups. Our autoencoder orders channel p",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 77,
-      "arxiv_id": "2610.14224"
+      "upvotes": 43,
+      "arxiv_id": "2610.12843"
     },
     {
       "id": "yt:6gfACqBAKfw",
@@ -939,18 +939,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/YoEWjZSwoys/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
-    },
-    {
-      "id": "yt:9RtywbN--QE",
-      "title": "Forget Suno. New BEST local AI music generator is here!",
-      "url": "https://www.youtube.com/watch?v=9RtywbN--QE",
-      "source": "AI Search",
-      "category": "videos",
-      "published": "2026-09-15T03:24:28+00:00",
-      "summary": "YuE2 installation tutorial. How to run YuE2 in ComfyUI and make cover songs. Best AI music generator and editor. Thanks to our sponsor Luma. Try it today: https://lumalabs.ai/aisearch-sep2 YuE2 official repo https://github.com/multimodal-art-projection/YuE Comfy workflow https://github.com/user-atta",
-      "thumbnail": "https://i2.ytimg.com/vi/9RtywbN--QE/hqdefault.jpg",
-      "kind": "video",
-      "channel": "AI Search"
     }
   ],
   "featured": [
@@ -969,7 +957,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T01:06:39.761530+00:00",
+      "fetched_at": "2026-10-15T06:03:22.074499+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1051,7 +1039,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T01:06:39.764201+00:00",
+      "fetched_at": "2026-10-15T06:03:22.076498+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1133,7 +1121,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T01:06:39.766891+00:00",
+      "fetched_at": "2026-10-15T06:03:22.078449+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1215,7 +1203,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T01:06:39.767942+00:00",
+      "fetched_at": "2026-10-15T06:03:22.079168+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1269,7 +1257,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T01:06:39.772282+00:00",
+      "fetched_at": "2026-10-15T06:03:22.082466+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1351,7 +1339,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T01:06:39.772298+00:00",
+      "fetched_at": "2026-10-15T06:03:22.082477+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1405,7 +1393,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T01:06:39.774322+00:00",
+      "fetched_at": "2026-10-15T06:03:22.083942+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1487,7 +1475,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-15T01:06:39.810079+00:00",
+      "fetched_at": "2026-10-15T06:03:22.107521+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1569,7 +1557,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-15T01:06:39.848027+00:00",
+      "fetched_at": "2026-10-15T06:03:22.133380+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1651,7 +1639,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T01:06:39.859685+00:00",
+      "fetched_at": "2026-10-15T06:03:22.141984+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1733,7 +1721,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T01:06:39.863898+00:00",
+      "fetched_at": "2026-10-15T06:03:22.145284+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1815,7 +1803,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T01:06:39.876127+00:00",
+      "fetched_at": "2026-10-15T06:03:22.154550+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1897,7 +1885,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-15T01:06:39.878831+00:00",
+      "fetched_at": "2026-10-15T06:03:22.156625+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1979,55 +1967,55 @@
         "ok": false,
         "items": 4,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-10-15T01:06:17.782875+00:00"
+        "checked_at": "2026-10-15T06:03:06.255410+00:00"
       },
       {
         "name": "AI Search",
         "ok": false,
         "items": 9,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-10-15T01:06:16.694946+00:00"
+        "checked_at": "2026-10-15T06:03:05.192143+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": false,
         "items": 15,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-10-15T01:06:20.993780+00:00"
+        "checked_at": "2026-10-15T06:03:09.443636+00:00"
       },
       {
         "name": "Fireship",
         "ok": false,
         "items": 12,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-10-15T01:06:18.869531+00:00"
+        "checked_at": "2026-10-15T06:03:07.329307+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-15T01:06:23.152186+00:00"
+        "checked_at": "2026-10-15T06:03:11.718105+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": false,
         "items": 8,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-10-15T01:06:19.968291+00:00"
+        "checked_at": "2026-10-15T06:03:08.388630+00:00"
       },
       {
         "name": "World of AI",
         "ok": false,
         "items": 15,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-10-15T01:06:22.025002+00:00"
+        "checked_at": "2026-10-15T06:03:10.497653+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-15T01:06:39.880184+00:00"
+      "checked_at": "2026-10-15T06:03:22.157765+00:00"
     }
   }
 }
