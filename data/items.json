@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T18:32:03.161573+00:00",
+  "generated_at": "2026-10-16T21:50:27.986800+00:00",
   "items": [
     {
       "id": "yt:5F4wdtNbMt4",
@@ -59,7 +59,7 @@
       "summary": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 448,
+      "upvotes": 451,
       "arxiv_id": "2610.21601"
     },
     {
@@ -72,7 +72,7 @@
       "summary": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tasks on users' computers through visual and programmatic interfaces. We define a generalist computer-use agent (GCUA) as a system in which the model chooses how to observe, act, and organize its work across visual and programmatic interfaces. Yet frontier implementations, such as GP",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 262,
+      "upvotes": 266,
       "arxiv_id": "2610.22200"
     },
     {
@@ -85,7 +85,7 @@
       "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios ac",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 228,
+      "upvotes": 229,
       "arxiv_id": "2610.22350"
     },
     {
@@ -98,7 +98,7 @@
       "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 139,
+      "upvotes": 140,
       "arxiv_id": "2610.22276"
     },
     {
@@ -111,7 +111,7 @@
       "summary": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding. First, we construct 3DCodeVerse-2M, a large-scale curated dataset of standalone 3D exe",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 97,
+      "upvotes": 99,
       "arxiv_id": "2610.22341"
     },
     {
@@ -124,7 +124,7 @@
       "summary": "Reinforcement learning (RL) enables language models to improve text-to-image (T2I) generation by rewriting prompts for a frozen image generator. Existing methods typically apply a single signal derived from the image to individual subword tokens, although objects, counts, attributes, and relations form coherent semantic spans. We propose SCOPE, an objective based on Group Relative Policy Optimizat",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 76,
+      "upvotes": 77,
       "arxiv_id": "2610.22264"
     },
     {
@@ -137,7 +137,7 @@
       "summary": "Few-step autoregressive video generators enable streaming generation, yet they run every token through the final denoising step, regardless of how much refinement it needs. We find this uniform computation is often unnecessary: many tokens already closely match their eventual full-step outputs in the initial steps, while others require refinement until the end. We introduce Speculative Forcing, a ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 69,
+      "upvotes": 72,
       "arxiv_id": "2610.22347"
     },
     {
@@ -163,7 +163,7 @@
       "summary": "Most existing agentic reinforcement learning methods assume single-session trajectories, where interaction proceeds within one continuously accumulated context. However, agentic techniques such as context compaction and subagent forking may produce trajectories spanning multiple sessions, creating a mismatch between the single-session training assumption and inference-time execution. Therefore, we",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 46,
+      "upvotes": 48,
       "arxiv_id": "2610.22174"
     },
     {
@@ -188,7 +188,7 @@
       "summary": "Can vision-language models turn 2D observations into 3D understanding that supports precise action? This requires inferring object geometry, anticipating the effects of rotation, and refining actions through visual feedback. We introduce RoTA-Bench to evaluate these abilities through interactive 3D-to-2D projection alignment. Given a target silhouette, a model observes a rotated object and chooses",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 197,
+      "upvotes": 198,
       "arxiv_id": "2610.17665"
     },
     {
@@ -214,7 +214,7 @@
       "summary": "Online reinforcement learning (RL) with verifiable rewards has driven rapid progress in mathematics, coding, and tool use, but scaling this success to GUI agents remains challenging due to the high cost of interactive environments and the scarcity of realistic training tasks. We introduce MAI-Gym, an open all-in-one platform that unifies GUI agent evaluation, data collection, and online RL trainin",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 92,
+      "upvotes": 93,
       "arxiv_id": "2610.20939"
     },
     {
@@ -263,7 +263,7 @@
       "summary": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important. Existing video understanding benchmarks cover only part of the evaluation dimensions, limiting systematic diagnosis of omni-modal video understanding. We introduce OmniCompass, a holistic benchmark for omni-modal video grounding and understand",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 538,
+      "upvotes": 566,
       "arxiv_id": "2610.18829"
     },
     {
@@ -276,7 +276,7 @@
       "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 186,
+      "upvotes": 188,
       "arxiv_id": "2610.18813"
     },
     {
@@ -409,7 +409,7 @@
       "summary": "Audio source separation models must preserve fine spectral structure while keeping the cost of the separator tractable. Band-split architectures reduce this cost by manually partitioning the spectrum into predefined frequency bands and encoding each band as a token, but the same boundaries are used for every mixture. Because informative spectral structure varies with source content, fixed boundari",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 130,
+      "upvotes": 131,
       "arxiv_id": "2610.14993"
     },
     {
@@ -915,18 +915,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/LoLYw--s-5w/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
-    },
-    {
-      "id": "yt:J3ljHm57yU0",
-      "title": "What AI Researchers Saw, Before Their Demand to ‘Pace’ AI",
-      "url": "https://www.youtube.com/watch?v=J3ljHm57yU0",
-      "source": "AI Explained",
-      "category": "videos",
-      "published": "2026-09-16T20:51:40+00:00",
-      "summary": "Why has it been the last few days that the calls to come to pace the frontier AI have come so loudly? The safety warnings, and lab leader messages? Let’s explore the six axes that the researchers are looking at, the incidence reports and trends, to get a better gauge on what has dominated the world’",
-      "thumbnail": "https://i3.ytimg.com/vi/J3ljHm57yU0/hqdefault.jpg",
-      "kind": "video",
-      "channel": "AI Explained"
     }
   ],
   "featured": [
@@ -945,7 +933,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T18:32:03.077032+00:00",
+      "fetched_at": "2026-10-16T21:50:27.860377+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1027,7 +1015,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T18:32:03.078829+00:00",
+      "fetched_at": "2026-10-16T21:50:27.863014+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1109,7 +1097,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T18:32:03.080665+00:00",
+      "fetched_at": "2026-10-16T21:50:27.865677+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1191,7 +1179,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T18:32:03.081335+00:00",
+      "fetched_at": "2026-10-16T21:50:27.866634+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1245,7 +1233,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T18:32:03.084613+00:00",
+      "fetched_at": "2026-10-16T21:50:27.871019+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1327,7 +1315,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T18:32:03.084625+00:00",
+      "fetched_at": "2026-10-16T21:50:27.871034+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1381,7 +1369,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T18:32:03.085937+00:00",
+      "fetched_at": "2026-10-16T21:50:27.872963+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1463,7 +1451,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-16T18:32:03.108823+00:00",
+      "fetched_at": "2026-10-16T21:50:27.906838+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1545,7 +1533,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-16T18:32:03.133530+00:00",
+      "fetched_at": "2026-10-16T21:50:27.944203+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1627,7 +1615,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T18:32:03.141421+00:00",
+      "fetched_at": "2026-10-16T21:50:27.955432+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1709,7 +1697,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T18:32:03.144266+00:00",
+      "fetched_at": "2026-10-16T21:50:27.959642+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1791,7 +1779,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T18:32:03.152018+00:00",
+      "fetched_at": "2026-10-16T21:50:27.971571+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1873,7 +1861,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T18:32:03.153743+00:00",
+      "fetched_at": "2026-10-16T21:50:27.974216+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2159,55 +2147,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-16T18:31:46.517827+00:00"
+        "checked_at": "2026-10-16T21:50:11.620610+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-16T18:31:45.336799+00:00"
+        "checked_at": "2026-10-16T21:50:10.592011+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-16T18:31:49.803765+00:00"
+        "checked_at": "2026-10-16T21:50:14.772277+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-16T18:31:47.545779+00:00"
+        "checked_at": "2026-10-16T21:50:12.639474+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-16T18:31:52.211644+00:00"
+        "checked_at": "2026-10-16T21:50:17.105368+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-16T18:31:48.673433+00:00"
+        "checked_at": "2026-10-16T21:50:13.662706+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-16T18:31:50.974795+00:00"
+        "checked_at": "2026-10-16T21:50:15.986745+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-16T18:32:03.154350+00:00"
+      "checked_at": "2026-10-16T21:50:27.975654+00:00"
     }
   }
 }
