@@ -62,7 +62,9 @@
       <div class="header-actions">
         <nav class="site-nav" aria-label="Sections">
           <a href="#timeline">Feed</a>
+          <a href="#best-picks">Best picks</a>
           <a href="#leaderboards">Leaderboards</a>
+          <a href="#compare">Compare</a>
         </nav>
         <span class="freshness" id="freshness" title="Last data refresh">
           <span class="fresh-dot" aria-hidden="true"></span>
@@ -126,6 +128,42 @@
     <section id="leaderboards" class="leaderboards" hidden>
       <h2 class="section-title">Leaderboards <span class="muted">· Artificial Analysis · top 10</span></h2>
       <div id="lb-grid" class="lb-grid"></div>
+    </section>
+
+    <section id="best-picks" class="best-picks" hidden aria-labelledby="best-picks-title">
+      <h2 class="section-title" id="best-picks-title">Best picks <span class="muted">· Use model X for Y</span></h2>
+      <p class="section-sub muted">Curated winners per task — closed-source vs open-weights. Benchmark picks cite AI Release Tracker; media picks mirror our own leaderboards.</p>
+      <div class="segmented" role="group" aria-label="License filter for best picks">
+        <button type="button" class="seg-btn" data-license="closed" aria-pressed="true">Closed</button>
+        <button type="button" class="seg-btn" data-license="open" aria-pressed="false">Open</button>
+      </div>
+      <div id="picks-grid" class="picks-grid"></div>
+      <p id="picks-updated" class="muted picks-updated"></p>
+    </section>
+
+    <section id="compare" class="compare" hidden aria-labelledby="compare-title">
+      <h2 class="section-title" id="compare-title">Compare <span class="muted">· side-by-side across boards</span></h2>
+      <p class="section-sub muted">Pick up to 3 models. Winner per board highlights only when at least 2 picks have a score — like aireleasetracker.com/compare.</p>
+      <div class="compare-controls">
+        <div id="compare-slots" class="compare-slots"></div>
+        <div class="compare-actions">
+          <button id="compare-add" class="page-btn" type="button">+ Add model</button>
+          <button id="compare-copy" class="page-btn" type="button">Copy link</button>
+          <button id="compare-clear" class="page-btn" type="button">Clear</button>
+        </div>
+        <p id="compare-hint" class="muted compare-hint"></p>
+      </div>
+      <div class="compare-table-wrap">
+        <table id="compare-table" class="compare-table">
+          <thead><tr id="compare-head"><th scope="col">Board</th></tr></thead>
+          <tbody id="compare-body"></tbody>
+        </table>
+      </div>
+      <div id="popular-compare" class="popular-compare"></div>
+      <details class="compare-how">
+        <summary>How these comparisons work</summary>
+        <p>Built from the same <code>data/items.json</code> leaderboards shown above (Artificial Analysis snapshots, top 10 per board). Names are normalized — e.g. <code>Claude Opus 5.5 (max with fallback)</code> → <code>Claude Opus 5.5</code> — so variants collapse to one column. A model “wins” a board only when at least two compared models both report that board; otherwise no highlight. Missing = <code>—</code> (outside top 10, not tested). Benchmark task winners in Best picks additionally cite AI Release Tracker with canonical links.</p>
+      </details>
     </section>
   </main>
 

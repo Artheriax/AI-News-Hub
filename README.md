@@ -42,8 +42,16 @@ Static site (no framework): [`index.html`](index.html), [`app.js`](app.js), [`st
 - Source & category filters, search, dark mode
 - YouTube thumbnails, source badges, vote counts for papers
 - Artificial Analysis leaderboard cards (top 10 per board, open-weights & no-audio variants)
+- **Best picks** (`Use model X for Y` per task, Closed/Open toggle) from curated [`data/tasks.yaml`](data/tasks.yaml); benchmark-task winners cite AI Release Tracker with canonical links, media winners mirror our own boards
+- **Compare** (up to 3 models side-by-side across all boards, shareable `#compare?m=` links, winner highlights only when ≥2 picks score)
 - **New** badges for items since your last visit (auto-clear), loading skeletons, stale-data pill (>2h)
 - **PWA** (installable, offline shell via service worker) · SEO/OG tags · `404.html` · per-source **health chips** in the footer
+
+## Best picks & attribution
+
+- Edit [`data/tasks.yaml`](data/tasks.yaml) to update a task winner (`closed_winner` / `open_winner` + `benchmark_url` + `released`). `python fetch.py` merges it into `data/items.json` as `best_picks` (no network needed for tasks; previous snapshot is reused if the file is missing).
+- Benchmark taxonomy and top scores are snapshots inspired by [AI Release Tracker /benchmark](https://aireleasetracker.com/benchmark) (e.g. [SWE-Bench Verified](https://aireleasetracker.com/benchmark/swe-bench-verified), [Terminal-Bench 4.0](https://aireleasetracker.com/benchmark/terminal-bench-4.0)) plus [Compare](https://aireleasetracker.com/compare) for the interaction pattern. Scores © their labs/sources — each pick links to its canonical benchmark page.
+- Open vs closed classification uses `open_patterns` in `tasks.yaml` (substring match, conservative). Unknown models render as closed without a badge claim.
 
 ## Updates
 

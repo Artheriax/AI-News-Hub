@@ -20,6 +20,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent
 DATA_PATH = ROOT / "data" / "items.json"
+TASKS_PATH = ROOT / "data" / "tasks.yaml"
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -642,6 +643,31 @@ def load_existing() -> tuple[list[dict], list[dict], dict | None]:
     return [], [], None
 
 
+def load_tasks() -> dict | None:
+    """Load curated data/tasks.yaml (best picks). No network; returns None if missing."""
+    try:
+        if not TASKS_PATH.exists():
+            return None
+        payload = yaml.safe_load(TASKS_PATH.read_text(encoding="utf-8")) or {}
+        tasks = payload.get("tasks", []) or []
+        # Minimal validation so a typo never breaks the whole fetch.
+        clean: list[dict] = []
+        for task in tasks:
+            if not isinstance(task, dict) or not task.get("id") or not task.get("label"):
+                continue
+            clean.append(task)
+        if not clean:
+            return None
+        return {
+            "updated_at": payload.get("updated_at"),
+            "open_patterns": payload.get("open_patterns", []) or [],
+            "tasks": clean,
+        }
+    except Exception as exc:  # noqa: BLE001 - tasks are optional enrichment
+        print(f"warn  tasks.yaml: {exc}", file=sys.stderr)
+        return None
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -798,11 +824,21 @@ def main() -> int:
     }
 
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
+    best_picks = load_tasks()
+    if best_picks is None and DATA_PATH.exists():
+        try:
+            prev = json.loads(DATA_PATH.read_text(encoding="utf-8"))
+            if isinstance(prev.get("best_picks"), dict):
+                best_picks = prev["best_picks"]
+                print("keep  best_picks: previous snapshot reused")
+        except (json.JSONDecodeError, OSError):
+            pass
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "items": merged,
         "featured": featured,
         "leaderboards": leaderboards,
+        "best_picks": best_picks,
         "health": health,
     }
     DATA_PATH.write_text(
