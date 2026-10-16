@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-10-16T09:59:57.219153+00:00",
+  "generated_at": "2026-10-16T14:39:01.582995+00:00",
   "items": [
+    {
+      "id": "yt:5F4wdtNbMt4",
+      "title": "RTX 5090 + Strata – Can Local AI REALLY Beat Opus 4.6?",
+      "url": "https://www.youtube.com/watch?v=5F4wdtNbMt4",
+      "source": "Bijan Bowen",
+      "category": "videos",
+      "published": "2026-10-16T11:10:44+00:00",
+      "summary": "https://rog.gg/upgrade_what_matters_2026_bijan Join the ASUS ROG Upgrade What Matters giveaway for a chance to win a custom PC, ROG Edition 20 gear, and more from a $15,000+ prize pool! In this video, we test Qwen3.8 27B Q4 across Blender and Godot tasks, then move into Strata with Qwen3.8 Flash Nex",
+      "thumbnail": "https://i2.ytimg.com/vi/5F4wdtNbMt4/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Bijan Bowen"
+    },
     {
       "id": "yt:ESJYNs5fjC4",
       "title": "Claude OPUS 6 EAP SPOTTED?! Muse Spark Open, GPT-6.1 Astra, MAI-Base-2, & Fable 5.5 LEAKS! AI NEWS",
@@ -47,60 +59,21 @@
       "summary": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 181,
+      "upvotes": 237,
       "arxiv_id": "2610.21601"
     },
     {
-      "id": "paper:2610.22341",
-      "title": "3DCodeVerse: Exploring 3D Worlds as Code",
-      "url": "https://huggingface.co/papers/2610.22341",
+      "id": "paper:2610.22350",
+      "title": "FDE-Gym: The Last Mile of AI Delivery",
+      "url": "https://huggingface.co/papers/2610.22350",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-15T00:00:00+00:00",
-      "summary": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding. First, we construct 3DCodeVerse-2M, a large-scale curated dataset of standalone 3D exe",
+      "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios ac",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 66,
-      "arxiv_id": "2610.22341"
-    },
-    {
-      "id": "paper:2610.22347",
-      "title": "Speculative Forcing for Efficient Autoregressive Video Generation",
-      "url": "https://huggingface.co/papers/2610.22347",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-15T00:00:00+00:00",
-      "summary": "Few-step autoregressive video generators enable streaming generation, yet they run every token through the final denoising step, regardless of how much refinement it needs. We find this uniform computation is often unnecessary: many tokens already closely match their eventual full-step outputs in the initial steps, while others require refinement until the end. We introduce Speculative Forcing, a ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 66,
-      "arxiv_id": "2610.22347"
-    },
-    {
-      "id": "paper:2610.22264",
-      "title": "SCOPE: Semantic Bounded Credit Optimization for Prompt Engineering in Text-to-image Generation",
-      "url": "https://huggingface.co/papers/2610.22264",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-15T00:00:00+00:00",
-      "summary": "Reinforcement learning (RL) enables language models to improve text-to-image (T2I) generation by rewriting prompts for a frozen image generator. Existing methods typically apply a single signal derived from the image to individual subword tokens, although objects, counts, attributes, and relations form coherent semantic spans. We propose SCOPE, an objective based on Group Relative Policy Optimizat",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 62,
-      "arxiv_id": "2610.22264"
-    },
-    {
-      "id": "paper:2610.22276",
-      "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
-      "url": "https://huggingface.co/papers/2610.22276",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-15T00:00:00+00:00",
-      "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 46,
-      "arxiv_id": "2610.22276"
+      "upvotes": 159,
+      "arxiv_id": "2610.22350"
     },
     {
       "id": "paper:2610.22200",
@@ -112,8 +85,60 @@
       "summary": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tasks on users' computers through visual and programmatic interfaces. We define a generalist computer-use agent (GCUA) as a system in which the model chooses how to observe, act, and organize its work across visual and programmatic interfaces. Yet frontier implementations, such as GP",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 44,
+      "upvotes": 135,
       "arxiv_id": "2610.22200"
+    },
+    {
+      "id": "paper:2610.22276",
+      "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
+      "url": "https://huggingface.co/papers/2610.22276",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-15T00:00:00+00:00",
+      "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 135,
+      "arxiv_id": "2610.22276"
+    },
+    {
+      "id": "paper:2610.22341",
+      "title": "3DCodeVerse: Exploring 3D Worlds as Code",
+      "url": "https://huggingface.co/papers/2610.22341",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-15T00:00:00+00:00",
+      "summary": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding. First, we construct 3DCodeVerse-2M, a large-scale curated dataset of standalone 3D exe",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 95,
+      "arxiv_id": "2610.22341"
+    },
+    {
+      "id": "paper:2610.22264",
+      "title": "SCOPE: Semantic Bounded Credit Optimization for Prompt Engineering in Text-to-image Generation",
+      "url": "https://huggingface.co/papers/2610.22264",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-15T00:00:00+00:00",
+      "summary": "Reinforcement learning (RL) enables language models to improve text-to-image (T2I) generation by rewriting prompts for a frozen image generator. Existing methods typically apply a single signal derived from the image to individual subword tokens, although objects, counts, attributes, and relations form coherent semantic spans. We propose SCOPE, an objective based on Group Relative Policy Optimizat",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 76,
+      "arxiv_id": "2610.22264"
+    },
+    {
+      "id": "paper:2610.22347",
+      "title": "Speculative Forcing for Efficient Autoregressive Video Generation",
+      "url": "https://huggingface.co/papers/2610.22347",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-15T00:00:00+00:00",
+      "summary": "Few-step autoregressive video generators enable streaming generation, yet they run every token through the final denoising step, regardless of how much refinement it needs. We find this uniform computation is often unnecessary: many tokens already closely match their eventual full-step outputs in the initial steps, while others require refinement until the end. We introduce Speculative Forcing, a ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 67,
+      "arxiv_id": "2610.22347"
     },
     {
       "id": "paper:2610.22174",
@@ -125,21 +150,8 @@
       "summary": "Most existing agentic reinforcement learning methods assume single-session trajectories, where interaction proceeds within one continuously accumulated context. However, agentic techniques such as context compaction and subagent forking may produce trajectories spanning multiple sessions, creating a mismatch between the single-session training assumption and inference-time execution. Therefore, we",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 44,
+      "upvotes": 46,
       "arxiv_id": "2610.22174"
-    },
-    {
-      "id": "paper:2610.22194",
-      "title": "AutoSFT: An Agentic System for Automated Data Research in Supervised Fine-Tuning",
-      "url": "https://huggingface.co/papers/2610.22194",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-15T00:00:00+00:00",
-      "summary": "Language model agents increasingly automate post-training, but when given the full training stack they converge on supervised fine-tuning and spend most effort revising training data. Existing systems give the agent one kind of control, selecting rows from a fixed pool or calling a generator, whereas a human data engineer adjusts proportions, prunes, repairs, replaces and synthesizes the data. We ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 33,
-      "arxiv_id": "2610.22194"
     },
     {
       "id": "yt:QZVzuq28eFw",
@@ -154,19 +166,6 @@
       "channel": "Fireship"
     },
     {
-      "id": "paper:2610.20341",
-      "title": "InfiniSplat v2: Analyzing and Improving Feed-Forward 3DGS from Any Views",
-      "url": "https://huggingface.co/papers/2610.20341",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-14T00:00:00+00:00",
-      "summary": "Feed-forward Gaussian reconstruction builds 3D scenes directly from input images for novel view rendering, but learning Gaussian attributes from predicted geometry for high-quality rendering under large viewpoint changes remains challenging. We analyze limitations in Gaussian attribute learning and introduce InfiniSplat v2, which improves rendering quality through architectural and training change",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 90,
-      "arxiv_id": "2610.20341"
-    },
-    {
       "id": "paper:2610.17665",
       "title": "RoTA-Bench: Evaluating 3D Spatial Reasoning through Interactive Projection Alignment",
       "url": "https://huggingface.co/papers/2610.17665",
@@ -176,21 +175,34 @@
       "summary": "Can vision-language models turn 2D observations into 3D understanding that supports precise action? This requires inferring object geometry, anticipating the effects of rotation, and refining actions through visual feedback. We introduce RoTA-Bench to evaluate these abilities through interactive 3D-to-2D projection alignment. Given a target silhouette, a model observes a rotated object and chooses",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 80,
+      "upvotes": 197,
       "arxiv_id": "2610.17665"
     },
     {
-      "id": "paper:2610.19849",
-      "title": "DeltaStreamer: Towards Human-Like Agentic Streaming Video Understanding",
-      "url": "https://huggingface.co/papers/2610.19849",
+      "id": "paper:2610.20341",
+      "title": "InfiniSplat v2: Analyzing and Improving Feed-Forward 3DGS from Any Views",
+      "url": "https://huggingface.co/papers/2610.20341",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-14T00:00:00+00:00",
-      "summary": "We propose DeltaStreamer, a novel agentic framework for streaming video understanding inspired by how humans observe, remember, and investigate. Streaming video understanding requires a system to retain evidence before knowing which details future queries will need. Existing approaches often obscure event transitions and omit relevant details when compressing video history, and cannot recover miss",
+      "summary": "Feed-forward Gaussian reconstruction builds 3D scenes directly from input images for novel view rendering, but learning Gaussian attributes from predicted geometry for high-quality rendering under large viewpoint changes remains challenging. We analyze limitations in Gaussian attribute learning and introduce InfiniSplat v2, which improves rendering quality through architectural and training change",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 34,
-      "arxiv_id": "2610.19849"
+      "upvotes": 114,
+      "arxiv_id": "2610.20341"
+    },
+    {
+      "id": "paper:2610.20939",
+      "title": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
+      "url": "https://huggingface.co/papers/2610.20939",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-14T00:00:00+00:00",
+      "summary": "Online reinforcement learning (RL) with verifiable rewards has driven rapid progress in mathematics, coding, and tool use, but scaling this success to GUI agents remains challenging due to the high cost of interactive environments and the scarcity of realistic training tasks. We introduce MAI-Gym, an open all-in-one platform that unifies GUI agent evaluation, data collection, and online RL trainin",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 91,
+      "arxiv_id": "2610.20939"
     },
     {
       "id": "paper:2610.20818",
@@ -202,7 +214,7 @@
       "summary": "Unified multimodal generation covers discrete, continuous, and hybrid paradigms. Discrete approaches with single-codebook visual tokenizers align naturally with text modeling but have limited representational capacity. Continuous and hybrid approaches retain richer visual representations, but they model text and images in heterogeneous spaces with different training objectives, potentially introdu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 31,
+      "upvotes": 37,
       "arxiv_id": "2610.20818"
     },
     {
@@ -251,7 +263,7 @@
       "summary": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important. Existing video understanding benchmarks cover only part of the evaluation dimensions, limiting systematic diagnosis of omni-modal video understanding. We introduce OmniCompass, a holistic benchmark for omni-modal video grounding and understand",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 229,
+      "upvotes": 276,
       "arxiv_id": "2610.18829"
     },
     {
@@ -264,7 +276,7 @@
       "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 94,
+      "upvotes": 185,
       "arxiv_id": "2610.18813"
     },
     {
@@ -397,7 +409,7 @@
       "summary": "Audio source separation models must preserve fine spectral structure while keeping the cost of the separator tractable. Band-split architectures reduce this cost by manually partitioning the spectrum into predefined frequency bands and encoding each band as a token, but the same boundaries are used for every mixture. Because informative spectral structure varies with source content, fixed boundari",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 83,
+      "upvotes": 130,
       "arxiv_id": "2610.14993"
     },
     {
@@ -821,18 +833,6 @@
       "channel": "Fireship"
     },
     {
-      "id": "yt:ux6Lafw7en0",
-      "title": "Claude Opus 5.5 Is INSANE – Hands-On With the BEST Model Yet!",
-      "url": "https://www.youtube.com/watch?v=ux6Lafw7en0",
-      "source": "Bijan Bowen",
-      "category": "videos",
-      "published": "2026-09-22T22:42:33+00:00",
-      "summary": "Check out Supabase: https://supabase.link/vsgNxWg Timestamps: 00:00 - Intro 01:05 - First Look 02:00 - Technical Look 04:16 - Testing Setup Info 05:04 - Browser OS Test 11:33 - C++ Skate Game Test 18:01 - Watch Website Test 21:32 - Blender & Godot Test 26:04 - Subway FPS Test 30:39 - Original Benchm",
-      "thumbnail": "https://i2.ytimg.com/vi/ux6Lafw7en0/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Bijan Bowen"
-    },
-    {
       "id": "yt:qBBRRsH0rQc",
       "title": "Yes, Jev Is Insane, But There's A Catch",
       "url": "https://www.youtube.com/watch?v=qBBRRsH0rQc",
@@ -945,7 +945,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:59:57.103860+00:00",
+      "fetched_at": "2026-10-16T14:39:01.454623+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1027,7 +1027,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:59:57.106285+00:00",
+      "fetched_at": "2026-10-16T14:39:01.457286+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1109,7 +1109,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:59:57.108720+00:00",
+      "fetched_at": "2026-10-16T14:39:01.459976+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1191,7 +1191,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:59:57.109632+00:00",
+      "fetched_at": "2026-10-16T14:39:01.460946+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1245,7 +1245,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:59:57.113814+00:00",
+      "fetched_at": "2026-10-16T14:39:01.465294+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1327,7 +1327,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:59:57.113829+00:00",
+      "fetched_at": "2026-10-16T14:39:01.465325+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1381,7 +1381,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:59:57.115596+00:00",
+      "fetched_at": "2026-10-16T14:39:01.467258+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1463,7 +1463,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-16T09:59:57.145965+00:00",
+      "fetched_at": "2026-10-16T14:39:01.502761+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1545,7 +1545,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-16T09:59:57.178437+00:00",
+      "fetched_at": "2026-10-16T14:39:01.540735+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1627,7 +1627,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:59:57.189728+00:00",
+      "fetched_at": "2026-10-16T14:39:01.551860+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1709,7 +1709,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:59:57.193868+00:00",
+      "fetched_at": "2026-10-16T14:39:01.556009+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1791,7 +1791,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:59:57.205194+00:00",
+      "fetched_at": "2026-10-16T14:39:01.568367+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1873,7 +1873,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:59:57.207823+00:00",
+      "fetched_at": "2026-10-16T14:39:01.571050+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2159,259 +2159,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-16T09:59:41.586751+00:00"
+        "checked_at": "2026-10-16T14:38:45.570334+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-16T09:59:40.554863+00:00"
+        "checked_at": "2026-10-16T14:38:44.544547+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-16T09:59:44.639974+00:00"
+        "checked_at": "2026-10-16T14:38:48.626192+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-16T09:59:42.603941+00:00"
+        "checked_at": "2026-10-16T14:38:46.587912+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-16T09:59:46.821281+00:00"
+        "checked_at": "2026-10-16T14:38:50.827085+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-16T09:59:43.622669+00:00"
+        "checked_at": "2026-10-16T14:38:47.607079+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-16T09:59:45.673472+00:00"
+        "checked_at": "2026-10-16T14:38:49.660927+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-16T09:59:57.209293+00:00"
+      "checked_at": "2026-10-16T14:39:01.572207+00:00"
     }
-  },
-  "best_picks": {
-    "updated_at": "2026-10-16T00:00:00+00:00",
-    "open_patterns": [
-      "open",
-      "oss",
-      "gpt-oss",
-      "deepseek",
-      "qwen",
-      "glm",
-      "kimi",
-      "mistral",
-      "miMo",
-      "mimo",
-      "llama",
-      "nemotron",
-      "solar open",
-      "breeze tts",
-      "qwen-image"
-    ],
-    "tasks": [
-      {
-        "id": "coding",
-        "label": "Coding",
-        "icon": "</>",
-        "benchmark": "SWE-Bench Verified",
-        "benchmark_url": "https://aireleasetracker.com/benchmark/swe-bench-verified",
-        "source_note": "Scores via AI Release Tracker (Lab / BenchLM snapshot 2026-10-16)",
-        "closed_winner": {
-          "model": "Claude Opus 5",
-          "developer": "Anthropic",
-          "score": "96%",
-          "released": "Jul 2026"
-        },
-        "open_winner": {
-          "model": "DeepSeek-V4-Pro-0813",
-          "developer": "DeepSeek",
-          "score": "80.6%",
-          "released": "Aug 2026"
-        },
-        "runner_up": {
-          "model": "Claude Fable 5",
-          "score": "95.5%"
-        }
-      },
-      {
-        "id": "terminal",
-        "label": "Terminal / CLI",
-        "icon": "$_",
-        "benchmark": "Terminal-Bench 4.0",
-        "benchmark_url": "https://aireleasetracker.com/benchmark/terminal-bench-4.0",
-        "source_note": "Scores via AI Release Tracker (Lab / Terminal-Bench snapshot 2026-10-16)",
-        "closed_winner": {
-          "model": "Claude Sonnet 5.5",
-          "developer": "Anthropic",
-          "score": "70.6%",
-          "released": "Sep 2026"
-        },
-        "open_winner": {
-          "model": "GLM-5.3",
-          "developer": "Z.ai",
-          "score": "41.82%",
-          "released": "Aug 2026"
-        },
-        "runner_up": {
-          "model": "Claude Opus 5.5",
-          "score": "66.4%"
-        }
-      },
-      {
-        "id": "reasoning",
-        "label": "Reasoning / Science",
-        "icon": "∴",
-        "benchmark": "Humanity's Last Exam (with tools)",
-        "benchmark_url": "https://aireleasetracker.com/benchmark/hle-with-tools",
-        "source_note": "Scores via AI Release Tracker snapshot 2026-10-16",
-        "closed_winner": {
-          "model": "Claude Opus 5.5",
-          "developer": "Anthropic",
-          "score": "67.7%",
-          "released": "Sep 2026"
-        },
-        "open_winner": null,
-        "runner_up": {
-          "model": "GPT-6 Astra",
-          "score": "—"
-        }
-      },
-      {
-        "id": "agentic",
-        "label": "Agentic / Computer use",
-        "icon": "◈",
-        "benchmark": "OSWorld 2.0",
-        "benchmark_url": "https://aireleasetracker.com/benchmark/osworld-2.0",
-        "source_note": "Scores via AI Release Tracker snapshot 2026-10-16",
-        "closed_winner": {
-          "model": "Claude Opus 5.5",
-          "developer": "Anthropic",
-          "score": "81.8%",
-          "released": "Sep 2026"
-        },
-        "open_winner": null,
-        "runner_up": {
-          "model": "GPT-6.1 Sol",
-          "score": "71.4%"
-        }
-      },
-      {
-        "id": "writing",
-        "label": "Writing / Knowledge work",
-        "icon": "✎",
-        "benchmark": "GDPval-AA v2.1 + Intelligence Index",
-        "benchmark_url": "https://aireleasetracker.com/benchmark/gdpval-aa-v2.1",
-        "source_note": "Closed pick via AI Release Tracker; open pick mirrors own Text Generation (open) board",
-        "closed_winner": {
-          "model": "Claude Opus 5.5",
-          "developer": "Anthropic",
-          "score": "1846",
-          "released": "Sep 2026"
-        },
-        "open_winner": {
-          "model": "MiMo-V2.6-Pro",
-          "developer": "Xiaomi",
-          "score": "46",
-          "released": "—"
-        },
-        "runner_up": {
-          "model": "Claude Fable 5",
-          "score": "1932 (GDPval-AA)"
-        }
-      },
-      {
-        "id": "image",
-        "label": "Image",
-        "icon": "◐",
-        "benchmark": "Text to Image (own leaderboard)",
-        "benchmark_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-        "source_note": "Top-1 of own Artificial Analysis boards (snapshot per fetch)",
-        "closed_winner": {
-          "model": "GPT Image 2.5 Sunburst (max)",
-          "developer": "OpenAI",
-          "score": "1198",
-          "released": "Sep 2026"
-        },
-        "open_winner": {
-          "model": "Qwen-Image-2.1",
-          "developer": "Qwen",
-          "score": "1035",
-          "released": "Sep 2026"
-        },
-        "runner_up": {
-          "model": "GPT Image 2.5 Flare (max)",
-          "score": "1191"
-        }
-      },
-      {
-        "id": "video",
-        "label": "Video",
-        "icon": "▶",
-        "benchmark": "Image to Video (own leaderboard)",
-        "benchmark_url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
-        "source_note": "Top-1 of own Artificial Analysis boards (snapshot per fetch)",
-        "closed_winner": {
-          "model": "MiniMax H3 Max",
-          "developer": "MiniMax",
-          "score": "1195",
-          "released": "Aug 2026"
-        },
-        "open_winner": {
-          "model": "MiniMax H3",
-          "developer": "MiniMax",
-          "score": "1181",
-          "released": "Jul 2026"
-        },
-        "runner_up": {
-          "model": "GPT Image 2.5 Flare (max)",
-          "score": "—"
-        }
-      },
-      {
-        "id": "speech",
-        "label": "Speech / Music",
-        "icon": "♪",
-        "benchmark": "TTS Provider Voice + Music (own leaderboards)",
-        "benchmark_url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
-        "source_note": "Top-1 of own Artificial Analysis boards (snapshot per fetch)",
-        "closed_winner": {
-          "model": "Eleven v4 Turbo",
-          "developer": "ElevenLabs",
-          "score": "1329",
-          "released": "Sep 2026"
-        },
-        "open_winner": {
-          "model": "Breeze TTS 2",
-          "developer": "Breeze",
-          "score": "1222",
-          "released": "Aug 2026"
-        },
-        "runner_up": {
-          "model": "Suno v6",
-          "score": "1140 (Music)"
-        }
-      }
-    ]
   }
 }
