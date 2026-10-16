@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T09:58:11.554253+00:00",
+  "generated_at": "2026-10-16T09:59:57.219153+00:00",
   "items": [
     {
       "id": "yt:ESJYNs5fjC4",
@@ -86,7 +86,7 @@
       "summary": "Reinforcement learning (RL) enables language models to improve text-to-image (T2I) generation by rewriting prompts for a frozen image generator. Existing methods typically apply a single signal derived from the image to individual subword tokens, although objects, counts, attributes, and relations form coherent semantic spans. We propose SCOPE, an objective based on Group Relative Policy Optimizat",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 61,
+      "upvotes": 62,
       "arxiv_id": "2610.22264"
     },
     {
@@ -99,7 +99,7 @@
       "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 45,
+      "upvotes": 46,
       "arxiv_id": "2610.22276"
     },
     {
@@ -163,7 +163,7 @@
       "summary": "Feed-forward Gaussian reconstruction builds 3D scenes directly from input images for novel view rendering, but learning Gaussian attributes from predicted geometry for high-quality rendering under large viewpoint changes remains challenging. We analyze limitations in Gaussian attribute learning and introduce InfiniSplat v2, which improves rendering quality through architectural and training change",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 89,
+      "upvotes": 90,
       "arxiv_id": "2610.20341"
     },
     {
@@ -264,7 +264,7 @@
       "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 93,
+      "upvotes": 94,
       "arxiv_id": "2610.18813"
     },
     {
@@ -397,7 +397,7 @@
       "summary": "Audio source separation models must preserve fine spectral structure while keeping the cost of the separator tractable. Band-split architectures reduce this cost by manually partitioning the spectrum into predefined frequency bands and encoding each band as a token, but the same boundaries are used for every mixture. Because informative spectral structure varies with source content, fixed boundari",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 82,
+      "upvotes": 83,
       "arxiv_id": "2610.14993"
     },
     {
@@ -945,7 +945,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:58:11.444169+00:00",
+      "fetched_at": "2026-10-16T09:59:57.103860+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1027,7 +1027,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:58:11.446513+00:00",
+      "fetched_at": "2026-10-16T09:59:57.106285+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1109,7 +1109,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:58:11.448894+00:00",
+      "fetched_at": "2026-10-16T09:59:57.108720+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1191,7 +1191,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:58:11.449749+00:00",
+      "fetched_at": "2026-10-16T09:59:57.109632+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1245,7 +1245,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:58:11.453750+00:00",
+      "fetched_at": "2026-10-16T09:59:57.113814+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1327,7 +1327,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:58:11.453768+00:00",
+      "fetched_at": "2026-10-16T09:59:57.113829+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1381,7 +1381,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:58:11.455528+00:00",
+      "fetched_at": "2026-10-16T09:59:57.115596+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1463,7 +1463,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-16T09:58:11.485345+00:00",
+      "fetched_at": "2026-10-16T09:59:57.145965+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1545,7 +1545,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-16T09:58:11.517733+00:00",
+      "fetched_at": "2026-10-16T09:59:57.178437+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1627,7 +1627,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:58:11.527745+00:00",
+      "fetched_at": "2026-10-16T09:59:57.189728+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1709,7 +1709,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:58:11.531377+00:00",
+      "fetched_at": "2026-10-16T09:59:57.193868+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1791,7 +1791,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:58:11.541516+00:00",
+      "fetched_at": "2026-10-16T09:59:57.205194+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1873,7 +1873,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-16T09:58:11.543790+00:00",
+      "fetched_at": "2026-10-16T09:59:57.207823+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2159,55 +2159,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-16T09:57:55.677876+00:00"
+        "checked_at": "2026-10-16T09:59:41.586751+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-16T09:57:54.652163+00:00"
+        "checked_at": "2026-10-16T09:59:40.554863+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-16T09:57:58.850661+00:00"
+        "checked_at": "2026-10-16T09:59:44.639974+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-16T09:57:56.695624+00:00"
+        "checked_at": "2026-10-16T09:59:42.603941+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-16T09:58:01.079179+00:00"
+        "checked_at": "2026-10-16T09:59:46.821281+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-16T09:57:57.715080+00:00"
+        "checked_at": "2026-10-16T09:59:43.622669+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-16T09:57:59.884710+00:00"
+        "checked_at": "2026-10-16T09:59:45.673472+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-16T09:58:11.544673+00:00"
+      "checked_at": "2026-10-16T09:59:57.209293+00:00"
     }
   }
 }
