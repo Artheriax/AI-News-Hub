@@ -2005,5 +2005,209 @@
       "failed": 0,
       "checked_at": "2026-10-16T05:17:24.092627+00:00"
     }
+  },
+  "best_picks": {
+    "updated_at": "2026-10-16T00:00:00+00:00",
+    "open_patterns": [
+      "open",
+      "oss",
+      "gpt-oss",
+      "deepseek",
+      "qwen",
+      "glm",
+      "kimi",
+      "mistral",
+      "miMo",
+      "mimo",
+      "llama",
+      "nemotron",
+      "solar open",
+      "breeze tts",
+      "qwen-image"
+    ],
+    "tasks": [
+      {
+        "id": "coding",
+        "label": "Coding",
+        "icon": "</>",
+        "benchmark": "SWE-Bench Verified",
+        "benchmark_url": "https://aireleasetracker.com/benchmark/swe-bench-verified",
+        "source_note": "Scores via AI Release Tracker (Lab / BenchLM snapshot 2026-10-16)",
+        "closed_winner": {
+          "model": "Claude Opus 5",
+          "developer": "Anthropic",
+          "score": "96%",
+          "released": "Jul 2026"
+        },
+        "open_winner": {
+          "model": "DeepSeek-V4-Pro-0813",
+          "developer": "DeepSeek",
+          "score": "80.6%",
+          "released": "Aug 2026"
+        },
+        "runner_up": {
+          "model": "Claude Fable 5",
+          "score": "95.5%"
+        }
+      },
+      {
+        "id": "terminal",
+        "label": "Terminal / CLI",
+        "icon": "$_",
+        "benchmark": "Terminal-Bench 4.0",
+        "benchmark_url": "https://aireleasetracker.com/benchmark/terminal-bench-4.0",
+        "source_note": "Scores via AI Release Tracker (Lab / Terminal-Bench snapshot 2026-10-16)",
+        "closed_winner": {
+          "model": "Claude Sonnet 5.5",
+          "developer": "Anthropic",
+          "score": "70.6%",
+          "released": "Sep 2026"
+        },
+        "open_winner": {
+          "model": "GLM-5.3",
+          "developer": "Z.ai",
+          "score": "41.82%",
+          "released": "Aug 2026"
+        },
+        "runner_up": {
+          "model": "Claude Opus 5.5",
+          "score": "66.4%"
+        }
+      },
+      {
+        "id": "reasoning",
+        "label": "Reasoning / Science",
+        "icon": "∴",
+        "benchmark": "Humanity's Last Exam (with tools)",
+        "benchmark_url": "https://aireleasetracker.com/benchmark/hle-with-tools",
+        "source_note": "Scores via AI Release Tracker snapshot 2026-10-16",
+        "closed_winner": {
+          "model": "Claude Opus 5.5",
+          "developer": "Anthropic",
+          "score": "67.7%",
+          "released": "Sep 2026"
+        },
+        "open_winner": null,
+        "runner_up": {
+          "model": "GPT-6 Astra",
+          "score": "—"
+        }
+      },
+      {
+        "id": "agentic",
+        "label": "Agentic / Computer use",
+        "icon": "◈",
+        "benchmark": "OSWorld 2.0",
+        "benchmark_url": "https://aireleasetracker.com/benchmark/osworld-2.0",
+        "source_note": "Scores via AI Release Tracker snapshot 2026-10-16",
+        "closed_winner": {
+          "model": "Claude Opus 5.5",
+          "developer": "Anthropic",
+          "score": "81.8%",
+          "released": "Sep 2026"
+        },
+        "open_winner": null,
+        "runner_up": {
+          "model": "GPT-6.1 Sol",
+          "score": "71.4%"
+        }
+      },
+      {
+        "id": "writing",
+        "label": "Writing / Knowledge work",
+        "icon": "✎",
+        "benchmark": "GDPval-AA v2.1 + Intelligence Index",
+        "benchmark_url": "https://aireleasetracker.com/benchmark/gdpval-aa-v2.1",
+        "source_note": "Closed pick via AI Release Tracker; open pick mirrors own Text Generation (open) board",
+        "closed_winner": {
+          "model": "Claude Opus 5.5",
+          "developer": "Anthropic",
+          "score": "1846",
+          "released": "Sep 2026"
+        },
+        "open_winner": {
+          "model": "MiMo-V2.6-Pro",
+          "developer": "Xiaomi",
+          "score": "46",
+          "released": "—"
+        },
+        "runner_up": {
+          "model": "Claude Fable 5",
+          "score": "1932 (GDPval-AA)"
+        }
+      },
+      {
+        "id": "image",
+        "label": "Image",
+        "icon": "◐",
+        "benchmark": "Text to Image (own leaderboard)",
+        "benchmark_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+        "source_note": "Top-1 of own Artificial Analysis boards (snapshot per fetch)",
+        "closed_winner": {
+          "model": "GPT Image 2.5 Sunburst (max)",
+          "developer": "OpenAI",
+          "score": "1198",
+          "released": "Sep 2026"
+        },
+        "open_winner": {
+          "model": "Qwen-Image-2.1",
+          "developer": "Qwen",
+          "score": "1035",
+          "released": "Sep 2026"
+        },
+        "runner_up": {
+          "model": "GPT Image 2.5 Flare (max)",
+          "score": "1191"
+        }
+      },
+      {
+        "id": "video",
+        "label": "Video",
+        "icon": "▶",
+        "benchmark": "Image to Video (own leaderboard)",
+        "benchmark_url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+        "source_note": "Top-1 of own Artificial Analysis boards (snapshot per fetch)",
+        "closed_winner": {
+          "model": "MiniMax H3 Max",
+          "developer": "MiniMax",
+          "score": "1195",
+          "released": "Aug 2026"
+        },
+        "open_winner": {
+          "model": "MiniMax H3",
+          "developer": "MiniMax",
+          "score": "1181",
+          "released": "Jul 2026"
+        },
+        "runner_up": {
+          "model": "GPT Image 2.5 Flare (max)",
+          "score": "—"
+        }
+      },
+      {
+        "id": "speech",
+        "label": "Speech / Music",
+        "icon": "♪",
+        "benchmark": "TTS Provider Voice + Music (own leaderboards)",
+        "benchmark_url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
+        "source_note": "Top-1 of own Artificial Analysis boards (snapshot per fetch)",
+        "closed_winner": {
+          "model": "Eleven v4 Turbo",
+          "developer": "ElevenLabs",
+          "score": "1329",
+          "released": "Sep 2026"
+        },
+        "open_winner": {
+          "model": "Breeze TTS 2",
+          "developer": "Breeze",
+          "score": "1222",
+          "released": "Aug 2026"
+        },
+        "runner_up": {
+          "model": "Suno v6",
+          "score": "1140 (Music)"
+        }
+      }
+    ]
   }
 }

@@ -61,10 +61,10 @@
       </div>
       <div class="header-actions">
         <nav class="site-nav" aria-label="Sections">
-          <a href="#timeline">Feed</a>
-          <a href="#best-picks">Best picks</a>
-          <a href="#leaderboards">Leaderboards</a>
-          <a href="#compare">Compare</a>
+          <a href="#feed" data-tab="feed" class="active" aria-current="page">Feed</a>
+          <a href="#best-picks" data-tab="best-picks">Best picks</a>
+          <a href="#leaderboards" data-tab="leaderboards">Leaderboards</a>
+          <a href="#compare" data-tab="compare">Compare</a>
         </nav>
         <span class="freshness" id="freshness" title="Last data refresh">
           <span class="fresh-dot" aria-hidden="true"></span>
@@ -83,7 +83,7 @@
       <div id="featured-list" class="featured-list"></div>
     </section>
 
-    <section class="controls" aria-label="Filters">
+    <section class="controls" id="feed-controls" aria-label="Filters">
       <div class="search-wrap">
         <input id="search" type="search" placeholder="Search titles, sources, summaries…" autocomplete="off" />
       </div>
@@ -95,7 +95,7 @@
       </div>
     </section>
 
-    <section class="meta-bar">
+    <section class="meta-bar" id="feed-meta">
       <p id="status">Loading…</p>
       <p id="updated" class="muted"></p>
     </section>

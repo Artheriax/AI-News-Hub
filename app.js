@@ -17,6 +17,9 @@ const state = {
   pickLicense: "closed",
   compare: [],
   modelsIndex: [],
+  tab: "feed",
+  pagerVisible: false,
+  feedEmptyHidden: true,
   health: null,
   seenTs: null,
   category: "all",
@@ -53,6 +56,8 @@ const els = {
   compareHead: document.getElementById("compare-head"),
   compareBody: document.getElementById("compare-body"),
   popularCompare: document.getElementById("popular-compare"),
+  feedControls: document.getElementById("feed-controls"),
+  feedMeta: document.getElementById("feed-meta"),
   themeToggle: document.getElementById("theme-toggle"),
   freshness: document.getElementById("freshness"),
   freshnessText: document.getElementById("freshness-text"),
@@ -110,6 +115,45 @@ function matches(item) {
   return true;
 }
 
+const TABS = ["feed", "best-picks", "leaderboards", "compare"];
+
+function tabFromHash() {
+  const hash = location.hash || "";
+  if (hash.startsWith("#compare")) return "compare";
+  if (hash.startsWith("#best-picks")) return "best-picks";
+  if (hash.startsWith("#leaderboards")) return "leaderboards";
+  return "feed";
+}
+
+function syncTabVisibility() {
+  const t = state.tab;
+  const feed = t === "feed";
+  if (els.feedControls) els.feedControls.hidden = !feed;
+  if (els.feedMeta) els.feedMeta.hidden = !feed;
+  els.timeline.hidden = !feed;
+  els.pagination.hidden = !feed || !state.pagerVisible;
+  els.empty.hidden = !feed || state.feedEmptyHidden;
+  els.featured.hidden = !feed || !state.featured.length;
+  if (els.bestPicks) els.bestPicks.hidden = t !== "best-picks" || !els.bestPicks.dataset.ready;
+  if (els.leaderboards) els.leaderboards.hidden = t !== "leaderboards" || !els.leaderboards.dataset.ready;
+  if (els.compare) els.compare.hidden = t !== "compare" || !els.compare.dataset.ready;
+  document.querySelectorAll(".site-nav a[data-tab]").forEach((a) => {
+    const active = a.dataset.tab === t;
+    a.classList.toggle("active", active);
+    if (active) a.setAttribute("aria-current", "page");
+    else a.removeAttribute("aria-current");
+  });
+}
+
+function showTab(tab, options) {
+  if (!TABS.includes(tab)) tab = "feed";
+  state.tab = tab;
+  syncTabVisibility();
+  if (!options || options.scroll !== false) {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+}
+
 function renderCategories(items) {
   const counts = { all: items.length };
   for (const item of items) {
@@ -147,8 +191,10 @@ function renderSources(items) {
 }
 
 function renderFeatured() {
-  if (!state.featured.length) return;
-  els.featured.hidden = false;
+  if (!state.featured.length) {
+    syncTabVisibility();
+    return;
+  }
   els.featuredList.innerHTML = state.featured
     .map(
       (link) => `
@@ -158,6 +204,7 @@ function renderFeatured() {
       </a>`,
     )
     .join("");
+  syncTabVisibility();
 }
 
 function formatScore(value) {
@@ -167,7 +214,7 @@ function formatScore(value) {
 
 function renderLeaderboards() {
   if (!state.leaderboards.length) return;
-  els.leaderboards.hidden = false;
+  els.leaderboards.dataset.ready = "1";
   els.lbGrid.innerHTML = state.leaderboards
     .map((lb) => {
       const variant = lb.variant
@@ -214,6 +261,7 @@ function renderLeaderboards() {
         </article>`;
     })
     .join("");
+  syncTabVisibility();
 }
 
 function normalizeModelName(name) {
@@ -296,7 +344,7 @@ function renderBestPicks() {
   if (!els.picksGrid) return;
   const picks = state.bestPicks;
   if (!picks || !Array.isArray(picks.tasks) || !picks.tasks.length) return;
-  els.bestPicks.hidden = false;
+  els.bestPicks.dataset.ready = "1";
   document.querySelectorAll(".seg-btn[data-license]").forEach((btn) => {
     const active = btn.dataset.license === state.pickLicense;
     btn.setAttribute("aria-pressed", active ? "true" : "false");
@@ -352,6 +400,7 @@ function renderBestPicks() {
       ? `Picks snapshot: ${formatDate(picks.updated_at)} · benchmark scores cite AI Release Tracker`
       : "";
   }
+  syncTabVisibility();
 }
 
 function compareEntryFor(modelName, boardId) {
@@ -399,7 +448,7 @@ function writeCompareToHash() {
 
 function renderCompare() {
   if (!els.compareSlots || !els.compareBody) return;
-  els.compare.hidden = false;
+  els.compare.dataset.ready = "1";
   if (!state.compare.length) {
     state.compare = defaultCompareSelection();
     if (readCompareFromHash()) state.compare = readCompareFromHash();
@@ -483,6 +532,7 @@ function renderCompare() {
       : "Add a model to start comparing.";
   }
   renderPopularCompare();
+  syncTabVisibility();
 }
 
 function renderPopularCompare() {
@@ -527,10 +577,12 @@ function renderTimeline() {
   els.status.textContent = visible.length
     ? `Showing ${rangeFrom}–${rangeTo} of ${visible.length} items`
     : `Showing 0 of ${state.items.length} items`;
-  els.empty.hidden = visible.length > 0;
+  state.feedEmptyHidden = visible.length > 0;
+  els.empty.hidden = state.tab !== "feed" || state.feedEmptyHidden;
 
   const showPager = visible.length > PAGE_SIZE;
-  els.pagination.hidden = !showPager;
+  state.pagerVisible = showPager;
+  els.pagination.hidden = !showPager || state.tab !== "feed";
   if (showPager) {
     els.pageLabel.textContent = `Page ${state.page} of ${totalPages}`;
     els.prevPage.disabled = state.page <= 1;
@@ -820,6 +872,7 @@ async function load() {
     renderAll();
     observeReveals();
     renderHealth(state.health);
+    showTab(tabFromHash(), { scroll: false });
     localStorage.setItem("seen_ts", String(Date.now()));
   } catch (error) {
     els.status.textContent = `Failed to load data: ${error.message}`;
@@ -902,7 +955,7 @@ function bindEvents() {
       }
       renderCompare();
       writeCompareToHash();
-      if (els.compare) els.compare.scrollIntoView({ behavior: "smooth", block: "start" });
+      showTab("compare");
     });
   }
 
@@ -973,11 +1026,19 @@ function bindEvents() {
   }
 
   window.addEventListener("hashchange", () => {
+    const tab = tabFromHash();
+    if (tab !== state.tab) showTab(tab, { scroll: false });
     const fromHash = readCompareFromHash();
     if (fromHash) {
       state.compare = fromHash;
       renderCompare();
     }
+  });
+
+  document.querySelectorAll(".site-nav a[data-tab]").forEach((a) => {
+    a.addEventListener("click", () => {
+      showTab(a.dataset.tab, { scroll: true });
+    });
   });
 }
 

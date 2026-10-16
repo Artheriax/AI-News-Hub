@@ -236,6 +236,14 @@ html[data-theme="light"] .brand-accent {
   transform: scaleX(1);
 }
 
+.site-nav a.active {
+  color: var(--text);
+}
+
+.site-nav a.active::after {
+  transform: scaleX(1);
+}
+
 .freshness {
   display: inline-flex;
   align-items: center;
