@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T18:39:34.455878+00:00",
+  "generated_at": "2026-10-17T21:09:41.919547+00:00",
   "items": [
     {
       "id": "yt:hZPs633_58Q",
@@ -50,6 +50,19 @@
       "channel": "Fireship"
     },
     {
+      "id": "paper:2610.21439",
+      "title": "Each Reward to Its Relevant Tokens: Reward-Specific Token-Level Credit Assignment for Multi-Reward RL",
+      "url": "https://huggingface.co/papers/2610.21439",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-15T07:47:04+00:00",
+      "summary": "Language models are increasingly trained against several verifiable rewards at once, such as the correctness and the format of a tool call, or the individual constraints of a complex instruction. Reward-decoupled normalization (GDPO) normalizes each reward separately so that different reward combinations keep distinct advantages, but it still spreads every reward's advantage evenly over the whole ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 55,
+      "arxiv_id": "2610.21439"
+    },
+    {
       "id": "yt:bk1xyTwzsY8",
       "title": "FABLE 5.5 THIS WEEK? OpenAI Employee ARRESTED?! HUGE Claude Code Update, & Anthropic IPO! AI NEWS",
       "url": "https://www.youtube.com/watch?v=bk1xyTwzsY8",
@@ -71,7 +84,7 @@
       "summary": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 663,
+      "upvotes": 664,
       "arxiv_id": "2610.21601"
     },
     {
@@ -110,7 +123,7 @@
       "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios ac",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 281,
+      "upvotes": 283,
       "arxiv_id": "2610.22350"
     },
     {
@@ -123,7 +136,7 @@
       "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively. We introduce SAE Additivity Residuals (SAR), which measure the behavioral variation left unexplained above a chosen interaction order. Under independent feature subset sampling, population SAR is exactly the normalized energy of in",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 104,
+      "upvotes": 105,
       "arxiv_id": "2610.21261"
     },
     {
@@ -149,7 +162,7 @@
       "summary": "Reinforcement learning (RL) enables language models to improve text-to-image (T2I) generation by rewriting prompts for a frozen image generator. Existing methods typically apply a single signal derived from the image to individual subword tokens, although objects, counts, attributes, and relations form coherent semantic spans. We propose SCOPE, an objective based on Group Relative Policy Optimizat",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 78,
+      "upvotes": 79,
       "arxiv_id": "2610.22264"
     },
     {
@@ -162,7 +175,7 @@
       "summary": "Few-step autoregressive video generators enable streaming generation, yet they run every token through the final denoising step, regardless of how much refinement it needs. We find this uniform computation is often unnecessary: many tokens already closely match their eventual full-step outputs in the initial steps, while others require refinement until the end. We introduce Speculative Forcing, a ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 76,
+      "upvotes": 77,
       "arxiv_id": "2610.22347"
     },
     {
@@ -177,19 +190,6 @@
       "kind": "paper",
       "upvotes": 54,
       "arxiv_id": "2610.21306"
-    },
-    {
-      "id": "paper:2610.22174",
-      "title": "Mosaic: Multi-Session Agentic Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2610.22174",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-15T00:00:00+00:00",
-      "summary": "Most existing agentic reinforcement learning methods assume single-session trajectories, where interaction proceeds within one continuously accumulated context. However, agentic techniques such as context compaction and subagent forking may produce trajectories spanning multiple sessions, creating a mismatch between the single-session training assumption and inference-time execution. Therefore, we",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 52,
-      "arxiv_id": "2610.22174"
     },
     {
       "id": "yt:QZVzuq28eFw",
@@ -213,7 +213,7 @@
       "summary": "Can vision-language models turn 2D observations into 3D understanding that supports precise action? This requires inferring object geometry, anticipating the effects of rotation, and refining actions through visual feedback. We introduce RoTA-Bench to evaluate these abilities through interactive 3D-to-2D projection alignment. Given a target silhouette, a model observes a rotated object and chooses",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 200,
+      "upvotes": 201,
       "arxiv_id": "2610.17665"
     },
     {
@@ -239,7 +239,7 @@
       "summary": "Feed-forward Gaussian reconstruction builds 3D scenes directly from input images for novel view rendering, but learning Gaussian attributes from predicted geometry for high-quality rendering under large viewpoint changes remains challenging. We analyze limitations in Gaussian attribute learning and introduce InfiniSplat v2, which improves rendering quality through architectural and training change",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 117,
+      "upvotes": 118,
       "arxiv_id": "2610.20341"
     },
     {
@@ -301,7 +301,7 @@
       "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 196,
+      "upvotes": 197,
       "arxiv_id": "2610.18813"
     },
     {
@@ -903,18 +903,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/MImgH4KMtj8/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "yt:LoLYw--s-5w",
-      "title": "Did Google just kickstart the intelligence explosion?",
-      "url": "https://www.youtube.com/watch?v=LoLYw--s-5w",
-      "source": "Fireship",
-      "category": "videos",
-      "published": "2026-09-17T20:33:55+00:00",
-      "summary": "Run GitHub Actions 2x faster and build with Codesmith at https://www.blacksmith.sh/ Google DeepMind just published Dream-RSI, a technique that turns an AI's old discovery logs into a simulator so it can test thousands of exploration strategies. But is this actually RSI or just a search algorithm wit",
-      "thumbnail": "https://i1.ytimg.com/vi/LoLYw--s-5w/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Fireship"
     }
   ],
   "featured": [
@@ -933,7 +921,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T18:39:34.328188+00:00",
+      "fetched_at": "2026-10-17T21:09:41.853506+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1015,7 +1003,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T18:39:34.330893+00:00",
+      "fetched_at": "2026-10-17T21:09:41.854825+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1097,7 +1085,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T18:39:34.333590+00:00",
+      "fetched_at": "2026-10-17T21:09:41.856107+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1179,7 +1167,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T18:39:34.334564+00:00",
+      "fetched_at": "2026-10-17T21:09:41.856576+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1233,7 +1221,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T18:39:34.339008+00:00",
+      "fetched_at": "2026-10-17T21:09:41.858866+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1315,7 +1303,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T18:39:34.339022+00:00",
+      "fetched_at": "2026-10-17T21:09:41.858875+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1369,7 +1357,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T18:39:34.340980+00:00",
+      "fetched_at": "2026-10-17T21:09:41.859836+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1451,7 +1439,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-17T18:39:34.376707+00:00",
+      "fetched_at": "2026-10-17T21:09:41.878068+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1533,7 +1521,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-17T18:39:34.413877+00:00",
+      "fetched_at": "2026-10-17T21:09:41.897263+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1615,7 +1603,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T18:39:34.425481+00:00",
+      "fetched_at": "2026-10-17T21:09:41.903250+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1697,7 +1685,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T18:39:34.429812+00:00",
+      "fetched_at": "2026-10-17T21:09:41.905402+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1779,7 +1767,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T18:39:34.441452+00:00",
+      "fetched_at": "2026-10-17T21:09:41.911176+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1861,7 +1849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T18:39:34.444061+00:00",
+      "fetched_at": "2026-10-17T21:09:41.912466+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2147,55 +2135,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T18:39:18.433171+00:00"
+        "checked_at": "2026-10-17T21:09:20.380686+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T18:39:17.406213+00:00"
+        "checked_at": "2026-10-17T21:09:19.348859+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T18:39:21.684092+00:00"
+        "checked_at": "2026-10-17T21:09:23.694522+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T18:39:19.451232+00:00"
+        "checked_at": "2026-10-17T21:09:21.550073+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T18:39:23.890572+00:00"
+        "checked_at": "2026-10-17T21:09:26.096903+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T18:39:20.481359+00:00"
+        "checked_at": "2026-10-17T21:09:22.573787+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T18:39:22.719052+00:00"
+        "checked_at": "2026-10-17T21:09:24.850134+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-17T18:39:34.445119+00:00"
+      "checked_at": "2026-10-17T21:09:41.913347+00:00"
     }
   }
 }
