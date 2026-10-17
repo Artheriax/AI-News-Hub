@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T12:37:24.570308+00:00",
+  "generated_at": "2026-10-17T16:02:43.639343+00:00",
   "items": [
     {
       "id": "yt:hZPs633_58Q",
@@ -71,7 +71,7 @@
       "summary": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 662,
+      "upvotes": 663,
       "arxiv_id": "2610.21601"
     },
     {
@@ -84,7 +84,7 @@
       "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 349,
+      "upvotes": 351,
       "arxiv_id": "2610.22276"
     },
     {
@@ -149,7 +149,7 @@
       "summary": "Reinforcement learning (RL) enables language models to improve text-to-image (T2I) generation by rewriting prompts for a frozen image generator. Existing methods typically apply a single signal derived from the image to individual subword tokens, although objects, counts, attributes, and relations form coherent semantic spans. We propose SCOPE, an objective based on Group Relative Policy Optimizat",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 77,
+      "upvotes": 78,
       "arxiv_id": "2610.22264"
     },
     {
@@ -204,6 +204,19 @@
       "arxiv_id": "2610.17665"
     },
     {
+      "id": "paper:2610.20939",
+      "title": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
+      "url": "https://huggingface.co/papers/2610.20939",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-14T00:00:00+00:00",
+      "summary": "Online reinforcement learning (RL) with verifiable rewards has driven rapid progress in mathematics, coding, and tool use, but scaling this success to GUI agents remains challenging due to the high cost of interactive environments and the scarcity of realistic training tasks. We introduce MAI-Gym, an open all-in-one platform that unifies GUI agent evaluation, data collection, and online RL trainin",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 152,
+      "arxiv_id": "2610.20939"
+    },
+    {
       "id": "paper:2610.20341",
       "title": "InfiniSplat v2: Analyzing and Improving Feed-Forward 3DGS from Any Views",
       "url": "https://huggingface.co/papers/2610.20341",
@@ -215,19 +228,6 @@
       "kind": "paper",
       "upvotes": 117,
       "arxiv_id": "2610.20341"
-    },
-    {
-      "id": "paper:2610.20939",
-      "title": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
-      "url": "https://huggingface.co/papers/2610.20939",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-14T00:00:00+00:00",
-      "summary": "Online reinforcement learning (RL) with verifiable rewards has driven rapid progress in mathematics, coding, and tool use, but scaling this success to GUI agents remains challenging due to the high cost of interactive environments and the scarcity of realistic training tasks. We introduce MAI-Gym, an open all-in-one platform that unifies GUI agent evaluation, data collection, and online RL trainin",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 96,
-      "arxiv_id": "2610.20939"
     },
     {
       "id": "paper:2610.20603",
@@ -288,7 +288,7 @@
       "summary": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important. Existing video understanding benchmarks cover only part of the evaluation dimensions, limiting systematic diagnosis of omni-modal video understanding. We introduce OmniCompass, a holistic benchmark for omni-modal video grounding and understand",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 574,
+      "upvotes": 575,
       "arxiv_id": "2610.18829"
     },
     {
@@ -301,7 +301,7 @@
       "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 194,
+      "upvotes": 196,
       "arxiv_id": "2610.18813"
     },
     {
@@ -933,7 +933,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T12:37:24.462550+00:00",
+      "fetched_at": "2026-10-17T16:02:43.511919+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1015,7 +1015,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T12:37:24.464878+00:00",
+      "fetched_at": "2026-10-17T16:02:43.514574+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1097,7 +1097,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T12:37:24.467172+00:00",
+      "fetched_at": "2026-10-17T16:02:43.517200+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1179,7 +1179,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T12:37:24.468008+00:00",
+      "fetched_at": "2026-10-17T16:02:43.518155+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1233,7 +1233,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T12:37:24.471844+00:00",
+      "fetched_at": "2026-10-17T16:02:43.522492+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1315,7 +1315,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T12:37:24.471860+00:00",
+      "fetched_at": "2026-10-17T16:02:43.522506+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1369,7 +1369,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T12:37:24.473524+00:00",
+      "fetched_at": "2026-10-17T16:02:43.524415+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1451,7 +1451,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-17T12:37:24.503498+00:00",
+      "fetched_at": "2026-10-17T16:02:43.560197+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1533,7 +1533,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-17T12:37:24.534755+00:00",
+      "fetched_at": "2026-10-17T16:02:43.597390+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1615,7 +1615,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T12:37:24.544373+00:00",
+      "fetched_at": "2026-10-17T16:02:43.608639+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1697,7 +1697,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T12:37:24.547965+00:00",
+      "fetched_at": "2026-10-17T16:02:43.612807+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1779,7 +1779,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T12:37:24.557939+00:00",
+      "fetched_at": "2026-10-17T16:02:43.624880+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1861,7 +1861,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T12:37:24.560127+00:00",
+      "fetched_at": "2026-10-17T16:02:43.627568+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2147,55 +2147,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T12:37:08.093546+00:00"
+        "checked_at": "2026-10-17T16:02:27.922582+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T12:37:07.069065+00:00"
+        "checked_at": "2026-10-17T16:02:26.896079+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T12:37:11.667376+00:00"
+        "checked_at": "2026-10-17T16:02:31.136100+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T12:37:09.344472+00:00"
+        "checked_at": "2026-10-17T16:02:28.939622+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T12:37:14.144899+00:00"
+        "checked_at": "2026-10-17T16:02:33.713834+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T12:37:10.479000+00:00"
+        "checked_at": "2026-10-17T16:02:29.961321+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T12:37:12.925780+00:00"
+        "checked_at": "2026-10-17T16:02:32.465163+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-17T12:37:24.560887+00:00"
+      "checked_at": "2026-10-17T16:02:43.628664+00:00"
     }
   }
 }
