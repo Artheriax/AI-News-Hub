@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-10-17T04:45:23.412027+00:00",
+  "generated_at": "2026-10-17T08:56:22.096603+00:00",
   "items": [
+    {
+      "id": "yt:hZPs633_58Q",
+      "title": "Claude Fable 5.5 Is BABY AGI?! NEW EAP LEAKS, GLM 5.5, GPT-6 Astra Pro Upgrade & More! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=hZPs633_58Q",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-10-17T06:15:17+00:00",
+      "summary": "🚨 Everything you’re about to see, I benchmarked using the tool I made. If you want to run these tests yourself or test models on whatever you actually use them for! → https://www.woaibench.ai/ Claude Fable 5.5 could be our first glimpse of BABY AGI?! Anthropic's mysterious next-generation AI model i",
+      "thumbnail": "https://i1.ytimg.com/vi/hZPs633_58Q/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
     {
       "id": "yt:5F4wdtNbMt4",
       "title": "RTX 5090 + Strata – Can Local AI REALLY Beat Opus 4.6?",
@@ -59,7 +71,7 @@
       "summary": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 656,
+      "upvotes": 660,
       "arxiv_id": "2610.21601"
     },
     {
@@ -72,7 +84,7 @@
       "summary": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tasks on users' computers through visual and programmatic interfaces. We define a generalist computer-use agent (GCUA) as a system in which the model chooses how to observe, act, and organize its work across visual and programmatic interfaces. Yet frontier implementations, such as GP",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 283,
+      "upvotes": 315,
       "arxiv_id": "2610.22200"
     },
     {
@@ -85,7 +97,7 @@
       "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios ac",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 276,
+      "upvotes": 281,
       "arxiv_id": "2610.22350"
     },
     {
@@ -98,8 +110,21 @@
       "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 146,
+      "upvotes": 279,
       "arxiv_id": "2610.22276"
+    },
+    {
+      "id": "paper:2610.21261",
+      "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
+      "url": "https://huggingface.co/papers/2610.21261",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-15T00:00:00+00:00",
+      "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively. We introduce SAE Additivity Residuals (SAR), which measure the behavioral variation left unexplained above a chosen interaction order. Under independent feature subset sampling, population SAR is exactly the normalized energy of in",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 104,
+      "arxiv_id": "2610.21261"
     },
     {
       "id": "paper:2610.22341",
@@ -111,7 +136,7 @@
       "summary": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding. First, we construct 3DCodeVerse-2M, a large-scale curated dataset of standalone 3D exe",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 100,
+      "upvotes": 102,
       "arxiv_id": "2610.22341"
     },
     {
@@ -137,21 +162,8 @@
       "summary": "Few-step autoregressive video generators enable streaming generation, yet they run every token through the final denoising step, regardless of how much refinement it needs. We find this uniform computation is often unnecessary: many tokens already closely match their eventual full-step outputs in the initial steps, while others require refinement until the end. We introduce Speculative Forcing, a ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 73,
+      "upvotes": 76,
       "arxiv_id": "2610.22347"
-    },
-    {
-      "id": "paper:2610.21261",
-      "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
-      "url": "https://huggingface.co/papers/2610.21261",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-15T00:00:00+00:00",
-      "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively. We introduce SAE Additivity Residuals (SAR), which measure the behavioral variation left unexplained above a chosen interaction order. Under independent feature subset sampling, population SAR is exactly the normalized energy of in",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 65,
-      "arxiv_id": "2610.21261"
     },
     {
       "id": "paper:2610.21306",
@@ -165,6 +177,19 @@
       "kind": "paper",
       "upvotes": 54,
       "arxiv_id": "2610.21306"
+    },
+    {
+      "id": "paper:2610.22174",
+      "title": "Mosaic: Multi-Session Agentic Reinforcement Learning",
+      "url": "https://huggingface.co/papers/2610.22174",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-15T00:00:00+00:00",
+      "summary": "Most existing agentic reinforcement learning methods assume single-session trajectories, where interaction proceeds within one continuously accumulated context. However, agentic techniques such as context compaction and subagent forking may produce trajectories spanning multiple sessions, creating a mismatch between the single-session training assumption and inference-time execution. Therefore, we",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 51,
+      "arxiv_id": "2610.22174"
     },
     {
       "id": "yt:QZVzuq28eFw",
@@ -188,7 +213,7 @@
       "summary": "Can vision-language models turn 2D observations into 3D understanding that supports precise action? This requires inferring object geometry, anticipating the effects of rotation, and refining actions through visual feedback. We introduce RoTA-Bench to evaluate these abilities through interactive 3D-to-2D projection alignment. Given a target silhouette, a model observes a rotated object and chooses",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 198,
+      "upvotes": 200,
       "arxiv_id": "2610.17665"
     },
     {
@@ -201,7 +226,7 @@
       "summary": "Feed-forward Gaussian reconstruction builds 3D scenes directly from input images for novel view rendering, but learning Gaussian attributes from predicted geometry for high-quality rendering under large viewpoint changes remains challenging. We analyze limitations in Gaussian attribute learning and introduce InfiniSplat v2, which improves rendering quality through architectural and training change",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 115,
+      "upvotes": 117,
       "arxiv_id": "2610.20341"
     },
     {
@@ -214,21 +239,8 @@
       "summary": "Online reinforcement learning (RL) with verifiable rewards has driven rapid progress in mathematics, coding, and tool use, but scaling this success to GUI agents remains challenging due to the high cost of interactive environments and the scarcity of realistic training tasks. We introduce MAI-Gym, an open all-in-one platform that unifies GUI agent evaluation, data collection, and online RL trainin",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 95,
+      "upvotes": 96,
       "arxiv_id": "2610.20939"
-    },
-    {
-      "id": "paper:2610.20603",
-      "title": "CommerceGen-Studio: An End-to-End Framework for Commercial-Grade Main-Image Generation",
-      "url": "https://huggingface.co/papers/2610.20603",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-14T00:00:00+00:00",
-      "summary": "We present CommerceGen-Studio, an end-to-end framework for generating commercial-grade main images for e-commerce Stock Keeping Units (SKUs). Our framework is organized along a three-stage pipeline of information extraction, semantic rewriting, and multi-condition generation: Prompt-Eval-Refine-Loop Agent (PERL-Agent) distills heterogeneous SKU metadata into concise selling-point text lists throug",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 51,
-      "arxiv_id": "2610.20603"
     },
     {
       "id": "yt:mfsUVN8ykLA",
@@ -276,7 +288,7 @@
       "summary": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important. Existing video understanding benchmarks cover only part of the evaluation dimensions, limiting systematic diagnosis of omni-modal video understanding. We introduce OmniCompass, a holistic benchmark for omni-modal video grounding and understand",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 569,
+      "upvotes": 573,
       "arxiv_id": "2610.18829"
     },
     {
@@ -289,7 +301,7 @@
       "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 191,
+      "upvotes": 194,
       "arxiv_id": "2610.18813"
     },
     {
@@ -653,18 +665,6 @@
       "channel": "Fireship"
     },
     {
-      "id": "yt:uJNP_FdlR3I",
-      "title": "GPT-6.1 Sol IS INSANE! + OpenAI's DevDay: Dots, Pro 500, Ultrafast, Codex & More! AI NEWS",
-      "url": "https://www.youtube.com/watch?v=uJNP_FdlR3I",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-09-30T06:51:18+00:00",
-      "summary": "Turn your Halloween doodles into real merch 👻 Start for free: https://try.printify.com/bu8fpbdhjwz8 GPT-6.1 Sol is here, and OpenAI absolutely cooked. 🔥 Just one week after GPT-6 Sol, OpenAI has launched GPT-6.1 Sol with near-Astra intelligence at a fraction of the cost. In this video, we break down",
-      "thumbnail": "https://i2.ytimg.com/vi/uJNP_FdlR3I/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:WxuGIqpkfdc",
       "title": "GPT-6.1 Sol Is HERE – Can THIS Beat Claude Opus 5.5?",
       "url": "https://www.youtube.com/watch?v=WxuGIqpkfdc",
@@ -933,7 +933,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T04:45:23.283139+00:00",
+      "fetched_at": "2026-10-17T08:56:22.017346+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1015,7 +1015,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T04:45:23.285760+00:00",
+      "fetched_at": "2026-10-17T08:56:22.018575+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1097,7 +1097,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T04:45:23.288333+00:00",
+      "fetched_at": "2026-10-17T08:56:22.019775+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1179,7 +1179,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T04:45:23.289293+00:00",
+      "fetched_at": "2026-10-17T08:56:22.020215+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1233,7 +1233,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T04:45:23.293633+00:00",
+      "fetched_at": "2026-10-17T08:56:22.022410+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1315,7 +1315,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T04:45:23.293647+00:00",
+      "fetched_at": "2026-10-17T08:56:22.022419+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1369,7 +1369,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T04:45:23.295542+00:00",
+      "fetched_at": "2026-10-17T08:56:22.023312+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1451,7 +1451,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-17T04:45:23.331445+00:00",
+      "fetched_at": "2026-10-17T08:56:22.041101+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1533,7 +1533,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-17T04:45:23.369590+00:00",
+      "fetched_at": "2026-10-17T08:56:22.065790+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1615,7 +1615,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T04:45:23.381214+00:00",
+      "fetched_at": "2026-10-17T08:56:22.072445+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1697,7 +1697,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T04:45:23.385571+00:00",
+      "fetched_at": "2026-10-17T08:56:22.074372+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1779,7 +1779,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T04:45:23.397552+00:00",
+      "fetched_at": "2026-10-17T08:56:22.081403+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1861,7 +1861,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T04:45:23.400174+00:00",
+      "fetched_at": "2026-10-17T08:56:22.084257+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2144,58 +2144,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 3,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-10-17T04:45:07.203032+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-17T08:56:05.545813+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 8,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-10-17T04:45:06.170140+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-17T08:56:04.520881+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-10-17T04:45:10.295890+00:00"
+        "error": null,
+        "checked_at": "2026-10-17T08:56:08.602634+00:00"
       },
       {
         "name": "Fireship",
-        "ok": false,
-        "items": 12,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-10-17T04:45:08.235335+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-17T08:56:06.563344+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T04:45:12.527605+00:00"
+        "checked_at": "2026-10-17T08:56:10.814835+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": false,
-        "items": 7,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-10-17T04:45:09.267128+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-17T08:56:07.582461+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-10-17T04:45:11.395604+00:00"
+        "error": null,
+        "checked_at": "2026-10-17T08:56:09.635336+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-17T04:45:23.401314+00:00"
+      "checked_at": "2026-10-17T08:56:22.086548+00:00"
     }
   }
 }
