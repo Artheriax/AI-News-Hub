@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T23:15:10.397758+00:00",
+  "generated_at": "2026-10-18T01:17:44.049200+00:00",
   "items": [
     {
       "id": "yt:hZPs633_58Q",
@@ -59,7 +59,7 @@
       "summary": "Language models are increasingly trained against several verifiable rewards at once, such as the correctness and the format of a tool call, or the individual constraints of a complex instruction. Reward-decoupled normalization (GDPO) normalizes each reward separately so that different reward combinations keep distinct advantages, but it still spreads every reward's advantage evenly over the whole ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 55,
+      "upvotes": 54,
       "arxiv_id": "2610.21439"
     },
     {
@@ -149,7 +149,7 @@
       "summary": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding. First, we construct 3DCodeVerse-2M, a large-scale curated dataset of standalone 3D exe",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 104,
+      "upvotes": 105,
       "arxiv_id": "2610.22341"
     },
     {
@@ -301,7 +301,7 @@
       "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 197,
+      "upvotes": 198,
       "arxiv_id": "2610.18813"
     },
     {
@@ -921,7 +921,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T23:15:10.321812+00:00",
+      "fetched_at": "2026-10-18T01:17:43.961322+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1003,7 +1003,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T23:15:10.323465+00:00",
+      "fetched_at": "2026-10-18T01:17:43.963238+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1085,7 +1085,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T23:15:10.325209+00:00",
+      "fetched_at": "2026-10-18T01:17:43.965084+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1167,7 +1167,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T23:15:10.325902+00:00",
+      "fetched_at": "2026-10-18T01:17:43.965784+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1221,7 +1221,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T23:15:10.328639+00:00",
+      "fetched_at": "2026-10-18T01:17:43.969035+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1303,7 +1303,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T23:15:10.328655+00:00",
+      "fetched_at": "2026-10-18T01:17:43.969047+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1357,7 +1357,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T23:15:10.329790+00:00",
+      "fetched_at": "2026-10-18T01:17:43.970408+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1439,7 +1439,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-17T23:15:10.351023+00:00",
+      "fetched_at": "2026-10-18T01:17:43.994188+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1521,7 +1521,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-17T23:15:10.373400+00:00",
+      "fetched_at": "2026-10-18T01:17:44.018887+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1603,7 +1603,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T23:15:10.380204+00:00",
+      "fetched_at": "2026-10-18T01:17:44.027094+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1685,7 +1685,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T23:15:10.382734+00:00",
+      "fetched_at": "2026-10-18T01:17:44.030171+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1767,7 +1767,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T23:15:10.389397+00:00",
+      "fetched_at": "2026-10-18T01:17:44.038741+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1849,7 +1849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-17T23:15:10.390996+00:00",
+      "fetched_at": "2026-10-18T01:17:44.040655+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2135,55 +2135,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T23:14:52.073984+00:00"
+        "checked_at": "2026-10-18T01:17:27.800473+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T23:14:51.033562+00:00"
+        "checked_at": "2026-10-18T01:17:26.658577+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T23:14:55.300660+00:00"
+        "checked_at": "2026-10-18T01:17:31.280666+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T23:14:53.101327+00:00"
+        "checked_at": "2026-10-18T01:17:28.930147+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T23:14:58.051738+00:00"
+        "checked_at": "2026-10-18T01:17:33.484896+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T23:14:54.130464+00:00"
+        "checked_at": "2026-10-18T01:17:30.074020+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-17T23:14:56.484152+00:00"
+        "checked_at": "2026-10-18T01:17:32.308957+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-17T23:15:10.391714+00:00"
+      "checked_at": "2026-10-18T01:17:44.041586+00:00"
     }
   }
 }
