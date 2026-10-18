@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-10-18T14:44:19.674765+00:00",
+  "generated_at": "2026-10-18T17:40:44.760020+00:00",
   "items": [
+    {
+      "id": "yt:dk1OY5z08_Y",
+      "title": "The New DeepSeek V4.1 Flash Is INSANE – The BEST Open Model Yet?",
+      "url": "https://www.youtube.com/watch?v=dk1OY5z08_Y",
+      "source": "Bijan Bowen",
+      "category": "videos",
+      "published": "2026-10-18T15:07:16+00:00",
+      "summary": "Timestamps: 00:00 - Intro 00:55 - First Look 01:54 - Technical Look 03:42 - Model Slug Incident 04:46 - Browser OS Test 10:56 - Corvette Website Test 15:28 - C++ Skate Game Test 18:35 - Robot Arm Test 19:05 - Blender & Godot Skate Test 20:50 - Subway FPS Test 24:49 - Pool Party Test 28:55 - Cost Bre",
+      "thumbnail": "https://i1.ytimg.com/vi/dk1OY5z08_Y/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Bijan Bowen"
+    },
     {
       "id": "yt:eItSZ33FVnA",
       "title": "DeepSeek V4.1 Flash 1017 Is INSANE! Best Open Model EVER?! (Fully Tested)",
@@ -151,6 +163,19 @@
       "arxiv_id": "2610.22350"
     },
     {
+      "id": "paper:2610.22341",
+      "title": "3DCodeVerse: Exploring 3D Worlds as Code",
+      "url": "https://huggingface.co/papers/2610.22341",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-15T00:00:00+00:00",
+      "summary": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding. First, we construct 3DCodeVerse-2M, a large-scale curated dataset of standalone 3D exe",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 107,
+      "arxiv_id": "2610.22341"
+    },
+    {
       "id": "paper:2610.21261",
       "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
       "url": "https://huggingface.co/papers/2610.21261",
@@ -162,19 +187,6 @@
       "kind": "paper",
       "upvotes": 106,
       "arxiv_id": "2610.21261"
-    },
-    {
-      "id": "paper:2610.22341",
-      "title": "3DCodeVerse: Exploring 3D Worlds as Code",
-      "url": "https://huggingface.co/papers/2610.22341",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-15T00:00:00+00:00",
-      "summary": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding. First, we construct 3DCodeVerse-2M, a large-scale curated dataset of standalone 3D exe",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 106,
-      "arxiv_id": "2610.22341"
     },
     {
       "id": "paper:2610.22264",
@@ -312,7 +324,7 @@
       "summary": "With the rapid development of multimodal large language models (MLLMs), evaluating their video understanding capabilities has become increasingly important. Existing video understanding benchmarks cover only part of the evaluation dimensions, limiting systematic diagnosis of omni-modal video understanding. We introduce OmniCompass, a holistic benchmark for omni-modal video grounding and understand",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 577,
+      "upvotes": 578,
       "arxiv_id": "2610.18829"
     },
     {
@@ -325,7 +337,7 @@
       "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 200,
+      "upvotes": 201,
       "arxiv_id": "2610.18813"
     },
     {
@@ -821,18 +833,6 @@
       "channel": "AI Search"
     },
     {
-      "id": "yt:LrUCo_7jor4",
-      "title": "GPT-6 Sol Is VERY GOOD – Is THIS an Opus 5.5 Competitor?",
-      "url": "https://www.youtube.com/watch?v=LrUCo_7jor4",
-      "source": "Bijan Bowen",
-      "category": "videos",
-      "published": "2026-09-23T22:38:11+00:00",
-      "summary": "Timestamps: 00:00 - Intro 00:42 - First Look 02:26 - Technical Look 03:52 - Browser OS Test 08:17 - OSRS Clone Test 10:36 - Usage Checkup 10:56 - C++ Skate Game Test 13:57 - Robot Arm Test 15:14 - Subway FPS Test 19:44 - Watch Website Test 21:43 - Car Model Website Test 25:40 - Blender & Godot Wrest",
-      "thumbnail": "https://i1.ytimg.com/vi/LrUCo_7jor4/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Bijan Bowen"
-    },
-    {
       "id": "yt:ylO0DQeVEBQ",
       "title": "The most expensive 33 hours in WordPress history...",
       "url": "https://www.youtube.com/watch?v=ylO0DQeVEBQ",
@@ -909,7 +909,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T14:44:19.547854+00:00",
+      "fetched_at": "2026-10-18T17:40:44.634599+00:00",
       "entries": [
         {
           "rank": 1,
@@ -991,7 +991,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T14:44:19.550479+00:00",
+      "fetched_at": "2026-10-18T17:40:44.637253+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1073,7 +1073,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T14:44:19.553122+00:00",
+      "fetched_at": "2026-10-18T17:40:44.639876+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1155,7 +1155,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T14:44:19.554084+00:00",
+      "fetched_at": "2026-10-18T17:40:44.640817+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1209,7 +1209,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T14:44:19.558400+00:00",
+      "fetched_at": "2026-10-18T17:40:44.645105+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1291,7 +1291,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T14:44:19.558413+00:00",
+      "fetched_at": "2026-10-18T17:40:44.645119+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1345,7 +1345,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T14:44:19.560328+00:00",
+      "fetched_at": "2026-10-18T17:40:44.647035+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1427,7 +1427,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-18T14:44:19.595995+00:00",
+      "fetched_at": "2026-10-18T17:40:44.680132+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1509,7 +1509,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-18T14:44:19.633079+00:00",
+      "fetched_at": "2026-10-18T17:40:44.717484+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1591,7 +1591,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T14:44:19.644172+00:00",
+      "fetched_at": "2026-10-18T17:40:44.728856+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1673,7 +1673,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T14:44:19.648349+00:00",
+      "fetched_at": "2026-10-18T17:40:44.733076+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1755,7 +1755,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T14:44:19.660285+00:00",
+      "fetched_at": "2026-10-18T17:40:44.745288+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1775,14 +1775,14 @@
           "rank": 3,
           "name": "Qwen-Audio-3.1-TTS-Plus",
           "creator": "Qwen-Audio-3.1-TTS-Plus",
-          "score": 1295.0,
+          "score": 1296.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
           "rank": 4,
           "name": "Sonic 3.6",
           "creator": "Sonic 3.6",
-          "score": 1286.0,
+          "score": 1287.0,
           "meta": "Aug 2026 · $49.0 /1M chars"
         },
         {
@@ -1810,7 +1810,7 @@
           "rank": 8,
           "name": "Gemini 3.8 Flash-Lite TTS",
           "creator": "Gemini 3.8 Flash-Lite TTS",
-          "score": 1247.0,
+          "score": 1248.0,
           "meta": "Sept 2026 · $11.0 /1M chars"
         },
         {
@@ -1824,7 +1824,7 @@
           "rank": 10,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio Drama 3 Preview",
-          "score": 1243.0,
+          "score": 1244.0,
           "meta": "Oct 2026 · $15.0 /1M chars"
         }
       ]
@@ -1837,41 +1837,41 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T14:44:19.662959+00:00",
+      "fetched_at": "2026-10-18T17:40:44.747983+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio Drama 3 Preview",
-          "score": 1243.0,
+          "score": 1244.0,
           "meta": "Oct 2026 · $15.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Breeze TTS 2",
           "creator": "Breeze TTS 2",
-          "score": 1221.0,
+          "score": 1222.0,
           "meta": "Aug 2026 · $34.0 /1M chars"
         },
         {
           "rank": 3,
           "name": "Fish Audio S2 Pro",
           "creator": "Fish Audio S2 Pro",
-          "score": 1113.0,
+          "score": 1114.0,
           "meta": "Mar 2026 · $15.0 /1M chars"
         },
         {
           "rank": 4,
           "name": "Step Audio EditX (Mar 2026)",
           "creator": "Step Audio EditX (Mar 2026)",
-          "score": 1099.0,
+          "score": 1100.0,
           "meta": "Feb 2026 · N/A"
         },
         {
           "rank": 5,
           "name": "Voxtral TTS",
           "creator": "Voxtral TTS",
-          "score": 1088.0,
+          "score": 1089.0,
           "meta": "Mar 2026 · $16.0 /1M chars"
         },
         {
@@ -1885,7 +1885,7 @@
           "rank": 7,
           "name": "Magpie-Multilingual 357M (Feb 2026)",
           "creator": "Magpie-Multilingual 357M (Feb 2026)",
-          "score": 1063.0,
+          "score": 1064.0,
           "meta": "Feb 2026 · N/A"
         },
         {
@@ -1906,7 +1906,7 @@
           "rank": 10,
           "name": "Higgs Audio V3 TTS",
           "creator": "Higgs Audio V3 TTS",
-          "score": 1041.0,
+          "score": 1042.0,
           "meta": "Jun 2026 · $15.0 /1M chars"
         }
       ]
@@ -2123,55 +2123,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-18T14:44:03.821776+00:00"
+        "checked_at": "2026-10-18T17:40:29.136168+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-18T14:44:02.684091+00:00"
+        "checked_at": "2026-10-18T17:40:27.993796+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-18T14:44:07.037398+00:00"
+        "checked_at": "2026-10-18T17:40:32.406503+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-18T14:44:04.848444+00:00"
+        "checked_at": "2026-10-18T17:40:30.264967+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-18T14:44:09.246800+00:00"
+        "checked_at": "2026-10-18T17:40:34.554537+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-18T14:44:05.869428+00:00"
+        "checked_at": "2026-10-18T17:40:31.286670+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-18T14:44:08.073351+00:00"
+        "checked_at": "2026-10-18T17:40:33.443679+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-18T14:44:19.664067+00:00"
+      "checked_at": "2026-10-18T17:40:44.749096+00:00"
     }
   }
 }
