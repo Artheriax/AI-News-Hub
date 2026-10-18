@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T01:17:44.049200+00:00",
+  "generated_at": "2026-10-18T06:10:36.280083+00:00",
   "items": [
     {
       "id": "yt:hZPs633_58Q",
@@ -59,7 +59,7 @@
       "summary": "Language models are increasingly trained against several verifiable rewards at once, such as the correctness and the format of a tool call, or the individual constraints of a complex instruction. Reward-decoupled normalization (GDPO) normalizes each reward separately so that different reward combinations keep distinct advantages, but it still spreads every reward's advantage evenly over the whole ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 54,
+      "upvotes": 56,
       "arxiv_id": "2610.21439"
     },
     {
@@ -84,7 +84,7 @@
       "summary": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 665,
+      "upvotes": 666,
       "arxiv_id": "2610.21601"
     },
     {
@@ -97,7 +97,7 @@
       "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 351,
+      "upvotes": 352,
       "arxiv_id": "2610.22276"
     },
     {
@@ -123,7 +123,7 @@
       "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios ac",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 283,
+      "upvotes": 285,
       "arxiv_id": "2610.22350"
     },
     {
@@ -136,7 +136,7 @@
       "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively. We introduce SAE Additivity Residuals (SAR), which measure the behavioral variation left unexplained above a chosen interaction order. Under independent feature subset sampling, population SAR is exactly the normalized energy of in",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 105,
+      "upvotes": 106,
       "arxiv_id": "2610.21261"
     },
     {
@@ -301,7 +301,7 @@
       "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 198,
+      "upvotes": 199,
       "arxiv_id": "2610.18813"
     },
     {
@@ -891,18 +891,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/vIHw_2VjSUw/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
-    },
-    {
-      "id": "yt:MImgH4KMtj8",
-      "title": "Deepseek just did the impossible",
-      "url": "https://www.youtube.com/watch?v=MImgH4KMtj8",
-      "source": "AI Search",
-      "category": "videos",
-      "published": "2026-09-18T03:24:05+00:00",
-      "summary": "Deepseek V4.1 Flash explained #ai #llm #ainews #agi #singularity Thanks to our sponsor Luma. Try it today https://lumalabs.ai/aisearch-sep3 Deepseek V4.1 Flash tech report https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/blob/main/DeepSeek_V41_Tech_Report.pdf Also see: How AI models work: http",
-      "thumbnail": "https://i2.ytimg.com/vi/MImgH4KMtj8/hqdefault.jpg",
-      "kind": "video",
-      "channel": "AI Search"
     }
   ],
   "featured": [
@@ -921,7 +909,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T01:17:43.961322+00:00",
+      "fetched_at": "2026-10-18T06:10:36.172915+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1003,7 +991,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T01:17:43.963238+00:00",
+      "fetched_at": "2026-10-18T06:10:36.175210+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1085,7 +1073,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T01:17:43.965084+00:00",
+      "fetched_at": "2026-10-18T06:10:36.177458+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1167,7 +1155,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T01:17:43.965784+00:00",
+      "fetched_at": "2026-10-18T06:10:36.178291+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1221,7 +1209,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T01:17:43.969035+00:00",
+      "fetched_at": "2026-10-18T06:10:36.182159+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1303,7 +1291,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T01:17:43.969047+00:00",
+      "fetched_at": "2026-10-18T06:10:36.182177+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1357,7 +1345,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T01:17:43.970408+00:00",
+      "fetched_at": "2026-10-18T06:10:36.183820+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1439,7 +1427,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-18T01:17:43.994188+00:00",
+      "fetched_at": "2026-10-18T06:10:36.213733+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1521,7 +1509,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-18T01:17:44.018887+00:00",
+      "fetched_at": "2026-10-18T06:10:36.244566+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1603,7 +1591,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T01:17:44.027094+00:00",
+      "fetched_at": "2026-10-18T06:10:36.254175+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1685,7 +1673,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T01:17:44.030171+00:00",
+      "fetched_at": "2026-10-18T06:10:36.257784+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1767,7 +1755,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T01:17:44.038741+00:00",
+      "fetched_at": "2026-10-18T06:10:36.267659+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1849,7 +1837,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T01:17:44.040655+00:00",
+      "fetched_at": "2026-10-18T06:10:36.269870+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2132,58 +2120,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-18T01:17:27.800473+00:00"
+        "ok": false,
+        "items": 3,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-10-18T06:10:20.369660+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-18T01:17:26.658577+00:00"
+        "ok": false,
+        "items": 8,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-10-18T06:10:19.305524+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-18T01:17:31.280666+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-10-18T06:10:23.556092+00:00"
       },
       {
         "name": "Fireship",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-18T01:17:28.930147+00:00"
+        "ok": false,
+        "items": 11,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "checked_at": "2026-10-18T06:10:21.428638+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-18T01:17:33.484896+00:00"
+        "checked_at": "2026-10-18T06:10:25.806007+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-18T01:17:30.074020+00:00"
+        "ok": false,
+        "items": 7,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-10-18T06:10:22.497229+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-18T01:17:32.308957+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-10-18T06:10:24.609538+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-18T01:17:44.041586+00:00"
+      "checked_at": "2026-10-18T06:10:36.270593+00:00"
     }
   }
 }
