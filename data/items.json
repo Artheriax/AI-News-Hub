@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-10-18T06:10:36.280083+00:00",
+  "generated_at": "2026-10-18T11:28:19.789698+00:00",
   "items": [
+    {
+      "id": "yt:eItSZ33FVnA",
+      "title": "DeepSeek V4.1 Flash 1017 Is INSANE! Best Open Model EVER?! (Fully Tested)",
+      "url": "https://www.youtube.com/watch?v=eItSZ33FVnA",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-10-18T06:25:04+00:00",
+      "summary": "🚨 Everything you’re about to see, I benchmarked using the tool I made. If you want to run these tests yourself or test models on whatever you actually use them for! → https://www.woaibench.ai/ DeepSeek is BACK, and its latest model, DeepSeek V4.1 Flash 1017, might just be one of the most impressive ",
+      "thumbnail": "https://i2.ytimg.com/vi/eItSZ33FVnA/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
+      "id": "yt:tDWtcyeNNew",
+      "title": "Quantum breakthrough, Gemini 4 Argon, MOSS Image, KLING 4, OpenAI spy, Muse Wonder: AI NEWS",
+      "url": "https://www.youtube.com/watch?v=tDWtcyeNNew",
+      "source": "AI Search",
+      "category": "videos",
+      "published": "2026-10-18T03:30:33+00:00",
+      "summary": "HUGE AI NEWS: Gemini 4 Argon, Muse Wonder, Drama 3, MOSS Image, Krea 3, KLING 4, Flux 3 & more. Thanks to our sponsor Luma. Try it today https://lumalabs.ai/aisearch-oct2 #ai #ainews #aitools #aivideo #agi #singularity Drama 3 https://fish.audio/drama-3/ Matrix-Game 4.0 https://matrix-game-v4-0.gith",
+      "thumbnail": "https://i1.ytimg.com/vi/tDWtcyeNNew/hqdefault.jpg",
+      "kind": "video",
+      "channel": "AI Search"
+    },
     {
       "id": "yt:hZPs633_58Q",
       "title": "Claude Fable 5.5 Is BABY AGI?! NEW EAP LEAKS, GLM 5.5, GPT-6 Astra Pro Upgrade & More! AI NEWS",
@@ -84,7 +108,7 @@
       "summary": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 666,
+      "upvotes": 667,
       "arxiv_id": "2610.21601"
     },
     {
@@ -97,7 +121,7 @@
       "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 352,
+      "upvotes": 353,
       "arxiv_id": "2610.22276"
     },
     {
@@ -110,7 +134,7 @@
       "summary": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tasks on users' computers through visual and programmatic interfaces. We define a generalist computer-use agent (GCUA) as a system in which the model chooses how to observe, act, and organize its work across visual and programmatic interfaces. Yet frontier implementations, such as GP",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 315,
+      "upvotes": 316,
       "arxiv_id": "2610.22200"
     },
     {
@@ -149,7 +173,7 @@
       "summary": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding. First, we construct 3DCodeVerse-2M, a large-scale curated dataset of standalone 3D exe",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 105,
+      "upvotes": 106,
       "arxiv_id": "2610.22341"
     },
     {
@@ -175,7 +199,7 @@
       "summary": "Few-step autoregressive video generators enable streaming generation, yet they run every token through the final denoising step, regardless of how much refinement it needs. We find this uniform computation is often unnecessary: many tokens already closely match their eventual full-step outputs in the initial steps, while others require refinement until the end. We introduce Speculative Forcing, a ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 77,
+      "upvotes": 78,
       "arxiv_id": "2610.22347"
     },
     {
@@ -213,7 +237,7 @@
       "summary": "Can vision-language models turn 2D observations into 3D understanding that supports precise action? This requires inferring object geometry, anticipating the effects of rotation, and refining actions through visual feedback. We introduce RoTA-Bench to evaluate these abilities through interactive 3D-to-2D projection alignment. Given a target silhouette, a model observes a rotated object and chooses",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 201,
+      "upvotes": 202,
       "arxiv_id": "2610.17665"
     },
     {
@@ -226,7 +250,7 @@
       "summary": "Online reinforcement learning (RL) with verifiable rewards has driven rapid progress in mathematics, coding, and tool use, but scaling this success to GUI agents remains challenging due to the high cost of interactive environments and the scarcity of realistic training tasks. We introduce MAI-Gym, an open all-in-one platform that unifies GUI agent evaluation, data collection, and online RL trainin",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 153,
+      "upvotes": 154,
       "arxiv_id": "2610.20939"
     },
     {
@@ -239,7 +263,7 @@
       "summary": "Feed-forward Gaussian reconstruction builds 3D scenes directly from input images for novel view rendering, but learning Gaussian attributes from predicted geometry for high-quality rendering under large viewpoint changes remains challenging. We analyze limitations in Gaussian attribute learning and introduce InfiniSplat v2, which improves rendering quality through architectural and training change",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 118,
+      "upvotes": 119,
       "arxiv_id": "2610.20341"
     },
     {
@@ -301,7 +325,7 @@
       "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 199,
+      "upvotes": 200,
       "arxiv_id": "2610.18813"
     },
     {
@@ -641,18 +665,6 @@
       "channel": "Bijan Bowen"
     },
     {
-      "id": "yt:RMTWayrwYkQ",
-      "title": "Gemini 4 Argon Is Google’s Most Powerful AI Model + Early Tests!",
-      "url": "https://www.youtube.com/watch?v=RMTWayrwYkQ",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-09-30T21:53:48+00:00",
-      "summary": "🚨 Everything you’re about to see, I benchmarked using the tool I made. If you want to run these tests yourself or test models on whatever you actually use them for! → https://www.woaibench.ai/ Gemini 4 Argon IS Google’s Most Powerful AI Model + Early Tests! Google just unveiled Gemini 4 Argon, its n",
-      "thumbnail": "https://i3.ytimg.com/vi/RMTWayrwYkQ/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:I_KVMFrUtPk",
       "title": "Did a 50 year old military secret just solve agent prompt injection?",
       "url": "https://www.youtube.com/watch?v=I_KVMFrUtPk",
@@ -879,18 +891,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/hygMRgnDD7w/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "yt:vIHw_2VjSUw",
-      "title": "DeepSeek’s Insane New Architecture",
-      "url": "https://www.youtube.com/watch?v=vIHw_2VjSUw",
-      "source": "Two Minute Papers",
-      "category": "videos",
-      "published": "2026-09-18T07:03:46+00:00",
-      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 The DeepSeek V4.1 Flash paper is available here: https://www.deepseek.com/en/news/deepseek-v4-1-flash/ Erratum: Opus 5.1 label at 3:23 should have been Opus 5. Apologies! Sources: https://x.com/flowith/status/209944",
-      "thumbnail": "https://i3.ytimg.com/vi/vIHw_2VjSUw/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Two Minute Papers"
     }
   ],
   "featured": [
@@ -909,7 +909,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T06:10:36.172915+00:00",
+      "fetched_at": "2026-10-18T11:28:19.660836+00:00",
       "entries": [
         {
           "rank": 1,
@@ -991,7 +991,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T06:10:36.175210+00:00",
+      "fetched_at": "2026-10-18T11:28:19.663464+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1073,7 +1073,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T06:10:36.177458+00:00",
+      "fetched_at": "2026-10-18T11:28:19.666087+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1155,7 +1155,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T06:10:36.178291+00:00",
+      "fetched_at": "2026-10-18T11:28:19.667031+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1209,7 +1209,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T06:10:36.182159+00:00",
+      "fetched_at": "2026-10-18T11:28:19.671320+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1291,7 +1291,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T06:10:36.182177+00:00",
+      "fetched_at": "2026-10-18T11:28:19.671336+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1345,7 +1345,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T06:10:36.183820+00:00",
+      "fetched_at": "2026-10-18T11:28:19.673305+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1427,7 +1427,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-18T06:10:36.213733+00:00",
+      "fetched_at": "2026-10-18T11:28:19.709259+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1509,7 +1509,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-18T06:10:36.244566+00:00",
+      "fetched_at": "2026-10-18T11:28:19.746454+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1591,7 +1591,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T06:10:36.254175+00:00",
+      "fetched_at": "2026-10-18T11:28:19.758054+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1673,7 +1673,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T06:10:36.257784+00:00",
+      "fetched_at": "2026-10-18T11:28:19.762327+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1755,7 +1755,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T06:10:36.267659+00:00",
+      "fetched_at": "2026-10-18T11:28:19.774548+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1837,7 +1837,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T06:10:36.269870+00:00",
+      "fetched_at": "2026-10-18T11:28:19.777276+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2120,58 +2120,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 3,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-10-18T06:10:20.369660+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-18T11:28:02.900884+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 8,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-10-18T06:10:19.305524+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-18T11:28:01.683693+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-10-18T06:10:23.556092+00:00"
+        "error": null,
+        "checked_at": "2026-10-18T11:28:06.344736+00:00"
       },
       {
         "name": "Fireship",
-        "ok": false,
-        "items": 11,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-10-18T06:10:21.428638+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-18T11:28:04.058237+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-18T06:10:25.806007+00:00"
+        "checked_at": "2026-10-18T11:28:08.776314+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": false,
-        "items": 7,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-10-18T06:10:22.497229+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-18T11:28:05.202183+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-10-18T06:10:24.609538+00:00"
+        "error": null,
+        "checked_at": "2026-10-18T11:28:07.531013+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-18T06:10:36.270593+00:00"
+      "checked_at": "2026-10-18T11:28:19.778646+00:00"
     }
   }
 }
