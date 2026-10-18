@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T11:28:19.789698+00:00",
+  "generated_at": "2026-10-18T14:44:19.674765+00:00",
   "items": [
     {
       "id": "yt:eItSZ33FVnA",
@@ -909,7 +909,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T11:28:19.660836+00:00",
+      "fetched_at": "2026-10-18T14:44:19.547854+00:00",
       "entries": [
         {
           "rank": 1,
@@ -991,7 +991,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T11:28:19.663464+00:00",
+      "fetched_at": "2026-10-18T14:44:19.550479+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1073,7 +1073,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T11:28:19.666087+00:00",
+      "fetched_at": "2026-10-18T14:44:19.553122+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1155,7 +1155,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T11:28:19.667031+00:00",
+      "fetched_at": "2026-10-18T14:44:19.554084+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1209,7 +1209,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T11:28:19.671320+00:00",
+      "fetched_at": "2026-10-18T14:44:19.558400+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1291,7 +1291,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T11:28:19.671336+00:00",
+      "fetched_at": "2026-10-18T14:44:19.558413+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1345,7 +1345,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T11:28:19.673305+00:00",
+      "fetched_at": "2026-10-18T14:44:19.560328+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1427,7 +1427,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-18T11:28:19.709259+00:00",
+      "fetched_at": "2026-10-18T14:44:19.595995+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1509,7 +1509,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-18T11:28:19.746454+00:00",
+      "fetched_at": "2026-10-18T14:44:19.633079+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1591,7 +1591,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T11:28:19.758054+00:00",
+      "fetched_at": "2026-10-18T14:44:19.644172+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1673,7 +1673,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T11:28:19.762327+00:00",
+      "fetched_at": "2026-10-18T14:44:19.648349+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1755,41 +1755,41 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T11:28:19.774548+00:00",
+      "fetched_at": "2026-10-18T14:44:19.660285+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Eleven v4 Turbo",
           "creator": "Eleven v4 Turbo",
-          "score": 1330.0,
+          "score": 1329.0,
           "meta": "Sept 2026 · $40.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Eleven v4",
           "creator": "Eleven v4",
-          "score": 1329.0,
+          "score": 1328.0,
           "meta": "Sept 2026 · $80.0 /1M chars"
         },
         {
           "rank": 3,
           "name": "Qwen-Audio-3.1-TTS-Plus",
           "creator": "Qwen-Audio-3.1-TTS-Plus",
-          "score": 1296.0,
+          "score": 1295.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
           "rank": 4,
           "name": "Sonic 3.6",
           "creator": "Sonic 3.6",
-          "score": 1285.0,
+          "score": 1286.0,
           "meta": "Aug 2026 · $49.0 /1M chars"
         },
         {
           "rank": 5,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Gemini 3.8 Flash TTS",
-          "score": 1275.0,
+          "score": 1278.0,
           "meta": "Sept 2026 · $16.5 /1M chars"
         },
         {
@@ -1810,21 +1810,21 @@
           "rank": 8,
           "name": "Gemini 3.8 Flash-Lite TTS",
           "creator": "Gemini 3.8 Flash-Lite TTS",
-          "score": 1248.0,
+          "score": 1247.0,
           "meta": "Sept 2026 · $11.0 /1M chars"
         },
         {
           "rank": 9,
           "name": "Simba 3.2",
           "creator": "Simba 3.2",
-          "score": 1244.0,
+          "score": 1245.0,
           "meta": "Jul 2026 · $6.6 /1M chars"
         },
         {
           "rank": 10,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio Drama 3 Preview",
-          "score": 1244.0,
+          "score": 1243.0,
           "meta": "Oct 2026 · $15.0 /1M chars"
         }
       ]
@@ -1837,56 +1837,56 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-18T11:28:19.777276+00:00",
+      "fetched_at": "2026-10-18T14:44:19.662959+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio Drama 3 Preview",
-          "score": 1244.0,
+          "score": 1243.0,
           "meta": "Oct 2026 · $15.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Breeze TTS 2",
           "creator": "Breeze TTS 2",
-          "score": 1222.0,
+          "score": 1221.0,
           "meta": "Aug 2026 · $34.0 /1M chars"
         },
         {
           "rank": 3,
           "name": "Fish Audio S2 Pro",
           "creator": "Fish Audio S2 Pro",
-          "score": 1116.0,
+          "score": 1113.0,
           "meta": "Mar 2026 · $15.0 /1M chars"
         },
         {
           "rank": 4,
           "name": "Step Audio EditX (Mar 2026)",
           "creator": "Step Audio EditX (Mar 2026)",
-          "score": 1097.0,
+          "score": 1099.0,
           "meta": "Feb 2026 · N/A"
         },
         {
           "rank": 5,
           "name": "Voxtral TTS",
           "creator": "Voxtral TTS",
-          "score": 1087.0,
+          "score": 1088.0,
           "meta": "Mar 2026 · $16.0 /1M chars"
         },
         {
           "rank": 6,
+          "name": "Kokoro 82M v1.0",
+          "creator": "Kokoro 82M v1.0",
+          "score": 1064.0,
+          "meta": "Jan 2025 · $0.7 /1M chars"
+        },
+        {
+          "rank": 7,
           "name": "Magpie-Multilingual 357M (Feb 2026)",
           "creator": "Magpie-Multilingual 357M (Feb 2026)",
           "score": 1063.0,
           "meta": "Feb 2026 · N/A"
-        },
-        {
-          "rank": 7,
-          "name": "Kokoro 82M v1.0",
-          "creator": "Kokoro 82M v1.0",
-          "score": 1061.0,
-          "meta": "Jan 2025 · $0.7 /1M chars"
         },
         {
           "rank": 8,
@@ -1906,7 +1906,7 @@
           "rank": 10,
           "name": "Higgs Audio V3 TTS",
           "creator": "Higgs Audio V3 TTS",
-          "score": 1038.0,
+          "score": 1041.0,
           "meta": "Jun 2026 · $15.0 /1M chars"
         }
       ]
@@ -2123,55 +2123,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-18T11:28:02.900884+00:00"
+        "checked_at": "2026-10-18T14:44:03.821776+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-18T11:28:01.683693+00:00"
+        "checked_at": "2026-10-18T14:44:02.684091+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-18T11:28:06.344736+00:00"
+        "checked_at": "2026-10-18T14:44:07.037398+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-18T11:28:04.058237+00:00"
+        "checked_at": "2026-10-18T14:44:04.848444+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-18T11:28:08.776314+00:00"
+        "checked_at": "2026-10-18T14:44:09.246800+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-18T11:28:05.202183+00:00"
+        "checked_at": "2026-10-18T14:44:05.869428+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-18T11:28:07.531013+00:00"
+        "checked_at": "2026-10-18T14:44:08.073351+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-18T11:28:19.778646+00:00"
+      "checked_at": "2026-10-18T14:44:19.664067+00:00"
     }
   }
 }
