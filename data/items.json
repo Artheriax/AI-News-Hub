@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T10:34:25.352912+00:00",
+  "generated_at": "2026-10-19T17:15:54.537523+00:00",
   "items": [
     {
       "id": "yt:LWxX6vvHfrc",
@@ -8,7 +8,7 @@
       "source": "Two Minute Papers",
       "category": "videos",
       "published": "2026-10-19T08:49:21+00:00",
-      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 Gemini 4 Argon + report are available here: https://deepmind.google/models/model-cards/gemini-4-argon/ https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf 🙏 We would like to thank our gen",
+      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 Gemini 4 Argon + report are available here: https://deepmind.google/models/model-cards/gemini-4-argon/ https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf Sources: https://x.com/thebugged",
       "thumbnail": "https://i1.ytimg.com/vi/LWxX6vvHfrc/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
@@ -107,8 +107,21 @@
       "summary": "Agents built on vision language models (VLMs) now compete with learned policies on robot manipulation leaderboards. We ask how far a coding agent can go when it controls a robot instead of a computer, and where it stops. Our system, HexaShell, keeps the harness thin: it only turns the agent's commands into robot motion. The agent drives a robot with two arms through one command line. It sees three",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 84,
+      "upvotes": 159,
       "arxiv_id": "2610.23479"
+    },
+    {
+      "id": "paper:2610.23121",
+      "title": "Scene-Designer: Learning Design Intelligence for Agentic 3D Scene Generation",
+      "url": "https://huggingface.co/papers/2610.23121",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-16T00:00:00+00:00",
+      "summary": "Generating complete, coherent, and usable 3D indoor scenes from natural language requires strong design intelligence: the ability to design high-quality scenes and critique their quality. However, existing approaches either rely on general-purpose models lacking domain-specific design experience or learn from static scenes. In this work, we introduce Scene-Designer, an agentic framework that learn",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 49,
+      "arxiv_id": "2610.23121"
     },
     {
       "id": "yt:l3L_lETiSzc",
@@ -123,19 +136,6 @@
       "channel": "Fireship"
     },
     {
-      "id": "paper:2610.21439",
-      "title": "Each Reward to Its Relevant Tokens: Reward-Specific Token-Level Credit Assignment for Multi-Reward RL",
-      "url": "https://huggingface.co/papers/2610.21439",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-15T07:47:04+00:00",
-      "summary": "Language models are increasingly trained against several verifiable rewards at once, such as the correctness and the format of a tool call, or the individual constraints of a complex instruction. Reward-decoupled normalization (GDPO) normalizes each reward separately so that different reward combinations keep distinct advantages, but it still spreads every reward's advantage evenly over the whole ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 57,
-      "arxiv_id": "2610.21439"
-    },
-    {
       "id": "yt:bk1xyTwzsY8",
       "title": "FABLE 5.5 THIS WEEK? OpenAI Employee ARRESTED?! HUGE Claude Code Update, & Anthropic IPO! AI NEWS",
       "url": "https://www.youtube.com/watch?v=bk1xyTwzsY8",
@@ -148,19 +148,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2610.21601",
-      "title": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
-      "url": "https://huggingface.co/papers/2610.21601",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-15T00:00:00+00:00",
-      "summary": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 669,
-      "arxiv_id": "2610.21601"
-    },
-    {
       "id": "paper:2610.22276",
       "title": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching",
       "url": "https://huggingface.co/papers/2610.22276",
@@ -170,7 +157,7 @@
       "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 404,
+      "upvotes": 506,
       "arxiv_id": "2610.22276"
     },
     {
@@ -183,7 +170,7 @@
       "summary": "Computer use has reached a turning point: the focus is expanding from GUI-only interaction to systems that complete tasks on users' computers through visual and programmatic interfaces. We define a generalist computer-use agent (GCUA) as a system in which the model chooses how to observe, act, and organize its work across visual and programmatic interfaces. Yet frontier implementations, such as GP",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 318,
+      "upvotes": 313,
       "arxiv_id": "2610.22200"
     },
     {
@@ -196,7 +183,7 @@
       "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios ac",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 285,
+      "upvotes": 264,
       "arxiv_id": "2610.22350"
     },
     {
@@ -209,21 +196,8 @@
       "summary": "GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments. In this report, we ask not only how capable GPT-6-Astra is, but what its capabilities imply for the field. First, we probe the limits of standalone GPT-6-Astra. We conduct a large-scale evaluation across",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 141,
+      "upvotes": 206,
       "arxiv_id": "2610.22471"
-    },
-    {
-      "id": "paper:2610.21261",
-      "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
-      "url": "https://huggingface.co/papers/2610.21261",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-15T00:00:00+00:00",
-      "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively. We introduce SAE Additivity Residuals (SAR), which measure the behavioral variation left unexplained above a chosen interaction order. Under independent feature subset sampling, population SAR is exactly the normalized energy of in",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 107,
-      "arxiv_id": "2610.21261"
     },
     {
       "id": "paper:2610.21783",
@@ -235,8 +209,21 @@
       "summary": "We study how vision-language models (VLMs) can learn to think and actively explore in 3D space. Instead of providing multi-view images, videos, or 3D representations to the model, we preserve the native visual encoding of VLMs, i.e., a single image, one at a time, just like humans, and treat the 3D representation only as an environment with which the model can interact through actions (e.g., move ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 93,
+      "upvotes": 140,
       "arxiv_id": "2610.21783"
+    },
+    {
+      "id": "paper:2610.21261",
+      "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
+      "url": "https://huggingface.co/papers/2610.21261",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-15T00:00:00+00:00",
+      "summary": "Sparse autoencoders (SAEs) represent model activations with sparse, linearly decoded features, but the downstream effects of those features need not compose additively. We introduce SAE Additivity Residuals (SAR), which measure the behavioral variation left unexplained above a chosen interaction order. Under independent feature subset sampling, population SAR is exactly the normalized energy of in",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 104,
+      "arxiv_id": "2610.21261"
     },
     {
       "id": "paper:2610.21306",
@@ -248,8 +235,21 @@
       "summary": "Vision-language-action (VLA) models transfer semantic knowledge acquired through vision-language pretraining to robot control, achieving strong performance across various benchmarks. However, most VLAs directly map observations to demonstrated actions without explicit supervision of intermediate physical state changes, making them prone to overfitting observation-action correspondences. Some metho",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 57,
+      "upvotes": 58,
       "arxiv_id": "2610.21306"
+    },
+    {
+      "id": "paper:2610.21601",
+      "title": "Waypoint-OPD: Transferring RL-Induced Policy Shifts via Gated On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2610.21601",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-15T00:00:00+00:00",
+      "summary": "Policy-shift distillation reuses the difference between a teacher's log probabilities before and after reinforcement learning (RL) as supervision on student-generated trajectories. However, this endpoint policy shift cannot reveal whether local action preferences evolved consistently during teacher training. The same endpoint shift can result from early and late shifts that reinforce or partially ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 44,
+      "arxiv_id": "2610.21601"
     },
     {
       "id": "yt:QZVzuq28eFw",
@@ -264,19 +264,6 @@
       "channel": "Fireship"
     },
     {
-      "id": "paper:2610.20939",
-      "title": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
-      "url": "https://huggingface.co/papers/2610.20939",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-14T00:00:00+00:00",
-      "summary": "Online reinforcement learning (RL) with verifiable rewards has driven rapid progress in mathematics, coding, and tool use, but scaling this success to GUI agents remains challenging due to the high cost of interactive environments and the scarcity of realistic training tasks. We introduce MAI-Gym, an open all-in-one platform that unifies GUI agent evaluation, data collection, and online RL trainin",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 157,
-      "arxiv_id": "2610.20939"
-    },
-    {
       "id": "paper:2610.20424",
       "title": "BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business",
       "url": "https://huggingface.co/papers/2610.20424",
@@ -286,8 +273,34 @@
       "summary": "Existing long-horizon agent benchmarks often emphasize final task success while providing limited assessment of intermediate execution validity. Yet real-world business operations require agents to navigate extensive, potentially outdated or conflicting policies while satisfying critical constraints throughout execution. These requirements are particularly consequential in high-stakes domains such",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 111,
+      "upvotes": 169,
       "arxiv_id": "2610.20424"
+    },
+    {
+      "id": "paper:2610.20939",
+      "title": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
+      "url": "https://huggingface.co/papers/2610.20939",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-14T00:00:00+00:00",
+      "summary": "Online reinforcement learning (RL) with verifiable rewards has driven rapid progress in mathematics, coding, and tool use, but scaling this success to GUI agents remains challenging due to the high cost of interactive environments and the scarcity of realistic training tasks. We introduce MAI-Gym, an open all-in-one platform that unifies GUI agent evaluation, data collection, and online RL trainin",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 135,
+      "arxiv_id": "2610.20939"
+    },
+    {
+      "id": "paper:2610.20556",
+      "title": "Speculative Sampling in Interactive Video Generation",
+      "url": "https://huggingface.co/papers/2610.20556",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-14T00:00:00+00:00",
+      "summary": "Interactive video generation commonly relies on small bidirectional chunks to reduce response latency. Yet our preliminary experiments show that larger chunks improve video quality and better utilize GPU parallelism, allowing more latents to be sampled with only a modest increase in sampling time. Motivated by these observations, we propose Speculative Sampling, a strategy that combines the modeli",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 73,
+      "arxiv_id": "2610.20556"
     },
     {
       "id": "yt:mfsUVN8ykLA",
@@ -323,7 +336,7 @@
       "summary": "Long-horizon agents accumulate progress in persistent task state, yet repeatedly process interaction histories describing how that progress was achieved. This raises a natural question: can long-horizon context instead be organized around reusable progress rather than the history that produced it? In this paper, we introduce CarryOn, an object-oriented context runtime that organizes continuation a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 92,
+      "upvotes": 95,
       "arxiv_id": "2610.18784"
     },
     {
@@ -339,19 +352,6 @@
       "channel": "Two Minute Papers"
     },
     {
-      "id": "paper:2610.18813",
-      "title": "Self-Evolving Agent Harness",
-      "url": "https://huggingface.co/papers/2610.18813",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-13T00:00:00+00:00",
-      "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 203,
-      "arxiv_id": "2610.18813"
-    },
-    {
       "id": "paper:2610.19159",
       "title": "Into the Unknown: Benchmarking AI agents on open scientific research problems",
       "url": "https://huggingface.co/papers/2610.19159",
@@ -361,7 +361,7 @@
       "summary": "Can AI agents carry out research on open scientific problems? We introduce Into the Unknown, a benchmark that provides an agent with a science paper along with a research direction to pursue and tasks it to write a follow-up paper. We work with scientists at US Department of Energy (DOE) national laboratories, who each contribute an unpublished follow-up direction from their own work together with",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 86,
+      "upvotes": 126,
       "arxiv_id": "2610.19159"
     },
     {
@@ -921,7 +921,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T10:34:25.264350+00:00",
+      "fetched_at": "2026-10-19T17:15:54.410221+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1003,7 +1003,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T10:34:25.266229+00:00",
+      "fetched_at": "2026-10-19T17:15:54.412749+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1085,7 +1085,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T10:34:25.268103+00:00",
+      "fetched_at": "2026-10-19T17:15:54.415247+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1167,7 +1167,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T10:34:25.268798+00:00",
+      "fetched_at": "2026-10-19T17:15:54.416167+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1221,7 +1221,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T10:34:25.272024+00:00",
+      "fetched_at": "2026-10-19T17:15:54.420328+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1303,7 +1303,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T10:34:25.272034+00:00",
+      "fetched_at": "2026-10-19T17:15:54.420341+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1357,7 +1357,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T10:34:25.273397+00:00",
+      "fetched_at": "2026-10-19T17:15:54.422228+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1439,7 +1439,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-19T10:34:25.297178+00:00",
+      "fetched_at": "2026-10-19T17:15:54.458208+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1521,7 +1521,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-19T10:34:25.322203+00:00",
+      "fetched_at": "2026-10-19T17:15:54.495181+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1603,7 +1603,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T10:34:25.330419+00:00",
+      "fetched_at": "2026-10-19T17:15:54.505811+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1685,7 +1685,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T10:34:25.333453+00:00",
+      "fetched_at": "2026-10-19T17:15:54.509961+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1767,27 +1767,27 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T10:34:25.341820+00:00",
+      "fetched_at": "2026-10-19T17:15:54.521929+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Eleven v4 Turbo",
           "creator": "Eleven v4 Turbo",
-          "score": 1329.0,
+          "score": 1333.0,
           "meta": "Sept 2026 · $40.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Eleven v4",
           "creator": "Eleven v4",
-          "score": 1328.0,
+          "score": 1332.0,
           "meta": "Sept 2026 · $80.0 /1M chars"
         },
         {
           "rank": 3,
           "name": "Qwen-Audio-3.1-TTS-Plus",
           "creator": "Qwen-Audio-3.1-TTS-Plus",
-          "score": 1296.0,
+          "score": 1300.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
@@ -1801,14 +1801,14 @@
           "rank": 5,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Gemini 3.8 Flash TTS",
-          "score": 1278.0,
+          "score": 1281.0,
           "meta": "Sept 2026 · $16.5 /1M chars"
         },
         {
           "rank": 6,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Qwen-Audio-3.0-TTS-Plus",
-          "score": 1265.0,
+          "score": 1266.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
@@ -1829,14 +1829,14 @@
           "rank": 9,
           "name": "Simba 3.2",
           "creator": "Simba 3.2",
-          "score": 1245.0,
+          "score": 1247.0,
           "meta": "Jul 2026 · $6.6 /1M chars"
         },
         {
           "rank": 10,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio Drama 3 Preview",
-          "score": 1244.0,
+          "score": 1245.0,
           "meta": "Oct 2026 · $15.0 /1M chars"
         }
       ]
@@ -1849,76 +1849,76 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T10:34:25.343720+00:00",
+      "fetched_at": "2026-10-19T17:15:54.524715+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio Drama 3 Preview",
-          "score": 1244.0,
+          "score": 1245.0,
           "meta": "Oct 2026 · $15.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Breeze TTS 2",
           "creator": "Breeze TTS 2",
-          "score": 1222.0,
+          "score": 1220.0,
           "meta": "Aug 2026 · $34.0 /1M chars"
         },
         {
           "rank": 3,
-          "name": "Fish Audio S2 Pro",
-          "creator": "Fish Audio S2 Pro",
-          "score": 1114.0,
-          "meta": "Mar 2026 · $15.0 /1M chars"
+          "name": "Ming-3.0-tts",
+          "creator": "Ming-3.0-tts",
+          "score": 1188.0,
+          "meta": "Oct 2026 · N/A"
         },
         {
           "rank": 4,
-          "name": "Step Audio EditX (Mar 2026)",
-          "creator": "Step Audio EditX (Mar 2026)",
-          "score": 1100.0,
-          "meta": "Feb 2026 · N/A"
+          "name": "Fish Audio S2 Pro",
+          "creator": "Fish Audio S2 Pro",
+          "score": 1113.0,
+          "meta": "Mar 2026 · $15.0 /1M chars"
         },
         {
           "rank": 5,
+          "name": "Step Audio EditX (Mar 2026)",
+          "creator": "Step Audio EditX (Mar 2026)",
+          "score": 1098.0,
+          "meta": "Feb 2026 · N/A"
+        },
+        {
+          "rank": 6,
           "name": "Voxtral TTS",
           "creator": "Voxtral TTS",
           "score": 1089.0,
           "meta": "Mar 2026 · $16.0 /1M chars"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Kokoro 82M v1.0",
           "creator": "Kokoro 82M v1.0",
           "score": 1064.0,
           "meta": "Jan 2025 · $0.7 /1M chars"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Magpie-Multilingual 357M (Feb 2026)",
           "creator": "Magpie-Multilingual 357M (Feb 2026)",
-          "score": 1064.0,
+          "score": 1063.0,
           "meta": "Feb 2026 · N/A"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Maya1",
           "creator": "Maya1",
           "score": 1046.0,
           "meta": "Jun 2025 · N/A"
         },
         {
-          "rank": 9,
-          "name": "OpenAudio S1 Mini",
-          "creator": "OpenAudio S1 Mini",
-          "score": 1044.0,
-          "meta": "Jun 2025 · $15.0 /1M chars"
-        },
-        {
           "rank": 10,
           "name": "Higgs Audio V3 TTS",
           "creator": "Higgs Audio V3 TTS",
-          "score": 1042.0,
+          "score": 1045.0,
           "meta": "Jun 2026 · $15.0 /1M chars"
         }
       ]
@@ -2135,55 +2135,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-19T10:34:09.446198+00:00"
+        "checked_at": "2026-10-19T17:15:37.620076+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-19T10:34:08.424954+00:00"
+        "checked_at": "2026-10-19T17:15:36.568827+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-19T10:34:12.487095+00:00"
+        "checked_at": "2026-10-19T17:15:40.699737+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-19T10:34:10.458958+00:00"
+        "checked_at": "2026-10-19T17:15:38.644804+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-19T10:34:14.656188+00:00"
+        "checked_at": "2026-10-19T17:15:42.927834+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-19T10:34:11.473457+00:00"
+        "checked_at": "2026-10-19T17:15:39.672715+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-19T10:34:13.514512+00:00"
+        "checked_at": "2026-10-19T17:15:41.746165+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-19T10:34:25.345292+00:00"
+      "checked_at": "2026-10-19T17:15:54.526645+00:00"
     }
   }
 }
