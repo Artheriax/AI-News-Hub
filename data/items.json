@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-10-19T04:59:38.403773+00:00",
+  "generated_at": "2026-10-19T10:34:25.352912+00:00",
   "items": [
+    {
+      "id": "yt:LWxX6vvHfrc",
+      "title": "Gemini 4 Argon Really Surprised Me",
+      "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
+      "source": "Two Minute Papers",
+      "category": "videos",
+      "published": "2026-10-19T08:49:21+00:00",
+      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 Gemini 4 Argon + report are available here: https://deepmind.google/models/model-cards/gemini-4-argon/ https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf 🙏 We would like to thank our gen",
+      "thumbnail": "https://i1.ytimg.com/vi/LWxX6vvHfrc/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Two Minute Papers"
+    },
+    {
+      "id": "yt:24j6YmsTVng",
+      "title": "Anthropic's UBI PLAN?! NEW OpenAI Aurora Models, Fable 5.5 UPGRADE, & OpenCode HACK! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=24j6YmsTVng",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-10-19T06:33:58+00:00",
+      "summary": "🚨 Everything you’re about to see, I benchmarked using the tool I made. If you want to run these tests yourself or test models on whatever you actually use them for! → https://www.woaibench.ai/ The AI world just had another INSANE weekend! Anthropic has announced a massive new Public Benefit Fund, co",
+      "thumbnail": "https://i3.ytimg.com/vi/24j6YmsTVng/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
     {
       "id": "yt:dk1OY5z08_Y",
       "title": "The New DeepSeek V4.1 Flash Is INSANE – The BEST Open Model Yet?",
@@ -83,7 +107,7 @@
       "summary": "Agents built on vision language models (VLMs) now compete with learned policies on robot manipulation leaderboards. We ask how far a coding agent can go when it controls a robot instead of a computer, and where it stops. Our system, HexaShell, keeps the harness thin: it only turns the agent's commands into robot motion. The agent drives a robot with two arms through one command line. It sees three",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 53,
+      "upvotes": 84,
       "arxiv_id": "2610.23479"
     },
     {
@@ -108,7 +132,7 @@
       "summary": "Language models are increasingly trained against several verifiable rewards at once, such as the correctness and the format of a tool call, or the individual constraints of a complex instruction. Reward-decoupled normalization (GDPO) normalizes each reward separately so that different reward combinations keep distinct advantages, but it still spreads every reward's advantage evenly over the whole ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 56,
+      "upvotes": 57,
       "arxiv_id": "2610.21439"
     },
     {
@@ -146,7 +170,7 @@
       "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 355,
+      "upvotes": 404,
       "arxiv_id": "2610.22276"
     },
     {
@@ -176,6 +200,19 @@
       "arxiv_id": "2610.22350"
     },
     {
+      "id": "paper:2610.22471",
+      "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
+      "url": "https://huggingface.co/papers/2610.22471",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-15T00:00:00+00:00",
+      "summary": "GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments. In this report, we ask not only how capable GPT-6-Astra is, but what its capabilities imply for the field. First, we probe the limits of standalone GPT-6-Astra. We conduct a large-scale evaluation across",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 141,
+      "arxiv_id": "2610.22471"
+    },
+    {
       "id": "paper:2610.21261",
       "title": "Behavioral Compositionality of Sparse Autoencoder Representations",
       "url": "https://huggingface.co/papers/2610.21261",
@@ -189,17 +226,17 @@
       "arxiv_id": "2610.21261"
     },
     {
-      "id": "paper:2610.22471",
-      "title": "Has GPT-6-Astra Achieved Embodied Intelligence?",
-      "url": "https://huggingface.co/papers/2610.22471",
+      "id": "paper:2610.21783",
+      "title": "Learning to Think and Explore in 3D World",
+      "url": "https://huggingface.co/papers/2610.21783",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-15T00:00:00+00:00",
-      "summary": "GPT-6-Astra demonstrates a level of competence in robotic manipulation and navigation that challenges the conventional paradigm of building specialized models for individual tasks and embodiments. In this report, we ask not only how capable GPT-6-Astra is, but what its capabilities imply for the field. First, we probe the limits of standalone GPT-6-Astra. We conduct a large-scale evaluation across",
+      "summary": "We study how vision-language models (VLMs) can learn to think and actively explore in 3D space. Instead of providing multi-view images, videos, or 3D representations to the model, we preserve the native visual encoding of VLMs, i.e., a single image, one at a time, just like humans, and treat the 3D representation only as an environment with which the model can interact through actions (e.g., move ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 61,
-      "arxiv_id": "2610.22471"
+      "upvotes": 93,
+      "arxiv_id": "2610.21783"
     },
     {
       "id": "paper:2610.21306",
@@ -211,21 +248,8 @@
       "summary": "Vision-language-action (VLA) models transfer semantic knowledge acquired through vision-language pretraining to robot control, achieving strong performance across various benchmarks. However, most VLAs directly map observations to demonstrated actions without explicit supervision of intermediate physical state changes, making them prone to overfitting observation-action correspondences. Some metho",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 56,
+      "upvotes": 57,
       "arxiv_id": "2610.21306"
-    },
-    {
-      "id": "paper:2610.22174",
-      "title": "Mosaic: Multi-Session Agentic Reinforcement Learning",
-      "url": "https://huggingface.co/papers/2610.22174",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-15T00:00:00+00:00",
-      "summary": "Most existing agentic reinforcement learning methods assume single-session trajectories, where interaction proceeds within one continuously accumulated context. However, agentic techniques such as context compaction and subagent forking may produce trajectories spanning multiple sessions, creating a mismatch between the single-session training assumption and inference-time execution. Therefore, we",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 54,
-      "arxiv_id": "2610.22174"
     },
     {
       "id": "yt:QZVzuq28eFw",
@@ -240,19 +264,6 @@
       "channel": "Fireship"
     },
     {
-      "id": "paper:2610.17665",
-      "title": "RoTA-Bench: Evaluating 3D Spatial Reasoning through Interactive Projection Alignment",
-      "url": "https://huggingface.co/papers/2610.17665",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-14T00:00:00+00:00",
-      "summary": "Can vision-language models turn 2D observations into 3D understanding that supports precise action? This requires inferring object geometry, anticipating the effects of rotation, and refining actions through visual feedback. We introduce RoTA-Bench to evaluate these abilities through interactive 3D-to-2D projection alignment. Given a target silhouette, a model observes a rotated object and chooses",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 202,
-      "arxiv_id": "2610.17665"
-    },
-    {
       "id": "paper:2610.20939",
       "title": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments",
       "url": "https://huggingface.co/papers/2610.20939",
@@ -262,21 +273,21 @@
       "summary": "Online reinforcement learning (RL) with verifiable rewards has driven rapid progress in mathematics, coding, and tool use, but scaling this success to GUI agents remains challenging due to the high cost of interactive environments and the scarcity of realistic training tasks. We introduce MAI-Gym, an open all-in-one platform that unifies GUI agent evaluation, data collection, and online RL trainin",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 156,
+      "upvotes": 157,
       "arxiv_id": "2610.20939"
     },
     {
-      "id": "paper:2610.20341",
-      "title": "InfiniSplat v2: Analyzing and Improving Feed-Forward 3DGS from Any Views",
-      "url": "https://huggingface.co/papers/2610.20341",
+      "id": "paper:2610.20424",
+      "title": "BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business",
+      "url": "https://huggingface.co/papers/2610.20424",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-14T00:00:00+00:00",
-      "summary": "Feed-forward Gaussian reconstruction builds 3D scenes directly from input images for novel view rendering, but learning Gaussian attributes from predicted geometry for high-quality rendering under large viewpoint changes remains challenging. We analyze limitations in Gaussian attribute learning and introduce InfiniSplat v2, which improves rendering quality through architectural and training change",
+      "summary": "Existing long-horizon agent benchmarks often emphasize final task success while providing limited assessment of intermediate execution validity. Yet real-world business operations require agents to navigate extensive, potentially outdated or conflicting policies while satisfying critical constraints throughout execution. These requirements are particularly consequential in high-stakes domains such",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 121,
-      "arxiv_id": "2610.20341"
+      "upvotes": 111,
+      "arxiv_id": "2610.20424"
     },
     {
       "id": "yt:mfsUVN8ykLA",
@@ -312,7 +323,7 @@
       "summary": "Long-horizon agents accumulate progress in persistent task state, yet repeatedly process interaction histories describing how that progress was achieved. This raises a natural question: can long-horizon context instead be organized around reusable progress rather than the history that produced it? In this paper, we introduce CarryOn, an object-oriented context runtime that organizes continuation a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 76,
+      "upvotes": 92,
       "arxiv_id": "2610.18784"
     },
     {
@@ -339,6 +350,19 @@
       "kind": "paper",
       "upvotes": 203,
       "arxiv_id": "2610.18813"
+    },
+    {
+      "id": "paper:2610.19159",
+      "title": "Into the Unknown: Benchmarking AI agents on open scientific research problems",
+      "url": "https://huggingface.co/papers/2610.19159",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-13T00:00:00+00:00",
+      "summary": "Can AI agents carry out research on open scientific problems? We introduce Into the Unknown, a benchmark that provides an agent with a science paper along with a research direction to pursue and tasks it to write a follow-up paper. We work with scientists at US Department of Energy (DOE) national laboratories, who each contribute an unpublished follow-up direction from their own work together with",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 86,
+      "arxiv_id": "2610.19159"
     },
     {
       "id": "yt:f7OpKLA-CLI",
@@ -629,18 +653,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "yt:9zVYS00N6mg",
-      "title": "MiniMax M3.1 Flash IS REALLY GOOD! INSANELY FAST & FREE! (Fully Tested)",
-      "url": "https://www.youtube.com/watch?v=9zVYS00N6mg",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-10-02T06:19:25+00:00",
-      "summary": "MiniMax M3.1 Flash Preview is INSANELY fast, and right now you can test it for FREE inside MiniMax Code. In this video, I fully test MiniMax’s latest Flash model across AI coding, games, 3D environments, websites, and more to see just how good it actually is. 🚨 Everything you’re about to see, I benc",
-      "thumbnail": "https://i2.ytimg.com/vi/9zVYS00N6mg/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:_rtp1XzaP6Q",
       "title": "OpenAI Security: Controlling Models is Now ‘Hell’",
       "url": "https://www.youtube.com/watch?v=_rtp1XzaP6Q",
@@ -909,7 +921,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T04:59:38.285106+00:00",
+      "fetched_at": "2026-10-19T10:34:25.264350+00:00",
       "entries": [
         {
           "rank": 1,
@@ -991,7 +1003,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T04:59:38.287743+00:00",
+      "fetched_at": "2026-10-19T10:34:25.266229+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1073,7 +1085,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T04:59:38.290356+00:00",
+      "fetched_at": "2026-10-19T10:34:25.268103+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1155,7 +1167,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T04:59:38.291304+00:00",
+      "fetched_at": "2026-10-19T10:34:25.268798+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1209,7 +1221,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T04:59:38.295642+00:00",
+      "fetched_at": "2026-10-19T10:34:25.272024+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1291,7 +1303,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T04:59:38.295656+00:00",
+      "fetched_at": "2026-10-19T10:34:25.272034+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1345,7 +1357,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T04:59:38.297386+00:00",
+      "fetched_at": "2026-10-19T10:34:25.273397+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1427,7 +1439,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-19T04:59:38.328920+00:00",
+      "fetched_at": "2026-10-19T10:34:25.297178+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1509,7 +1521,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-19T04:59:38.362660+00:00",
+      "fetched_at": "2026-10-19T10:34:25.322203+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1520,7 +1532,7 @@
         },
         {
           "rank": 2,
-          "name": "DeepSeek V4.1 Flash (max)",
+          "name": "DeepSeek V4.1 Flash 1017 (max)",
           "creator": "DeepSeek",
           "score": 45.0,
           "meta": "1M ctx"
@@ -1591,7 +1603,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T04:59:38.373333+00:00",
+      "fetched_at": "2026-10-19T10:34:25.330419+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1673,7 +1685,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T04:59:38.377312+00:00",
+      "fetched_at": "2026-10-19T10:34:25.333453+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1755,7 +1767,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T04:59:38.389112+00:00",
+      "fetched_at": "2026-10-19T10:34:25.341820+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1837,7 +1849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T04:59:38.391751+00:00",
+      "fetched_at": "2026-10-19T10:34:25.343720+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2120,58 +2132,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 3,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-10-19T04:59:22.002851+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-19T10:34:09.446198+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 8,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-10-19T04:59:20.970512+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-19T10:34:08.424954+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-10-19T04:59:25.092902+00:00"
+        "error": null,
+        "checked_at": "2026-10-19T10:34:12.487095+00:00"
       },
       {
         "name": "Fireship",
-        "ok": false,
-        "items": 11,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-10-19T04:59:23.029264+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-19T10:34:10.458958+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-19T04:59:27.293474+00:00"
+        "checked_at": "2026-10-19T10:34:14.656188+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": false,
-        "items": 6,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-10-19T04:59:24.059102+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-19T10:34:11.473457+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-10-19T04:59:26.124165+00:00"
+        "error": null,
+        "checked_at": "2026-10-19T10:34:13.514512+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-19T04:59:38.392942+00:00"
+      "checked_at": "2026-10-19T10:34:25.345292+00:00"
     }
   }
 }
