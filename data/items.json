@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-10-20T15:29:11.085964+00:00",
+  "generated_at": "2026-10-20T19:29:37.386005+00:00",
   "items": [
+    {
+      "id": "yt:b2tjnxX8IHU",
+      "title": "Did Google just dethrone OpenAI and Anthropic?",
+      "url": "https://www.youtube.com/watch?v=b2tjnxX8IHU",
+      "source": "Fireship",
+      "category": "videos",
+      "published": "2026-10-20T16:21:03+00:00",
+      "summary": "Macroscope can auto-approve your team's PRs safely. Try it here: https://macroscope.com/?utm_source=fireship Google’s new model claims to beat GPT-6 and Opus 5.5, so I took them all for a test drive. Let's dive in. Want more Fireship? 🗞️ Newsletter: https://bytes.dev 🧠 Courses: https://fireship.dev",
+      "thumbnail": "https://i3.ytimg.com/vi/b2tjnxX8IHU/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Fireship"
+    },
     {
       "id": "yt:2BXktpaCEN4",
       "title": "HUGE GPT-6.5 LEAK! NEW Claude Fable 5.5, Gemini 4 Carbon, MiniMax M3.1 Flash & Kimi K3.1! AI NEWS",
@@ -59,7 +71,7 @@
       "summary": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from frozen pretrained backbones. Using neural data to train large models from scratch or fully fine-tune them after task-pretraining has proven difficult because neural data is costly and limited. We show that parameter-efficient fine-tuning (PEFT) enables us to effectively adapt very lar",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 157,
+      "upvotes": 231,
       "arxiv_id": "2610.26802"
     },
     {
@@ -72,7 +84,7 @@
       "summary": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism w",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 137,
+      "upvotes": 144,
       "arxiv_id": "2610.26825"
     },
     {
@@ -85,7 +97,7 @@
       "summary": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to meet as robot fleets grow. We introduce collective experience learning (CEL), a learning paradigm in w",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 104,
+      "upvotes": 107,
       "arxiv_id": "2610.25736"
     },
     {
@@ -98,8 +110,21 @@
       "summary": "Human egocentric experience offers a rich foundation for learning how the world is organized and how it changes through interaction. Realizing this potential at scale requires turning growing volumes of recordings into learning resources that connect scene structure, object semantics, and interaction histories across viewpoints and time, while reducing dependence on costly manual annotation. We in",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 86,
+      "upvotes": 104,
       "arxiv_id": "2610.26549"
+    },
+    {
+      "id": "paper:2610.26625",
+      "title": "EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience",
+      "url": "https://huggingface.co/papers/2610.26625",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-19T00:00:00+00:00",
+      "summary": "Reconstructing human activity from egocentric video requires more than recovering individual 3D components: the observer's motion, surrounding geometry, and hand-object interactions must fit together in a consistent world. Achieving this coherence requires both joint reconstruction and aligned supervision, yet existing methods and datasets offer limited support for either. We present EgoXperience,",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 96,
+      "arxiv_id": "2610.26625"
     },
     {
       "id": "paper:2610.25690",
@@ -115,19 +140,6 @@
       "arxiv_id": "2610.25690"
     },
     {
-      "id": "paper:2610.26625",
-      "title": "EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience",
-      "url": "https://huggingface.co/papers/2610.26625",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-19T00:00:00+00:00",
-      "summary": "Reconstructing human activity from egocentric video requires more than recovering individual 3D components: the observer's motion, surrounding geometry, and hand-object interactions must fit together in a consistent world. Achieving this coherence requires both joint reconstruction and aligned supervision, yet existing methods and datasets offer limited support for either. We present EgoXperience,",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 77,
-      "arxiv_id": "2610.26625"
-    },
-    {
       "id": "paper:2610.26860",
       "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
       "url": "https://huggingface.co/papers/2610.26860",
@@ -137,7 +149,7 @@
       "summary": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains. Such tasks demand grounded perception, external knowledge, and numerical measurements o",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 73,
+      "upvotes": 81,
       "arxiv_id": "2610.26860"
     },
     {
@@ -150,7 +162,7 @@
       "summary": "Matryoshka Representation Learning (MRL) is designed to support flexible representation sizes by jointly optimizing nested prefixes. While effective, this design lacks an explicit constraint to ensure that the leading portion provides a suitable compact encoding. To address this, we propose SpecMRL, which reorganizes the feature space to enable more effective prefix readout. Specifically, we exten",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 72,
+      "upvotes": 80,
       "arxiv_id": "2610.26824"
     },
     {
@@ -199,8 +211,21 @@
       "summary": "AI coworkers must coordinate tools, communicate across turns, and act on changing workspace state while respecting workflow constraints. Constructing training experience for these capabilities requires coherent requests, service records, tool interfaces, and grading checks. We present CoworkEnv, a capability-guided framework for synthesizing executable training environments for AI coworkers. Workf",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 35,
+      "upvotes": 37,
       "arxiv_id": "2610.24960"
+    },
+    {
+      "id": "paper:2610.25404",
+      "title": "MT Forcing: Towards Stable and Consistent Multi-Turn Image Editing with Autoregressive Diffusion",
+      "url": "https://huggingface.co/papers/2610.25404",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-18T00:00:00+00:00",
+      "summary": "Multi-turn image editing aims to modify an image according to a sequence of instructions, enabling more effective interactive visual content creation for users. However, existing methods often exhibit noticeable drift after only a few editing turns, manifesting in two aspects: 1) unstable visual quality, with accumulating artifacts and degraded details; and 2) inconsistent image content, with unin",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 34,
+      "arxiv_id": "2610.25404"
     },
     {
       "id": "yt:hZPs633_58Q",
@@ -248,7 +273,7 @@
       "summary": "Can large language model (LLM) agents deliver expert-level operations research (OR) solutions directly from original client materials, without prior expert reformulation? Existing OR benchmarks typically begin with self-contained descriptions or predefined optimization tasks, underrepresenting the translation of original business materials into professionally validated solutions. We introduce OR-L",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 59,
+      "upvotes": 111,
       "arxiv_id": "2610.24087"
     },
     {
@@ -261,7 +286,7 @@
       "summary": "Generating complete, coherent, and usable 3D indoor scenes from natural language requires strong design intelligence: the ability to design high-quality scenes and critique their quality. However, existing approaches either rely on general-purpose models lacking domain-specific design experience or learn from static scenes. In this work, we introduce Scene-Designer, an agentic framework that learn",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 55,
+      "upvotes": 56,
       "arxiv_id": "2610.23121"
     },
     {
@@ -274,7 +299,7 @@
       "summary": "Large language model (LLM) agents have shown promising potential in coding tasks, and their performance is jointly determined by the policy model and the harness that mediates their interaction with the environment. Indeed, harness and policy are mutually reinforcing and evolving only one component is suboptimal---a harness tuned for one checkpoint may not target the failure modes of an updated po",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 38,
+      "upvotes": 40,
       "arxiv_id": "2610.22791"
     },
     {
@@ -302,19 +327,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2610.21046",
-      "title": "PremiseCheck: Efficient Fact-Checking of Human and AI Peer Reviews",
-      "url": "https://huggingface.co/papers/2610.21046",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-15T00:00:00+00:00",
-      "summary": "Peer review is under strain from the growth of submissions, and review comments written by humans or AI can misstate what a paper says. We introduce ReviewFact, a benchmark that labels such factual errors in review comments under one definition across NLP, machine learning, and the natural sciences, and that measures cost and latency alongside accuracy. A frontier LLM checks comments well but must",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 205,
-      "arxiv_id": "2610.21046"
-    },
-    {
       "id": "paper:2610.21783",
       "title": "Learning to Think and Explore in 3D World",
       "url": "https://huggingface.co/papers/2610.21783",
@@ -324,7 +336,7 @@
       "summary": "We study how vision-language models (VLMs) can learn to think and actively explore in 3D space. Instead of providing multi-view images, videos, or 3D representations to the model, we preserve the native visual encoding of VLMs, i.e., a single image, one at a time, just like humans, and treat the 3D representation only as an environment with which the model can interact through actions (e.g., move ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 159,
+      "upvotes": 164,
       "arxiv_id": "2610.21783"
     },
     {
@@ -337,7 +349,7 @@
       "summary": "The vocabulary of a language model is its native semantics: the embedding and the unembedding fix the meaning of a state at the two ends of the residual stream. Between them, existing methods either reuse a fixed lens or treat the states as a point cloud, and neither reads a state the way the model does. We argue that every hidden state has a native reference frame, induced by the layers that read",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 46,
+      "upvotes": 47,
       "arxiv_id": "2610.22169"
     },
     {
@@ -921,7 +933,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T15:29:10.959205+00:00",
+      "fetched_at": "2026-10-20T19:29:37.272349+00:00",
       "entries": [
         {
           "rank": 1,
@@ -953,45 +965,45 @@
         },
         {
           "rank": 5,
+          "name": "Krea 3 (Ultra)",
+          "creator": "Krea 3 (Ultra)",
+          "score": 1151.0,
+          "meta": "Oct 2026 · $270.0 /1k imgs"
+        },
+        {
+          "rank": 6,
           "name": "MAI-Image-2.6-Flash",
           "creator": "MAI-Image-2.6-Flash",
           "score": 1143.0,
           "meta": "Sep 2026 · $19.5 /1k imgs"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "GPT Image 2 (high)",
           "creator": "GPT Image 2 (high)",
           "score": 1136.0,
           "meta": "Apr 2026 · $211.0 /1k imgs"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Seedream 5.0 Pro",
           "creator": "Seedream 5.0 Pro",
           "score": 1132.0,
           "meta": "Jul 2026 · $90.0 /1k imgs"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Muse Image",
           "creator": "Muse Image",
           "score": 1129.0,
           "meta": "Jul 2026 · $10.0 /1k imgs"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "MAI-Image-2.5",
           "creator": "MAI-Image-2.5",
           "score": 1128.0,
           "meta": "Jun 2026 · $48.1 /1k imgs"
-        },
-        {
-          "rank": 10,
-          "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
-          "creator": "Nano Banana 2 (Gemini 3.1 Flash Image)",
-          "score": 1124.0,
-          "meta": "Feb 2026 · $67.0 /1k imgs"
         }
       ]
     },
@@ -1003,7 +1015,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T15:29:10.961992+00:00",
+      "fetched_at": "2026-10-20T19:29:37.274907+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1085,7 +1097,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T15:29:10.964722+00:00",
+      "fetched_at": "2026-10-20T19:29:37.277439+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1167,7 +1179,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T15:29:10.965680+00:00",
+      "fetched_at": "2026-10-20T19:29:37.278335+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1221,7 +1233,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T15:29:10.970118+00:00",
+      "fetched_at": "2026-10-20T19:29:37.282611+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1303,7 +1315,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T15:29:10.970133+00:00",
+      "fetched_at": "2026-10-20T19:29:37.282625+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1357,7 +1369,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T15:29:10.971971+00:00",
+      "fetched_at": "2026-10-20T19:29:37.284372+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1439,7 +1451,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-20T15:29:11.006235+00:00",
+      "fetched_at": "2026-10-20T19:29:37.315210+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1521,7 +1533,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-20T15:29:11.041961+00:00",
+      "fetched_at": "2026-10-20T19:29:37.346953+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1603,7 +1615,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T15:29:11.053646+00:00",
+      "fetched_at": "2026-10-20T19:29:37.357223+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1685,7 +1697,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T15:29:11.058043+00:00",
+      "fetched_at": "2026-10-20T19:29:37.361035+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1767,13 +1779,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T15:29:11.070308+00:00",
+      "fetched_at": "2026-10-20T19:29:37.371934+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Eleven v4 Turbo",
           "creator": "Eleven v4 Turbo",
-          "score": 1330.0,
+          "score": 1333.0,
           "meta": "Sept 2026 · $40.0 /1M chars"
         },
         {
@@ -1787,42 +1799,42 @@
           "rank": 3,
           "name": "Qwen-Audio-3.1-TTS-Plus",
           "creator": "Qwen-Audio-3.1-TTS-Plus",
-          "score": 1298.0,
+          "score": 1299.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
           "rank": 4,
           "name": "Sonic 3.6",
           "creator": "Sonic 3.6",
-          "score": 1290.0,
+          "score": 1289.0,
           "meta": "Aug 2026 · $49.0 /1M chars"
         },
         {
           "rank": 5,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Gemini 3.8 Flash TTS",
-          "score": 1279.0,
+          "score": 1278.0,
           "meta": "Sept 2026 · $16.5 /1M chars"
         },
         {
           "rank": 6,
+          "name": "Realtime TTS-2",
+          "creator": "Realtime TTS-2",
+          "score": 1265.0,
+          "meta": "Aug 2026 · $20.8 /1M chars"
+        },
+        {
+          "rank": 7,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Qwen-Audio-3.0-TTS-Plus",
           "score": 1264.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
-          "rank": 7,
-          "name": "Realtime TTS-2",
-          "creator": "Realtime TTS-2",
-          "score": 1262.0,
-          "meta": "Aug 2026 · $20.8 /1M chars"
-        },
-        {
           "rank": 8,
           "name": "Gemini 3.8 Flash-Lite TTS",
           "creator": "Gemini 3.8 Flash-Lite TTS",
-          "score": 1251.0,
+          "score": 1250.0,
           "meta": "Sept 2026 · $11.0 /1M chars"
         },
         {
@@ -1849,7 +1861,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T15:29:11.073078+00:00",
+      "fetched_at": "2026-10-20T19:29:37.374464+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1862,7 +1874,7 @@
           "rank": 2,
           "name": "Breeze TTS 2",
           "creator": "Breeze TTS 2",
-          "score": 1221.0,
+          "score": 1222.0,
           "meta": "Aug 2026 · $34.0 /1M chars"
         },
         {
@@ -1876,7 +1888,7 @@
           "rank": 4,
           "name": "Fish Audio S2 Pro",
           "creator": "Fish Audio S2 Pro",
-          "score": 1113.0,
+          "score": 1112.0,
           "meta": "Mar 2026 · $15.0 /1M chars"
         },
         {
@@ -1890,7 +1902,7 @@
           "rank": 6,
           "name": "Voxtral TTS",
           "creator": "Voxtral TTS",
-          "score": 1091.0,
+          "score": 1090.0,
           "meta": "Mar 2026 · $16.0 /1M chars"
         },
         {
@@ -2135,55 +2147,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-20T15:28:55.147768+00:00"
+        "checked_at": "2026-10-20T19:29:20.889237+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-20T15:28:54.020354+00:00"
+        "checked_at": "2026-10-20T19:29:19.765229+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-20T15:28:58.444842+00:00"
+        "checked_at": "2026-10-20T19:29:23.942620+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-20T15:28:56.165357+00:00"
+        "checked_at": "2026-10-20T19:29:21.906063+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-20T15:29:00.687880+00:00"
+        "checked_at": "2026-10-20T19:29:26.132908+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-20T15:28:57.320980+00:00"
+        "checked_at": "2026-10-20T19:29:22.924993+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-20T15:28:59.480917+00:00"
+        "checked_at": "2026-10-20T19:29:24.984526+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-20T15:29:11.074915+00:00"
+      "checked_at": "2026-10-20T19:29:37.376315+00:00"
     }
   }
 }
