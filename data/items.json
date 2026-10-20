@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T19:29:37.386005+00:00",
+  "generated_at": "2026-10-20T22:31:51.543442+00:00",
   "items": [
     {
       "id": "yt:b2tjnxX8IHU",
@@ -84,8 +84,34 @@
       "summary": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism w",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 144,
+      "upvotes": 146,
       "arxiv_id": "2610.26825"
+    },
+    {
+      "id": "paper:2610.26625",
+      "title": "EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience",
+      "url": "https://huggingface.co/papers/2610.26625",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-19T00:00:00+00:00",
+      "summary": "Reconstructing human activity from egocentric video requires more than recovering individual 3D components: the observer's motion, surrounding geometry, and hand-object interactions must fit together in a consistent world. Achieving this coherence requires both joint reconstruction and aligned supervision, yet existing methods and datasets offer limited support for either. We present EgoXperience,",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 120,
+      "arxiv_id": "2610.26625"
+    },
+    {
+      "id": "paper:2610.26549",
+      "title": "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
+      "url": "https://huggingface.co/papers/2610.26549",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-19T00:00:00+00:00",
+      "summary": "Human egocentric experience offers a rich foundation for learning how the world is organized and how it changes through interaction. Realizing this potential at scale requires turning growing volumes of recordings into learning resources that connect scene structure, object semantics, and interaction histories across viewpoints and time, while reducing dependence on costly manual annotation. We in",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 109,
+      "arxiv_id": "2610.26549"
     },
     {
       "id": "paper:2610.25736",
@@ -101,30 +127,17 @@
       "arxiv_id": "2610.25736"
     },
     {
-      "id": "paper:2610.26549",
-      "title": "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
-      "url": "https://huggingface.co/papers/2610.26549",
+      "id": "paper:2610.26860",
+      "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+      "url": "https://huggingface.co/papers/2610.26860",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-19T00:00:00+00:00",
-      "summary": "Human egocentric experience offers a rich foundation for learning how the world is organized and how it changes through interaction. Realizing this potential at scale requires turning growing volumes of recordings into learning resources that connect scene structure, object semantics, and interaction histories across viewpoints and time, while reducing dependence on costly manual annotation. We in",
+      "summary": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains. Such tasks demand grounded perception, external knowledge, and numerical measurements o",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 104,
-      "arxiv_id": "2610.26549"
-    },
-    {
-      "id": "paper:2610.26625",
-      "title": "EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience",
-      "url": "https://huggingface.co/papers/2610.26625",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-19T00:00:00+00:00",
-      "summary": "Reconstructing human activity from egocentric video requires more than recovering individual 3D components: the observer's motion, surrounding geometry, and hand-object interactions must fit together in a consistent world. Achieving this coherence requires both joint reconstruction and aligned supervision, yet existing methods and datasets offer limited support for either. We present EgoXperience,",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 96,
-      "arxiv_id": "2610.26625"
+      "upvotes": 95,
+      "arxiv_id": "2610.26860"
     },
     {
       "id": "paper:2610.25690",
@@ -140,19 +153,6 @@
       "arxiv_id": "2610.25690"
     },
     {
-      "id": "paper:2610.26860",
-      "title": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
-      "url": "https://huggingface.co/papers/2610.26860",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-19T00:00:00+00:00",
-      "summary": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains. Such tasks demand grounded perception, external knowledge, and numerical measurements o",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 81,
-      "arxiv_id": "2610.26860"
-    },
-    {
       "id": "paper:2610.26824",
       "title": "SpecMRL: Redesign Matryoshka Representation Learning within Parametric Spectrum",
       "url": "https://huggingface.co/papers/2610.26824",
@@ -162,7 +162,7 @@
       "summary": "Matryoshka Representation Learning (MRL) is designed to support flexible representation sizes by jointly optimizing nested prefixes. While effective, this design lacks an explicit constraint to ensure that the leading portion provides a suitable compact encoding. To address this, we propose SpecMRL, which reorganizes the feature space to enable more effective prefix readout. Specifically, we exten",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 80,
+      "upvotes": 81,
       "arxiv_id": "2610.26824"
     },
     {
@@ -211,7 +211,7 @@
       "summary": "AI coworkers must coordinate tools, communicate across turns, and act on changing workspace state while respecting workflow constraints. Constructing training experience for these capabilities requires coherent requests, service records, tool interfaces, and grading checks. We present CoworkEnv, a capability-guided framework for synthesizing executable training environments for AI coworkers. Workf",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 37,
+      "upvotes": 38,
       "arxiv_id": "2610.24960"
     },
     {
@@ -224,7 +224,7 @@
       "summary": "Multi-turn image editing aims to modify an image according to a sequence of instructions, enabling more effective interactive visual content creation for users. However, existing methods often exhibit noticeable drift after only a few editing turns, manifesting in two aspects: 1) unstable visual quality, with accumulating artifacts and degraded details; and 2) inconsistent image content, with unin",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 34,
+      "upvotes": 36,
       "arxiv_id": "2610.25404"
     },
     {
@@ -273,7 +273,7 @@
       "summary": "Can large language model (LLM) agents deliver expert-level operations research (OR) solutions directly from original client materials, without prior expert reformulation? Existing OR benchmarks typically begin with self-contained descriptions or predefined optimization tasks, underrepresenting the translation of original business materials into professionally validated solutions. We introduce OR-L",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 111,
+      "upvotes": 153,
       "arxiv_id": "2610.24087"
     },
     {
@@ -299,7 +299,7 @@
       "summary": "Large language model (LLM) agents have shown promising potential in coding tasks, and their performance is jointly determined by the policy model and the harness that mediates their interaction with the environment. Indeed, harness and policy are mutually reinforcing and evolving only one component is suboptimal---a harness tuned for one checkpoint may not target the failure modes of an updated po",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 40,
+      "upvotes": 41,
       "arxiv_id": "2610.22791"
     },
     {
@@ -933,7 +933,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T19:29:37.272349+00:00",
+      "fetched_at": "2026-10-20T22:31:51.410915+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1015,7 +1015,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T19:29:37.274907+00:00",
+      "fetched_at": "2026-10-20T22:31:51.413650+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1097,7 +1097,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T19:29:37.277439+00:00",
+      "fetched_at": "2026-10-20T22:31:51.416382+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1179,7 +1179,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T19:29:37.278335+00:00",
+      "fetched_at": "2026-10-20T22:31:51.417331+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1233,7 +1233,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T19:29:37.282611+00:00",
+      "fetched_at": "2026-10-20T22:31:51.421753+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1315,7 +1315,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T19:29:37.282625+00:00",
+      "fetched_at": "2026-10-20T22:31:51.421772+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1369,7 +1369,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T19:29:37.284372+00:00",
+      "fetched_at": "2026-10-20T22:31:51.423764+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1451,7 +1451,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-20T19:29:37.315210+00:00",
+      "fetched_at": "2026-10-20T22:31:51.459561+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1533,7 +1533,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-20T19:29:37.346953+00:00",
+      "fetched_at": "2026-10-20T22:31:51.498150+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1615,7 +1615,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T19:29:37.357223+00:00",
+      "fetched_at": "2026-10-20T22:31:51.509846+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1697,7 +1697,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T19:29:37.361035+00:00",
+      "fetched_at": "2026-10-20T22:31:51.514207+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1779,7 +1779,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T19:29:37.371934+00:00",
+      "fetched_at": "2026-10-20T22:31:51.526176+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1861,7 +1861,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T19:29:37.374464+00:00",
+      "fetched_at": "2026-10-20T22:31:51.528896+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2147,55 +2147,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-20T19:29:20.889237+00:00"
+        "checked_at": "2026-10-20T22:31:35.955076+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-20T19:29:19.765229+00:00"
+        "checked_at": "2026-10-20T22:31:34.921308+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-20T19:29:23.942620+00:00"
+        "checked_at": "2026-10-20T22:31:39.025796+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-20T19:29:21.906063+00:00"
+        "checked_at": "2026-10-20T22:31:36.977019+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-20T19:29:26.132908+00:00"
+        "checked_at": "2026-10-20T22:31:41.184076+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-20T19:29:22.924993+00:00"
+        "checked_at": "2026-10-20T22:31:38.002301+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-20T19:29:24.984526+00:00"
+        "checked_at": "2026-10-20T22:31:40.067355+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-20T19:29:37.376315+00:00"
+      "checked_at": "2026-10-20T22:31:51.532548+00:00"
     }
   }
 }
