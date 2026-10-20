@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T21:38:16.020300+00:00",
+  "generated_at": "2026-10-20T00:49:42.204923+00:00",
   "items": [
     {
       "id": "yt:LWxX6vvHfrc",
@@ -107,7 +107,7 @@
       "summary": "Agents built on vision language models (VLMs) now compete with learned policies on robot manipulation leaderboards. We ask how far a coding agent can go when it controls a robot instead of a computer, and where it stops. Our system, HexaShell, keeps the harness thin: it only turns the agent's commands into robot motion. The agent drives a robot with two arms through one command line. It sees three",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 269,
+      "upvotes": 284,
       "arxiv_id": "2610.23479"
     },
     {
@@ -157,7 +157,7 @@
       "summary": "Spatial intelligence lets an agent perceive and act in the physical world, and many of its judgments must be made at interaction rates: which spatial relation holds, how far an object is, or where to place it. Vision-language models (VLMs) produce these answers by free-form text generation, paying for autoregressive decoding and answer parsing even though the output space is compact: one of a few ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 541,
+      "upvotes": 542,
       "arxiv_id": "2610.22276"
     },
     {
@@ -209,7 +209,7 @@
       "summary": "We study how vision-language models (VLMs) can learn to think and actively explore in 3D space. Instead of providing multi-view images, videos, or 3D representations to the model, we preserve the native visual encoding of VLMs, i.e., a single image, one at a time, just like humans, and treat the 3D representation only as an environment with which the model can interact through actions (e.g., move ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 143,
+      "upvotes": 144,
       "arxiv_id": "2610.21783"
     },
     {
@@ -290,6 +290,19 @@
       "arxiv_id": "2610.20939"
     },
     {
+      "id": "paper:2610.20951",
+      "title": "LEV: Thinking Fast and Deep with Looped Decision Models",
+      "url": "https://huggingface.co/papers/2610.20951",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-14T00:00:00+00:00",
+      "summary": "Decision models answer typed questions about an input with one probability per option, computed in a single forward pass without generating text. Like the fast System 1 of dual-process theory, they answer at once, but their depth is fixed at training time, so they spend the same computation on easy and hard questions. Models that reason in generated text can think longer, but they pay for every ex",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 74,
+      "arxiv_id": "2610.20951"
+    },
+    {
       "id": "paper:2610.20556",
       "title": "Speculative Sampling in Interactive Video Generation",
       "url": "https://huggingface.co/papers/2610.20556",
@@ -336,7 +349,7 @@
       "summary": "Long-horizon agents accumulate progress in persistent task state, yet repeatedly process interaction histories describing how that progress was achieved. This raises a natural question: can long-horizon context instead be organized around reusable progress rather than the history that produced it? In this paper, we introduce CarryOn, an object-oriented context runtime that organizes continuation a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 98,
+      "upvotes": 100,
       "arxiv_id": "2610.18784"
     },
     {
@@ -350,19 +363,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/z_sXLlLVUls/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
-    },
-    {
-      "id": "paper:2610.19159",
-      "title": "Into the Unknown: Benchmarking AI agents on open scientific research problems",
-      "url": "https://huggingface.co/papers/2610.19159",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-13T00:00:00+00:00",
-      "summary": "Can AI agents carry out research on open scientific problems? We introduce Into the Unknown, a benchmark that provides an agent with a science paper along with a research direction to pursue and tasks it to write a follow-up paper. We work with scientists at US Department of Energy (DOE) national laboratories, who each contribute an unpublished follow-up direction from their own work together with",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 129,
-      "arxiv_id": "2610.19159"
     },
     {
       "id": "yt:f7OpKLA-CLI",
@@ -921,7 +921,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T21:38:15.933063+00:00",
+      "fetched_at": "2026-10-20T00:49:42.072031+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1003,7 +1003,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T21:38:15.934926+00:00",
+      "fetched_at": "2026-10-20T00:49:42.074721+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1085,7 +1085,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T21:38:15.936854+00:00",
+      "fetched_at": "2026-10-20T00:49:42.077574+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1167,7 +1167,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T21:38:15.937550+00:00",
+      "fetched_at": "2026-10-20T00:49:42.078563+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1221,7 +1221,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T21:38:15.940825+00:00",
+      "fetched_at": "2026-10-20T00:49:42.083156+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1303,7 +1303,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T21:38:15.940836+00:00",
+      "fetched_at": "2026-10-20T00:49:42.083173+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1357,7 +1357,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T21:38:15.942179+00:00",
+      "fetched_at": "2026-10-20T00:49:42.085164+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1439,7 +1439,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-19T21:38:15.965605+00:00",
+      "fetched_at": "2026-10-20T00:49:42.122020+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1521,7 +1521,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-19T21:38:15.990663+00:00",
+      "fetched_at": "2026-10-20T00:49:42.160338+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1588,10 +1588,10 @@
         },
         {
           "rank": 10,
-          "name": "DeepSeek V4.1 Flash (max)",
-          "creator": "DeepSeek",
+          "name": "Muse Spark Open (xhigh)",
+          "creator": "Meta",
           "score": 39.0,
-          "meta": "1M ctx"
+          "meta": "1.05M ctx"
         }
       ]
     },
@@ -1603,7 +1603,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T21:38:15.998548+00:00",
+      "fetched_at": "2026-10-20T00:49:42.172035+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1685,7 +1685,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T21:38:16.001493+00:00",
+      "fetched_at": "2026-10-20T00:49:42.176311+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1767,7 +1767,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T21:38:16.009867+00:00",
+      "fetched_at": "2026-10-20T00:49:42.188266+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1849,7 +1849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-19T21:38:16.011913+00:00",
+      "fetched_at": "2026-10-20T00:49:42.191073+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2132,58 +2132,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-19T21:38:00.088892+00:00"
+        "ok": false,
+        "items": 3,
+        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-10-20T00:49:25.625656+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-19T21:37:58.943465+00:00"
+        "ok": false,
+        "items": 8,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-10-20T00:49:24.509010+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-19T21:38:03.386709+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-10-20T00:49:28.796522+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-19T21:38:01.105227+00:00"
+        "checked_at": "2026-10-20T00:49:26.677412+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-19T21:38:05.760968+00:00"
+        "checked_at": "2026-10-20T00:49:31.131996+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-19T21:38:02.249786+00:00"
+        "checked_at": "2026-10-20T00:49:27.721393+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-19T21:38:04.555899+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-10-20T00:49:29.870207+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-19T21:38:16.012742+00:00"
+      "checked_at": "2026-10-20T00:49:42.193166+00:00"
     }
   }
 }
