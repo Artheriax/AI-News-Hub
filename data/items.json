@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T22:31:51.543442+00:00",
+  "generated_at": "2026-10-21T01:08:32.803169+00:00",
   "items": [
     {
       "id": "yt:b2tjnxX8IHU",
@@ -71,7 +71,7 @@
       "summary": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from frozen pretrained backbones. Using neural data to train large models from scratch or fully fine-tune them after task-pretraining has proven difficult because neural data is costly and limited. We show that parameter-efficient fine-tuning (PEFT) enables us to effectively adapt very lar",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 231,
+      "upvotes": 234,
       "arxiv_id": "2610.26802"
     },
     {
@@ -97,7 +97,7 @@
       "summary": "Reconstructing human activity from egocentric video requires more than recovering individual 3D components: the observer's motion, surrounding geometry, and hand-object interactions must fit together in a consistent world. Achieving this coherence requires both joint reconstruction and aligned supervision, yet existing methods and datasets offer limited support for either. We present EgoXperience,",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 120,
+      "upvotes": 122,
       "arxiv_id": "2610.26625"
     },
     {
@@ -110,7 +110,7 @@
       "summary": "Human egocentric experience offers a rich foundation for learning how the world is organized and how it changes through interaction. Realizing this potential at scale requires turning growing volumes of recordings into learning resources that connect scene structure, object semantics, and interaction histories across viewpoints and time, while reducing dependence on costly manual annotation. We in",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 109,
+      "upvotes": 110,
       "arxiv_id": "2610.26549"
     },
     {
@@ -136,7 +136,7 @@
       "summary": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains. Such tasks demand grounded perception, external knowledge, and numerical measurements o",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 95,
+      "upvotes": 97,
       "arxiv_id": "2610.26860"
     },
     {
@@ -273,7 +273,7 @@
       "summary": "Can large language model (LLM) agents deliver expert-level operations research (OR) solutions directly from original client materials, without prior expert reformulation? Existing OR benchmarks typically begin with self-contained descriptions or predefined optimization tasks, underrepresenting the translation of original business materials into professionally validated solutions. We introduce OR-L",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 153,
+      "upvotes": 177,
       "arxiv_id": "2610.24087"
     },
     {
@@ -933,7 +933,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T22:31:51.410915+00:00",
+      "fetched_at": "2026-10-21T01:08:32.739375+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1015,7 +1015,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T22:31:51.413650+00:00",
+      "fetched_at": "2026-10-21T01:08:32.740688+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1097,7 +1097,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T22:31:51.416382+00:00",
+      "fetched_at": "2026-10-21T01:08:32.741995+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1179,7 +1179,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T22:31:51.417331+00:00",
+      "fetched_at": "2026-10-21T01:08:32.742461+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1233,7 +1233,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T22:31:51.421753+00:00",
+      "fetched_at": "2026-10-21T01:08:32.744853+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1315,7 +1315,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T22:31:51.421772+00:00",
+      "fetched_at": "2026-10-21T01:08:32.744862+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1369,7 +1369,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T22:31:51.423764+00:00",
+      "fetched_at": "2026-10-21T01:08:32.745777+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1451,7 +1451,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-20T22:31:51.459561+00:00",
+      "fetched_at": "2026-10-21T01:08:32.762899+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1533,7 +1533,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-20T22:31:51.498150+00:00",
+      "fetched_at": "2026-10-21T01:08:32.781037+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1615,7 +1615,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T22:31:51.509846+00:00",
+      "fetched_at": "2026-10-21T01:08:32.786511+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1697,7 +1697,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T22:31:51.514207+00:00",
+      "fetched_at": "2026-10-21T01:08:32.788491+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1779,7 +1779,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T22:31:51.526176+00:00",
+      "fetched_at": "2026-10-21T01:08:32.793913+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1861,7 +1861,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-20T22:31:51.528896+00:00",
+      "fetched_at": "2026-10-21T01:08:32.795174+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2144,58 +2144,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-20T22:31:35.955076+00:00"
+        "ok": false,
+        "items": 3,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-10-21T01:08:15.739656+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-20T22:31:34.921308+00:00"
+        "checked_at": "2026-10-21T01:08:14.689986+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-20T22:31:39.025796+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-10-21T01:08:18.838196+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-20T22:31:36.977019+00:00"
+        "checked_at": "2026-10-21T01:08:16.763592+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-20T22:31:41.184076+00:00"
+        "checked_at": "2026-10-21T01:08:21.074615+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-20T22:31:38.002301+00:00"
+        "checked_at": "2026-10-21T01:08:17.793461+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-20T22:31:40.067355+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-10-21T01:08:19.891531+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-20T22:31:51.532548+00:00"
+      "checked_at": "2026-10-21T01:08:32.796906+00:00"
     }
   }
 }
