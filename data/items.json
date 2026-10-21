@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T01:08:32.803169+00:00",
+  "generated_at": "2026-10-21T06:12:03.714090+00:00",
   "items": [
     {
       "id": "yt:b2tjnxX8IHU",
@@ -38,6 +38,58 @@
       "channel": "AI Search"
     },
     {
+      "id": "paper:2610.28578",
+      "title": "Sage-A1.5: From Long-Horizon Execution to Scientific Exploration with Capability Composition",
+      "url": "https://huggingface.co/papers/2610.28578",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-20T00:00:00+00:00",
+      "summary": "In this report, we introduce Sage-A1.5, a 35B Mixture-of-Experts agentic model that builds on A1 to advance long-horizon problem solving through adaptive capability composition. Compared with A1, Sage-A1.5 learns not only to solve individual tasks, but also to organize work and revise its approach during execution. Sage-A1.5 highlights three improvements: agentic orchestration, verification, and o",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 50,
+      "arxiv_id": "2610.28578"
+    },
+    {
+      "id": "paper:2610.27628",
+      "title": "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
+      "url": "https://huggingface.co/papers/2610.27628",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-20T00:00:00+00:00",
+      "summary": "Looped language models can run more iterations at test time, but additional iterations need not help them solve longer problems. For sequential state tracking, final-answer supervision does not specify how far each iteration should advance, and repeated updates can change the scale of the recurrent state. We introduce Progress-Aligned Recurrence (PAR), which trains the prediction at iteration k to",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 35,
+      "arxiv_id": "2610.27628"
+    },
+    {
+      "id": "paper:2610.28630",
+      "title": "SolarRenderer: Few-Step Generative Reference Rendering",
+      "url": "https://huggingface.co/papers/2610.28630",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-20T00:00:00+00:00",
+      "summary": "Game engines and coding agents can specify the layout, motion, and camera of a scene, yet turning such coarse structure into realistic video requires a renderer that follows the structure and completes the appearance it leaves open. Existing renderers are tied to the representation of one engine, need tens of denoising steps or a costly distillation of their own, and learn from conditions that are",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 33,
+      "arxiv_id": "2610.28630"
+    },
+    {
+      "id": "paper:2610.28594",
+      "title": "Learning the 4D World through Point Trajectory Forecasting",
+      "url": "https://huggingface.co/papers/2610.28594",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-20T00:00:00+00:00",
+      "summary": "Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene. To this end, we introduce Video-Point Model (VPM), a world model that conditions on multi-view video histories and a language instruction to jointly forecast future videos from arbitrary viewpoints and the 3D trajectories of persistent scene points. We extend a pretrained world model with",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 32,
+      "arxiv_id": "2610.28594"
+    },
+    {
       "id": "yt:LWxX6vvHfrc",
       "title": "Gemini 4 Argon Is Not What I Expected",
       "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
@@ -71,8 +123,34 @@
       "summary": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from frozen pretrained backbones. Using neural data to train large models from scratch or fully fine-tune them after task-pretraining has proven difficult because neural data is costly and limited. We show that parameter-efficient fine-tuning (PEFT) enables us to effectively adapt very lar",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 234,
+      "upvotes": 235,
       "arxiv_id": "2610.26802"
+    },
+    {
+      "id": "paper:2610.26625",
+      "title": "EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience",
+      "url": "https://huggingface.co/papers/2610.26625",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-19T00:00:00+00:00",
+      "summary": "Reconstructing human activity from egocentric video requires more than recovering individual 3D components: the observer's motion, surrounding geometry, and hand-object interactions must fit together in a consistent world. Achieving this coherence requires both joint reconstruction and aligned supervision, yet existing methods and datasets offer limited support for either. We present EgoXperience,",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 161,
+      "arxiv_id": "2610.26625"
+    },
+    {
+      "id": "paper:2610.26549",
+      "title": "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
+      "url": "https://huggingface.co/papers/2610.26549",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-19T00:00:00+00:00",
+      "summary": "Human egocentric experience offers a rich foundation for learning how the world is organized and how it changes through interaction. Realizing this potential at scale requires turning growing volumes of recordings into learning resources that connect scene structure, object semantics, and interaction histories across viewpoints and time, while reducing dependence on costly manual annotation. We in",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 147,
+      "arxiv_id": "2610.26549"
     },
     {
       "id": "paper:2610.26825",
@@ -88,32 +166,6 @@
       "arxiv_id": "2610.26825"
     },
     {
-      "id": "paper:2610.26625",
-      "title": "EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience",
-      "url": "https://huggingface.co/papers/2610.26625",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-19T00:00:00+00:00",
-      "summary": "Reconstructing human activity from egocentric video requires more than recovering individual 3D components: the observer's motion, surrounding geometry, and hand-object interactions must fit together in a consistent world. Achieving this coherence requires both joint reconstruction and aligned supervision, yet existing methods and datasets offer limited support for either. We present EgoXperience,",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 122,
-      "arxiv_id": "2610.26625"
-    },
-    {
-      "id": "paper:2610.26549",
-      "title": "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
-      "url": "https://huggingface.co/papers/2610.26549",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-19T00:00:00+00:00",
-      "summary": "Human egocentric experience offers a rich foundation for learning how the world is organized and how it changes through interaction. Realizing this potential at scale requires turning growing volumes of recordings into learning resources that connect scene structure, object semantics, and interaction histories across viewpoints and time, while reducing dependence on costly manual annotation. We in",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 110,
-      "arxiv_id": "2610.26549"
-    },
-    {
       "id": "paper:2610.25736",
       "title": "Learning from Fleet Experience: A Collective Learning Paradigm for Robots",
       "url": "https://huggingface.co/papers/2610.25736",
@@ -123,7 +175,7 @@
       "summary": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to meet as robot fleets grow. We introduce collective experience learning (CEL), a learning paradigm in w",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 107,
+      "upvotes": 109,
       "arxiv_id": "2610.25736"
     },
     {
@@ -136,8 +188,21 @@
       "summary": "Multimodal large language models (MLLMs) have made rapid progress on visual reasoning, yet many tasks require evidence that is difficult to obtain through internal reasoning alone: our controlled study on 22 benchmarks shows that simply increasing the inference budget of the base model yields only modest gains. Such tasks demand grounded perception, external knowledge, and numerical measurements o",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 97,
+      "upvotes": 98,
       "arxiv_id": "2610.26860"
+    },
+    {
+      "id": "paper:2610.26203",
+      "title": "Focused Omni-Modal GUI Agents",
+      "url": "https://huggingface.co/papers/2610.26203",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-19T00:00:00+00:00",
+      "summary": "Graphical User Interface (GUI) agents increasingly act over streaming omni-modal observations spanning screenshots, audio, video, interaction history, and device states. However, exposing this complete context uniformly at every step ignores that relevance is transient and sparse: the signal determining one action can become clutter at the next. Because executed actions feed back into the context,",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 84,
+      "arxiv_id": "2610.26203"
     },
     {
       "id": "paper:2610.25690",
@@ -164,6 +229,19 @@
       "kind": "paper",
       "upvotes": 81,
       "arxiv_id": "2610.26824"
+    },
+    {
+      "id": "paper:2610.26844",
+      "title": "AnyGoal: On World Model Generalization Beyond Expert Rollouts",
+      "url": "https://huggingface.co/papers/2610.26844",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-19T00:00:00+00:00",
+      "summary": "The goal of a world model is to capture the dynamics of an environment. This has the great appeal that it allows agents to plan and simulate a course of actions with the help of a world model. For these uses to be reliable, however, the learned dynamics must behave well beyond the specific state-action combinations observed in expert rollouts. Despite this, the relationship between data coverage, ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 32,
+      "arxiv_id": "2610.26844"
     },
     {
       "id": "yt:dk1OY5z08_Y",
@@ -211,21 +289,8 @@
       "summary": "AI coworkers must coordinate tools, communicate across turns, and act on changing workspace state while respecting workflow constraints. Constructing training experience for these capabilities requires coherent requests, service records, tool interfaces, and grading checks. We present CoworkEnv, a capability-guided framework for synthesizing executable training environments for AI coworkers. Workf",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 38,
+      "upvotes": 40,
       "arxiv_id": "2610.24960"
-    },
-    {
-      "id": "paper:2610.25404",
-      "title": "MT Forcing: Towards Stable and Consistent Multi-Turn Image Editing with Autoregressive Diffusion",
-      "url": "https://huggingface.co/papers/2610.25404",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-18T00:00:00+00:00",
-      "summary": "Multi-turn image editing aims to modify an image according to a sequence of instructions, enabling more effective interactive visual content creation for users. However, existing methods often exhibit noticeable drift after only a few editing turns, manifesting in two aspects: 1) unstable visual quality, with accumulating artifacts and degraded details; and 2) inconsistent image content, with unin",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 36,
-      "arxiv_id": "2610.25404"
     },
     {
       "id": "yt:hZPs633_58Q",
@@ -264,45 +329,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2610.24087",
-      "title": "OR-License: Evaluating LLM Agents as Real-World Operations Research Practitioners",
-      "url": "https://huggingface.co/papers/2610.24087",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-16T00:00:00+00:00",
-      "summary": "Can large language model (LLM) agents deliver expert-level operations research (OR) solutions directly from original client materials, without prior expert reformulation? Existing OR benchmarks typically begin with self-contained descriptions or predefined optimization tasks, underrepresenting the translation of original business materials into professionally validated solutions. We introduce OR-L",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 177,
-      "arxiv_id": "2610.24087"
-    },
-    {
-      "id": "paper:2610.23121",
-      "title": "Scene-Designer: Learning Design Intelligence for Agentic 3D Scene Generation",
-      "url": "https://huggingface.co/papers/2610.23121",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-16T00:00:00+00:00",
-      "summary": "Generating complete, coherent, and usable 3D indoor scenes from natural language requires strong design intelligence: the ability to design high-quality scenes and critique their quality. However, existing approaches either rely on general-purpose models lacking domain-specific design experience or learn from static scenes. In this work, we introduce Scene-Designer, an agentic framework that learn",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 56,
-      "arxiv_id": "2610.23121"
-    },
-    {
-      "id": "paper:2610.22791",
-      "title": "Self-Evolving Coding Agents via Harness-Policy Optimization",
-      "url": "https://huggingface.co/papers/2610.22791",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-16T00:00:00+00:00",
-      "summary": "Large language model (LLM) agents have shown promising potential in coding tasks, and their performance is jointly determined by the policy model and the harness that mediates their interaction with the environment. Indeed, harness and policy are mutually reinforcing and evolving only one component is suboptimal---a harness tuned for one checkpoint may not target the failure modes of an updated po",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 41,
-      "arxiv_id": "2610.22791"
-    },
-    {
       "id": "yt:l3L_lETiSzc",
       "title": "The runtime wars are over... and Node won",
       "url": "https://www.youtube.com/watch?v=l3L_lETiSzc",
@@ -325,32 +351,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/bk1xyTwzsY8/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
-    },
-    {
-      "id": "paper:2610.21783",
-      "title": "Learning to Think and Explore in 3D World",
-      "url": "https://huggingface.co/papers/2610.21783",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-15T00:00:00+00:00",
-      "summary": "We study how vision-language models (VLMs) can learn to think and actively explore in 3D space. Instead of providing multi-view images, videos, or 3D representations to the model, we preserve the native visual encoding of VLMs, i.e., a single image, one at a time, just like humans, and treat the 3D representation only as an environment with which the model can interact through actions (e.g., move ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 164,
-      "arxiv_id": "2610.21783"
-    },
-    {
-      "id": "paper:2610.22169",
-      "title": "Lexical Reference Frames: Interpreting LM Residual Streams in Native Semantics",
-      "url": "https://huggingface.co/papers/2610.22169",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-15T00:00:00+00:00",
-      "summary": "The vocabulary of a language model is its native semantics: the embedding and the unembedding fix the meaning of a state at the two ends of the residual stream. Between them, existing methods either reuse a fixed lens or treat the states as a point cloud, and neither reads a state the way the model does. We argue that every hidden state has a native reference frame, induced by the layers that read",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 47,
-      "arxiv_id": "2610.22169"
     },
     {
       "id": "yt:QZVzuq28eFw",
@@ -933,7 +933,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T01:08:32.739375+00:00",
+      "fetched_at": "2026-10-21T06:12:03.585206+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1015,7 +1015,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T01:08:32.740688+00:00",
+      "fetched_at": "2026-10-21T06:12:03.588085+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1097,7 +1097,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T01:08:32.741995+00:00",
+      "fetched_at": "2026-10-21T06:12:03.590934+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1179,7 +1179,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T01:08:32.742461+00:00",
+      "fetched_at": "2026-10-21T06:12:03.591919+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1233,7 +1233,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T01:08:32.744853+00:00",
+      "fetched_at": "2026-10-21T06:12:03.596498+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1315,7 +1315,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T01:08:32.744862+00:00",
+      "fetched_at": "2026-10-21T06:12:03.596512+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1369,7 +1369,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T01:08:32.745777+00:00",
+      "fetched_at": "2026-10-21T06:12:03.598465+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1451,7 +1451,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-21T01:08:32.762899+00:00",
+      "fetched_at": "2026-10-21T06:12:03.634539+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1533,7 +1533,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-21T01:08:32.781037+00:00",
+      "fetched_at": "2026-10-21T06:12:03.670732+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1615,7 +1615,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T01:08:32.786511+00:00",
+      "fetched_at": "2026-10-21T06:12:03.682436+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1697,7 +1697,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T01:08:32.788491+00:00",
+      "fetched_at": "2026-10-21T06:12:03.686780+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1779,27 +1779,27 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T01:08:32.793913+00:00",
+      "fetched_at": "2026-10-21T06:12:03.698932+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Eleven v4 Turbo",
           "creator": "Eleven v4 Turbo",
-          "score": 1333.0,
+          "score": 1332.0,
           "meta": "Sept 2026 · $40.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Eleven v4",
           "creator": "Eleven v4",
-          "score": 1328.0,
+          "score": 1327.0,
           "meta": "Sept 2026 · $80.0 /1M chars"
         },
         {
           "rank": 3,
           "name": "Qwen-Audio-3.1-TTS-Plus",
           "creator": "Qwen-Audio-3.1-TTS-Plus",
-          "score": 1299.0,
+          "score": 1301.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
@@ -1813,35 +1813,35 @@
           "rank": 5,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Gemini 3.8 Flash TTS",
-          "score": 1278.0,
+          "score": 1279.0,
           "meta": "Sept 2026 · $16.5 /1M chars"
         },
         {
           "rank": 6,
           "name": "Realtime TTS-2",
           "creator": "Realtime TTS-2",
-          "score": 1265.0,
+          "score": 1267.0,
           "meta": "Aug 2026 · $20.8 /1M chars"
         },
         {
           "rank": 7,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Qwen-Audio-3.0-TTS-Plus",
-          "score": 1264.0,
+          "score": 1265.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
           "rank": 8,
           "name": "Gemini 3.8 Flash-Lite TTS",
           "creator": "Gemini 3.8 Flash-Lite TTS",
-          "score": 1250.0,
+          "score": 1252.0,
           "meta": "Sept 2026 · $11.0 /1M chars"
         },
         {
           "rank": 9,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio Drama 3 Preview",
-          "score": 1247.0,
+          "score": 1248.0,
           "meta": "Oct 2026 · $15.0 /1M chars"
         },
         {
@@ -1861,27 +1861,27 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T01:08:32.795174+00:00",
+      "fetched_at": "2026-10-21T06:12:03.701786+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio Drama 3 Preview",
-          "score": 1247.0,
+          "score": 1248.0,
           "meta": "Oct 2026 · $15.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Breeze TTS 2",
           "creator": "Breeze TTS 2",
-          "score": 1222.0,
+          "score": 1223.0,
           "meta": "Aug 2026 · $34.0 /1M chars"
         },
         {
           "rank": 3,
           "name": "Ming-3.0-tts",
           "creator": "Ming-3.0-tts",
-          "score": 1188.0,
+          "score": 1189.0,
           "meta": "Oct 2026 · N/A"
         },
         {
@@ -1902,7 +1902,7 @@
           "rank": 6,
           "name": "Voxtral TTS",
           "creator": "Voxtral TTS",
-          "score": 1090.0,
+          "score": 1091.0,
           "meta": "Mar 2026 · $16.0 /1M chars"
         },
         {
@@ -2147,55 +2147,55 @@
         "ok": false,
         "items": 3,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-10-21T01:08:15.739656+00:00"
+        "checked_at": "2026-10-21T06:11:38.197154+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-21T01:08:14.689986+00:00"
+        "ok": false,
+        "items": 8,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-10-21T06:11:37.152331+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": false,
         "items": 15,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-10-21T01:08:18.838196+00:00"
+        "checked_at": "2026-10-21T06:11:41.318392+00:00"
       },
       {
         "name": "Fireship",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-21T01:08:16.763592+00:00"
+        "ok": false,
+        "items": 12,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "checked_at": "2026-10-21T06:11:39.234085+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T01:08:21.074615+00:00"
+        "checked_at": "2026-10-21T06:11:43.555669+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-21T01:08:17.793461+00:00"
+        "ok": false,
+        "items": 7,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-10-21T06:11:40.278379+00:00"
       },
       {
         "name": "World of AI",
         "ok": false,
         "items": 15,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-10-21T01:08:19.891531+00:00"
+        "checked_at": "2026-10-21T06:11:42.356067+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-21T01:08:32.796906+00:00"
+      "checked_at": "2026-10-21T06:12:03.703220+00:00"
     }
   }
 }
