@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T12:06:36.100898+00:00",
+  "generated_at": "2026-10-21T17:27:17.374371+00:00",
   "items": [
     {
       "id": "yt:b2tjnxX8IHU",
@@ -38,19 +38,6 @@
       "channel": "AI Search"
     },
     {
-      "id": "paper:2610.27628",
-      "title": "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
-      "url": "https://huggingface.co/papers/2610.27628",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-20T00:00:00+00:00",
-      "summary": "Looped language models can run more iterations at test time, but additional iterations need not help them solve longer problems. For sequential state tracking, final-answer supervision does not specify how far each iteration should advance, and repeated updates can change the scale of the recurrent state. We introduce Progress-Aligned Recurrence (PAR), which trains the prediction at iteration k to",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 136,
-      "arxiv_id": "2610.27628"
-    },
-    {
       "id": "paper:2610.27999",
       "title": "Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds",
       "url": "https://huggingface.co/papers/2610.27999",
@@ -60,8 +47,21 @@
       "summary": "Moving from controllable videos to genuinely playable worlds requires persistent world state, executable game rules, and low-latency interaction. We outline a roadmap for the next generation of Matrix-Game that separates game execution from visual generation through an executable game harness, and introduce Matrix-Game 4.0 as the first system built on this design. A lightweight game engine maintai",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 135,
+      "upvotes": 175,
       "arxiv_id": "2610.27999"
+    },
+    {
+      "id": "paper:2610.27628",
+      "title": "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
+      "url": "https://huggingface.co/papers/2610.27628",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-20T00:00:00+00:00",
+      "summary": "Looped language models can run more iterations at test time, but additional iterations need not help them solve longer problems. For sequential state tracking, final-answer supervision does not specify how far each iteration should advance, and repeated updates can change the scale of the recurrent state. We introduce Progress-Aligned Recurrence (PAR), which trains the prediction at iteration k to",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 146,
+      "arxiv_id": "2610.27628"
     },
     {
       "id": "paper:2610.28354",
@@ -73,7 +73,7 @@
       "summary": "Spatial reasoning asks a model to work out where objects are in 3D space, how they relate to one another, and how they move. Agentic VLMs have recently brought large improvements on such tasks by letting the model actively gather evidence with 3D perception tools instead of answering in a single pass. Even so, on many questions the tools return the right evidence and the model still does not arriv",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 68,
+      "upvotes": 87,
       "arxiv_id": "2610.28354"
     },
     {
@@ -86,21 +86,8 @@
       "summary": "In this report, we introduce Sage-A1.5, a 35B Mixture-of-Experts agentic model that builds on A1 to advance long-horizon problem solving through adaptive capability composition. Compared with A1, Sage-A1.5 learns not only to solve individual tasks, but also to organize work and revise its approach during execution. Sage-A1.5 highlights three improvements: agentic orchestration, verification, and o",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 58,
+      "upvotes": 61,
       "arxiv_id": "2610.28578"
-    },
-    {
-      "id": "paper:2610.28594",
-      "title": "Learning the 4D World through Point Trajectory Forecasting",
-      "url": "https://huggingface.co/papers/2610.28594",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-20T00:00:00+00:00",
-      "summary": "Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene. To this end, we introduce Video-Point Model (VPM), a world model that conditions on multi-view video histories and a language instruction to jointly forecast future videos from arbitrary viewpoints and the 3D trajectories of persistent scene points. We extend a pretrained world model with",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 39,
-      "arxiv_id": "2610.28594"
     },
     {
       "id": "paper:2610.28630",
@@ -112,8 +99,21 @@
       "summary": "Game engines and coding agents can specify the layout, motion, and camera of a scene, yet turning such coarse structure into realistic video requires a renderer that follows the structure and completes the appearance it leaves open. Existing renderers are tied to the representation of one engine, need tens of denoising steps or a costly distillation of their own, and learn from conditions that are",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 39,
+      "upvotes": 43,
       "arxiv_id": "2610.28630"
+    },
+    {
+      "id": "paper:2610.28594",
+      "title": "Learning the 4D World through Point Trajectory Forecasting",
+      "url": "https://huggingface.co/papers/2610.28594",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-20T00:00:00+00:00",
+      "summary": "Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene. To this end, we introduce Video-Point Model (VPM), a world model that conditions on multi-view video histories and a language instruction to jointly forecast future videos from arbitrary viewpoints and the 3D trajectories of persistent scene points. We extend a pretrained world model with",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 41,
+      "arxiv_id": "2610.28594"
     },
     {
       "id": "yt:LWxX6vvHfrc",
@@ -140,30 +140,17 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2610.26802",
-      "title": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
-      "url": "https://huggingface.co/papers/2610.26802",
+      "id": "paper:2610.26203",
+      "title": "Focused Omni-Modal GUI Agents",
+      "url": "https://huggingface.co/papers/2610.26203",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-19T00:00:00+00:00",
-      "summary": "Brain encoding models aim to predict neural responses to stimuli. The most widely used approach fits readouts from frozen pretrained backbones. Using neural data to train large models from scratch or fully fine-tune them after task-pretraining has proven difficult because neural data is costly and limited. We show that parameter-efficient fine-tuning (PEFT) enables us to effectively adapt very lar",
+      "summary": "Graphical User Interface (GUI) agents increasingly act over streaming omni-modal observations spanning screenshots, audio, video, interaction history, and device states. However, exposing this complete context uniformly at every step ignores that relevance is transient and sparse: the signal determining one action can become clutter at the next. Because executed actions feed back into the context,",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 235,
-      "arxiv_id": "2610.26802"
-    },
-    {
-      "id": "paper:2610.26549",
-      "title": "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
-      "url": "https://huggingface.co/papers/2610.26549",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-19T00:00:00+00:00",
-      "summary": "Human egocentric experience offers a rich foundation for learning how the world is organized and how it changes through interaction. Realizing this potential at scale requires turning growing volumes of recordings into learning resources that connect scene structure, object semantics, and interaction histories across viewpoints and time, while reducing dependence on costly manual annotation. We in",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 155,
-      "arxiv_id": "2610.26549"
+      "upvotes": 168,
+      "arxiv_id": "2610.26203"
     },
     {
       "id": "paper:2610.26825",
@@ -175,34 +162,21 @@
       "summary": "Memory-native evolution requires making memory an intrinsic capability of foundation models, enabling them to continuously accumulate and utilize information. To this end, we introduce MemT-1.0, a new architecture of memory foundation models that internalize memory as part of model computation. Building on Metis, MemT-1.0 employs Gated DeltaNet-2 with a stable token-level memory update mechanism w",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 154,
+      "upvotes": 155,
       "arxiv_id": "2610.26825"
     },
     {
-      "id": "paper:2610.26203",
-      "title": "Focused Omni-Modal GUI Agents",
-      "url": "https://huggingface.co/papers/2610.26203",
+      "id": "paper:2610.26855",
+      "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+      "url": "https://huggingface.co/papers/2610.26855",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-19T00:00:00+00:00",
-      "summary": "Graphical User Interface (GUI) agents increasingly act over streaming omni-modal observations spanning screenshots, audio, video, interaction history, and device states. However, exposing this complete context uniformly at every step ignores that relevance is transient and sparse: the signal determining one action can become clutter at the next. Because executed actions feed back into the context,",
+      "summary": "World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments. We curate Xp-Data, compr",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 121,
-      "arxiv_id": "2610.26203"
-    },
-    {
-      "id": "paper:2610.25736",
-      "title": "Learning from Fleet Experience: A Collective Learning Paradigm for Robots",
-      "url": "https://huggingface.co/papers/2610.25736",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-19T00:00:00+00:00",
-      "summary": "Experience generated during deployment offers an opportunity for robots to improve policy reliability through learning from their own executions. However, learning through human corrections requires teleoperators to monitor execution and intervene when policies fail, a demand that is difficult to meet as robot fleets grow. We introduce collective experience learning (CEL), a learning paradigm in w",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 111,
-      "arxiv_id": "2610.25736"
+      "upvotes": 134,
+      "arxiv_id": "2610.26855"
     },
     {
       "id": "paper:2610.26824",
@@ -218,17 +192,43 @@
       "arxiv_id": "2610.26824"
     },
     {
-      "id": "paper:2610.26855",
-      "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
-      "url": "https://huggingface.co/papers/2610.26855",
+      "id": "paper:2610.26834",
+      "title": "Kronecker Delta Rule for Long Context Linear Attention",
+      "url": "https://huggingface.co/papers/2610.26834",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-19T00:00:00+00:00",
-      "summary": "World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments. We curate Xp-Data, compr",
+      "summary": "We propose KronLSTM, a linear attention architecture based on the Kronecker Delta Rule, a novel update rule for associative matrix memories. KronLSTM extends the xLSTM family with a memory-revision mechanism that corrects targeted associations while modifying the memory only along a single direction in matrix space. This minimally invasive memory revision reduces interference with previously store",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 75,
-      "arxiv_id": "2610.26855"
+      "upvotes": 28,
+      "arxiv_id": "2610.26834"
+    },
+    {
+      "id": "paper:2610.25844",
+      "title": "SWIFT: Self-guided Weak-to-strong dIFfusion models via Target extrapolation",
+      "url": "https://huggingface.co/papers/2610.25844",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-19T00:00:00+00:00",
+      "summary": "Training high-quality diffusion models is computationally expensive, and inference-time guidance often adds further sampling cost. In this work, we introduce Swift, a simple yet effective self-guided training method that uses a frozen weak denoiser to improve a stronger model without adding inference overhead. For each noisy input, Swift extrapolates the clean regression target away from the weak ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 27,
+      "arxiv_id": "2610.25844"
+    },
+    {
+      "id": "paper:2610.26663",
+      "title": "RoboValue: A Fine-Grained Sim-and-Real Benchmark for Unified Evaluation of Robotic Value Models",
+      "url": "https://huggingface.co/papers/2610.26663",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-19T00:00:00+00:00",
+      "summary": "Robotic value models assess task execution from visual observations and instructions, providing feedback for policy learning and execution monitoring. However, existing evaluations cover only selected aspects of execution understanding, leaving the reliability of value feedback insufficiently tested. We introduce RoboValue, a fine-grained sim-and-real benchmark for unified evaluation of robotic va",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 23,
+      "arxiv_id": "2610.26663"
     },
     {
       "id": "yt:dk1OY5z08_Y",
@@ -276,7 +276,7 @@
       "summary": "Flow-matching vision-language-action (VLA) models generate an action chunk by iteratively denoising Gaussian noise, but typically execute only a short prefix before replanning with updated observations. Under this receding-horizon paradigm, the unexecuted remainder---the action tail---is discarded, and the next chunk is regenerated from fresh noise. We show that this discarded tail retains transfe",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 58,
+      "upvotes": 59,
       "arxiv_id": "2610.25043"
     },
     {
@@ -289,7 +289,7 @@
       "summary": "Model--harness co-evolution has emerged as a prominent paradigm for recursive self-improving (RSI) agents, jointly evolving their execution scaffolds and intrinsic capabilities. We study the persistent yet often overlooked brain--body mismatch problem in this paradigm, where an evolving harness (body) demands behaviors its model (brain) has not learned or restricts capabilities it already possesse",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 55,
+      "upvotes": 58,
       "arxiv_id": "2610.25078"
     },
     {
@@ -933,7 +933,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T12:06:35.970052+00:00",
+      "fetched_at": "2026-10-21T17:27:17.243917+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1015,7 +1015,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T12:06:35.972905+00:00",
+      "fetched_at": "2026-10-21T17:27:17.246801+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1097,7 +1097,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T12:06:35.975744+00:00",
+      "fetched_at": "2026-10-21T17:27:17.249664+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1179,7 +1179,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T12:06:35.976731+00:00",
+      "fetched_at": "2026-10-21T17:27:17.250657+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1233,7 +1233,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T12:06:35.981264+00:00",
+      "fetched_at": "2026-10-21T17:27:17.255276+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1315,7 +1315,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T12:06:35.981278+00:00",
+      "fetched_at": "2026-10-21T17:27:17.255296+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1369,7 +1369,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T12:06:35.983249+00:00",
+      "fetched_at": "2026-10-21T17:27:17.257294+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1451,7 +1451,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-21T12:06:36.018639+00:00",
+      "fetched_at": "2026-10-21T17:27:17.293282+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1533,7 +1533,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-21T12:06:36.057217+00:00",
+      "fetched_at": "2026-10-21T17:27:17.330859+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1615,7 +1615,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T12:06:36.069151+00:00",
+      "fetched_at": "2026-10-21T17:27:17.342743+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1697,7 +1697,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T12:06:36.073602+00:00",
+      "fetched_at": "2026-10-21T17:27:17.347185+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1779,7 +1779,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T12:06:36.085958+00:00",
+      "fetched_at": "2026-10-21T17:27:17.359438+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1861,7 +1861,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T12:06:36.088730+00:00",
+      "fetched_at": "2026-10-21T17:27:17.362208+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2147,55 +2147,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T12:06:17.819552+00:00"
+        "checked_at": "2026-10-21T17:27:00.777676+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T12:06:16.792209+00:00"
+        "checked_at": "2026-10-21T17:26:59.739297+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T12:06:20.884922+00:00"
+        "checked_at": "2026-10-21T17:27:03.844771+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T12:06:18.839423+00:00"
+        "checked_at": "2026-10-21T17:27:01.799010+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T12:06:23.107915+00:00"
+        "checked_at": "2026-10-21T17:27:06.357878+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T12:06:19.863865+00:00"
+        "checked_at": "2026-10-21T17:27:02.822379+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T12:06:21.921618+00:00"
+        "checked_at": "2026-10-21T17:27:05.098637+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-21T12:06:36.090156+00:00"
+      "checked_at": "2026-10-21T17:27:17.363494+00:00"
     }
   }
 }
