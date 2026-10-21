@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T17:27:17.374371+00:00",
+  "generated_at": "2026-10-21T20:47:21.502840+00:00",
   "items": [
     {
       "id": "yt:b2tjnxX8IHU",
@@ -47,7 +47,7 @@
       "summary": "Moving from controllable videos to genuinely playable worlds requires persistent world state, executable game rules, and low-latency interaction. We outline a roadmap for the next generation of Matrix-Game that separates game execution from visual generation through an executable game harness, and introduce Matrix-Game 4.0 as the first system built on this design. A lightweight game engine maintai",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 175,
+      "upvotes": 177,
       "arxiv_id": "2610.27999"
     },
     {
@@ -60,7 +60,7 @@
       "summary": "Looped language models can run more iterations at test time, but additional iterations need not help them solve longer problems. For sequential state tracking, final-answer supervision does not specify how far each iteration should advance, and repeated updates can change the scale of the recurrent state. We introduce Progress-Aligned Recurrence (PAR), which trains the prediction at iteration k to",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 146,
+      "upvotes": 147,
       "arxiv_id": "2610.27628"
     },
     {
@@ -73,7 +73,7 @@
       "summary": "Spatial reasoning asks a model to work out where objects are in 3D space, how they relate to one another, and how they move. Agentic VLMs have recently brought large improvements on such tasks by letting the model actively gather evidence with 3D perception tools instead of answering in a single pass. Even so, on many questions the tools return the right evidence and the model still does not arriv",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 87,
+      "upvotes": 91,
       "arxiv_id": "2610.28354"
     },
     {
@@ -99,7 +99,7 @@
       "summary": "Game engines and coding agents can specify the layout, motion, and camera of a scene, yet turning such coarse structure into realistic video requires a renderer that follows the structure and completes the appearance it leaves open. Existing renderers are tied to the representation of one engine, need tens of denoising steps or a costly distillation of their own, and learn from conditions that are",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 43,
+      "upvotes": 44,
       "arxiv_id": "2610.28630"
     },
     {
@@ -149,7 +149,7 @@
       "summary": "Graphical User Interface (GUI) agents increasingly act over streaming omni-modal observations spanning screenshots, audio, video, interaction history, and device states. However, exposing this complete context uniformly at every step ignores that relevance is transient and sparse: the signal determining one action can become clutter at the next. Because executed actions feed back into the context,",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 168,
+      "upvotes": 199,
       "arxiv_id": "2610.26203"
     },
     {
@@ -175,7 +175,7 @@
       "summary": "World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments. We curate Xp-Data, compr",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 134,
+      "upvotes": 154,
       "arxiv_id": "2610.26855"
     },
     {
@@ -267,6 +267,19 @@
       "channel": "AI Search"
     },
     {
+      "id": "paper:2610.25078",
+      "title": "CoEvo-RSI: When Harnesses Evolve, Which Models Should Follow?",
+      "url": "https://huggingface.co/papers/2610.25078",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-18T00:00:00+00:00",
+      "summary": "Model--harness co-evolution has emerged as a prominent paradigm for recursive self-improving (RSI) agents, jointly evolving their execution scaffolds and intrinsic capabilities. We study the persistent yet often overlooked brain--body mismatch problem in this paradigm, where an evolving harness (body) demands behaviors its model (brain) has not learned or restricts capabilities it already possesse",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 59,
+      "arxiv_id": "2610.25078"
+    },
+    {
       "id": "paper:2610.25043",
       "title": "VLA-Rolling: Fewer Denoising Steps, Better Control via Adaptive Action Reuse",
       "url": "https://huggingface.co/papers/2610.25043",
@@ -278,19 +291,6 @@
       "kind": "paper",
       "upvotes": 59,
       "arxiv_id": "2610.25043"
-    },
-    {
-      "id": "paper:2610.25078",
-      "title": "CoEvo-RSI: When Harnesses Evolve, Which Models Should Follow?",
-      "url": "https://huggingface.co/papers/2610.25078",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-18T00:00:00+00:00",
-      "summary": "Model--harness co-evolution has emerged as a prominent paradigm for recursive self-improving (RSI) agents, jointly evolving their execution scaffolds and intrinsic capabilities. We study the persistent yet often overlooked brain--body mismatch problem in this paradigm, where an evolving harness (body) demands behaviors its model (brain) has not learned or restricts capabilities it already possesse",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 58,
-      "arxiv_id": "2610.25078"
     },
     {
       "id": "yt:hZPs633_58Q",
@@ -903,18 +903,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/BaE6UBfNdQk/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "yt:TbkUKCm3CHQ",
-      "title": "An ex-OpenAI researcher just deleted language from the LLM...",
-      "url": "https://www.youtube.com/watch?v=TbkUKCm3CHQ",
-      "source": "Fireship",
-      "category": "videos",
-      "published": "2026-09-21T17:52:29+00:00",
-      "summary": "Mux is the video API that translates audio and answers questions about your video. Get $50 in free credits: https://mux.com/fireship Ex-OpenAI researcher Diogo Almeida spent two years in stealth building Jev, a \"System 1\" AI model that can't talk or write code but claims to be 200x faster, 400x chea",
-      "thumbnail": "https://i1.ytimg.com/vi/TbkUKCm3CHQ/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Fireship"
     }
   ],
   "featured": [
@@ -933,7 +921,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T17:27:17.243917+00:00",
+      "fetched_at": "2026-10-21T20:47:21.413400+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1015,7 +1003,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T17:27:17.246801+00:00",
+      "fetched_at": "2026-10-21T20:47:21.415358+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1097,7 +1085,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T17:27:17.249664+00:00",
+      "fetched_at": "2026-10-21T20:47:21.417332+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1179,7 +1167,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T17:27:17.250657+00:00",
+      "fetched_at": "2026-10-21T20:47:21.418030+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1233,7 +1221,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T17:27:17.255276+00:00",
+      "fetched_at": "2026-10-21T20:47:21.421389+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1315,7 +1303,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T17:27:17.255296+00:00",
+      "fetched_at": "2026-10-21T20:47:21.421403+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1369,7 +1357,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T17:27:17.257294+00:00",
+      "fetched_at": "2026-10-21T20:47:21.422757+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1451,7 +1439,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-21T17:27:17.293282+00:00",
+      "fetched_at": "2026-10-21T20:47:21.446389+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1533,7 +1521,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-21T17:27:17.330859+00:00",
+      "fetched_at": "2026-10-21T20:47:21.471202+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1615,7 +1603,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T17:27:17.342743+00:00",
+      "fetched_at": "2026-10-21T20:47:21.479237+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1697,7 +1685,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T17:27:17.347185+00:00",
+      "fetched_at": "2026-10-21T20:47:21.482272+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1779,7 +1767,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T17:27:17.359438+00:00",
+      "fetched_at": "2026-10-21T20:47:21.490860+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1861,7 +1849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T17:27:17.362208+00:00",
+      "fetched_at": "2026-10-21T20:47:21.492880+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2147,55 +2135,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T17:27:00.777676+00:00"
+        "checked_at": "2026-10-21T20:47:05.410559+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T17:26:59.739297+00:00"
+        "checked_at": "2026-10-21T20:47:04.388703+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T17:27:03.844771+00:00"
+        "checked_at": "2026-10-21T20:47:08.827127+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T17:27:01.799010+00:00"
+        "checked_at": "2026-10-21T20:47:06.424052+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T17:27:06.357878+00:00"
+        "checked_at": "2026-10-21T20:47:11.189092+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T17:27:02.822379+00:00"
+        "checked_at": "2026-10-21T20:47:07.618746+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T17:27:05.098637+00:00"
+        "checked_at": "2026-10-21T20:47:10.008501+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-21T17:27:17.363494+00:00"
+      "checked_at": "2026-10-21T20:47:21.495202+00:00"
     }
   }
 }
