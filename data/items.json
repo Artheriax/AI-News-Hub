@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T20:47:21.502840+00:00",
+  "generated_at": "2026-10-21T23:48:39.939742+00:00",
   "items": [
     {
       "id": "yt:b2tjnxX8IHU",
@@ -47,7 +47,7 @@
       "summary": "Moving from controllable videos to genuinely playable worlds requires persistent world state, executable game rules, and low-latency interaction. We outline a roadmap for the next generation of Matrix-Game that separates game execution from visual generation through an executable game harness, and introduce Matrix-Game 4.0 as the first system built on this design. A lightweight game engine maintai",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 177,
+      "upvotes": 178,
       "arxiv_id": "2610.27999"
     },
     {
@@ -86,7 +86,7 @@
       "summary": "In this report, we introduce Sage-A1.5, a 35B Mixture-of-Experts agentic model that builds on A1 to advance long-horizon problem solving through adaptive capability composition. Compared with A1, Sage-A1.5 learns not only to solve individual tasks, but also to organize work and revise its approach during execution. Sage-A1.5 highlights three improvements: agentic orchestration, verification, and o",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 61,
+      "upvotes": 63,
       "arxiv_id": "2610.28578"
     },
     {
@@ -99,7 +99,7 @@
       "summary": "Game engines and coding agents can specify the layout, motion, and camera of a scene, yet turning such coarse structure into realistic video requires a renderer that follows the structure and completes the appearance it leaves open. Existing renderers are tied to the representation of one engine, need tens of denoising steps or a costly distillation of their own, and learn from conditions that are",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 44,
+      "upvotes": 47,
       "arxiv_id": "2610.28630"
     },
     {
@@ -149,8 +149,21 @@
       "summary": "Graphical User Interface (GUI) agents increasingly act over streaming omni-modal observations spanning screenshots, audio, video, interaction history, and device states. However, exposing this complete context uniformly at every step ignores that relevance is transient and sparse: the signal determining one action can become clutter at the next. Because executed actions feed back into the context,",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 199,
+      "upvotes": 223,
       "arxiv_id": "2610.26203"
+    },
+    {
+      "id": "paper:2610.26855",
+      "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+      "url": "https://huggingface.co/papers/2610.26855",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-19T00:00:00+00:00",
+      "summary": "World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments. We curate Xp-Data, compr",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 176,
+      "arxiv_id": "2610.26855"
     },
     {
       "id": "paper:2610.26825",
@@ -164,19 +177,6 @@
       "kind": "paper",
       "upvotes": 155,
       "arxiv_id": "2610.26825"
-    },
-    {
-      "id": "paper:2610.26855",
-      "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
-      "url": "https://huggingface.co/papers/2610.26855",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-19T00:00:00+00:00",
-      "summary": "World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments. We curate Xp-Data, compr",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 154,
-      "arxiv_id": "2610.26855"
     },
     {
       "id": "paper:2610.26824",
@@ -921,7 +921,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T20:47:21.413400+00:00",
+      "fetched_at": "2026-10-21T23:48:39.826039+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1003,7 +1003,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T20:47:21.415358+00:00",
+      "fetched_at": "2026-10-21T23:48:39.828545+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1085,7 +1085,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T20:47:21.417332+00:00",
+      "fetched_at": "2026-10-21T23:48:39.831056+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1167,7 +1167,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T20:47:21.418030+00:00",
+      "fetched_at": "2026-10-21T23:48:39.831984+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1221,7 +1221,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T20:47:21.421389+00:00",
+      "fetched_at": "2026-10-21T23:48:39.836245+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1303,7 +1303,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T20:47:21.421403+00:00",
+      "fetched_at": "2026-10-21T23:48:39.836258+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1357,7 +1357,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T20:47:21.422757+00:00",
+      "fetched_at": "2026-10-21T23:48:39.838129+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1439,7 +1439,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-21T20:47:21.446389+00:00",
+      "fetched_at": "2026-10-21T23:48:39.868497+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1521,7 +1521,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-21T20:47:21.471202+00:00",
+      "fetched_at": "2026-10-21T23:48:39.900304+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1603,7 +1603,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T20:47:21.479237+00:00",
+      "fetched_at": "2026-10-21T23:48:39.910961+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1685,7 +1685,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T20:47:21.482272+00:00",
+      "fetched_at": "2026-10-21T23:48:39.914935+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1767,7 +1767,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T20:47:21.490860+00:00",
+      "fetched_at": "2026-10-21T23:48:39.926068+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1849,7 +1849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-21T20:47:21.492880+00:00",
+      "fetched_at": "2026-10-21T23:48:39.928686+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2135,55 +2135,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T20:47:05.410559+00:00"
+        "checked_at": "2026-10-21T23:48:23.112651+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T20:47:04.388703+00:00"
+        "checked_at": "2026-10-21T23:48:22.073344+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T20:47:08.827127+00:00"
+        "checked_at": "2026-10-21T23:48:26.190328+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T20:47:06.424052+00:00"
+        "checked_at": "2026-10-21T23:48:24.129149+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T20:47:11.189092+00:00"
+        "checked_at": "2026-10-21T23:48:28.416845+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T20:47:07.618746+00:00"
+        "checked_at": "2026-10-21T23:48:25.168390+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-21T20:47:10.008501+00:00"
+        "checked_at": "2026-10-21T23:48:27.232837+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-21T20:47:21.495202+00:00"
+      "checked_at": "2026-10-21T23:48:39.930068+00:00"
     }
   }
 }
