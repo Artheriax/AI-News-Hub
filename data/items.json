@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T21:47:49.355676+00:00",
+  "generated_at": "2026-10-23T00:15:25.150171+00:00",
   "items": [
     {
       "id": "yt:zv6B6PQOuHE",
@@ -48,7 +48,7 @@
       "summary": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk denoising, reducing the pressure to model visual evolution. We introduce Future Chunk Prediction (FCP), an auxi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 108,
+      "upvotes": 111,
       "arxiv_id": "2610.29989"
     },
     {
@@ -61,8 +61,21 @@
       "summary": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfuln",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 26,
+      "upvotes": 28,
       "arxiv_id": "2610.29722"
+    },
+    {
+      "id": "paper:2610.30113",
+      "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
+      "url": "https://huggingface.co/papers/2610.30113",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-21T00:00:00+00:00",
+      "summary": "Quantitative research is an iterative loop: a researcher proposes a market hypothesis, implements it as an executable signal, tests it on historical data, and decides what to keep. Existing benchmarks score formulas, code, or individual trading decisions, leaving open whether large language models (LLMs) can complete this loop and produce strategies that work beyond the research period. We introdu",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 21,
+      "arxiv_id": "2610.30113"
     },
     {
       "id": "yt:b2tjnxX8IHU",
@@ -110,21 +123,8 @@
       "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, ea",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 328,
+      "upvotes": 347,
       "arxiv_id": "2610.28402"
-    },
-    {
-      "id": "paper:2610.27628",
-      "title": "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
-      "url": "https://huggingface.co/papers/2610.27628",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-20T00:00:00+00:00",
-      "summary": "Looped language models can run more iterations at test time, but additional iterations need not help them solve longer problems. For sequential state tracking, final-answer supervision does not specify how far each iteration should advance, and repeated updates can change the scale of the recurrent state. We introduce Progress-Aligned Recurrence (PAR), which trains the prediction at iteration k to",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 154,
-      "arxiv_id": "2610.27628"
     },
     {
       "id": "paper:2610.28577",
@@ -136,34 +136,8 @@
       "summary": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 111,
+      "upvotes": 112,
       "arxiv_id": "2610.28577"
-    },
-    {
-      "id": "paper:2610.28354",
-      "title": "S-Agent 2.0: Spatial Reasoning with a General Coding Agent",
-      "url": "https://huggingface.co/papers/2610.28354",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-20T00:00:00+00:00",
-      "summary": "Spatial reasoning asks a model to work out where objects are in 3D space, how they relate to one another, and how they move. Agentic VLMs have recently brought large improvements on such tasks by letting the model actively gather evidence with 3D perception tools instead of answering in a single pass. Even so, on many questions the tools return the right evidence and the model still does not arriv",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 104,
-      "arxiv_id": "2610.28354"
-    },
-    {
-      "id": "paper:2610.28698",
-      "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
-      "url": "https://huggingface.co/papers/2610.28698",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-20T00:00:00+00:00",
-      "summary": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes:",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 46,
-      "arxiv_id": "2610.28698"
     },
     {
       "id": "paper:2610.28594",
@@ -175,8 +149,21 @@
       "summary": "Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene. To this end, we introduce Video-Point Model (VPM), a world model that conditions on multi-view video histories and a language instruction to jointly forecast future videos from arbitrary viewpoints and the 3D trajectories of persistent scene points. We extend a pretrained world model with",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 46,
+      "upvotes": 48,
       "arxiv_id": "2610.28594"
+    },
+    {
+      "id": "paper:2610.28698",
+      "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+      "url": "https://huggingface.co/papers/2610.28698",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-20T00:00:00+00:00",
+      "summary": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes:",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 47,
+      "arxiv_id": "2610.28698"
     },
     {
       "id": "paper:2610.28632",
@@ -201,7 +188,7 @@
       "summary": "Mixture-of-experts (MoE) models often exceed a single accelerator's memory capacity. Offloading experts to host memory creates a severe PCIe I/O bottleneck because data-dependent routing keeps transfers on the critical path. We present Specter, an inference system that uses quantization to combine speculative decoding with expert offloading. Its lightweight quantized draft model runs efficiently o",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 22,
+      "upvotes": 24,
       "arxiv_id": "2511.14102"
     },
     {
@@ -251,7 +238,7 @@
       "summary": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general com",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 64,
+      "upvotes": 65,
       "arxiv_id": "2610.26828"
     },
     {
@@ -266,6 +253,19 @@
       "kind": "paper",
       "upvotes": 27,
       "arxiv_id": "2610.26837"
+    },
+    {
+      "id": "paper:2610.26542",
+      "title": "Breaking Diffusion: Parallel Reasoning with Draft Refinement",
+      "url": "https://huggingface.co/papers/2610.26542",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-19T00:00:00+00:00",
+      "summary": "Drafting an answer allows a reasoning model to reconsider each decision in the context of the others. Yet repeated diffusion denoising does not ensure that individually plausible token updates form a better answer together. We introduce Draft Refinement Language Models (DRLMs), which use a single denoiser to propose parallel revisions and evaluate a candidate draft. We train the denoiser to recons",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 22,
+      "arxiv_id": "2610.26542"
     },
     {
       "id": "yt:dk1OY5z08_Y",
@@ -313,7 +313,7 @@
       "summary": "Model--harness co-evolution has emerged as a prominent paradigm for recursive self-improving (RSI) agents, jointly evolving their execution scaffolds and intrinsic capabilities. We study the persistent yet often overlooked brain--body mismatch problem in this paradigm, where an evolving harness (body) demands behaviors its model (brain) has not learned or restricts capabilities it already possesse",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 112,
+      "upvotes": 115,
       "arxiv_id": "2610.25078"
     },
     {
@@ -909,7 +909,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-22T21:47:49.226639+00:00",
+      "fetched_at": "2026-10-23T00:15:25.021260+00:00",
       "entries": [
         {
           "rank": 1,
@@ -991,7 +991,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-22T21:47:49.229492+00:00",
+      "fetched_at": "2026-10-23T00:15:25.024148+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1009,59 +1009,59 @@
         },
         {
           "rank": 3,
+          "name": "FLUX 3 Image Klein",
+          "creator": "FLUX 3 Image Klein",
+          "score": 1074.0,
+          "meta": "Oct 2026 · $9.0 /1k imgs"
+        },
+        {
+          "rank": 4,
           "name": "HunyuanImage 3.0 Instruct",
           "creator": "HunyuanImage 3.0 Instruct",
           "score": 1064.0,
           "meta": "Jan 2026 · No API available"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "FLUX.2 [dev] Turbo",
           "creator": "FLUX.2 [dev] Turbo",
           "score": 1021.0,
           "meta": "Dec 2025 · $8.0 /1k imgs"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "FLUX.2 [dev] Flash",
           "creator": "FLUX.2 [dev] Flash",
           "score": 1016.0,
           "meta": "Dec 2025 · $5.0 /1k imgs"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "FLUX.2 [klein] 9B",
           "creator": "FLUX.2 [klein] 9B",
           "score": 1015.0,
           "meta": "Jan 2026 · $17.0 /1k imgs"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "FLUX.2 [dev]",
           "creator": "FLUX.2 [dev]",
           "score": 1000.0,
           "meta": "Nov 2025 · $24.0 /1k imgs"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Qwen Image Edit Plus 2511",
           "creator": "Qwen Image Edit Plus 2511",
           "score": 992.0,
           "meta": "Nov 2025 · $60.0 /1k imgs"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Qwen Image Edit Plus 2509",
           "creator": "Qwen Image Edit Plus 2509",
           "score": 965.0,
           "meta": "Sep 2025 · $30.0 /1k imgs"
-        },
-        {
-          "rank": 10,
-          "name": "HiDream-O1-Image",
-          "creator": "HiDream-O1-Image",
-          "score": 955.0,
-          "meta": "May 2026 · $10.0 /1k imgs"
         }
       ]
     },
@@ -1073,7 +1073,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-22T21:47:49.232356+00:00",
+      "fetched_at": "2026-10-23T00:15:25.026904+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1155,7 +1155,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-22T21:47:49.233358+00:00",
+      "fetched_at": "2026-10-23T00:15:25.027845+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1209,7 +1209,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-22T21:47:49.237956+00:00",
+      "fetched_at": "2026-10-23T00:15:25.032299+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1291,7 +1291,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-22T21:47:49.237971+00:00",
+      "fetched_at": "2026-10-23T00:15:25.032312+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1345,7 +1345,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-22T21:47:49.239973+00:00",
+      "fetched_at": "2026-10-23T00:15:25.034160+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1427,7 +1427,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-22T21:47:49.274211+00:00",
+      "fetched_at": "2026-10-23T00:15:25.069069+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1509,7 +1509,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-22T21:47:49.311628+00:00",
+      "fetched_at": "2026-10-23T00:15:25.105548+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1591,7 +1591,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-22T21:47:49.323502+00:00",
+      "fetched_at": "2026-10-23T00:15:25.118076+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1673,77 +1673,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-22T21:47:49.327968+00:00",
+      "fetched_at": "2026-10-23T00:15:25.122838+00:00",
       "entries": [
         {
           "rank": 1,
+          "name": "FLUX 3 Image Klein",
+          "creator": "FLUX 3 Image Klein",
+          "score": 1043.0,
+          "meta": "Oct 2026 · $9.0 /1k imgs"
+        },
+        {
+          "rank": 2,
           "name": "Qwen-Image-2.1",
           "creator": "Qwen-Image-2.1",
           "score": 1042.0,
           "meta": "Sep 2026 · No API available"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Fibo 2.0",
           "creator": "Fibo 2.0",
           "score": 1039.0,
           "meta": "Oct 2026 · $32.0 /1k imgs"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Ideogram 4.0 (Quality)",
           "creator": "Ideogram 4.0 (Quality)",
           "score": 1026.0,
           "meta": "Jun 2026 · $100.0 /1k imgs"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Ideogram 4.0",
           "creator": "Ideogram 4.0",
           "score": 1002.0,
           "meta": "Jun 2026 · $60.0 /1k imgs"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "FLUX.2 [dev]",
           "creator": "FLUX.2 [dev]",
           "score": 1000.0,
           "meta": "Nov 2025 · $12.0 /1k imgs"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Ming-Image-0.1-Design",
           "creator": "Ming-Image-0.1-Design",
           "score": 999.0,
           "meta": "Sep 2026 · $30.0 /1k imgs"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "FLUX.2 [dev] Turbo",
           "creator": "FLUX.2 [dev] Turbo",
           "score": 994.0,
           "meta": "Dec 2025 · $8.0 /1k imgs"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Cosmos3-Super-Text2Image (agentic)",
           "creator": "Cosmos3-Super-Text2Image (agentic)",
           "score": 993.0,
           "meta": "May 2026 · No API available"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "FLUX.2 [dev] Flash",
           "creator": "FLUX.2 [dev] Flash",
           "score": 988.0,
           "meta": "Dec 2025 · $5.0 /1k imgs"
-        },
-        {
-          "rank": 10,
-          "name": "HunyuanImage 3.0 Instruct",
-          "creator": "HunyuanImage 3.0 Instruct",
-          "score": 987.0,
-          "meta": "Jan 2026 · No API available"
         }
       ]
     },
@@ -1755,7 +1755,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-22T21:47:49.340353+00:00",
+      "fetched_at": "2026-10-23T00:15:25.135329+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1837,7 +1837,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-22T21:47:49.343223+00:00",
+      "fetched_at": "2026-10-23T00:15:25.138187+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2120,58 +2120,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-22T21:47:33.118109+00:00"
+        "ok": false,
+        "items": 3,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-10-23T00:15:08.807057+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-22T21:47:32.090691+00:00"
+        "ok": false,
+        "items": 7,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-10-23T00:15:07.729202+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-22T21:47:36.360057+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-10-23T00:15:11.950997+00:00"
       },
       {
         "name": "Fireship",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-22T21:47:34.136586+00:00"
+        "ok": false,
+        "items": 12,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "checked_at": "2026-10-23T00:15:09.841314+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-22T21:47:38.498939+00:00"
+        "checked_at": "2026-10-23T00:15:14.103834+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-22T21:47:35.245186+00:00"
+        "ok": false,
+        "items": 6,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-10-23T00:15:10.874417+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-22T21:47:37.396070+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-10-23T00:15:12.980150+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-22T21:47:49.344648+00:00"
+      "checked_at": "2026-10-23T00:15:25.139663+00:00"
     }
   }
 }
