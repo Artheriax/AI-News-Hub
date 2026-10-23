@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T00:15:25.150171+00:00",
+  "generated_at": "2026-10-23T05:06:56.389963+00:00",
   "items": [
     {
       "id": "yt:zv6B6PQOuHE",
@@ -14,6 +14,19 @@
       "channel": "Fireship"
     },
     {
+      "id": "paper:2610.30926",
+      "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+      "url": "https://huggingface.co/papers/2610.30926",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-22T08:43:48+00:00",
+      "summary": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) ma",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 45,
+      "arxiv_id": "2610.30926"
+    },
+    {
       "id": "yt:egh6GlvyD1g",
       "title": "Gemini 4 Carbon Is INSANE! OPUS 5.5 LEVEL?! Claude Duet, Kimi K3.1, OpenAI Agents & More! AI NEWS",
       "url": "https://www.youtube.com/watch?v=egh6GlvyD1g",
@@ -26,19 +39,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2610.29997",
-      "title": "DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations",
-      "url": "https://huggingface.co/papers/2610.29997",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-21T00:00:00+00:00",
-      "summary": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly cha",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 124,
-      "arxiv_id": "2610.29997"
-    },
-    {
       "id": "paper:2610.29989",
       "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
       "url": "https://huggingface.co/papers/2610.29989",
@@ -48,8 +48,21 @@
       "summary": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk denoising, reducing the pressure to model visual evolution. We introduce Future Chunk Prediction (FCP), an auxi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 111,
+      "upvotes": 141,
       "arxiv_id": "2610.29989"
+    },
+    {
+      "id": "paper:2610.29997",
+      "title": "DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations",
+      "url": "https://huggingface.co/papers/2610.29997",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-21T00:00:00+00:00",
+      "summary": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly cha",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 133,
+      "arxiv_id": "2610.29997"
     },
     {
       "id": "paper:2610.29722",
@@ -65,6 +78,19 @@
       "arxiv_id": "2610.29722"
     },
     {
+      "id": "paper:2610.29680",
+      "title": "TraceForge: Distilling with Your Own Thinking",
+      "url": "https://huggingface.co/papers/2610.29680",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-21T00:00:00+00:00",
+      "summary": "Using an LLM to generate training data for another is among the most general ways to train one, and it remains common practice. Some frontier teams have closed that route for their own models: what comes back is an answer, or a short summary, without the detailed reasoning trace behind it. That is a little ironic: they were themselves built on distilling human knowledge, and distilling an open-sou",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 23,
+      "arxiv_id": "2610.29680"
+    },
+    {
       "id": "paper:2610.30113",
       "title": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
       "url": "https://huggingface.co/papers/2610.30113",
@@ -76,6 +102,19 @@
       "kind": "paper",
       "upvotes": 21,
       "arxiv_id": "2610.30113"
+    },
+    {
+      "id": "paper:2610.29968",
+      "title": "CulturalRiddles: A Multicultural Benchmark of Riddles",
+      "url": "https://huggingface.co/papers/2610.29968",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-21T00:00:00+00:00",
+      "summary": "As LLMs expand their language coverage, evaluating how well they understand and represent diverse cultures becomes increasingly important. However, many benchmarks remain English-centric, with limited cultural coverage and a focus on factual knowledge over its application in real-world cultural contexts. We propose CulturalRiddles, a benchmark of original, culturally grounded riddles created entir",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 21,
+      "arxiv_id": "2610.29968"
     },
     {
       "id": "yt:b2tjnxX8IHU",
@@ -123,7 +162,7 @@
       "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, ea",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 347,
+      "upvotes": 380,
       "arxiv_id": "2610.28402"
     },
     {
@@ -136,21 +175,8 @@
       "summary": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 112,
+      "upvotes": 119,
       "arxiv_id": "2610.28577"
-    },
-    {
-      "id": "paper:2610.28594",
-      "title": "Learning the 4D World through Point Trajectory Forecasting",
-      "url": "https://huggingface.co/papers/2610.28594",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-20T00:00:00+00:00",
-      "summary": "Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene. To this end, we introduce Video-Point Model (VPM), a world model that conditions on multi-view video histories and a language instruction to jointly forecast future videos from arbitrary viewpoints and the 3D trajectories of persistent scene points. We extend a pretrained world model with",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 48,
-      "arxiv_id": "2610.28594"
     },
     {
       "id": "paper:2610.28698",
@@ -162,34 +188,21 @@
       "summary": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes:",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 47,
+      "upvotes": 53,
       "arxiv_id": "2610.28698"
     },
     {
-      "id": "paper:2610.28632",
-      "title": "Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs",
-      "url": "https://huggingface.co/papers/2610.28632",
+      "id": "paper:2610.28889",
+      "title": "Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks",
+      "url": "https://huggingface.co/papers/2610.28889",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-20T00:00:00+00:00",
-      "summary": "Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it cannot return that jump as replayable 3D motion placed in the 3D scene. Here we present a model that directly co-generates th",
+      "summary": "Selecting intermediate features from a frozen diffusion model for discriminative tasks is non-trivial because the useful signal is distributed across the denoising trajectory, network depth, and channels. In practice, this requires choosing a timestep, a block, and a channel subset. Existing methods either fix these choices by hand or optimize only a few extraction hyperparameters, most often the ",
       "thumbnail": null,
       "kind": "paper",
       "upvotes": 25,
-      "arxiv_id": "2610.28632"
-    },
-    {
-      "id": "paper:2511.14102",
-      "title": "Specter: Fast MoE Inference via Quantization-Enabled Multi-Step Speculative Offloading",
-      "url": "https://huggingface.co/papers/2511.14102",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-20T00:00:00+00:00",
-      "summary": "Mixture-of-experts (MoE) models often exceed a single accelerator's memory capacity. Offloading experts to host memory creates a severe PCIe I/O bottleneck because data-dependent routing keeps transfers on the critical path. We present Specter, an inference system that uses quantization to combine speculative decoding with expert offloading. Its lightweight quantized draft model runs efficiently o",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 24,
-      "arxiv_id": "2511.14102"
+      "arxiv_id": "2610.28889"
     },
     {
       "id": "yt:LWxX6vvHfrc",
@@ -225,7 +238,7 @@
       "summary": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on activ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 129,
+      "upvotes": 131,
       "arxiv_id": "2610.26659"
     },
     {
@@ -242,30 +255,17 @@
       "arxiv_id": "2610.26828"
     },
     {
-      "id": "paper:2610.26837",
-      "title": "SpecKCast: Spectral Kalman Forecasting for Diffusion Acceleration",
-      "url": "https://huggingface.co/papers/2610.26837",
+      "id": "paper:2610.30181",
+      "title": "Deep Search in Real-World Web Environments",
+      "url": "https://huggingface.co/papers/2610.30181",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-19T00:00:00+00:00",
-      "summary": "Diffusion Transformers (DiTs) achieve high-fidelity image and video generation, but they suffer from substantial inference costs due to repeated transformer evaluations across many denoising steps. Feature caching reduces this cost by reusing features across denoising steps. Recent forecasting methods extend this idea by extrapolating features to skipped steps instead of reusing them. However, exi",
+      "summary": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and heterogeneous formats, often involving complex interaction mechanisms that require agents to autonomously sear",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 27,
-      "arxiv_id": "2610.26837"
-    },
-    {
-      "id": "paper:2610.26542",
-      "title": "Breaking Diffusion: Parallel Reasoning with Draft Refinement",
-      "url": "https://huggingface.co/papers/2610.26542",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-19T00:00:00+00:00",
-      "summary": "Drafting an answer allows a reasoning model to reconsider each decision in the context of the others. Yet repeated diffusion denoising does not ensure that individually plausible token updates form a better answer together. We introduce Draft Refinement Language Models (DRLMs), which use a single denoiser to propose parallel revisions and evaluate a candidate draft. We train the denoiser to recons",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 22,
-      "arxiv_id": "2610.26542"
+      "upvotes": 56,
+      "arxiv_id": "2610.30181"
     },
     {
       "id": "yt:dk1OY5z08_Y",
@@ -304,17 +304,17 @@
       "channel": "AI Search"
     },
     {
-      "id": "paper:2610.25078",
-      "title": "CoEvo-RSI: When Harnesses Evolve, Which Models Should Follow?",
-      "url": "https://huggingface.co/papers/2610.25078",
+      "id": "paper:2610.25100",
+      "title": "Deep Fusion Memory: A Chunk-Level Parametric Memory for Large Language Models",
+      "url": "https://huggingface.co/papers/2610.25100",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-18T00:00:00+00:00",
-      "summary": "Model--harness co-evolution has emerged as a prominent paradigm for recursive self-improving (RSI) agents, jointly evolving their execution scaffolds and intrinsic capabilities. We study the persistent yet often overlooked brain--body mismatch problem in this paradigm, where an evolving harness (body) demands behaviors its model (brain) has not learned or restricts capabilities it already possesse",
+      "summary": "Large language models need effective ways to acquire and use external knowledge beyond what they retain from pretraining. Continued pretraining risks catastrophic forgetting, while retrieval at inference time can add substantial overhead. External parametric memory avoids online retrieval, but constructing its training data requires extensive offline search, and output-level interpolation provides",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 115,
-      "arxiv_id": "2610.25078"
+      "upvotes": 25,
+      "arxiv_id": "2610.25100"
     },
     {
       "id": "yt:hZPs633_58Q",
@@ -909,42 +909,42 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T00:15:25.021260+00:00",
+      "fetched_at": "2026-10-23T05:06:56.329781+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "GPT Image 2.5 Sunburst (max)",
-          "score": 1200.0,
+          "score": 1199.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 2,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "GPT Image 2.5 Flare (max)",
-          "score": 1183.0,
+          "score": 1182.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 3,
           "name": "MAI-Image-2.6",
           "creator": "MAI-Image-2.6",
-          "score": 1153.0,
+          "score": 1151.0,
           "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
           "rank": 4,
-          "name": "Nano Banana 2.1",
-          "creator": "Nano Banana 2.1",
-          "score": 1152.0,
-          "meta": "Oct 2026 · $33.6 /1k imgs"
+          "name": "Krea 3 (Ultra)",
+          "creator": "Krea 3 (Ultra)",
+          "score": 1151.0,
+          "meta": "Oct 2026 · $270.0 /1k imgs"
         },
         {
           "rank": 5,
-          "name": "Krea 3 (Ultra)",
-          "creator": "Krea 3 (Ultra)",
-          "score": 1152.0,
-          "meta": "Oct 2026 · $270.0 /1k imgs"
+          "name": "Nano Banana 2.1",
+          "creator": "Nano Banana 2.1",
+          "score": 1151.0,
+          "meta": "Oct 2026 · $33.6 /1k imgs"
         },
         {
           "rank": 6,
@@ -957,28 +957,28 @@
           "rank": 7,
           "name": "GPT Image 2 (high)",
           "creator": "GPT Image 2 (high)",
-          "score": 1137.0,
+          "score": 1136.0,
           "meta": "Apr 2026 · $211.0 /1k imgs"
         },
         {
           "rank": 8,
           "name": "Seedream 5.0 Pro",
           "creator": "Seedream 5.0 Pro",
-          "score": 1132.0,
+          "score": 1131.0,
           "meta": "Jul 2026 · $90.0 /1k imgs"
         },
         {
           "rank": 9,
           "name": "Muse Image",
           "creator": "Muse Image",
-          "score": 1131.0,
+          "score": 1129.0,
           "meta": "Jul 2026 · $10.0 /1k imgs"
         },
         {
           "rank": 10,
           "name": "MAI-Image-2.5",
           "creator": "MAI-Image-2.5",
-          "score": 1128.0,
+          "score": 1127.0,
           "meta": "Jun 2026 · $48.1 /1k imgs"
         }
       ]
@@ -991,56 +991,56 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T00:15:25.024148+00:00",
+      "fetched_at": "2026-10-23T05:06:56.331114+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fibo 2.0",
           "creator": "Fibo 2.0",
-          "score": 1089.0,
+          "score": 1088.0,
           "meta": "Oct 2026 · $32.0 /1k imgs"
         },
         {
           "rank": 2,
           "name": "Qwen-Image-2.1",
           "creator": "Qwen-Image-2.1",
-          "score": 1082.0,
+          "score": 1081.0,
           "meta": "Sep 2026 · No API available"
         },
         {
           "rank": 3,
           "name": "FLUX 3 Image Klein",
           "creator": "FLUX 3 Image Klein",
-          "score": 1074.0,
+          "score": 1072.0,
           "meta": "Oct 2026 · $9.0 /1k imgs"
         },
         {
           "rank": 4,
           "name": "HunyuanImage 3.0 Instruct",
           "creator": "HunyuanImage 3.0 Instruct",
-          "score": 1064.0,
+          "score": 1063.0,
           "meta": "Jan 2026 · No API available"
         },
         {
           "rank": 5,
           "name": "FLUX.2 [dev] Turbo",
           "creator": "FLUX.2 [dev] Turbo",
-          "score": 1021.0,
+          "score": 1019.0,
           "meta": "Dec 2025 · $8.0 /1k imgs"
         },
         {
           "rank": 6,
-          "name": "FLUX.2 [dev] Flash",
-          "creator": "FLUX.2 [dev] Flash",
-          "score": 1016.0,
-          "meta": "Dec 2025 · $5.0 /1k imgs"
-        },
-        {
-          "rank": 7,
           "name": "FLUX.2 [klein] 9B",
           "creator": "FLUX.2 [klein] 9B",
           "score": 1015.0,
           "meta": "Jan 2026 · $17.0 /1k imgs"
+        },
+        {
+          "rank": 7,
+          "name": "FLUX.2 [dev] Flash",
+          "creator": "FLUX.2 [dev] Flash",
+          "score": 1012.0,
+          "meta": "Dec 2025 · $5.0 /1k imgs"
         },
         {
           "rank": 8,
@@ -1053,7 +1053,7 @@
           "rank": 9,
           "name": "Qwen Image Edit Plus 2511",
           "creator": "Qwen Image Edit Plus 2511",
-          "score": 992.0,
+          "score": 991.0,
           "meta": "Nov 2025 · $60.0 /1k imgs"
         },
         {
@@ -1073,7 +1073,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T00:15:25.026904+00:00",
+      "fetched_at": "2026-10-23T05:06:56.332360+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1155,7 +1155,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T00:15:25.027845+00:00",
+      "fetched_at": "2026-10-23T05:06:56.332794+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1209,7 +1209,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T00:15:25.032299+00:00",
+      "fetched_at": "2026-10-23T05:06:56.334871+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1291,7 +1291,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T00:15:25.032312+00:00",
+      "fetched_at": "2026-10-23T05:06:56.334878+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1345,7 +1345,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T00:15:25.034160+00:00",
+      "fetched_at": "2026-10-23T05:06:56.335795+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1427,7 +1427,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-23T00:15:25.069069+00:00",
+      "fetched_at": "2026-10-23T05:06:56.351602+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1509,7 +1509,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-23T00:15:25.105548+00:00",
+      "fetched_at": "2026-10-23T05:06:56.368590+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1591,7 +1591,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T00:15:25.118076+00:00",
+      "fetched_at": "2026-10-23T05:06:56.373840+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1673,7 +1673,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T00:15:25.122838+00:00",
+      "fetched_at": "2026-10-23T05:06:56.375827+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1755,7 +1755,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T00:15:25.135329+00:00",
+      "fetched_at": "2026-10-23T05:06:56.380977+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1837,7 +1837,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T00:15:25.138187+00:00",
+      "fetched_at": "2026-10-23T05:06:56.382144+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2122,56 +2122,56 @@
         "name": "AI Explained",
         "ok": false,
         "items": 3,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-10-23T00:15:08.807057+00:00"
+        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-10-23T05:06:23.936535+00:00"
       },
       {
         "name": "AI Search",
         "ok": false,
         "items": 7,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-10-23T00:15:07.729202+00:00"
+        "checked_at": "2026-10-23T05:06:22.774255+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": false,
         "items": 15,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-10-23T00:15:11.950997+00:00"
+        "checked_at": "2026-10-23T05:06:27.084808+00:00"
       },
       {
         "name": "Fireship",
-        "ok": false,
-        "items": 12,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-10-23T00:15:09.841314+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-23T05:06:24.998670+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-23T00:15:14.103834+00:00"
+        "checked_at": "2026-10-23T05:06:29.319551+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": false,
         "items": 6,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-10-23T00:15:10.874417+00:00"
+        "checked_at": "2026-10-23T05:06:26.041214+00:00"
       },
       {
         "name": "World of AI",
         "ok": false,
         "items": 15,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-10-23T00:15:12.980150+00:00"
+        "checked_at": "2026-10-23T05:06:28.131580+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-23T00:15:25.139663+00:00"
+      "checked_at": "2026-10-23T05:06:56.383922+00:00"
     }
   }
 }
