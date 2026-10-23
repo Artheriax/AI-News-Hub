@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T10:17:40.088621+00:00",
+  "generated_at": "2026-10-23T15:15:46.382092+00:00",
   "items": [
     {
       "id": "yt:1Aqhg0FVm-w",
@@ -35,7 +35,7 @@
       "summary": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) ma",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 141,
+      "upvotes": 162,
       "arxiv_id": "2610.30926"
     },
     {
@@ -51,19 +51,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2610.30949",
-      "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
-      "url": "https://huggingface.co/papers/2610.30949",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-22T00:00:00+00:00",
-      "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optima",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 38,
-      "arxiv_id": "2610.30949"
-    },
-    {
       "id": "paper:2610.31329",
       "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
       "url": "https://huggingface.co/papers/2610.31329",
@@ -73,8 +60,21 @@
       "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, en",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 35,
+      "upvotes": 213,
       "arxiv_id": "2610.31329"
+    },
+    {
+      "id": "paper:2610.30949",
+      "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+      "url": "https://huggingface.co/papers/2610.30949",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-22T00:00:00+00:00",
+      "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optima",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 49,
+      "arxiv_id": "2610.30949"
     },
     {
       "id": "paper:2610.29989",
@@ -86,7 +86,7 @@
       "summary": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk denoising, reducing the pressure to model visual evolution. We introduce Future Chunk Prediction (FCP), an auxi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 148,
+      "upvotes": 150,
       "arxiv_id": "2610.29989"
     },
     {
@@ -99,7 +99,7 @@
       "summary": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly cha",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 142,
+      "upvotes": 144,
       "arxiv_id": "2610.29997"
     },
     {
@@ -112,8 +112,21 @@
       "summary": "Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves. Recent digital agents test this idea by rewriting their own code and checking each version with executable tests. Bringing these mechanisms into the physical world requires learning from partial observations through costly trials, while accounting for changing operatin",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 42,
+      "upvotes": 44,
       "arxiv_id": "2610.29677"
+    },
+    {
+      "id": "paper:2610.29722",
+      "title": "Retrieval Augmented Generation Compositionality",
+      "url": "https://huggingface.co/papers/2610.29722",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-21T00:00:00+00:00",
+      "summary": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfuln",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 37,
+      "arxiv_id": "2610.29722"
     },
     {
       "id": "yt:b2tjnxX8IHU",
@@ -161,7 +174,7 @@
       "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, ea",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 414,
+      "upvotes": 421,
       "arxiv_id": "2610.28402"
     },
     {
@@ -174,7 +187,7 @@
       "summary": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 125,
+      "upvotes": 129,
       "arxiv_id": "2610.28577"
     },
     {
@@ -187,7 +200,7 @@
       "summary": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes:",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 55,
+      "upvotes": 58,
       "arxiv_id": "2610.28698"
     },
     {
@@ -200,7 +213,7 @@
       "summary": "Selecting intermediate features from a frozen diffusion model for discriminative tasks is non-trivial because the useful signal is distributed across the denoising trajectory, network depth, and channels. In practice, this requires choosing a timestep, a block, and a channel subset. Existing methods either fix these choices by hand or optimize only a few extraction hyperparameters, most often the ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 32,
+      "upvotes": 42,
       "arxiv_id": "2610.28889"
     },
     {
@@ -228,19 +241,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2610.26659",
-      "title": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
-      "url": "https://huggingface.co/papers/2610.26659",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-19T00:00:00+00:00",
-      "summary": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on activ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 137,
-      "arxiv_id": "2610.26659"
-    },
-    {
       "id": "paper:2610.30181",
       "title": "Deep Search in Real-World Web Environments",
       "url": "https://huggingface.co/papers/2610.30181",
@@ -250,8 +250,21 @@
       "summary": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and heterogeneous formats, often involving complex interaction mechanisms that require agents to autonomously sear",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 133,
+      "upvotes": 147,
       "arxiv_id": "2610.30181"
+    },
+    {
+      "id": "paper:2610.26659",
+      "title": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
+      "url": "https://huggingface.co/papers/2610.26659",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-19T00:00:00+00:00",
+      "summary": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on activ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 140,
+      "arxiv_id": "2610.26659"
     },
     {
       "id": "paper:2610.26828",
@@ -263,7 +276,7 @@
       "summary": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general com",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 66,
+      "upvotes": 72,
       "arxiv_id": "2610.26828"
     },
     {
@@ -303,19 +316,6 @@
       "channel": "AI Search"
     },
     {
-      "id": "paper:2610.25100",
-      "title": "Deep Fusion Memory: A Chunk-Level Parametric Memory for Large Language Models",
-      "url": "https://huggingface.co/papers/2610.25100",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-18T00:00:00+00:00",
-      "summary": "Large language models need effective ways to acquire and use external knowledge beyond what they retain from pretraining. Continued pretraining risks catastrophic forgetting, while retrieval at inference time can add substantial overhead. External parametric memory avoids online retrieval, but constructing its training data requires extensive offline search, and output-level interpolation provides",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 34,
-      "arxiv_id": "2610.25100"
-    },
-    {
       "id": "yt:hZPs633_58Q",
       "title": "Claude Fable 5.5 Is BABY AGI?! NEW EAP LEAKS, GLM 5.5, GPT-6 Astra Pro Upgrade & More! AI NEWS",
       "url": "https://www.youtube.com/watch?v=hZPs633_58Q",
@@ -337,7 +337,7 @@
       "summary": "High-quality image editing requires precise modification of target regions while preserving the content of unrelated regions. Existing editing models produce flattened outputs that limit precise local manipulation and layer reuse, while decomposition methods typically optimize layer recovery separately from instruction-driven editing. To this end, we introduce LayerEditor, a unified framework that",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 39,
+      "upvotes": 73,
       "arxiv_id": "2610.24738"
     },
     {
@@ -921,7 +921,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T10:17:39.998142+00:00",
+      "fetched_at": "2026-10-23T15:15:46.305985+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1003,7 +1003,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T10:17:40.000149+00:00",
+      "fetched_at": "2026-10-23T15:15:46.307710+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1085,7 +1085,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T10:17:40.002073+00:00",
+      "fetched_at": "2026-10-23T15:15:46.309376+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1167,7 +1167,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T10:17:40.002740+00:00",
+      "fetched_at": "2026-10-23T15:15:46.309979+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1221,7 +1221,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T10:17:40.006024+00:00",
+      "fetched_at": "2026-10-23T15:15:46.312816+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1303,7 +1303,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T10:17:40.006033+00:00",
+      "fetched_at": "2026-10-23T15:15:46.312831+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1357,7 +1357,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T10:17:40.007357+00:00",
+      "fetched_at": "2026-10-23T15:15:46.314016+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1439,7 +1439,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-23T10:17:40.031337+00:00",
+      "fetched_at": "2026-10-23T15:15:46.334391+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1521,7 +1521,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-23T10:17:40.057132+00:00",
+      "fetched_at": "2026-10-23T15:15:46.356438+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1603,7 +1603,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T10:17:40.065685+00:00",
+      "fetched_at": "2026-10-23T15:15:46.363967+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1685,7 +1685,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T10:17:40.068930+00:00",
+      "fetched_at": "2026-10-23T15:15:46.366706+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1767,7 +1767,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T10:17:40.077687+00:00",
+      "fetched_at": "2026-10-23T15:15:46.373442+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1849,7 +1849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T10:17:40.079707+00:00",
+      "fetched_at": "2026-10-23T15:15:46.375111+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2135,55 +2135,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-23T10:17:23.823368+00:00"
+        "checked_at": "2026-10-23T15:15:29.776047+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-23T10:17:22.480126+00:00"
+        "checked_at": "2026-10-23T15:15:28.744859+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-23T10:17:27.046577+00:00"
+        "checked_at": "2026-10-23T15:15:32.844558+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-23T10:17:24.836757+00:00"
+        "checked_at": "2026-10-23T15:15:30.795475+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-23T10:17:29.438133+00:00"
+        "checked_at": "2026-10-23T15:15:35.082133+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-23T10:17:25.852288+00:00"
+        "checked_at": "2026-10-23T15:15:31.820235+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-23T10:17:28.214361+00:00"
+        "checked_at": "2026-10-23T15:15:33.879892+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-23T10:17:40.081051+00:00"
+      "checked_at": "2026-10-23T15:15:46.375986+00:00"
     }
   }
 }
