@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T22:26:14.481705+00:00",
+  "generated_at": "2026-10-24T00:53:29.126419+00:00",
   "items": [
     {
       "id": "yt:SMGg7iisHmc",
@@ -47,7 +47,7 @@
       "summary": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) ma",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 163,
+      "upvotes": 164,
       "arxiv_id": "2610.30926"
     },
     {
@@ -72,7 +72,7 @@
       "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, en",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 221,
+      "upvotes": 222,
       "arxiv_id": "2610.31329"
     },
     {
@@ -85,7 +85,7 @@
       "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optima",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 53,
+      "upvotes": 54,
       "arxiv_id": "2610.30949"
     },
     {
@@ -98,7 +98,7 @@
       "summary": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk denoising, reducing the pressure to model visual evolution. We introduce Future Chunk Prediction (FCP), an auxi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 156,
+      "upvotes": 158,
       "arxiv_id": "2610.29989"
     },
     {
@@ -111,7 +111,7 @@
       "summary": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly cha",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 149,
+      "upvotes": 150,
       "arxiv_id": "2610.29997"
     },
     {
@@ -186,21 +186,8 @@
       "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, ea",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 430,
+      "upvotes": 431,
       "arxiv_id": "2610.28402"
-    },
-    {
-      "id": "paper:2610.28577",
-      "title": "Cache Engineering for Agents",
-      "url": "https://huggingface.co/papers/2610.28577",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-20T00:00:00+00:00",
-      "summary": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring control over active cache growth. Prior work uses context engineering to reduce cache size by trimming or",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 137,
-      "arxiv_id": "2610.28577"
     },
     {
       "id": "paper:2610.28698",
@@ -227,6 +214,19 @@
       "kind": "paper",
       "upvotes": 43,
       "arxiv_id": "2610.28889"
+    },
+    {
+      "id": "paper:2610.28589",
+      "title": "AgenticRoboRL: Bringing Coding-Agent Post-Training to Agentic Robotics",
+      "url": "https://huggingface.co/papers/2610.28589",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-20T00:00:00+00:00",
+      "summary": "Agentic robotics systems combine planners with robot harnesses to perform complex manipulation tasks. Recent work improves these systems through better harnesses and external memory, but relies on powerful closed-source models as planners and does not improve the planners' own capabilities. In contrast, coding agents have improved substantially by post-training the model itself. We therefore inves",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 38,
+      "arxiv_id": "2610.28589"
     },
     {
       "id": "yt:LWxX6vvHfrc",
@@ -262,7 +262,7 @@
       "summary": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and heterogeneous formats, often involving complex interaction mechanisms that require agents to autonomously sear",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 149,
+      "upvotes": 152,
       "arxiv_id": "2610.30181"
     },
     {
@@ -288,7 +288,7 @@
       "summary": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general com",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 77,
+      "upvotes": 78,
       "arxiv_id": "2610.26828"
     },
     {
@@ -328,6 +328,19 @@
       "channel": "AI Search"
     },
     {
+      "id": "paper:2610.25100",
+      "title": "Deep Fusion Memory: A Chunk-Level Parametric Memory for Large Language Models",
+      "url": "https://huggingface.co/papers/2610.25100",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-18T00:00:00+00:00",
+      "summary": "Large language models need effective ways to acquire and use external knowledge beyond what they retain from pretraining. Continued pretraining risks catastrophic forgetting, while retrieval at inference time can add substantial overhead. External parametric memory avoids online retrieval, but constructing its training data requires extensive offline search, and output-level interpolation provides",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 39,
+      "arxiv_id": "2610.25100"
+    },
+    {
       "id": "yt:hZPs633_58Q",
       "title": "Claude Fable 5.5 Is BABY AGI?! NEW EAP LEAKS, GLM 5.5, GPT-6 Astra Pro Upgrade & More! AI NEWS",
       "url": "https://www.youtube.com/watch?v=hZPs633_58Q",
@@ -338,19 +351,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/hZPs633_58Q/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
-    },
-    {
-      "id": "paper:2610.24738",
-      "title": "Editing Images into Reusable Layers via Compositional Edit-Prior Distillation",
-      "url": "https://huggingface.co/papers/2610.24738",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-17T00:00:00+00:00",
-      "summary": "High-quality image editing requires precise modification of target regions while preserving the content of unrelated regions. Existing editing models produce flattened outputs that limit precise local manipulation and layer reuse, while decomposition methods typically optimize layer recovery separately from instruction-driven editing. To this end, we introduce LayerEditor, a unified framework that",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 73,
-      "arxiv_id": "2610.24738"
     },
     {
       "id": "yt:5F4wdtNbMt4",
@@ -921,7 +921,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T22:26:14.395045+00:00",
+      "fetched_at": "2026-10-24T00:53:28.997704+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1003,7 +1003,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T22:26:14.397047+00:00",
+      "fetched_at": "2026-10-24T00:53:29.000596+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1085,7 +1085,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T22:26:14.398976+00:00",
+      "fetched_at": "2026-10-24T00:53:29.003237+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1155,7 +1155,7 @@
           "name": "HappyHorse-1.1",
           "creator": "HappyHorse-1.1",
           "score": 1061.0,
-          "meta": "Jun 2026 · Coming soon"
+          "meta": "Jun 2026 · $10.80 /min"
         }
       ]
     },
@@ -1167,7 +1167,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T22:26:14.399649+00:00",
+      "fetched_at": "2026-10-24T00:53:29.004175+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1221,7 +1221,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T22:26:14.402959+00:00",
+      "fetched_at": "2026-10-24T00:53:29.008517+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1303,7 +1303,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T22:26:14.402980+00:00",
+      "fetched_at": "2026-10-24T00:53:29.008531+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1357,7 +1357,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T22:26:14.404311+00:00",
+      "fetched_at": "2026-10-24T00:53:29.010438+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1439,7 +1439,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-23T22:26:14.428020+00:00",
+      "fetched_at": "2026-10-24T00:53:29.044852+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1521,7 +1521,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-23T22:26:14.453241+00:00",
+      "fetched_at": "2026-10-24T00:53:29.081448+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1603,7 +1603,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T22:26:14.461193+00:00",
+      "fetched_at": "2026-10-24T00:53:29.093813+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1685,7 +1685,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T22:26:14.464210+00:00",
+      "fetched_at": "2026-10-24T00:53:29.098362+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1767,7 +1767,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T22:26:14.471823+00:00",
+      "fetched_at": "2026-10-24T00:53:29.110587+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1849,7 +1849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-23T22:26:14.473584+00:00",
+      "fetched_at": "2026-10-24T00:53:29.113398+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2132,58 +2132,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-23T22:25:57.380344+00:00"
+        "ok": false,
+        "items": 3,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-10-24T00:53:12.707251+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-23T22:25:56.348548+00:00"
+        "ok": false,
+        "items": 8,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-10-24T00:53:11.673495+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-23T22:26:00.456661+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-10-24T00:53:15.892231+00:00"
       },
       {
         "name": "Fireship",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-23T22:25:58.411283+00:00"
+        "ok": false,
+        "items": 12,
+        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "checked_at": "2026-10-24T00:53:13.826970+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-23T22:26:02.832828+00:00"
+        "checked_at": "2026-10-24T00:53:18.068539+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-23T22:25:59.434122+00:00"
+        "ok": false,
+        "items": 6,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-10-24T00:53:14.860144+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-23T22:26:01.606614+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-10-24T00:53:16.927413+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-23T22:26:14.474819+00:00"
+      "checked_at": "2026-10-24T00:53:29.115242+00:00"
     }
   }
 }
