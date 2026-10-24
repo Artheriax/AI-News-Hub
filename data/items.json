@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-10-24T05:13:08.409500+00:00",
+  "generated_at": "2026-10-24T09:39:48.868534+00:00",
   "items": [
+    {
+      "id": "yt:5Z_Y7SRd_oo",
+      "title": "Kimi K3.1 Pro Is INSANE! CHEAPER & FASTER Than Claude Opus 5.5?! (Fully Tested)",
+      "url": "https://www.youtube.com/watch?v=5Z_Y7SRd_oo",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-10-24T07:02:39+00:00",
+      "summary": "Moonshot AI is BACK with Kimi K3.1 Pro, its most powerful 3-trillion-parameter-class AI model yet! And this time, it's taking on the biggest frontier models, including Claude Opus 5.5, GPT-6 Astra, and Gemini 4 Argon! 🚨 Everything you’re about to see, I benchmarked using the tool I made. If you want",
+      "thumbnail": "https://i2.ytimg.com/vi/5Z_Y7SRd_oo/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
+      "id": "yt:4MRMLerpcQc",
+      "title": "Kimi K3.1 Pro Is HERE – Does THIS Really Beat Claude & GPT?",
+      "url": "https://www.youtube.com/watch?v=4MRMLerpcQc",
+      "source": "Bijan Bowen",
+      "category": "videos",
+      "published": "2026-10-24T02:57:41+00:00",
+      "summary": "Thanks to Switch AI for sponsoring this video: https://devtoolsacademy.link/Bijan Timestamps: 00:00 - Intro 00:54 - First Look 02:29 - Open-Weight Mention 03:18 - Technical Look 03:53 - Testing Setup Info 05:41 - Browser OS Test 10:46 - C++ Skate Game Test 13:07 - Switch AI Sponsor 14:35 - C++ Skate",
+      "thumbnail": "https://i1.ytimg.com/vi/4MRMLerpcQc/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Bijan Bowen"
+    },
     {
       "id": "yt:SMGg7iisHmc",
       "title": "The most vulnerable week in internet history...",
@@ -72,7 +96,7 @@
       "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, en",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 225,
+      "upvotes": 229,
       "arxiv_id": "2610.31329"
     },
     {
@@ -85,7 +109,7 @@
       "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optima",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 56,
+      "upvotes": 67,
       "arxiv_id": "2610.30949"
     },
     {
@@ -124,7 +148,7 @@
       "summary": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfuln",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 43,
+      "upvotes": 46,
       "arxiv_id": "2610.29722"
     },
     {
@@ -137,7 +161,7 @@
       "summary": "Using an LLM to generate training data for another is among the most general ways to train one, and it remains common practice. Some frontier teams have closed that route for their own models: what comes back is an answer, or a short summary, without the detailed reasoning trace behind it. That is a little ironic: they were themselves built on distilling human knowledge, and distilling an open-sou",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 35,
+      "upvotes": 37,
       "arxiv_id": "2610.29680"
     },
     {
@@ -186,7 +210,7 @@
       "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, ea",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 434,
+      "upvotes": 436,
       "arxiv_id": "2610.28402"
     },
     {
@@ -199,7 +223,7 @@
       "summary": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes:",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 61,
+      "upvotes": 63,
       "arxiv_id": "2610.28698"
     },
     {
@@ -225,7 +249,7 @@
       "summary": "Agentic robotics systems combine planners with robot harnesses to perform complex manipulation tasks. Recent work improves these systems through better harnesses and external memory, but relies on powerful closed-source models as planners and does not improve the planners' own capabilities. In contrast, coding agents have improved substantially by post-training the model itself. We therefore inves",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 38,
+      "upvotes": 39,
       "arxiv_id": "2610.28589"
     },
     {
@@ -253,6 +277,19 @@
       "channel": "WorldofAI"
     },
     {
+      "id": "paper:2610.26659",
+      "title": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
+      "url": "https://huggingface.co/papers/2610.26659",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-19T00:00:00+00:00",
+      "summary": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on activ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 153,
+      "arxiv_id": "2610.26659"
+    },
+    {
       "id": "paper:2610.30181",
       "title": "Deep Search in Real-World Web Environments",
       "url": "https://huggingface.co/papers/2610.30181",
@@ -266,19 +303,6 @@
       "arxiv_id": "2610.30181"
     },
     {
-      "id": "paper:2610.26659",
-      "title": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
-      "url": "https://huggingface.co/papers/2610.26659",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-19T00:00:00+00:00",
-      "summary": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on activ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 151,
-      "arxiv_id": "2610.26659"
-    },
-    {
       "id": "paper:2610.26828",
       "title": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
       "url": "https://huggingface.co/papers/2610.26828",
@@ -288,7 +312,7 @@
       "summary": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general com",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 79,
+      "upvotes": 84,
       "arxiv_id": "2610.26828"
     },
     {
@@ -629,18 +653,6 @@
       "channel": "Two Minute Papers"
     },
     {
-      "id": "yt:-mv1Tf26Vms",
-      "title": "GPT-7 'Bel' First Preview, Mythos 5.1 Access, Mistral Large 4, Claude Code Update, & More! AI NEWS",
-      "url": "https://www.youtube.com/watch?v=-mv1Tf26Vms",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-10-07T07:25:00+00:00",
-      "summary": "Sponsored by Zapier! Zapier SDK levels you up, letting you build custom, code-based automations directly in your editor. Start building with Zapier SDK today: https://bit.ly/4jryue2 GPT-7 \"Bel\" may have just given us its biggest preview yet. OpenAI released an incredible collection of 722 mathematic",
-      "thumbnail": "https://i2.ytimg.com/vi/-mv1Tf26Vms/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:OyzP0Rgiz2I",
       "title": "Mistral Is BACK – Mistral Large 4 First Test (Le Chonk!)",
       "url": "https://www.youtube.com/watch?v=OyzP0Rgiz2I",
@@ -867,30 +879,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/R9momwXV9w4/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Explained"
-    },
-    {
-      "id": "yt:DqoLv_3kNZ8",
-      "title": "Cline Desktop Hands-On – Can OPEN Models Match Fable 5.1?",
-      "url": "https://www.youtube.com/watch?v=DqoLv_3kNZ8",
-      "source": "Bijan Bowen",
-      "category": "videos",
-      "published": "2026-09-24T14:45:27+00:00",
-      "summary": "Get 80% off your first month of ClinePass ($1.99): https://cline.gg/BIJAN80 Timestamps: 00:00 - Intro 00:45 - Cline Desktop First Look 01:21 - ClinePass First Look 02:53 - Cline Desktop Tour 04:00 - Fable 5.1 Subway FPS MD Overview 05:30 - DeepSeek V4.1 Flash Test 06:10 - Fable 5.1 Result Reference ",
-      "thumbnail": "https://i1.ytimg.com/vi/DqoLv_3kNZ8/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Bijan Bowen"
-    },
-    {
-      "id": "yt:SA9kdAX2Zj0",
-      "title": "Claude Opus 5.5 AI: An Incredible Leap Forward",
-      "url": "https://www.youtube.com/watch?v=SA9kdAX2Zj0",
-      "source": "Two Minute Papers",
-      "category": "videos",
-      "published": "2026-09-24T08:40:55+00:00",
-      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers Note: in the walking creatures experiment, Astra used a simplified model and was unable to implement the correct one. Things did not improve after simulating it for more generations. Claude Opus 5.5: https://www.anthr",
-      "thumbnail": "https://i4.ytimg.com/vi/SA9kdAX2Zj0/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Two Minute Papers"
     }
   ],
   "featured": [
@@ -909,7 +897,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T05:13:08.281701+00:00",
+      "fetched_at": "2026-10-24T09:39:48.740572+00:00",
       "entries": [
         {
           "rank": 1,
@@ -991,7 +979,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T05:13:08.284604+00:00",
+      "fetched_at": "2026-10-24T09:39:48.743471+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1073,7 +1061,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T05:13:08.287266+00:00",
+      "fetched_at": "2026-10-24T09:39:48.746119+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1155,7 +1143,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T05:13:08.288208+00:00",
+      "fetched_at": "2026-10-24T09:39:48.747054+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1209,7 +1197,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T05:13:08.292609+00:00",
+      "fetched_at": "2026-10-24T09:39:48.751438+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1291,7 +1279,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T05:13:08.292624+00:00",
+      "fetched_at": "2026-10-24T09:39:48.751451+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1345,7 +1333,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T05:13:08.294522+00:00",
+      "fetched_at": "2026-10-24T09:39:48.753473+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1427,7 +1415,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-24T05:13:08.329091+00:00",
+      "fetched_at": "2026-10-24T09:39:48.786711+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1509,7 +1497,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-24T05:13:08.364432+00:00",
+      "fetched_at": "2026-10-24T09:39:48.823481+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1591,7 +1579,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T05:13:08.376968+00:00",
+      "fetched_at": "2026-10-24T09:39:48.836003+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1673,7 +1661,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T05:13:08.381518+00:00",
+      "fetched_at": "2026-10-24T09:39:48.840779+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1755,7 +1743,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T05:13:08.393700+00:00",
+      "fetched_at": "2026-10-24T09:39:48.853278+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1837,7 +1825,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T05:13:08.396525+00:00",
+      "fetched_at": "2026-10-24T09:39:48.856116+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2120,58 +2108,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 3,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-10-24T05:12:51.282577+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-24T09:39:32.842157+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 8,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-10-24T05:12:50.241920+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-24T09:39:31.815204+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-10-24T05:12:54.377883+00:00"
+        "error": null,
+        "checked_at": "2026-10-24T09:39:35.989799+00:00"
       },
       {
         "name": "Fireship",
-        "ok": false,
-        "items": 12,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-10-24T05:12:52.319362+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-24T09:39:33.861289+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-24T05:12:56.575858+00:00"
+        "checked_at": "2026-10-24T09:39:38.204679+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-24T05:12:53.347236+00:00"
+        "checked_at": "2026-10-24T09:39:34.881915+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-10-24T05:12:55.412637+00:00"
+        "error": null,
+        "checked_at": "2026-10-24T09:39:37.025281+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-24T05:13:08.398015+00:00"
+      "checked_at": "2026-10-24T09:39:48.857768+00:00"
     }
   }
 }
