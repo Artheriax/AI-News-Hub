@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T17:06:04.839266+00:00",
+  "generated_at": "2026-10-24T19:36:31.049310+00:00",
   "items": [
     {
       "id": "yt:5Z_Y7SRd_oo",
@@ -96,7 +96,7 @@
       "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, en",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 231,
+      "upvotes": 232,
       "arxiv_id": "2610.31329"
     },
     {
@@ -109,7 +109,7 @@
       "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optima",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 85,
+      "upvotes": 86,
       "arxiv_id": "2610.30949"
     },
     {
@@ -148,7 +148,7 @@
       "summary": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfuln",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 48,
+      "upvotes": 49,
       "arxiv_id": "2610.29722"
     },
     {
@@ -210,7 +210,7 @@
       "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, ea",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 439,
+      "upvotes": 440,
       "arxiv_id": "2610.28402"
     },
     {
@@ -223,7 +223,7 @@
       "summary": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes:",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 68,
+      "upvotes": 71,
       "arxiv_id": "2610.28698"
     },
     {
@@ -249,7 +249,7 @@
       "summary": "Agentic robotics systems combine planners with robot harnesses to perform complex manipulation tasks. Recent work improves these systems through better harnesses and external memory, but relies on powerful closed-source models as planners and does not improve the planners' own capabilities. In contrast, coding agents have improved substantially by post-training the model itself. We therefore inves",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 40,
+      "upvotes": 42,
       "arxiv_id": "2610.28589"
     },
     {
@@ -286,7 +286,7 @@
       "summary": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on activ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 159,
+      "upvotes": 160,
       "arxiv_id": "2610.26659"
     },
     {
@@ -299,7 +299,7 @@
       "summary": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and heterogeneous formats, often involving complex interaction mechanisms that require agents to autonomously sear",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 153,
+      "upvotes": 154,
       "arxiv_id": "2610.30181"
     },
     {
@@ -312,7 +312,7 @@
       "summary": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general com",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 86,
+      "upvotes": 87,
       "arxiv_id": "2610.26828"
     },
     {
@@ -361,7 +361,7 @@
       "summary": "Large language models need effective ways to acquire and use external knowledge beyond what they retain from pretraining. Continued pretraining risks catastrophic forgetting, while retrieval at inference time can add substantial overhead. External parametric memory avoids online retrieval, but constructing its training data requires extensive offline search, and output-level interpolation provides",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 40,
+      "upvotes": 41,
       "arxiv_id": "2610.25100"
     },
     {
@@ -666,7 +666,7 @@
     },
     {
       "id": "yt:h5zkzon0gM4",
-      "title": "The AI unlock has begun",
+      "title": "AI is reverse engineering everything",
       "url": "https://www.youtube.com/watch?v=h5zkzon0gM4",
       "source": "AI Search",
       "category": "videos",
@@ -897,7 +897,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T17:06:04.750329+00:00",
+      "fetched_at": "2026-10-24T19:36:30.990740+00:00",
       "entries": [
         {
           "rank": 1,
@@ -979,7 +979,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T17:06:04.752301+00:00",
+      "fetched_at": "2026-10-24T19:36:30.992079+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1061,7 +1061,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T17:06:04.754152+00:00",
+      "fetched_at": "2026-10-24T19:36:30.993270+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1143,7 +1143,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T17:06:04.754815+00:00",
+      "fetched_at": "2026-10-24T19:36:30.993695+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1197,7 +1197,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T17:06:04.758091+00:00",
+      "fetched_at": "2026-10-24T19:36:30.995743+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1279,7 +1279,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T17:06:04.758101+00:00",
+      "fetched_at": "2026-10-24T19:36:30.995751+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1333,7 +1333,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T17:06:04.759418+00:00",
+      "fetched_at": "2026-10-24T19:36:30.996608+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1415,7 +1415,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-24T17:06:04.783157+00:00",
+      "fetched_at": "2026-10-24T19:36:31.012124+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1497,7 +1497,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-24T17:06:04.808867+00:00",
+      "fetched_at": "2026-10-24T19:36:31.029244+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1579,7 +1579,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T17:06:04.816804+00:00",
+      "fetched_at": "2026-10-24T19:36:31.034528+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1661,7 +1661,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T17:06:04.819779+00:00",
+      "fetched_at": "2026-10-24T19:36:31.036541+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1743,7 +1743,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T17:06:04.828213+00:00",
+      "fetched_at": "2026-10-24T19:36:31.041704+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1825,7 +1825,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T17:06:04.830270+00:00",
+      "fetched_at": "2026-10-24T19:36:31.042895+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2111,55 +2111,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-24T17:05:49.076128+00:00"
+        "checked_at": "2026-10-24T19:36:14.580794+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-24T17:05:48.055000+00:00"
+        "checked_at": "2026-10-24T19:36:13.397652+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-24T17:05:52.302533+00:00"
+        "checked_at": "2026-10-24T19:36:18.005208+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-24T17:05:50.090202+00:00"
+        "checked_at": "2026-10-24T19:36:15.693458+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-24T17:05:54.635761+00:00"
+        "checked_at": "2026-10-24T19:36:20.447055+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-24T17:05:51.105827+00:00"
+        "checked_at": "2026-10-24T19:36:16.880508+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-24T17:05:53.471865+00:00"
+        "checked_at": "2026-10-24T19:36:19.268854+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-24T17:06:04.831518+00:00"
+      "checked_at": "2026-10-24T19:36:31.044040+00:00"
     }
   }
 }
