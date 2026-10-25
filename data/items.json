@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T09:57:41.908768+00:00",
+  "generated_at": "2026-10-25T14:04:55.399184+00:00",
   "items": [
     {
       "id": "yt:aZMKzHhlTh8",
@@ -95,7 +95,7 @@
       "summary": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) ma",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 172,
+      "upvotes": 173,
       "arxiv_id": "2610.30926"
     },
     {
@@ -133,7 +133,7 @@
       "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optima",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 93,
+      "upvotes": 96,
       "arxiv_id": "2610.30949"
     },
     {
@@ -146,7 +146,7 @@
       "summary": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk denoising, reducing the pressure to model visual evolution. We introduce Future Chunk Prediction (FCP), an auxi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 170,
+      "upvotes": 171,
       "arxiv_id": "2610.29989"
     },
     {
@@ -172,7 +172,7 @@
       "summary": "Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves. Recent digital agents test this idea by rewriting their own code and checking each version with executable tests. Bringing these mechanisms into the physical world requires learning from partial observations through costly trials, while accounting for changing operatin",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 57,
+      "upvotes": 58,
       "arxiv_id": "2610.29677"
     },
     {
@@ -185,7 +185,7 @@
       "summary": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfuln",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 54,
+      "upvotes": 55,
       "arxiv_id": "2610.29722"
     },
     {
@@ -247,7 +247,7 @@
       "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, ea",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 460,
+      "upvotes": 490,
       "arxiv_id": "2610.28402"
     },
     {
@@ -323,7 +323,7 @@
       "summary": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on activ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 164,
+      "upvotes": 165,
       "arxiv_id": "2610.26659"
     },
     {
@@ -336,7 +336,7 @@
       "summary": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and heterogeneous formats, often involving complex interaction mechanisms that require agents to autonomously sear",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 160,
+      "upvotes": 162,
       "arxiv_id": "2610.30181"
     },
     {
@@ -349,7 +349,7 @@
       "summary": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general com",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 94,
+      "upvotes": 97,
       "arxiv_id": "2610.26828"
     },
     {
@@ -897,7 +897,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T09:57:41.820224+00:00",
+      "fetched_at": "2026-10-25T14:04:55.336409+00:00",
       "entries": [
         {
           "rank": 1,
@@ -979,7 +979,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T09:57:41.822206+00:00",
+      "fetched_at": "2026-10-25T14:04:55.337835+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1061,7 +1061,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T09:57:41.824065+00:00",
+      "fetched_at": "2026-10-25T14:04:55.339118+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1143,7 +1143,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T09:57:41.824729+00:00",
+      "fetched_at": "2026-10-25T14:04:55.339578+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1197,7 +1197,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T09:57:41.827926+00:00",
+      "fetched_at": "2026-10-25T14:04:55.341766+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1279,7 +1279,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T09:57:41.827936+00:00",
+      "fetched_at": "2026-10-25T14:04:55.341774+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1333,7 +1333,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T09:57:41.829332+00:00",
+      "fetched_at": "2026-10-25T14:04:55.342701+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1415,7 +1415,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-25T09:57:41.853028+00:00",
+      "fetched_at": "2026-10-25T14:04:55.359532+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1497,7 +1497,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-25T09:57:41.878311+00:00",
+      "fetched_at": "2026-10-25T14:04:55.377500+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1579,7 +1579,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T09:57:41.886167+00:00",
+      "fetched_at": "2026-10-25T14:04:55.383240+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1661,7 +1661,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T09:57:41.889196+00:00",
+      "fetched_at": "2026-10-25T14:04:55.385399+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1743,7 +1743,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T09:57:41.897710+00:00",
+      "fetched_at": "2026-10-25T14:04:55.390977+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1825,7 +1825,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T09:57:41.899701+00:00",
+      "fetched_at": "2026-10-25T14:04:55.392236+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2111,55 +2111,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-25T09:57:24.402979+00:00"
+        "checked_at": "2026-10-25T14:04:33.820767+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-25T09:57:23.383532+00:00"
+        "checked_at": "2026-10-25T14:04:32.804108+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-25T09:57:27.444788+00:00"
+        "checked_at": "2026-10-25T14:04:37.082311+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-25T09:57:25.416163+00:00"
+        "checked_at": "2026-10-25T14:04:34.942133+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-25T09:57:29.598129+00:00"
+        "checked_at": "2026-10-25T14:04:39.437020+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-25T09:57:26.430766+00:00"
+        "checked_at": "2026-10-25T14:04:35.955205+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-25T09:57:28.471409+00:00"
+        "checked_at": "2026-10-25T14:04:38.253348+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-25T09:57:41.901192+00:00"
+      "checked_at": "2026-10-25T14:04:55.393585+00:00"
     }
   }
 }
