@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T22:07:31.320908+00:00",
+  "generated_at": "2026-10-25T00:24:46.106981+00:00",
   "items": [
     {
       "id": "yt:5Z_Y7SRd_oo",
@@ -71,7 +71,7 @@
       "summary": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) ma",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 165,
+      "upvotes": 168,
       "arxiv_id": "2610.30926"
     },
     {
@@ -96,7 +96,7 @@
       "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, en",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 232,
+      "upvotes": 235,
       "arxiv_id": "2610.31329"
     },
     {
@@ -109,8 +109,21 @@
       "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optima",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 86,
+      "upvotes": 89,
       "arxiv_id": "2610.30949"
+    },
+    {
+      "id": "paper:2610.29989",
+      "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+      "url": "https://huggingface.co/papers/2610.29989",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-21T00:00:00+00:00",
+      "summary": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk denoising, reducing the pressure to model visual evolution. We introduce Future Chunk Prediction (FCP), an auxi",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 167,
+      "arxiv_id": "2610.29989"
     },
     {
       "id": "paper:2610.29997",
@@ -122,7 +135,7 @@
       "summary": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly cha",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 155,
+      "upvotes": 156,
       "arxiv_id": "2610.29997"
     },
     {
@@ -135,7 +148,7 @@
       "summary": "Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves. Recent digital agents test this idea by rewriting their own code and checking each version with executable tests. Bringing these mechanisms into the physical world requires learning from partial observations through costly trials, while accounting for changing operatin",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 50,
+      "upvotes": 54,
       "arxiv_id": "2610.29677"
     },
     {
@@ -161,7 +174,7 @@
       "summary": "Using an LLM to generate training data for another is among the most general ways to train one, and it remains common practice. Some frontier teams have closed that route for their own models: what comes back is an answer, or a short summary, without the detailed reasoning trace behind it. That is a little ironic: they were themselves built on distilling human knowledge, and distilling an open-sou",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 44,
+      "upvotes": 45,
       "arxiv_id": "2610.29680"
     },
     {
@@ -210,7 +223,7 @@
       "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, ea",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 441,
+      "upvotes": 442,
       "arxiv_id": "2610.28402"
     },
     {
@@ -236,7 +249,7 @@
       "summary": "Selecting intermediate features from a frozen diffusion model for discriminative tasks is non-trivial because the useful signal is distributed across the denoising trajectory, network depth, and channels. In practice, this requires choosing a timestep, a block, and a channel subset. Existing methods either fix these choices by hand or optimize only a few extraction hyperparameters, most often the ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 44,
+      "upvotes": 47,
       "arxiv_id": "2610.28889"
     },
     {
@@ -299,7 +312,7 @@
       "summary": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and heterogeneous formats, often involving complex interaction mechanisms that require agents to autonomously sear",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 154,
+      "upvotes": 157,
       "arxiv_id": "2610.30181"
     },
     {
@@ -312,7 +325,7 @@
       "summary": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general com",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 88,
+      "upvotes": 89,
       "arxiv_id": "2610.26828"
     },
     {
@@ -350,19 +363,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/tDWtcyeNNew/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "paper:2610.25100",
-      "title": "Deep Fusion Memory: A Chunk-Level Parametric Memory for Large Language Models",
-      "url": "https://huggingface.co/papers/2610.25100",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-18T00:00:00+00:00",
-      "summary": "Large language models need effective ways to acquire and use external knowledge beyond what they retain from pretraining. Continued pretraining risks catastrophic forgetting, while retrieval at inference time can add substantial overhead. External parametric memory avoids online retrieval, but constructing its training data requires extensive offline search, and output-level interpolation provides",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 41,
-      "arxiv_id": "2610.25100"
     },
     {
       "id": "yt:hZPs633_58Q",
@@ -867,18 +867,6 @@
       "thumbnail": "https://i4.ytimg.com/vi/c1rPlzxSZ8E/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
-    },
-    {
-      "id": "yt:R9momwXV9w4",
-      "title": "Opus 5.5: How Close Are We to Automated AI Research?",
-      "url": "https://www.youtube.com/watch?v=R9momwXV9w4",
-      "source": "AI Explained",
-      "category": "videos",
-      "published": "2026-09-24T22:51:54+00:00",
-      "summary": "Not only is Opus 5.5 out, pushing the frontier of AI, it also tells us much about what is going on inside the labs, as they both warn about, and promise, Recursive Self Improvement, aka automated AI research. I cover the model (digging into its 230 page paper), labs’ mixed record on promises, why fo",
-      "thumbnail": "https://i3.ytimg.com/vi/R9momwXV9w4/hqdefault.jpg",
-      "kind": "video",
-      "channel": "AI Explained"
     }
   ],
   "featured": [
@@ -897,7 +885,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T22:07:31.257796+00:00",
+      "fetched_at": "2026-10-25T00:24:45.979448+00:00",
       "entries": [
         {
           "rank": 1,
@@ -979,7 +967,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T22:07:31.259206+00:00",
+      "fetched_at": "2026-10-25T00:24:45.982445+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1061,7 +1049,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T22:07:31.260498+00:00",
+      "fetched_at": "2026-10-25T00:24:45.985201+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1143,7 +1131,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T22:07:31.260986+00:00",
+      "fetched_at": "2026-10-25T00:24:45.986188+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1197,7 +1185,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T22:07:31.263186+00:00",
+      "fetched_at": "2026-10-25T00:24:45.990665+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1279,7 +1267,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T22:07:31.263195+00:00",
+      "fetched_at": "2026-10-25T00:24:45.990679+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1333,7 +1321,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T22:07:31.264125+00:00",
+      "fetched_at": "2026-10-25T00:24:45.992642+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1415,7 +1403,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-24T22:07:31.280981+00:00",
+      "fetched_at": "2026-10-25T00:24:46.025753+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1497,7 +1485,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-24T22:07:31.298849+00:00",
+      "fetched_at": "2026-10-25T00:24:46.062312+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1579,7 +1567,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T22:07:31.304470+00:00",
+      "fetched_at": "2026-10-25T00:24:46.074071+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1661,7 +1649,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T22:07:31.306687+00:00",
+      "fetched_at": "2026-10-25T00:24:46.078723+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1743,7 +1731,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T22:07:31.312270+00:00",
+      "fetched_at": "2026-10-25T00:24:46.090859+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1825,7 +1813,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-24T22:07:31.313540+00:00",
+      "fetched_at": "2026-10-25T00:24:46.093619+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2108,58 +2096,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-24T22:07:13.368258+00:00"
+        "ok": false,
+        "items": 3,
+        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-10-25T00:24:29.621667+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-24T22:07:12.334330+00:00"
+        "ok": false,
+        "items": 7,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-10-25T00:24:28.509882+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-24T22:07:16.446421+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-10-25T00:24:32.754857+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-24T22:07:14.400096+00:00"
+        "checked_at": "2026-10-25T00:24:30.695398+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-24T22:07:18.699114+00:00"
+        "checked_at": "2026-10-25T00:24:34.969734+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-24T22:07:15.423429+00:00"
+        "checked_at": "2026-10-25T00:24:31.720642+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-24T22:07:17.483621+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-10-25T00:24:33.793875+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-24T22:07:31.315215+00:00"
+      "checked_at": "2026-10-25T00:24:46.095219+00:00"
     }
   }
 }
