@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T14:04:55.399184+00:00",
+  "generated_at": "2026-10-25T17:43:51.172483+00:00",
   "items": [
     {
       "id": "yt:aZMKzHhlTh8",
@@ -120,7 +120,7 @@
       "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, en",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 241,
+      "upvotes": 242,
       "arxiv_id": "2610.31329"
     },
     {
@@ -133,7 +133,7 @@
       "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optima",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 96,
+      "upvotes": 97,
       "arxiv_id": "2610.30949"
     },
     {
@@ -159,7 +159,7 @@
       "summary": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly cha",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 160,
+      "upvotes": 161,
       "arxiv_id": "2610.29997"
     },
     {
@@ -198,7 +198,7 @@
       "summary": "Using an LLM to generate training data for another is among the most general ways to train one, and it remains common practice. Some frontier teams have closed that route for their own models: what comes back is an answer, or a short summary, without the detailed reasoning trace behind it. That is a little ironic: they were themselves built on distilling human knowledge, and distilling an open-sou",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 48,
+      "upvotes": 49,
       "arxiv_id": "2610.29680"
     },
     {
@@ -247,7 +247,7 @@
       "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, ea",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 490,
+      "upvotes": 519,
       "arxiv_id": "2610.28402"
     },
     {
@@ -286,7 +286,7 @@
       "summary": "Agentic robotics systems combine planners with robot harnesses to perform complex manipulation tasks. Recent work improves these systems through better harnesses and external memory, but relies on powerful closed-source models as planners and does not improve the planners' own capabilities. In contrast, coding agents have improved substantially by post-training the model itself. We therefore inves",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 47,
+      "upvotes": 48,
       "arxiv_id": "2610.28589"
     },
     {
@@ -897,7 +897,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T14:04:55.336409+00:00",
+      "fetched_at": "2026-10-25T17:43:51.045391+00:00",
       "entries": [
         {
           "rank": 1,
@@ -979,7 +979,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T14:04:55.337835+00:00",
+      "fetched_at": "2026-10-25T17:43:51.048292+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1061,7 +1061,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T14:04:55.339118+00:00",
+      "fetched_at": "2026-10-25T17:43:51.050943+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1143,7 +1143,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T14:04:55.339578+00:00",
+      "fetched_at": "2026-10-25T17:43:51.051875+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1197,7 +1197,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T14:04:55.341766+00:00",
+      "fetched_at": "2026-10-25T17:43:51.056202+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1279,7 +1279,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T14:04:55.341774+00:00",
+      "fetched_at": "2026-10-25T17:43:51.056215+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1333,7 +1333,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T14:04:55.342701+00:00",
+      "fetched_at": "2026-10-25T17:43:51.058066+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1415,7 +1415,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-25T14:04:55.359532+00:00",
+      "fetched_at": "2026-10-25T17:43:51.091572+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1497,7 +1497,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-25T14:04:55.377500+00:00",
+      "fetched_at": "2026-10-25T17:43:51.128642+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1579,7 +1579,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T14:04:55.383240+00:00",
+      "fetched_at": "2026-10-25T17:43:51.141069+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1661,7 +1661,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T14:04:55.385399+00:00",
+      "fetched_at": "2026-10-25T17:43:51.145471+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1743,77 +1743,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T14:04:55.390977+00:00",
+      "fetched_at": "2026-10-25T17:43:51.157386+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Eleven v4 Turbo",
           "creator": "Eleven v4 Turbo",
-          "score": 1336.0,
+          "score": 1335.0,
           "meta": "Sept 2026 · $40.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Eleven v4",
           "creator": "Eleven v4",
-          "score": 1332.0,
+          "score": 1330.0,
           "meta": "Sept 2026 · $80.0 /1M chars"
         },
         {
           "rank": 3,
           "name": "Qwen-Audio-3.1-TTS-Plus",
           "creator": "Qwen-Audio-3.1-TTS-Plus",
-          "score": 1307.0,
+          "score": 1306.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
           "rank": 4,
           "name": "Sonic 3.6",
           "creator": "Sonic 3.6",
-          "score": 1292.0,
+          "score": 1289.0,
           "meta": "Aug 2026 · $49.0 /1M chars"
         },
         {
           "rank": 5,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Gemini 3.8 Flash TTS",
-          "score": 1280.0,
+          "score": 1282.0,
           "meta": "Sept 2026 · $16.5 /1M chars"
         },
         {
           "rank": 6,
           "name": "Realtime TTS-2",
           "creator": "Realtime TTS-2",
-          "score": 1270.0,
+          "score": 1269.0,
           "meta": "Aug 2026 · $20.8 /1M chars"
         },
         {
           "rank": 7,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Qwen-Audio-3.0-TTS-Plus",
-          "score": 1266.0,
+          "score": 1268.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
           "rank": 8,
           "name": "Gemini 3.8 Flash-Lite TTS",
           "creator": "Gemini 3.8 Flash-Lite TTS",
-          "score": 1252.0,
+          "score": 1254.0,
           "meta": "Sept 2026 · $11.0 /1M chars"
         },
         {
           "rank": 9,
-          "name": "Fish Audio Drama 3 Preview",
-          "creator": "Fish Audio Drama 3 Preview",
-          "score": 1248.0,
-          "meta": "Oct 2026 · $15.0 /1M chars"
-        },
-        {
-          "rank": 10,
           "name": "Simba 3.2",
           "creator": "Simba 3.2",
           "score": 1246.0,
           "meta": "Jul 2026 · $6.6 /1M chars"
+        },
+        {
+          "rank": 10,
+          "name": "Fish Audio Drama 3 Preview",
+          "creator": "Fish Audio Drama 3 Preview",
+          "score": 1246.0,
+          "meta": "Oct 2026 · $15.0 /1M chars"
         }
       ]
     },
@@ -1825,13 +1825,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T14:04:55.392236+00:00",
+      "fetched_at": "2026-10-25T17:43:51.160149+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio Drama 3 Preview",
-          "score": 1248.0,
+          "score": 1246.0,
           "meta": "Oct 2026 · $15.0 /1M chars"
         },
         {
@@ -1845,14 +1845,14 @@
           "rank": 3,
           "name": "Ming-3.0-tts",
           "creator": "Ming-3.0-tts",
-          "score": 1191.0,
+          "score": 1189.0,
           "meta": "Oct 2026 · N/A"
         },
         {
           "rank": 4,
           "name": "Fish Audio S2 Pro",
           "creator": "Fish Audio S2 Pro",
-          "score": 1110.0,
+          "score": 1109.0,
           "meta": "Mar 2026 · $15.0 /1M chars"
         },
         {
@@ -1866,28 +1866,28 @@
           "rank": 6,
           "name": "Voxtral TTS",
           "creator": "Voxtral TTS",
-          "score": 1091.0,
+          "score": 1090.0,
           "meta": "Mar 2026 · $16.0 /1M chars"
         },
         {
           "rank": 7,
           "name": "Kokoro 82M v1.0",
           "creator": "Kokoro 82M v1.0",
-          "score": 1066.0,
+          "score": 1063.0,
           "meta": "Jan 2025 · $0.7 /1M chars"
         },
         {
           "rank": 8,
           "name": "Magpie-Multilingual 357M (Feb 2026)",
           "creator": "Magpie-Multilingual 357M (Feb 2026)",
-          "score": 1065.0,
+          "score": 1063.0,
           "meta": "Feb 2026 · N/A"
         },
         {
           "rank": 9,
           "name": "Maya1",
           "creator": "Maya1",
-          "score": 1048.0,
+          "score": 1047.0,
           "meta": "Jun 2025 · N/A"
         },
         {
@@ -2111,55 +2111,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-25T14:04:33.820767+00:00"
+        "checked_at": "2026-10-25T17:43:34.377884+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-25T14:04:32.804108+00:00"
+        "checked_at": "2026-10-25T17:43:33.137858+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-25T14:04:37.082311+00:00"
+        "checked_at": "2026-10-25T17:43:37.778068+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-25T14:04:34.942133+00:00"
+        "checked_at": "2026-10-25T17:43:35.405285+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-25T14:04:39.437020+00:00"
+        "checked_at": "2026-10-25T17:43:40.296507+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-25T14:04:35.955205+00:00"
+        "checked_at": "2026-10-25T17:43:36.597390+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-25T14:04:38.253348+00:00"
+        "checked_at": "2026-10-25T17:43:39.084182+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-25T14:04:55.393585+00:00"
+      "checked_at": "2026-10-25T17:43:51.161721+00:00"
     }
   }
 }
