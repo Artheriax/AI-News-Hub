@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-10-25T05:00:44.934523+00:00",
+  "generated_at": "2026-10-25T09:57:41.908768+00:00",
   "items": [
+    {
+      "id": "yt:aZMKzHhlTh8",
+      "title": "HUGE GPT-7 BEL UPDATE! Claude REA BANNED, Gemini 4 Carbon Is INSANE, Qwen 4 LEAKS, & More! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=aZMKzHhlTh8",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-10-25T07:03:15+00:00",
+      "summary": "Try Browserbase, the Browser Agent Platform!: https://browserbase.com 🚨 HUGE AI NEWS! OpenAI's rumored GPT-7 Bel is making headlines as new details emerge about its frontier model training, security upgrades, and a potential GPT-6.1 Astra release! Meanwhile, Anthropic is facing backlash over Claude'",
+      "thumbnail": "https://i2.ytimg.com/vi/aZMKzHhlTh8/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
+      "id": "yt:EfyQOAJjx1A",
+      "title": "Cybersecurity chaos, AI for DNA, Kimi K3.1, Claude Duet, Dessa, Fibo 2, Minimax 3.1: AI NEWS",
+      "url": "https://www.youtube.com/watch?v=EfyQOAJjx1A",
+      "source": "AI Search",
+      "category": "videos",
+      "published": "2026-10-25T03:29:04+00:00",
+      "summary": "HUGE AI NEWS: AI cyber attacks, Kimi K3.1, Minimax M3.1, Hi3D, Dessa voice. Thanks to our sponsor Luma. Try it today https://lumalabs.ai/aisearch-oct3 #ai #ainews #aitools #agi #singularity 00:00 AI news intro 01:01 WeVisOne-VL 03:10 Bark3 04:53 Fibo 2.0 07:37 Carbon-X 09:27 Hy-Nomas 11:14 Hi3D 1.0 ",
+      "thumbnail": "https://i2.ytimg.com/vi/EfyQOAJjx1A/hqdefault.jpg",
+      "kind": "video",
+      "channel": "AI Search"
+    },
     {
       "id": "yt:5Z_Y7SRd_oo",
       "title": "Kimi K3.1 Pro Is INSANE! CHEAPER & FASTER Than Claude Opus 5.5?! (Fully Tested)",
@@ -71,7 +95,7 @@
       "summary": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) ma",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 171,
+      "upvotes": 172,
       "arxiv_id": "2610.30926"
     },
     {
@@ -96,7 +120,7 @@
       "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, en",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 239,
+      "upvotes": 241,
       "arxiv_id": "2610.31329"
     },
     {
@@ -109,7 +133,7 @@
       "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optima",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 91,
+      "upvotes": 93,
       "arxiv_id": "2610.30949"
     },
     {
@@ -122,7 +146,7 @@
       "summary": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk denoising, reducing the pressure to model visual evolution. We introduce Future Chunk Prediction (FCP), an auxi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 168,
+      "upvotes": 170,
       "arxiv_id": "2610.29989"
     },
     {
@@ -135,7 +159,7 @@
       "summary": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the increased complexity of coordinating contacts make developing a generalist bimanual tracker particularly cha",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 159,
+      "upvotes": 160,
       "arxiv_id": "2610.29997"
     },
     {
@@ -148,7 +172,7 @@
       "summary": "Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves. Recent digital agents test this idea by rewriting their own code and checking each version with executable tests. Bringing these mechanisms into the physical world requires learning from partial observations through costly trials, while accounting for changing operatin",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 56,
+      "upvotes": 57,
       "arxiv_id": "2610.29677"
     },
     {
@@ -161,7 +185,7 @@
       "summary": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains unclear whether their isolated gains survive composition, whether retrieval quality and answer faithfuln",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 52,
+      "upvotes": 54,
       "arxiv_id": "2610.29722"
     },
     {
@@ -174,7 +198,7 @@
       "summary": "Using an LLM to generate training data for another is among the most general ways to train one, and it remains common practice. Some frontier teams have closed that route for their own models: what comes back is an answer, or a short summary, without the detailed reasoning trace behind it. That is a little ironic: they were themselves built on distilling human knowledge, and distilling an open-sou",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 46,
+      "upvotes": 48,
       "arxiv_id": "2610.29680"
     },
     {
@@ -223,7 +247,7 @@
       "summary": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation, instruction editing, and reference editing. StreamEval comprises 300 scripted test cases lasting 15-300s, ea",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 444,
+      "upvotes": 460,
       "arxiv_id": "2610.28402"
     },
     {
@@ -249,7 +273,7 @@
       "summary": "Selecting intermediate features from a frozen diffusion model for discriminative tasks is non-trivial because the useful signal is distributed across the denoising trajectory, network depth, and channels. In practice, this requires choosing a timestep, a block, and a channel subset. Existing methods either fix these choices by hand or optimize only a few extraction hyperparameters, most often the ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 50,
+      "upvotes": 51,
       "arxiv_id": "2610.28889"
     },
     {
@@ -262,7 +286,7 @@
       "summary": "Agentic robotics systems combine planners with robot harnesses to perform complex manipulation tasks. Recent work improves these systems through better harnesses and external memory, but relies on powerful closed-source models as planners and does not improve the planners' own capabilities. In contrast, coding agents have improved substantially by post-training the model itself. We therefore inves",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 44,
+      "upvotes": 47,
       "arxiv_id": "2610.28589"
     },
     {
@@ -299,7 +323,7 @@
       "summary": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous exploration. We introduce SpatialScout, a benchmark for evaluating vision-language model (VLM) agents on activ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 163,
+      "upvotes": 164,
       "arxiv_id": "2610.26659"
     },
     {
@@ -325,7 +349,7 @@
       "summary": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild (WildAWM), a scalable pipeline for synthesizing controllable environments and tasks for training general com",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 91,
+      "upvotes": 94,
       "arxiv_id": "2610.26828"
     },
     {
@@ -605,18 +629,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "yt:6gfACqBAKfw",
-      "title": "Claude Haiku 5.5 Is a GAME CHANGER! 90% CHEAPER & INSANE Performance! (Fully Tested)",
-      "url": "https://www.youtube.com/watch?v=6gfACqBAKfw",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-10-08T02:01:33+00:00",
-      "summary": "🚀 Get $100 in free credits on Gamut!: https://gamut.so/worldofai Gamut gives every agent its own cloud computer, so it runs 24/7 even with your laptop closed. Pick any model (Claude, GPT, Grok, Meta, open models) or bring in your existing Codex or Grok subscription. Anthropic just released Claude Ha",
-      "thumbnail": "https://i3.ytimg.com/vi/6gfACqBAKfw/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:rGUzoHunuV8",
       "title": "Claude Haiku 5.5 Is INSANE – This IS the BEST Cheap Model Yet!",
       "url": "https://www.youtube.com/watch?v=rGUzoHunuV8",
@@ -885,7 +897,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T05:00:44.844259+00:00",
+      "fetched_at": "2026-10-25T09:57:41.820224+00:00",
       "entries": [
         {
           "rank": 1,
@@ -967,7 +979,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T05:00:44.846258+00:00",
+      "fetched_at": "2026-10-25T09:57:41.822206+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1049,7 +1061,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T05:00:44.848112+00:00",
+      "fetched_at": "2026-10-25T09:57:41.824065+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1131,7 +1143,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T05:00:44.848779+00:00",
+      "fetched_at": "2026-10-25T09:57:41.824729+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1185,7 +1197,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T05:00:44.852020+00:00",
+      "fetched_at": "2026-10-25T09:57:41.827926+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1267,7 +1279,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T05:00:44.852031+00:00",
+      "fetched_at": "2026-10-25T09:57:41.827936+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1321,7 +1333,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T05:00:44.853358+00:00",
+      "fetched_at": "2026-10-25T09:57:41.829332+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1403,7 +1415,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-25T05:00:44.877213+00:00",
+      "fetched_at": "2026-10-25T09:57:41.853028+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1485,7 +1497,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-25T05:00:44.903669+00:00",
+      "fetched_at": "2026-10-25T09:57:41.878311+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1567,7 +1579,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T05:00:44.911944+00:00",
+      "fetched_at": "2026-10-25T09:57:41.886167+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1649,7 +1661,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T05:00:44.914998+00:00",
+      "fetched_at": "2026-10-25T09:57:41.889196+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1731,7 +1743,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T05:00:44.923552+00:00",
+      "fetched_at": "2026-10-25T09:57:41.897710+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1813,7 +1825,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-25T05:00:44.925520+00:00",
+      "fetched_at": "2026-10-25T09:57:41.899701+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2096,58 +2108,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 2,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-10-25T05:00:28.925585+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-25T09:57:24.402979+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 7,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-10-25T05:00:27.777469+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-25T09:57:23.383532+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-10-25T05:00:32.393259+00:00"
+        "error": null,
+        "checked_at": "2026-10-25T09:57:27.444788+00:00"
       },
       {
         "name": "Fireship",
-        "ok": false,
-        "items": 12,
-        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-10-25T05:00:30.104349+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-25T09:57:25.416163+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-25T05:00:34.731610+00:00"
+        "checked_at": "2026-10-25T09:57:29.598129+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": false,
-        "items": 5,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-10-25T05:00:31.249094+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-25T09:57:26.430766+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-10-25T05:00:33.538199+00:00"
+        "error": null,
+        "checked_at": "2026-10-25T09:57:28.471409+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-25T05:00:44.926927+00:00"
+      "checked_at": "2026-10-25T09:57:41.901192+00:00"
     }
   }
 }
