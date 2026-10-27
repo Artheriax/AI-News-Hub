@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T13:25:48.760801+00:00",
+  "generated_at": "2026-10-27T18:48:21.129986+00:00",
   "items": [
     {
       "id": "yt:SyUjFWgqDNo",
@@ -47,7 +47,7 @@
       "summary": "Vision-language models are shifting from offline passive understanding toward online proactive interaction. However, prevailing methods largely rely on explicit requests while miss the implicit user intent (e.g., \"where should I click next?\" while a user navigate a website), meanwhile fail to update the state simultaneously as user requests might update continuously. These limitations make them le",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 229,
+      "upvotes": 235,
       "arxiv_id": "2610.34662"
     },
     {
@@ -60,7 +60,7 @@
       "summary": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric, system-level perspective that views work agents as systems co",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 90,
+      "upvotes": 96,
       "arxiv_id": "2610.35845"
     },
     {
@@ -97,7 +97,7 @@
       "summary": "Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements. We introduce DynaFlow, a framework that integrates free-form executable workflow synthesis into the action space of the main agent. The agent decides when collaboration is needed and generates task-specific programs that coordinate sub-agents through sequential or pa",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 163,
+      "upvotes": 182,
       "arxiv_id": "2610.34467"
     },
     {
@@ -110,21 +110,8 @@
       "summary": "People have long dreamed of an assistant that is always there to guide them and remind what they forget, from new dishes to lost keys. Powered by multimodal large language models (MLLMs), egocentric AI assistants on wearable devices are bringing this dream within reach: they see what the user sees and give instructions for user's physical work when necessary. However, testing such assistance is ch",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 107,
+      "upvotes": 109,
       "arxiv_id": "2610.33966"
-    },
-    {
-      "id": "paper:2610.34415",
-      "title": "Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion",
-      "url": "https://huggingface.co/papers/2610.34415",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-25T00:00:00+00:00",
-      "summary": "Spatial audio authoring coordinates source decisions with soundfield synthesis. For editing, plans specify what to change and retain, while reference audio supplies further acoustic detail. We present AMBIT, a unified framework for native First-Order Ambisonics (FOA) generation and editing with three connected contributions. First, a shared Transfusion backbone couples autoregressive planning with",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 35,
-      "arxiv_id": "2610.34415"
     },
     {
       "id": "paper:2610.33956",
@@ -136,8 +123,21 @@
       "summary": "Continual learning is the ability of LLM agents to improve over time by acquiring, refining, and applying knowledge from experience while retaining useful prior knowledge. It is essential for agents learning over long time horizons, yet current evaluations largely assess individual task performance rather than improvement through accumulated experience. We introduce Continual Learning Exam (CLE), ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 28,
+      "upvotes": 43,
       "arxiv_id": "2610.33956"
+    },
+    {
+      "id": "paper:2610.34415",
+      "title": "Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion",
+      "url": "https://huggingface.co/papers/2610.34415",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-25T00:00:00+00:00",
+      "summary": "Spatial audio authoring coordinates source decisions with soundfield synthesis. For editing, plans specify what to change and retain, while reference audio supplies further acoustic detail. We present AMBIT, a unified framework for native First-Order Ambisonics (FOA) generation and editing with three connected contributions. First, a shared Transfusion backbone couples autoregressive planning with",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 38,
+      "arxiv_id": "2610.34415"
     },
     {
       "id": "yt:5Z_Y7SRd_oo",
@@ -173,8 +173,21 @@
       "summary": "Successful tool-use trajectories are not necessarily useful supervision. Even successful interactions may underrepresent multi-step dependencies or contain actions that are unjustified by the information visible to the agent at decision time. We identify two coupled requirements for effective trajectory supervision: compositional coverage, so that important observation-action dependencies are repr",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 325,
+      "upvotes": 330,
       "arxiv_id": "2610.33568"
+    },
+    {
+      "id": "paper:2610.33413",
+      "title": "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
+      "url": "https://huggingface.co/papers/2610.33413",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-24T00:00:00+00:00",
+      "summary": "Localized AI manipulations in long-form videos often affect brief events within otherwise authentic content, making video-level classification insufficient for forensic analysis. Existing audio-visual deepfake benchmarks largely focus on short talking-head clips, while long-form temporal forensics remains predominantly visual. We introduce AV-FABLE, a dual-timeline benchmark for sparse manipulatio",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 33,
+      "arxiv_id": "2610.33413"
     },
     {
       "id": "yt:SMGg7iisHmc",
@@ -210,7 +223,7 @@
       "summary": "LLM agents are increasingly used to solve real-world problems, and their effectiveness depends on both the underlying models and the harnesses that support their operation. However, most existing benchmarks focus on model capabilities and overall agent performance, with limited attention to the evaluation of agent harnesses. To address this gap, we introduce TraceTrial-Bench, which organizes harne",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 146,
+      "upvotes": 190,
       "arxiv_id": "2610.32285"
     },
     {
@@ -223,21 +236,8 @@
       "summary": "We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world with visual anticipation of how it evolves across successive subtasks. Building on",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 46,
+      "upvotes": 51,
       "arxiv_id": "2610.32965"
-    },
-    {
-      "id": "paper:2610.33135",
-      "title": "WorldCast: World-Consistent Character Video Generation with Large-Angle Camera Control",
-      "url": "https://huggingface.co/papers/2610.33135",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-23T00:00:00+00:00",
-      "summary": "Precise camera control is essential for cinematic character video generation, yet existing methods struggle to follow large-angle trajectories with combined rotation, translation, and radius variation from arbitrary initial azimuths. Such viewpoint changes also reveal character regions unseen in the initial frame, causing geometric distortions, appearance degradation, and identity drift. To system",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 41,
-      "arxiv_id": "2610.33135"
     },
     {
       "id": "paper:2610.32253",
@@ -249,8 +249,21 @@
       "summary": "Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery. We present RSIHub, an open-source framework for building, comparing, and extending these methods on shared infrastructure. Recipes compose reusable operators and declare mutable resources; RSIHub supplies execution, evaluation",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 41,
+      "upvotes": 46,
       "arxiv_id": "2610.32253"
+    },
+    {
+      "id": "paper:2610.33135",
+      "title": "WorldCast: World-Consistent Character Video Generation with Large-Angle Camera Control",
+      "url": "https://huggingface.co/papers/2610.33135",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-23T00:00:00+00:00",
+      "summary": "Precise camera control is essential for cinematic character video generation, yet existing methods struggle to follow large-angle trajectories with combined rotation, translation, and radius variation from arbitrary initial azimuths. Such viewpoint changes also reveal character regions unseen in the initial frame, causing geometric distortions, appearance degradation, and identity drift. To system",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 42,
+      "arxiv_id": "2610.33135"
     },
     {
       "id": "yt:zv6B6PQOuHE",
@@ -286,7 +299,7 @@
       "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 285,
+      "upvotes": 294,
       "arxiv_id": "2610.31668"
     },
     {
@@ -299,7 +312,7 @@
       "summary": "Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users' behavioral responses over long interactions. Existing resources rarely provide long-horizon, fine-grained real-user trajectories or support trajectory-le",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 57,
+      "upvotes": 60,
       "arxiv_id": "2610.30932"
     },
     {
@@ -312,21 +325,8 @@
       "summary": "Building virtual embodied agents that operate in open-ended games like human players is a long-standing goal requiring both long-horizon autonomy and reliable native-interface control. As a procedurally generated open world, Minecraft provides a natural testbed for studying the integration of these capabilities. Existing agents typically provide either native visuomotor control without long-horizo",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 48,
+      "upvotes": 52,
       "arxiv_id": "2610.31162"
-    },
-    {
-      "id": "paper:2610.31066",
-      "title": "Dual Exam: Controlled Evaluation of Multimodal Agents and World Models",
-      "url": "https://huggingface.co/papers/2610.31066",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-22T00:00:00+00:00",
-      "summary": "World Models (WMs) can support Multimodal Agents (MAs) through simulated experience, while Agent trajectories can inform World Model refinement. Evaluating this interaction requires separate evidence about action selection and state evolution. We introduce Dual Exam, which tests Agents under fixed environment response mechanisms and World Models under fixed action interventions across physical, di",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 29,
-      "arxiv_id": "2610.31066"
     },
     {
       "id": "yt:b2tjnxX8IHU",
@@ -873,7 +873,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T13:25:48.634161+00:00",
+      "fetched_at": "2026-10-27T18:48:21.040788+00:00",
       "entries": [
         {
           "rank": 1,
@@ -884,66 +884,66 @@
         },
         {
           "rank": 2,
+          "name": "MAI-Image-2.7-Preview",
+          "creator": "MAI-Image-2.7-Preview",
+          "score": 1193.0,
+          "meta": "Oct 2026 · No API available"
+        },
+        {
+          "rank": 3,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "GPT Image 2.5 Flare (max)",
           "score": 1182.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "MAI-Image-2.6",
           "creator": "MAI-Image-2.6",
           "score": 1151.0,
           "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Krea 3 (Ultra)",
           "creator": "Krea 3 (Ultra)",
           "score": 1151.0,
           "meta": "Oct 2026 · $270.0 /1k imgs"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Nano Banana 2.1",
           "creator": "Nano Banana 2.1",
           "score": 1151.0,
           "meta": "Oct 2026 · $33.6 /1k imgs"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "MAI-Image-2.6-Flash",
           "creator": "MAI-Image-2.6-Flash",
           "score": 1144.0,
           "meta": "Sep 2026 · $19.5 /1k imgs"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "GPT Image 2 (high)",
           "creator": "GPT Image 2 (high)",
           "score": 1136.0,
           "meta": "Apr 2026 · $211.0 /1k imgs"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Seedream 5.0 Pro",
           "creator": "Seedream 5.0 Pro",
           "score": 1131.0,
           "meta": "Jul 2026 · $90.0 /1k imgs"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Muse Image",
           "creator": "Muse Image",
           "score": 1129.0,
           "meta": "Jul 2026 · $10.0 /1k imgs"
-        },
-        {
-          "rank": 10,
-          "name": "MAI-Image-2.5",
-          "creator": "MAI-Image-2.5",
-          "score": 1127.0,
-          "meta": "Jun 2026 · $48.1 /1k imgs"
         }
       ]
     },
@@ -955,7 +955,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T13:25:48.637062+00:00",
+      "fetched_at": "2026-10-27T18:48:21.042789+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1037,7 +1037,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T13:25:48.639730+00:00",
+      "fetched_at": "2026-10-27T18:48:21.044657+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1119,7 +1119,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T13:25:48.640670+00:00",
+      "fetched_at": "2026-10-27T18:48:21.045325+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1173,7 +1173,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T13:25:48.645017+00:00",
+      "fetched_at": "2026-10-27T18:48:21.048567+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1255,7 +1255,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T13:25:48.645031+00:00",
+      "fetched_at": "2026-10-27T18:48:21.048578+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1309,7 +1309,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T13:25:48.647041+00:00",
+      "fetched_at": "2026-10-27T18:48:21.049926+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1391,7 +1391,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-27T13:25:48.680281+00:00",
+      "fetched_at": "2026-10-27T18:48:21.073902+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1473,7 +1473,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-27T13:25:48.717280+00:00",
+      "fetched_at": "2026-10-27T18:48:21.099375+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1498,52 +1498,52 @@
         },
         {
           "rank": 4,
+          "name": "Ling 3.1 Flash 1019",
+          "creator": "InclusionAI",
+          "score": 44.0,
+          "meta": "1.05M ctx"
+        },
+        {
+          "rank": 5,
           "name": "Step 5 Preview",
           "creator": "StepFun",
           "score": 44.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "GLM-5.3-Flash",
           "creator": "Z AI",
           "score": 42.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Ling 3.1 Flash",
           "creator": "InclusionAI",
           "score": 41.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Qwen3.8 2.4T A95B",
           "creator": "Alibaba",
           "score": 40.0,
           "meta": "262k ctx"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Qwen3.8-Flash-Next",
           "creator": "Alibaba",
           "score": 40.0,
           "meta": "256k ctx"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Muse Spark Open (xhigh)",
           "creator": "Meta",
           "score": 39.0,
           "meta": "1.05M ctx"
-        },
-        {
-          "rank": 10,
-          "name": "MiMo-V2.6-Flash",
-          "creator": "Xiaomi",
-          "score": 38.0,
-          "meta": "1M ctx"
         }
       ]
     },
@@ -1555,7 +1555,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T13:25:48.729123+00:00",
+      "fetched_at": "2026-10-27T18:48:21.107246+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1637,7 +1637,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T13:25:48.733684+00:00",
+      "fetched_at": "2026-10-27T18:48:21.110224+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1719,7 +1719,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T13:25:48.745547+00:00",
+      "fetched_at": "2026-10-27T18:48:21.118675+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1801,7 +1801,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T13:25:48.748282+00:00",
+      "fetched_at": "2026-10-27T18:48:21.120648+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2087,55 +2087,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-27T13:25:32.200762+00:00"
+        "checked_at": "2026-10-27T18:48:05.166083+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-27T13:25:31.169474+00:00"
+        "checked_at": "2026-10-27T18:48:03.981847+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-27T13:25:35.405146+00:00"
+        "checked_at": "2026-10-27T18:48:08.496145+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-27T13:25:33.359082+00:00"
+        "checked_at": "2026-10-27T18:48:06.341486+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-27T13:25:37.910716+00:00"
+        "checked_at": "2026-10-27T18:48:10.807622+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-27T13:25:34.382910+00:00"
+        "checked_at": "2026-10-27T18:48:07.358492+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-27T13:25:36.622695+00:00"
+        "checked_at": "2026-10-27T18:48:09.655724+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-27T13:25:48.749733+00:00"
+      "checked_at": "2026-10-27T18:48:21.122415+00:00"
     }
   }
 }
