@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-10-27T01:33:09.154519+00:00",
+  "generated_at": "2026-10-27T07:03:05.904036+00:00",
   "items": [
+    {
+      "id": "yt:SyUjFWgqDNo",
+      "title": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-10-27T06:15:05+00:00",
+      "summary": "Try Alexandria today at https://www.firecrawl.dev/alexandria The AI world is moving faster than ever! Anthropic has reportedly filed for its IPO, revealing explosive financial numbers, massive revenue growth, and new developments surrounding Claude Fable 5.5. Meanwhile, OpenAI has released GPT-6.1 T",
+      "thumbnail": "https://i4.ytimg.com/vi/SyUjFWgqDNo/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
+      "id": "yt:VHJfY-c7VkA",
+      "title": "GPT-6.1 Terra Is HERE – Is THIS the FASTEST Model Yet?",
+      "url": "https://www.youtube.com/watch?v=VHJfY-c7VkA",
+      "source": "Bijan Bowen",
+      "category": "videos",
+      "published": "2026-10-27T05:03:23+00:00",
+      "summary": "Timestamps: 00:00 - Intro 01:15 - First Look 02:02 - Technical Look 03:06 - Browser OS Test 07:45 - C++ Skate Game Test 10:24 - Robot Arm Test 11:25 - Subway FPS Test 14:25 - Blender & Godot Test 17:41 - SNL Skit Test 20:21 - Computer Use Mensa Test 22:19 - Computer Use Blender Test 25:32 - Usage In",
+      "thumbnail": "https://i3.ytimg.com/vi/VHJfY-c7VkA/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Bijan Bowen"
+    },
     {
       "id": "yt:G_em1hHPnXY",
       "title": "China just dropped a new frontier model... and nobody can explain how",
@@ -12,6 +36,19 @@
       "thumbnail": "https://i4.ytimg.com/vi/G_em1hHPnXY/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
+    },
+    {
+      "id": "paper:2610.34662",
+      "title": "StreamVibe: Proactive Video Agents for Evolving User Intent",
+      "url": "https://huggingface.co/papers/2610.34662",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-26T00:00:00+00:00",
+      "summary": "Vision-language models are shifting from offline passive understanding toward online proactive interaction. However, prevailing methods largely rely on explicit requests while miss the implicit user intent (e.g., \"where should I click next?\" while a user navigate a website), meanwhile fail to update the state simultaneously as user requests might update continuously. These limitations make them le",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 95,
+      "arxiv_id": "2610.34662"
     },
     {
       "id": "yt:aZMKzHhlTh8",
@@ -38,6 +75,32 @@
       "channel": "AI Search"
     },
     {
+      "id": "paper:2610.33966",
+      "title": "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants",
+      "url": "https://huggingface.co/papers/2610.33966",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-25T00:00:00+00:00",
+      "summary": "People have long dreamed of an assistant that is always there to guide them and remind what they forget, from new dishes to lost keys. Powered by multimodal large language models (MLLMs), egocentric AI assistants on wearable devices are bringing this dream within reach: they see what the user sees and give instructions for user's physical work when necessary. However, testing such assistance is ch",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 71,
+      "arxiv_id": "2610.33966"
+    },
+    {
+      "id": "paper:2610.34415",
+      "title": "Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion",
+      "url": "https://huggingface.co/papers/2610.34415",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-25T00:00:00+00:00",
+      "summary": "Spatial audio authoring coordinates source decisions with soundfield synthesis. For editing, plans specify what to change and retain, while reference audio supplies further acoustic detail. We present AMBIT, a unified framework for native First-Order Ambisonics (FOA) generation and editing with three connected contributions. First, a shared Transfusion backbone couples autoregressive planning with",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 28,
+      "arxiv_id": "2610.34415"
+    },
+    {
       "id": "yt:5Z_Y7SRd_oo",
       "title": "Kimi K3.1 Pro Is INSANE! CHEAPER & FASTER Than Claude Opus 5.5?! (Fully Tested)",
       "url": "https://www.youtube.com/watch?v=5Z_Y7SRd_oo",
@@ -60,6 +123,19 @@
       "thumbnail": "https://i1.ytimg.com/vi/4MRMLerpcQc/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
+    },
+    {
+      "id": "paper:2610.33568",
+      "title": "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents",
+      "url": "https://huggingface.co/papers/2610.33568",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-24T00:00:00+00:00",
+      "summary": "Successful tool-use trajectories are not necessarily useful supervision. Even successful interactions may underrepresent multi-step dependencies or contain actions that are unjustified by the information visible to the agent at decision time. We identify two coupled requirements for effective trajectory supervision: compositional coverage, so that important observation-action dependencies are repr",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 119,
+      "arxiv_id": "2610.33568"
     },
     {
       "id": "yt:SMGg7iisHmc",
@@ -86,17 +162,30 @@
       "channel": "AI Search"
     },
     {
-      "id": "paper:2610.32253",
-      "title": "RSIHub: A Composable Framework for Agent-Evolution Methods",
-      "url": "https://huggingface.co/papers/2610.32253",
+      "id": "paper:2610.32285",
+      "title": "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution",
+      "url": "https://huggingface.co/papers/2610.32285",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-23T00:00:00+00:00",
-      "summary": "Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery. We present RSIHub, an open-source framework for building, comparing, and extending these methods on shared infrastructure. Recipes compose reusable operators and declare mutable resources; RSIHub supplies execution, evaluation",
+      "summary": "LLM agents are increasingly used to solve real-world problems, and their effectiveness depends on both the underlying models and the harnesses that support their operation. However, most existing benchmarks focus on model capabilities and overall agent performance, with limited attention to the evaluation of agent harnesses. To address this gap, we introduce TraceTrial-Bench, which organizes harne",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 34,
-      "arxiv_id": "2610.32253"
+      "upvotes": 89,
+      "arxiv_id": "2610.32285"
+    },
+    {
+      "id": "paper:2610.33135",
+      "title": "WorldCast: World-Consistent Character Video Generation with Large-Angle Camera Control",
+      "url": "https://huggingface.co/papers/2610.33135",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-23T00:00:00+00:00",
+      "summary": "Precise camera control is essential for cinematic character video generation, yet existing methods struggle to follow large-angle trajectories with combined rotation, translation, and radius variation from arbitrary initial azimuths. Such viewpoint changes also reveal character regions unseen in the initial frame, causing geometric distortions, appearance degradation, and identity drift. To system",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 40,
+      "arxiv_id": "2610.33135"
     },
     {
       "id": "paper:2610.32965",
@@ -108,8 +197,21 @@
       "summary": "We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world with visual anticipation of how it evolves across successive subtasks. Building on",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 33,
+      "upvotes": 40,
       "arxiv_id": "2610.32965"
+    },
+    {
+      "id": "paper:2610.32253",
+      "title": "RSIHub: A Composable Framework for Agent-Evolution Methods",
+      "url": "https://huggingface.co/papers/2610.32253",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-23T00:00:00+00:00",
+      "summary": "Agent-evolution methods use execution feedback to improve prompts, skills, tools, and orchestration, but their implementations often rebuild the same experimental machinery. We present RSIHub, an open-source framework for building, comparing, and extending these methods on shared infrastructure. Recipes compose reusable operators and declare mutable resources; RSIHub supplies execution, evaluation",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 38,
+      "arxiv_id": "2610.32253"
     },
     {
       "id": "yt:zv6B6PQOuHE",
@@ -124,19 +226,6 @@
       "channel": "Fireship"
     },
     {
-      "id": "paper:2610.30926",
-      "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
-      "url": "https://huggingface.co/papers/2610.30926",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-22T08:43:48+00:00",
-      "summary": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their representations are not automatically actionable for video generation: a Video Diffusion Transformer (DiT) ma",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 204,
-      "arxiv_id": "2610.30926"
-    },
-    {
       "id": "yt:egh6GlvyD1g",
       "title": "Gemini 4 Carbon Is INSANE! OPUS 5.5 LEVEL?! Claude Duet, Kimi K3.1, OpenAI Agents & More! AI NEWS",
       "url": "https://www.youtube.com/watch?v=egh6GlvyD1g",
@@ -149,19 +238,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2610.31329",
-      "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
-      "url": "https://huggingface.co/papers/2610.31329",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-22T00:00:00+00:00",
-      "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, en",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 252,
-      "arxiv_id": "2610.31329"
-    },
-    {
       "id": "paper:2610.31668",
       "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
       "url": "https://huggingface.co/papers/2610.31668",
@@ -171,8 +247,21 @@
       "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 224,
+      "upvotes": 273,
       "arxiv_id": "2610.31668"
+    },
+    {
+      "id": "paper:2610.31329",
+      "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
+      "url": "https://huggingface.co/papers/2610.31329",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-22T00:00:00+00:00",
+      "summary": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual tasks including object detection, referring localization, counting, OCR, segmentation, and matting, en",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 255,
+      "arxiv_id": "2610.31329"
     },
     {
       "id": "paper:2610.30949",
@@ -184,7 +273,7 @@
       "summary": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose second stage increases the coding-data mixture, preserving a wide stability margin between safe and optima",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 103,
+      "upvotes": 104,
       "arxiv_id": "2610.30949"
     },
     {
@@ -197,7 +286,7 @@
       "summary": "Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users' behavioral responses over long interactions. Existing resources rarely provide long-horizon, fine-grained real-user trajectories or support trajectory-le",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 47,
+      "upvotes": 51,
       "arxiv_id": "2610.30932"
     },
     {
@@ -210,21 +299,8 @@
       "summary": "Building virtual embodied agents that operate in open-ended games like human players is a long-standing goal requiring both long-horizon autonomy and reliable native-interface control. As a procedurally generated open world, Minecraft provides a natural testbed for studying the integration of these capabilities. Existing agents typically provide either native visuomotor control without long-horizo",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 38,
+      "upvotes": 42,
       "arxiv_id": "2610.31162"
-    },
-    {
-      "id": "paper:2610.30755",
-      "title": "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
-      "url": "https://huggingface.co/papers/2610.30755",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-22T00:00:00+00:00",
-      "summary": "LLM memory is widely used in long-term conversation understanding. Agentic memory systems often use mutation, structural organization, learned retrieval strategies, or other complex operations. Is this complexity always necessary? We study Raw-RAG, a naive RAG baseline using dense retrieval and reranking over raw history to supply evidence to a reader LLM. Across LoCoMo, LongMemEval, MEME, and Mem",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 36,
-      "arxiv_id": "2610.30755"
     },
     {
       "id": "paper:2610.30753",
@@ -236,60 +312,8 @@
       "summary": "Complex camera motion is central to visual storytelling, yet translating cinematographic intent into controllable, executable camera trajectories remains challenging. We introduce FilmFlow, an agentic framework that converts natural-language instructions or reference videos into explicit camera trajectories for dynamic 3D environments. To generate these trajectories, a Director agent constructs ex",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 33,
+      "upvotes": 35,
       "arxiv_id": "2610.30753"
-    },
-    {
-      "id": "paper:2610.31158",
-      "title": "Beyond Watching and Searching: Benchmarking Agents for Video-centered Deep Research Reports",
-      "url": "https://huggingface.co/papers/2610.31158",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-22T00:00:00+00:00",
-      "summary": "Deep research agents synthesize open-web evidence into long reports, but current benchmarks do not evaluate research centered on a source video. We introduce Video-Centered Deep Research Report Generation. Given a video and user request, an agent identifies research questions, retrieves external multimodal evidence, and produces an interactive report linked to relevant video moments. This task has",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 32,
-      "arxiv_id": "2610.31158"
-    },
-    {
-      "id": "paper:2610.31062",
-      "title": "SCOPE: Compiling Natural-Language Policies into Neurosymbolic Predicate Programs",
-      "url": "https://huggingface.co/papers/2610.31062",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-22T00:00:00+00:00",
-      "summary": "Policy enforcement for LLM agents has shifted from single-turn content moderation to compound, application-specific policies evaluated over multi-turn transcripts and tool-call trajectories. Fine-tuned guardrail models are efficient but degrade on compound policies, and while LLM-as-a-judge approaches achieve higher accuracy, they incur high inference cost and tend to produce unstable predictions.",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 32,
-      "arxiv_id": "2610.31062"
-    },
-    {
-      "id": "paper:2610.29677",
-      "title": "Toward Recursive Self-Improvement in Physical AI",
-      "url": "https://huggingface.co/papers/2610.29677",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-21T00:00:00+00:00",
-      "summary": "Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves. Recent digital agents test this idea by rewriting their own code and checking each version with executable tests. Bringing these mechanisms into the physical world requires learning from partial observations through costly trials, while accounting for changing operatin",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 76,
-      "arxiv_id": "2610.29677"
-    },
-    {
-      "id": "paper:2610.27851",
-      "title": "LaLa-World: Scaling Latent World Models with Natural Language Actions",
-      "url": "https://huggingface.co/papers/2610.27851",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-21T00:00:00+00:00",
-      "summary": "This paper shows that JEPA-style latent world models (LWMs) can learn across diverse domains and data sources by adopting the language-conditioned interface of video generation models. We establish this approach as an effective and efficient basis for planning with imagination and downstream policy fine-tuning. To this end, we introduce LaLa-World, a Language-conditioned Latent World model that le",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 55,
-      "arxiv_id": "2610.27851"
     },
     {
       "id": "paper:2610.30320",
@@ -301,7 +325,7 @@
       "summary": "World Action Models (WAMs) have emerged as a promising approach to learning generalist robot policies using rich spatiotemporal priors from pre-trained video diffusion models. A recent line of WAMs improves inference efficiency by conditioning a separate action decoder on intermediate future video representations extracted from a single denoising step, avoiding costly iterative denoising required ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 48,
+      "upvotes": 49,
       "arxiv_id": "2610.30320"
     },
     {
@@ -629,18 +653,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "yt:ATBnss54_t4",
-      "title": "HUGE Gemini 4 Argon UPDATE, Fable 5.5 LEAKS, GPT-6.1 Ultrafast, Claude Motion, & Step 5! AI NEWS",
-      "url": "https://www.youtube.com/watch?v=ATBnss54_t4",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-10-09T06:26:46+00:00",
-      "summary": "Build 3D games and apps with Astra and Opus 5.5 on Abacus AI SuperComputer!: https://supercomputer.abacus.ai/ The AI industry is moving insanely fast, and today we've got some massive updates from Google, OpenAI, Anthropic, and StepFun! 🚨 Everything you’re about to see, I benchmarked using the tool ",
-      "thumbnail": "https://i2.ytimg.com/vi/ATBnss54_t4/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:rGUzoHunuV8",
       "title": "Claude Haiku 5.5 Is INSANE – This IS the BEST Cheap Model Yet!",
       "url": "https://www.youtube.com/watch?v=rGUzoHunuV8",
@@ -843,18 +855,6 @@
       "thumbnail": "https://i4.ytimg.com/vi/W9m9S-At4FQ/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
-    },
-    {
-      "id": "yt:nX0fgBL3sIM",
-      "title": "Waifus incoming, GPT 6 Sol, Grok 4.7, Opus 5.5, Mimo 2.6, Step 5, OpenMuse: AI NEWS",
-      "url": "https://www.youtube.com/watch?v=nX0fgBL3sIM",
-      "source": "AI Search",
-      "category": "videos",
-      "published": "2026-09-27T03:24:32+00:00",
-      "summary": "HUGE AI NEWS: GPT 6 Sol, Gemini 3.8 TTS, Grok 4.7, Opus 5.5, Mimo 2.6 & more. Thanks to our sponsor Luma. Try it today https://lumalabs.ai/aisearch-sep5 #ai #ainews #aitools #aivideo #agi #singularity WorldCrafter https://drexubery.github.io/WorldCrafter/ Ming Image https://huggingface.co/inclusionA",
-      "thumbnail": "https://i3.ytimg.com/vi/nX0fgBL3sIM/hqdefault.jpg",
-      "kind": "video",
-      "channel": "AI Search"
     }
   ],
   "featured": [
@@ -873,7 +873,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T01:33:09.063540+00:00",
+      "fetched_at": "2026-10-27T07:03:05.775065+00:00",
       "entries": [
         {
           "rank": 1,
@@ -955,7 +955,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T01:33:09.065562+00:00",
+      "fetched_at": "2026-10-27T07:03:05.777950+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1037,7 +1037,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T01:33:09.067390+00:00",
+      "fetched_at": "2026-10-27T07:03:05.780619+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1119,7 +1119,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T01:33:09.068044+00:00",
+      "fetched_at": "2026-10-27T07:03:05.781561+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1173,7 +1173,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T01:33:09.071262+00:00",
+      "fetched_at": "2026-10-27T07:03:05.785901+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1255,7 +1255,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T01:33:09.071273+00:00",
+      "fetched_at": "2026-10-27T07:03:05.785914+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1309,7 +1309,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T01:33:09.072616+00:00",
+      "fetched_at": "2026-10-27T07:03:05.787893+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1391,7 +1391,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-27T01:33:09.096543+00:00",
+      "fetched_at": "2026-10-27T07:03:05.822395+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1473,7 +1473,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-27T01:33:09.122870+00:00",
+      "fetched_at": "2026-10-27T07:03:05.859768+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1555,7 +1555,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T01:33:09.130898+00:00",
+      "fetched_at": "2026-10-27T07:03:05.872207+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1637,7 +1637,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T01:33:09.133958+00:00",
+      "fetched_at": "2026-10-27T07:03:05.876683+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1719,7 +1719,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T01:33:09.142844+00:00",
+      "fetched_at": "2026-10-27T07:03:05.888703+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1801,7 +1801,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T01:33:09.144839+00:00",
+      "fetched_at": "2026-10-27T07:03:05.891472+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2084,58 +2084,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 2,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-10-27T01:32:53.145253+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-27T07:02:50.050217+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 8,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-10-27T01:32:52.043424+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-27T07:02:48.927967+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
-        "items": 13,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-10-27T01:32:56.317019+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-27T07:02:53.288844+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-27T01:32:54.191978+00:00"
+        "checked_at": "2026-10-27T07:02:51.154228+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-27T01:32:58.780683+00:00"
+        "checked_at": "2026-10-27T07:02:55.564517+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": false,
-        "items": 5,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-10-27T01:32:55.262567+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-27T07:02:52.175788+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-27T01:32:57.627996+00:00"
+        "checked_at": "2026-10-27T07:02:54.433720+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-27T01:33:09.146218+00:00"
+      "checked_at": "2026-10-27T07:03:05.893262+00:00"
     }
   }
 }
