@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T18:48:21.129986+00:00",
+  "generated_at": "2026-10-27T22:45:31.354485+00:00",
   "items": [
     {
       "id": "yt:SyUjFWgqDNo",
@@ -47,7 +47,7 @@
       "summary": "Vision-language models are shifting from offline passive understanding toward online proactive interaction. However, prevailing methods largely rely on explicit requests while miss the implicit user intent (e.g., \"where should I click next?\" while a user navigate a website), meanwhile fail to update the state simultaneously as user requests might update continuously. These limitations make them le",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 235,
+      "upvotes": 239,
       "arxiv_id": "2610.34662"
     },
     {
@@ -60,7 +60,7 @@
       "summary": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric, system-level perspective that views work agents as systems co",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 96,
+      "upvotes": 98,
       "arxiv_id": "2610.35845"
     },
     {
@@ -97,7 +97,7 @@
       "summary": "Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements. We introduce DynaFlow, a framework that integrates free-form executable workflow synthesis into the action space of the main agent. The agent decides when collaboration is needed and generates task-specific programs that coordinate sub-agents through sequential or pa",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 182,
+      "upvotes": 183,
       "arxiv_id": "2610.34467"
     },
     {
@@ -123,7 +123,7 @@
       "summary": "Continual learning is the ability of LLM agents to improve over time by acquiring, refining, and applying knowledge from experience while retaining useful prior knowledge. It is essential for agents learning over long time horizons, yet current evaluations largely assess individual task performance rather than improvement through accumulated experience. We introduce Continual Learning Exam (CLE), ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 43,
+      "upvotes": 45,
       "arxiv_id": "2610.33956"
     },
     {
@@ -173,21 +173,8 @@
       "summary": "Successful tool-use trajectories are not necessarily useful supervision. Even successful interactions may underrepresent multi-step dependencies or contain actions that are unjustified by the information visible to the agent at decision time. We identify two coupled requirements for effective trajectory supervision: compositional coverage, so that important observation-action dependencies are repr",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 330,
+      "upvotes": 331,
       "arxiv_id": "2610.33568"
-    },
-    {
-      "id": "paper:2610.33413",
-      "title": "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
-      "url": "https://huggingface.co/papers/2610.33413",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-24T00:00:00+00:00",
-      "summary": "Localized AI manipulations in long-form videos often affect brief events within otherwise authentic content, making video-level classification insufficient for forensic analysis. Existing audio-visual deepfake benchmarks largely focus on short talking-head clips, while long-form temporal forensics remains predominantly visual. We introduce AV-FABLE, a dual-timeline benchmark for sparse manipulatio",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 33,
-      "arxiv_id": "2610.33413"
     },
     {
       "id": "yt:SMGg7iisHmc",
@@ -223,7 +210,7 @@
       "summary": "LLM agents are increasingly used to solve real-world problems, and their effectiveness depends on both the underlying models and the harnesses that support their operation. However, most existing benchmarks focus on model capabilities and overall agent performance, with limited attention to the evaluation of agent harnesses. To address this gap, we introduce TraceTrial-Bench, which organizes harne",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 190,
+      "upvotes": 213,
       "arxiv_id": "2610.32285"
     },
     {
@@ -236,7 +223,7 @@
       "summary": "We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world with visual anticipation of how it evolves across successive subtasks. Building on",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 51,
+      "upvotes": 54,
       "arxiv_id": "2610.32965"
     },
     {
@@ -264,6 +251,19 @@
       "kind": "paper",
       "upvotes": 42,
       "arxiv_id": "2610.33135"
+    },
+    {
+      "id": "paper:2610.32770",
+      "title": "On-Policy Self-Training: Data-Free Self-Improvement in Large Language Models",
+      "url": "https://huggingface.co/papers/2610.32770",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-23T00:00:00+00:00",
+      "summary": "On-policy self-distillation enables post-training foundation models without relying on stronger external teachers. However, existing approaches rely on ground-truth question-answer pairs, human-curated problem sets, or other supervised signals. In this work, we reformulate on-policy self-distillation as a self-training framework, driven by self-generated question-answer pairs and privileged reason",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 34,
+      "arxiv_id": "2610.32770"
     },
     {
       "id": "yt:zv6B6PQOuHE",
@@ -299,7 +299,7 @@
       "summary": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving world. This survey adopts world modeling as a unifying lens for examining these developments. Viewing an",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 294,
+      "upvotes": 297,
       "arxiv_id": "2610.31668"
     },
     {
@@ -312,7 +312,7 @@
       "summary": "Agentic recommendation pursues shopper goals through sequences of context-dependent decisions. Developing and evaluating such policies requires faithful recommendation world models that capture both the interactive shopping environment and users' behavioral responses over long interactions. Existing resources rarely provide long-horizon, fine-grained real-user trajectories or support trajectory-le",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 60,
+      "upvotes": 61,
       "arxiv_id": "2610.30932"
     },
     {
@@ -325,7 +325,7 @@
       "summary": "Building virtual embodied agents that operate in open-ended games like human players is a long-standing goal requiring both long-horizon autonomy and reliable native-interface control. As a procedurally generated open world, Minecraft provides a natural testbed for studying the integration of these capabilities. Existing agents typically provide either native visuomotor control without long-horizo",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 52,
+      "upvotes": 55,
       "arxiv_id": "2610.31162"
     },
     {
@@ -873,7 +873,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T18:48:21.040788+00:00",
+      "fetched_at": "2026-10-27T22:45:31.244003+00:00",
       "entries": [
         {
           "rank": 1,
@@ -955,7 +955,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T18:48:21.042789+00:00",
+      "fetched_at": "2026-10-27T22:45:31.246525+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1037,7 +1037,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T18:48:21.044657+00:00",
+      "fetched_at": "2026-10-27T22:45:31.248885+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1119,7 +1119,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T18:48:21.045325+00:00",
+      "fetched_at": "2026-10-27T22:45:31.249690+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1173,7 +1173,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T18:48:21.048567+00:00",
+      "fetched_at": "2026-10-27T22:45:31.253577+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1255,7 +1255,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T18:48:21.048578+00:00",
+      "fetched_at": "2026-10-27T22:45:31.253591+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1309,7 +1309,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T18:48:21.049926+00:00",
+      "fetched_at": "2026-10-27T22:45:31.255242+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1391,7 +1391,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-27T18:48:21.073902+00:00",
+      "fetched_at": "2026-10-27T22:45:31.285259+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1473,7 +1473,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-27T18:48:21.099375+00:00",
+      "fetched_at": "2026-10-27T22:45:31.317650+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1555,7 +1555,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T18:48:21.107246+00:00",
+      "fetched_at": "2026-10-27T22:45:31.327670+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1637,7 +1637,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T18:48:21.110224+00:00",
+      "fetched_at": "2026-10-27T22:45:31.331415+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1719,41 +1719,41 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T18:48:21.118675+00:00",
+      "fetched_at": "2026-10-27T22:45:31.341451+00:00",
       "entries": [
         {
           "rank": 1,
+          "name": "Eleven v4",
+          "creator": "Eleven v4",
+          "score": 1335.0,
+          "meta": "Sept 2026 · $80.0 /1M chars"
+        },
+        {
+          "rank": 2,
           "name": "Eleven v4 Turbo",
           "creator": "Eleven v4 Turbo",
           "score": 1333.0,
           "meta": "Sept 2026 · $40.0 /1M chars"
         },
         {
-          "rank": 2,
-          "name": "Eleven v4",
-          "creator": "Eleven v4",
-          "score": 1333.0,
-          "meta": "Sept 2026 · $80.0 /1M chars"
-        },
-        {
           "rank": 3,
           "name": "Qwen-Audio-3.1-TTS-Plus",
           "creator": "Qwen-Audio-3.1-TTS-Plus",
-          "score": 1306.0,
+          "score": 1305.0,
           "meta": "Sept 2026 · $19.3 /1M chars"
         },
         {
           "rank": 4,
           "name": "Sonic 3.6",
           "creator": "Sonic 3.6",
-          "score": 1292.0,
+          "score": 1294.0,
           "meta": "Aug 2026 · $49.0 /1M chars"
         },
         {
           "rank": 5,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Gemini 3.8 Flash TTS",
-          "score": 1280.0,
+          "score": 1283.0,
           "meta": "Sept 2026 · $16.5 /1M chars"
         },
         {
@@ -1767,14 +1767,14 @@
           "rank": 7,
           "name": "Realtime TTS-2",
           "creator": "Realtime TTS-2",
-          "score": 1267.0,
+          "score": 1268.0,
           "meta": "Aug 2026 · $20.8 /1M chars"
         },
         {
           "rank": 8,
           "name": "Gemini 3.8 Flash-Lite TTS",
           "creator": "Gemini 3.8 Flash-Lite TTS",
-          "score": 1256.0,
+          "score": 1259.0,
           "meta": "Sept 2026 · $11.0 /1M chars"
         },
         {
@@ -1788,7 +1788,7 @@
           "rank": 10,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio Drama 3 Preview",
-          "score": 1245.0,
+          "score": 1243.0,
           "meta": "Oct 2026 · $15.0 /1M chars"
         }
       ]
@@ -1801,77 +1801,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-27T18:48:21.120648+00:00",
+      "fetched_at": "2026-10-27T22:45:31.343792+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio Drama 3 Preview",
-          "score": 1245.0,
+          "score": 1243.0,
           "meta": "Oct 2026 · $15.0 /1M chars"
         },
         {
           "rank": 2,
           "name": "Breeze TTS 2",
           "creator": "Breeze TTS 2",
-          "score": 1227.0,
+          "score": 1228.0,
           "meta": "Aug 2026 · $34.0 /1M chars"
         },
         {
           "rank": 3,
           "name": "Ming-3.0-tts",
           "creator": "Ming-3.0-tts",
-          "score": 1189.0,
+          "score": 1188.0,
           "meta": "Oct 2026 · N/A"
         },
         {
           "rank": 4,
           "name": "Fish Audio S2 Pro",
           "creator": "Fish Audio S2 Pro",
-          "score": 1108.0,
+          "score": 1109.0,
           "meta": "Mar 2026 · $15.0 /1M chars"
         },
         {
           "rank": 5,
           "name": "Step Audio EditX (Mar 2026)",
           "creator": "Step Audio EditX (Mar 2026)",
-          "score": 1099.0,
+          "score": 1100.0,
           "meta": "Feb 2026 · N/A"
         },
         {
           "rank": 6,
           "name": "Voxtral TTS",
           "creator": "Voxtral TTS",
-          "score": 1088.0,
+          "score": 1089.0,
           "meta": "Mar 2026 · $16.0 /1M chars"
         },
         {
           "rank": 7,
           "name": "Magpie-Multilingual 357M (Feb 2026)",
           "creator": "Magpie-Multilingual 357M (Feb 2026)",
-          "score": 1065.0,
+          "score": 1066.0,
           "meta": "Feb 2026 · N/A"
         },
         {
           "rank": 8,
           "name": "Kokoro 82M v1.0",
           "creator": "Kokoro 82M v1.0",
-          "score": 1063.0,
+          "score": 1061.0,
           "meta": "Jan 2025 · $0.7 /1M chars"
         },
         {
           "rank": 9,
           "name": "Maya1",
           "creator": "Maya1",
-          "score": 1048.0,
+          "score": 1047.0,
           "meta": "Jun 2025 · N/A"
         },
         {
           "rank": 10,
-          "name": "Higgs Audio V3 TTS",
-          "creator": "Higgs Audio V3 TTS",
-          "score": 1045.0,
-          "meta": "Jun 2026 · $15.0 /1M chars"
+          "name": "OpenAudio S1 Mini",
+          "creator": "OpenAudio S1 Mini",
+          "score": 1043.0,
+          "meta": "Jun 2025 · $15.0 /1M chars"
         }
       ]
     }
@@ -2087,55 +2087,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-27T18:48:05.166083+00:00"
+        "checked_at": "2026-10-27T22:45:08.024125+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-27T18:48:03.981847+00:00"
+        "checked_at": "2026-10-27T22:45:06.671593+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-27T18:48:08.496145+00:00"
+        "checked_at": "2026-10-27T22:45:11.312085+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-27T18:48:06.341486+00:00"
+        "checked_at": "2026-10-27T22:45:09.041367+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-27T18:48:10.807622+00:00"
+        "checked_at": "2026-10-27T22:45:13.881389+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-27T18:48:07.358492+00:00"
+        "checked_at": "2026-10-27T22:45:10.181266+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-27T18:48:09.655724+00:00"
+        "checked_at": "2026-10-27T22:45:12.700206+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-27T18:48:21.122415+00:00"
+      "checked_at": "2026-10-27T22:45:31.344904+00:00"
     }
   }
 }
