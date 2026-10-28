@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-10-28T14:42:01.361025+00:00",
+  "generated_at": "2026-10-28T19:59:27.665559+00:00",
   "items": [
+    {
+      "id": "yt:pryCaGv8wuo",
+      "title": "Deepseek's New AI Has A Secret",
+      "url": "https://www.youtube.com/watch?v=pryCaGv8wuo",
+      "source": "Two Minute Papers",
+      "category": "videos",
+      "published": "2026-10-28T17:32:40+00:00",
+      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 DeepSeek v4.1 Flash 1017 is available here: https://api-docs.deepseek.com/news/news261017/ Sources: https://x.com/marcthecreatorr/status/2111427716142571554/video/1 https://x.com/olezhavich/status/211289779102226481",
+      "thumbnail": "https://i1.ytimg.com/vi/pryCaGv8wuo/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Two Minute Papers"
+    },
     {
       "id": "yt:nEaJMdM1djM",
       "title": "Did the AI bubble just pop?",
@@ -62,6 +74,19 @@
       "channel": "Bijan Bowen"
     },
     {
+      "id": "paper:2610.35864",
+      "title": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
+      "url": "https://huggingface.co/papers/2610.35864",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-27T00:00:00+00:00",
+      "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rule-consistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We introduce VibeVideoBench, a benchmark for evaluating agents on code-driven video generation. Its 2",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 143,
+      "arxiv_id": "2610.35864"
+    },
+    {
       "id": "paper:2610.37381",
       "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
       "url": "https://huggingface.co/papers/2610.37381",
@@ -71,7 +96,7 @@
       "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 137,
+      "upvotes": 138,
       "arxiv_id": "2610.37381"
     },
     {
@@ -84,7 +109,7 @@
       "summary": "Interactive world generation requires models to follow successive commands while preserving relevant history and action consequences. We present Hy-Nomas, a video world model with an 8B diffusion backbone that supports free-form text instructions and continuous camera control across multiple interaction turns. It generates variable-length segments conditioned on current inputs and cached history. ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 102,
+      "upvotes": 104,
       "arxiv_id": "2610.36729"
     },
     {
@@ -97,21 +122,21 @@
       "summary": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 74,
+      "upvotes": 88,
       "arxiv_id": "2610.37662"
     },
     {
-      "id": "paper:2610.35864",
-      "title": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
-      "url": "https://huggingface.co/papers/2610.35864",
+      "id": "paper:2610.37341",
+      "title": "CodeCap-Bench: Can Code Serve as a Good Video Caption?",
+      "url": "https://huggingface.co/papers/2610.37341",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-27T00:00:00+00:00",
-      "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rule-consistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We introduce VibeVideoBench, a benchmark for evaluating agents on code-driven video generation. Its 2",
+      "summary": "Video captioning aims to preserve visual information through compact descriptions, predominantly using natural language. However, precisely expressing fine-grained spatial structures and temporal dynamics in natural language often leads to lengthy and potentially ambiguous descriptions. In this work, we explore Code as Video Caption, a paradigm where executable programs serve as a complementary re",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 74,
-      "arxiv_id": "2610.35864"
+      "upvotes": 49,
+      "arxiv_id": "2610.37341"
     },
     {
       "id": "yt:G_em1hHPnXY",
@@ -126,6 +151,19 @@
       "channel": "Fireship"
     },
     {
+      "id": "paper:2610.35013",
+      "title": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
+      "url": "https://huggingface.co/papers/2610.35013",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-26T00:00:00+00:00",
+      "summary": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization (MPO), combining Multiscale Advantage Estimation (MAE) and turn-level importanc",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 316,
+      "arxiv_id": "2610.35013"
+    },
+    {
       "id": "paper:2610.36077",
       "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
       "url": "https://huggingface.co/papers/2610.36077",
@@ -135,21 +173,8 @@
       "summary": "Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can shar",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 305,
+      "upvotes": 311,
       "arxiv_id": "2610.36077"
-    },
-    {
-      "id": "paper:2610.34662",
-      "title": "StreamVibe: Proactive Video Agents for Evolving User Intent",
-      "url": "https://huggingface.co/papers/2610.34662",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-26T00:00:00+00:00",
-      "summary": "Vision-language models are shifting from offline passive understanding toward online proactive interaction. However, prevailing methods largely rely on explicit requests while miss the implicit user intent (e.g., \"where should I click next?\" while a user navigate a website), meanwhile fail to update the state simultaneously as user requests might update continuously. These limitations make them le",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 253,
-      "arxiv_id": "2610.34662"
     },
     {
       "id": "paper:2610.35845",
@@ -161,7 +186,7 @@
       "summary": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To address this gap, we present a work-centric, system-level perspective that views work agents as systems co",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 113,
+      "upvotes": 116,
       "arxiv_id": "2610.35845"
     },
     {
@@ -211,7 +236,7 @@
       "summary": "Training a spatial VLM to answer which side an object lies on does not require it to preserve the metric displacement that determines that answer, while supervision for a distance estimate may leave categorical relations largely unconstrained. When post-training emphasizes one readout, improvements can therefore concentrate on that interface while transfer to others remains weak or even degrades; ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 228,
+      "upvotes": 345,
       "arxiv_id": "2610.34283"
     },
     {
@@ -224,21 +249,8 @@
       "summary": "Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements. We introduce DynaFlow, a framework that integrates free-form executable workflow synthesis into the action space of the main agent. The agent decides when collaboration is needed and generates task-specific programs that coordinate sub-agents through sequential or pa",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 199,
+      "upvotes": 202,
       "arxiv_id": "2610.34467"
-    },
-    {
-      "id": "paper:2610.33966",
-      "title": "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants",
-      "url": "https://huggingface.co/papers/2610.33966",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-25T00:00:00+00:00",
-      "summary": "People have long dreamed of an assistant that is always there to guide them and remind what they forget, from new dishes to lost keys. Powered by multimodal large language models (MLLMs), egocentric AI assistants on wearable devices are bringing this dream within reach: they see what the user sees and give instructions for user's physical work when necessary. However, testing such assistance is ch",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 122,
-      "arxiv_id": "2610.33966"
     },
     {
       "id": "paper:2610.34073",
@@ -250,7 +262,7 @@
       "summary": "Memory is increasingly used in long-horizon agents, yet the net value of building memory over direct retrieval from raw history remains largely unclear. Through a large-scale evaluation across multiple benchmarks and model backbones, we find many dedicated memory systems underperform naive RAG in many cases, indicating a negative net value. Taking RAG as a reference, we dissect the net value of me",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 68,
+      "upvotes": 99,
       "arxiv_id": "2610.34073"
     },
     {
@@ -263,7 +275,7 @@
       "summary": "Spatial audio authoring coordinates source decisions with soundfield synthesis. For editing, plans specify what to change and retain, while reference audio supplies further acoustic detail. We present AMBIT, a unified framework for native First-Order Ambisonics (FOA) generation and editing with three connected contributions. First, a shared Transfusion backbone couples autoregressive planning with",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 50,
+      "upvotes": 56,
       "arxiv_id": "2610.34415"
     },
     {
@@ -291,17 +303,17 @@
       "channel": "Bijan Bowen"
     },
     {
-      "id": "paper:2610.33568",
-      "title": "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents",
-      "url": "https://huggingface.co/papers/2610.33568",
+      "id": "paper:2610.33512",
+      "title": "Eat Your Precision: Precision Objective Mitigates Reward Hacking in Rubric-based RL",
+      "url": "https://huggingface.co/papers/2610.33512",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-24T00:00:00+00:00",
-      "summary": "Successful tool-use trajectories are not necessarily useful supervision. Even successful interactions may underrepresent multi-step dependencies or contain actions that are unjustified by the information visible to the agent at decision time. We identify two coupled requirements for effective trajectory supervision: compositional coverage, so that important observation-action dependencies are repr",
+      "summary": "Rubric-based rewards enable effective reinforcement learning on non-verifiable tasks. However, because these rewards are typically defined as a weighted measure of rubric coverage, models are trained primarily to maximize a recall objective. As a result, RL-trained models produce responses that are more complete but also more verbose and contain more unnecessary or factually incorrect content, lea",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 358,
-      "arxiv_id": "2610.33568"
+      "upvotes": 49,
+      "arxiv_id": "2610.33512"
     },
     {
       "id": "yt:SMGg7iisHmc",
@@ -337,7 +349,7 @@
       "summary": "Recent test-time training (TTT) frameworks have enabled open-weight large language models (LLMs) to outperform inference-only frameworks powered by frontier models on scientific discovery tasks. However, TTT introduces additional computational cost for online weight updates during the discovery process, making computational efficiency an important consideration when scaling to larger models. This ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 50,
+      "upvotes": 51,
       "arxiv_id": "2610.32046"
     },
     {
@@ -855,18 +867,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/ENWVpqtOdRI/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
-    },
-    {
-      "id": "yt:OuNKBjuV7A4",
-      "title": "DHH has gone completely off the rails...",
-      "url": "https://www.youtube.com/watch?v=OuNKBjuV7A4",
-      "source": "Fireship",
-      "category": "videos",
-      "published": "2026-09-28T19:27:59+00:00",
-      "summary": "CodeRabbit Triage prioritizes all your team's pull requests for you. Try it free: https://coderabbit.link/fireship-014 DHH told 1,200 Rails developers that writing code by hand is over... so let's find out which programming skills are actually still worth having. Want more Fireship? 🗞️ Newsletter: h",
-      "thumbnail": "https://i4.ytimg.com/vi/OuNKBjuV7A4/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Fireship"
     }
   ],
   "featured": [
@@ -885,7 +885,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-28T14:42:01.231963+00:00",
+      "fetched_at": "2026-10-28T19:59:27.545499+00:00",
       "entries": [
         {
           "rank": 1,
@@ -967,7 +967,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-28T14:42:01.234838+00:00",
+      "fetched_at": "2026-10-28T19:59:27.548031+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1049,76 +1049,76 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-28T14:42:01.237510+00:00",
+      "fetched_at": "2026-10-28T19:59:27.550594+00:00",
       "entries": [
         {
           "rank": 1,
-          "name": "MiniMax H3 (768p)",
-          "creator": "MiniMax H3 (768p)",
-          "score": 1140.0,
-          "meta": "Jul 2026 · $4.80 /min"
-        },
-        {
-          "rank": 2,
-          "name": "FLUX 3 Max (720p)",
-          "creator": "FLUX 3 Max (720p)",
-          "score": 1138.0,
-          "meta": "Oct 2026 · $2.55 /min"
-        },
-        {
-          "rank": 3,
           "name": "Dreamina Seedance 2.5",
           "creator": "Dreamina Seedance 2.5",
-          "score": 1138.0,
+          "score": 1148.0,
           "meta": "Jul 2026 · $34.12 /min"
         },
         {
-          "rank": 4,
-          "name": "Gemini Omni Flash 1.1",
-          "creator": "Gemini Omni Flash 1.1",
+          "rank": 2,
+          "name": "Dreamina Seedance 2.0",
+          "creator": "Dreamina Seedance 2.0",
           "score": 1132.0,
-          "meta": "Aug 2026 · $9.12 /min"
+          "meta": "Mar 2026 · $22.45 /min"
+        },
+        {
+          "rank": 3,
+          "name": "MiniMax H3 (768p)",
+          "creator": "MiniMax H3 (768p)",
+          "score": 1126.0,
+          "meta": "Jul 2026 · $4.80 /min"
+        },
+        {
+          "rank": 4,
+          "name": "MiniMax H3 Max",
+          "creator": "MiniMax H3 Max",
+          "score": 1116.0,
+          "meta": "Aug 2026 · $9.60 /min"
         },
         {
           "rank": 5,
           "name": "Wan 3.0",
           "creator": "Wan 3.0",
-          "score": 1127.0,
+          "score": 1108.0,
           "meta": "Aug 2026 · $12.00 /min"
         },
         {
           "rank": 6,
-          "name": "MiniMax H3 Max",
-          "creator": "MiniMax H3 Max",
-          "score": 1125.0,
-          "meta": "Aug 2026 · $5.76 /min"
-        },
-        {
-          "rank": 7,
-          "name": "Dreamina Seedance 2.0",
-          "creator": "Dreamina Seedance 2.0",
-          "score": 1121.0,
-          "meta": "Mar 2026 · $22.45 /min"
-        },
-        {
-          "rank": 8,
           "name": "FLUX 3",
           "creator": "FLUX 3",
-          "score": 1086.0,
+          "score": 1072.0,
           "meta": "Jul 2026 · $17.40 /min"
         },
         {
-          "rank": 9,
+          "rank": 7,
+          "name": "FLUX 3 Max",
+          "creator": "FLUX 3 Max",
+          "score": 1064.0,
+          "meta": "Oct 2026 · $4.35 /min"
+        },
+        {
+          "rank": 8,
           "name": "Grok Imagine Video 1.5",
           "creator": "Grok Imagine Video 1.5",
-          "score": 1067.0,
+          "score": 1047.0,
           "meta": "May 2026 · $15.00 /min"
+        },
+        {
+          "rank": 9,
+          "name": "Gemini Omni Flash 1.1",
+          "creator": "Gemini Omni Flash 1.1",
+          "score": 1044.0,
+          "meta": "Aug 2026 · $9.12 /min"
         },
         {
           "rank": 10,
           "name": "HappyHorse-1.1",
           "creator": "HappyHorse-1.1",
-          "score": 1061.0,
+          "score": 1036.0,
           "meta": "Jun 2026 · $10.80 /min"
         }
       ]
@@ -1131,48 +1131,41 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-28T14:42:01.238450+00:00",
+      "fetched_at": "2026-10-28T19:59:27.551334+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1140.0,
+          "score": 1126.0,
           "meta": "Jul 2026 · $4.80 /min"
         },
         {
           "rank": 2,
-          "name": "MAGI-2 Preview",
-          "creator": "MAGI-2 Preview",
-          "score": 1046.0,
-          "meta": "Aug 2026 · Coming soon"
-        },
-        {
-          "rank": 3,
           "name": "LTX-2.5 Fast",
           "creator": "LTX-2.5 Fast",
-          "score": 984.0,
+          "score": 917.0,
           "meta": "Aug 2026 · $7.80 /min"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "name": "LTX-2.5 Pro",
           "creator": "LTX-2.5 Pro",
-          "score": 958.0,
+          "score": 913.0,
           "meta": "Aug 2026 · $10.20 /min"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "name": "LTX-2.3 Pro",
           "creator": "LTX-2.3 Pro",
-          "score": 903.0,
+          "score": 838.0,
           "meta": "Mar 2026 · $4.80 /min"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "name": "LTX-2.3 Fast",
           "creator": "LTX-2.3 Fast",
-          "score": 888.0,
+          "score": 831.0,
           "meta": "Mar 2026 · $3.60 /min"
         }
       ]
@@ -1185,74 +1178,74 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-28T14:42:01.242835+00:00",
+      "fetched_at": "2026-10-28T19:59:27.556883+00:00",
       "entries": [
         {
           "rank": 1,
-          "score": 1368.0,
-          "name": "Gemini Omni Flash",
-          "creator": "Google",
+          "score": 1130.0,
+          "name": "MiniMax H3 Max",
+          "creator": "Fal",
           "meta": ""
         },
         {
           "rank": 2,
-          "score": 1362.0,
+          "score": 1126.0,
+          "name": "Dreamina Seedance 2.5",
+          "creator": "ByteDance Seed",
+          "meta": ""
+        },
+        {
+          "rank": 3,
+          "score": 1118.0,
           "name": "Bach 1.0 Pro",
           "creator": "Video Rebirth",
           "meta": ""
         },
         {
-          "rank": 3,
-          "score": 1362.0,
-          "name": "Wan 3.0",
-          "creator": "Alibaba",
-          "meta": ""
-        },
-        {
           "rank": 4,
-          "score": 1356.0,
-          "name": "MiniMax H3",
+          "score": 1113.0,
+          "name": "MiniMax H3 (768p)",
           "creator": "MiniMax",
           "meta": ""
         },
         {
           "rank": 5,
-          "score": 1348.0,
-          "name": "Vimoo 1.0",
-          "creator": "Vimoo",
-          "meta": ""
-        },
-        {
-          "rank": 6,
-          "score": 1339.0,
-          "name": "Dreamina Seedance 2.0 720p",
+          "score": 1089.0,
+          "name": "Dreamina Seedance 2.0",
           "creator": "ByteDance Seed",
           "meta": ""
         },
         {
+          "rank": 6,
+          "score": 1086.0,
+          "name": "Wan 3.0",
+          "creator": "Alibaba",
+          "meta": ""
+        },
+        {
           "rank": 7,
-          "score": 1339.0,
-          "name": "PixVerse V6",
-          "creator": "PixVerse",
+          "score": 1058.0,
+          "name": "FLUX 3 Max",
+          "creator": "Fal",
           "meta": ""
         },
         {
           "rank": 8,
-          "score": 1331.0,
+          "score": 1054.0,
           "name": "Grok Imagine Video 1.5",
           "creator": "SpaceXAI",
           "meta": ""
         },
         {
           "rank": 9,
-          "score": 1328.0,
-          "name": "grok-imagine-video",
-          "creator": "SpaceXAI",
+          "score": 1036.0,
+          "name": "FLUX 3",
+          "creator": "Black Forest Labs",
           "meta": ""
         },
         {
           "rank": 10,
-          "score": 1314.0,
+          "score": 1024.0,
           "name": "HappyHorse-1.1",
           "creator": "Alibaba-ATH",
           "meta": ""
@@ -1267,48 +1260,41 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-28T14:42:01.242849+00:00",
+      "fetched_at": "2026-10-28T19:59:27.556897+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1140.0,
+          "score": 1126.0,
           "meta": "Jul 2026 · $4.80 /min"
         },
         {
           "rank": 2,
-          "name": "MAGI-2 Preview",
-          "creator": "MAGI-2 Preview",
-          "score": 1046.0,
-          "meta": "Aug 2026 · Coming soon"
-        },
-        {
-          "rank": 3,
           "name": "LTX-2.5 Fast",
           "creator": "LTX-2.5 Fast",
-          "score": 984.0,
+          "score": 917.0,
           "meta": "Aug 2026 · $7.80 /min"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "name": "LTX-2.5 Pro",
           "creator": "LTX-2.5 Pro",
-          "score": 958.0,
+          "score": 913.0,
           "meta": "Aug 2026 · $10.20 /min"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "name": "LTX-2.3 Pro",
           "creator": "LTX-2.3 Pro",
-          "score": 903.0,
+          "score": 838.0,
           "meta": "Mar 2026 · $4.80 /min"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "name": "LTX-2.3 Fast",
           "creator": "LTX-2.3 Fast",
-          "score": 888.0,
+          "score": 831.0,
           "meta": "Mar 2026 · $3.60 /min"
         }
       ]
@@ -1321,7 +1307,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-28T14:42:01.244870+00:00",
+      "fetched_at": "2026-10-28T19:59:27.558601+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1403,76 +1389,76 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-28T14:42:01.280272+00:00",
+      "fetched_at": "2026-10-28T19:59:27.588789+00:00",
       "entries": [
         {
           "rank": 1,
+          "name": "Gemini 4 Carbon (high)",
+          "creator": "Google",
+          "score": 59.0,
+          "meta": "1M ctx"
+        },
+        {
+          "rank": 2,
           "name": "Claude Opus 5.5 (max with fallback)",
           "creator": "Anthropic",
           "score": 58.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Claude Opus 5.5 (xhigh with fallback)",
           "creator": "Anthropic",
           "score": 57.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "GPT-6 Astra (max)",
           "creator": "OpenAI",
           "score": 57.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "GPT-6 Astra (xhigh)",
           "creator": "OpenAI",
           "score": 55.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "GPT-6 Astra (high)",
           "creator": "OpenAI",
           "score": 55.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "GPT-6.1 Sol (max)",
           "creator": "OpenAI",
           "score": 55.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Claude Sonnet 5.5 (max with fallback)",
           "creator": "Anthropic",
           "score": 54.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "GPT-6.1 Sol (xhigh)",
           "creator": "OpenAI",
           "score": 52.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Claude Opus 5.5 (high with fallback)",
           "creator": "Anthropic",
           "score": 52.0,
-          "meta": "1M ctx"
-        },
-        {
-          "rank": 10,
-          "name": "GPT-6 Astra (medium)",
-          "creator": "OpenAI",
-          "score": 51.0,
           "meta": "1M ctx"
         }
       ]
@@ -1485,7 +1471,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-28T14:42:01.313079+00:00",
+      "fetched_at": "2026-10-28T19:59:27.621826+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1567,7 +1553,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-28T14:42:01.325551+00:00",
+      "fetched_at": "2026-10-28T19:59:27.632302+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1649,7 +1635,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-28T14:42:01.330318+00:00",
+      "fetched_at": "2026-10-28T19:59:27.636147+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1731,7 +1717,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-28T14:42:01.342645+00:00",
+      "fetched_at": "2026-10-28T19:59:27.647195+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1777,31 +1763,31 @@
         },
         {
           "rank": 7,
+          "name": "Lightning V3.1 Pro (Oct 2026)",
+          "creator": "Lightning V3.1 Pro (Oct 2026)",
+          "score": 1268.0,
+          "meta": "Oct 2026 · $19.5 /1M chars"
+        },
+        {
+          "rank": 8,
           "name": "Realtime TTS-2",
           "creator": "Realtime TTS-2",
           "score": 1268.0,
           "meta": "Aug 2026 · $20.8 /1M chars"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Gemini 3.8 Flash-Lite TTS",
           "creator": "Gemini 3.8 Flash-Lite TTS",
           "score": 1259.0,
           "meta": "Sept 2026 · $11.0 /1M chars"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Simba 3.2",
           "creator": "Simba 3.2",
           "score": 1249.0,
           "meta": "Jul 2026 · $6.6 /1M chars"
-        },
-        {
-          "rank": 10,
-          "name": "Fish Audio Drama 3 Preview",
-          "creator": "Fish Audio Drama 3 Preview",
-          "score": 1243.0,
-          "meta": "Oct 2026 · $15.0 /1M chars"
         }
       ]
     },
@@ -1813,7 +1799,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-28T14:42:01.345499+00:00",
+      "fetched_at": "2026-10-28T19:59:27.649821+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2099,55 +2085,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-28T14:41:45.760957+00:00"
+        "checked_at": "2026-10-28T19:59:11.261653+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-28T14:41:44.732762+00:00"
+        "checked_at": "2026-10-28T19:59:10.207606+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-28T14:41:48.825153+00:00"
+        "checked_at": "2026-10-28T19:59:14.658539+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-28T14:41:46.785327+00:00"
+        "checked_at": "2026-10-28T19:59:12.392137+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-28T14:41:51.050397+00:00"
+        "checked_at": "2026-10-28T19:59:17.004652+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-28T14:41:47.805681+00:00"
+        "checked_at": "2026-10-28T19:59:13.518580+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-28T14:41:49.860222+00:00"
+        "checked_at": "2026-10-28T19:59:15.862955+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-28T14:42:01.350426+00:00"
+      "checked_at": "2026-10-28T19:59:27.655660+00:00"
     }
   }
 }
