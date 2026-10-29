@@ -1,9 +1,21 @@
 {
-  "generated_at": "2026-10-29T03:31:13.389648+00:00",
+  "generated_at": "2026-10-29T10:34:29.082422+00:00",
   "items": [
     {
+      "id": "yt:L4yqXWDyGCg",
+      "title": "GEMINI 4 CARBON IS Best Model Ever?! Fable 5.5 Benchmarks, Gemini 4 Ultra, & Claude Ultrathink!",
+      "url": "https://www.youtube.com/watch?v=L4yqXWDyGCg",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-10-29T07:48:10+00:00",
+      "summary": "🎄 Start your Christmas side hustle with Printify, free to start: https://try.printify.com/bu8fpbdhjwz8 Google just dropped Gemini 4 Carbon, its latest frontier AI model, and it might be the BEST AI model ever released! With groundbreaking benchmark results, incredible coding and 3D generation capabi",
+      "thumbnail": "https://i1.ytimg.com/vi/L4yqXWDyGCg/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
       "id": "yt:pryCaGv8wuo",
-      "title": "Deepseek's New AI Has A Secret",
+      "title": "DeepSeek's New AI Is An Absolute Monster",
       "url": "https://www.youtube.com/watch?v=pryCaGv8wuo",
       "source": "Two Minute Papers",
       "category": "videos",
@@ -83,7 +95,7 @@
       "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rule-consistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We introduce VibeVideoBench, a benchmark for evaluating agents on code-driven video generation. Its 2",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 173,
+      "upvotes": 174,
       "arxiv_id": "2610.35864"
     },
     {
@@ -96,7 +108,7 @@
       "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 143,
+      "upvotes": 144,
       "arxiv_id": "2610.37381"
     },
     {
@@ -109,7 +121,7 @@
       "summary": "Interactive world generation requires models to follow successive commands while preserving relevant history and action consequences. We present Hy-Nomas, a video world model with an 8B diffusion backbone that supports free-form text instructions and continuous camera control across multiple interaction turns. It generates variable-length segments conditioned on current inputs and cached history. ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 107,
+      "upvotes": 108,
       "arxiv_id": "2610.36729"
     },
     {
@@ -122,21 +134,21 @@
       "summary": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 89,
+      "upvotes": 90,
       "arxiv_id": "2610.37662"
     },
     {
-      "id": "paper:2610.37341",
-      "title": "CodeCap-Bench: Can Code Serve as a Good Video Caption?",
-      "url": "https://huggingface.co/papers/2610.37341",
+      "id": "paper:2610.37666",
+      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+      "url": "https://huggingface.co/papers/2610.37666",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-27T00:00:00+00:00",
-      "summary": "Video captioning aims to preserve visual information through compact descriptions, predominantly using natural language. However, precisely expressing fine-grained spatial structures and temporal dynamics in natural language often leads to lengthy and potentially ambiguous descriptions. In this work, we explore Code as Video Caption, a paradigm where executable programs serve as a complementary re",
+      "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introdu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 49,
-      "arxiv_id": "2610.37341"
+      "upvotes": 51,
+      "arxiv_id": "2610.37666"
     },
     {
       "id": "yt:G_em1hHPnXY",
@@ -160,7 +172,7 @@
       "summary": "Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can shar",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 534,
+      "upvotes": 540,
       "arxiv_id": "2610.36077"
     },
     {
@@ -173,7 +185,7 @@
       "summary": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization (MPO), combining Multiscale Advantage Estimation (MAE) and turn-level importanc",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 375,
+      "upvotes": 377,
       "arxiv_id": "2610.35013"
     },
     {
@@ -186,7 +198,7 @@
       "summary": "Diffusion language models (DLMs) generate text through iterative denoising, enabling bidirectional context modeling and parallel token refinement. Recent studies have applied reinforcement learning (RL) to DLMs and improved their reasoning performance. However, the iterative denoising process makes credit assignment more challenging, as final outcome rewards provide limited information about how d",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 255,
+      "upvotes": 256,
       "arxiv_id": "2610.35201"
     },
     {
@@ -199,7 +211,7 @@
       "summary": "Action-conditioned world models offer a scalable alternative to costly real-world interaction for improving robot policies. However, existing world-model-based methods largely treat world models as forward-only surrogates of the physical environment, leaving untapped a capability no physical environment affords: rewinding to past decision points to explore counterfactual futures. We introduce Roll",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 58,
+      "upvotes": 71,
       "arxiv_id": "2610.36068"
     },
     {
@@ -236,21 +248,8 @@
       "summary": "Training a spatial VLM to answer which side an object lies on does not require it to preserve the metric displacement that determines that answer, while supervision for a distance estimate may leave categorical relations largely unconstrained. When post-training emphasizes one readout, improvements can therefore concentrate on that interface while transfer to others remains weak or even degrades; ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 347,
+      "upvotes": 378,
       "arxiv_id": "2610.34283"
-    },
-    {
-      "id": "paper:2610.34467",
-      "title": "DynaFlow: Learning Free-Form Multi-Agent Orchestration",
-      "url": "https://huggingface.co/papers/2610.34467",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-25T00:00:00+00:00",
-      "summary": "Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements. We introduce DynaFlow, a framework that integrates free-form executable workflow synthesis into the action space of the main agent. The agent decides when collaboration is needed and generates task-specific programs that coordinate sub-agents through sequential or pa",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 204,
-      "arxiv_id": "2610.34467"
     },
     {
       "id": "paper:2610.34073",
@@ -262,7 +261,7 @@
       "summary": "Memory is increasingly used in long-horizon agents, yet the net value of building memory over direct retrieval from raw history remains largely unclear. Through a large-scale evaluation across multiple benchmarks and model backbones, we find many dedicated memory systems underperform naive RAG in many cases, indicating a negative net value. Taking RAG as a reference, we dissect the net value of me",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 146,
+      "upvotes": 147,
       "arxiv_id": "2610.34073"
     },
     {
@@ -275,7 +274,7 @@
       "summary": "Spatial audio authoring coordinates source decisions with soundfield synthesis. For editing, plans specify what to change and retain, while reference audio supplies further acoustic detail. We present AMBIT, a unified framework for native First-Order Ambisonics (FOA) generation and editing with three connected contributions. First, a shared Transfusion backbone couples autoregressive planning with",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 56,
+      "upvotes": 57,
       "arxiv_id": "2610.34415"
     },
     {
@@ -340,6 +339,19 @@
       "channel": "AI Search"
     },
     {
+      "id": "paper:2610.32749",
+      "title": "Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes",
+      "url": "https://huggingface.co/papers/2610.32749",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-23T00:00:00+00:00",
+      "summary": "Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, current causal systems face two coupled gaps. First, standard benchmarks fix the number of speakers at two and ignore the near-/far-field interference, reverberation, and sudden noise of real scenes. Second, high-performance causal architectures are too heavy for edge deployment. Ligh",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 146,
+      "arxiv_id": "2610.32749"
+    },
+    {
       "id": "paper:2610.32046",
       "title": "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
       "url": "https://huggingface.co/papers/2610.32046",
@@ -349,7 +361,7 @@
       "summary": "Recent test-time training (TTT) frameworks have enabled open-weight large language models (LLMs) to outperform inference-only frameworks powered by frontier models on scientific discovery tasks. However, TTT introduces additional computational cost for online weight updates during the discovery process, making computational efficiency an important consideration when scaling to larger models. This ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 117,
+      "upvotes": 119,
       "arxiv_id": "2610.32046"
     },
     {
@@ -665,18 +677,6 @@
       "channel": "Two Minute Papers"
     },
     {
-      "id": "yt:0EwN9bb157M",
-      "title": "China AI ACHIEVED RSI? GLM 5.5, NEW Fable 5.5 Checkpoint, Qwen4, Kimi K3.1, M3.1 Pro & More! AI NEWS",
-      "url": "https://www.youtube.com/watch?v=0EwN9bb157M",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-10-11T07:45:11+00:00",
-      "summary": "🚨 Everything you’re about to see, I benchmarked using the tool I made. If you want to run these tests yourself or test models on whatever you actually use them for! → https://www.woaibench.ai/ China's AI scene is HEATING UP, and we might be witnessing the beginning of a massive shift toward recursiv",
-      "thumbnail": "https://i1.ytimg.com/vi/0EwN9bb157M/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:X0_GDOkLKzQ",
       "title": "New AI enzymes, 700+ math breakthroughs, AI for DNA mutations, room temp semiconductors: AI NEWS",
       "url": "https://www.youtube.com/watch?v=X0_GDOkLKzQ",
@@ -873,7 +873,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T03:31:13.255609+00:00",
+      "fetched_at": "2026-10-29T10:34:28.987280+00:00",
       "entries": [
         {
           "rank": 1,
@@ -955,7 +955,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T03:31:13.258473+00:00",
+      "fetched_at": "2026-10-29T10:34:28.989293+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1037,7 +1037,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T03:31:13.261342+00:00",
+      "fetched_at": "2026-10-29T10:34:28.991340+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1119,7 +1119,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T03:31:13.262194+00:00",
+      "fetched_at": "2026-10-29T10:34:28.991917+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1166,7 +1166,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T03:31:13.267840+00:00",
+      "fetched_at": "2026-10-29T10:34:28.996214+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1248,7 +1248,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T03:31:13.267856+00:00",
+      "fetched_at": "2026-10-29T10:34:28.996228+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1295,7 +1295,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T03:31:13.269864+00:00",
+      "fetched_at": "2026-10-29T10:34:28.997549+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1377,7 +1377,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-29T03:31:13.305356+00:00",
+      "fetched_at": "2026-10-29T10:34:29.021461+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1459,7 +1459,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-29T03:31:13.341943+00:00",
+      "fetched_at": "2026-10-29T10:34:29.047737+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1541,7 +1541,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T03:31:13.353960+00:00",
+      "fetched_at": "2026-10-29T10:34:29.055933+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1623,7 +1623,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T03:31:13.358367+00:00",
+      "fetched_at": "2026-10-29T10:34:29.059073+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1705,7 +1705,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T03:31:13.370500+00:00",
+      "fetched_at": "2026-10-29T10:34:29.068204+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1787,7 +1787,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T03:31:13.373166+00:00",
+      "fetched_at": "2026-10-29T10:34:29.070238+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2070,58 +2070,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 2,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-10-29T03:30:57.736425+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-29T10:34:12.287001+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 7,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-10-29T03:30:56.663025+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-29T10:34:11.118732+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
-        "items": 13,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-10-29T03:31:00.958986+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-29T10:34:15.545723+00:00"
       },
       {
         "name": "Fireship",
-        "ok": false,
-        "items": 12,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-10-29T03:30:58.809041+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-29T10:34:13.313988+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-29T03:31:03.264744+00:00"
+        "checked_at": "2026-10-29T10:34:17.858431+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": false,
-        "items": 6,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-10-29T03:30:59.885578+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-29T10:34:14.434528+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-10-29T03:31:02.036106+00:00"
+        "error": null,
+        "checked_at": "2026-10-29T10:34:16.681289+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-29T03:31:13.378730+00:00"
+      "checked_at": "2026-10-29T10:34:29.074720+00:00"
     }
   }
 }
