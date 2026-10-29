@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T17:11:57.621215+00:00",
+  "generated_at": "2026-10-29T21:54:09.499791+00:00",
   "items": [
     {
       "id": "yt:L4yqXWDyGCg",
@@ -86,19 +86,6 @@
       "channel": "Bijan Bowen"
     },
     {
-      "id": "paper:2610.35864",
-      "title": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
-      "url": "https://huggingface.co/papers/2610.35864",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-27T00:00:00+00:00",
-      "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rule-consistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We introduce VibeVideoBench, a benchmark for evaluating agents on code-driven video generation. Its 2",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 175,
-      "arxiv_id": "2610.35864"
-    },
-    {
       "id": "paper:2610.37381",
       "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
       "url": "https://huggingface.co/papers/2610.37381",
@@ -108,7 +95,7 @@
       "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 146,
+      "upvotes": 148,
       "arxiv_id": "2610.37381"
     },
     {
@@ -121,8 +108,21 @@
       "summary": "Interactive world generation requires models to follow successive commands while preserving relevant history and action consequences. We present Hy-Nomas, a video world model with an 8B diffusion backbone that supports free-form text instructions and continuous camera control across multiple interaction turns. It generates variable-length segments conditioned on current inputs and cached history. ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 114,
+      "upvotes": 120,
       "arxiv_id": "2610.36729"
+    },
+    {
+      "id": "paper:2610.35864",
+      "title": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
+      "url": "https://huggingface.co/papers/2610.35864",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-27T00:00:00+00:00",
+      "summary": "Diffusion video models produce striking clips, but they cannot reliably render an exact formula, a correct chart, a rule-consistent game or narration synchronized to on-screen events. A different route is emerging: multimodal agents that write code to render every frame and synthesize every sound. We introduce VibeVideoBench, a benchmark for evaluating agents on code-driven video generation. Its 2",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 89,
+      "arxiv_id": "2610.35864"
     },
     {
       "id": "paper:2610.37662",
@@ -134,7 +134,7 @@
       "summary": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 91,
+      "upvotes": 60,
       "arxiv_id": "2610.37662"
     },
     {
@@ -160,7 +160,7 @@
       "summary": "Video captioning aims to preserve visual information through compact descriptions, predominantly using natural language. However, precisely expressing fine-grained spatial structures and temporal dynamics in natural language often leads to lengthy and potentially ambiguous descriptions. In this work, we explore Code as Video Caption, a paradigm where executable programs serve as a complementary re",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 50,
+      "upvotes": 51,
       "arxiv_id": "2610.37341"
     },
     {
@@ -173,7 +173,7 @@
       "summary": "Video stylization typically transforms entire scenes, while local artistic editing requires precise region--style association, spatial control, and temporal consistency. We introduce LociArt, a unified paradigm for free-style local video stylization that explicitly specifies where to stylize and what style to apply while preserving non-target content. At its core, GRNStyle builds on Generative Ref",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 44,
+      "upvotes": 47,
       "arxiv_id": "2610.36456"
     },
     {
@@ -198,7 +198,7 @@
       "summary": "Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can shar",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 543,
+      "upvotes": 386,
       "arxiv_id": "2610.36077"
     },
     {
@@ -211,7 +211,7 @@
       "summary": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization (MPO), combining Multiscale Advantage Estimation (MAE) and turn-level importanc",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 379,
+      "upvotes": 380,
       "arxiv_id": "2610.35013"
     },
     {
@@ -224,7 +224,7 @@
       "summary": "Action-conditioned world models offer a scalable alternative to costly real-world interaction for improving robot policies. However, existing world-model-based methods largely treat world models as forward-only surrogates of the physical environment, leaving untapped a capability no physical environment affords: rewinding to past decision points to explore counterfactual futures. We introduce Roll",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 80,
+      "upvotes": 86,
       "arxiv_id": "2610.36068"
     },
     {
@@ -261,7 +261,7 @@
       "summary": "Training a spatial VLM to answer which side an object lies on does not require it to preserve the metric displacement that determines that answer, while supervision for a distance estimate may leave categorical relations largely unconstrained. When post-training emphasizes one readout, improvements can therefore concentrate on that interface while transfer to others remains weak or even degrades; ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 397,
+      "upvotes": 408,
       "arxiv_id": "2610.34283"
     },
     {
@@ -274,7 +274,7 @@
       "summary": "Memory is increasingly used in long-horizon agents, yet the net value of building memory over direct retrieval from raw history remains largely unclear. Through a large-scale evaluation across multiple benchmarks and model backbones, we find many dedicated memory systems underperform naive RAG in many cases, indicating a negative net value. Taking RAG as a reference, we dissect the net value of me",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 149,
+      "upvotes": 151,
       "arxiv_id": "2610.34073"
     },
     {
@@ -311,7 +311,7 @@
       "summary": "Localized AI manipulations in long-form videos often affect brief events within otherwise authentic content, making video-level classification insufficient for forensic analysis. Existing audio-visual deepfake benchmarks largely focus on short talking-head clips, while long-form temporal forensics remains predominantly visual. We introduce AV-FABLE, a dual-timeline benchmark for sparse manipulatio",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 49,
+      "upvotes": 48,
       "arxiv_id": "2610.33413"
     },
     {
@@ -348,7 +348,7 @@
       "summary": "Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, current causal systems face two coupled gaps. First, standard benchmarks fix the number of speakers at two and ignore the near-/far-field interference, reverberation, and sudden noise of real scenes. Second, high-performance causal architectures are too heavy for edge deployment. Ligh",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 146,
+      "upvotes": 149,
       "arxiv_id": "2610.32749"
     },
     {
@@ -361,7 +361,7 @@
       "summary": "Recent test-time training (TTT) frameworks have enabled open-weight large language models (LLMs) to outperform inference-only frameworks powered by frontier models on scientific discovery tasks. However, TTT introduces additional computational cost for online weight updates during the discovery process, making computational efficiency an important consideration when scaling to larger models. This ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 119,
+      "upvotes": 123,
       "arxiv_id": "2610.32046"
     },
     {
@@ -873,7 +873,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T17:11:57.487837+00:00",
+      "fetched_at": "2026-10-29T21:54:09.404569+00:00",
       "entries": [
         {
           "rank": 1,
@@ -955,7 +955,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T17:11:57.490809+00:00",
+      "fetched_at": "2026-10-29T21:54:09.406584+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1037,77 +1037,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T17:11:57.493692+00:00",
+      "fetched_at": "2026-10-29T21:54:09.408760+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Dreamina Seedance 2.5",
           "creator": "Dreamina Seedance 2.5",
-          "score": 1148.0,
+          "score": 1152.0,
           "meta": "Jul 2026 · $34.12 /min"
         },
         {
           "rank": 2,
-          "name": "Dreamina Seedance 2.0",
-          "creator": "Dreamina Seedance 2.0",
-          "score": 1132.0,
-          "meta": "Mar 2026 · $22.45 /min"
+          "name": "Utopai X",
+          "creator": "Utopai X",
+          "score": 1150.0,
+          "meta": "Sep 2026 · No API available"
         },
         {
           "rank": 3,
-          "name": "MiniMax H3 (768p)",
-          "creator": "MiniMax H3 (768p)",
-          "score": 1126.0,
-          "meta": "Jul 2026 · $4.80 /min"
+          "name": "Dreamina Seedance 2.0",
+          "creator": "Dreamina Seedance 2.0",
+          "score": 1135.0,
+          "meta": "Mar 2026 · $22.45 /min"
         },
         {
           "rank": 4,
-          "name": "MiniMax H3 Max",
-          "creator": "MiniMax H3 Max",
-          "score": 1116.0,
-          "meta": "Aug 2026 · $9.60 /min"
+          "name": "MiniMax H3 (768p)",
+          "creator": "MiniMax H3 (768p)",
+          "score": 1128.0,
+          "meta": "Jul 2026 · $4.80 /min"
         },
         {
           "rank": 5,
-          "name": "Wan 3.0",
-          "creator": "Wan 3.0",
-          "score": 1108.0,
-          "meta": "Aug 2026 · $12.00 /min"
+          "name": "Hyperflow H3",
+          "creator": "Hyperflow H3",
+          "score": 1123.0,
+          "meta": "Sep 2026 · $9.00 /min"
         },
         {
           "rank": 6,
-          "name": "FLUX 3",
-          "creator": "FLUX 3",
-          "score": 1072.0,
-          "meta": "Jul 2026 · $17.40 /min"
+          "name": "HeyGen Video 1",
+          "creator": "HeyGen Video 1",
+          "score": 1119.0,
+          "meta": "Oct 2026 · $2.40 /min"
         },
         {
           "rank": 7,
-          "name": "FLUX 3 Max",
-          "creator": "FLUX 3 Max",
-          "score": 1064.0,
-          "meta": "Oct 2026 · $4.35 /min"
+          "name": "MiniMax H3 Max",
+          "creator": "MiniMax H3 Max",
+          "score": 1115.0,
+          "meta": "Aug 2026 · $9.60 /min"
         },
         {
           "rank": 8,
-          "name": "Grok Imagine Video 1.5",
-          "creator": "Grok Imagine Video 1.5",
-          "score": 1047.0,
-          "meta": "May 2026 · $15.00 /min"
+          "name": "Wan 3.0",
+          "creator": "Wan 3.0",
+          "score": 1111.0,
+          "meta": "Aug 2026 · $12.00 /min"
         },
         {
           "rank": 9,
-          "name": "Gemini Omni Flash 1.1",
-          "creator": "Gemini Omni Flash 1.1",
-          "score": 1044.0,
-          "meta": "Aug 2026 · $9.12 /min"
+          "name": "FLUX 3",
+          "creator": "FLUX 3",
+          "score": 1071.0,
+          "meta": "Jul 2026 · $17.40 /min"
         },
         {
           "rank": 10,
-          "name": "HappyHorse-1.1",
-          "creator": "HappyHorse-1.1",
-          "score": 1036.0,
-          "meta": "Jun 2026 · $10.80 /min"
+          "name": "FLUX 3 Max",
+          "creator": "FLUX 3 Max",
+          "score": 1065.0,
+          "meta": "Oct 2026 · $4.35 /min"
         }
       ]
     },
@@ -1119,41 +1119,41 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T17:11:57.494522+00:00",
+      "fetched_at": "2026-10-29T21:54:09.409337+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1126.0,
+          "score": 1128.0,
           "meta": "Jul 2026 · $4.80 /min"
         },
         {
           "rank": 2,
           "name": "LTX-2.5 Fast",
           "creator": "LTX-2.5 Fast",
-          "score": 917.0,
+          "score": 916.0,
           "meta": "Aug 2026 · $7.80 /min"
         },
         {
           "rank": 3,
           "name": "LTX-2.5 Pro",
           "creator": "LTX-2.5 Pro",
-          "score": 913.0,
+          "score": 909.0,
           "meta": "Aug 2026 · $10.20 /min"
         },
         {
           "rank": 4,
           "name": "LTX-2.3 Pro",
           "creator": "LTX-2.3 Pro",
-          "score": 838.0,
+          "score": 837.0,
           "meta": "Mar 2026 · $4.80 /min"
         },
         {
           "rank": 5,
           "name": "LTX-2.3 Fast",
           "creator": "LTX-2.3 Fast",
-          "score": 831.0,
+          "score": 830.0,
           "meta": "Mar 2026 · $3.60 /min"
         }
       ]
@@ -1248,41 +1248,41 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T17:11:57.500215+00:00",
+      "fetched_at": "2026-10-29T21:54:09.413932+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1126.0,
+          "score": 1128.0,
           "meta": "Jul 2026 · $4.80 /min"
         },
         {
           "rank": 2,
           "name": "LTX-2.5 Fast",
           "creator": "LTX-2.5 Fast",
-          "score": 917.0,
+          "score": 916.0,
           "meta": "Aug 2026 · $7.80 /min"
         },
         {
           "rank": 3,
           "name": "LTX-2.5 Pro",
           "creator": "LTX-2.5 Pro",
-          "score": 913.0,
+          "score": 909.0,
           "meta": "Aug 2026 · $10.20 /min"
         },
         {
           "rank": 4,
           "name": "LTX-2.3 Pro",
           "creator": "LTX-2.3 Pro",
-          "score": 838.0,
+          "score": 837.0,
           "meta": "Mar 2026 · $4.80 /min"
         },
         {
           "rank": 5,
           "name": "LTX-2.3 Fast",
           "creator": "LTX-2.3 Fast",
-          "score": 831.0,
+          "score": 830.0,
           "meta": "Mar 2026 · $3.60 /min"
         }
       ]
@@ -1295,7 +1295,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T17:11:57.502165+00:00",
+      "fetched_at": "2026-10-29T21:54:09.415432+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1377,7 +1377,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-29T17:11:57.537131+00:00",
+      "fetched_at": "2026-10-29T21:54:09.438807+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1459,7 +1459,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-29T17:11:57.572572+00:00",
+      "fetched_at": "2026-10-29T21:54:09.465143+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1541,7 +1541,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T17:11:57.584766+00:00",
+      "fetched_at": "2026-10-29T21:54:09.473506+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1623,7 +1623,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T17:11:57.589179+00:00",
+      "fetched_at": "2026-10-29T21:54:09.476534+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1705,7 +1705,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T17:11:57.601353+00:00",
+      "fetched_at": "2026-10-29T21:54:09.485158+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1787,7 +1787,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T17:11:57.604207+00:00",
+      "fetched_at": "2026-10-29T21:54:09.487244+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2073,55 +2073,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-29T17:11:38.335843+00:00"
+        "checked_at": "2026-10-29T21:53:52.804850+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-29T17:11:37.204139+00:00"
+        "checked_at": "2026-10-29T21:53:51.672615+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-29T17:11:41.746961+00:00"
+        "checked_at": "2026-10-29T21:53:56.315337+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-29T17:11:39.555085+00:00"
+        "checked_at": "2026-10-29T21:53:53.959506+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-29T17:11:44.058887+00:00"
+        "checked_at": "2026-10-29T21:53:58.656366+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-29T17:11:40.582209+00:00"
+        "checked_at": "2026-10-29T21:53:55.185388+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-29T17:11:42.931555+00:00"
+        "checked_at": "2026-10-29T21:53:57.483077+00:00"
       }
     ],
     "leaderboards": {
-      "ok": 13,
-      "failed": 0,
-      "checked_at": "2026-10-29T17:11:57.610096+00:00"
+      "ok": 12,
+      "failed": 1,
+      "checked_at": "2026-10-29T21:54:09.492153+00:00"
     }
   }
 }
