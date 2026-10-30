@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-10-30T07:27:14.773962+00:00",
+  "generated_at": "2026-10-30T19:32:55.881000+00:00",
   "items": [
+    {
+      "id": "yt:CWdTBLsbaQs",
+      "title": "OpenAI Claims It Just Did The Impossible",
+      "url": "https://www.youtube.com/watch?v=CWdTBLsbaQs",
+      "source": "Two Minute Papers",
+      "category": "videos",
+      "published": "2026-10-30T15:57:16+00:00",
+      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 OpenAI's paper is available here: https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf Our paper with the cherry splash ray tracing simulation at 0:17",
+      "thumbnail": "https://i4.ytimg.com/vi/CWdTBLsbaQs/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Two Minute Papers"
+    },
+    {
+      "id": "yt:GlRVbIdc_Mk",
+      "title": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-10-30T07:39:47+00:00",
+      "summary": "Every top AI model in one place, from $10/month: Mammouth → https://mammouth.ai OpenAI's mysterious GPT-6.2 Bel (Betelgeuse) has reportedly been spotted in internal tracking, potentially signaling another massive frontier model release! Meanwhile, Anthropic is testing rumored new Claude checkpoints,",
+      "thumbnail": "https://i4.ytimg.com/vi/GlRVbIdc_Mk/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
     {
       "id": "yt:L4yqXWDyGCg",
       "title": "GEMINI 4 CARBON IS Best Model Ever?! Fable 5.5 Benchmarks, Gemini 4 Ultra, & Claude Ultrathink!",
@@ -23,8 +47,21 @@
       "summary": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-scor",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 77,
+      "upvotes": 234,
       "arxiv_id": "2610.39633"
+    },
+    {
+      "id": "paper:2610.39301",
+      "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
+      "url": "https://huggingface.co/papers/2610.39301",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-29T00:00:00+00:00",
+      "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 38,
+      "arxiv_id": "2610.39301"
     },
     {
       "id": "yt:pryCaGv8wuo",
@@ -75,6 +112,19 @@
       "channel": "WorldofAI"
     },
     {
+      "id": "paper:2610.38568",
+      "title": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
+      "url": "https://huggingface.co/papers/2610.38568",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-28T00:00:00+00:00",
+      "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making super",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 155,
+      "arxiv_id": "2610.38568"
+    },
+    {
       "id": "yt:SyUjFWgqDNo",
       "title": "HUGE ANTHROPIC BOMBSHELL! Claude REA UNBANNED?! GPT-6.1 Terra, Qwen 4 27B, & Fable 5.5! AI NEWS",
       "url": "https://www.youtube.com/watch?v=SyUjFWgqDNo",
@@ -108,7 +158,7 @@
       "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 149,
+      "upvotes": 151,
       "arxiv_id": "2610.37381"
     },
     {
@@ -125,6 +175,32 @@
       "arxiv_id": "2610.36729"
     },
     {
+      "id": "paper:2610.37662",
+      "title": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
+      "url": "https://huggingface.co/papers/2610.37662",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-27T00:00:00+00:00",
+      "summary": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 90,
+      "arxiv_id": "2610.37662"
+    },
+    {
+      "id": "paper:2610.36671",
+      "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
+      "url": "https://huggingface.co/papers/2610.36671",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-27T00:00:00+00:00",
+      "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still proc",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 89,
+      "arxiv_id": "2610.36671"
+    },
+    {
       "id": "paper:2610.35864",
       "title": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation",
       "url": "https://huggingface.co/papers/2610.35864",
@@ -136,19 +212,6 @@
       "kind": "paper",
       "upvotes": 89,
       "arxiv_id": "2610.35864"
-    },
-    {
-      "id": "paper:2610.37662",
-      "title": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
-      "url": "https://huggingface.co/papers/2610.37662",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-27T00:00:00+00:00",
-      "summary": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 60,
-      "arxiv_id": "2610.37662"
     },
     {
       "id": "paper:2610.37666",
@@ -173,21 +236,8 @@
       "summary": "Video captioning aims to preserve visual information through compact descriptions, predominantly using natural language. However, precisely expressing fine-grained spatial structures and temporal dynamics in natural language often leads to lengthy and potentially ambiguous descriptions. In this work, we explore Code as Video Caption, a paradigm where executable programs serve as a complementary re",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 52,
+      "upvotes": 53,
       "arxiv_id": "2610.37341"
-    },
-    {
-      "id": "paper:2610.36456",
-      "title": "LociArt: A Unified Paradigm for Free-Style Local Video Stylization",
-      "url": "https://huggingface.co/papers/2610.36456",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-27T00:00:00+00:00",
-      "summary": "Video stylization typically transforms entire scenes, while local artistic editing requires precise region--style association, spatial control, and temporal consistency. We introduce LociArt, a unified paradigm for free-style local video stylization that explicitly specifies where to stylize and what style to apply while preserving non-target content. At its core, GRNStyle builds on Generative Ref",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 52,
-      "arxiv_id": "2610.36456"
     },
     {
       "id": "yt:G_em1hHPnXY",
@@ -211,7 +261,7 @@
       "summary": "Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can shar",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 387,
+      "upvotes": 389,
       "arxiv_id": "2610.36077"
     },
     {
@@ -228,19 +278,6 @@
       "arxiv_id": "2610.35013"
     },
     {
-      "id": "paper:2610.36068",
-      "title": "Rollback: Experience Backtracking in World Models for Policy Improvement",
-      "url": "https://huggingface.co/papers/2610.36068",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-26T00:00:00+00:00",
-      "summary": "Action-conditioned world models offer a scalable alternative to costly real-world interaction for improving robot policies. However, existing world-model-based methods largely treat world models as forward-only surrogates of the physical environment, leaving untapped a capability no physical environment affords: rewinding to past decision points to explore counterfactual futures. We introduce Roll",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 88,
-      "arxiv_id": "2610.36068"
-    },
-    {
       "id": "paper:2610.35684",
       "title": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
       "url": "https://huggingface.co/papers/2610.35684",
@@ -250,21 +287,8 @@
       "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple referen",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 49,
+      "upvotes": 69,
       "arxiv_id": "2610.35684"
-    },
-    {
-      "id": "paper:2610.22543",
-      "title": "On the SPOT: Enhancing Speculative Decoding for Diffusion Language Models via Commit-Order Prediction",
-      "url": "https://huggingface.co/papers/2610.22543",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-26T00:00:00+00:00",
-      "summary": "Diffusion language models (DLMs) promise parallel text generation, but in practice face an unresolved speed-quality trade-off. Exact decoding fills in only one masked position per model pass, while faster multi-token decoding schemes are lossy. Speculative decoding is the standard lossless acceleration for autoregressive models. However, it does not transfer directly to DLMs, which must choose bot",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 46,
-      "arxiv_id": "2610.22543"
     },
     {
       "id": "yt:aZMKzHhlTh8",
@@ -291,19 +315,6 @@
       "channel": "AI Search"
     },
     {
-      "id": "paper:2610.34283",
-      "title": "ChronoReplay: One Answer Interface Is Not Enough for Streaming Spatial Intelligence",
-      "url": "https://huggingface.co/papers/2610.34283",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-25T00:00:00+00:00",
-      "summary": "Training a spatial VLM to answer which side an object lies on does not require it to preserve the metric displacement that determines that answer, while supervision for a distance estimate may leave categorical relations largely unconstrained. When post-training emphasizes one readout, improvements can therefore concentrate on that interface while transfer to others remains weak or even degrades; ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 417,
-      "arxiv_id": "2610.34283"
-    },
-    {
       "id": "paper:2610.34073",
       "title": "Memory Tax: Dissecting the Net Value of Agent Memory",
       "url": "https://huggingface.co/papers/2610.34073",
@@ -313,7 +324,7 @@
       "summary": "Memory is increasingly used in long-horizon agents, yet the net value of building memory over direct retrieval from raw history remains largely unclear. Through a large-scale evaluation across multiple benchmarks and model backbones, we find many dedicated memory systems underperform naive RAG in many cases, indicating a negative net value. Taking RAG as a reference, we dissect the net value of me",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 155,
+      "upvotes": 157,
       "arxiv_id": "2610.34073"
     },
     {
@@ -339,6 +350,19 @@
       "thumbnail": "https://i1.ytimg.com/vi/4MRMLerpcQc/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
+    },
+    {
+      "id": "paper:2610.33624",
+      "title": "RSI Arena: Towards Recursive Self-Improvement with Human Feedback",
+      "url": "https://huggingface.co/papers/2610.33624",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-24T00:00:00+00:00",
+      "summary": "Can AI agents autonomously train useful language models and improve them using feedback from users? We introduce RSI Arena, a two-stage study of autonomous post-training as a step toward recursive self-improvement. Ten frontier models act as training agents, each starting from NVIDIA Nemotron 3.5 Lightning 30B-A3B Base. During a six-day first stage, each agent has 1,000 GPU-hours and $300 in API c",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 39,
+      "arxiv_id": "2610.33624"
     },
     {
       "id": "yt:SMGg7iisHmc",
@@ -653,18 +677,6 @@
       "channel": "Bijan Bowen"
     },
     {
-      "id": "yt:4iKUaUmeoWk",
-      "title": "Claude Opus 6 LEAKED, Gemini 4 Carbon Leaks, HUGE OpenAI Update, Claude 24/7 Agent, & More! AI NEWS",
-      "url": "https://www.youtube.com/watch?v=4iKUaUmeoWk",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-10-12T07:25:21+00:00",
-      "summary": "🚨 Everything you’re about to see, I benchmarked using the tool I made. If you want to run these tests yourself or test models on whatever you actually use them for! → https://www.woaibench.ai/ 🚨 Claude Opus 6 LEAKED?! Anthropic might be secretly testing its next-generation Claude model, and the earl",
-      "thumbnail": "https://i1.ytimg.com/vi/4iKUaUmeoWk/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:4fLVq6HJsKc",
       "title": "DeepSeek Solved AI’s Memory Problem",
       "url": "https://www.youtube.com/watch?v=4fLVq6HJsKc",
@@ -831,18 +843,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/pYH8x-Nbhbc/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
-    },
-    {
-      "id": "yt:I_KVMFrUtPk",
-      "title": "Did a 50 year old military secret just solve agent prompt injection?",
-      "url": "https://www.youtube.com/watch?v=I_KVMFrUtPk",
-      "source": "Fireship",
-      "category": "videos",
-      "published": "2026-09-30T17:16:43+00:00",
-      "summary": "Check out the OpenAPPA repo: https://github.com/archestra-ai/OpenAPPA A new open source project claims to have fixed the rogue agent problem. Let's dive in. Want more Fireship? 🗞️ Newsletter: https://bytes.dev 🧠 Courses: https://fireship.dev",
-      "thumbnail": "https://i2.ytimg.com/vi/I_KVMFrUtPk/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Fireship"
     }
   ],
   "featured": [
@@ -861,7 +861,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-30T07:27:14.633676+00:00",
+      "fetched_at": "2026-10-30T19:32:55.810752+00:00",
       "entries": [
         {
           "rank": 1,
@@ -943,7 +943,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-30T07:27:14.636633+00:00",
+      "fetched_at": "2026-10-30T19:32:55.812157+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1025,7 +1025,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-30T07:27:14.640015+00:00",
+      "fetched_at": "2026-10-30T19:32:55.813751+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1038,7 +1038,7 @@
           "rank": 2,
           "name": "Utopai X",
           "creator": "Utopai X",
-          "score": 1150.0,
+          "score": 1144.0,
           "meta": "Sep 2026 · No API available"
         },
         {
@@ -1052,7 +1052,7 @@
           "rank": 4,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1128.0,
+          "score": 1129.0,
           "meta": "Jul 2026 · $4.80 /min"
         },
         {
@@ -1073,7 +1073,7 @@
           "rank": 7,
           "name": "P-Video-2-Pro",
           "creator": "P-Video-2-Pro",
-          "score": 1116.0,
+          "score": 1118.0,
           "meta": "Sep 2026 · $5.70 /min"
         },
         {
@@ -1094,7 +1094,7 @@
           "rank": 10,
           "name": "Agnes-Video-2.5",
           "creator": "Agnes-Video-2.5",
-          "score": 1103.0,
+          "score": 1102.0,
           "meta": "Aug 2026 · $2.40 /min"
         }
       ]
@@ -1107,20 +1107,20 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-30T07:27:14.640844+00:00",
+      "fetched_at": "2026-10-30T19:32:55.814152+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1128.0,
+          "score": 1129.0,
           "meta": "Jul 2026 · $4.80 /min"
         },
         {
           "rank": 2,
           "name": "LTX-2.5 Fast",
           "creator": "LTX-2.5 Fast",
-          "score": 916.0,
+          "score": 917.0,
           "meta": "Aug 2026 · $7.80 /min"
         },
         {
@@ -1134,7 +1134,7 @@
           "rank": 4,
           "name": "LTX-2.3 Pro",
           "creator": "LTX-2.3 Pro",
-          "score": 837.0,
+          "score": 836.0,
           "meta": "Mar 2026 · $4.80 /min"
         },
         {
@@ -1154,76 +1154,76 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T17:11:57.500199+00:00",
+      "fetched_at": "2026-10-30T19:32:55.817138+00:00",
       "entries": [
         {
           "rank": 1,
-          "score": 1130.0,
-          "name": "MiniMax H3 Max",
-          "creator": "Fal",
+          "score": 1157.0,
+          "name": "Utopai X",
+          "creator": "Utopai Studios",
           "meta": ""
         },
         {
           "rank": 2,
-          "score": 1126.0,
+          "score": 1129.0,
           "name": "Dreamina Seedance 2.5",
           "creator": "ByteDance Seed",
           "meta": ""
         },
         {
           "rank": 3,
-          "score": 1118.0,
+          "score": 1125.0,
+          "name": "MiniMax H3 Max",
+          "creator": "Fal",
+          "meta": ""
+        },
+        {
+          "rank": 4,
+          "score": 1120.0,
           "name": "Bach 1.0 Pro",
           "creator": "Video Rebirth",
           "meta": ""
         },
         {
-          "rank": 4,
-          "score": 1113.0,
+          "rank": 5,
+          "score": 1116.0,
+          "name": "Hyperflow H3",
+          "creator": "Video Rebirth",
+          "meta": ""
+        },
+        {
+          "rank": 6,
+          "score": 1115.0,
+          "name": "Agnes-Video-2.5",
+          "creator": "Sapiens AI",
+          "meta": ""
+        },
+        {
+          "rank": 7,
+          "score": 1111.0,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax",
           "meta": ""
         },
         {
-          "rank": 5,
-          "score": 1089.0,
-          "name": "Dreamina Seedance 2.0",
-          "creator": "ByteDance Seed",
-          "meta": ""
-        },
-        {
-          "rank": 6,
-          "score": 1086.0,
-          "name": "Wan 3.0",
-          "creator": "Alibaba",
-          "meta": ""
-        },
-        {
-          "rank": 7,
-          "score": 1058.0,
-          "name": "FLUX 3 Max",
-          "creator": "Fal",
-          "meta": ""
-        },
-        {
           "rank": 8,
-          "score": 1054.0,
-          "name": "Grok Imagine Video 1.5",
-          "creator": "SpaceXAI",
+          "score": 1104.0,
+          "name": "HeyGen Video 1",
+          "creator": "HeyGen",
           "meta": ""
         },
         {
           "rank": 9,
-          "score": 1036.0,
-          "name": "FLUX 3",
-          "creator": "Black Forest Labs",
+          "score": 1103.0,
+          "name": "P-Video-2-Pro",
+          "creator": "Pruna AI",
           "meta": ""
         },
         {
           "rank": 10,
-          "score": 1024.0,
-          "name": "HappyHorse-1.1",
-          "creator": "Alibaba-ATH",
+          "score": 1094.0,
+          "name": "Dreamina Seedance 2.0",
+          "creator": "ByteDance Seed",
           "meta": ""
         }
       ]
@@ -1236,20 +1236,20 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-30T07:27:14.647071+00:00",
+      "fetched_at": "2026-10-30T19:32:55.817146+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1128.0,
+          "score": 1129.0,
           "meta": "Jul 2026 · $4.80 /min"
         },
         {
           "rank": 2,
           "name": "LTX-2.5 Fast",
           "creator": "LTX-2.5 Fast",
-          "score": 916.0,
+          "score": 917.0,
           "meta": "Aug 2026 · $7.80 /min"
         },
         {
@@ -1263,7 +1263,7 @@
           "rank": 4,
           "name": "LTX-2.3 Pro",
           "creator": "LTX-2.3 Pro",
-          "score": 837.0,
+          "score": 836.0,
           "meta": "Mar 2026 · $4.80 /min"
         },
         {
@@ -1283,7 +1283,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-30T07:27:14.650489+00:00",
+      "fetched_at": "2026-10-30T19:32:55.818091+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1365,7 +1365,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-30T07:27:14.689335+00:00",
+      "fetched_at": "2026-10-30T19:32:55.836476+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1447,7 +1447,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-30T07:27:14.726236+00:00",
+      "fetched_at": "2026-10-30T19:32:55.855572+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1529,7 +1529,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-30T07:27:14.738368+00:00",
+      "fetched_at": "2026-10-30T19:32:55.861292+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1611,7 +1611,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-30T07:27:14.742817+00:00",
+      "fetched_at": "2026-10-30T19:32:55.863420+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1693,7 +1693,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-30T07:27:14.755004+00:00",
+      "fetched_at": "2026-10-30T19:32:55.868960+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1775,7 +1775,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-30T07:27:14.757815+00:00",
+      "fetched_at": "2026-10-30T19:32:55.870283+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2061,55 +2061,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-30T07:26:58.316870+00:00"
+        "checked_at": "2026-10-30T19:32:29.454459+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-30T07:26:57.289439+00:00"
+        "checked_at": "2026-10-30T19:32:28.428002+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-30T07:27:01.608114+00:00"
+        "checked_at": "2026-10-30T19:32:32.512210+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-30T07:26:59.335662+00:00"
+        "checked_at": "2026-10-30T19:32:30.472395+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-30T07:27:03.893757+00:00"
+        "checked_at": "2026-10-30T19:32:34.748616+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-30T07:27:00.356842+00:00"
+        "checked_at": "2026-10-30T19:32:31.492440+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-30T07:27:02.753588+00:00"
+        "checked_at": "2026-10-30T19:32:33.543964+00:00"
       }
     ],
     "leaderboards": {
-      "ok": 12,
-      "failed": 1,
-      "checked_at": "2026-10-30T07:27:14.763115+00:00"
+      "ok": 13,
+      "failed": 0,
+      "checked_at": "2026-10-30T19:32:55.875406+00:00"
     }
   }
 }
