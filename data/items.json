@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T21:54:09.499791+00:00",
+  "generated_at": "2026-10-30T01:26:45.697676+00:00",
   "items": [
     {
       "id": "yt:L4yqXWDyGCg",
@@ -108,7 +108,7 @@
       "summary": "Interactive world generation requires models to follow successive commands while preserving relevant history and action consequences. We present Hy-Nomas, a video world model with an 8B diffusion backbone that supports free-form text instructions and continuous camera control across multiple interaction turns. It generates variable-length segments conditioned on current inputs and cached history. ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 120,
+      "upvotes": 124,
       "arxiv_id": "2610.36729"
     },
     {
@@ -147,7 +147,7 @@
       "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introdu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 52,
+      "upvotes": 53,
       "arxiv_id": "2610.37666"
     },
     {
@@ -173,7 +173,7 @@
       "summary": "Video stylization typically transforms entire scenes, while local artistic editing requires precise region--style association, spatial control, and temporal consistency. We introduce LociArt, a unified paradigm for free-style local video stylization that explicitly specifies where to stylize and what style to apply while preserving non-target content. At its core, GRNStyle builds on Generative Ref",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 47,
+      "upvotes": 50,
       "arxiv_id": "2610.36456"
     },
     {
@@ -228,6 +228,32 @@
       "arxiv_id": "2610.36068"
     },
     {
+      "id": "paper:2610.35684",
+      "title": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
+      "url": "https://huggingface.co/papers/2610.35684",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-26T00:00:00+00:00",
+      "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple referen",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 44,
+      "arxiv_id": "2610.35684"
+    },
+    {
+      "id": "paper:2610.22543",
+      "title": "On the SPOT: Enhancing Speculative Decoding for Diffusion Language Models via Commit-Order Prediction",
+      "url": "https://huggingface.co/papers/2610.22543",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-26T00:00:00+00:00",
+      "summary": "Diffusion language models (DLMs) promise parallel text generation, but in practice face an unresolved speed-quality trade-off. Exact decoding fills in only one masked position per model pass, while faster multi-token decoding schemes are lossy. Speculative decoding is the standard lossless acceleration for autoregressive models. However, it does not transfer directly to DLMs, which must choose bot",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 43,
+      "arxiv_id": "2610.22543"
+    },
+    {
       "id": "yt:aZMKzHhlTh8",
       "title": "HUGE GPT-7 BEL UPDATE! Claude REA BANNED, Gemini 4 Carbon Is INSANE, Qwen 4 LEAKS, & More! AI NEWS",
       "url": "https://www.youtube.com/watch?v=aZMKzHhlTh8",
@@ -261,7 +287,7 @@
       "summary": "Training a spatial VLM to answer which side an object lies on does not require it to preserve the metric displacement that determines that answer, while supervision for a distance estimate may leave categorical relations largely unconstrained. When post-training emphasizes one readout, improvements can therefore concentrate on that interface while transfer to others remains weak or even degrades; ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 408,
+      "upvotes": 413,
       "arxiv_id": "2610.34283"
     },
     {
@@ -337,32 +363,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/1Aqhg0FVm-w/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "paper:2610.32749",
-      "title": "Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes",
-      "url": "https://huggingface.co/papers/2610.32749",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-23T00:00:00+00:00",
-      "summary": "Streaming audio-visual target speaker extraction (AVTSE) is essential for latency-sensitive applications. However, current causal systems face two coupled gaps. First, standard benchmarks fix the number of speakers at two and ignore the near-/far-field interference, reverberation, and sudden noise of real scenes. Second, high-performance causal architectures are too heavy for edge deployment. Ligh",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 149,
-      "arxiv_id": "2610.32749"
-    },
-    {
-      "id": "paper:2610.32046",
-      "title": "Can Test-Time Memory Evolution Outperform Test-Time Training for Scientific Discovery?",
-      "url": "https://huggingface.co/papers/2610.32046",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-23T00:00:00+00:00",
-      "summary": "Recent test-time training (TTT) frameworks have enabled open-weight large language models (LLMs) to outperform inference-only frameworks powered by frontier models on scientific discovery tasks. However, TTT introduces additional computational cost for online weight updates during the discovery process, making computational efficiency an important consideration when scaling to larger models. This ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 123,
-      "arxiv_id": "2610.32046"
     },
     {
       "id": "yt:zv6B6PQOuHE",
@@ -843,18 +843,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/I_KVMFrUtPk/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
-    },
-    {
-      "id": "yt:WxuGIqpkfdc",
-      "title": "GPT-6.1 Sol Is HERE – Can THIS Beat Claude Opus 5.5?",
-      "url": "https://www.youtube.com/watch?v=WxuGIqpkfdc",
-      "source": "Bijan Bowen",
-      "category": "videos",
-      "published": "2026-09-30T00:05:59+00:00",
-      "summary": "Timestamps: 00:00 - Intro 00:48 - First Look 02:04 - Technical Look 03:27 - Pool Party Test 04:43 - Browser OS Test 09:46 - Pool Party Second Test 13:19 - C++ Skate Test 15:49 - Honest Thoughts 16:55 - C++ Improvement Test 19:02 - Robot Arm Test 20:39 - Subway FPS Test 24:04 - Jerry’s Apartment Test",
-      "thumbnail": "https://i4.ytimg.com/vi/WxuGIqpkfdc/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Bijan Bowen"
     }
   ],
   "featured": [
@@ -873,7 +861,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T21:54:09.404569+00:00",
+      "fetched_at": "2026-10-30T01:26:45.565759+00:00",
       "entries": [
         {
           "rank": 1,
@@ -955,7 +943,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T21:54:09.406584+00:00",
+      "fetched_at": "2026-10-30T01:26:45.568632+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1037,7 +1025,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T21:54:09.408760+00:00",
+      "fetched_at": "2026-10-30T01:26:45.571808+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1097,17 +1085,17 @@
         },
         {
           "rank": 9,
+          "name": "Agnes-Video-2.5",
+          "creator": "Agnes-Video-2.5",
+          "score": 1103.0,
+          "meta": "Aug 2026 · $2.40 /min"
+        },
+        {
+          "rank": 10,
           "name": "FLUX 3",
           "creator": "FLUX 3",
           "score": 1071.0,
           "meta": "Jul 2026 · $17.40 /min"
-        },
-        {
-          "rank": 10,
-          "name": "FLUX 3 Max",
-          "creator": "FLUX 3 Max",
-          "score": 1065.0,
-          "meta": "Oct 2026 · $4.35 /min"
         }
       ]
     },
@@ -1119,7 +1107,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T21:54:09.409337+00:00",
+      "fetched_at": "2026-10-30T01:26:45.572626+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1248,7 +1236,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T21:54:09.413932+00:00",
+      "fetched_at": "2026-10-30T01:26:45.578828+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1295,7 +1283,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T21:54:09.415432+00:00",
+      "fetched_at": "2026-10-30T01:26:45.580938+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1377,7 +1365,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-29T21:54:09.438807+00:00",
+      "fetched_at": "2026-10-30T01:26:45.614911+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1459,7 +1447,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-29T21:54:09.465143+00:00",
+      "fetched_at": "2026-10-30T01:26:45.648265+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1505,31 +1493,31 @@
         },
         {
           "rank": 7,
+          "name": "GLM-5.3-Flash",
+          "creator": "Z AI",
+          "score": 28.0,
+          "meta": "1M ctx"
+        },
+        {
+          "rank": 8,
           "name": "MiMo-V2.6-Flash",
           "creator": "Xiaomi",
           "score": 27.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Mistral Large 4 (high)",
           "creator": "Mistral",
           "score": 26.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Muse Spark Open (xhigh)",
           "creator": "Meta",
           "score": 25.0,
           "meta": "1.05M ctx"
-        },
-        {
-          "rank": 10,
-          "name": "Mistral Large 4 (medium)",
-          "creator": "Mistral",
-          "score": 23.0,
-          "meta": "1M ctx"
         }
       ]
     },
@@ -1541,7 +1529,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T21:54:09.473506+00:00",
+      "fetched_at": "2026-10-30T01:26:45.660325+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1623,7 +1611,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T21:54:09.476534+00:00",
+      "fetched_at": "2026-10-30T01:26:45.664912+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1705,7 +1693,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T21:54:09.485158+00:00",
+      "fetched_at": "2026-10-30T01:26:45.677574+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1787,7 +1775,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-29T21:54:09.487244+00:00",
+      "fetched_at": "2026-10-30T01:26:45.680401+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2073,55 +2061,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-29T21:53:52.804850+00:00"
+        "checked_at": "2026-10-30T01:26:27.191693+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-29T21:53:51.672615+00:00"
+        "ok": false,
+        "items": 7,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-10-30T01:26:26.153371+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-29T21:53:56.315337+00:00"
+        "ok": false,
+        "items": 13,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-10-30T01:26:30.407935+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-29T21:53:53.959506+00:00"
+        "checked_at": "2026-10-30T01:26:28.212608+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-29T21:53:58.656366+00:00"
+        "checked_at": "2026-10-30T01:26:32.684565+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-29T21:53:55.185388+00:00"
+        "ok": false,
+        "items": 6,
+        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-10-30T01:26:29.345388+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-29T21:53:57.483077+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-10-30T01:26:31.469529+00:00"
       }
     ],
     "leaderboards": {
       "ok": 12,
       "failed": 1,
-      "checked_at": "2026-10-29T21:54:09.492153+00:00"
+      "checked_at": "2026-10-30T01:26:45.685941+00:00"
     }
   }
 }
