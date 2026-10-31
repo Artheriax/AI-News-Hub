@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-10-31T02:35:04.701901+00:00",
+  "generated_at": "2026-10-31T09:04:44.214586+00:00",
   "items": [
+    {
+      "id": "yt:eadEYJY9ydg",
+      "title": "I Tested 8 of the BEST AI Video Models! Kling 4.0 vs Seedance 2.5 - The ULTIMATE Showdown!",
+      "url": "https://www.youtube.com/watch?v=eadEYJY9ydg",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-10-31T06:50:44+00:00",
+      "summary": "▶ Run all 8 models with the same prompt on Higgsfield: https://higgsfield.ai/s/video-model-showdown-kling-4-intheworldofai-IgGqDE I gave eight AI video models the exact same prompt on Higgsfield AI (Kling 4.0, Seedance 2.5, Gemini Omni Flash 1.1, FLUX.3 Video, Grok Imagine 1.5, Wan 3.0 Prime, MiniMa",
+      "thumbnail": "https://i2.ytimg.com/vi/eadEYJY9ydg/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
     {
       "id": "yt:CWdTBLsbaQs",
       "title": "OpenAI Claims It Just Did The Impossible",
@@ -47,7 +59,7 @@
       "summary": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-scor",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 238,
+      "upvotes": 239,
       "arxiv_id": "2610.39633"
     },
     {
@@ -60,7 +72,7 @@
       "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 56,
+      "upvotes": 128,
       "arxiv_id": "2610.39301"
     },
     {
@@ -134,7 +146,7 @@
       "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making super",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 157,
+      "upvotes": 158,
       "arxiv_id": "2610.38568"
     },
     {
@@ -197,7 +209,7 @@
       "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still proc",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 91,
+      "upvotes": 94,
       "arxiv_id": "2610.36671"
     },
     {
@@ -236,7 +248,7 @@
       "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introdu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 55,
+      "upvotes": 57,
       "arxiv_id": "2610.37666"
     },
     {
@@ -300,7 +312,7 @@
       "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple referen",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 78,
+      "upvotes": 90,
       "arxiv_id": "2610.35684"
     },
     {
@@ -617,18 +629,6 @@
       "channel": "Two Minute Papers"
     },
     {
-      "id": "yt:f7OpKLA-CLI",
-      "title": "Meta's Muse Wonder IS OPUS 5.5 LEVEL?! I Don't Think So... (Fully Tested)",
-      "url": "https://www.youtube.com/watch?v=f7OpKLA-CLI",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-10-12T23:16:55+00:00",
-      "summary": "🚨 Everything you’re about to see, I benchmarked using the tool I made. If you want to run these tests yourself or test models on whatever you actually use them for! → https://www.woaibench.ai/ Meta just dropped Muse Wonder and Muse Wonder Full, its latest frontier AI models, claiming performance tha",
-      "thumbnail": "https://i3.ytimg.com/vi/f7OpKLA-CLI/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:C4Sq3Rot8FU",
       "title": "AI Labs Warn Race Makes Breach ‘Inevitable’",
       "url": "https://www.youtube.com/watch?v=C4Sq3Rot8FU",
@@ -861,7 +861,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T02:35:04.568652+00:00",
+      "fetched_at": "2026-10-31T09:04:44.147496+00:00",
       "entries": [
         {
           "rank": 1,
@@ -943,7 +943,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T02:35:04.571573+00:00",
+      "fetched_at": "2026-10-31T09:04:44.148887+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1025,7 +1025,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T02:35:04.574925+00:00",
+      "fetched_at": "2026-10-31T09:04:44.150450+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1107,7 +1107,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T02:35:04.575759+00:00",
+      "fetched_at": "2026-10-31T09:04:44.150848+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1154,7 +1154,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T02:35:04.582133+00:00",
+      "fetched_at": "2026-10-31T09:04:44.153849+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1236,7 +1236,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T02:35:04.582146+00:00",
+      "fetched_at": "2026-10-31T09:04:44.153858+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1283,7 +1283,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T02:35:04.584061+00:00",
+      "fetched_at": "2026-10-31T09:04:44.154750+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1365,7 +1365,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-31T02:35:04.616602+00:00",
+      "fetched_at": "2026-10-31T09:04:44.171298+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1447,7 +1447,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-31T02:35:04.653475+00:00",
+      "fetched_at": "2026-10-31T09:04:44.189086+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1529,7 +1529,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T02:35:04.665621+00:00",
+      "fetched_at": "2026-10-31T09:04:44.194678+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1611,7 +1611,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T02:35:04.670139+00:00",
+      "fetched_at": "2026-10-31T09:04:44.196767+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1693,7 +1693,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T02:35:04.682351+00:00",
+      "fetched_at": "2026-10-31T09:04:44.202311+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1775,7 +1775,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T02:35:04.685215+00:00",
+      "fetched_at": "2026-10-31T09:04:44.203614+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2061,55 +2061,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T02:34:48.492484+00:00"
+        "checked_at": "2026-10-31T09:04:22.761466+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T02:34:47.465752+00:00"
+        "checked_at": "2026-10-31T09:04:21.584083+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
-        "items": 12,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-10-31T02:34:51.601517+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-10-31T09:04:25.837638+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T02:34:49.509793+00:00"
+        "checked_at": "2026-10-31T09:04:23.785208+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T02:34:53.904308+00:00"
+        "checked_at": "2026-10-31T09:04:28.194093+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T02:34:50.529563+00:00"
+        "checked_at": "2026-10-31T09:04:24.812195+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-10-31T02:34:52.681354+00:00"
+        "error": null,
+        "checked_at": "2026-10-31T09:04:26.986229+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-31T02:35:04.690439+00:00"
+      "checked_at": "2026-10-31T09:04:44.208815+00:00"
     }
   }
 }
