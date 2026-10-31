@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T19:24:59.136653+00:00",
+  "generated_at": "2026-10-31T22:38:41.835594+00:00",
   "items": [
     {
       "id": "yt:eadEYJY9ydg",
@@ -59,7 +59,7 @@
       "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 66,
+      "upvotes": 68,
       "arxiv_id": "2610.39301"
     },
     {
@@ -72,7 +72,7 @@
       "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 57,
+      "upvotes": 58,
       "arxiv_id": "2610.39302"
     },
     {
@@ -222,7 +222,7 @@
       "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still proc",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 97,
+      "upvotes": 98,
       "arxiv_id": "2610.36671"
     },
     {
@@ -235,7 +235,7 @@
       "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introdu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 60,
+      "upvotes": 61,
       "arxiv_id": "2610.37666"
     },
     {
@@ -248,7 +248,7 @@
       "summary": "Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this scenario, existing systems (1) overlook tool-return readiness in service evaluation, wasting limited resources, and (2) use heuristic strategies to decide admission and placement on GPUs, resulting in suboptimal scheduling decisions. To bridge this gap, we present TAO, a tool-aware ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 53,
+      "upvotes": 56,
       "arxiv_id": "2610.37230"
     },
     {
@@ -299,7 +299,7 @@
       "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple referen",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 102,
+      "upvotes": 104,
       "arxiv_id": "2610.35684"
     },
     {
@@ -807,30 +807,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/lHmZoRHMZyM/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "yt:_rtp1XzaP6Q",
-      "title": "OpenAI Security: Controlling Models is Now ‘Hell’",
-      "url": "https://www.youtube.com/watch?v=_rtp1XzaP6Q",
-      "source": "AI Explained",
-      "category": "videos",
-      "published": "2026-10-01T21:20:12+00:00",
-      "summary": "This video is hard to summarise. A cracked cipher, an OpenAI security warning, Gemini 4 Argon, RSI paper (co-authored by a who’s who of AI), Lab White House commitments, new hacks emerging, ‘deep personas’, biology Kasparov competitions, and so much more, ending with an epic Opus outro. Patreon Excl",
-      "thumbnail": "https://i4.ytimg.com/vi/_rtp1XzaP6Q/hqdefault.jpg",
-      "kind": "video",
-      "channel": "AI Explained"
-    },
-    {
-      "id": "yt:No-JPdFvYWU",
-      "title": "The one OpenAI announcement that can actually make you money...",
-      "url": "https://www.youtube.com/watch?v=No-JPdFvYWU",
-      "source": "Fireship",
-      "category": "videos",
-      "published": "2026-10-01T19:34:14+00:00",
-      "summary": "Try the faster, open-weight version of Jev at https://fastino.ai/. Use code: FIRESHIPFIVE to get free credits. In this video we'll cover everything you missed at OpenAI Dev Day 2026. Let's dive in. #coding #programming Want more Fireship? 🗞️ Newsletter: https://bytes.dev 🧠 Courses: https://fireship.",
-      "thumbnail": "https://i3.ytimg.com/vi/No-JPdFvYWU/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Fireship"
     }
   ],
   "featured": [
@@ -849,7 +825,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T19:24:59.038082+00:00",
+      "fetched_at": "2026-10-31T22:38:41.700806+00:00",
       "entries": [
         {
           "rank": 1,
@@ -931,7 +907,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T19:24:59.040119+00:00",
+      "fetched_at": "2026-10-31T22:38:41.703725+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1013,7 +989,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T19:24:59.042508+00:00",
+      "fetched_at": "2026-10-31T22:38:41.707093+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1095,7 +1071,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T19:24:59.043084+00:00",
+      "fetched_at": "2026-10-31T22:38:41.707926+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1142,7 +1118,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T19:24:59.048010+00:00",
+      "fetched_at": "2026-10-31T22:38:41.714388+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1224,7 +1200,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T19:24:59.048026+00:00",
+      "fetched_at": "2026-10-31T22:38:41.714402+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1271,7 +1247,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T19:24:59.049431+00:00",
+      "fetched_at": "2026-10-31T22:38:41.716457+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1353,7 +1329,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-31T19:24:59.074587+00:00",
+      "fetched_at": "2026-10-31T22:38:41.751354+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1435,7 +1411,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-31T19:24:59.101573+00:00",
+      "fetched_at": "2026-10-31T22:38:41.788235+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1517,7 +1493,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T19:24:59.109956+00:00",
+      "fetched_at": "2026-10-31T22:38:41.799783+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1599,7 +1575,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T19:24:59.113212+00:00",
+      "fetched_at": "2026-10-31T22:38:41.804295+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1681,7 +1657,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T19:24:59.122080+00:00",
+      "fetched_at": "2026-10-31T22:38:41.816628+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1763,7 +1739,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T19:24:59.124228+00:00",
+      "fetched_at": "2026-10-31T22:38:41.819498+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2049,55 +2025,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T19:24:42.910878+00:00"
+        "checked_at": "2026-10-31T22:38:25.343473+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T19:24:41.861597+00:00"
+        "checked_at": "2026-10-31T22:38:24.315823+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T19:24:45.999778+00:00"
+        "checked_at": "2026-10-31T22:38:28.488101+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T19:24:43.944168+00:00"
+        "checked_at": "2026-10-31T22:38:26.445807+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T19:24:48.293540+00:00"
+        "checked_at": "2026-10-31T22:38:30.983396+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T19:24:44.974653+00:00"
+        "checked_at": "2026-10-31T22:38:27.467304+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T19:24:47.042061+00:00"
+        "checked_at": "2026-10-31T22:38:29.690379+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-31T19:24:59.129005+00:00"
+      "checked_at": "2026-10-31T22:38:41.824734+00:00"
     }
   }
 }
