@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T23:23:15.634208+00:00",
+  "generated_at": "2026-10-31T02:35:04.701901+00:00",
   "items": [
     {
       "id": "yt:CWdTBLsbaQs",
@@ -47,7 +47,7 @@
       "summary": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-scor",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 237,
+      "upvotes": 238,
       "arxiv_id": "2610.39633"
     },
     {
@@ -60,7 +60,7 @@
       "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 55,
+      "upvotes": 56,
       "arxiv_id": "2610.39301"
     },
     {
@@ -73,7 +73,7 @@
       "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 50,
+      "upvotes": 54,
       "arxiv_id": "2610.39302"
     },
     {
@@ -197,7 +197,7 @@
       "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still proc",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 90,
+      "upvotes": 91,
       "arxiv_id": "2610.36671"
     },
     {
@@ -300,7 +300,7 @@
       "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple referen",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 77,
+      "upvotes": 78,
       "arxiv_id": "2610.35684"
     },
     {
@@ -861,7 +861,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-30T23:23:15.539290+00:00",
+      "fetched_at": "2026-10-31T02:35:04.568652+00:00",
       "entries": [
         {
           "rank": 1,
@@ -943,7 +943,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-30T23:23:15.541303+00:00",
+      "fetched_at": "2026-10-31T02:35:04.571573+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1025,62 +1025,62 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-30T23:23:15.543598+00:00",
+      "fetched_at": "2026-10-31T02:35:04.574925+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Dreamina Seedance 2.5",
           "creator": "Dreamina Seedance 2.5",
-          "score": 1152.0,
+          "score": 1153.0,
           "meta": "Jul 2026 · $34.12 /min"
         },
         {
           "rank": 2,
           "name": "Utopai X",
           "creator": "Utopai X",
-          "score": 1144.0,
+          "score": 1146.0,
           "meta": "Sep 2026 · No API available"
         },
         {
           "rank": 3,
           "name": "Dreamina Seedance 2.0",
           "creator": "Dreamina Seedance 2.0",
-          "score": 1135.0,
+          "score": 1136.0,
           "meta": "Mar 2026 · $22.45 /min"
         },
         {
           "rank": 4,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1129.0,
+          "score": 1128.0,
           "meta": "Jul 2026 · $4.80 /min"
         },
         {
           "rank": 5,
           "name": "Hyperflow H3",
           "creator": "Hyperflow H3",
-          "score": 1123.0,
+          "score": 1124.0,
           "meta": "Sep 2026 · $9.00 /min"
         },
         {
           "rank": 6,
           "name": "HeyGen Video 1",
           "creator": "HeyGen Video 1",
-          "score": 1119.0,
+          "score": 1120.0,
           "meta": "Oct 2026 · $2.40 /min"
         },
         {
           "rank": 7,
           "name": "P-Video-2-Pro",
           "creator": "P-Video-2-Pro",
-          "score": 1118.0,
+          "score": 1119.0,
           "meta": "Sep 2026 · $5.70 /min"
         },
         {
           "rank": 8,
           "name": "MiniMax H3 Max",
           "creator": "MiniMax H3 Max",
-          "score": 1115.0,
+          "score": 1117.0,
           "meta": "Aug 2026 · $9.60 /min"
         },
         {
@@ -1094,7 +1094,7 @@
           "rank": 10,
           "name": "Agnes-Video-2.5",
           "creator": "Agnes-Video-2.5",
-          "score": 1102.0,
+          "score": 1100.0,
           "meta": "Aug 2026 · $2.40 /min"
         }
       ]
@@ -1107,41 +1107,41 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-30T23:23:15.544174+00:00",
+      "fetched_at": "2026-10-31T02:35:04.575759+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1129.0,
+          "score": 1128.0,
           "meta": "Jul 2026 · $4.80 /min"
         },
         {
           "rank": 2,
           "name": "LTX-2.5 Fast",
           "creator": "LTX-2.5 Fast",
-          "score": 917.0,
+          "score": 918.0,
           "meta": "Aug 2026 · $7.80 /min"
         },
         {
           "rank": 3,
           "name": "LTX-2.5 Pro",
           "creator": "LTX-2.5 Pro",
-          "score": 909.0,
+          "score": 910.0,
           "meta": "Aug 2026 · $10.20 /min"
         },
         {
           "rank": 4,
           "name": "LTX-2.3 Pro",
           "creator": "LTX-2.3 Pro",
-          "score": 836.0,
+          "score": 837.0,
           "meta": "Mar 2026 · $4.80 /min"
         },
         {
           "rank": 5,
           "name": "LTX-2.3 Fast",
           "creator": "LTX-2.3 Fast",
-          "score": 830.0,
+          "score": 829.0,
           "meta": "Mar 2026 · $3.60 /min"
         }
       ]
@@ -1154,32 +1154,32 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-30T23:23:15.549065+00:00",
+      "fetched_at": "2026-10-31T02:35:04.582133+00:00",
       "entries": [
         {
           "rank": 1,
-          "score": 1157.0,
+          "score": 1155.0,
           "name": "Utopai X",
           "creator": "Utopai Studios",
           "meta": ""
         },
         {
           "rank": 2,
-          "score": 1129.0,
+          "score": 1128.0,
           "name": "Dreamina Seedance 2.5",
           "creator": "ByteDance Seed",
           "meta": ""
         },
         {
           "rank": 3,
-          "score": 1124.0,
+          "score": 1122.0,
           "name": "MiniMax H3 Max",
           "creator": "Fal",
           "meta": ""
         },
         {
           "rank": 4,
-          "score": 1122.0,
+          "score": 1120.0,
           "name": "Bach 1.0 Pro",
           "creator": "Video Rebirth",
           "meta": ""
@@ -1193,35 +1193,35 @@
         },
         {
           "rank": 6,
-          "score": 1116.0,
+          "score": 1114.0,
           "name": "Agnes-Video-2.5",
           "creator": "Sapiens AI",
           "meta": ""
         },
         {
           "rank": 7,
-          "score": 1112.0,
+          "score": 1111.0,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax",
           "meta": ""
         },
         {
           "rank": 8,
-          "score": 1105.0,
+          "score": 1103.0,
           "name": "HeyGen Video 1",
           "creator": "HeyGen",
           "meta": ""
         },
         {
           "rank": 9,
-          "score": 1103.0,
+          "score": 1102.0,
           "name": "P-Video-2-Pro",
           "creator": "Pruna AI",
           "meta": ""
         },
         {
           "rank": 10,
-          "score": 1095.0,
+          "score": 1093.0,
           "name": "Dreamina Seedance 2.0",
           "creator": "ByteDance Seed",
           "meta": ""
@@ -1236,41 +1236,41 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-30T23:23:15.549077+00:00",
+      "fetched_at": "2026-10-31T02:35:04.582146+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1129.0,
+          "score": 1128.0,
           "meta": "Jul 2026 · $4.80 /min"
         },
         {
           "rank": 2,
           "name": "LTX-2.5 Fast",
           "creator": "LTX-2.5 Fast",
-          "score": 917.0,
+          "score": 918.0,
           "meta": "Aug 2026 · $7.80 /min"
         },
         {
           "rank": 3,
           "name": "LTX-2.5 Pro",
           "creator": "LTX-2.5 Pro",
-          "score": 909.0,
+          "score": 910.0,
           "meta": "Aug 2026 · $10.20 /min"
         },
         {
           "rank": 4,
           "name": "LTX-2.3 Pro",
           "creator": "LTX-2.3 Pro",
-          "score": 836.0,
+          "score": 837.0,
           "meta": "Mar 2026 · $4.80 /min"
         },
         {
           "rank": 5,
           "name": "LTX-2.3 Fast",
           "creator": "LTX-2.3 Fast",
-          "score": 830.0,
+          "score": 829.0,
           "meta": "Mar 2026 · $3.60 /min"
         }
       ]
@@ -1283,7 +1283,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-30T23:23:15.550422+00:00",
+      "fetched_at": "2026-10-31T02:35:04.584061+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1365,7 +1365,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-30T23:23:15.573969+00:00",
+      "fetched_at": "2026-10-31T02:35:04.616602+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1447,7 +1447,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-30T23:23:15.600003+00:00",
+      "fetched_at": "2026-10-31T02:35:04.653475+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1529,7 +1529,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-30T23:23:15.608191+00:00",
+      "fetched_at": "2026-10-31T02:35:04.665621+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1611,7 +1611,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-30T23:23:15.611342+00:00",
+      "fetched_at": "2026-10-31T02:35:04.670139+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1693,7 +1693,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-30T23:23:15.619972+00:00",
+      "fetched_at": "2026-10-31T02:35:04.682351+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1775,7 +1775,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-30T23:23:15.622139+00:00",
+      "fetched_at": "2026-10-31T02:35:04.685215+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2061,55 +2061,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-30T23:22:56.852914+00:00"
+        "checked_at": "2026-10-31T02:34:48.492484+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-30T23:22:55.827415+00:00"
+        "checked_at": "2026-10-31T02:34:47.465752+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-30T23:23:00.608374+00:00"
+        "ok": false,
+        "items": 12,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-10-31T02:34:51.601517+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-30T23:22:57.869855+00:00"
+        "checked_at": "2026-10-31T02:34:49.509793+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-30T23:23:02.932393+00:00"
+        "checked_at": "2026-10-31T02:34:53.904308+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-30T23:22:59.027239+00:00"
+        "checked_at": "2026-10-31T02:34:50.529563+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-30T23:23:01.776108+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-10-31T02:34:52.681354+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-30T23:23:15.626639+00:00"
+      "checked_at": "2026-10-31T02:35:04.690439+00:00"
     }
   }
 }
