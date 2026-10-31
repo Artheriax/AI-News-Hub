@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T09:04:44.214586+00:00",
+  "generated_at": "2026-10-31T15:25:45.561731+00:00",
   "items": [
     {
       "id": "yt:eadEYJY9ydg",
@@ -59,7 +59,7 @@
       "summary": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-scor",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 239,
+      "upvotes": 243,
       "arxiv_id": "2610.39633"
     },
     {
@@ -72,7 +72,7 @@
       "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 128,
+      "upvotes": 149,
       "arxiv_id": "2610.39301"
     },
     {
@@ -85,7 +85,7 @@
       "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 54,
+      "upvotes": 56,
       "arxiv_id": "2610.39302"
     },
     {
@@ -146,7 +146,7 @@
       "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making super",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 158,
+      "upvotes": 162,
       "arxiv_id": "2610.38568"
     },
     {
@@ -209,7 +209,7 @@
       "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still proc",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 94,
+      "upvotes": 96,
       "arxiv_id": "2610.36671"
     },
     {
@@ -222,7 +222,7 @@
       "summary": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 90,
+      "upvotes": 91,
       "arxiv_id": "2610.37662"
     },
     {
@@ -239,6 +239,19 @@
       "arxiv_id": "2610.35864"
     },
     {
+      "id": "paper:2610.37230",
+      "title": "TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving",
+      "url": "https://huggingface.co/papers/2610.37230",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-27T00:00:00+00:00",
+      "summary": "Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this scenario, existing systems (1) overlook tool-return readiness in service evaluation, wasting limited resources, and (2) use heuristic strategies to decide admission and placement on GPUs, resulting in suboptimal scheduling decisions. To bridge this gap, we present TAO, a tool-aware ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 58,
+      "arxiv_id": "2610.37230"
+    },
+    {
       "id": "paper:2610.37666",
       "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
       "url": "https://huggingface.co/papers/2610.37666",
@@ -250,19 +263,6 @@
       "kind": "paper",
       "upvotes": 57,
       "arxiv_id": "2610.37666"
-    },
-    {
-      "id": "paper:2610.37341",
-      "title": "CodeCap-Bench: Can Code Serve as a Good Video Caption?",
-      "url": "https://huggingface.co/papers/2610.37341",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-27T00:00:00+00:00",
-      "summary": "Video captioning aims to preserve visual information through compact descriptions, predominantly using natural language. However, precisely expressing fine-grained spatial structures and temporal dynamics in natural language often leads to lengthy and potentially ambiguous descriptions. In this work, we explore Code as Video Caption, a paradigm where executable programs serve as a complementary re",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 53,
-      "arxiv_id": "2610.37341"
     },
     {
       "id": "yt:G_em1hHPnXY",
@@ -286,7 +286,7 @@
       "summary": "Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can shar",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 389,
+      "upvotes": 390,
       "arxiv_id": "2610.36077"
     },
     {
@@ -299,7 +299,7 @@
       "summary": "Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization (MPO), combining Multiscale Advantage Estimation (MAE) and turn-level importanc",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 382,
+      "upvotes": 386,
       "arxiv_id": "2610.35013"
     },
     {
@@ -312,7 +312,7 @@
       "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple referen",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 90,
+      "upvotes": 103,
       "arxiv_id": "2610.35684"
     },
     {
@@ -349,7 +349,7 @@
       "summary": "Memory is increasingly used in long-horizon agents, yet the net value of building memory over direct retrieval from raw history remains largely unclear. Through a large-scale evaluation across multiple benchmarks and model backbones, we find many dedicated memory systems underperform naive RAG in many cases, indicating a negative net value. Taking RAG as a reference, we dissect the net value of me",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 157,
+      "upvotes": 158,
       "arxiv_id": "2610.34073"
     },
     {
@@ -861,7 +861,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T09:04:44.147496+00:00",
+      "fetched_at": "2026-10-31T15:25:45.489888+00:00",
       "entries": [
         {
           "rank": 1,
@@ -943,7 +943,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T09:04:44.148887+00:00",
+      "fetched_at": "2026-10-31T15:25:45.491315+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1025,7 +1025,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T09:04:44.150450+00:00",
+      "fetched_at": "2026-10-31T15:25:45.492975+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1107,7 +1107,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T09:04:44.150848+00:00",
+      "fetched_at": "2026-10-31T15:25:45.493395+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1154,7 +1154,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T09:04:44.153849+00:00",
+      "fetched_at": "2026-10-31T15:25:45.497353+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1236,7 +1236,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T09:04:44.153858+00:00",
+      "fetched_at": "2026-10-31T15:25:45.497361+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1283,7 +1283,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T09:04:44.154750+00:00",
+      "fetched_at": "2026-10-31T15:25:45.498350+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1365,7 +1365,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-31T09:04:44.171298+00:00",
+      "fetched_at": "2026-10-31T15:25:45.515649+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1447,7 +1447,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-31T09:04:44.189086+00:00",
+      "fetched_at": "2026-10-31T15:25:45.534954+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1529,7 +1529,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T09:04:44.194678+00:00",
+      "fetched_at": "2026-10-31T15:25:45.540715+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1611,7 +1611,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T09:04:44.196767+00:00",
+      "fetched_at": "2026-10-31T15:25:45.542959+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1693,7 +1693,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T09:04:44.202311+00:00",
+      "fetched_at": "2026-10-31T15:25:45.548748+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1775,7 +1775,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T09:04:44.203614+00:00",
+      "fetched_at": "2026-10-31T15:25:45.550175+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2061,55 +2061,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T09:04:22.761466+00:00"
+        "checked_at": "2026-10-31T15:25:28.802615+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T09:04:21.584083+00:00"
+        "checked_at": "2026-10-31T15:25:27.763958+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T09:04:25.837638+00:00"
+        "checked_at": "2026-10-31T15:25:32.158104+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T09:04:23.785208+00:00"
+        "checked_at": "2026-10-31T15:25:29.938202+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T09:04:28.194093+00:00"
+        "checked_at": "2026-10-31T15:25:34.503728+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T09:04:24.812195+00:00"
+        "checked_at": "2026-10-31T15:25:31.046761+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T09:04:26.986229+00:00"
+        "checked_at": "2026-10-31T15:25:33.301577+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-31T09:04:44.208815+00:00"
+      "checked_at": "2026-10-31T15:25:45.555977+00:00"
     }
   }
 }
