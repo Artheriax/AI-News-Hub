@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T08:25:37.884634+00:00",
+  "generated_at": "2026-11-01T15:21:37.022556+00:00",
   "items": [
     {
       "id": "yt:Nj7rnWJE92o",
@@ -74,19 +74,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2610.39301",
-      "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
-      "url": "https://huggingface.co/papers/2610.39301",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-29T00:00:00+00:00",
-      "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 69,
-      "arxiv_id": "2610.39301"
-    },
-    {
       "id": "paper:2610.39302",
       "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
       "url": "https://huggingface.co/papers/2610.39302",
@@ -96,7 +83,7 @@
       "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 58,
+      "upvotes": 60,
       "arxiv_id": "2610.39302"
     },
     {
@@ -109,21 +96,8 @@
       "summary": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video gene",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 38,
+      "upvotes": 39,
       "arxiv_id": "2610.40614"
-    },
-    {
-      "id": "paper:2610.40647",
-      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
-      "url": "https://huggingface.co/papers/2610.40647",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-29T00:00:00+00:00",
-      "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introdu",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 36,
-      "arxiv_id": "2610.40647"
     },
     {
       "id": "yt:pryCaGv8wuo",
@@ -220,7 +194,7 @@
       "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 152,
+      "upvotes": 155,
       "arxiv_id": "2610.37381"
     },
     {
@@ -233,7 +207,7 @@
       "summary": "Interactive world generation requires models to follow successive commands while preserving relevant history and action consequences. We present Hy-Nomas, a video world model with an 8B diffusion backbone that supports free-form text instructions and continuous camera control across multiple interaction turns. It generates variable-length segments conditioned on current inputs and cached history. ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 123,
+      "upvotes": 122,
       "arxiv_id": "2610.36729"
     },
     {
@@ -246,21 +220,8 @@
       "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still proc",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 99,
+      "upvotes": 101,
       "arxiv_id": "2610.36671"
-    },
-    {
-      "id": "paper:2610.37666",
-      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
-      "url": "https://huggingface.co/papers/2610.37666",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-27T00:00:00+00:00",
-      "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introdu",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 61,
-      "arxiv_id": "2610.37666"
     },
     {
       "id": "paper:2610.37230",
@@ -272,8 +233,21 @@
       "summary": "Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this scenario, existing systems (1) overlook tool-return readiness in service evaluation, wasting limited resources, and (2) use heuristic strategies to decide admission and placement on GPUs, resulting in suboptimal scheduling decisions. To bridge this gap, we present TAO, a tool-aware ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 58,
+      "upvotes": 81,
       "arxiv_id": "2610.37230"
+    },
+    {
+      "id": "paper:2610.37666",
+      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+      "url": "https://huggingface.co/papers/2610.37666",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-27T00:00:00+00:00",
+      "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introdu",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 64,
+      "arxiv_id": "2610.37666"
     },
     {
       "id": "paper:2610.37341",
@@ -289,19 +263,6 @@
       "arxiv_id": "2610.37341"
     },
     {
-      "id": "paper:2610.37662",
-      "title": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
-      "url": "https://huggingface.co/papers/2610.37662",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-27T00:00:00+00:00",
-      "summary": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 45,
-      "arxiv_id": "2610.37662"
-    },
-    {
       "id": "paper:2610.37161",
       "title": "WorkFactory: Turning Professional Intents into Executable Work for Scalable Agent Training",
       "url": "https://huggingface.co/papers/2610.37161",
@@ -311,8 +272,47 @@
       "summary": "Scaling supervised training for working agents requires diverse professional tasks that yield reliable expert demonstrations. However, missing or inconsistent task information can obstruct teacher execution and weaken the resulting supervision. We propose WorkFactory, a scalable framework for constructing coherent and executable professional tasks. Starting from professional intents, information-l",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 36,
+      "upvotes": 37,
       "arxiv_id": "2610.37161"
+    },
+    {
+      "id": "paper:2610.37662",
+      "title": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
+      "url": "https://huggingface.co/papers/2610.37662",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-27T00:00:00+00:00",
+      "summary": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 36,
+      "arxiv_id": "2610.37662"
+    },
+    {
+      "id": "paper:2610.37037",
+      "title": "Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception",
+      "url": "https://huggingface.co/papers/2610.37037",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-27T00:00:00+00:00",
+      "summary": "Multimodal perception forms the foundation of multimodal intelligence. In particular, spatial perception and multimodal long-context understanding are two pivotal tasks that underpin embodied AI and multimodal agents. However, synthesizing targeted, high-quality training data for these tasks remains difficult and costly. Our key insight is that these tasks share an underlying capability, which we ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 33,
+      "arxiv_id": "2610.37037"
+    },
+    {
+      "id": "paper:2610.37364",
+      "title": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
+      "url": "https://huggingface.co/papers/2610.37364",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-27T00:00:00+00:00",
+      "summary": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, and combinations thereof in a unified space. Our approach introduces improvements such as simplified per-layer embeddings and a multi-stage curriculum with modality and objective progression which ensure strong quality across unimodal, cross-modal, and mixed-modal evaluations. Nota",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 31,
+      "arxiv_id": "2610.37364"
     },
     {
       "id": "yt:G_em1hHPnXY",
@@ -336,7 +336,7 @@
       "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple referen",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 107,
+      "upvotes": 126,
       "arxiv_id": "2610.35684"
     },
     {
@@ -837,7 +837,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T08:25:37.748053+00:00",
+      "fetched_at": "2026-11-01T15:21:36.911928+00:00",
       "entries": [
         {
           "rank": 1,
@@ -919,7 +919,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T08:25:37.750998+00:00",
+      "fetched_at": "2026-11-01T15:21:36.914265+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1001,7 +1001,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T08:25:37.754463+00:00",
+      "fetched_at": "2026-11-01T15:21:36.916942+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1083,7 +1083,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T08:25:37.755304+00:00",
+      "fetched_at": "2026-11-01T15:21:36.917670+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1130,7 +1130,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T08:25:37.761725+00:00",
+      "fetched_at": "2026-11-01T15:21:36.923997+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1212,7 +1212,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T08:25:37.761740+00:00",
+      "fetched_at": "2026-11-01T15:21:36.924024+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1259,7 +1259,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T08:25:37.763681+00:00",
+      "fetched_at": "2026-11-01T15:21:36.926270+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1341,7 +1341,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-01T08:25:37.798450+00:00",
+      "fetched_at": "2026-11-01T15:21:36.959241+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1423,7 +1423,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-01T08:25:37.835279+00:00",
+      "fetched_at": "2026-11-01T15:21:36.988149+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1505,7 +1505,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T08:25:37.847508+00:00",
+      "fetched_at": "2026-11-01T15:21:36.996819+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1587,7 +1587,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T08:25:37.851954+00:00",
+      "fetched_at": "2026-11-01T15:21:37.000106+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1669,7 +1669,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T08:25:37.864196+00:00",
+      "fetched_at": "2026-11-01T15:21:37.009048+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1751,7 +1751,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T08:25:37.867095+00:00",
+      "fetched_at": "2026-11-01T15:21:37.011209+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2037,55 +2037,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T08:25:22.512019+00:00"
+        "checked_at": "2026-11-01T15:21:20.888456+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T08:25:21.485856+00:00"
+        "checked_at": "2026-11-01T15:21:19.863025+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T08:25:25.569662+00:00"
+        "checked_at": "2026-11-01T15:21:24.055098+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T08:25:23.529266+00:00"
+        "checked_at": "2026-11-01T15:21:21.904935+00:00"
       },
       {
         "name": "Hugging Face Papers",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "429 Client Error: Too Many Requests for url: https://huggingface.co/api/daily_papers?sort=publishedAt&direction=-1&limit=100",
-        "checked_at": "2026-11-01T08:25:27.716230+00:00"
+        "error": null,
+        "checked_at": "2026-11-01T15:21:26.546232+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T08:25:24.549576+00:00"
+        "checked_at": "2026-11-01T15:21:22.923840+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T08:25:26.604276+00:00"
+        "checked_at": "2026-11-01T15:21:25.247226+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-01T08:25:37.872678+00:00"
+      "checked_at": "2026-11-01T15:21:37.014200+00:00"
     }
   }
 }
