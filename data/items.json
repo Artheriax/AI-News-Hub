@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-11-01T01:40:40.711819+00:00",
+  "generated_at": "2026-11-01T08:25:37.884634+00:00",
   "items": [
+    {
+      "id": "yt:Nj7rnWJE92o",
+      "title": "Grok Bot Is INSANE! AI Teammates That Actually Do The Work (Full Tutorial)",
+      "url": "https://www.youtube.com/watch?v=Nj7rnWJE92o",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-11-01T06:38:44+00:00",
+      "summary": "🤖 Try Grok Bot by @Grok: https://x.ai/bot 📰 Read the launch post: https://x.ai/news/introducing-grok-bot This video is sponsored by Grok Bot. SpaceX's Grok Bot gives you AI teammates that don't just answer questions; they actually do the work. Every Bot runs on its own cloud computer with a real bro",
+      "thumbnail": "https://i3.ytimg.com/vi/Nj7rnWJE92o/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
+      "id": "yt:IGICYFyP_EI",
+      "title": "AI finally sleeps, Gemini 4 Carbon, ETH cracked, energy-based models, Anthropic IPO: AI NEWS",
+      "url": "https://www.youtube.com/watch?v=IGICYFyP_EI",
+      "source": "AI Search",
+      "category": "videos",
+      "published": "2026-11-01T03:27:10+00:00",
+      "summary": "HUGE AI NEWS: OpenAI math breakthroughs, AlphaProtein Novo, Botanic-1, Iris 3B, Kandinsky 6.0, Mistral Large 4, Haiku 5.5 & more. Thanks to our sponsor Luma. Try it today https://lumalabs.ai/aisearch-oct4 #ai #ainews #aitools #aivideo #agi #singularity 00:00 AI news intro 01:10 MotionBricks 03:11 Id",
+      "thumbnail": "https://i2.ytimg.com/vi/IGICYFyP_EI/hqdefault.jpg",
+      "kind": "video",
+      "channel": "AI Search"
+    },
     {
       "id": "yt:eadEYJY9ydg",
       "title": "I Tested 8 of the BEST AI Video Models! Kling 4.0 vs Seedance 2.5 - The ULTIMATE Showdown!",
@@ -605,18 +629,6 @@
       "channel": "Bijan Bowen"
     },
     {
-      "id": "yt:JocjKnl4lBs",
-      "title": "Gemini 4 Argon Is Out, Fable 5.5 This Week? GPT-6.1 Astra, Nano Banana 3 & AI Self-Creating! AI NEWS",
-      "url": "https://www.youtube.com/watch?v=JocjKnl4lBs",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-10-13T19:09:25+00:00",
-      "summary": "🚨 Everything you’re about to see, I benchmarked using the tool I made. If you want to run these tests yourself or test models on whatever you actually use them for! → https://www.woaibench.ai/ Google has officially released Gemini 4 Argon globally, bringing its latest frontier AI model to the Gemini",
-      "thumbnail": "https://i3.ytimg.com/vi/JocjKnl4lBs/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:z_sXLlLVUls",
       "title": "OpenAI’s New AI Is Doing Things We Barely Understand",
       "url": "https://www.youtube.com/watch?v=z_sXLlLVUls",
@@ -825,7 +837,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T01:40:40.639807+00:00",
+      "fetched_at": "2026-11-01T08:25:37.748053+00:00",
       "entries": [
         {
           "rank": 1,
@@ -907,7 +919,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T01:40:40.641268+00:00",
+      "fetched_at": "2026-11-01T08:25:37.750998+00:00",
       "entries": [
         {
           "rank": 1,
@@ -989,7 +1001,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T01:40:40.642885+00:00",
+      "fetched_at": "2026-11-01T08:25:37.754463+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1071,7 +1083,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T01:40:40.643302+00:00",
+      "fetched_at": "2026-11-01T08:25:37.755304+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1118,7 +1130,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T01:40:40.646383+00:00",
+      "fetched_at": "2026-11-01T08:25:37.761725+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1200,7 +1212,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T01:40:40.646394+00:00",
+      "fetched_at": "2026-11-01T08:25:37.761740+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1247,7 +1259,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T01:40:40.647408+00:00",
+      "fetched_at": "2026-11-01T08:25:37.763681+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1329,7 +1341,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-01T01:40:40.664953+00:00",
+      "fetched_at": "2026-11-01T08:25:37.798450+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1411,7 +1423,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-01T01:40:40.684212+00:00",
+      "fetched_at": "2026-11-01T08:25:37.835279+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1493,7 +1505,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T01:40:40.690288+00:00",
+      "fetched_at": "2026-11-01T08:25:37.847508+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1575,7 +1587,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T01:40:40.692578+00:00",
+      "fetched_at": "2026-11-01T08:25:37.851954+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1657,7 +1669,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T01:40:40.698437+00:00",
+      "fetched_at": "2026-11-01T08:25:37.864196+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1739,7 +1751,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T01:40:40.699833+00:00",
+      "fetched_at": "2026-11-01T08:25:37.867095+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2025,55 +2037,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T01:40:24.823582+00:00"
+        "checked_at": "2026-11-01T08:25:22.512019+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 7,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-11-01T01:40:23.786078+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-01T08:25:21.485856+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T01:40:27.906667+00:00"
+        "checked_at": "2026-11-01T08:25:25.569662+00:00"
       },
       {
         "name": "Fireship",
-        "ok": false,
-        "items": 10,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-11-01T01:40:25.862229+00:00"
-      },
-      {
-        "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T01:40:30.176314+00:00"
+        "checked_at": "2026-11-01T08:25:23.529266+00:00"
+      },
+      {
+        "name": "Hugging Face Papers",
+        "ok": false,
+        "items": 15,
+        "error": "429 Client Error: Too Many Requests for url: https://huggingface.co/api/daily_papers?sort=publishedAt&direction=-1&limit=100",
+        "checked_at": "2026-11-01T08:25:27.716230+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T01:40:26.883934+00:00"
+        "checked_at": "2026-11-01T08:25:24.549576+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-11-01T01:40:28.949569+00:00"
+        "error": null,
+        "checked_at": "2026-11-01T08:25:26.604276+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-01T01:40:40.705181+00:00"
+      "checked_at": "2026-11-01T08:25:37.872678+00:00"
     }
   }
 }
