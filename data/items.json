@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T22:38:41.835594+00:00",
+  "generated_at": "2026-11-01T01:40:40.711819+00:00",
   "items": [
     {
       "id": "yt:eadEYJY9ydg",
@@ -59,7 +59,7 @@
       "summary": "We present Youtu-Parsing-Omni, an omni-modal parser that converts documents, images, audio, and video into structured records grounded in space and time, providing a perception layer for agents that read, locate, and cite evidence across modalities. Its design rests on one encoder for every modality and one schema for every task. Youtu-Omni-Encoder, initialized from a pre-trained language model to",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 68,
+      "upvotes": 69,
       "arxiv_id": "2610.39301"
     },
     {
@@ -159,7 +159,7 @@
       "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making super",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 64,
+      "upvotes": 69,
       "arxiv_id": "2610.38568"
     },
     {
@@ -209,7 +209,7 @@
       "summary": "Interactive world generation requires models to follow successive commands while preserving relevant history and action consequences. We present Hy-Nomas, a video world model with an 8B diffusion backbone that supports free-form text instructions and continuous camera control across multiple interaction turns. It generates variable-length segments conditioned on current inputs and cached history. ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 122,
+      "upvotes": 123,
       "arxiv_id": "2610.36729"
     },
     {
@@ -222,7 +222,7 @@
       "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still proc",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 98,
+      "upvotes": 99,
       "arxiv_id": "2610.36671"
     },
     {
@@ -248,7 +248,7 @@
       "summary": "Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this scenario, existing systems (1) overlook tool-return readiness in service evaluation, wasting limited resources, and (2) use heuristic strategies to decide admission and placement on GPUs, resulting in suboptimal scheduling decisions. To bridge this gap, we present TAO, a tool-aware ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 56,
+      "upvotes": 58,
       "arxiv_id": "2610.37230"
     },
     {
@@ -278,6 +278,19 @@
       "arxiv_id": "2610.37662"
     },
     {
+      "id": "paper:2610.37161",
+      "title": "WorkFactory: Turning Professional Intents into Executable Work for Scalable Agent Training",
+      "url": "https://huggingface.co/papers/2610.37161",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-27T00:00:00+00:00",
+      "summary": "Scaling supervised training for working agents requires diverse professional tasks that yield reliable expert demonstrations. However, missing or inconsistent task information can obstruct teacher execution and weaken the resulting supervision. We propose WorkFactory, a scalable framework for constructing coherent and executable professional tasks. Starting from professional intents, information-l",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 36,
+      "arxiv_id": "2610.37161"
+    },
+    {
       "id": "yt:G_em1hHPnXY",
       "title": "China just dropped a new frontier model... and nobody can explain how",
       "url": "https://www.youtube.com/watch?v=G_em1hHPnXY",
@@ -299,7 +312,7 @@
       "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple referen",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 104,
+      "upvotes": 107,
       "arxiv_id": "2610.35684"
     },
     {
@@ -338,19 +351,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/EfyQOAJjx1A/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "paper:2610.34073",
-      "title": "Memory Tax: Dissecting the Net Value of Agent Memory",
-      "url": "https://huggingface.co/papers/2610.34073",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-25T00:00:00+00:00",
-      "summary": "Memory is increasingly used in long-horizon agents, yet the net value of building memory over direct retrieval from raw history remains largely unclear. Through a large-scale evaluation across multiple benchmarks and model backbones, we find many dedicated memory systems underperform naive RAG in many cases, indicating a negative net value. Taking RAG as a reference, we dissect the net value of me",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 91,
-      "arxiv_id": "2610.34073"
     },
     {
       "id": "yt:5Z_Y7SRd_oo",
@@ -825,7 +825,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T22:38:41.700806+00:00",
+      "fetched_at": "2026-11-01T01:40:40.639807+00:00",
       "entries": [
         {
           "rank": 1,
@@ -907,7 +907,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T22:38:41.703725+00:00",
+      "fetched_at": "2026-11-01T01:40:40.641268+00:00",
       "entries": [
         {
           "rank": 1,
@@ -989,7 +989,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T22:38:41.707093+00:00",
+      "fetched_at": "2026-11-01T01:40:40.642885+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1071,7 +1071,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T22:38:41.707926+00:00",
+      "fetched_at": "2026-11-01T01:40:40.643302+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1118,7 +1118,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T22:38:41.714388+00:00",
+      "fetched_at": "2026-11-01T01:40:40.646383+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1200,7 +1200,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T22:38:41.714402+00:00",
+      "fetched_at": "2026-11-01T01:40:40.646394+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1247,7 +1247,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T22:38:41.716457+00:00",
+      "fetched_at": "2026-11-01T01:40:40.647408+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1329,7 +1329,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-31T22:38:41.751354+00:00",
+      "fetched_at": "2026-11-01T01:40:40.664953+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1411,7 +1411,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-10-31T22:38:41.788235+00:00",
+      "fetched_at": "2026-11-01T01:40:40.684212+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1493,7 +1493,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T22:38:41.799783+00:00",
+      "fetched_at": "2026-11-01T01:40:40.690288+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1575,7 +1575,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T22:38:41.804295+00:00",
+      "fetched_at": "2026-11-01T01:40:40.692578+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1657,7 +1657,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T22:38:41.816628+00:00",
+      "fetched_at": "2026-11-01T01:40:40.698437+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1739,7 +1739,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-10-31T22:38:41.819498+00:00",
+      "fetched_at": "2026-11-01T01:40:40.699833+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2025,55 +2025,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T22:38:25.343473+00:00"
+        "checked_at": "2026-11-01T01:40:24.823582+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-31T22:38:24.315823+00:00"
+        "ok": false,
+        "items": 7,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-11-01T01:40:23.786078+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T22:38:28.488101+00:00"
+        "checked_at": "2026-11-01T01:40:27.906667+00:00"
       },
       {
         "name": "Fireship",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-10-31T22:38:26.445807+00:00"
+        "ok": false,
+        "items": 10,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "checked_at": "2026-11-01T01:40:25.862229+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T22:38:30.983396+00:00"
+        "checked_at": "2026-11-01T01:40:30.176314+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-10-31T22:38:27.467304+00:00"
+        "checked_at": "2026-11-01T01:40:26.883934+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-10-31T22:38:29.690379+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-11-01T01:40:28.949569+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-10-31T22:38:41.824734+00:00"
+      "checked_at": "2026-11-01T01:40:40.705181+00:00"
     }
   }
 }
