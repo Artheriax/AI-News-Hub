@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T19:49:40.703473+00:00",
+  "generated_at": "2026-11-01T23:14:11.215452+00:00",
   "items": [
     {
       "id": "yt:Nj7rnWJE92o",
@@ -233,7 +233,7 @@
       "summary": "Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this scenario, existing systems (1) overlook tool-return readiness in service evaluation, wasting limited resources, and (2) use heuristic strategies to decide admission and placement on GPUs, resulting in suboptimal scheduling decisions. To bridge this gap, we present TAO, a tool-aware ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 83,
+      "upvotes": 85,
       "arxiv_id": "2610.37230"
     },
     {
@@ -246,7 +246,7 @@
       "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introdu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 65,
+      "upvotes": 66,
       "arxiv_id": "2610.37666"
     },
     {
@@ -298,7 +298,7 @@
       "summary": "Multimodal perception forms the foundation of multimodal intelligence. In particular, spatial perception and multimodal long-context understanding are two pivotal tasks that underpin embodied AI and multimodal agents. However, synthesizing targeted, high-quality training data for these tasks remains difficult and costly. Our key insight is that these tasks share an underlying capability, which we ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 34,
+      "upvotes": 35,
       "arxiv_id": "2610.37037"
     },
     {
@@ -336,7 +336,7 @@
       "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple referen",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 130,
+      "upvotes": 132,
       "arxiv_id": "2610.35684"
     },
     {
@@ -837,7 +837,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T19:49:40.609050+00:00",
+      "fetched_at": "2026-11-01T23:14:11.119706+00:00",
       "entries": [
         {
           "rank": 1,
@@ -919,7 +919,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T19:49:40.611063+00:00",
+      "fetched_at": "2026-11-01T23:14:11.121711+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1001,7 +1001,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T19:49:40.613373+00:00",
+      "fetched_at": "2026-11-01T23:14:11.124038+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1083,7 +1083,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T19:49:40.613949+00:00",
+      "fetched_at": "2026-11-01T23:14:11.124625+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1130,7 +1130,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T19:49:40.618806+00:00",
+      "fetched_at": "2026-11-01T23:14:11.129561+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1212,7 +1212,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T19:49:40.618817+00:00",
+      "fetched_at": "2026-11-01T23:14:11.129579+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1259,7 +1259,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T19:49:40.620154+00:00",
+      "fetched_at": "2026-11-01T23:14:11.130933+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1341,7 +1341,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-01T19:49:40.644007+00:00",
+      "fetched_at": "2026-11-01T23:14:11.154841+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1423,7 +1423,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-01T19:49:40.669567+00:00",
+      "fetched_at": "2026-11-01T23:14:11.180413+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1505,7 +1505,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T19:49:40.677474+00:00",
+      "fetched_at": "2026-11-01T23:14:11.188443+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1587,7 +1587,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T19:49:40.680569+00:00",
+      "fetched_at": "2026-11-01T23:14:11.191575+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1669,7 +1669,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T19:49:40.689164+00:00",
+      "fetched_at": "2026-11-01T23:14:11.200282+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1751,7 +1751,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T19:49:40.691248+00:00",
+      "fetched_at": "2026-11-01T23:14:11.202392+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2037,55 +2037,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T19:49:24.562518+00:00"
+        "checked_at": "2026-11-01T23:13:55.466928+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T19:49:23.418107+00:00"
+        "checked_at": "2026-11-01T23:13:54.442349+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T19:49:27.890080+00:00"
+        "checked_at": "2026-11-01T23:13:58.508522+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T19:49:25.695944+00:00"
+        "checked_at": "2026-11-01T23:13:56.479971+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T19:49:30.407608+00:00"
+        "checked_at": "2026-11-01T23:14:00.709947+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T19:49:26.712339+00:00"
+        "checked_at": "2026-11-01T23:13:57.494717+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T19:49:29.213976+00:00"
+        "checked_at": "2026-11-01T23:13:59.535252+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-01T19:49:40.695956+00:00"
+      "checked_at": "2026-11-01T23:14:11.207747+00:00"
     }
   }
 }
