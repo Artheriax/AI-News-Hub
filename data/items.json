@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T15:21:37.022556+00:00",
+  "generated_at": "2026-11-01T19:49:40.703473+00:00",
   "items": [
     {
       "id": "yt:Nj7rnWJE92o",
@@ -83,7 +83,7 @@
       "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 60,
+      "upvotes": 64,
       "arxiv_id": "2610.39302"
     },
     {
@@ -96,7 +96,7 @@
       "summary": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video gene",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 39,
+      "upvotes": 40,
       "arxiv_id": "2610.40614"
     },
     {
@@ -157,7 +157,7 @@
       "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making super",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 69,
+      "upvotes": 71,
       "arxiv_id": "2610.38568"
     },
     {
@@ -233,7 +233,7 @@
       "summary": "Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this scenario, existing systems (1) overlook tool-return readiness in service evaluation, wasting limited resources, and (2) use heuristic strategies to decide admission and placement on GPUs, resulting in suboptimal scheduling decisions. To bridge this gap, we present TAO, a tool-aware ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 81,
+      "upvotes": 83,
       "arxiv_id": "2610.37230"
     },
     {
@@ -246,7 +246,7 @@
       "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introdu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 64,
+      "upvotes": 65,
       "arxiv_id": "2610.37666"
     },
     {
@@ -298,7 +298,7 @@
       "summary": "Multimodal perception forms the foundation of multimodal intelligence. In particular, spatial perception and multimodal long-context understanding are two pivotal tasks that underpin embodied AI and multimodal agents. However, synthesizing targeted, high-quality training data for these tasks remains difficult and costly. Our key insight is that these tasks share an underlying capability, which we ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 33,
+      "upvotes": 34,
       "arxiv_id": "2610.37037"
     },
     {
@@ -336,7 +336,7 @@
       "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple referen",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 126,
+      "upvotes": 130,
       "arxiv_id": "2610.35684"
     },
     {
@@ -837,7 +837,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T15:21:36.911928+00:00",
+      "fetched_at": "2026-11-01T19:49:40.609050+00:00",
       "entries": [
         {
           "rank": 1,
@@ -919,7 +919,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T15:21:36.914265+00:00",
+      "fetched_at": "2026-11-01T19:49:40.611063+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1001,7 +1001,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T15:21:36.916942+00:00",
+      "fetched_at": "2026-11-01T19:49:40.613373+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1083,7 +1083,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T15:21:36.917670+00:00",
+      "fetched_at": "2026-11-01T19:49:40.613949+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1130,7 +1130,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T15:21:36.923997+00:00",
+      "fetched_at": "2026-11-01T19:49:40.618806+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1212,7 +1212,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T15:21:36.924024+00:00",
+      "fetched_at": "2026-11-01T19:49:40.618817+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1259,7 +1259,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T15:21:36.926270+00:00",
+      "fetched_at": "2026-11-01T19:49:40.620154+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1341,7 +1341,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-01T15:21:36.959241+00:00",
+      "fetched_at": "2026-11-01T19:49:40.644007+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1423,7 +1423,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-01T15:21:36.988149+00:00",
+      "fetched_at": "2026-11-01T19:49:40.669567+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1505,7 +1505,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T15:21:36.996819+00:00",
+      "fetched_at": "2026-11-01T19:49:40.677474+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1587,7 +1587,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T15:21:37.000106+00:00",
+      "fetched_at": "2026-11-01T19:49:40.680569+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1669,7 +1669,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T15:21:37.009048+00:00",
+      "fetched_at": "2026-11-01T19:49:40.689164+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1751,7 +1751,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T15:21:37.011209+00:00",
+      "fetched_at": "2026-11-01T19:49:40.691248+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2037,55 +2037,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T15:21:20.888456+00:00"
+        "checked_at": "2026-11-01T19:49:24.562518+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T15:21:19.863025+00:00"
+        "checked_at": "2026-11-01T19:49:23.418107+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T15:21:24.055098+00:00"
+        "checked_at": "2026-11-01T19:49:27.890080+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T15:21:21.904935+00:00"
+        "checked_at": "2026-11-01T19:49:25.695944+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T15:21:26.546232+00:00"
+        "checked_at": "2026-11-01T19:49:30.407608+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T15:21:22.923840+00:00"
+        "checked_at": "2026-11-01T19:49:26.712339+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T15:21:25.247226+00:00"
+        "checked_at": "2026-11-01T19:49:29.213976+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-01T15:21:37.014200+00:00"
+      "checked_at": "2026-11-01T19:49:40.695956+00:00"
     }
   }
 }
