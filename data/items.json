@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-11-02T02:38:43.677592+00:00",
+  "generated_at": "2026-11-02T10:17:37.600920+00:00",
   "items": [
+    {
+      "id": "yt:L7opnQdpdMY",
+      "title": "HUGE CLAUDE MYTHOS 5.5 LEAK! Fable 5.5 INSANE, GPT-6.2 Astra, Gemini 4 Xenon & Carbon-H! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=L7opnQdpdMY",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-11-02T08:55:44+00:00",
+      "summary": "🎁 Sell personalised Christmas gifts with Printify, free to start: https://try.printify.com/bu8fpbdhjwz8 Sponsored by Printify · Paid partnership HUGE AI NEWS! Claude Mythos 5.5 has reportedly been spotted in Anthropic's official website code, while Claude Fable 5.5 is making waves with INSANE coding",
+      "thumbnail": "https://i1.ytimg.com/vi/L7opnQdpdMY/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
     {
       "id": "yt:Nj7rnWJE92o",
       "title": "Grok Bot Is INSANE! AI Teammates That Actually Do The Work (Full Tutorial)",
@@ -83,8 +95,21 @@
       "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 66,
+      "upvotes": 67,
       "arxiv_id": "2610.39302"
+    },
+    {
+      "id": "paper:2610.39497",
+      "title": "Does Scaling Toward AGI Depend on What System-1 Lets System-2 Execute?",
+      "url": "https://huggingface.co/papers/2610.39497",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-29T00:00:00+00:00",
+      "summary": "Progress toward artificial general intelligence (AGI) has largely relied on scaling a resource-intensive executive, System-2, through larger models, more data and compute, longer reasoning, and more agents. We ask whether the next stage may come instead from co-designing it with System-1, a lightweight, semantically aware predictor that evaluates candidate interactions before execution, so that Sy",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 53,
+      "arxiv_id": "2610.39497"
     },
     {
       "id": "paper:2610.40614",
@@ -96,21 +121,8 @@
       "summary": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video gene",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 42,
+      "upvotes": 44,
       "arxiv_id": "2610.40614"
-    },
-    {
-      "id": "paper:2610.40647",
-      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
-      "url": "https://huggingface.co/papers/2610.40647",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-29T00:00:00+00:00",
-      "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introdu",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 25,
-      "arxiv_id": "2610.40647"
     },
     {
       "id": "paper:2610.40599",
@@ -122,8 +134,34 @@
       "summary": "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of stylized hair cards, decodes a hairstyle autoregressively as a long sequence of control points. Observing that a card hairstyl",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 25,
+      "upvotes": 29,
       "arxiv_id": "2610.40599"
+    },
+    {
+      "id": "paper:2610.40647",
+      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+      "url": "https://huggingface.co/papers/2610.40647",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-29T00:00:00+00:00",
+      "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introdu",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 28,
+      "arxiv_id": "2610.40647"
+    },
+    {
+      "id": "paper:2610.40339",
+      "title": "Wizard: Manipulate Any World in Real Time via Agentic Control",
+      "url": "https://huggingface.co/papers/2610.40339",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-29T00:00:00+00:00",
+      "summary": "Recent advances in video world models have enabled the generation of increasingly realistic and interactive virtual environments, opening new possibilities for player-customizable gameplay. Agentic frameworks further advance this direction by decoupling explicit game logic and controllable world representations from visual generation. However, existing approaches support only simple game settings ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 22,
+      "arxiv_id": "2610.40339"
     },
     {
       "id": "yt:pryCaGv8wuo",
@@ -183,8 +221,21 @@
       "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making super",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 72,
+      "upvotes": 76,
       "arxiv_id": "2610.38568"
+    },
+    {
+      "id": "paper:2610.38352",
+      "title": "WeVisCut: The Whole Editing Room in One Agent From Narration to Long-Form Video",
+      "url": "https://huggingface.co/papers/2610.38352",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-28T00:00:00+00:00",
+      "summary": "Producing long-form videos from narration requires interdependent decisions that remain coherent across shots. Existing agentic editors often use multi-stage workflows driven by general models, leaving the quality-cost trade-off of compact, task-adapted policies unclear. We address this gap with WeVisCut, a long-form script-to-video system that connects tool execution with policy learning. Its age",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 26,
+      "arxiv_id": "2610.38352"
     },
     {
       "id": "yt:SyUjFWgqDNo",
@@ -211,32 +262,6 @@
       "channel": "Bijan Bowen"
     },
     {
-      "id": "paper:2610.37381",
-      "title": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations",
-      "url": "https://huggingface.co/papers/2610.37381",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-27T00:00:00+00:00",
-      "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 156,
-      "arxiv_id": "2610.37381"
-    },
-    {
-      "id": "paper:2610.36729",
-      "title": "Hy-Nomas: Towards Free-form Interactive World Generation",
-      "url": "https://huggingface.co/papers/2610.36729",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-27T00:00:00+00:00",
-      "summary": "Interactive world generation requires models to follow successive commands while preserving relevant history and action consequences. We present Hy-Nomas, a video world model with an 8B diffusion backbone that supports free-form text instructions and continuous camera control across multiple interaction turns. It generates variable-length segments conditioned on current inputs and cached history. ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 122,
-      "arxiv_id": "2610.36729"
-    },
-    {
       "id": "paper:2610.36671",
       "title": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
       "url": "https://huggingface.co/papers/2610.36671",
@@ -246,7 +271,7 @@
       "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still proc",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 105,
+      "upvotes": 110,
       "arxiv_id": "2610.36671"
     },
     {
@@ -263,32 +288,6 @@
       "arxiv_id": "2610.37230"
     },
     {
-      "id": "paper:2610.37666",
-      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
-      "url": "https://huggingface.co/papers/2610.37666",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-27T00:00:00+00:00",
-      "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience, while learning from them faces a fundamental trade-off between scalable data and explicit action grounding. We introdu",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 66,
-      "arxiv_id": "2610.37666"
-    },
-    {
-      "id": "paper:2610.37341",
-      "title": "CodeCap-Bench: Can Code Serve as a Good Video Caption?",
-      "url": "https://huggingface.co/papers/2610.37341",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-27T00:00:00+00:00",
-      "summary": "Video captioning aims to preserve visual information through compact descriptions, predominantly using natural language. However, precisely expressing fine-grained spatial structures and temporal dynamics in natural language often leads to lengthy and potentially ambiguous descriptions. In this work, we explore Code as Video Caption, a paradigm where executable programs serve as a complementary re",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 53,
-      "arxiv_id": "2610.37341"
-    },
-    {
       "id": "paper:2610.37161",
       "title": "WorkFactory: Turning Professional Intents into Executable Work for Scalable Agent Training",
       "url": "https://huggingface.co/papers/2610.37161",
@@ -298,7 +297,7 @@
       "summary": "Scaling supervised training for working agents requires diverse professional tasks that yield reliable expert demonstrations. However, missing or inconsistent task information can obstruct teacher execution and weaken the resulting supervision. We propose WorkFactory, a scalable framework for constructing coherent and executable professional tasks. Starting from professional intents, information-l",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 38,
+      "upvotes": 57,
       "arxiv_id": "2610.37161"
     },
     {
@@ -339,6 +338,19 @@
       "kind": "paper",
       "upvotes": 31,
       "arxiv_id": "2610.37364"
+    },
+    {
+      "id": "paper:2610.36545",
+      "title": "FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation",
+      "url": "https://huggingface.co/papers/2610.36545",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-27T00:00:00+00:00",
+      "summary": "Unified conditional image generation requires a single model to preserve different aspects of a visual input while producing a target image that follows textual guidance. Pretrained video models provide a promising foundation by encoding visual transformations across time, yet existing approaches typically assign the condition and target to fixed temporal positions. We observe that condition-targe",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 24,
+      "arxiv_id": "2610.36545"
     },
     {
       "id": "yt:G_em1hHPnXY",
@@ -593,18 +605,6 @@
       "channel": "Fireship"
     },
     {
-      "id": "yt:bk1xyTwzsY8",
-      "title": "FABLE 5.5 THIS WEEK? OpenAI Employee ARRESTED?! HUGE Claude Code Update, & Anthropic IPO! AI NEWS",
-      "url": "https://www.youtube.com/watch?v=bk1xyTwzsY8",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-10-15T06:15:30+00:00",
-      "summary": "Build 3D games and apps with Astra and Opus 5.5 on Abacus AI SuperComputer!: https://supercomputer.abacus.ai/ Anthropic's mysterious Claude Fable 5.5 has been spotted once again in Microsoft's Azure infrastructure, with new evidence suggesting the next-generation AI model could launch very soon! Mea",
-      "thumbnail": "https://i3.ytimg.com/vi/bk1xyTwzsY8/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:QZVzuq28eFw",
       "title": "OpenAI’s lead engineer was secretly a spy...",
       "url": "https://www.youtube.com/watch?v=QZVzuq28eFw",
@@ -837,7 +837,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T02:38:43.542940+00:00",
+      "fetched_at": "2026-11-02T10:17:37.464277+00:00",
       "entries": [
         {
           "rank": 1,
@@ -919,7 +919,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T02:38:43.545877+00:00",
+      "fetched_at": "2026-11-02T10:17:37.467197+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1001,7 +1001,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T02:38:43.549324+00:00",
+      "fetched_at": "2026-11-02T10:17:37.470567+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1083,7 +1083,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T02:38:43.550160+00:00",
+      "fetched_at": "2026-11-02T10:17:37.471395+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1130,7 +1130,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T02:38:43.556642+00:00",
+      "fetched_at": "2026-11-02T10:17:37.477527+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1212,7 +1212,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T02:38:43.556659+00:00",
+      "fetched_at": "2026-11-02T10:17:37.477547+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1259,7 +1259,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T02:38:43.558710+00:00",
+      "fetched_at": "2026-11-02T10:17:37.479541+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1341,7 +1341,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-02T02:38:43.590599+00:00",
+      "fetched_at": "2026-11-02T10:17:37.515236+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1359,57 +1359,57 @@
         },
         {
           "rank": 3,
+          "name": "Gemini 4 Carbon (medium)",
+          "creator": "Google",
+          "score": 58.0,
+          "meta": "1M ctx"
+        },
+        {
+          "rank": 4,
           "name": "Claude Opus 5.5 (xhigh with fallback)",
           "creator": "Anthropic",
           "score": 57.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "GPT-6 Astra (max)",
           "creator": "OpenAI",
           "score": 57.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "GPT-6 Astra (xhigh)",
           "creator": "OpenAI",
           "score": 55.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "GPT-6 Astra (high)",
           "creator": "OpenAI",
           "score": 55.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "GPT-6.1 Sol (max)",
           "creator": "OpenAI",
           "score": 55.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Claude Sonnet 5.5 (max with fallback)",
           "creator": "Anthropic",
           "score": 54.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "GPT-6.1 Sol (xhigh)",
           "creator": "OpenAI",
-          "score": 52.0,
-          "meta": "1M ctx"
-        },
-        {
-          "rank": 10,
-          "name": "Claude Opus 5.5 (high with fallback)",
-          "creator": "Anthropic",
           "score": 52.0,
           "meta": "1M ctx"
         }
@@ -1423,7 +1423,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-02T02:38:43.627744+00:00",
+      "fetched_at": "2026-11-02T10:17:37.553792+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1462,38 +1462,38 @@
         },
         {
           "rank": 6,
+          "name": "DeepSeek V4.1 Flash 1017 (high)",
+          "creator": "DeepSeek",
+          "score": 29.0,
+          "meta": "1M ctx"
+        },
+        {
+          "rank": 7,
           "name": "Step 5 Preview",
           "creator": "StepFun",
           "score": 29.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "GLM-5.3-Flash",
           "creator": "Z AI",
           "score": 28.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "MiMo-V2.6-Flash",
           "creator": "Xiaomi",
           "score": 27.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Mistral Large 4 (high)",
           "creator": "Mistral",
           "score": 26.0,
           "meta": "1M ctx"
-        },
-        {
-          "rank": 10,
-          "name": "Muse Spark Open (xhigh)",
-          "creator": "Meta",
-          "score": 25.0,
-          "meta": "1.05M ctx"
         }
       ]
     },
@@ -1505,7 +1505,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T02:38:43.640499+00:00",
+      "fetched_at": "2026-11-02T10:17:37.565441+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1587,7 +1587,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T02:38:43.645144+00:00",
+      "fetched_at": "2026-11-02T10:17:37.569693+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1669,7 +1669,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T02:38:43.657470+00:00",
+      "fetched_at": "2026-11-02T10:17:37.581855+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1751,7 +1751,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T02:38:43.660323+00:00",
+      "fetched_at": "2026-11-02T10:17:37.584663+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2034,58 +2034,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 1,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-11-02T02:38:23.673631+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-02T10:17:20.229167+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 8,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-11-02T02:38:22.598169+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-02T10:17:19.196684+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
-        "items": 11,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-11-02T02:38:26.966390+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-02T10:17:23.296654+00:00"
       },
       {
         "name": "Fireship",
-        "ok": false,
-        "items": 10,
-        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-11-02T02:38:24.818725+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-02T10:17:21.250358+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-02T02:38:29.239166+00:00"
+        "checked_at": "2026-11-02T10:17:25.573328+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": false,
-        "items": 7,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-11-02T02:38:25.890492+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-02T10:17:22.274189+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-11-02T02:38:28.041200+00:00"
+        "error": null,
+        "checked_at": "2026-11-02T10:17:24.336498+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-02T02:38:43.666548+00:00"
+      "checked_at": "2026-11-02T10:17:37.590098+00:00"
     }
   }
 }
