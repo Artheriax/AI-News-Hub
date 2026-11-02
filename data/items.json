@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-11-02T10:17:37.600920+00:00",
+  "generated_at": "2026-11-02T20:26:39.011952+00:00",
   "items": [
+    {
+      "id": "yt:0Kw6_DTZPrY",
+      "title": "‘We may release models we can’t control’: Amodei, Altman … and Gemini Carbon",
+      "url": "https://www.youtube.com/watch?v=0Kw6_DTZPrY",
+      "source": "AI Explained",
+      "category": "videos",
+      "published": "2026-11-02T17:02:16+00:00",
+      "summary": "You know what, by AI standards, it might not have been the craziest week, but that doesn’t mean several headline-worthy things happened - from Altman and Anthropic implying they would release models they can’t control, with behavior they cannot verify, to Gemini 4 Carbon bursting onto the scene, som",
+      "thumbnail": "https://i1.ytimg.com/vi/0Kw6_DTZPrY/hqdefault.jpg",
+      "kind": "video",
+      "channel": "AI Explained"
+    },
     {
       "id": "yt:L7opnQdpdMY",
       "title": "HUGE CLAUDE MYTHOS 5.5 LEAK! Fable 5.5 INSANE, GPT-6.2 Astra, Gemini 4 Xenon & Carbon-H! AI NEWS",
@@ -50,6 +62,19 @@
       "channel": "WorldofAI"
     },
     {
+      "id": "paper:2610.42053",
+      "title": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
+      "url": "https://huggingface.co/papers/2610.42053",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-30T17:18:13+00:00",
+      "summary": "Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize. While pairing a deliberative brain (foundation models) with a reactive cerebellum (fast policies) seems natural for embodied sys",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 43,
+      "arxiv_id": "2610.42053"
+    },
+    {
       "id": "yt:CWdTBLsbaQs",
       "title": "OpenAI Claims It Just Did The Impossible",
       "url": "https://www.youtube.com/watch?v=CWdTBLsbaQs",
@@ -74,6 +99,19 @@
       "channel": "WorldofAI"
     },
     {
+      "id": "paper:2610.16927",
+      "title": "WeFair: Fidelity-Aware Alignment from Human Feedback for Personalized Query Rewriting in Short-Video Search",
+      "url": "https://huggingface.co/papers/2610.16927",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-30T00:00:00+00:00",
+      "summary": "Short-video search needs compact query rewriters that recover users' personalized intent from ambiguous queries under strict latency constraints. Existing LLM-based methods have improved rewriting by using synthetic reasoning and subsequent consumption-behavioral feedback. However, overemphasizing subsequent consumption can favor engaging content over the user's immediate need, causing intent drif",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 26,
+      "arxiv_id": "2610.16927"
+    },
+    {
       "id": "yt:L4yqXWDyGCg",
       "title": "GEMINI 4 CARBON IS Best Model Ever?! Fable 5.5 Benchmarks, Gemini 4 Ultra, & Claude Ultrathink!",
       "url": "https://www.youtube.com/watch?v=L4yqXWDyGCg",
@@ -95,7 +133,7 @@
       "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 67,
+      "upvotes": 70,
       "arxiv_id": "2610.39302"
     },
     {
@@ -108,7 +146,7 @@
       "summary": "Progress toward artificial general intelligence (AGI) has largely relied on scaling a resource-intensive executive, System-2, through larger models, more data and compute, longer reasoning, and more agents. We ask whether the next stage may come instead from co-designing it with System-1, a lightweight, semantically aware predictor that evaluates candidate interactions before execution, so that Sy",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 53,
+      "upvotes": 58,
       "arxiv_id": "2610.39497"
     },
     {
@@ -121,7 +159,7 @@
       "summary": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video gene",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 44,
+      "upvotes": 46,
       "arxiv_id": "2610.40614"
     },
     {
@@ -134,8 +172,34 @@
       "summary": "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of stylized hair cards, decodes a hairstyle autoregressively as a long sequence of control points. Observing that a card hairstyl",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 29,
+      "upvotes": 39,
       "arxiv_id": "2610.40599"
+    },
+    {
+      "id": "paper:2610.40738",
+      "title": "Apriel Voice 27B Preview: An Open Model for Speech, Reasoning, and Tool Use",
+      "url": "https://huggingface.co/papers/2610.40738",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-29T00:00:00+00:00",
+      "summary": "A capable voice assistant must do more than recognize words; it must understand requests, reason over context, sustain conversations, and act through tools. We present Apriel Voice 27B Preview, an open speech-language model that unifies these capabilities within a shared reasoning backbone while retaining text and image input modalities. Built on the post-trained Gemma 4 26B-A4B checkpoint, Apriel",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 33,
+      "arxiv_id": "2610.40738"
+    },
+    {
+      "id": "paper:2610.39633",
+      "title": "Intrinsic Distribution Matching",
+      "url": "https://huggingface.co/papers/2610.39633",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-29T00:00:00+00:00",
+      "summary": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-scor",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 30,
+      "arxiv_id": "2610.39633"
     },
     {
       "id": "paper:2610.40647",
@@ -149,19 +213,6 @@
       "kind": "paper",
       "upvotes": 28,
       "arxiv_id": "2610.40647"
-    },
-    {
-      "id": "paper:2610.40339",
-      "title": "Wizard: Manipulate Any World in Real Time via Agentic Control",
-      "url": "https://huggingface.co/papers/2610.40339",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-29T00:00:00+00:00",
-      "summary": "Recent advances in video world models have enabled the generation of increasingly realistic and interactive virtual environments, opening new possibilities for player-customizable gameplay. Agentic frameworks further advance this direction by decoupling explicit game logic and controllable world representations from visual generation. However, existing approaches support only simple game settings ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 22,
-      "arxiv_id": "2610.40339"
     },
     {
       "id": "yt:pryCaGv8wuo",
@@ -221,7 +272,7 @@
       "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making super",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 76,
+      "upvotes": 86,
       "arxiv_id": "2610.38568"
     },
     {
@@ -234,7 +285,7 @@
       "summary": "Producing long-form videos from narration requires interdependent decisions that remain coherent across shots. Existing agentic editors often use multi-stage workflows driven by general models, leaving the quality-cost trade-off of compact, task-adapted policies unclear. We address this gap with WeVisCut, a long-form script-to-video system that connects tool execution with policy learning. Its age",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 26,
+      "upvotes": 28,
       "arxiv_id": "2610.38352"
     },
     {
@@ -271,8 +322,21 @@
       "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still proc",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 110,
+      "upvotes": 118,
       "arxiv_id": "2610.36671"
+    },
+    {
+      "id": "paper:2610.36545",
+      "title": "FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation",
+      "url": "https://huggingface.co/papers/2610.36545",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-27T00:00:00+00:00",
+      "summary": "Unified conditional image generation requires a single model to preserve different aspects of a visual input while producing a target image that follows textual guidance. Pretrained video models provide a promising foundation by encoding visual transformations across time, yet existing approaches typically assign the condition and target to fixed temporal positions. We observe that condition-targe",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 111,
+      "arxiv_id": "2610.36545"
     },
     {
       "id": "paper:2610.37230",
@@ -297,60 +361,8 @@
       "summary": "Scaling supervised training for working agents requires diverse professional tasks that yield reliable expert demonstrations. However, missing or inconsistent task information can obstruct teacher execution and weaken the resulting supervision. We propose WorkFactory, a scalable framework for constructing coherent and executable professional tasks. Starting from professional intents, information-l",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 57,
+      "upvotes": 60,
       "arxiv_id": "2610.37161"
-    },
-    {
-      "id": "paper:2610.37662",
-      "title": "Can Discrete Tokens Serve as Semantically Lossless Representations of Visual Signals?",
-      "url": "https://huggingface.co/papers/2610.37662",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-27T00:00:00+00:00",
-      "summary": "Discrete visual tokens represent vision in a discrete form analogous to language, offering a native interface for multimodal modeling under a shared next-token prediction objective. However, quantization error is widely assumed to cause unavoidable semantic loss, fundamentally limiting the semantic fidelity of discrete visual tokens and positioning continuous visual representations as an intrinsic",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 36,
-      "arxiv_id": "2610.37662"
-    },
-    {
-      "id": "paper:2610.37037",
-      "title": "Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception",
-      "url": "https://huggingface.co/papers/2610.37037",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-27T00:00:00+00:00",
-      "summary": "Multimodal perception forms the foundation of multimodal intelligence. In particular, spatial perception and multimodal long-context understanding are two pivotal tasks that underpin embodied AI and multimodal agents. However, synthesizing targeted, high-quality training data for these tasks remains difficult and costly. Our key insight is that these tasks share an underlying capability, which we ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 35,
-      "arxiv_id": "2610.37037"
-    },
-    {
-      "id": "paper:2610.37364",
-      "title": "EmbeddingGemma 2: Unified and Efficient Multimodal Representations",
-      "url": "https://huggingface.co/papers/2610.37364",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-27T00:00:00+00:00",
-      "summary": "We present EmbeddingGemma 2, an open multimodal embedding model which natively represents text, images, audio, video, and combinations thereof in a unified space. Our approach introduces improvements such as simplified per-layer embeddings and a multi-stage curriculum with modality and objective progression which ensure strong quality across unimodal, cross-modal, and mixed-modal evaluations. Nota",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 31,
-      "arxiv_id": "2610.37364"
-    },
-    {
-      "id": "paper:2610.36545",
-      "title": "FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation",
-      "url": "https://huggingface.co/papers/2610.36545",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-27T00:00:00+00:00",
-      "summary": "Unified conditional image generation requires a single model to preserve different aspects of a visual input while producing a target image that follows textual guidance. Pretrained video models provide a promising foundation by encoding visual transformations across time, yet existing approaches typically assign the condition and target to fixed temporal positions. We observe that condition-targe",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 24,
-      "arxiv_id": "2610.36545"
     },
     {
       "id": "yt:G_em1hHPnXY",
@@ -837,7 +849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T10:17:37.464277+00:00",
+      "fetched_at": "2026-11-02T20:26:38.872147+00:00",
       "entries": [
         {
           "rank": 1,
@@ -919,7 +931,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T10:17:37.467197+00:00",
+      "fetched_at": "2026-11-02T20:26:38.875075+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1001,7 +1013,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T10:17:37.470567+00:00",
+      "fetched_at": "2026-11-02T20:26:38.878428+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1083,7 +1095,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T10:17:37.471395+00:00",
+      "fetched_at": "2026-11-02T20:26:38.879260+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1130,7 +1142,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T10:17:37.477527+00:00",
+      "fetched_at": "2026-11-02T20:26:38.885392+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1212,7 +1224,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T10:17:37.477547+00:00",
+      "fetched_at": "2026-11-02T20:26:38.885407+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1259,7 +1271,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T10:17:37.479541+00:00",
+      "fetched_at": "2026-11-02T20:26:38.887412+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1341,7 +1353,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-02T10:17:37.515236+00:00",
+      "fetched_at": "2026-11-02T20:26:38.923924+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1423,7 +1435,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-02T10:17:37.553792+00:00",
+      "fetched_at": "2026-11-02T20:26:38.962629+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1505,7 +1517,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T10:17:37.565441+00:00",
+      "fetched_at": "2026-11-02T20:26:38.975339+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1587,7 +1599,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T10:17:37.569693+00:00",
+      "fetched_at": "2026-11-02T20:26:38.979954+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1669,7 +1681,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T10:17:37.581855+00:00",
+      "fetched_at": "2026-11-02T20:26:38.992455+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1751,7 +1763,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-02T10:17:37.584663+00:00",
+      "fetched_at": "2026-11-02T20:26:38.995317+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2037,55 +2049,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-02T10:17:20.229167+00:00"
+        "checked_at": "2026-11-02T20:26:22.749816+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-02T10:17:19.196684+00:00"
+        "checked_at": "2026-11-02T20:26:21.721351+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-02T10:17:23.296654+00:00"
+        "checked_at": "2026-11-02T20:26:25.891586+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-02T10:17:21.250358+00:00"
+        "checked_at": "2026-11-02T20:26:23.772190+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-02T10:17:25.573328+00:00"
+        "checked_at": "2026-11-02T20:26:28.136876+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-02T10:17:22.274189+00:00"
+        "checked_at": "2026-11-02T20:26:24.794169+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-02T10:17:24.336498+00:00"
+        "checked_at": "2026-11-02T20:26:27.037080+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-02T10:17:37.590098+00:00"
+      "checked_at": "2026-11-02T20:26:39.000972+00:00"
     }
   }
 }
