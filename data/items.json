@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T23:14:11.215452+00:00",
+  "generated_at": "2026-11-02T02:38:43.677592+00:00",
   "items": [
     {
       "id": "yt:Nj7rnWJE92o",
@@ -83,7 +83,7 @@
       "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 64,
+      "upvotes": 66,
       "arxiv_id": "2610.39302"
     },
     {
@@ -96,8 +96,34 @@
       "summary": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video gene",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 40,
+      "upvotes": 42,
       "arxiv_id": "2610.40614"
+    },
+    {
+      "id": "paper:2610.40647",
+      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+      "url": "https://huggingface.co/papers/2610.40647",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-29T00:00:00+00:00",
+      "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introdu",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 25,
+      "arxiv_id": "2610.40647"
+    },
+    {
+      "id": "paper:2610.40599",
+      "title": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
+      "url": "https://huggingface.co/papers/2610.40599",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-29T00:00:00+00:00",
+      "summary": "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of stylized hair cards, decodes a hairstyle autoregressively as a long sequence of control points. Observing that a card hairstyl",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 25,
+      "arxiv_id": "2610.40599"
     },
     {
       "id": "yt:pryCaGv8wuo",
@@ -157,7 +183,7 @@
       "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making super",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 71,
+      "upvotes": 72,
       "arxiv_id": "2610.38568"
     },
     {
@@ -194,7 +220,7 @@
       "summary": "Vision--Language--Action (VLA) models generate robot actions from visual observations and language instructions, but their understanding of physical dynamics remains limited. Video world models can capture scene dynamics, yet generating future videos introduces high latency into the control loop. We introduce PDRVLA, whose lightweight Physical Dynamics Module extracts physical tokens from vision--",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 155,
+      "upvotes": 156,
       "arxiv_id": "2610.37381"
     },
     {
@@ -220,7 +246,7 @@
       "summary": "Diffusion vision-language models (DVLMs) process their entire input at every denoising step. Since visual tokens make up 89-97% of this input on the benchmarks we study, most of the decoding computation is spent repeatedly processing the same image. Visual token pruning methods partially relieve this burden by removing part of the visual tokens, but they lose the removed information and still proc",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 101,
+      "upvotes": 105,
       "arxiv_id": "2610.36671"
     },
     {
@@ -233,7 +259,7 @@
       "summary": "Agentic services alternate between model inference on clustered GPUs and external tools on distributed CPUs. In this scenario, existing systems (1) overlook tool-return readiness in service evaluation, wasting limited resources, and (2) use heuristic strategies to decide admission and placement on GPUs, resulting in suboptimal scheduling decisions. To bridge this gap, we present TAO, a tool-aware ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 85,
+      "upvotes": 95,
       "arxiv_id": "2610.37230"
     },
     {
@@ -272,7 +298,7 @@
       "summary": "Scaling supervised training for working agents requires diverse professional tasks that yield reliable expert demonstrations. However, missing or inconsistent task information can obstruct teacher execution and weaken the resulting supervision. We propose WorkFactory, a scalable framework for constructing coherent and executable professional tasks. Starting from professional intents, information-l",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 37,
+      "upvotes": 38,
       "arxiv_id": "2610.37161"
     },
     {
@@ -325,32 +351,6 @@
       "thumbnail": "https://i4.ytimg.com/vi/G_em1hHPnXY/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
-    },
-    {
-      "id": "paper:2610.35684",
-      "title": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
-      "url": "https://huggingface.co/papers/2610.35684",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-26T00:00:00+00:00",
-      "summary": "Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple referen",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 132,
-      "arxiv_id": "2610.35684"
-    },
-    {
-      "id": "paper:2610.36077",
-      "title": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents",
-      "url": "https://huggingface.co/papers/2610.36077",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-26T00:00:00+00:00",
-      "summary": "Multimodal intelligence can be viewed as human-guided co-evolution between worlds and agents through interaction. However, scaling this process faces two bottlenecks: constructing heterogeneous, verifiable environments is costly, and manual Harness iteration cannot keep pace with growing task diversity and complexity. A key insight is that tasks with different modalities and surface forms can shar",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 44,
-      "arxiv_id": "2610.36077"
     },
     {
       "id": "yt:aZMKzHhlTh8",
@@ -837,7 +837,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T23:14:11.119706+00:00",
+      "fetched_at": "2026-11-02T02:38:43.542940+00:00",
       "entries": [
         {
           "rank": 1,
@@ -919,7 +919,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T23:14:11.121711+00:00",
+      "fetched_at": "2026-11-02T02:38:43.545877+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1001,7 +1001,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T23:14:11.124038+00:00",
+      "fetched_at": "2026-11-02T02:38:43.549324+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1083,7 +1083,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T23:14:11.124625+00:00",
+      "fetched_at": "2026-11-02T02:38:43.550160+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1130,7 +1130,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T23:14:11.129561+00:00",
+      "fetched_at": "2026-11-02T02:38:43.556642+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1212,7 +1212,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T23:14:11.129579+00:00",
+      "fetched_at": "2026-11-02T02:38:43.556659+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1259,7 +1259,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T23:14:11.130933+00:00",
+      "fetched_at": "2026-11-02T02:38:43.558710+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1341,7 +1341,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-01T23:14:11.154841+00:00",
+      "fetched_at": "2026-11-02T02:38:43.590599+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1423,7 +1423,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-01T23:14:11.180413+00:00",
+      "fetched_at": "2026-11-02T02:38:43.627744+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1505,7 +1505,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T23:14:11.188443+00:00",
+      "fetched_at": "2026-11-02T02:38:43.640499+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1587,7 +1587,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T23:14:11.191575+00:00",
+      "fetched_at": "2026-11-02T02:38:43.645144+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1669,7 +1669,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T23:14:11.200282+00:00",
+      "fetched_at": "2026-11-02T02:38:43.657470+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1751,7 +1751,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-01T23:14:11.202392+00:00",
+      "fetched_at": "2026-11-02T02:38:43.660323+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2034,58 +2034,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-01T23:13:55.466928+00:00"
+        "ok": false,
+        "items": 1,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-11-02T02:38:23.673631+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-01T23:13:54.442349+00:00"
+        "ok": false,
+        "items": 8,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-11-02T02:38:22.598169+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-01T23:13:58.508522+00:00"
+        "ok": false,
+        "items": 11,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-11-02T02:38:26.966390+00:00"
       },
       {
         "name": "Fireship",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-01T23:13:56.479971+00:00"
+        "ok": false,
+        "items": 10,
+        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "checked_at": "2026-11-02T02:38:24.818725+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-01T23:14:00.709947+00:00"
+        "checked_at": "2026-11-02T02:38:29.239166+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-01T23:13:57.494717+00:00"
+        "ok": false,
+        "items": 7,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-11-02T02:38:25.890492+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-11-01T23:13:59.535252+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-11-02T02:38:28.041200+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-01T23:14:11.207747+00:00"
+      "checked_at": "2026-11-02T02:38:43.666548+00:00"
     }
   }
 }
