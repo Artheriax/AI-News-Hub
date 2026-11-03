@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-11-03T17:56:49.974597+00:00",
+  "generated_at": "2026-11-03T22:47:02.240205+00:00",
   "items": [
+    {
+      "id": "yt:k2ruCf_z75I",
+      "title": "The worst week in cybersecurity history... so far",
+      "url": "https://www.youtube.com/watch?v=k2ruCf_z75I",
+      "source": "Fireship",
+      "category": "videos",
+      "published": "2026-11-03T19:47:10+00:00",
+      "summary": "Start a free 14-day CodeRabbit Secure trial, no credit card required: https://coderabbit.link/fireship-011 Cursor shipped a backdoor, Polymarket got drained, North Korea pulled off the largest theft in human history, and Anthropic showed an unreleased Claude model can get root on any unpatched Linux",
+      "thumbnail": "https://i4.ytimg.com/vi/k2ruCf_z75I/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Fireship"
+    },
     {
       "id": "yt:i-wYjUriSzo",
       "title": "Anthropic's RSI Breakthrough?! NEW Fable 5.5 Checkpoint, NEW GPT, DeepSeek Harness, & More! AI NEWS",
@@ -35,7 +47,7 @@
       "summary": "Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts. However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge. We introduce CoworkOS, a general-purpose ha",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 85,
+      "upvotes": 87,
       "arxiv_id": "2611.03178"
     },
     {
@@ -48,7 +60,7 @@
       "summary": "Despite recent advances in CUAs, their development remains constrained by the limited diversity, controllability, and reliability of interaction data. Moreover, conventional optimization pipelines lack iterative feedback, while existing recursive improvement approaches often rely on self-generated experiences, limiting ability expansion and yielding diminishing returns. To address these challenges",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 90,
+      "upvotes": 91,
       "arxiv_id": "2611.03126"
     },
     {
@@ -73,7 +85,7 @@
       "summary": "Traditional image cropping assumes the photograph already contains the composition worth keeping, and asks only where to crop. A full 360^{circ} scene offers no such guarantee: the viewing direction in a scene has to be discovered before anything can be framed. We present PhotoGuider, a measure-then-frame method that answers both questions with compact learned scorers over one shared set of compos",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 26,
+      "upvotes": 28,
       "arxiv_id": "2611.02897"
     },
     {
@@ -110,7 +122,7 @@
       "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has ex",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 78,
+      "upvotes": 102,
       "arxiv_id": "2611.01860"
     },
     {
@@ -123,7 +135,7 @@
       "summary": "Robot-use Agents (RUAs) have shown promising zero-shot manipulation capabilities, but reliance on frontier, proprietary models limits research into further training. To democratize RUA research, we introduce uni-robot-agent, a unified harness for competitive open-weight robot use that supports further training. Without privileged inputs, an out-of-the-box Qwen3.8-Flash-Next achieves a RoboDojo Sco",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 38,
+      "upvotes": 41,
       "arxiv_id": "2611.01560"
     },
     {
@@ -136,7 +148,7 @@
       "summary": "Coding agents solve repository issues through long sequences of exploration, editing, and validation. These trajectories are increasingly used as post-training data, so how they are collected shapes what the trained model learns. A common approach is to sample multiple trajectories independently for each issue and then select or curate them. However, as more trajectories are sampled independently,",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 32,
+      "upvotes": 34,
       "arxiv_id": "2611.02074"
     },
     {
@@ -174,7 +186,7 @@
       "summary": "Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift. We propose Wa",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 100,
+      "upvotes": 101,
       "arxiv_id": "2611.00859"
     },
     {
@@ -211,7 +223,7 @@
       "summary": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit the test-time scaling and fine-grained controllability observed in large language models. We attribut",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 34,
+      "upvotes": 36,
       "arxiv_id": "2610.42149"
     },
     {
@@ -224,7 +236,7 @@
       "summary": "Video generation is shifting from end-to-end synthesis toward agentic generation, where planning, tool use, and feedback enable coherent, controllable multi-shot videos. In parallel, video world models provide action-conditioned observations and predicted futures, serving as interactive environments for agents. We study their intersection through the agent harness: an executable runtime that const",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 67,
+      "upvotes": 68,
       "arxiv_id": "2610.40191"
     },
     {
@@ -837,7 +849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T17:56:49.837735+00:00",
+      "fetched_at": "2026-11-03T22:47:02.136592+00:00",
       "entries": [
         {
           "rank": 1,
@@ -919,7 +931,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T17:56:49.840670+00:00",
+      "fetched_at": "2026-11-03T22:47:02.138902+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1001,7 +1013,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T17:56:49.844046+00:00",
+      "fetched_at": "2026-11-03T22:47:02.141488+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1083,7 +1095,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T17:56:49.845027+00:00",
+      "fetched_at": "2026-11-03T22:47:02.142262+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1137,7 +1149,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T17:56:49.851305+00:00",
+      "fetched_at": "2026-11-03T22:47:02.148529+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1219,7 +1231,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T17:56:49.851319+00:00",
+      "fetched_at": "2026-11-03T22:47:02.148550+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1273,7 +1285,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T17:56:49.853262+00:00",
+      "fetched_at": "2026-11-03T22:47:02.150048+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1355,20 +1367,20 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-03T17:56:49.887915+00:00",
+      "fetched_at": "2026-11-03T22:47:02.176526+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Gemini 4 Carbon (high)",
           "creator": "Google",
-          "score": 59.0,
+          "score": 60.0,
           "meta": "1M ctx"
         },
         {
           "rank": 2,
           "name": "Claude Opus 5.5 (max with fallback)",
           "creator": "Anthropic",
-          "score": 58.0,
+          "score": 59.0,
           "meta": "1M ctx"
         },
         {
@@ -1417,7 +1429,7 @@
           "rank": 9,
           "name": "Claude Sonnet 5.5 (max with fallback)",
           "creator": "Anthropic",
-          "score": 54.0,
+          "score": 55.0,
           "meta": "1M ctx"
         },
         {
@@ -1437,13 +1449,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-03T17:56:49.926051+00:00",
+      "fetched_at": "2026-11-03T22:47:02.205659+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "DeepSeek V4.1 Flash 1017 (max)",
           "creator": "DeepSeek",
-          "score": 32.0,
+          "score": 33.0,
           "meta": "1M ctx"
         },
         {
@@ -1464,7 +1476,7 @@
           "rank": 4,
           "name": "Ling 3.1 Flash 1019",
           "creator": "InclusionAI",
-          "score": 29.0,
+          "score": 30.0,
           "meta": "1.05M ctx"
         },
         {
@@ -1519,7 +1531,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T17:56:49.937860+00:00",
+      "fetched_at": "2026-11-03T22:47:02.214361+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1601,7 +1613,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T17:56:49.942357+00:00",
+      "fetched_at": "2026-11-03T22:47:02.217726+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1683,7 +1695,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T17:56:49.954960+00:00",
+      "fetched_at": "2026-11-03T22:47:02.226839+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1765,7 +1777,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T17:56:49.957988+00:00",
+      "fetched_at": "2026-11-03T22:47:02.229084+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2051,55 +2063,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-03T17:56:33.724070+00:00"
+        "checked_at": "2026-11-03T22:46:46.015474+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-03T17:56:32.695843+00:00"
+        "checked_at": "2026-11-03T22:46:44.990859+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-03T17:56:36.996707+00:00"
+        "checked_at": "2026-11-03T22:46:49.412239+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-03T17:56:34.742778+00:00"
+        "checked_at": "2026-11-03T22:46:47.032795+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-03T17:56:39.181441+00:00"
+        "checked_at": "2026-11-03T22:46:51.806768+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-03T17:56:35.763705+00:00"
+        "checked_at": "2026-11-03T22:46:48.185611+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-03T17:56:38.033324+00:00"
+        "checked_at": "2026-11-03T22:46:50.635435+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-03T17:56:49.963762+00:00"
+      "checked_at": "2026-11-03T22:47:02.231778+00:00"
     }
   }
 }
