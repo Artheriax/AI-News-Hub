@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T10:17:35.910958+00:00",
+  "generated_at": "2026-11-03T17:56:49.974597+00:00",
   "items": [
     {
       "id": "yt:i-wYjUriSzo",
@@ -35,7 +35,7 @@
       "summary": "Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts. However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge. We introduce CoworkOS, a general-purpose ha",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 56,
+      "upvotes": 85,
       "arxiv_id": "2611.03178"
     },
     {
@@ -48,7 +48,7 @@
       "summary": "Despite recent advances in CUAs, their development remains constrained by the limited diversity, controllability, and reliability of interaction data. Moreover, conventional optimization pipelines lack iterative feedback, while existing recursive improvement approaches often rely on self-generated experiences, limiting ability expansion and yielding diminishing returns. To address these challenges",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 37,
+      "upvotes": 90,
       "arxiv_id": "2611.03126"
     },
     {
@@ -62,6 +62,19 @@
       "thumbnail": "https://i1.ytimg.com/vi/L7opnQdpdMY/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
+    },
+    {
+      "id": "paper:2611.02897",
+      "title": "PhotoGuider: Composition-Aware Cropping and 360^{circ} View Framing with Explainable Photographic Assessments",
+      "url": "https://huggingface.co/papers/2611.02897",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-02T00:00:00+00:00",
+      "summary": "Traditional image cropping assumes the photograph already contains the composition worth keeping, and asks only where to crop. A full 360^{circ} scene offers no such guarantee: the viewing direction in a scene has to be discovered before anything can be framed. We present PhotoGuider, a measure-then-frame method that answers both questions with compact learned scorers over one shared set of compos",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 26,
+      "arxiv_id": "2611.02897"
     },
     {
       "id": "yt:Nj7rnWJE92o",
@@ -88,6 +101,19 @@
       "channel": "AI Search"
     },
     {
+      "id": "paper:2611.01860",
+      "title": "Advances in Agentic Computer Graphics",
+      "url": "https://huggingface.co/papers/2611.01860",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-01T00:00:00+00:00",
+      "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has ex",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 78,
+      "arxiv_id": "2611.01860"
+    },
+    {
       "id": "paper:2611.01560",
       "title": "Democratizing Robot-Use Agents: A Unified Harness with Open Models",
       "url": "https://huggingface.co/papers/2611.01560",
@@ -97,8 +123,34 @@
       "summary": "Robot-use Agents (RUAs) have shown promising zero-shot manipulation capabilities, but reliance on frontier, proprietary models limits research into further training. To democratize RUA research, we introduce uni-robot-agent, a unified harness for competitive open-weight robot use that supports further training. Without privileged inputs, an out-of-the-box Qwen3.8-Flash-Next achieves a RoboDojo Sco",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 33,
+      "upvotes": 38,
       "arxiv_id": "2611.01560"
+    },
+    {
+      "id": "paper:2611.02074",
+      "title": "SWE-Trail: History-Guided Trajectory Collection for Coding Agent Training",
+      "url": "https://huggingface.co/papers/2611.02074",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-01T00:00:00+00:00",
+      "summary": "Coding agents solve repository issues through long sequences of exploration, editing, and validation. These trajectories are increasingly used as post-training data, so how they are collected shapes what the trained model learns. A common approach is to sample multiple trajectories independently for each issue and then select or curate them. However, as more trajectories are sampled independently,",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 32,
+      "arxiv_id": "2611.02074"
+    },
+    {
+      "id": "paper:2611.02102",
+      "title": "NorthCUA Technical Report: Turbocharging Computer-Use Agents through Experience at Scale",
+      "url": "https://huggingface.co/papers/2611.02102",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-01T00:00:00+00:00",
+      "summary": "Scaling computer-use agents from individual actions to complex software work requires experience that connects decisions to complete outcomes. We present NorthCUA, an integrated system for turbocharging computer-use agents through experience at scale. Its Experience Flywheel supplies diverse executable tasks to the NorthCUA Harness, which sustains long interactions, records decisions, and checks t",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 30,
+      "arxiv_id": "2611.02102"
     },
     {
       "id": "yt:eadEYJY9ydg",
@@ -122,7 +174,7 @@
       "summary": "Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift. We propose Wa",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 80,
+      "upvotes": 100,
       "arxiv_id": "2611.00859"
     },
     {
@@ -159,7 +211,7 @@
       "summary": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit the test-time scaling and fine-grained controllability observed in large language models. We attribut",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 30,
+      "upvotes": 34,
       "arxiv_id": "2610.42149"
     },
     {
@@ -172,7 +224,7 @@
       "summary": "Video generation is shifting from end-to-end synthesis toward agentic generation, where planning, tool use, and feedback enable coherent, controllable multi-shot videos. In parallel, video world models provide action-conditioned observations and predicted futures, serving as interactive environments for agents. We study their intersection through the agent harness: an executable runtime that const",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 58,
+      "upvotes": 67,
       "arxiv_id": "2610.40191"
     },
     {
@@ -197,7 +249,7 @@
       "summary": "Whether models trained on different modalities converge to the same representation of the world is central to AI. The Platonic Representation Hypothesis (PRH) conjectures that they do as they scale, but without a proof it offers neither a guarantee nor a recipe. We turn the hypothesis into a theorem. First, we prove a Platonic Representation Theorem: Joint-Embedding Predictive Architectures (JEPAs",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 72,
+      "upvotes": 73,
       "arxiv_id": "2610.39302"
     },
     {
@@ -210,7 +262,7 @@
       "summary": "Progress toward artificial general intelligence (AGI) has largely relied on scaling a resource-intensive executive, System-2, through larger models, more data and compute, longer reasoning, and more agents. We ask whether the next stage may come instead from co-designing it with System-1, a lightweight, semantically aware predictor that evaluates candidate interactions before execution, so that Sy",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 71,
+      "upvotes": 67,
       "arxiv_id": "2610.39497"
     },
     {
@@ -223,47 +275,8 @@
       "summary": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video gene",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 52,
+      "upvotes": 45,
       "arxiv_id": "2610.40614"
-    },
-    {
-      "id": "paper:2610.40373",
-      "title": "HiFOR: Hierarchical Foresight with Action-Guided World Grounding for Vision-Language-Action Model",
-      "url": "https://huggingface.co/papers/2610.40373",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-29T00:00:00+00:00",
-      "summary": "Vision-Language-Action (VLA) models have demonstrated promising capabilities in robotic manipulation by integrating visual perception, language understanding, and action generation. Recent advances have further incorporated future prediction to enhance the understanding of environmental dynamics and task progression. However, existing methods often model short-term dynamics and long-term task obje",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 46,
-      "arxiv_id": "2610.40373"
-    },
-    {
-      "id": "paper:2610.40599",
-      "title": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
-      "url": "https://huggingface.co/papers/2610.40599",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-29T00:00:00+00:00",
-      "summary": "The hair of stylized characters in games and avatars is built from hair cards: artist-placed ribbons whose geometry is the visible hair, animated by spring bones. Existing image-based methods produce realistic hair or a single fused mesh, while CHARM, the only generator of stylized hair cards, decodes a hairstyle autoregressively as a long sequence of control points. Observing that a card hairstyl",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 41,
-      "arxiv_id": "2610.40599"
-    },
-    {
-      "id": "paper:2610.39633",
-      "title": "Intrinsic Distribution Matching",
-      "url": "https://huggingface.co/papers/2610.39633",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-29T00:00:00+00:00",
-      "summary": "One-step and few-step text-to-image generation must accurately render the details specified in the prompt despite limited opportunities for refinement. Distribution matching distillation (DMD) uses score differences to bring the generated distribution closer to a reference distribution. Following prior work, we estimate this difference with internal velocity branches, avoiding a separate fake-scor",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 40,
-      "arxiv_id": "2610.39633"
     },
     {
       "id": "paper:2610.40738",
@@ -275,7 +288,7 @@
       "summary": "A capable voice assistant must do more than recognize words; it must understand requests, reason over context, sustain conversations, and act through tools. We present Apriel Voice 27B Preview, an open speech-language model that unifies these capabilities within a shared reasoning backbone while retaining text and image input modalities. Built on the post-trained Gemma 4 26B-A4B checkpoint, Apriel",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 36,
+      "upvotes": 35,
       "arxiv_id": "2610.40738"
     },
     {
@@ -288,7 +301,7 @@
       "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introdu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 32,
+      "upvotes": 28,
       "arxiv_id": "2610.40647"
     },
     {
@@ -338,19 +351,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/1aLfN7TpOl8/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
-    },
-    {
-      "id": "paper:2610.38568",
-      "title": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
-      "url": "https://huggingface.co/papers/2610.38568",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-28T00:00:00+00:00",
-      "summary": "Recursive self-improvement requires models not only to acquire useful training experience, but also to decide when their current experience has ceased to be useful. Existing methods often focus on what experience to generate next, while paying less attention to when fresh experience should be introduced. Many also construct training targets through self-consistency or majority voting, making super",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 87,
-      "arxiv_id": "2610.38568"
     },
     {
       "id": "yt:SyUjFWgqDNo",
@@ -837,7 +837,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T10:17:35.812162+00:00",
+      "fetched_at": "2026-11-03T17:56:49.837735+00:00",
       "entries": [
         {
           "rank": 1,
@@ -919,7 +919,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T10:17:35.814205+00:00",
+      "fetched_at": "2026-11-03T17:56:49.840670+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1001,7 +1001,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T10:17:35.816680+00:00",
+      "fetched_at": "2026-11-03T17:56:49.844046+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1083,7 +1083,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T10:17:35.817342+00:00",
+      "fetched_at": "2026-11-03T17:56:49.845027+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1137,7 +1137,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T10:17:35.822422+00:00",
+      "fetched_at": "2026-11-03T17:56:49.851305+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1219,7 +1219,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T10:17:35.822434+00:00",
+      "fetched_at": "2026-11-03T17:56:49.851319+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1273,7 +1273,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T10:17:35.823755+00:00",
+      "fetched_at": "2026-11-03T17:56:49.853262+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1355,7 +1355,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-03T10:17:35.847970+00:00",
+      "fetched_at": "2026-11-03T17:56:49.887915+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1437,7 +1437,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-03T10:17:35.873884+00:00",
+      "fetched_at": "2026-11-03T17:56:49.926051+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1519,7 +1519,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T10:17:35.882812+00:00",
+      "fetched_at": "2026-11-03T17:56:49.937860+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1601,7 +1601,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T10:17:35.886186+00:00",
+      "fetched_at": "2026-11-03T17:56:49.942357+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1683,7 +1683,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T10:17:35.895734+00:00",
+      "fetched_at": "2026-11-03T17:56:49.954960+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1765,7 +1765,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-03T10:17:35.898004+00:00",
+      "fetched_at": "2026-11-03T17:56:49.957988+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2051,55 +2051,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-03T10:17:19.759628+00:00"
+        "checked_at": "2026-11-03T17:56:33.724070+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-03T10:17:18.739552+00:00"
+        "checked_at": "2026-11-03T17:56:32.695843+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-03T10:17:22.802117+00:00"
+        "checked_at": "2026-11-03T17:56:36.996707+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-03T10:17:20.772655+00:00"
+        "checked_at": "2026-11-03T17:56:34.742778+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-03T10:17:24.966956+00:00"
+        "checked_at": "2026-11-03T17:56:39.181441+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-03T10:17:21.787685+00:00"
+        "checked_at": "2026-11-03T17:56:35.763705+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-03T10:17:23.828532+00:00"
+        "checked_at": "2026-11-03T17:56:38.033324+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-03T10:17:35.903298+00:00"
+      "checked_at": "2026-11-03T17:56:49.963762+00:00"
     }
   }
 }
