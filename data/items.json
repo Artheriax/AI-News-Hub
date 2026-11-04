@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T18:07:19.764152+00:00",
+  "generated_at": "2026-11-04T23:49:35.556151+00:00",
   "items": [
     {
       "id": "yt:FQABKeCe1jM",
@@ -47,7 +47,7 @@
       "summary": "Artificial general intelligence (AGI) requires a method that can understand, generate, reason, and act across diverse domains and modalities. Rather than relying on a single model to master every capability, a promising path toward AGI now is to orchestrate a heterogeneous ecosystem of specialized models, tools, and policies (candidates) into a unified AI system. At the heart of this vision lies a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 94,
+      "upvotes": 84,
       "arxiv_id": "2611.05275"
     },
     {
@@ -60,7 +60,7 @@
       "summary": "Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained. Existing reasoning compression methods primarily operate on reasoning trajectories, paying less attention to the local decision of whether further reasoning is necessary given the",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 64,
+      "upvotes": 65,
       "arxiv_id": "2611.04814"
     },
     {
@@ -73,7 +73,7 @@
       "summary": "Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire data--condi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 48,
+      "upvotes": 52,
       "arxiv_id": "2611.04916"
     },
     {
@@ -86,7 +86,7 @@
       "summary": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embod",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 47,
+      "upvotes": 49,
       "arxiv_id": "2611.05377"
     },
     {
@@ -124,7 +124,7 @@
       "summary": "Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts. However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge. We introduce CoworkOS, a general-purpose ha",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 96,
+      "upvotes": 94,
       "arxiv_id": "2611.03178"
     },
     {
@@ -137,7 +137,7 @@
       "summary": "Despite recent advances in CUAs, their development remains constrained by the limited diversity, controllability, and reliability of interaction data. Moreover, conventional optimization pipelines lack iterative feedback, while existing recursive improvement approaches often rely on self-generated experiences, limiting ability expansion and yielding diminishing returns. To address these challenges",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 97,
+      "upvotes": 78,
       "arxiv_id": "2611.03126"
     },
     {
@@ -162,7 +162,7 @@
       "summary": "Long-form multi-shot video editing requires an intended edit to remain coherent across abrupt changes in scene, viewpoint, and subject appearance, while processing substantially longer visual context than conventional single-shot editors. We introduce MoviEdit, an end-to-end framework for scalable long-form multi-shot video editing that jointly addresses the challenges of data, modeling, and evalu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 60,
+      "upvotes": 61,
       "arxiv_id": "2611.02737"
     },
     {
@@ -175,7 +175,7 @@
       "summary": "General-purpose robot policies must work across robots, tasks, and environments, yet the variation that makes physical trials informative also makes them difficult to reproduce. We introduce RoboColosseum, a distributed evaluation framework that combines unified policy serving and standardized protocols across a network of locally operated robots in diverse environments. Our initial study evaluate",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 42,
+      "upvotes": 43,
       "arxiv_id": "2611.02497"
     },
     {
@@ -188,7 +188,7 @@
       "summary": "Research taste, the judgment of what to read, which problems to pursue, and which methods to try, increasingly shapes the work of AI scientists, yet it remains far less understood than their ability to execute research. We introduce IdeaTaste, a benchmark that scores an LLM by how closely the research proposals it writes from a literature snapshot frozen at 2025 match the work the same communities",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 41,
+      "upvotes": 43,
       "arxiv_id": "2611.03424"
     },
     {
@@ -225,7 +225,7 @@
       "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has ex",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 128,
+      "upvotes": 130,
       "arxiv_id": "2611.01860"
     },
     {
@@ -276,7 +276,7 @@
       "summary": "Psychotherapy clients may experience distress before they can coherently describe it, and their expression changes with emotion, perceived safety, and trust. Large language model-based client simulators often rely on clinically organized case descriptions, which can encourage responses explaining the client's difficulties more clearly than their current understanding warrants. We propose Pandora, ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 66,
+      "upvotes": 67,
       "arxiv_id": "2611.00617"
     },
     {
@@ -313,7 +313,7 @@
       "summary": "Video generation is shifting from end-to-end synthesis toward agentic generation, where planning, tool use, and feedback enable coherent, controllable multi-shot videos. In parallel, video world models provide action-conditioned observations and predicted futures, serving as interactive environments for agents. We study their intersection through the agent harness: an executable runtime that const",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 73,
+      "upvotes": 74,
       "arxiv_id": "2610.40191"
     },
     {
@@ -795,18 +795,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/h5zkzon0gM4/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "yt:_5p1_TNSWqQ",
-      "title": "PewDiePie is setting AI free... and OpenAI is furious",
-      "url": "https://www.youtube.com/watch?v=_5p1_TNSWqQ",
-      "source": "Fireship",
-      "category": "videos",
-      "published": "2026-10-05T20:34:44+00:00",
-      "summary": "Namespace is actually the fastest way to run your GitHub Actions (and more). Try it for free - https://namespace.so/github-actions PewDiePie is building Ajax, an uncensored AI model he trained at home after OpenAI banned him twice for distillation. Let's dive in. Want more Fireship? 🗞️ Newsletter: h",
-      "thumbnail": "https://i4.ytimg.com/vi/_5p1_TNSWqQ/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Fireship"
     }
   ],
   "featured": [
@@ -825,7 +813,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T18:07:19.639721+00:00",
+      "fetched_at": "2026-11-04T23:49:35.444164+00:00",
       "entries": [
         {
           "rank": 1,
@@ -907,7 +895,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T18:07:19.642429+00:00",
+      "fetched_at": "2026-11-04T23:49:35.446777+00:00",
       "entries": [
         {
           "rank": 1,
@@ -989,7 +977,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T18:07:19.645504+00:00",
+      "fetched_at": "2026-11-04T23:49:35.449869+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1071,7 +1059,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T18:07:19.646390+00:00",
+      "fetched_at": "2026-11-04T23:49:35.450701+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1125,7 +1113,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T18:07:19.652942+00:00",
+      "fetched_at": "2026-11-04T23:49:35.456647+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1207,7 +1195,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T18:07:19.652965+00:00",
+      "fetched_at": "2026-11-04T23:49:35.456665+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1261,7 +1249,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T18:07:19.654765+00:00",
+      "fetched_at": "2026-11-04T23:49:35.458339+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1343,7 +1331,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-04T18:07:19.684317+00:00",
+      "fetched_at": "2026-11-04T23:49:35.486228+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1425,76 +1413,76 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-04T18:07:19.716836+00:00",
+      "fetched_at": "2026-11-04T23:49:35.516234+00:00",
       "entries": [
         {
           "rank": 1,
-          "name": "Kimi K3.1 Pro",
-          "creator": "Kimi",
-          "score": 46.0,
-          "meta": "1M ctx"
-        },
-        {
-          "rank": 2,
           "name": "DeepSeek V4.1 Flash 1017 (max)",
           "creator": "DeepSeek",
           "score": 33.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 3,
+          "rank": 2,
           "name": "GLM-5.3 (max)",
           "creator": "Z AI",
           "score": 32.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 4,
+          "rank": 3,
           "name": "MiMo-V2.6-Pro",
           "creator": "Xiaomi",
           "score": 30.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "name": "Ling 3.1 Flash 1019",
           "creator": "InclusionAI",
           "score": 30.0,
-          "meta": "1.05M ctx"
+          "meta": "1M ctx"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "name": "MiniMax-M3.1-Flash",
           "creator": "MiniMax",
           "score": 29.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "name": "DeepSeek V4.1 Flash 1017 (high)",
           "creator": "DeepSeek",
           "score": 29.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "name": "Step 5 Preview",
           "creator": "StepFun",
           "score": 29.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "name": "GLM-5.3-Flash",
           "creator": "Z AI",
           "score": 28.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "name": "MiMo-V2.6-Flash",
           "creator": "Xiaomi",
           "score": 27.0,
+          "meta": "1M ctx"
+        },
+        {
+          "rank": 10,
+          "name": "Mistral Large 4 (high)",
+          "creator": "Mistral",
+          "score": 26.0,
           "meta": "1M ctx"
         }
       ]
@@ -1507,7 +1495,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T18:07:19.727681+00:00",
+      "fetched_at": "2026-11-04T23:49:35.526452+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1589,7 +1577,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T18:07:19.731807+00:00",
+      "fetched_at": "2026-11-04T23:49:35.530203+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1671,7 +1659,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T18:07:19.744455+00:00",
+      "fetched_at": "2026-11-04T23:49:35.540714+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1753,7 +1741,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T18:07:19.747408+00:00",
+      "fetched_at": "2026-11-04T23:49:35.543260+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2036,58 +2024,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-04T18:06:59.247739+00:00"
+        "ok": false,
+        "items": 2,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-11-04T23:49:16.487457+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-04T18:06:58.211836+00:00"
+        "ok": false,
+        "items": 7,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-11-04T23:49:15.415969+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-04T18:07:02.328003+00:00"
+        "ok": false,
+        "items": 10,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-11-04T23:49:19.671328+00:00"
       },
       {
         "name": "Fireship",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-04T18:07:00.272732+00:00"
+        "ok": false,
+        "items": 11,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "checked_at": "2026-11-04T23:49:17.546662+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-04T18:07:04.598172+00:00"
+        "checked_at": "2026-11-04T23:49:21.913645+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-04T18:07:01.299894+00:00"
+        "ok": false,
+        "items": 6,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-11-04T23:49:18.610947+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-11-04T18:07:03.376441+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-11-04T23:49:20.736496+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-04T18:07:19.753804+00:00"
+      "checked_at": "2026-11-04T23:49:35.546377+00:00"
     }
   }
 }
