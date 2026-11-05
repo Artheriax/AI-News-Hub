@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T23:49:35.556151+00:00",
+  "generated_at": "2026-11-05T04:17:14.166380+00:00",
   "items": [
     {
       "id": "yt:FQABKeCe1jM",
@@ -47,7 +47,7 @@
       "summary": "Artificial general intelligence (AGI) requires a method that can understand, generate, reason, and act across diverse domains and modalities. Rather than relying on a single model to master every capability, a promising path toward AGI now is to orchestrate a heterogeneous ecosystem of specialized models, tools, and policies (candidates) into a unified AI system. At the heart of this vision lies a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 84,
+      "upvotes": 86,
       "arxiv_id": "2611.05275"
     },
     {
@@ -73,7 +73,7 @@
       "summary": "Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire data--condi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 52,
+      "upvotes": 53,
       "arxiv_id": "2611.04916"
     },
     {
@@ -86,7 +86,7 @@
       "summary": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embod",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 49,
+      "upvotes": 51,
       "arxiv_id": "2611.05377"
     },
     {
@@ -99,7 +99,7 @@
       "summary": "Composed Image Retrieval (CIR) aims to retrieve a target image given a reference image and a modification text. Although recent approaches leveraging Multimodal Large Language Models (MLLMs) have shown significant progress, we argue that the MLLM's compositional understanding remains underutilized. This stems from directly mapping composed queries into a retrieval embedding via contrastive supervi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 42,
+      "upvotes": 44,
       "arxiv_id": "2611.05193"
     },
     {
@@ -124,7 +124,7 @@
       "summary": "Rapid advances in cowork agents are shifting human-AI collaboration toward real-world automation, delivering software, designs, and other artifacts. However, such productivity work demands both high-quality delivery on complex productivity tasks and continued monitoring and decision-making over long horizons, a combination that remains an open challenge. We introduce CoworkOS, a general-purpose ha",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 94,
+      "upvotes": 95,
       "arxiv_id": "2611.03178"
     },
     {
@@ -162,21 +162,8 @@
       "summary": "Long-form multi-shot video editing requires an intended edit to remain coherent across abrupt changes in scene, viewpoint, and subject appearance, while processing substantially longer visual context than conventional single-shot editors. We introduce MoviEdit, an end-to-end framework for scalable long-form multi-shot video editing that jointly addresses the challenges of data, modeling, and evalu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 61,
+      "upvotes": 65,
       "arxiv_id": "2611.02737"
-    },
-    {
-      "id": "paper:2611.02497",
-      "title": "RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild",
-      "url": "https://huggingface.co/papers/2611.02497",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-02T00:00:00+00:00",
-      "summary": "General-purpose robot policies must work across robots, tasks, and environments, yet the variation that makes physical trials informative also makes them difficult to reproduce. We introduce RoboColosseum, a distributed evaluation framework that combines unified policy serving and standardized protocols across a network of locally operated robots in diverse environments. Our initial study evaluate",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 43,
-      "arxiv_id": "2611.02497"
     },
     {
       "id": "paper:2611.03424",
@@ -188,8 +175,21 @@
       "summary": "Research taste, the judgment of what to read, which problems to pursue, and which methods to try, increasingly shapes the work of AI scientists, yet it remains far less understood than their ability to execute research. We introduce IdeaTaste, a benchmark that scores an LLM by how closely the research proposals it writes from a literature snapshot frozen at 2025 match the work the same communities",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 43,
+      "upvotes": 45,
       "arxiv_id": "2611.03424"
+    },
+    {
+      "id": "paper:2611.02497",
+      "title": "RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild",
+      "url": "https://huggingface.co/papers/2611.02497",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-02T00:00:00+00:00",
+      "summary": "General-purpose robot policies must work across robots, tasks, and environments, yet the variation that makes physical trials informative also makes them difficult to reproduce. We introduce RoboColosseum, a distributed evaluation framework that combines unified policy serving and standardized protocols across a network of locally operated robots in diverse environments. Our initial study evaluate",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 44,
+      "arxiv_id": "2611.02497"
     },
     {
       "id": "yt:Nj7rnWJE92o",
@@ -225,7 +225,7 @@
       "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has ex",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 130,
+      "upvotes": 134,
       "arxiv_id": "2611.01860"
     },
     {
@@ -238,7 +238,7 @@
       "summary": "Robot-use Agents (RUAs) have shown promising zero-shot manipulation capabilities, but reliance on frontier, proprietary models limits research into further training. To democratize RUA research, we introduce uni-robot-agent, a unified harness for competitive open-weight robot use that supports further training. Without privileged inputs, an out-of-the-box Qwen3.8-Flash-Next achieves a RoboDojo Sco",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 43,
+      "upvotes": 44,
       "arxiv_id": "2611.01560"
     },
     {
@@ -263,7 +263,7 @@
       "summary": "Real-time long-video generation requires continuous output with consistent appearance and natural motion. Existing chunk-wise autoregressive methods face challenges in both generation efficiency and long-video quality: serialized denoising and history-cache refresh require two forward passes even with one-step denoising, and longer rollouts can degrade quality and cause camera drift. We propose Wa",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 121,
+      "upvotes": 122,
       "arxiv_id": "2611.00859"
     },
     {
@@ -276,7 +276,7 @@
       "summary": "Psychotherapy clients may experience distress before they can coherently describe it, and their expression changes with emotion, perceived safety, and trust. Large language model-based client simulators often rely on clinically organized case descriptions, which can encourage responses explaining the client's difficulties more clearly than their current understanding warrants. We propose Pandora, ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 67,
+      "upvotes": 69,
       "arxiv_id": "2611.00617"
     },
     {
@@ -783,18 +783,6 @@
       "thumbnail": "https://i4.ytimg.com/vi/OyzP0Rgiz2I/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
-    },
-    {
-      "id": "yt:h5zkzon0gM4",
-      "title": "AI is reverse engineering everything",
-      "url": "https://www.youtube.com/watch?v=h5zkzon0gM4",
-      "source": "AI Search",
-      "category": "videos",
-      "published": "2026-10-06T03:36:24+00:00",
-      "summary": "How AI is used to mod games. Pass through mod, rebuilding in rust, porting mechanics. Claude Opus 5.5 game mod. Thanks to our sponsor Runway. https://runwayml.com/aisearch-oct Use code MKTG50 for 50% off any paid plan for the 1st month #ai #aitools #gaming #ainews #singularity Resources https://gith",
-      "thumbnail": "https://i1.ytimg.com/vi/h5zkzon0gM4/hqdefault.jpg",
-      "kind": "video",
-      "channel": "AI Search"
     }
   ],
   "featured": [
@@ -813,20 +801,20 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T23:49:35.444164+00:00",
+      "fetched_at": "2026-11-05T04:17:14.087615+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "GPT Image 2.5 Sunburst (max)",
-          "score": 1199.0,
+          "score": 1200.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
           "rank": 2,
           "name": "MAI-Image-2.7-Preview",
           "creator": "MAI-Image-2.7-Preview",
-          "score": 1196.0,
+          "score": 1197.0,
           "meta": "Oct 2026 · No API available"
         },
         {
@@ -838,23 +826,23 @@
         },
         {
           "rank": 4,
-          "name": "Krea 3 (Ultra)",
-          "creator": "Krea 3 (Ultra)",
-          "score": 1151.0,
-          "meta": "Oct 2026 · $100.0 /1k imgs"
-        },
-        {
-          "rank": 5,
           "name": "Nano Banana 2.1",
           "creator": "Nano Banana 2.1",
           "score": 1151.0,
           "meta": "Oct 2026 · $33.6 /1k imgs"
         },
         {
+          "rank": 5,
+          "name": "Krea 3 (Ultra)",
+          "creator": "Krea 3 (Ultra)",
+          "score": 1151.0,
+          "meta": "Oct 2026 · $100.0 /1k imgs"
+        },
+        {
           "rank": 6,
           "name": "MAI-Image-2.6",
           "creator": "MAI-Image-2.6",
-          "score": 1151.0,
+          "score": 1149.0,
           "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
@@ -868,7 +856,7 @@
           "rank": 8,
           "name": "GPT Image 2 (high)",
           "creator": "GPT Image 2 (high)",
-          "score": 1137.0,
+          "score": 1136.0,
           "meta": "Apr 2026 · $211.0 /1k imgs"
         },
         {
@@ -895,34 +883,34 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T23:49:35.446777+00:00",
+      "fetched_at": "2026-11-05T04:17:14.089387+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fibo 2.0",
           "creator": "Fibo 2.0",
-          "score": 1088.0,
+          "score": 1087.0,
           "meta": "Oct 2026 · $32.0 /1k imgs"
         },
         {
           "rank": 2,
           "name": "Qwen-Image-2.1",
           "creator": "Qwen-Image-2.1",
-          "score": 1081.0,
+          "score": 1080.0,
           "meta": "Sep 2026 · No API available"
         },
         {
           "rank": 3,
           "name": "FLUX 3 Image Klein",
           "creator": "FLUX 3 Image Klein",
-          "score": 1072.0,
+          "score": 1071.0,
           "meta": "Oct 2026 · $9.0 /1k imgs"
         },
         {
           "rank": 4,
           "name": "HunyuanImage 3.0 Instruct",
           "creator": "HunyuanImage 3.0 Instruct",
-          "score": 1064.0,
+          "score": 1065.0,
           "meta": "Jan 2026 · No API available"
         },
         {
@@ -943,7 +931,7 @@
           "rank": 7,
           "name": "FLUX.2 [dev] Flash",
           "creator": "FLUX.2 [dev] Flash",
-          "score": 1014.0,
+          "score": 1015.0,
           "meta": "Dec 2025 · $5.0 /1k imgs"
         },
         {
@@ -964,7 +952,7 @@
           "rank": 10,
           "name": "Qwen Image Edit Plus 2509",
           "creator": "Qwen Image Edit Plus 2509",
-          "score": 966.0,
+          "score": 968.0,
           "meta": "Sep 2025 · $30.0 /1k imgs"
         }
       ]
@@ -977,7 +965,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T23:49:35.449869+00:00",
+      "fetched_at": "2026-11-05T04:17:14.091579+00:00",
       "entries": [
         {
           "rank": 1,
@@ -990,7 +978,7 @@
           "rank": 2,
           "name": "Utopai X",
           "creator": "Utopai X",
-          "score": 1149.0,
+          "score": 1147.0,
           "meta": "Sep 2026 · No API available"
         },
         {
@@ -1004,28 +992,28 @@
           "rank": 4,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1130.0,
+          "score": 1131.0,
           "meta": "Jul 2026 · $4.80 /min"
         },
         {
           "rank": 5,
           "name": "HeyGen Video 1",
           "creator": "HeyGen Video 1",
-          "score": 1123.0,
+          "score": 1124.0,
           "meta": "Oct 2026 · $2.40 /min"
         },
         {
           "rank": 6,
           "name": "Hyperflow H3",
           "creator": "Hyperflow H3",
-          "score": 1121.0,
+          "score": 1120.0,
           "meta": "Sep 2026 · $9.00 /min"
         },
         {
           "rank": 7,
           "name": "P-Video-2-Pro",
           "creator": "P-Video-2-Pro",
-          "score": 1118.0,
+          "score": 1119.0,
           "meta": "Sep 2026 · $5.70 /min"
         },
         {
@@ -1059,20 +1047,20 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T23:49:35.450701+00:00",
+      "fetched_at": "2026-11-05T04:17:14.092174+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1130.0,
+          "score": 1131.0,
           "meta": "Jul 2026 · $4.80 /min"
         },
         {
           "rank": 2,
           "name": "Hyperflow H3",
           "creator": "Hyperflow H3",
-          "score": 1121.0,
+          "score": 1120.0,
           "meta": "Sep 2026 · $9.00 /min"
         },
         {
@@ -1093,7 +1081,7 @@
           "rank": 5,
           "name": "LTX-2.3 Pro",
           "creator": "LTX-2.3 Pro",
-          "score": 837.0,
+          "score": 838.0,
           "meta": "Mar 2026 · $4.80 /min"
         },
         {
@@ -1113,25 +1101,25 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T23:49:35.456647+00:00",
+      "fetched_at": "2026-11-05T04:17:14.096863+00:00",
       "entries": [
         {
           "rank": 1,
-          "score": 1155.0,
+          "score": 1156.0,
           "name": "Utopai X",
           "creator": "Utopai Studios",
           "meta": ""
         },
         {
           "rank": 2,
-          "score": 1128.0,
+          "score": 1130.0,
           "name": "Dreamina Seedance 2.5",
           "creator": "ByteDance Seed",
           "meta": ""
         },
         {
           "rank": 3,
-          "score": 1122.0,
+          "score": 1123.0,
           "name": "MiniMax H3 Max",
           "creator": "Fal",
           "meta": ""
@@ -1145,42 +1133,42 @@
         },
         {
           "rank": 5,
-          "score": 1119.0,
+          "score": 1120.0,
           "name": "Hyperflow H3",
           "creator": "Video Rebirth",
           "meta": ""
         },
         {
           "rank": 6,
-          "score": 1116.0,
+          "score": 1117.0,
           "name": "Agnes-Video-2.5",
           "creator": "Sapiens AI",
           "meta": ""
         },
         {
           "rank": 7,
-          "score": 1112.0,
+          "score": 1113.0,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax",
           "meta": ""
         },
         {
           "rank": 8,
-          "score": 1106.0,
+          "score": 1107.0,
           "name": "P-Video-2-Pro",
           "creator": "Pruna AI",
           "meta": ""
         },
         {
           "rank": 9,
-          "score": 1103.0,
+          "score": 1104.0,
           "name": "HeyGen Video 1",
           "creator": "HeyGen",
           "meta": ""
         },
         {
           "rank": 10,
-          "score": 1095.0,
+          "score": 1094.0,
           "name": "Dreamina Seedance 2.0",
           "creator": "ByteDance Seed",
           "meta": ""
@@ -1195,20 +1183,20 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T23:49:35.456665+00:00",
+      "fetched_at": "2026-11-05T04:17:14.096882+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1130.0,
+          "score": 1131.0,
           "meta": "Jul 2026 · $4.80 /min"
         },
         {
           "rank": 2,
           "name": "Hyperflow H3",
           "creator": "Hyperflow H3",
-          "score": 1121.0,
+          "score": 1120.0,
           "meta": "Sep 2026 · $9.00 /min"
         },
         {
@@ -1229,7 +1217,7 @@
           "rank": 5,
           "name": "LTX-2.3 Pro",
           "creator": "LTX-2.3 Pro",
-          "score": 837.0,
+          "score": 838.0,
           "meta": "Mar 2026 · $4.80 /min"
         },
         {
@@ -1249,7 +1237,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T23:49:35.458339+00:00",
+      "fetched_at": "2026-11-05T04:17:14.098106+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1331,7 +1319,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-04T23:49:35.486228+00:00",
+      "fetched_at": "2026-11-05T04:17:14.117768+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1342,7 +1330,7 @@
         },
         {
           "rank": 2,
-          "name": "Claude Opus 5.5 (max with fallback)",
+          "name": "Claude Opus 5.5 (max)",
           "creator": "Anthropic",
           "score": 59.0,
           "meta": "1M ctx"
@@ -1356,7 +1344,7 @@
         },
         {
           "rank": 4,
-          "name": "Claude Opus 5.5 (xhigh with fallback)",
+          "name": "Claude Opus 5.5 (xhigh)",
           "creator": "Anthropic",
           "score": 57.0,
           "meta": "1M ctx"
@@ -1391,7 +1379,7 @@
         },
         {
           "rank": 9,
-          "name": "Claude Sonnet 5.5 (max with fallback)",
+          "name": "Claude Sonnet 5.5 (max)",
           "creator": "Anthropic",
           "score": 55.0,
           "meta": "1M ctx"
@@ -1413,7 +1401,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-04T23:49:35.516234+00:00",
+      "fetched_at": "2026-11-05T04:17:14.139230+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1495,13 +1483,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T23:49:35.526452+00:00",
+      "fetched_at": "2026-11-05T04:17:14.146192+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "GPT Image 2.5 Sunburst (max)",
-          "score": 1223.0,
+          "score": 1224.0,
           "meta": "Sep 2026 · $210.7 /1k imgs"
         },
         {
@@ -1515,29 +1503,29 @@
           "rank": 3,
           "name": "GPT Image 2 (high)",
           "creator": "GPT Image 2 (high)",
-          "score": 1189.0,
+          "score": 1188.0,
           "meta": "Apr 2026 · $211.0 /1k imgs"
         },
         {
           "rank": 4,
           "name": "Nano Banana 2.1",
           "creator": "Nano Banana 2.1",
-          "score": 1176.0,
+          "score": 1175.0,
           "meta": "Oct 2026 · $33.6 /1k imgs"
         },
         {
           "rank": 5,
-          "name": "Grok Imagine Image 2.0",
-          "creator": "Grok Imagine Image 2.0",
+          "name": "MAI-Image-2.6",
+          "creator": "MAI-Image-2.6",
           "score": 1168.0,
-          "meta": "Aug 2026 · $60.0 /1k imgs"
+          "meta": "Aug 2026 · $38.9 /1k imgs"
         },
         {
           "rank": 6,
-          "name": "MAI-Image-2.6",
-          "creator": "MAI-Image-2.6",
+          "name": "Grok Imagine Image 2.0",
+          "creator": "Grok Imagine Image 2.0",
           "score": 1167.0,
-          "meta": "Aug 2026 · $38.9 /1k imgs"
+          "meta": "Aug 2026 · $60.0 /1k imgs"
         },
         {
           "rank": 7,
@@ -1550,14 +1538,14 @@
           "rank": 8,
           "name": "Muse Image",
           "creator": "Muse Image",
-          "score": 1127.0,
+          "score": 1126.0,
           "meta": "Jul 2026 · $10.0 /1k imgs"
         },
         {
           "rank": 9,
           "name": "GPT Image 1.5 (high)",
           "creator": "GPT Image 1.5 (high)",
-          "score": 1123.0,
+          "score": 1124.0,
           "meta": "Dec 2025 · $133.0 /1k imgs"
         },
         {
@@ -1577,21 +1565,21 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T23:49:35.530203+00:00",
+      "fetched_at": "2026-11-05T04:17:14.148789+00:00",
       "entries": [
         {
           "rank": 1,
-          "name": "Qwen-Image-2.1",
-          "creator": "Qwen-Image-2.1",
-          "score": 1043.0,
-          "meta": "Sep 2026 · No API available"
+          "name": "FLUX 3 Image Klein",
+          "creator": "FLUX 3 Image Klein",
+          "score": 1044.0,
+          "meta": "Oct 2026 · $9.0 /1k imgs"
         },
         {
           "rank": 2,
-          "name": "FLUX 3 Image Klein",
-          "creator": "FLUX 3 Image Klein",
-          "score": 1043.0,
-          "meta": "Oct 2026 · $9.0 /1k imgs"
+          "name": "Qwen-Image-2.1",
+          "creator": "Qwen-Image-2.1",
+          "score": 1044.0,
+          "meta": "Sep 2026 · No API available"
         },
         {
           "rank": 3,
@@ -1604,14 +1592,14 @@
           "rank": 4,
           "name": "Ideogram 4.0 (Quality)",
           "creator": "Ideogram 4.0 (Quality)",
-          "score": 1025.0,
+          "score": 1027.0,
           "meta": "Jun 2026 · $100.0 /1k imgs"
         },
         {
           "rank": 5,
           "name": "Ideogram 4.0",
           "creator": "Ideogram 4.0",
-          "score": 1002.0,
+          "score": 1003.0,
           "meta": "Jun 2026 · $60.0 /1k imgs"
         },
         {
@@ -1625,28 +1613,28 @@
           "rank": 7,
           "name": "Ming-Image-0.1-Design",
           "creator": "Ming-Image-0.1-Design",
-          "score": 999.0,
+          "score": 1000.0,
           "meta": "Sep 2026 · $30.0 /1k imgs"
         },
         {
           "rank": 8,
           "name": "FLUX.2 [dev] Turbo",
           "creator": "FLUX.2 [dev] Turbo",
-          "score": 995.0,
+          "score": 996.0,
           "meta": "Dec 2025 · $8.0 /1k imgs"
         },
         {
           "rank": 9,
           "name": "Cosmos3-Super-Text2Image (agentic)",
           "creator": "Cosmos3-Super-Text2Image (agentic)",
-          "score": 993.0,
+          "score": 995.0,
           "meta": "May 2026 · No API available"
         },
         {
           "rank": 10,
           "name": "FLUX.2 [dev] Flash",
           "creator": "FLUX.2 [dev] Flash",
-          "score": 988.0,
+          "score": 989.0,
           "meta": "Dec 2025 · $5.0 /1k imgs"
         }
       ]
@@ -1659,7 +1647,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T23:49:35.540714+00:00",
+      "fetched_at": "2026-11-05T04:17:14.156108+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1741,7 +1729,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-04T23:49:35.543260+00:00",
+      "fetched_at": "2026-11-05T04:17:14.157922+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2027,55 +2015,55 @@
         "ok": false,
         "items": 2,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-11-04T23:49:16.487457+00:00"
+        "checked_at": "2026-11-05T04:16:56.388246+00:00"
       },
       {
         "name": "AI Search",
         "ok": false,
         "items": 7,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-11-04T23:49:15.415969+00:00"
+        "checked_at": "2026-11-05T04:16:55.305548+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": false,
         "items": 10,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-11-04T23:49:19.671328+00:00"
+        "checked_at": "2026-11-05T04:16:59.630690+00:00"
       },
       {
         "name": "Fireship",
         "ok": false,
-        "items": 11,
+        "items": 10,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-11-04T23:49:17.546662+00:00"
+        "checked_at": "2026-11-05T04:16:57.470236+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-04T23:49:21.913645+00:00"
+        "checked_at": "2026-11-05T04:17:01.902306+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": false,
         "items": 6,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-11-04T23:49:18.610947+00:00"
+        "checked_at": "2026-11-05T04:16:58.548806+00:00"
       },
       {
         "name": "World of AI",
         "ok": false,
         "items": 15,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-11-04T23:49:20.736496+00:00"
+        "checked_at": "2026-11-05T04:17:00.714166+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-04T23:49:35.546377+00:00"
+      "checked_at": "2026-11-05T04:17:14.159941+00:00"
     }
   }
 }
