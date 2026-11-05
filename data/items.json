@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T12:35:55.233356+00:00",
+  "generated_at": "2026-11-05T20:24:39.653262+00:00",
   "items": [
     {
       "id": "yt:LHxOG65r12w",
@@ -23,7 +23,7 @@
       "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 51,
+      "upvotes": 55,
       "arxiv_id": "2611.06918"
     },
     {
@@ -48,8 +48,21 @@
       "summary": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourag",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 72,
+      "upvotes": 108,
       "arxiv_id": "2611.06728"
+    },
+    {
+      "id": "paper:2611.06910",
+      "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+      "url": "https://huggingface.co/papers/2611.06910",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-04T00:00:00+00:00",
+      "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine doma",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 41,
+      "arxiv_id": "2611.06910"
     },
     {
       "id": "yt:k2ruCf_z75I",
@@ -85,7 +98,7 @@
       "summary": "Artificial general intelligence (AGI) requires a method that can understand, generate, reason, and act across diverse domains and modalities. Rather than relying on a single model to master every capability, a promising path toward AGI now is to orchestrate a heterogeneous ecosystem of specialized models, tools, and policies (candidates) into a unified AI system. At the heart of this vision lies a",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 79,
+      "upvotes": 83,
       "arxiv_id": "2611.05275"
     },
     {
@@ -98,8 +111,21 @@
       "summary": "Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire data--condi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 64,
+      "upvotes": 65,
       "arxiv_id": "2611.04916"
+    },
+    {
+      "id": "paper:2611.04814",
+      "title": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
+      "url": "https://huggingface.co/papers/2611.04814",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-03T00:00:00+00:00",
+      "summary": "Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained. Existing reasoning compression methods primarily operate on reasoning trajectories, paying less attention to the local decision of whether further reasoning is necessary given the",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 55,
+      "arxiv_id": "2611.04814"
     },
     {
       "id": "paper:2611.05377",
@@ -115,19 +141,6 @@
       "arxiv_id": "2611.05377"
     },
     {
-      "id": "paper:2611.04814",
-      "title": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
-      "url": "https://huggingface.co/papers/2611.04814",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-03T00:00:00+00:00",
-      "summary": "Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained. Existing reasoning compression methods primarily operate on reasoning trajectories, paying less attention to the local decision of whether further reasoning is necessary given the",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 53,
-      "arxiv_id": "2611.04814"
-    },
-    {
       "id": "paper:2611.05193",
       "title": "Factorized MLLM Embeddings for Composed Image Retrieval",
       "url": "https://huggingface.co/papers/2611.05193",
@@ -137,8 +150,21 @@
       "summary": "Composed Image Retrieval (CIR) aims to retrieve a target image given a reference image and a modification text. Although recent approaches leveraging Multimodal Large Language Models (MLLMs) have shown significant progress, we argue that the MLLM's compositional understanding remains underutilized. This stems from directly mapping composed queries into a retrieval embedding via contrastive supervi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 45,
+      "upvotes": 47,
       "arxiv_id": "2611.05193"
+    },
+    {
+      "id": "paper:2611.05036",
+      "title": "ToolSpace: Scaling Tool-Centric Environment Synthesis for Long-Horizon Agents",
+      "url": "https://huggingface.co/papers/2611.05036",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-03T00:00:00+00:00",
+      "summary": "Large language models are deployed as long-horizon agents that compose diverse tools across MCP services into executable workflows. Existing MCP environment-scaling methods are data-centric: they first synthesize a database and scenario, then derive tools and tasks from them. As a result, tool interfaces may not match real ones, tool compositions are not grounded in execution, and tasks rarely spa",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 38,
+      "arxiv_id": "2611.05036"
     },
     {
       "id": "yt:0Kw6_DTZPrY",
@@ -174,8 +200,21 @@
       "summary": "Long-form multi-shot video editing requires an intended edit to remain coherent across abrupt changes in scene, viewpoint, and subject appearance, while processing substantially longer visual context than conventional single-shot editors. We introduce MoviEdit, an end-to-end framework for scalable long-form multi-shot video editing that jointly addresses the challenges of data, modeling, and evalu",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 71,
+      "upvotes": 73,
       "arxiv_id": "2611.02737"
+    },
+    {
+      "id": "paper:2611.02497",
+      "title": "RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild",
+      "url": "https://huggingface.co/papers/2611.02497",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-02T00:00:00+00:00",
+      "summary": "General-purpose robot policies must work across robots, tasks, and environments, yet the variation that makes physical trials informative also makes them difficult to reproduce. We introduce RoboColosseum, a distributed evaluation framework that combines unified policy serving and standardized protocols across a network of locally operated robots in diverse environments. Our initial study evaluate",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 47,
+      "arxiv_id": "2611.02497"
     },
     {
       "id": "paper:2611.03424",
@@ -191,19 +230,6 @@
       "arxiv_id": "2611.03424"
     },
     {
-      "id": "paper:2611.02497",
-      "title": "RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild",
-      "url": "https://huggingface.co/papers/2611.02497",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-02T00:00:00+00:00",
-      "summary": "General-purpose robot policies must work across robots, tasks, and environments, yet the variation that makes physical trials informative also makes them difficult to reproduce. We introduce RoboColosseum, a distributed evaluation framework that combines unified policy serving and standardized protocols across a network of locally operated robots in diverse environments. Our initial study evaluate",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 46,
-      "arxiv_id": "2611.02497"
-    },
-    {
       "id": "paper:2611.03233",
       "title": "Axion 1.0: Open Agent Foundation Models, Simplified",
       "url": "https://huggingface.co/papers/2611.03233",
@@ -215,19 +241,6 @@
       "kind": "paper",
       "upvotes": 45,
       "arxiv_id": "2611.03233"
-    },
-    {
-      "id": "paper:2611.02897",
-      "title": "PhotoGuider: Composition-Aware Cropping and 360^{circ} View Framing with Explainable Photographic Assessments",
-      "url": "https://huggingface.co/papers/2611.02897",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-02T00:00:00+00:00",
-      "summary": "Traditional image cropping assumes the photograph already contains the composition worth keeping, and asks only where to crop. A full 360^{circ} scene offers no such guarantee: the viewing direction in a scene has to be discovered before anything can be framed. We present PhotoGuider, a measure-then-frame method that answers both questions with compact learned scorers over one shared set of compos",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 38,
-      "arxiv_id": "2611.02897"
     },
     {
       "id": "yt:Nj7rnWJE92o",
@@ -254,30 +267,17 @@
       "channel": "AI Search"
     },
     {
-      "id": "paper:2611.01860",
-      "title": "Advances in Agentic Computer Graphics",
-      "url": "https://huggingface.co/papers/2611.01860",
+      "id": "paper:2611.02112",
+      "title": "Order-Only On-Policy Distillation",
+      "url": "https://huggingface.co/papers/2611.02112",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-11-01T00:00:00+00:00",
-      "summary": "Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has ex",
+      "summary": "On-policy distillation (OPD) trains a student on its own generations by matching the teacher's token probabilities. These probabilities entangle two kinds of information: which tokens the teacher prefers, and how confident it is. The latter reflects the teacher's own capacity and calibration, which a smaller student may be unable to reproduce. Because the teacher temperature changes these values w",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 138,
-      "arxiv_id": "2611.01860"
-    },
-    {
-      "id": "paper:2611.02074",
-      "title": "SWE-Trail: History-Guided Trajectory Collection for Coding Agent Training",
-      "url": "https://huggingface.co/papers/2611.02074",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-01T00:00:00+00:00",
-      "summary": "Coding agents solve repository issues through long sequences of exploration, editing, and validation. These trajectories are increasingly used as post-training data, so how they are collected shapes what the trained model learns. A common approach is to sample multiple trajectories independently for each issue and then select or curate them. However, as more trajectories are sampled independently,",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 39,
-      "arxiv_id": "2611.02074"
+      "upvotes": 34,
+      "arxiv_id": "2611.02112"
     },
     {
       "id": "yt:eadEYJY9ydg",
@@ -301,7 +301,7 @@
       "summary": "Psychotherapy clients may experience distress before they can coherently describe it, and their expression changes with emotion, perceived safety, and trust. Large language model-based client simulators often rely on clinically organized case descriptions, which can encourage responses explaining the client's difficulties more clearly than their current understanding warrants. We propose Pandora, ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 74,
+      "upvotes": 76,
       "arxiv_id": "2611.00617"
     },
     {
@@ -801,7 +801,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-05T12:35:55.161794+00:00",
+      "fetched_at": "2026-11-05T20:24:39.551635+00:00",
       "entries": [
         {
           "rank": 1,
@@ -883,7 +883,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-05T12:35:55.163203+00:00",
+      "fetched_at": "2026-11-05T20:24:39.553827+00:00",
       "entries": [
         {
           "rank": 1,
@@ -965,7 +965,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-05T12:35:55.164930+00:00",
+      "fetched_at": "2026-11-05T20:24:39.556547+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1047,7 +1047,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-05T12:35:55.165410+00:00",
+      "fetched_at": "2026-11-05T20:24:39.557289+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1101,7 +1101,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-05T12:35:55.169116+00:00",
+      "fetched_at": "2026-11-05T20:24:39.563676+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1183,7 +1183,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-05T12:35:55.169124+00:00",
+      "fetched_at": "2026-11-05T20:24:39.563688+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1237,7 +1237,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-05T12:35:55.170152+00:00",
+      "fetched_at": "2026-11-05T20:24:39.565196+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1319,7 +1319,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-05T12:35:55.187250+00:00",
+      "fetched_at": "2026-11-05T20:24:39.589804+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1401,7 +1401,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-05T12:35:55.206624+00:00",
+      "fetched_at": "2026-11-05T20:24:39.616328+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1483,7 +1483,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-05T12:35:55.212544+00:00",
+      "fetched_at": "2026-11-05T20:24:39.625784+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1565,7 +1565,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-05T12:35:55.214855+00:00",
+      "fetched_at": "2026-11-05T20:24:39.629400+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1647,7 +1647,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-05T12:35:55.220959+00:00",
+      "fetched_at": "2026-11-05T20:24:39.638743+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1729,7 +1729,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-05T12:35:55.222505+00:00",
+      "fetched_at": "2026-11-05T20:24:39.641019+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2015,55 +2015,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-05T12:35:38.858870+00:00"
+        "checked_at": "2026-11-05T20:24:23.587317+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-05T12:35:37.827331+00:00"
+        "checked_at": "2026-11-05T20:24:22.463604+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-05T12:35:41.935150+00:00"
+        "checked_at": "2026-11-05T20:24:26.928932+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-05T12:35:39.885503+00:00"
+        "checked_at": "2026-11-05T20:24:24.702978+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-05T12:35:44.200792+00:00"
+        "checked_at": "2026-11-05T20:24:29.233812+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-05T12:35:40.908812+00:00"
+        "checked_at": "2026-11-05T20:24:25.820324+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-05T12:35:42.974299+00:00"
+        "checked_at": "2026-11-05T20:24:28.074990+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-05T12:35:55.227532+00:00"
+      "checked_at": "2026-11-05T20:24:39.645713+00:00"
     }
   }
 }
