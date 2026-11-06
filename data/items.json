@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-11-06T15:28:33.525017+00:00",
+  "generated_at": "2026-11-06T20:59:08.035467+00:00",
   "items": [
+    {
+      "id": "yt:iw9SZgyahqg",
+      "title": "The one thing holding theoretical CS together just broke... kinda",
+      "url": "https://www.youtube.com/watch?v=iw9SZgyahqg",
+      "source": "Fireship",
+      "category": "videos",
+      "published": "2026-11-06T16:42:38+00:00",
+      "summary": "Warp Factories is open infrastructure to build self-improving software factories. Get early access: https://warp.dev/fireship An unnamed OpenAI model just wrote an algorithm that solves 3-SAT faster than exponential time, breaking a 27-year-old hypothesis that over 800 published papers depend on. Le",
+      "thumbnail": "https://i2.ytimg.com/vi/iw9SZgyahqg/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Fireship"
+    },
+    {
+      "id": "yt:GBjDU9Ct0VQ",
+      "title": "Tencent HY4 Is INSANE – Is THIS the BEST Open Model Yet?",
+      "url": "https://www.youtube.com/watch?v=GBjDU9Ct0VQ",
+      "source": "Bijan Bowen",
+      "category": "videos",
+      "published": "2026-11-06T15:29:55+00:00",
+      "summary": "Timestamps: 00:00 - Intro 01:05 - First Look 02:24 - Technical Look 04:42 - Browser OS Test 10:36 - C++ Skate Game Test 13:04 - Blender & Godot Wrestling Test 16:07 - Subway FPS Test 19:47 - Pool Party Test 22:13 - Image to Blender Test 25:14 - Benchmax C++ Test 29:35 - Results Overview 32:00 - Clos",
+      "thumbnail": "https://i4.ytimg.com/vi/GBjDU9Ct0VQ/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Bijan Bowen"
+    },
     {
       "id": "yt:efnEcbHnRa0",
       "title": "HUGE Claude Sonnet 6 LEAK, Anthropic's SECRET Fable 6?! GPT-6.2 Astra TODAY, & More! AI NEWS",
@@ -47,8 +71,34 @@
       "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a meth",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 71,
+      "upvotes": 86,
       "arxiv_id": "2611.08449"
+    },
+    {
+      "id": "paper:2611.08373",
+      "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+      "url": "https://huggingface.co/papers/2611.08373",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-05T00:00:00+00:00",
+      "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capabi",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 48,
+      "arxiv_id": "2611.08373"
+    },
+    {
+      "id": "paper:2611.07392",
+      "title": "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence",
+      "url": "https://huggingface.co/papers/2611.07392",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-05T00:00:00+00:00",
+      "summary": "We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes text, reference images, and target latents as one interleaved sequence. A Mixture-of-Transformers (MoT) backbon",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 37,
+      "arxiv_id": "2611.07392"
     },
     {
       "id": "paper:2611.06918",
@@ -60,7 +110,7 @@
       "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 57,
+      "upvotes": 58,
       "arxiv_id": "2611.06918"
     },
     {
@@ -85,7 +135,7 @@
       "summary": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourag",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 126,
+      "upvotes": 127,
       "arxiv_id": "2611.06728"
     },
     {
@@ -98,7 +148,7 @@
       "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine doma",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 52,
+      "upvotes": 53,
       "arxiv_id": "2611.06910"
     },
     {
@@ -139,19 +189,6 @@
       "arxiv_id": "2611.04408"
     },
     {
-      "id": "paper:2611.05275",
-      "title": "Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems",
-      "url": "https://huggingface.co/papers/2611.05275",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-03T00:00:00+00:00",
-      "summary": "Artificial general intelligence (AGI) requires a method that can understand, generate, reason, and act across diverse domains and modalities. Rather than relying on a single model to master every capability, a promising path toward AGI now is to orchestrate a heterogeneous ecosystem of specialized models, tools, and policies (candidates) into a unified AI system. At the heart of this vision lies a",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 85,
-      "arxiv_id": "2611.05275"
-    },
-    {
       "id": "paper:2611.04814",
       "title": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
       "url": "https://huggingface.co/papers/2611.04814",
@@ -187,7 +224,7 @@
       "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy th",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 51,
+      "upvotes": 54,
       "arxiv_id": "2611.04277"
     },
     {
@@ -213,7 +250,7 @@
       "summary": "Large language models are deployed as long-horizon agents that compose diverse tools across MCP services into executable workflows. Existing MCP environment-scaling methods are data-centric: they first synthesize a database and scenario, then derive tools and tasks from them. As a result, tool interfaces may not match real ones, tool compositions are not grounded in execution, and tasks rarely spa",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 39,
+      "upvotes": 40,
       "arxiv_id": "2611.05036"
     },
     {
@@ -239,19 +276,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/L7opnQdpdMY/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
-    },
-    {
-      "id": "paper:2611.03233",
-      "title": "Axion 1.0: Open Agent Foundation Models, Simplified",
-      "url": "https://huggingface.co/papers/2611.03233",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-02T00:00:00+00:00",
-      "summary": "We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid-training, direct preference optimization (DPO), or on-policy distillation (OPD). The first SFT stag",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 48,
-      "arxiv_id": "2611.03233"
     },
     {
       "id": "yt:Nj7rnWJE92o",
@@ -303,19 +327,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2611.00617",
-      "title": "Words Caught in the Heart: Simulating Person-Specific Expression for Self-Opaque Clients in Psychotherapy",
-      "url": "https://huggingface.co/papers/2611.00617",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-31T00:00:00+00:00",
-      "summary": "Psychotherapy clients may experience distress before they can coherently describe it, and their expression changes with emotion, perceived safety, and trust. Large language model-based client simulators often rely on clinically organized case descriptions, which can encourage responses explaining the client's difficulties more clearly than their current understanding warrants. We propose Pandora, ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 76,
-      "arxiv_id": "2611.00617"
-    },
-    {
       "id": "paper:2611.00883",
       "title": "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
       "url": "https://huggingface.co/papers/2611.00883",
@@ -325,8 +336,21 @@
       "summary": "Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small benchmark subset that closely matches full-benchmark results. To quantify estimation error, we derive an accurate analytical approximation to the error distribution when estimating full-benchmark scores from a subset, showing that most subsets yield small errors, while a few produc",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 44,
+      "upvotes": 50,
       "arxiv_id": "2611.00883"
+    },
+    {
+      "id": "paper:2610.37257",
+      "title": "GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling",
+      "url": "https://huggingface.co/papers/2610.37257",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-10-31T00:00:00+00:00",
+      "summary": "Recent advances in interactive world models have made it possible to generate controllable, dynamic environments from action inputs. Yet current models struggle to maintain coherence beyond roughly one minute of rollout, a limitation rooted not in model capacity but in the scarcity of long-horizon training data. Existing gameplay video datasets typically consist of clips under ten seconds, with ca",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 37,
+      "arxiv_id": "2610.37257"
     },
     {
       "id": "yt:CWdTBLsbaQs",
@@ -759,18 +783,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/rGUzoHunuV8/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
-    },
-    {
-      "id": "yt:WrCjAAl9okA",
-      "title": "A $6.3 billion open-weight model just got embarrassed by the French...",
-      "url": "https://www.youtube.com/watch?v=WrCjAAl9okA",
-      "source": "Fireship",
-      "category": "videos",
-      "published": "2026-10-07T20:24:27+00:00",
-      "summary": "KERNEL is the simplest way to let your agents act on any website. Use code: FIRESHIP to get a free upgrade to the Hobbyist tier ($30 value) at https://kernel.sh/fireship Mistral, Reflection AI, and Moonshot all made big moves in the open-weight race this week. Let's dive in. Want more Fireship? 🗞️ N",
-      "thumbnail": "https://i4.ytimg.com/vi/WrCjAAl9okA/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Fireship"
     }
   ],
   "featured": [
@@ -789,7 +801,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T15:28:33.436289+00:00",
+      "fetched_at": "2026-11-06T20:59:07.970454+00:00",
       "entries": [
         {
           "rank": 1,
@@ -871,7 +883,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T15:28:33.438247+00:00",
+      "fetched_at": "2026-11-06T20:59:07.971768+00:00",
       "entries": [
         {
           "rank": 1,
@@ -953,7 +965,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T15:28:33.440650+00:00",
+      "fetched_at": "2026-11-06T20:59:07.973418+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1035,7 +1047,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T15:28:33.441312+00:00",
+      "fetched_at": "2026-11-06T20:59:07.973851+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1089,7 +1101,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T15:28:33.446915+00:00",
+      "fetched_at": "2026-11-06T20:59:07.976959+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1171,7 +1183,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T15:28:33.446932+00:00",
+      "fetched_at": "2026-11-06T20:59:07.976967+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1225,7 +1237,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T15:28:33.448208+00:00",
+      "fetched_at": "2026-11-06T20:59:07.977854+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1307,7 +1319,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-06T15:28:33.470290+00:00",
+      "fetched_at": "2026-11-06T20:59:07.993144+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1389,7 +1401,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-06T15:28:33.494331+00:00",
+      "fetched_at": "2026-11-06T20:59:08.009569+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1471,7 +1483,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T15:28:33.502046+00:00",
+      "fetched_at": "2026-11-06T20:59:08.015380+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1553,7 +1565,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T15:28:33.504965+00:00",
+      "fetched_at": "2026-11-06T20:59:08.017432+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1635,7 +1647,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T15:28:33.513233+00:00",
+      "fetched_at": "2026-11-06T20:59:08.023263+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1717,7 +1729,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T15:28:33.515168+00:00",
+      "fetched_at": "2026-11-06T20:59:08.024640+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2003,55 +2015,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-06T15:28:16.960463+00:00"
+        "checked_at": "2026-11-06T20:58:51.219195+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-06T15:28:15.822773+00:00"
+        "checked_at": "2026-11-06T20:58:50.102964+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-06T15:28:20.236110+00:00"
+        "checked_at": "2026-11-06T20:58:54.564866+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-06T15:28:17.988196+00:00"
+        "checked_at": "2026-11-06T20:58:52.242059+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-06T15:28:22.547268+00:00"
+        "checked_at": "2026-11-06T20:58:56.914599+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-06T15:28:19.095414+00:00"
+        "checked_at": "2026-11-06T20:58:53.337127+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-06T15:28:21.370349+00:00"
+        "checked_at": "2026-11-06T20:58:55.701138+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-06T15:28:33.517998+00:00"
+      "checked_at": "2026-11-06T20:59:08.030125+00:00"
     }
   }
 }
