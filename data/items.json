@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-11-06T07:46:05.554968+00:00",
+  "generated_at": "2026-11-06T15:28:33.525017+00:00",
   "items": [
+    {
+      "id": "yt:efnEcbHnRa0",
+      "title": "HUGE Claude Sonnet 6 LEAK, Anthropic's SECRET Fable 6?! GPT-6.2 Astra TODAY, & More! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=efnEcbHnRa0",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-11-06T08:44:58+00:00",
+      "summary": "🎙️ Never miss a moment with Soulog Sense, the AI voice recorder with 30-minute Rewind! Get yours here: 🌐 https://www.soulog.com/k/worldofai-yt | 🛒 Amazon: https://www.amazon.com/dp/B0HKG3NH4V The AI race is getting absolutely INSANE! Anthropic may be secretly testing its next-generation Claude Sonne",
+      "thumbnail": "https://i2.ytimg.com/vi/efnEcbHnRa0/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
+      "id": "yt:XgC1QTs6A2U",
+      "title": "The Future of AI Is Absolutely Incredible (Spencer Huang)",
+      "url": "https://www.youtube.com/watch?v=XgC1QTs6A2U",
+      "source": "Two Minute Papers",
+      "category": "videos",
+      "published": "2026-11-06T07:27:02+00:00",
+      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers Chapters: 00:00 Intro 02:40 Why Robots Are Hard 08:16 The Perfect Data Diet 16:05 Intelligence Density 20:13 Building AI Worlds 22:10 Learning From Failure 25:41 The Reality Gap 29:35 Robots Get Injured Too 31:28 100 ",
+      "thumbnail": "https://i1.ytimg.com/vi/XgC1QTs6A2U/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Two Minute Papers"
+    },
     {
       "id": "yt:LHxOG65r12w",
       "title": "AI BOOM ENDING?! Calls to PAUSE AI, GPT-6.2 Astra & Sol LEAKED, Fable 5.5 & Gemini 4! AI NEWS",
@@ -23,7 +47,7 @@
       "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a meth",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 48,
+      "upvotes": 71,
       "arxiv_id": "2611.08449"
     },
     {
@@ -38,19 +62,6 @@
       "kind": "paper",
       "upvotes": 57,
       "arxiv_id": "2611.06918"
-    },
-    {
-      "id": "paper:2611.06483",
-      "title": "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
-      "url": "https://huggingface.co/papers/2611.06483",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-04T13:24:54+00:00",
-      "summary": "While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly sensitive to interaction constraints. Evaluating across sampling breadth K and interaction depth T via Pass@(K,T), we show that trajectory-level RL advantages depend on sufficient turn budgets, diminishing significantly when budgets tighten. Besides, agentic RL does not uniformly ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 35,
-      "arxiv_id": "2611.06483"
     },
     {
       "id": "yt:FQABKeCe1jM",
@@ -87,7 +98,7 @@
       "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine doma",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 49,
+      "upvotes": 52,
       "arxiv_id": "2611.06910"
     },
     {
@@ -124,7 +135,7 @@
       "summary": "A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicated network, and every training step ends with all of them exchanging data at once. Between racks, that network is optical, and each of its four layers, from lasers to switches, runs a fixed or after-the-fact policy. Lasers sharing an enclosure, cooling, and power can fail together. At a fix",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 36,
+      "upvotes": 38,
       "arxiv_id": "2611.04408"
     },
     {
@@ -141,19 +152,6 @@
       "arxiv_id": "2611.05275"
     },
     {
-      "id": "paper:2611.04916",
-      "title": "Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling",
-      "url": "https://huggingface.co/papers/2611.04916",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-03T00:00:00+00:00",
-      "summary": "Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire data--condi",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 67,
-      "arxiv_id": "2611.04916"
-    },
-    {
       "id": "paper:2611.04814",
       "title": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
       "url": "https://huggingface.co/papers/2611.04814",
@@ -163,7 +161,7 @@
       "summary": "Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained. Existing reasoning compression methods primarily operate on reasoning trajectories, paying less attention to the local decision of whether further reasoning is necessary given the",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 57,
+      "upvotes": 59,
       "arxiv_id": "2611.04814"
     },
     {
@@ -176,8 +174,21 @@
       "summary": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embod",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 55,
+      "upvotes": 57,
       "arxiv_id": "2611.05377"
+    },
+    {
+      "id": "paper:2611.04277",
+      "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+      "url": "https://huggingface.co/papers/2611.04277",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-03T00:00:00+00:00",
+      "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy th",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 51,
+      "arxiv_id": "2611.04277"
     },
     {
       "id": "paper:2611.05193",
@@ -239,7 +250,7 @@
       "summary": "We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid-training, direct preference optimization (DPO), or on-policy distillation (OPD). The first SFT stag",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 47,
+      "upvotes": 48,
       "arxiv_id": "2611.03233"
     },
     {
@@ -267,6 +278,19 @@
       "channel": "AI Search"
     },
     {
+      "id": "paper:2611.02075",
+      "title": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
+      "url": "https://huggingface.co/papers/2611.02075",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-01T00:00:00+00:00",
+      "summary": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner. Language models provide semantic representations of current and historical records, ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 113,
+      "arxiv_id": "2611.02075"
+    },
+    {
       "id": "yt:eadEYJY9ydg",
       "title": "I Tested 8 of the BEST AI Video Models! Kling 4.0 vs Seedance 2.5 - The ULTIMATE Showdown!",
       "url": "https://www.youtube.com/watch?v=eadEYJY9ydg",
@@ -292,17 +316,17 @@
       "arxiv_id": "2611.00617"
     },
     {
-      "id": "paper:2610.37257",
-      "title": "GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling",
-      "url": "https://huggingface.co/papers/2610.37257",
+      "id": "paper:2611.00883",
+      "title": "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
+      "url": "https://huggingface.co/papers/2611.00883",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-10-31T00:00:00+00:00",
-      "summary": "Recent advances in interactive world models have made it possible to generate controllable, dynamic environments from action inputs. Yet current models struggle to maintain coherence beyond roughly one minute of rollout, a limitation rooted not in model capacity but in the scarcity of long-horizon training data. Existing gameplay video datasets typically consist of clips under ten seconds, with ca",
+      "summary": "Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small benchmark subset that closely matches full-benchmark results. To quantify estimation error, we derive an accurate analytical approximation to the error distribution when estimating full-benchmark scores from a subset, showing that most subsets yield small errors, while a few produc",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 34,
-      "arxiv_id": "2610.37257"
+      "upvotes": 44,
+      "arxiv_id": "2611.00883"
     },
     {
       "id": "yt:CWdTBLsbaQs",
@@ -569,18 +593,6 @@
       "channel": "Two Minute Papers"
     },
     {
-      "id": "yt:24j6YmsTVng",
-      "title": "Anthropic's UBI PLAN?! NEW OpenAI Aurora Models, Fable 5.5 UPGRADE, & OpenCode HACK! AI NEWS",
-      "url": "https://www.youtube.com/watch?v=24j6YmsTVng",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-10-19T06:33:58+00:00",
-      "summary": "🚨 Everything you’re about to see, I benchmarked using the tool I made. If you want to run these tests yourself or test models on whatever you actually use them for! → https://www.woaibench.ai/ The AI world just had another INSANE weekend! Anthropic has announced a massive new Public Benefit Fund, co",
-      "thumbnail": "https://i3.ytimg.com/vi/24j6YmsTVng/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:dk1OY5z08_Y",
       "title": "The New DeepSeek V4.1 Flash Is INSANE – The BEST Open Model Yet?",
       "url": "https://www.youtube.com/watch?v=dk1OY5z08_Y",
@@ -759,18 +771,6 @@
       "thumbnail": "https://i4.ytimg.com/vi/WrCjAAl9okA/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
-    },
-    {
-      "id": "yt:Wkaw03p3BrM",
-      "title": "DeepMind's New AI Just Cracked The Code Of Life",
-      "url": "https://www.youtube.com/watch?v=Wkaw03p3BrM",
-      "source": "Two Minute Papers",
-      "category": "videos",
-      "published": "2026-10-07T13:29:33+00:00",
-      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers Thank you Google DeepMind for the invite. 📝 AlphaGenome Atlas is available here: https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/ https://blog.go",
-      "thumbnail": "https://i4.ytimg.com/vi/Wkaw03p3BrM/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Two Minute Papers"
     }
   ],
   "featured": [
@@ -789,7 +789,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T07:46:05.421913+00:00",
+      "fetched_at": "2026-11-06T15:28:33.436289+00:00",
       "entries": [
         {
           "rank": 1,
@@ -871,7 +871,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T07:46:05.426468+00:00",
+      "fetched_at": "2026-11-06T15:28:33.438247+00:00",
       "entries": [
         {
           "rank": 1,
@@ -953,7 +953,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T07:46:05.431865+00:00",
+      "fetched_at": "2026-11-06T15:28:33.440650+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1035,7 +1035,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T07:46:05.433130+00:00",
+      "fetched_at": "2026-11-06T15:28:33.441312+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1089,7 +1089,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T07:46:05.442490+00:00",
+      "fetched_at": "2026-11-06T15:28:33.446915+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1171,7 +1171,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T07:46:05.442505+00:00",
+      "fetched_at": "2026-11-06T15:28:33.446932+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1225,7 +1225,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T07:46:05.444376+00:00",
+      "fetched_at": "2026-11-06T15:28:33.448208+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1307,7 +1307,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-06T07:46:05.475062+00:00",
+      "fetched_at": "2026-11-06T15:28:33.470290+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1389,7 +1389,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-06T07:46:05.507687+00:00",
+      "fetched_at": "2026-11-06T15:28:33.494331+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1471,7 +1471,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T07:46:05.519764+00:00",
+      "fetched_at": "2026-11-06T15:28:33.502046+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1553,7 +1553,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T07:46:05.524180+00:00",
+      "fetched_at": "2026-11-06T15:28:33.504965+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1635,7 +1635,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T07:46:05.536203+00:00",
+      "fetched_at": "2026-11-06T15:28:33.513233+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1717,7 +1717,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T07:46:05.539159+00:00",
+      "fetched_at": "2026-11-06T15:28:33.515168+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2000,58 +2000,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 2,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-11-06T07:45:48.495100+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-06T15:28:16.960463+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 6,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-11-06T07:45:47.464750+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-06T15:28:15.822773+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
-        "items": 9,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-11-06T07:45:51.596702+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-06T15:28:20.236110+00:00"
       },
       {
         "name": "Fireship",
-        "ok": false,
-        "items": 10,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-11-06T07:45:49.530446+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-06T15:28:17.988196+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-06T07:45:53.766831+00:00"
+        "checked_at": "2026-11-06T15:28:22.547268+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": false,
-        "items": 6,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-11-06T07:45:50.560733+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-06T15:28:19.095414+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-11-06T07:45:52.636063+00:00"
+        "error": null,
+        "checked_at": "2026-11-06T15:28:21.370349+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-06T07:46:05.544393+00:00"
+      "checked_at": "2026-11-06T15:28:33.517998+00:00"
     }
   }
 }
