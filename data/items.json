@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T01:00:08.147793+00:00",
+  "generated_at": "2026-11-06T07:46:05.554968+00:00",
   "items": [
     {
       "id": "yt:LHxOG65r12w",
@@ -14,6 +14,19 @@
       "channel": "WorldofAI"
     },
     {
+      "id": "paper:2611.08449",
+      "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+      "url": "https://huggingface.co/papers/2611.08449",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-05T00:00:00+00:00",
+      "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a meth",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 48,
+      "arxiv_id": "2611.08449"
+    },
+    {
       "id": "paper:2611.06918",
       "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
       "url": "https://huggingface.co/papers/2611.06918",
@@ -23,8 +36,21 @@
       "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 56,
+      "upvotes": 57,
       "arxiv_id": "2611.06918"
+    },
+    {
+      "id": "paper:2611.06483",
+      "title": "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
+      "url": "https://huggingface.co/papers/2611.06483",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-04T13:24:54+00:00",
+      "summary": "While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly sensitive to interaction constraints. Evaluating across sampling breadth K and interaction depth T via Pass@(K,T), we show that trajectory-level RL advantages depend on sufficient turn budgets, diminishing significantly when budgets tighten. Besides, agentic RL does not uniformly ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 35,
+      "arxiv_id": "2611.06483"
     },
     {
       "id": "yt:FQABKeCe1jM",
@@ -48,7 +74,7 @@
       "summary": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourag",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 124,
+      "upvotes": 126,
       "arxiv_id": "2611.06728"
     },
     {
@@ -61,7 +87,7 @@
       "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine doma",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 47,
+      "upvotes": 49,
       "arxiv_id": "2611.06910"
     },
     {
@@ -89,6 +115,19 @@
       "channel": "WorldofAI"
     },
     {
+      "id": "paper:2611.04408",
+      "title": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
+      "url": "https://huggingface.co/papers/2611.04408",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-03T06:45:50+00:00",
+      "summary": "A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicated network, and every training step ends with all of them exchanging data at once. Between racks, that network is optical, and each of its four layers, from lasers to switches, runs a fixed or after-the-fact policy. Lasers sharing an enclosure, cooling, and power can fail together. At a fix",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 36,
+      "arxiv_id": "2611.04408"
+    },
+    {
       "id": "paper:2611.05275",
       "title": "Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems",
       "url": "https://huggingface.co/papers/2611.05275",
@@ -111,7 +150,7 @@
       "summary": "Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire data--condi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 65,
+      "upvotes": 67,
       "arxiv_id": "2611.04916"
     },
     {
@@ -124,7 +163,7 @@
       "summary": "Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained. Existing reasoning compression methods primarily operate on reasoning trajectories, paying less attention to the local decision of whether further reasoning is necessary given the",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 56,
+      "upvotes": 57,
       "arxiv_id": "2611.04814"
     },
     {
@@ -137,7 +176,7 @@
       "summary": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embod",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 54,
+      "upvotes": 55,
       "arxiv_id": "2611.05377"
     },
     {
@@ -191,45 +230,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2611.02737",
-      "title": "MoviEdit: Long-form Multi-Shot Video Editing Made Easy",
-      "url": "https://huggingface.co/papers/2611.02737",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-02T00:00:00+00:00",
-      "summary": "Long-form multi-shot video editing requires an intended edit to remain coherent across abrupt changes in scene, viewpoint, and subject appearance, while processing substantially longer visual context than conventional single-shot editors. We introduce MoviEdit, an end-to-end framework for scalable long-form multi-shot video editing that jointly addresses the challenges of data, modeling, and evalu",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 74,
-      "arxiv_id": "2611.02737"
-    },
-    {
-      "id": "paper:2611.02497",
-      "title": "RoboColosseum: Evaluating Physical Intelligence at Scale In-The-Wild",
-      "url": "https://huggingface.co/papers/2611.02497",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-02T00:00:00+00:00",
-      "summary": "General-purpose robot policies must work across robots, tasks, and environments, yet the variation that makes physical trials informative also makes them difficult to reproduce. We introduce RoboColosseum, a distributed evaluation framework that combines unified policy serving and standardized protocols across a network of locally operated robots in diverse environments. Our initial study evaluate",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 47,
-      "arxiv_id": "2611.02497"
-    },
-    {
-      "id": "paper:2611.03424",
-      "title": "IdeaTaste: Do LLMs Share the Research Taste of Human Researchers?",
-      "url": "https://huggingface.co/papers/2611.03424",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-02T00:00:00+00:00",
-      "summary": "Research taste, the judgment of what to read, which problems to pursue, and which methods to try, increasingly shapes the work of AI scientists, yet it remains far less understood than their ability to execute research. We introduce IdeaTaste, a benchmark that scores an LLM by how closely the research proposals it writes from a literature snapshot frozen at 2025 match the work the same communities",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 47,
-      "arxiv_id": "2611.03424"
-    },
-    {
       "id": "paper:2611.03233",
       "title": "Axion 1.0: Open Agent Foundation Models, Simplified",
       "url": "https://huggingface.co/papers/2611.03233",
@@ -239,7 +239,7 @@
       "summary": "We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid-training, direct preference optimization (DPO), or on-policy distillation (OPD). The first SFT stag",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 46,
+      "upvotes": 47,
       "arxiv_id": "2611.03233"
     },
     {
@@ -288,7 +288,7 @@
       "summary": "Psychotherapy clients may experience distress before they can coherently describe it, and their expression changes with emotion, perceived safety, and trust. Large language model-based client simulators often rely on clinically organized case descriptions, which can encourage responses explaining the client's difficulties more clearly than their current understanding warrants. We propose Pandora, ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 77,
+      "upvotes": 76,
       "arxiv_id": "2611.00617"
     },
     {
@@ -789,77 +789,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T01:00:08.044961+00:00",
+      "fetched_at": "2026-11-06T07:46:05.421913+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "GPT Image 2.5 Sunburst (max)",
-          "score": 1200.0,
-          "meta": "Sep 2026 · $210.7 /1k imgs"
+          "score": 1199.0,
+          "meta": "Sep 2026 · $210.72 /1k imgs"
         },
         {
           "rank": 2,
           "name": "MAI-Image-2.7-Preview",
           "creator": "MAI-Image-2.7-Preview",
-          "score": 1196.0,
+          "score": 1195.0,
           "meta": "Oct 2026 · No API available"
         },
         {
           "rank": 3,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "GPT Image 2.5 Flare (max)",
-          "score": 1183.0,
-          "meta": "Sep 2026 · $210.7 /1k imgs"
+          "score": 1182.0,
+          "meta": "Sep 2026 · $210.72 /1k imgs"
         },
         {
           "rank": 4,
-          "name": "Nano Banana 2.1",
-          "creator": "Nano Banana 2.1",
+          "name": "Krea 3 (Ultra)",
+          "creator": "Krea 3 (Ultra)",
           "score": 1152.0,
-          "meta": "Oct 2026 · $33.6 /1k imgs"
+          "meta": "Oct 2026 · $100.00 /1k imgs"
         },
         {
           "rank": 5,
-          "name": "Krea 3 (Ultra)",
-          "creator": "Krea 3 (Ultra)",
-          "score": 1151.0,
-          "meta": "Oct 2026 · $100.0 /1k imgs"
+          "name": "Nano Banana 2.1",
+          "creator": "Nano Banana 2.1",
+          "score": 1152.0,
+          "meta": "Oct 2026 · $33.60 /1k imgs"
         },
         {
           "rank": 6,
           "name": "MAI-Image-2.6",
           "creator": "MAI-Image-2.6",
-          "score": 1150.0,
-          "meta": "Aug 2026 · $38.9 /1k imgs"
+          "score": 1149.0,
+          "meta": "Aug 2026 · $38.91 /1k imgs"
         },
         {
           "rank": 7,
           "name": "MAI-Image-2.6-Flash",
           "creator": "MAI-Image-2.6-Flash",
-          "score": 1142.0,
-          "meta": "Sep 2026 · $19.5 /1k imgs"
+          "score": 1141.0,
+          "meta": "Sep 2026 · $19.46 /1k imgs"
         },
         {
           "rank": 8,
           "name": "GPT Image 2 (high)",
           "creator": "GPT Image 2 (high)",
-          "score": 1137.0,
-          "meta": "Apr 2026 · $211.0 /1k imgs"
+          "score": 1136.0,
+          "meta": "Apr 2026 · $211.00 /1k imgs"
         },
         {
           "rank": 9,
           "name": "Seedream 5.0 Pro",
           "creator": "Seedream 5.0 Pro",
-          "score": 1130.0,
-          "meta": "Jul 2026 · $90.0 /1k imgs"
+          "score": 1129.0,
+          "meta": "Jul 2026 · $90.00 /1k imgs"
         },
         {
           "rank": 10,
           "name": "Muse Image",
           "creator": "Muse Image",
-          "score": 1129.0,
-          "meta": "Jul 2026 · $10.0 /1k imgs"
+          "score": 1128.0,
+          "meta": "Jul 2026 · $10.00 /1k imgs"
         }
       ]
     },
@@ -871,28 +871,28 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T01:00:08.047121+00:00",
+      "fetched_at": "2026-11-06T07:46:05.426468+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fibo 2.0",
           "creator": "Fibo 2.0",
-          "score": 1086.0,
-          "meta": "Oct 2026 · $32.0 /1k imgs"
+          "score": 1085.0,
+          "meta": "Oct 2026 · $32.00 /1k imgs"
         },
         {
           "rank": 2,
           "name": "Qwen-Image-2.1",
           "creator": "Qwen-Image-2.1",
-          "score": 1081.0,
+          "score": 1080.0,
           "meta": "Sep 2026 · No API available"
         },
         {
           "rank": 3,
           "name": "FLUX 3 Image Klein",
           "creator": "FLUX 3 Image Klein",
-          "score": 1070.0,
-          "meta": "Oct 2026 · $9.0 /1k imgs"
+          "score": 1069.0,
+          "meta": "Oct 2026 · $9.00 /1k imgs"
         },
         {
           "rank": 4,
@@ -905,43 +905,43 @@
           "rank": 5,
           "name": "FLUX.2 [dev] Turbo",
           "creator": "FLUX.2 [dev] Turbo",
-          "score": 1016.0,
-          "meta": "Dec 2025 · $8.0 /1k imgs"
+          "score": 1017.0,
+          "meta": "Dec 2025 · $8.00 /1k imgs"
         },
         {
           "rank": 6,
           "name": "FLUX.2 [dev] Flash",
           "creator": "FLUX.2 [dev] Flash",
-          "score": 1014.0,
-          "meta": "Dec 2025 · $5.0 /1k imgs"
+          "score": 1013.0,
+          "meta": "Dec 2025 · $5.00 /1k imgs"
         },
         {
           "rank": 7,
           "name": "FLUX.2 [klein] 9B",
           "creator": "FLUX.2 [klein] 9B",
-          "score": 1014.0,
-          "meta": "Jan 2026 · $17.0 /1k imgs"
+          "score": 1013.0,
+          "meta": "Jan 2026 · $17.00 /1k imgs"
         },
         {
           "rank": 8,
           "name": "FLUX.2 [dev]",
           "creator": "FLUX.2 [dev]",
           "score": 1000.0,
-          "meta": "Nov 2025 · $24.0 /1k imgs"
+          "meta": "Nov 2025 · $24.00 /1k imgs"
         },
         {
           "rank": 9,
           "name": "Qwen Image Edit Plus 2511",
           "creator": "Qwen Image Edit Plus 2511",
-          "score": 994.0,
-          "meta": "Nov 2025 · $60.0 /1k imgs"
+          "score": 992.0,
+          "meta": "Nov 2025 · $60.00 /1k imgs"
         },
         {
           "rank": 10,
           "name": "Qwen Image Edit Plus 2509",
           "creator": "Qwen Image Edit Plus 2509",
-          "score": 968.0,
-          "meta": "Sep 2025 · $30.0 /1k imgs"
+          "score": 967.0,
+          "meta": "Sep 2025 · $30.00 /1k imgs"
         }
       ]
     },
@@ -953,7 +953,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T01:00:08.049884+00:00",
+      "fetched_at": "2026-11-06T07:46:05.431865+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1035,7 +1035,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T01:00:08.050662+00:00",
+      "fetched_at": "2026-11-06T07:46:05.433130+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1089,7 +1089,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T01:00:08.057205+00:00",
+      "fetched_at": "2026-11-06T07:46:05.442490+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1171,7 +1171,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T01:00:08.057224+00:00",
+      "fetched_at": "2026-11-06T07:46:05.442505+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1225,7 +1225,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T01:00:08.058689+00:00",
+      "fetched_at": "2026-11-06T07:46:05.444376+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1307,7 +1307,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-06T01:00:08.082781+00:00",
+      "fetched_at": "2026-11-06T07:46:05.475062+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1389,7 +1389,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-06T01:00:08.109633+00:00",
+      "fetched_at": "2026-11-06T07:46:05.507687+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1471,77 +1471,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T01:00:08.118844+00:00",
+      "fetched_at": "2026-11-06T07:46:05.519764+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "GPT Image 2.5 Sunburst (max)",
           "score": 1227.0,
-          "meta": "Sep 2026 · $210.7 /1k imgs"
+          "meta": "Sep 2026 · $210.72 /1k imgs"
         },
         {
           "rank": 2,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "GPT Image 2.5 Flare (max)",
           "score": 1208.0,
-          "meta": "Sep 2026 · $210.7 /1k imgs"
+          "meta": "Sep 2026 · $210.72 /1k imgs"
         },
         {
           "rank": 3,
           "name": "GPT Image 2 (high)",
           "creator": "GPT Image 2 (high)",
           "score": 1188.0,
-          "meta": "Apr 2026 · $211.0 /1k imgs"
+          "meta": "Apr 2026 · $211.00 /1k imgs"
         },
         {
           "rank": 4,
           "name": "Nano Banana 2.1",
           "creator": "Nano Banana 2.1",
-          "score": 1175.0,
-          "meta": "Oct 2026 · $33.6 /1k imgs"
+          "score": 1176.0,
+          "meta": "Oct 2026 · $33.60 /1k imgs"
         },
         {
           "rank": 5,
           "name": "MAI-Image-2.6",
           "creator": "MAI-Image-2.6",
-          "score": 1169.0,
-          "meta": "Aug 2026 · $38.9 /1k imgs"
+          "score": 1168.0,
+          "meta": "Aug 2026 · $38.91 /1k imgs"
         },
         {
           "rank": 6,
           "name": "Grok Imagine Image 2.0",
           "creator": "Grok Imagine Image 2.0",
           "score": 1166.0,
-          "meta": "Aug 2026 · $60.0 /1k imgs"
+          "meta": "Aug 2026 · $60.00 /1k imgs"
         },
         {
           "rank": 7,
           "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "creator": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "score": 1142.0,
-          "meta": "Feb 2026 · $67.0 /1k imgs"
+          "meta": "Feb 2026 · $67.00 /1k imgs"
         },
         {
           "rank": 8,
           "name": "Muse Image",
           "creator": "Muse Image",
           "score": 1128.0,
-          "meta": "Jul 2026 · $10.0 /1k imgs"
+          "meta": "Jul 2026 · $10.00 /1k imgs"
         },
         {
           "rank": 9,
           "name": "GPT Image 1.5 (high)",
           "creator": "GPT Image 1.5 (high)",
-          "score": 1123.0,
-          "meta": "Dec 2025 · $133.0 /1k imgs"
+          "score": 1124.0,
+          "meta": "Dec 2025 · $133.00 /1k imgs"
         },
         {
           "rank": 10,
           "name": "MAI-Image-2.6-Flash",
           "creator": "MAI-Image-2.6-Flash",
-          "score": 1121.0,
-          "meta": "Sep 2026 · $19.5 /1k imgs"
+          "score": 1122.0,
+          "meta": "Sep 2026 · $19.46 /1k imgs"
         }
       ]
     },
@@ -1553,13 +1553,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T01:00:08.122493+00:00",
+      "fetched_at": "2026-11-06T07:46:05.524180+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Qwen-Image-2.1",
           "creator": "Qwen-Image-2.1",
-          "score": 1044.0,
+          "score": 1045.0,
           "meta": "Sep 2026 · No API available"
         },
         {
@@ -1567,49 +1567,49 @@
           "name": "FLUX 3 Image Klein",
           "creator": "FLUX 3 Image Klein",
           "score": 1043.0,
-          "meta": "Oct 2026 · $9.0 /1k imgs"
+          "meta": "Oct 2026 · $9.00 /1k imgs"
         },
         {
           "rank": 3,
           "name": "Fibo 2.0",
           "creator": "Fibo 2.0",
-          "score": 1040.0,
-          "meta": "Oct 2026 · $32.0 /1k imgs"
+          "score": 1039.0,
+          "meta": "Oct 2026 · $32.00 /1k imgs"
         },
         {
           "rank": 4,
           "name": "Ideogram 4.0 (Quality)",
           "creator": "Ideogram 4.0 (Quality)",
-          "score": 1026.0,
-          "meta": "Jun 2026 · $100.0 /1k imgs"
+          "score": 1027.0,
+          "meta": "Jun 2026 · $100.00 /1k imgs"
         },
         {
           "rank": 5,
           "name": "Ideogram 4.0",
           "creator": "Ideogram 4.0",
           "score": 1003.0,
-          "meta": "Jun 2026 · $60.0 /1k imgs"
+          "meta": "Jun 2026 · $60.00 /1k imgs"
         },
         {
           "rank": 6,
           "name": "Ming-Image-0.1-Design",
           "creator": "Ming-Image-0.1-Design",
           "score": 1000.0,
-          "meta": "Sep 2026 · $30.0 /1k imgs"
+          "meta": "Sep 2026 · $30.00 /1k imgs"
         },
         {
           "rank": 7,
           "name": "FLUX.2 [dev]",
           "creator": "FLUX.2 [dev]",
           "score": 1000.0,
-          "meta": "Nov 2025 · $12.0 /1k imgs"
+          "meta": "Nov 2025 · $12.00 /1k imgs"
         },
         {
           "rank": 8,
           "name": "FLUX.2 [dev] Turbo",
           "creator": "FLUX.2 [dev] Turbo",
-          "score": 997.0,
-          "meta": "Dec 2025 · $8.0 /1k imgs"
+          "score": 996.0,
+          "meta": "Dec 2025 · $8.00 /1k imgs"
         },
         {
           "rank": 9,
@@ -1622,8 +1622,8 @@
           "rank": 10,
           "name": "FLUX.2 [dev] Flash",
           "creator": "FLUX.2 [dev] Flash",
-          "score": 988.0,
-          "meta": "Dec 2025 · $5.0 /1k imgs"
+          "score": 989.0,
+          "meta": "Dec 2025 · $5.00 /1k imgs"
         }
       ]
     },
@@ -1635,77 +1635,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T01:00:08.131875+00:00",
+      "fetched_at": "2026-11-06T07:46:05.536203+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Eleven v4",
           "creator": "Eleven v4",
-          "score": 1334.0,
-          "meta": "Sept 2026 · $80.0 /1M chars"
+          "score": 1338.0,
+          "meta": "Sept 2026 · $80.00 /1M chars"
         },
         {
           "rank": 2,
           "name": "Eleven v4 Turbo",
           "creator": "Eleven v4 Turbo",
-          "score": 1331.0,
-          "meta": "Sept 2026 · $40.0 /1M chars"
+          "score": 1332.0,
+          "meta": "Sept 2026 · $40.00 /1M chars"
         },
         {
           "rank": 3,
-          "name": "Qwen-Audio-3.1-TTS-Plus",
-          "creator": "Qwen-Audio-3.1-TTS-Plus",
-          "score": 1301.0,
-          "meta": "Sept 2026 · $19.3 /1M chars"
+          "name": "Simba 3.5",
+          "creator": "Simba 3.5",
+          "score": 1320.0,
+          "meta": "Nov 2026 · $6.58 /1M chars"
         },
         {
           "rank": 4,
-          "name": "Sonic 3.6",
-          "creator": "Sonic 3.6",
-          "score": 1293.0,
-          "meta": "Aug 2026 · $49.0 /1M chars"
+          "name": "Qwen-Audio-3.1-TTS-Plus",
+          "creator": "Qwen-Audio-3.1-TTS-Plus",
+          "score": 1299.0,
+          "meta": "Sept 2026 · $19.31 /1M chars"
         },
         {
           "rank": 5,
-          "name": "Gemini 3.8 Flash TTS",
-          "creator": "Gemini 3.8 Flash TTS",
-          "score": 1282.0,
-          "meta": "Sept 2026 · $16.5 /1M chars"
+          "name": "Sonic 3.6",
+          "creator": "Sonic 3.6",
+          "score": 1293.0,
+          "meta": "Aug 2026 · $49.00 /1M chars"
         },
         {
           "rank": 6,
-          "name": "Fish Audio Drama 3",
-          "creator": "Fish Audio Drama 3",
-          "score": 1272.0,
-          "meta": "Oct 2026 · $15.0 /1M chars"
+          "name": "Gemini 3.8 Flash TTS",
+          "creator": "Gemini 3.8 Flash TTS",
+          "score": 1282.0,
+          "meta": "Sept 2026 · $16.49 /1M chars"
         },
         {
           "rank": 7,
-          "name": "Lightning V3.1 Pro (Oct 2026)",
-          "creator": "Lightning V3.1 Pro (Oct 2026)",
-          "score": 1269.0,
-          "meta": "Oct 2026 · $19.5 /1M chars"
+          "name": "Fish Audio Drama 3",
+          "creator": "Fish Audio Drama 3",
+          "score": 1272.0,
+          "meta": "Oct 2026 · $15.00 /1M chars"
         },
         {
           "rank": 8,
-          "name": "Qwen-Audio-3.0-TTS-Plus",
-          "creator": "Qwen-Audio-3.0-TTS-Plus",
-          "score": 1266.0,
-          "meta": "Sept 2026 · $19.3 /1M chars"
+          "name": "Lightning V3.1 Pro (Oct 2026)",
+          "creator": "Lightning V3.1 Pro (Oct 2026)",
+          "score": 1271.0,
+          "meta": "Oct 2026 · $19.50 /1M chars"
         },
         {
           "rank": 9,
-          "name": "Realtime TTS-2",
-          "creator": "Realtime TTS-2",
-          "score": 1266.0,
-          "meta": "Aug 2026 · $20.8 /1M chars"
+          "name": "Qwen-Audio-3.0-TTS-Plus",
+          "creator": "Qwen-Audio-3.0-TTS-Plus",
+          "score": 1267.0,
+          "meta": "Sept 2026 · $19.31 /1M chars"
         },
         {
           "rank": 10,
-          "name": "Gemini 3.8 Flash-Lite TTS",
-          "creator": "Gemini 3.8 Flash-Lite TTS",
-          "score": 1254.0,
-          "meta": "Sept 2026 · $11.0 /1M chars"
+          "name": "Realtime TTS-2",
+          "creator": "Realtime TTS-2",
+          "score": 1267.0,
+          "meta": "Aug 2026 · $20.83 /1M chars"
         }
       ]
     },
@@ -1717,69 +1717,69 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T01:00:08.134193+00:00",
+      "fetched_at": "2026-11-06T07:46:05.539159+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fish Audio Drama 3",
           "creator": "Fish Audio Drama 3",
           "score": 1272.0,
-          "meta": "Oct 2026 · $15.0 /1M chars"
+          "meta": "Oct 2026 · $15.00 /1M chars"
         },
         {
           "rank": 2,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio Drama 3 Preview",
           "score": 1239.0,
-          "meta": "Oct 2026 · $15.0 /1M chars"
+          "meta": "Oct 2026 · $15.00 /1M chars"
         },
         {
           "rank": 3,
           "name": "Breeze TTS 2",
           "creator": "Breeze TTS 2",
           "score": 1226.0,
-          "meta": "Aug 2026 · $34.0 /1M chars"
+          "meta": "Aug 2026 · $34.00 /1M chars"
         },
         {
           "rank": 4,
           "name": "Ming-3.0-tts",
           "creator": "Ming-3.0-tts",
-          "score": 1189.0,
+          "score": 1186.0,
           "meta": "Oct 2026 · N/A"
         },
         {
           "rank": 5,
           "name": "Phonon 31M (English)",
           "creator": "Phonon 31M (English)",
-          "score": 1111.0,
-          "meta": "Oct 2026 · $0.0 /1M chars"
+          "score": 1112.0,
+          "meta": "Oct 2026 · $0.00 /1M chars"
         },
         {
           "rank": 6,
           "name": "Fish Audio S2 Pro",
           "creator": "Fish Audio S2 Pro",
-          "score": 1108.0,
-          "meta": "Mar 2026 · $15.0 /1M chars"
+          "score": 1106.0,
+          "meta": "Mar 2026 · $15.00 /1M chars"
         },
         {
           "rank": 7,
           "name": "Step Audio EditX (Mar 2026)",
           "creator": "Step Audio EditX (Mar 2026)",
-          "score": 1097.0,
+          "score": 1098.0,
           "meta": "Feb 2026 · N/A"
         },
         {
           "rank": 8,
           "name": "Voxtral TTS",
           "creator": "Voxtral TTS",
-          "score": 1089.0,
-          "meta": "Mar 2026 · $16.0 /1M chars"
+          "score": 1091.0,
+          "meta": "Mar 2026 · $16.00 /1M chars"
         },
         {
           "rank": 9,
           "name": "Magpie-Multilingual 357M (Feb 2026)",
           "creator": "Magpie-Multilingual 357M (Feb 2026)",
-          "score": 1064.0,
+          "score": 1063.0,
           "meta": "Feb 2026 · N/A"
         },
         {
@@ -1787,7 +1787,7 @@
           "name": "Kokoro 82M v1.0",
           "creator": "Kokoro 82M v1.0",
           "score": 1061.0,
-          "meta": "Jan 2025 · $0.7 /1M chars"
+          "meta": "Jan 2025 · $0.65 /1M chars"
         }
       ]
     }
@@ -2003,55 +2003,55 @@
         "ok": false,
         "items": 2,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-11-06T00:59:51.504918+00:00"
+        "checked_at": "2026-11-06T07:45:48.495100+00:00"
       },
       {
         "name": "AI Search",
         "ok": false,
         "items": 6,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-11-06T00:59:50.425727+00:00"
+        "checked_at": "2026-11-06T07:45:47.464750+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": false,
-        "items": 10,
+        "items": 9,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-11-06T00:59:54.691239+00:00"
+        "checked_at": "2026-11-06T07:45:51.596702+00:00"
       },
       {
         "name": "Fireship",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-06T00:59:52.540079+00:00"
+        "ok": false,
+        "items": 10,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "checked_at": "2026-11-06T07:45:49.530446+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-06T00:59:57.017825+00:00"
+        "checked_at": "2026-11-06T07:45:53.766831+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": false,
         "items": 6,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-11-06T00:59:53.615456+00:00"
+        "checked_at": "2026-11-06T07:45:50.560733+00:00"
       },
       {
         "name": "World of AI",
         "ok": false,
         "items": 15,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-11-06T00:59:55.771572+00:00"
+        "checked_at": "2026-11-06T07:45:52.636063+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-06T01:00:08.139342+00:00"
+      "checked_at": "2026-11-06T07:46:05.544393+00:00"
     }
   }
 }
