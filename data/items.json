@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T20:59:08.035467+00:00",
+  "generated_at": "2026-11-07T00:39:21.712104+00:00",
   "items": [
     {
       "id": "yt:iw9SZgyahqg",
@@ -71,7 +71,7 @@
       "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a meth",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 86,
+      "upvotes": 91,
       "arxiv_id": "2611.08449"
     },
     {
@@ -114,6 +114,19 @@
       "arxiv_id": "2611.06918"
     },
     {
+      "id": "paper:2611.06483",
+      "title": "What Does Multi-Turn Reinforcement Learning Really Improve in LLM Agents?",
+      "url": "https://huggingface.co/papers/2611.06483",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-04T13:24:54+00:00",
+      "summary": "While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly sensitive to interaction constraints. Evaluating across sampling breadth K and interaction depth T via Pass@(K,T), we show that trajectory-level RL advantages depend on sufficient turn budgets, diminishing significantly when budgets tighten. Besides, agentic RL does not uniformly ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 36,
+      "arxiv_id": "2611.06483"
+    },
+    {
       "id": "yt:FQABKeCe1jM",
       "title": "OpenAI's NEW GPT-ADA! GPT-6.2 Astra is Fable 5.5 Level?! Hy4 IS OUT, DeepSeek V5, & More! AI NEWS",
       "url": "https://www.youtube.com/watch?v=FQABKeCe1jM",
@@ -148,8 +161,21 @@
       "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine doma",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 53,
+      "upvotes": 55,
       "arxiv_id": "2611.06910"
+    },
+    {
+      "id": "paper:2611.06741",
+      "title": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
+      "url": "https://huggingface.co/papers/2611.06741",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-04T00:00:00+00:00",
+      "summary": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts, potentially altering pretrained priors, or through specialized inference-time mechanisms that are diff",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 36,
+      "arxiv_id": "2611.06741"
     },
     {
       "id": "yt:k2ruCf_z75I",
@@ -198,7 +224,7 @@
       "summary": "Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained. Existing reasoning compression methods primarily operate on reasoning trajectories, paying less attention to the local decision of whether further reasoning is necessary given the",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 59,
+      "upvotes": 60,
       "arxiv_id": "2611.04814"
     },
     {
@@ -325,32 +351,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/eadEYJY9ydg/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
-    },
-    {
-      "id": "paper:2611.00883",
-      "title": "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand",
-      "url": "https://huggingface.co/papers/2611.00883",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-31T00:00:00+00:00",
-      "summary": "Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small benchmark subset that closely matches full-benchmark results. To quantify estimation error, we derive an accurate analytical approximation to the error distribution when estimating full-benchmark scores from a subset, showing that most subsets yield small errors, while a few produc",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 50,
-      "arxiv_id": "2611.00883"
-    },
-    {
-      "id": "paper:2610.37257",
-      "title": "GameVerse: A Minute-Scale Gameplay Dataset for Long-Horizon Interactive World Modeling",
-      "url": "https://huggingface.co/papers/2610.37257",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-10-31T00:00:00+00:00",
-      "summary": "Recent advances in interactive world models have made it possible to generate controllable, dynamic environments from action inputs. Yet current models struggle to maintain coherence beyond roughly one minute of rollout, a limitation rooted not in model capacity but in the scarcity of long-horizon training data. Existing gameplay video datasets typically consist of clips under ten seconds, with ca",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 37,
-      "arxiv_id": "2610.37257"
     },
     {
       "id": "yt:CWdTBLsbaQs",
@@ -771,18 +771,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/X0_GDOkLKzQ/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "yt:rGUzoHunuV8",
-      "title": "Claude Haiku 5.5 Is INSANE – This IS the BEST Cheap Model Yet!",
-      "url": "https://www.youtube.com/watch?v=rGUzoHunuV8",
-      "source": "Bijan Bowen",
-      "category": "videos",
-      "published": "2026-10-07T23:32:41+00:00",
-      "summary": "Timestamps: 00:00 - Intro 01:07 - First Look 02:00 - Technical Look 04:00 - Browser OS Test 09:13 - C++ Skate Game Test 13:59 - Blender & Godot Pool Game Test 18:10 - Subway FPS Test 22:47 - RuneScape 2007 Replica Test 25:33 - Demo Derby Test 28:10 - Usage Overview 29:27 - Results Overview Join the ",
-      "thumbnail": "https://i3.ytimg.com/vi/rGUzoHunuV8/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Bijan Bowen"
     }
   ],
   "featured": [
@@ -801,77 +789,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T20:59:07.970454+00:00",
+      "fetched_at": "2026-11-07T00:39:21.584010+00:00",
       "entries": [
         {
           "rank": 1,
+          "name": "GPT Image 2.6 Sunburst (max)",
+          "creator": "GPT Image 2.6 Sunburst (max)",
+          "score": 1209.0,
+          "meta": "Nov 2026 · $210.72 /1k imgs"
+        },
+        {
+          "rank": 2,
+          "name": "GPT Image 2.6 Flare (max)",
+          "creator": "GPT Image 2.6 Flare (max)",
+          "score": 1206.0,
+          "meta": "Nov 2026 · $210.72 /1k imgs"
+        },
+        {
+          "rank": 3,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "GPT Image 2.5 Sunburst (max)",
           "score": 1199.0,
           "meta": "Sep 2026 · $210.72 /1k imgs"
         },
         {
-          "rank": 2,
+          "rank": 4,
           "name": "MAI-Image-2.7-Preview",
           "creator": "MAI-Image-2.7-Preview",
           "score": 1195.0,
           "meta": "Oct 2026 · No API available"
         },
         {
-          "rank": 3,
+          "rank": 5,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "GPT Image 2.5 Flare (max)",
           "score": 1182.0,
           "meta": "Sep 2026 · $210.72 /1k imgs"
         },
         {
-          "rank": 4,
+          "rank": 6,
+          "name": "Kling 4.0 Image (preview)",
+          "creator": "Kling 4.0 Image (preview)",
+          "score": 1180.0,
+          "meta": "- · Coming soon"
+        },
+        {
+          "rank": 7,
           "name": "Krea 3 (Ultra)",
           "creator": "Krea 3 (Ultra)",
           "score": 1152.0,
           "meta": "Oct 2026 · $100.00 /1k imgs"
         },
         {
-          "rank": 5,
+          "rank": 8,
           "name": "Nano Banana 2.1",
           "creator": "Nano Banana 2.1",
           "score": 1152.0,
           "meta": "Oct 2026 · $33.60 /1k imgs"
         },
         {
-          "rank": 6,
+          "rank": 9,
           "name": "MAI-Image-2.6",
           "creator": "MAI-Image-2.6",
           "score": 1149.0,
           "meta": "Aug 2026 · $38.91 /1k imgs"
         },
         {
-          "rank": 7,
+          "rank": 10,
           "name": "MAI-Image-2.6-Flash",
           "creator": "MAI-Image-2.6-Flash",
           "score": 1141.0,
           "meta": "Sep 2026 · $19.46 /1k imgs"
-        },
-        {
-          "rank": 8,
-          "name": "GPT Image 2 (high)",
-          "creator": "GPT Image 2 (high)",
-          "score": 1136.0,
-          "meta": "Apr 2026 · $211.00 /1k imgs"
-        },
-        {
-          "rank": 9,
-          "name": "Seedream 5.0 Pro",
-          "creator": "Seedream 5.0 Pro",
-          "score": 1129.0,
-          "meta": "Jul 2026 · $90.00 /1k imgs"
-        },
-        {
-          "rank": 10,
-          "name": "Muse Image",
-          "creator": "Muse Image",
-          "score": 1128.0,
-          "meta": "Jul 2026 · $10.00 /1k imgs"
         }
       ]
     },
@@ -883,7 +871,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T20:59:07.971768+00:00",
+      "fetched_at": "2026-11-07T00:39:21.586773+00:00",
       "entries": [
         {
           "rank": 1,
@@ -965,41 +953,41 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T20:59:07.973418+00:00",
+      "fetched_at": "2026-11-07T00:39:21.590279+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Dreamina Seedance 2.5",
           "creator": "Dreamina Seedance 2.5",
-          "score": 1159.0,
+          "score": 1158.0,
           "meta": "Jul 2026 · $34.12 /min"
         },
         {
           "rank": 2,
           "name": "Utopai X",
           "creator": "Utopai X",
-          "score": 1147.0,
+          "score": 1149.0,
           "meta": "Sep 2026 · No API available"
         },
         {
           "rank": 3,
           "name": "Dreamina Seedance 2.0",
           "creator": "Dreamina Seedance 2.0",
-          "score": 1135.0,
+          "score": 1137.0,
           "meta": "Mar 2026 · $22.45 /min"
         },
         {
           "rank": 4,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1131.0,
+          "score": 1133.0,
           "meta": "Jul 2026 · $4.80 /min"
         },
         {
           "rank": 5,
           "name": "HeyGen Video 1",
           "creator": "HeyGen Video 1",
-          "score": 1124.0,
+          "score": 1123.0,
           "meta": "Oct 2026 · $2.40 /min"
         },
         {
@@ -1013,21 +1001,21 @@
           "rank": 7,
           "name": "P-Video-2-Pro",
           "creator": "P-Video-2-Pro",
-          "score": 1119.0,
+          "score": 1117.0,
           "meta": "Sep 2026 · $5.70 /min"
         },
         {
           "rank": 8,
           "name": "MiniMax H3 Max",
           "creator": "MiniMax H3 Max",
-          "score": 1116.0,
+          "score": 1115.0,
           "meta": "Aug 2026 · $9.60 /min"
         },
         {
           "rank": 9,
           "name": "Wan 3.0",
           "creator": "Wan 3.0",
-          "score": 1112.0,
+          "score": 1109.0,
           "meta": "Aug 2026 · $12.00 /min"
         },
         {
@@ -1047,13 +1035,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T20:59:07.973851+00:00",
+      "fetched_at": "2026-11-07T00:39:21.591195+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1131.0,
+          "score": 1133.0,
           "meta": "Jul 2026 · $4.80 /min"
         },
         {
@@ -1067,28 +1055,28 @@
           "rank": 3,
           "name": "LTX-2.5 Fast",
           "creator": "LTX-2.5 Fast",
-          "score": 913.0,
+          "score": 912.0,
           "meta": "Aug 2026 · $7.80 /min"
         },
         {
           "rank": 4,
           "name": "LTX-2.5 Pro",
           "creator": "LTX-2.5 Pro",
-          "score": 910.0,
+          "score": 911.0,
           "meta": "Aug 2026 · $10.20 /min"
         },
         {
           "rank": 5,
           "name": "LTX-2.3 Pro",
           "creator": "LTX-2.3 Pro",
-          "score": 838.0,
+          "score": 840.0,
           "meta": "Mar 2026 · $4.80 /min"
         },
         {
           "rank": 6,
           "name": "LTX-2.3 Fast",
           "creator": "LTX-2.3 Fast",
-          "score": 830.0,
+          "score": 832.0,
           "meta": "Mar 2026 · $3.60 /min"
         }
       ]
@@ -1101,39 +1089,39 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T20:59:07.976959+00:00",
+      "fetched_at": "2026-11-07T00:39:21.597992+00:00",
       "entries": [
         {
           "rank": 1,
-          "score": 1156.0,
+          "score": 1154.0,
           "name": "Utopai X",
           "creator": "Utopai Studios",
           "meta": ""
         },
         {
           "rank": 2,
-          "score": 1130.0,
+          "score": 1131.0,
           "name": "Dreamina Seedance 2.5",
           "creator": "ByteDance Seed",
           "meta": ""
         },
         {
           "rank": 3,
-          "score": 1123.0,
-          "name": "MiniMax H3 Max",
-          "creator": "Fal",
-          "meta": ""
-        },
-        {
-          "rank": 4,
-          "score": 1121.0,
+          "score": 1122.0,
           "name": "Bach 1.0 Pro",
           "creator": "Video Rebirth",
           "meta": ""
         },
         {
+          "rank": 4,
+          "score": 1122.0,
+          "name": "MiniMax H3 Max",
+          "creator": "Fal",
+          "meta": ""
+        },
+        {
           "rank": 5,
-          "score": 1120.0,
+          "score": 1121.0,
           "name": "Hyperflow H3",
           "creator": "Video Rebirth",
           "meta": ""
@@ -1154,14 +1142,14 @@
         },
         {
           "rank": 8,
-          "score": 1107.0,
+          "score": 1106.0,
           "name": "P-Video-2-Pro",
           "creator": "Pruna AI",
           "meta": ""
         },
         {
           "rank": 9,
-          "score": 1104.0,
+          "score": 1105.0,
           "name": "HeyGen Video 1",
           "creator": "HeyGen",
           "meta": ""
@@ -1183,13 +1171,13 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T20:59:07.976967+00:00",
+      "fetched_at": "2026-11-07T00:39:21.598009+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1131.0,
+          "score": 1133.0,
           "meta": "Jul 2026 · $4.80 /min"
         },
         {
@@ -1203,28 +1191,28 @@
           "rank": 3,
           "name": "LTX-2.5 Fast",
           "creator": "LTX-2.5 Fast",
-          "score": 913.0,
+          "score": 912.0,
           "meta": "Aug 2026 · $7.80 /min"
         },
         {
           "rank": 4,
           "name": "LTX-2.5 Pro",
           "creator": "LTX-2.5 Pro",
-          "score": 910.0,
+          "score": 911.0,
           "meta": "Aug 2026 · $10.20 /min"
         },
         {
           "rank": 5,
           "name": "LTX-2.3 Pro",
           "creator": "LTX-2.3 Pro",
-          "score": 838.0,
+          "score": 840.0,
           "meta": "Mar 2026 · $4.80 /min"
         },
         {
           "rank": 6,
           "name": "LTX-2.3 Fast",
           "creator": "LTX-2.3 Fast",
-          "score": 830.0,
+          "score": 832.0,
           "meta": "Mar 2026 · $3.60 /min"
         }
       ]
@@ -1237,7 +1225,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T20:59:07.977854+00:00",
+      "fetched_at": "2026-11-07T00:39:21.599888+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1319,7 +1307,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-06T20:59:07.993144+00:00",
+      "fetched_at": "2026-11-07T00:39:21.631046+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1401,7 +1389,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-06T20:59:08.009569+00:00",
+      "fetched_at": "2026-11-07T00:39:21.664256+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1483,77 +1471,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T20:59:08.015380+00:00",
+      "fetched_at": "2026-11-07T00:39:21.676071+00:00",
       "entries": [
         {
           "rank": 1,
+          "name": "GPT Image 2.6 Sunburst (max)",
+          "creator": "GPT Image 2.6 Sunburst (max)",
+          "score": 1259.0,
+          "meta": "Nov 2026 · $210.72 /1k imgs"
+        },
+        {
+          "rank": 2,
+          "name": "GPT Image 2.6 Flare (max)",
+          "creator": "GPT Image 2.6 Flare (max)",
+          "score": 1228.0,
+          "meta": "Nov 2026 · $210.72 /1k imgs"
+        },
+        {
+          "rank": 3,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "GPT Image 2.5 Sunburst (max)",
           "score": 1227.0,
           "meta": "Sep 2026 · $210.72 /1k imgs"
         },
         {
-          "rank": 2,
+          "rank": 4,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "GPT Image 2.5 Flare (max)",
           "score": 1208.0,
           "meta": "Sep 2026 · $210.72 /1k imgs"
         },
         {
-          "rank": 3,
+          "rank": 5,
           "name": "GPT Image 2 (high)",
           "creator": "GPT Image 2 (high)",
           "score": 1188.0,
           "meta": "Apr 2026 · $211.00 /1k imgs"
         },
         {
-          "rank": 4,
+          "rank": 6,
+          "name": "Kling 4.0 Image (preview)",
+          "creator": "Kling 4.0 Image (preview)",
+          "score": 1178.0,
+          "meta": "- · Coming soon"
+        },
+        {
+          "rank": 7,
           "name": "Nano Banana 2.1",
           "creator": "Nano Banana 2.1",
           "score": 1176.0,
           "meta": "Oct 2026 · $33.60 /1k imgs"
         },
         {
-          "rank": 5,
+          "rank": 8,
           "name": "MAI-Image-2.6",
           "creator": "MAI-Image-2.6",
           "score": 1168.0,
           "meta": "Aug 2026 · $38.91 /1k imgs"
         },
         {
-          "rank": 6,
+          "rank": 9,
           "name": "Grok Imagine Image 2.0",
           "creator": "Grok Imagine Image 2.0",
           "score": 1166.0,
           "meta": "Aug 2026 · $60.00 /1k imgs"
         },
         {
-          "rank": 7,
+          "rank": 10,
           "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "creator": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "score": 1142.0,
           "meta": "Feb 2026 · $67.00 /1k imgs"
-        },
-        {
-          "rank": 8,
-          "name": "Muse Image",
-          "creator": "Muse Image",
-          "score": 1128.0,
-          "meta": "Jul 2026 · $10.00 /1k imgs"
-        },
-        {
-          "rank": 9,
-          "name": "GPT Image 1.5 (high)",
-          "creator": "GPT Image 1.5 (high)",
-          "score": 1124.0,
-          "meta": "Dec 2025 · $133.00 /1k imgs"
-        },
-        {
-          "rank": 10,
-          "name": "MAI-Image-2.6-Flash",
-          "creator": "MAI-Image-2.6-Flash",
-          "score": 1122.0,
-          "meta": "Sep 2026 · $19.46 /1k imgs"
         }
       ]
     },
@@ -1565,7 +1553,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T20:59:08.017432+00:00",
+      "fetched_at": "2026-11-07T00:39:21.680361+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1647,7 +1635,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T20:59:08.023263+00:00",
+      "fetched_at": "2026-11-07T00:39:21.692114+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1729,7 +1717,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-06T20:59:08.024640+00:00",
+      "fetched_at": "2026-11-07T00:39:21.694897+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2012,58 +2000,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-06T20:58:51.219195+00:00"
+        "ok": false,
+        "items": 2,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-11-07T00:39:06.024360+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-06T20:58:50.102964+00:00"
+        "ok": false,
+        "items": 6,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-11-07T00:39:04.950230+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-06T20:58:54.564866+00:00"
+        "ok": false,
+        "items": 10,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-11-07T00:39:09.215428+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-06T20:58:52.242059+00:00"
+        "checked_at": "2026-11-07T00:39:07.057398+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-06T20:58:56.914599+00:00"
+        "checked_at": "2026-11-07T00:39:11.483313+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-06T20:58:53.337127+00:00"
+        "ok": false,
+        "items": 6,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-11-07T00:39:08.136778+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-11-06T20:58:55.701138+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-11-07T00:39:10.292025+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-06T20:59:08.030125+00:00"
+      "checked_at": "2026-11-07T00:39:21.700667+00:00"
     }
   }
 }
