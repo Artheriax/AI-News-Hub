@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-11-07T13:39:37.590127+00:00",
+  "generated_at": "2026-11-07T18:24:45.014681+00:00",
   "items": [
+    {
+      "id": "yt:GJ6PMUm5oTA",
+      "title": "OpenAI's Astra Just Opened The Black Box Of AI",
+      "url": "https://www.youtube.com/watch?v=GJ6PMUm5oTA",
+      "source": "Two Minute Papers",
+      "category": "videos",
+      "published": "2026-11-07T16:24:47+00:00",
+      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.com/papers 📝 The Weight Space Programming work is available here: https://rikiyat.github.io/blog/weight-space-programming/ 🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible: Adam Bridg",
+      "thumbnail": "https://i4.ytimg.com/vi/GJ6PMUm5oTA/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Two Minute Papers"
+    },
+    {
+      "id": "yt:Ru4V_nMbaJU",
+      "title": "Vibe Coding REAL Hardware With Olares One & Local AI!",
+      "url": "https://www.youtube.com/watch?v=Ru4V_nMbaJU",
+      "source": "Bijan Bowen",
+      "category": "videos",
+      "published": "2026-11-07T14:18:29+00:00",
+      "summary": "Olares One – Get $300 off: https://shop.olares.com/products/olares-one-exclusive-for-bijan-bowens-viewers-get-300-off In this video, we take a hands-on look at Olares One, exploring its hardware, operating system, and development capabilities through a complete real-world project. We begin with an o",
+      "thumbnail": "https://i3.ytimg.com/vi/Ru4V_nMbaJU/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Bijan Bowen"
+    },
     {
       "id": "yt:LJa_k2JyFsk",
       "title": "QWEN 4 Preview IS INSANE! First Look at Qwen 4 Max & 27B! Greatest Open Model Ever!",
@@ -27,12 +51,12 @@
     },
     {
       "id": "yt:GBjDU9Ct0VQ",
-      "title": "Tencent HY4 Is INSANE – Is THIS the BEST Open Model Yet?",
+      "title": "Tencent Hy4 Is INSANE – Is THIS the BEST Open Model Yet?",
       "url": "https://www.youtube.com/watch?v=GBjDU9Ct0VQ",
       "source": "Bijan Bowen",
       "category": "videos",
       "published": "2026-11-06T15:29:55+00:00",
-      "summary": "Timestamps: 00:00 - Intro 01:05 - First Look 02:24 - Technical Look 04:42 - Browser OS Test 10:36 - C++ Skate Game Test 13:04 - Blender & Godot Wrestling Test 16:07 - Subway FPS Test 19:47 - Pool Party Test 22:13 - Image to Blender Test 25:14 - Benchmax C++ Test 29:35 - Results Overview 32:00 - Clos",
+      "summary": "Try Tencent Hy4 on WorkBuddy here: https://www.workbuddy.ai/?fromSource=gwzcw.24559276.24559276.24559276&utm_medium=cpm&utm_id=gwzcw.24559276.24559276.24559276 Timestamps: 00:00 - Intro 01:05 - First Look 02:24 - Technical Look 04:42 - Browser OS Test 10:36 - C++ Skate Game Test 13:04 - Blender & Go",
       "thumbnail": "https://i4.ytimg.com/vi/GBjDU9Ct0VQ/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
@@ -96,7 +120,7 @@
       "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capabi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 77,
+      "upvotes": 79,
       "arxiv_id": "2611.08373"
     },
     {
@@ -202,6 +226,19 @@
       "channel": "Fireship"
     },
     {
+      "id": "paper:2611.05376",
+      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "url": "https://huggingface.co/papers/2611.05376",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-03T18:59:52+00:00",
+      "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 50,
+      "arxiv_id": "2611.05376"
+    },
+    {
       "id": "yt:i-wYjUriSzo",
       "title": "Anthropic's RSI Breakthrough?! NEW Fable 5.5 Checkpoint, NEW GPT, DeepSeek Harness, & More! AI NEWS",
       "url": "https://www.youtube.com/watch?v=i-wYjUriSzo",
@@ -214,17 +251,17 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2611.04408",
-      "title": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
-      "url": "https://huggingface.co/papers/2611.04408",
+      "id": "paper:2611.04277",
+      "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+      "url": "https://huggingface.co/papers/2611.04277",
       "source": "Hugging Face Papers",
       "category": "papers",
-      "published": "2026-11-03T06:45:50+00:00",
-      "summary": "A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicated network, and every training step ends with all of them exchanging data at once. Between racks, that network is optical, and each of its four layers, from lasers to switches, runs a fixed or after-the-fact policy. Lasers sharing an enclosure, cooling, and power can fail together. At a fix",
+      "published": "2026-11-03T00:00:00+00:00",
+      "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy th",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 32,
-      "arxiv_id": "2611.04408"
+      "upvotes": 61,
+      "arxiv_id": "2611.04277"
     },
     {
       "id": "paper:2611.04814",
@@ -238,19 +275,6 @@
       "kind": "paper",
       "upvotes": 61,
       "arxiv_id": "2611.04814"
-    },
-    {
-      "id": "paper:2611.04277",
-      "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
-      "url": "https://huggingface.co/papers/2611.04277",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-03T00:00:00+00:00",
-      "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy th",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 59,
-      "arxiv_id": "2611.04277"
     },
     {
       "id": "paper:2611.05377",
@@ -275,7 +299,7 @@
       "summary": "Composed Image Retrieval (CIR) aims to retrieve a target image given a reference image and a modification text. Although recent approaches leveraging Multimodal Large Language Models (MLLMs) have shown significant progress, we argue that the MLLM's compositional understanding remains underutilized. This stems from directly mapping composed queries into a retrieval embedding via contrastive supervi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 47,
+      "upvotes": 48,
       "arxiv_id": "2611.05193"
     },
     {
@@ -789,7 +813,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T13:39:37.462868+00:00",
+      "fetched_at": "2026-11-07T18:24:44.916710+00:00",
       "entries": [
         {
           "rank": 1,
@@ -871,7 +895,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T13:39:37.465597+00:00",
+      "fetched_at": "2026-11-07T18:24:44.918862+00:00",
       "entries": [
         {
           "rank": 1,
@@ -953,7 +977,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T13:39:37.469126+00:00",
+      "fetched_at": "2026-11-07T18:24:44.921523+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1035,7 +1059,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T13:39:37.470017+00:00",
+      "fetched_at": "2026-11-07T18:24:44.922213+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1089,7 +1113,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T13:39:37.476926+00:00",
+      "fetched_at": "2026-11-07T18:24:44.927768+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1171,7 +1195,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T13:39:37.476942+00:00",
+      "fetched_at": "2026-11-07T18:24:44.927782+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1225,7 +1249,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T13:39:37.478846+00:00",
+      "fetched_at": "2026-11-07T18:24:44.929267+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1307,7 +1331,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-07T13:39:37.510216+00:00",
+      "fetched_at": "2026-11-07T18:24:44.953400+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1389,7 +1413,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-07T13:39:37.543732+00:00",
+      "fetched_at": "2026-11-07T18:24:44.979773+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1471,7 +1495,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T13:39:37.555589+00:00",
+      "fetched_at": "2026-11-07T18:24:44.988280+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1553,7 +1577,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T13:39:37.559835+00:00",
+      "fetched_at": "2026-11-07T18:24:44.991455+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1635,7 +1659,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T13:39:37.571130+00:00",
+      "fetched_at": "2026-11-07T18:24:45.000451+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1717,7 +1741,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T13:39:37.573802+00:00",
+      "fetched_at": "2026-11-07T18:24:45.002625+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2003,55 +2027,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-07T13:39:22.094862+00:00"
+        "checked_at": "2026-11-07T18:24:28.062832+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-07T13:39:21.068364+00:00"
+        "checked_at": "2026-11-07T18:24:26.955226+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-07T13:39:25.270796+00:00"
+        "checked_at": "2026-11-07T18:24:31.195292+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-07T13:39:23.233035+00:00"
+        "checked_at": "2026-11-07T18:24:29.083634+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-07T13:39:27.443035+00:00"
+        "checked_at": "2026-11-07T18:24:33.554281+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-07T13:39:24.252383+00:00"
+        "checked_at": "2026-11-07T18:24:30.107036+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-07T13:39:26.305754+00:00"
+        "checked_at": "2026-11-07T18:24:32.354780+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-07T13:39:37.579384+00:00"
+      "checked_at": "2026-11-07T18:24:45.007321+00:00"
     }
   }
 }
