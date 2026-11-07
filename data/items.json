@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T00:39:21.712104+00:00",
+  "generated_at": "2026-11-07T06:42:52.894250+00:00",
   "items": [
     {
       "id": "yt:iw9SZgyahqg",
@@ -62,19 +62,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2611.08449",
-      "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
-      "url": "https://huggingface.co/papers/2611.08449",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-05T00:00:00+00:00",
-      "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a meth",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 91,
-      "arxiv_id": "2611.08449"
-    },
-    {
       "id": "paper:2611.08373",
       "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
       "url": "https://huggingface.co/papers/2611.08373",
@@ -84,8 +71,21 @@
       "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capabi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 48,
+      "upvotes": 128,
       "arxiv_id": "2611.08373"
+    },
+    {
+      "id": "paper:2611.08449",
+      "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+      "url": "https://huggingface.co/papers/2611.08449",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-05T00:00:00+00:00",
+      "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a meth",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 96,
+      "arxiv_id": "2611.08449"
     },
     {
       "id": "paper:2611.07392",
@@ -97,7 +97,7 @@
       "summary": "We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes text, reference images, and target latents as one interleaved sequence. A Mixture-of-Transformers (MoT) backbon",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 37,
+      "upvotes": 39,
       "arxiv_id": "2611.07392"
     },
     {
@@ -110,7 +110,7 @@
       "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 58,
+      "upvotes": 59,
       "arxiv_id": "2611.06918"
     },
     {
@@ -161,7 +161,7 @@
       "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine doma",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 55,
+      "upvotes": 56,
       "arxiv_id": "2611.06910"
     },
     {
@@ -174,7 +174,7 @@
       "summary": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts, potentially altering pretrained priors, or through specialized inference-time mechanisms that are diff",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 36,
+      "upvotes": 37,
       "arxiv_id": "2611.06741"
     },
     {
@@ -211,7 +211,7 @@
       "summary": "A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicated network, and every training step ends with all of them exchanging data at once. Between racks, that network is optical, and each of its four layers, from lasers to switches, runs a fixed or after-the-fact policy. Lasers sharing an enclosure, cooling, and power can fail together. At a fix",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 38,
+      "upvotes": 39,
       "arxiv_id": "2611.04408"
     },
     {
@@ -250,7 +250,7 @@
       "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy th",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 54,
+      "upvotes": 55,
       "arxiv_id": "2611.04277"
     },
     {
@@ -337,7 +337,7 @@
       "summary": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner. Language models provide semantic representations of current and historical records, ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 113,
+      "upvotes": 114,
       "arxiv_id": "2611.02075"
     },
     {
@@ -789,7 +789,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T00:39:21.584010+00:00",
+      "fetched_at": "2026-11-07T06:42:52.784240+00:00",
       "entries": [
         {
           "rank": 1,
@@ -828,38 +828,38 @@
         },
         {
           "rank": 6,
-          "name": "Kling 4.0 Image (preview)",
-          "creator": "Kling 4.0 Image (preview)",
-          "score": 1180.0,
-          "meta": "- · Coming soon"
-        },
-        {
-          "rank": 7,
           "name": "Krea 3 (Ultra)",
           "creator": "Krea 3 (Ultra)",
           "score": 1152.0,
           "meta": "Oct 2026 · $100.00 /1k imgs"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "name": "Nano Banana 2.1",
           "creator": "Nano Banana 2.1",
           "score": 1152.0,
           "meta": "Oct 2026 · $33.60 /1k imgs"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "name": "MAI-Image-2.6",
           "creator": "MAI-Image-2.6",
           "score": 1149.0,
           "meta": "Aug 2026 · $38.91 /1k imgs"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "name": "MAI-Image-2.6-Flash",
           "creator": "MAI-Image-2.6-Flash",
           "score": 1141.0,
           "meta": "Sep 2026 · $19.46 /1k imgs"
+        },
+        {
+          "rank": 10,
+          "name": "GPT Image 2 (high)",
+          "creator": "GPT Image 2 (high)",
+          "score": 1136.0,
+          "meta": "Apr 2026 · $211.00 /1k imgs"
         }
       ]
     },
@@ -871,7 +871,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T00:39:21.586773+00:00",
+      "fetched_at": "2026-11-07T06:42:52.786702+00:00",
       "entries": [
         {
           "rank": 1,
@@ -953,7 +953,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T00:39:21.590279+00:00",
+      "fetched_at": "2026-11-07T06:42:52.789866+00:00",
       "entries": [
         {
           "rank": 1,
@@ -992,38 +992,38 @@
         },
         {
           "rank": 6,
+          "name": "SkyReels V4",
+          "creator": "SkyReels V4",
+          "score": 1123.0,
+          "meta": "Mar 2026 · $21.00 /min"
+        },
+        {
+          "rank": 7,
           "name": "Hyperflow H3",
           "creator": "Hyperflow H3",
           "score": 1120.0,
           "meta": "Sep 2026 · $9.00 /min"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "P-Video-2-Pro",
           "creator": "P-Video-2-Pro",
           "score": 1117.0,
           "meta": "Sep 2026 · $5.70 /min"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "MiniMax H3 Max",
           "creator": "MiniMax H3 Max",
           "score": 1115.0,
           "meta": "Aug 2026 · $9.60 /min"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Wan 3.0",
           "creator": "Wan 3.0",
           "score": 1109.0,
           "meta": "Aug 2026 · $12.00 /min"
-        },
-        {
-          "rank": 10,
-          "name": "Agnes-Video-2.5",
-          "creator": "Agnes-Video-2.5",
-          "score": 1104.0,
-          "meta": "Aug 2026 · $2.40 /min"
         }
       ]
     },
@@ -1035,7 +1035,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T00:39:21.591195+00:00",
+      "fetched_at": "2026-11-07T06:42:52.790683+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1089,7 +1089,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T00:39:21.597992+00:00",
+      "fetched_at": "2026-11-07T06:42:52.796891+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1128,37 +1128,37 @@
         },
         {
           "rank": 6,
+          "score": 1120.0,
+          "name": "SkyReels V4",
+          "creator": "Skywork AI",
+          "meta": ""
+        },
+        {
+          "rank": 7,
           "score": 1117.0,
           "name": "Agnes-Video-2.5",
           "creator": "Sapiens AI",
           "meta": ""
         },
         {
-          "rank": 7,
+          "rank": 8,
           "score": 1113.0,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax",
           "meta": ""
         },
         {
-          "rank": 8,
+          "rank": 9,
           "score": 1106.0,
           "name": "P-Video-2-Pro",
           "creator": "Pruna AI",
           "meta": ""
         },
         {
-          "rank": 9,
+          "rank": 10,
           "score": 1105.0,
           "name": "HeyGen Video 1",
           "creator": "HeyGen",
-          "meta": ""
-        },
-        {
-          "rank": 10,
-          "score": 1094.0,
-          "name": "Dreamina Seedance 2.0",
-          "creator": "ByteDance Seed",
           "meta": ""
         }
       ]
@@ -1171,7 +1171,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T00:39:21.598009+00:00",
+      "fetched_at": "2026-11-07T06:42:52.796911+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1225,7 +1225,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T00:39:21.599888+00:00",
+      "fetched_at": "2026-11-07T06:42:52.798526+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1307,7 +1307,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-07T00:39:21.631046+00:00",
+      "fetched_at": "2026-11-07T06:42:52.826050+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1389,7 +1389,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-07T00:39:21.664256+00:00",
+      "fetched_at": "2026-11-07T06:42:52.855696+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1471,7 +1471,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T00:39:21.676071+00:00",
+      "fetched_at": "2026-11-07T06:42:52.865560+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1510,38 +1510,38 @@
         },
         {
           "rank": 6,
-          "name": "Kling 4.0 Image (preview)",
-          "creator": "Kling 4.0 Image (preview)",
-          "score": 1178.0,
-          "meta": "- · Coming soon"
-        },
-        {
-          "rank": 7,
           "name": "Nano Banana 2.1",
           "creator": "Nano Banana 2.1",
           "score": 1176.0,
           "meta": "Oct 2026 · $33.60 /1k imgs"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "name": "MAI-Image-2.6",
           "creator": "MAI-Image-2.6",
           "score": 1168.0,
           "meta": "Aug 2026 · $38.91 /1k imgs"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "name": "Grok Imagine Image 2.0",
           "creator": "Grok Imagine Image 2.0",
           "score": 1166.0,
           "meta": "Aug 2026 · $60.00 /1k imgs"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "creator": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "score": 1142.0,
           "meta": "Feb 2026 · $67.00 /1k imgs"
+        },
+        {
+          "rank": 10,
+          "name": "Muse Image",
+          "creator": "Muse Image",
+          "score": 1128.0,
+          "meta": "Jul 2026 · $10.00 /1k imgs"
         }
       ]
     },
@@ -1553,7 +1553,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T00:39:21.680361+00:00",
+      "fetched_at": "2026-11-07T06:42:52.869210+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1635,7 +1635,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T00:39:21.692114+00:00",
+      "fetched_at": "2026-11-07T06:42:52.879705+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1717,7 +1717,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T00:39:21.694897+00:00",
+      "fetched_at": "2026-11-07T06:42:52.882154+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2003,55 +2003,55 @@
         "ok": false,
         "items": 2,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-11-07T00:39:06.024360+00:00"
+        "checked_at": "2026-11-07T06:42:37.188209+00:00"
       },
       {
         "name": "AI Search",
         "ok": false,
         "items": 6,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-11-07T00:39:04.950230+00:00"
+        "checked_at": "2026-11-07T06:42:36.170184+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": false,
-        "items": 10,
+        "items": 9,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-11-07T00:39:09.215428+00:00"
+        "checked_at": "2026-11-07T06:42:40.238067+00:00"
       },
       {
         "name": "Fireship",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-07T00:39:07.057398+00:00"
+        "ok": false,
+        "items": 10,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "checked_at": "2026-11-07T06:42:38.203292+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-07T00:39:11.483313+00:00"
+        "checked_at": "2026-11-07T06:42:42.387732+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": false,
         "items": 6,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-11-07T00:39:08.136778+00:00"
+        "checked_at": "2026-11-07T06:42:39.221499+00:00"
       },
       {
         "name": "World of AI",
         "ok": false,
         "items": 15,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-11-07T00:39:10.292025+00:00"
+        "checked_at": "2026-11-07T06:42:41.248250+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-07T00:39:21.700667+00:00"
+      "checked_at": "2026-11-07T06:42:52.884920+00:00"
     }
   }
 }
