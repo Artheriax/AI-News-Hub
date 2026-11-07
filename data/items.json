@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-11-07T06:42:52.894250+00:00",
+  "generated_at": "2026-11-07T13:39:37.590127+00:00",
   "items": [
+    {
+      "id": "yt:LJa_k2JyFsk",
+      "title": "QWEN 4 Preview IS INSANE! First Look at Qwen 4 Max & 27B! Greatest Open Model Ever!",
+      "url": "https://www.youtube.com/watch?v=LJa_k2JyFsk",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-11-07T08:34:14+00:00",
+      "summary": "🎙️ Sponsored by Krisp: try it free → https://krisp.ai/ Most AI note takers give you transcripts and summaries. Krisp also fixes how you sound: no bot joins your call, it runs on your own machine, and it removes background noise and voices as you talk. You still get the transcript, summary and action",
+      "thumbnail": "https://i1.ytimg.com/vi/LJa_k2JyFsk/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
     {
       "id": "yt:iw9SZgyahqg",
       "title": "The one thing holding theoretical CS together just broke... kinda",
@@ -62,19 +74,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2611.08373",
-      "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
-      "url": "https://huggingface.co/papers/2611.08373",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-05T00:00:00+00:00",
-      "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capabi",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 128,
-      "arxiv_id": "2611.08373"
-    },
-    {
       "id": "paper:2611.08449",
       "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
       "url": "https://huggingface.co/papers/2611.08449",
@@ -84,8 +83,21 @@
       "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a meth",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 96,
+      "upvotes": 98,
       "arxiv_id": "2611.08449"
+    },
+    {
+      "id": "paper:2611.08373",
+      "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+      "url": "https://huggingface.co/papers/2611.08373",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-05T00:00:00+00:00",
+      "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capabi",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 77,
+      "arxiv_id": "2611.08373"
     },
     {
       "id": "paper:2611.07392",
@@ -97,7 +109,7 @@
       "summary": "We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes text, reference images, and target latents as one interleaved sequence. A Mixture-of-Transformers (MoT) backbon",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 39,
+      "upvotes": 42,
       "arxiv_id": "2611.07392"
     },
     {
@@ -110,7 +122,7 @@
       "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 59,
+      "upvotes": 60,
       "arxiv_id": "2611.06918"
     },
     {
@@ -123,7 +135,7 @@
       "summary": "While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly sensitive to interaction constraints. Evaluating across sampling breadth K and interaction depth T via Pass@(K,T), we show that trajectory-level RL advantages depend on sufficient turn budgets, diminishing significantly when budgets tighten. Besides, agentic RL does not uniformly ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 36,
+      "upvotes": 37,
       "arxiv_id": "2611.06483"
     },
     {
@@ -148,7 +160,7 @@
       "summary": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourag",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 127,
+      "upvotes": 89,
       "arxiv_id": "2611.06728"
     },
     {
@@ -161,7 +173,7 @@
       "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine doma",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 56,
+      "upvotes": 54,
       "arxiv_id": "2611.06910"
     },
     {
@@ -174,7 +186,7 @@
       "summary": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts, potentially altering pretrained priors, or through specialized inference-time mechanisms that are diff",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 37,
+      "upvotes": 39,
       "arxiv_id": "2611.06741"
     },
     {
@@ -211,7 +223,7 @@
       "summary": "A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicated network, and every training step ends with all of them exchanging data at once. Between racks, that network is optical, and each of its four layers, from lasers to switches, runs a fixed or after-the-fact policy. Lasers sharing an enclosure, cooling, and power can fail together. At a fix",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 39,
+      "upvotes": 32,
       "arxiv_id": "2611.04408"
     },
     {
@@ -224,8 +236,21 @@
       "summary": "Large reasoning models achieve strong performance on challenging tasks, but their long chain-of-thought often incurs substantial inference costs by continuing to deliberate after sufficient information has been obtained. Existing reasoning compression methods primarily operate on reasoning trajectories, paying less attention to the local decision of whether further reasoning is necessary given the",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 60,
+      "upvotes": 61,
       "arxiv_id": "2611.04814"
+    },
+    {
+      "id": "paper:2611.04277",
+      "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+      "url": "https://huggingface.co/papers/2611.04277",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-03T00:00:00+00:00",
+      "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy th",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 59,
+      "arxiv_id": "2611.04277"
     },
     {
       "id": "paper:2611.05377",
@@ -239,19 +264,6 @@
       "kind": "paper",
       "upvotes": 57,
       "arxiv_id": "2611.05377"
-    },
-    {
-      "id": "paper:2611.04277",
-      "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
-      "url": "https://huggingface.co/papers/2611.04277",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-03T00:00:00+00:00",
-      "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy th",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 55,
-      "arxiv_id": "2611.04277"
     },
     {
       "id": "paper:2611.05193",
@@ -276,7 +288,7 @@
       "summary": "Large language models are deployed as long-horizon agents that compose diverse tools across MCP services into executable workflows. Existing MCP environment-scaling methods are data-centric: they first synthesize a database and scenario, then derive tools and tasks from them. As a result, tool interfaces may not match real ones, tool compositions are not grounded in execution, and tasks rarely spa",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 40,
+      "upvotes": 41,
       "arxiv_id": "2611.05036"
     },
     {
@@ -337,7 +349,7 @@
       "summary": "Agent decisions depend on empirical relationships that deployment observations reveal and task descriptions alone may leave unresolved. We introduce Decoupled Predictive Decision Making (DPDM), an architecture that formulates heterogeneous agent decisions as conditional prediction with a shared pretrained learner. Language models provide semantic representations of current and historical records, ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 114,
+      "upvotes": 79,
       "arxiv_id": "2611.02075"
     },
     {
@@ -581,18 +593,6 @@
       "channel": "Fireship"
     },
     {
-      "id": "yt:2BXktpaCEN4",
-      "title": "HUGE GPT-6.5 LEAK! NEW Claude Fable 5.5, Gemini 4 Carbon, MiniMax M3.1 Flash & Kimi K3.1! AI NEWS",
-      "url": "https://www.youtube.com/watch?v=2BXktpaCEN4",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-10-20T07:01:16+00:00",
-      "summary": "🚨 Everything you’re about to see, I benchmarked using the tool I made. If you want to run these tests yourself or test models on whatever you actually use them for! → https://www.woaibench.ai/ HUGE GPT-6.5 LEAK?! OpenAI, Anthropic, Google, MiniMax, and Moonshot AI are making massive moves as we unco",
-      "thumbnail": "https://i3.ytimg.com/vi/2BXktpaCEN4/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:cUeZMUGCxrw",
       "title": "New top local AI image generator is here!",
       "url": "https://www.youtube.com/watch?v=cUeZMUGCxrw",
@@ -789,7 +789,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T06:42:52.784240+00:00",
+      "fetched_at": "2026-11-07T13:39:37.462868+00:00",
       "entries": [
         {
           "rank": 1,
@@ -871,7 +871,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T06:42:52.786702+00:00",
+      "fetched_at": "2026-11-07T13:39:37.465597+00:00",
       "entries": [
         {
           "rank": 1,
@@ -953,7 +953,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T06:42:52.789866+00:00",
+      "fetched_at": "2026-11-07T13:39:37.469126+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1035,7 +1035,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T06:42:52.790683+00:00",
+      "fetched_at": "2026-11-07T13:39:37.470017+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1089,7 +1089,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T06:42:52.796891+00:00",
+      "fetched_at": "2026-11-07T13:39:37.476926+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1171,7 +1171,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T06:42:52.796911+00:00",
+      "fetched_at": "2026-11-07T13:39:37.476942+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1225,7 +1225,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T06:42:52.798526+00:00",
+      "fetched_at": "2026-11-07T13:39:37.478846+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1307,7 +1307,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-07T06:42:52.826050+00:00",
+      "fetched_at": "2026-11-07T13:39:37.510216+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1389,7 +1389,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-07T06:42:52.855696+00:00",
+      "fetched_at": "2026-11-07T13:39:37.543732+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1471,7 +1471,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T06:42:52.865560+00:00",
+      "fetched_at": "2026-11-07T13:39:37.555589+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1553,7 +1553,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T06:42:52.869210+00:00",
+      "fetched_at": "2026-11-07T13:39:37.559835+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1635,76 +1635,76 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T06:42:52.879705+00:00",
+      "fetched_at": "2026-11-07T13:39:37.571130+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Eleven v4",
           "creator": "Eleven v4",
-          "score": 1338.0,
+          "score": 1339.0,
           "meta": "Sept 2026 · $80.00 /1M chars"
         },
         {
           "rank": 2,
           "name": "Eleven v4 Turbo",
           "creator": "Eleven v4 Turbo",
-          "score": 1332.0,
+          "score": 1335.0,
           "meta": "Sept 2026 · $40.00 /1M chars"
         },
         {
           "rank": 3,
-          "name": "Simba 3.5",
-          "creator": "Simba 3.5",
-          "score": 1320.0,
-          "meta": "Nov 2026 · $6.58 /1M chars"
-        },
-        {
-          "rank": 4,
           "name": "Qwen-Audio-3.1-TTS-Plus",
           "creator": "Qwen-Audio-3.1-TTS-Plus",
-          "score": 1299.0,
+          "score": 1303.0,
           "meta": "Sept 2026 · $19.31 /1M chars"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "name": "Sonic 3.6",
           "creator": "Sonic 3.6",
-          "score": 1293.0,
+          "score": 1297.0,
           "meta": "Aug 2026 · $49.00 /1M chars"
+        },
+        {
+          "rank": 5,
+          "name": "Simba 3.5",
+          "creator": "Simba 3.5",
+          "score": 1286.0,
+          "meta": "Nov 2026 · $6.58 /1M chars"
         },
         {
           "rank": 6,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Gemini 3.8 Flash TTS",
-          "score": 1282.0,
+          "score": 1283.0,
           "meta": "Sept 2026 · $16.49 /1M chars"
         },
         {
           "rank": 7,
           "name": "Fish Audio Drama 3",
           "creator": "Fish Audio Drama 3",
-          "score": 1272.0,
+          "score": 1275.0,
           "meta": "Oct 2026 · $15.00 /1M chars"
         },
         {
           "rank": 8,
           "name": "Lightning V3.1 Pro (Oct 2026)",
           "creator": "Lightning V3.1 Pro (Oct 2026)",
-          "score": 1271.0,
+          "score": 1273.0,
           "meta": "Oct 2026 · $19.50 /1M chars"
         },
         {
           "rank": 9,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Qwen-Audio-3.0-TTS-Plus",
-          "score": 1267.0,
+          "score": 1268.0,
           "meta": "Sept 2026 · $19.31 /1M chars"
         },
         {
           "rank": 10,
           "name": "Realtime TTS-2",
           "creator": "Realtime TTS-2",
-          "score": 1267.0,
+          "score": 1268.0,
           "meta": "Aug 2026 · $20.83 /1M chars"
         }
       ]
@@ -1717,76 +1717,76 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-07T06:42:52.882154+00:00",
+      "fetched_at": "2026-11-07T13:39:37.573802+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fish Audio Drama 3",
           "creator": "Fish Audio Drama 3",
-          "score": 1272.0,
+          "score": 1275.0,
           "meta": "Oct 2026 · $15.00 /1M chars"
         },
         {
           "rank": 2,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio Drama 3 Preview",
-          "score": 1239.0,
+          "score": 1241.0,
           "meta": "Oct 2026 · $15.00 /1M chars"
         },
         {
           "rank": 3,
           "name": "Breeze TTS 2",
           "creator": "Breeze TTS 2",
-          "score": 1226.0,
+          "score": 1228.0,
           "meta": "Aug 2026 · $34.00 /1M chars"
         },
         {
           "rank": 4,
           "name": "Ming-3.0-tts",
           "creator": "Ming-3.0-tts",
-          "score": 1186.0,
+          "score": 1187.0,
           "meta": "Oct 2026 · N/A"
         },
         {
           "rank": 5,
           "name": "Phonon 31M (English)",
           "creator": "Phonon 31M (English)",
-          "score": 1112.0,
+          "score": 1114.0,
           "meta": "Oct 2026 · $0.00 /1M chars"
         },
         {
           "rank": 6,
           "name": "Fish Audio S2 Pro",
           "creator": "Fish Audio S2 Pro",
-          "score": 1106.0,
+          "score": 1108.0,
           "meta": "Mar 2026 · $15.00 /1M chars"
         },
         {
           "rank": 7,
           "name": "Step Audio EditX (Mar 2026)",
           "creator": "Step Audio EditX (Mar 2026)",
-          "score": 1098.0,
+          "score": 1101.0,
           "meta": "Feb 2026 · N/A"
         },
         {
           "rank": 8,
           "name": "Voxtral TTS",
           "creator": "Voxtral TTS",
-          "score": 1091.0,
+          "score": 1092.0,
           "meta": "Mar 2026 · $16.00 /1M chars"
         },
         {
           "rank": 9,
           "name": "Magpie-Multilingual 357M (Feb 2026)",
           "creator": "Magpie-Multilingual 357M (Feb 2026)",
-          "score": 1063.0,
+          "score": 1064.0,
           "meta": "Feb 2026 · N/A"
         },
         {
           "rank": 10,
           "name": "Kokoro 82M v1.0",
           "creator": "Kokoro 82M v1.0",
-          "score": 1061.0,
+          "score": 1064.0,
           "meta": "Jan 2025 · $0.65 /1M chars"
         }
       ]
@@ -2000,58 +2000,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 2,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-11-07T06:42:37.188209+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-07T13:39:22.094862+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 6,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-11-07T06:42:36.170184+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-07T13:39:21.068364+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
-        "items": 9,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-11-07T06:42:40.238067+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-07T13:39:25.270796+00:00"
       },
       {
         "name": "Fireship",
-        "ok": false,
-        "items": 10,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-11-07T06:42:38.203292+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-07T13:39:23.233035+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-07T06:42:42.387732+00:00"
+        "checked_at": "2026-11-07T13:39:27.443035+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": false,
-        "items": 6,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-11-07T06:42:39.221499+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-07T13:39:24.252383+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-11-07T06:42:41.248250+00:00"
+        "error": null,
+        "checked_at": "2026-11-07T13:39:26.305754+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-07T06:42:52.884920+00:00"
+      "checked_at": "2026-11-07T13:39:37.579384+00:00"
     }
   }
 }
