@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T19:51:27.015405+00:00",
+  "generated_at": "2026-11-08T23:18:11.927987+00:00",
   "items": [
     {
       "id": "yt:FNnVmvii6Uo",
@@ -208,7 +208,7 @@
       "summary": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourag",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 89,
+      "upvotes": 90,
       "arxiv_id": "2611.06728"
     },
     {
@@ -221,7 +221,7 @@
       "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine doma",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 58,
+      "upvotes": 59,
       "arxiv_id": "2611.06910"
     },
     {
@@ -825,7 +825,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T19:51:26.889749+00:00",
+      "fetched_at": "2026-11-08T23:18:11.833477+00:00",
       "entries": [
         {
           "rank": 1,
@@ -907,7 +907,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T19:51:26.892510+00:00",
+      "fetched_at": "2026-11-08T23:18:11.835626+00:00",
       "entries": [
         {
           "rank": 1,
@@ -989,7 +989,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T19:51:26.896100+00:00",
+      "fetched_at": "2026-11-08T23:18:11.838345+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1071,7 +1071,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T19:51:26.897014+00:00",
+      "fetched_at": "2026-11-08T23:18:11.839021+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1125,7 +1125,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T19:51:26.903964+00:00",
+      "fetched_at": "2026-11-08T23:18:11.844594+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1207,7 +1207,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T19:51:26.903977+00:00",
+      "fetched_at": "2026-11-08T23:18:11.844605+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1261,7 +1261,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T19:51:26.905829+00:00",
+      "fetched_at": "2026-11-08T23:18:11.845961+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1343,7 +1343,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-08T19:51:26.936524+00:00",
+      "fetched_at": "2026-11-08T23:18:11.869019+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1425,7 +1425,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-08T19:51:26.969159+00:00",
+      "fetched_at": "2026-11-08T23:18:11.893358+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1507,7 +1507,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T19:51:26.980651+00:00",
+      "fetched_at": "2026-11-08T23:18:11.901767+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1589,7 +1589,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T19:51:26.984988+00:00",
+      "fetched_at": "2026-11-08T23:18:11.904932+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1671,7 +1671,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T19:51:26.996655+00:00",
+      "fetched_at": "2026-11-08T23:18:11.913854+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1753,7 +1753,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T19:51:26.999416+00:00",
+      "fetched_at": "2026-11-08T23:18:11.916040+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2039,55 +2039,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-08T19:51:09.941484+00:00"
+        "checked_at": "2026-11-08T23:17:55.570179+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-08T19:51:08.764438+00:00"
+        "checked_at": "2026-11-08T23:17:54.535365+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-08T19:51:13.165633+00:00"
+        "checked_at": "2026-11-08T23:17:58.720594+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-08T19:51:10.962509+00:00"
+        "checked_at": "2026-11-08T23:17:56.593625+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-08T19:51:15.499424+00:00"
+        "checked_at": "2026-11-08T23:18:01.063575+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-08T19:51:12.070419+00:00"
+        "checked_at": "2026-11-08T23:17:57.619018+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-08T19:51:14.369259+00:00"
+        "checked_at": "2026-11-08T23:17:59.874319+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-08T19:51:27.005007+00:00"
+      "checked_at": "2026-11-08T23:18:11.920701+00:00"
     }
   }
 }
