@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-11-08T01:37:56.424805+00:00",
+  "generated_at": "2026-11-08T08:19:11.805597+00:00",
   "items": [
+    {
+      "id": "yt:FNnVmvii6Uo",
+      "title": "NEW Claude Model Family LEAKED?! Stealth Model BEATS Opus 5.5, OpenAI Cactus, Qoduck! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=FNnVmvii6Uo",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-11-08T07:50:35+00:00",
+      "summary": "Omen AI. Omen Sentry: continuous coolant analysis for liquid-cooled data centers. https://www.omen.ai/sentry?utm_source=youtube&utm_medium=creator&utm_campaign=yard_2026&utm_content=[slug] Anthropic may be secretly testing an entirely NEW Claude model family! A mysterious model codenamed Claude Donu",
+      "thumbnail": "https://i3.ytimg.com/vi/FNnVmvii6Uo/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
+      "id": "yt:9RIK3A24ZxA",
+      "title": "Weight space programming, science agents, 3D generators, new Gemini Omni, new GPT Image: AI NEWS",
+      "url": "https://www.youtube.com/watch?v=9RIK3A24ZxA",
+      "source": "AI Search",
+      "category": "videos",
+      "published": "2026-11-08T03:27:33+00:00",
+      "summary": "HUGE AI NEWS: RelayVSR, Kimi K3.1, Hy4, Gemini Omni 1.2, GPT Image 2.6, & more. Thanks to our sponsor Higgsfield. Try it today https://higgsfield.ai/s/theaisearch-pSEbsn 00:00 AI news intro 00:54 HairDeck 02:32 RelayVSR 03:50 NitroFusion 2 05:11 STRATA 06:47 FlowHMR 08:23 ReLift 09:35 Gemini Omni 1.",
+      "thumbnail": "https://i2.ytimg.com/vi/9RIK3A24ZxA/hqdefault.jpg",
+      "kind": "video",
+      "channel": "AI Search"
+    },
     {
       "id": "yt:GJ6PMUm5oTA",
       "title": "OpenAI's Astra Just Opened The Black Box Of AI",
@@ -107,7 +131,7 @@
       "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a meth",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 100,
+      "upvotes": 101,
       "arxiv_id": "2611.08449"
     },
     {
@@ -120,7 +144,7 @@
       "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capabi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 81,
+      "upvotes": 83,
       "arxiv_id": "2611.08373"
     },
     {
@@ -133,7 +157,7 @@
       "summary": "We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes text, reference images, and target latents as one interleaved sequence. A Mixture-of-Transformers (MoT) backbon",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 42,
+      "upvotes": 43,
       "arxiv_id": "2611.07392"
     },
     {
@@ -159,7 +183,7 @@
       "summary": "While multi-turn agentic reinforcement learning (RL) excels on long-horizon tasks, its performance gains remain highly sensitive to interaction constraints. Evaluating across sampling breadth K and interaction depth T via Pass@(K,T), we show that trajectory-level RL advantages depend on sufficient turn budgets, diminishing significantly when budgets tighten. Besides, agentic RL does not uniformly ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 38,
+      "upvotes": 39,
       "arxiv_id": "2611.06483"
     },
     {
@@ -210,7 +234,7 @@
       "summary": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts, potentially altering pretrained priors, or through specialized inference-time mechanisms that are diff",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 39,
+      "upvotes": 40,
       "arxiv_id": "2611.06741"
     },
     {
@@ -235,7 +259,7 @@
       "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 86,
+      "upvotes": 87,
       "arxiv_id": "2611.05376"
     },
     {
@@ -251,19 +275,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2611.04408",
-      "title": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
-      "url": "https://huggingface.co/papers/2611.04408",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-03T06:45:50+00:00",
-      "summary": "A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicated network, and every training step ends with all of them exchanging data at once. Between racks, that network is optical, and each of its four layers, from lasers to switches, runs a fixed or after-the-fact policy. Lasers sharing an enclosure, cooling, and power can fail together. At a fix",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 32,
-      "arxiv_id": "2611.04408"
-    },
-    {
       "id": "paper:2611.04277",
       "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
       "url": "https://huggingface.co/papers/2611.04277",
@@ -273,7 +284,7 @@
       "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy th",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 63,
+      "upvotes": 64,
       "arxiv_id": "2611.04277"
     },
     {
@@ -351,6 +362,19 @@
       "thumbnail": "https://i1.ytimg.com/vi/L7opnQdpdMY/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
+    },
+    {
+      "id": "paper:2611.03743",
+      "title": "EvoMemState: Evolving Memory State for Personal Agents",
+      "url": "https://huggingface.co/papers/2611.03743",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-02T00:00:00+00:00",
+      "summary": "Long-term memory enables large language model (LLM) agents to provide continuous personalized assistance by retaining user information across interactions. Existing systems support this process through fact extraction, organization, updating, and retrieval, but largely maintain memories as independent facts. This fact-centric paradigm may overlook how new facts update, constrain, or conflict with ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 32,
+      "arxiv_id": "2611.03743"
     },
     {
       "id": "yt:Nj7rnWJE92o",
@@ -593,18 +617,6 @@
       "channel": "Fireship"
     },
     {
-      "id": "yt:egh6GlvyD1g",
-      "title": "Gemini 4 Carbon Is INSANE! OPUS 5.5 LEVEL?! Claude Duet, Kimi K3.1, OpenAI Agents & More! AI NEWS",
-      "url": "https://www.youtube.com/watch?v=egh6GlvyD1g",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-10-22T06:04:04+00:00",
-      "summary": "🚨 Everything you’re about to see, I benchmarked using the tool I made. If you want to run these tests yourself or test models on whatever you actually use them for! → https://www.woaibench.ai/ Google's Gemini 4 Carbon might have just received a MASSIVE upgrade, and the latest checkpoint is producing",
-      "thumbnail": "https://i2.ytimg.com/vi/egh6GlvyD1g/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:b2tjnxX8IHU",
       "title": "Did Google just dethrone OpenAI and Anthropic?",
       "url": "https://www.youtube.com/watch?v=b2tjnxX8IHU",
@@ -813,7 +825,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T01:37:56.363161+00:00",
+      "fetched_at": "2026-11-08T08:19:11.678582+00:00",
       "entries": [
         {
           "rank": 1,
@@ -895,7 +907,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T01:37:56.364479+00:00",
+      "fetched_at": "2026-11-08T08:19:11.681330+00:00",
       "entries": [
         {
           "rank": 1,
@@ -977,7 +989,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T01:37:56.366188+00:00",
+      "fetched_at": "2026-11-08T08:19:11.684866+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1059,7 +1071,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T01:37:56.366627+00:00",
+      "fetched_at": "2026-11-08T08:19:11.685765+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1113,7 +1125,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T01:37:56.369881+00:00",
+      "fetched_at": "2026-11-08T08:19:11.692723+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1195,7 +1207,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T01:37:56.369892+00:00",
+      "fetched_at": "2026-11-08T08:19:11.692737+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1249,7 +1261,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T01:37:56.370789+00:00",
+      "fetched_at": "2026-11-08T08:19:11.694532+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1331,7 +1343,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-08T01:37:56.385593+00:00",
+      "fetched_at": "2026-11-08T08:19:11.725281+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1413,7 +1425,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-08T01:37:56.401220+00:00",
+      "fetched_at": "2026-11-08T08:19:11.758294+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1495,7 +1507,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T01:37:56.406585+00:00",
+      "fetched_at": "2026-11-08T08:19:11.769868+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1577,7 +1589,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T01:37:56.408550+00:00",
+      "fetched_at": "2026-11-08T08:19:11.774182+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1659,7 +1671,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T01:37:56.413962+00:00",
+      "fetched_at": "2026-11-08T08:19:11.785953+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1741,7 +1753,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T01:37:56.415262+00:00",
+      "fetched_at": "2026-11-08T08:19:11.788767+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2024,58 +2036,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 2,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-11-08T01:37:40.702092+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-08T08:18:55.673202+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 6,
-        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-11-08T01:37:39.641906+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-08T08:18:54.647281+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
-        "items": 10,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-11-08T01:37:43.889554+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-08T08:18:58.730417+00:00"
       },
       {
         "name": "Fireship",
-        "ok": false,
-        "items": 10,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-11-08T01:37:41.767450+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-08T08:18:56.690907+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-08T01:37:46.099024+00:00"
+        "checked_at": "2026-11-08T08:19:00.896115+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": false,
-        "items": 7,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-11-08T01:37:42.823932+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-08T08:18:57.711407+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-11-08T01:37:44.950542+00:00"
+        "error": null,
+        "checked_at": "2026-11-08T08:18:59.764976+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-08T01:37:56.419728+00:00"
+      "checked_at": "2026-11-08T08:19:11.794974+00:00"
     }
   }
 }
