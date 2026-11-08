@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T08:19:11.805597+00:00",
+  "generated_at": "2026-11-08T15:27:02.887643+00:00",
   "items": [
     {
       "id": "yt:FNnVmvii6Uo",
@@ -131,7 +131,7 @@
       "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a meth",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 101,
+      "upvotes": 104,
       "arxiv_id": "2611.08449"
     },
     {
@@ -144,7 +144,7 @@
       "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capabi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 83,
+      "upvotes": 84,
       "arxiv_id": "2611.08373"
     },
     {
@@ -157,7 +157,7 @@
       "summary": "We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes text, reference images, and target latents as one interleaved sequence. A Mixture-of-Transformers (MoT) backbon",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 43,
+      "upvotes": 44,
       "arxiv_id": "2611.07392"
     },
     {
@@ -170,7 +170,7 @@
       "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 60,
+      "upvotes": 61,
       "arxiv_id": "2611.06918"
     },
     {
@@ -221,7 +221,7 @@
       "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine doma",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 56,
+      "upvotes": 58,
       "arxiv_id": "2611.06910"
     },
     {
@@ -259,7 +259,7 @@
       "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 87,
+      "upvotes": 114,
       "arxiv_id": "2611.05376"
     },
     {
@@ -275,6 +275,19 @@
       "channel": "WorldofAI"
     },
     {
+      "id": "paper:2611.04408",
+      "title": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
+      "url": "https://huggingface.co/papers/2611.04408",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-03T06:45:50+00:00",
+      "summary": "A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicated network, and every training step ends with all of them exchanging data at once. Between racks, that network is optical, and each of its four layers, from lasers to switches, runs a fixed or after-the-fact policy. Lasers sharing an enclosure, cooling, and power can fail together. At a fix",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 33,
+      "arxiv_id": "2611.04408"
+    },
+    {
       "id": "paper:2611.04277",
       "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
       "url": "https://huggingface.co/papers/2611.04277",
@@ -284,7 +297,7 @@
       "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy th",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 64,
+      "upvotes": 66,
       "arxiv_id": "2611.04277"
     },
     {
@@ -362,19 +375,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/L7opnQdpdMY/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
-    },
-    {
-      "id": "paper:2611.03743",
-      "title": "EvoMemState: Evolving Memory State for Personal Agents",
-      "url": "https://huggingface.co/papers/2611.03743",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-02T00:00:00+00:00",
-      "summary": "Long-term memory enables large language model (LLM) agents to provide continuous personalized assistance by retaining user information across interactions. Existing systems support this process through fact extraction, organization, updating, and retrieval, but largely maintain memories as independent facts. This fact-centric paradigm may overlook how new facts update, constrain, or conflict with ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 32,
-      "arxiv_id": "2611.03743"
     },
     {
       "id": "yt:Nj7rnWJE92o",
@@ -825,7 +825,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T08:19:11.678582+00:00",
+      "fetched_at": "2026-11-08T15:27:02.778631+00:00",
       "entries": [
         {
           "rank": 1,
@@ -907,7 +907,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T08:19:11.681330+00:00",
+      "fetched_at": "2026-11-08T15:27:02.781112+00:00",
       "entries": [
         {
           "rank": 1,
@@ -989,7 +989,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T08:19:11.684866+00:00",
+      "fetched_at": "2026-11-08T15:27:02.784195+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1071,7 +1071,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T08:19:11.685765+00:00",
+      "fetched_at": "2026-11-08T15:27:02.785010+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1125,7 +1125,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T08:19:11.692723+00:00",
+      "fetched_at": "2026-11-08T15:27:02.791636+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1207,7 +1207,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T08:19:11.692737+00:00",
+      "fetched_at": "2026-11-08T15:27:02.791657+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1261,7 +1261,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T08:19:11.694532+00:00",
+      "fetched_at": "2026-11-08T15:27:02.793353+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1343,7 +1343,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-08T08:19:11.725281+00:00",
+      "fetched_at": "2026-11-08T15:27:02.820920+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1425,7 +1425,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-08T08:19:11.758294+00:00",
+      "fetched_at": "2026-11-08T15:27:02.850577+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1507,7 +1507,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T08:19:11.769868+00:00",
+      "fetched_at": "2026-11-08T15:27:02.860428+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1589,7 +1589,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T08:19:11.774182+00:00",
+      "fetched_at": "2026-11-08T15:27:02.864137+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1671,7 +1671,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T08:19:11.785953+00:00",
+      "fetched_at": "2026-11-08T15:27:02.874324+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1753,7 +1753,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T08:19:11.788767+00:00",
+      "fetched_at": "2026-11-08T15:27:02.876814+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2039,55 +2039,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-08T08:18:55.673202+00:00"
+        "checked_at": "2026-11-08T15:26:46.551296+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-08T08:18:54.647281+00:00"
+        "checked_at": "2026-11-08T15:26:45.509612+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-08T08:18:58.730417+00:00"
+        "checked_at": "2026-11-08T15:26:49.722311+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-08T08:18:56.690907+00:00"
+        "checked_at": "2026-11-08T15:26:47.579393+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-08T08:19:00.896115+00:00"
+        "checked_at": "2026-11-08T15:26:52.112024+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-08T08:18:57.711407+00:00"
+        "checked_at": "2026-11-08T15:26:48.609891+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-08T08:18:59.764976+00:00"
+        "checked_at": "2026-11-08T15:26:50.883429+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-08T08:19:11.794974+00:00"
+      "checked_at": "2026-11-08T15:27:02.879307+00:00"
     }
   }
 }
