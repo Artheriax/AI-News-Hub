@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T23:18:11.927987+00:00",
+  "generated_at": "2026-11-09T02:49:37.714613+00:00",
   "items": [
     {
       "id": "yt:FNnVmvii6Uo",
@@ -131,7 +131,7 @@
       "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a meth",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 106,
+      "upvotes": 107,
       "arxiv_id": "2611.08449"
     },
     {
@@ -144,7 +144,7 @@
       "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capabi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 92,
+      "upvotes": 93,
       "arxiv_id": "2611.08373"
     },
     {
@@ -170,7 +170,7 @@
       "summary": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 61,
+      "upvotes": 62,
       "arxiv_id": "2611.06918"
     },
     {
@@ -259,7 +259,7 @@
       "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 116,
+      "upvotes": 119,
       "arxiv_id": "2611.05376"
     },
     {
@@ -273,6 +273,19 @@
       "thumbnail": "https://i2.ytimg.com/vi/i-wYjUriSzo/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
+    },
+    {
+      "id": "paper:2611.04408",
+      "title": "Halley: A Predictive Control Plane for Optical AI Data Center Networks",
+      "url": "https://huggingface.co/papers/2611.04408",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-03T06:45:50+00:00",
+      "summary": "A frontier AI model is trained in an AI data center, on tens of thousands of accelerators joined by a dedicated network, and every training step ends with all of them exchanging data at once. Between racks, that network is optical, and each of its four layers, from lasers to switches, runs a fixed or after-the-fact policy. Lasers sharing an enclosure, cooling, and power can fail together. At a fix",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 33,
+      "arxiv_id": "2611.04408"
     },
     {
       "id": "paper:2611.04277",
@@ -362,19 +375,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/L7opnQdpdMY/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
-    },
-    {
-      "id": "paper:2611.03743",
-      "title": "EvoMemState: Evolving Memory State for Personal Agents",
-      "url": "https://huggingface.co/papers/2611.03743",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-02T00:00:00+00:00",
-      "summary": "Long-term memory enables large language model (LLM) agents to provide continuous personalized assistance by retaining user information across interactions. Existing systems support this process through fact extraction, organization, updating, and retrieval, but largely maintain memories as independent facts. This fact-centric paradigm may overlook how new facts update, constrain, or conflict with ",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 33,
-      "arxiv_id": "2611.03743"
     },
     {
       "id": "yt:Nj7rnWJE92o",
@@ -825,7 +825,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T23:18:11.833477+00:00",
+      "fetched_at": "2026-11-09T02:49:37.650765+00:00",
       "entries": [
         {
           "rank": 1,
@@ -907,7 +907,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T23:18:11.835626+00:00",
+      "fetched_at": "2026-11-09T02:49:37.652051+00:00",
       "entries": [
         {
           "rank": 1,
@@ -989,7 +989,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T23:18:11.838345+00:00",
+      "fetched_at": "2026-11-09T02:49:37.653693+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1071,7 +1071,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T23:18:11.839021+00:00",
+      "fetched_at": "2026-11-09T02:49:37.654113+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1125,7 +1125,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T23:18:11.844594+00:00",
+      "fetched_at": "2026-11-09T02:49:37.657313+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1207,7 +1207,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T23:18:11.844605+00:00",
+      "fetched_at": "2026-11-09T02:49:37.657323+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1261,7 +1261,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T23:18:11.845961+00:00",
+      "fetched_at": "2026-11-09T02:49:37.658215+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1343,7 +1343,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-08T23:18:11.869019+00:00",
+      "fetched_at": "2026-11-09T02:49:37.673119+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1425,7 +1425,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-08T23:18:11.893358+00:00",
+      "fetched_at": "2026-11-09T02:49:37.689510+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1507,7 +1507,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T23:18:11.901767+00:00",
+      "fetched_at": "2026-11-09T02:49:37.695135+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1589,7 +1589,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T23:18:11.904932+00:00",
+      "fetched_at": "2026-11-09T02:49:37.697233+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1671,7 +1671,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T23:18:11.913854+00:00",
+      "fetched_at": "2026-11-09T02:49:37.702935+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1753,7 +1753,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-08T23:18:11.916040+00:00",
+      "fetched_at": "2026-11-09T02:49:37.704266+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2036,58 +2036,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-08T23:17:55.570179+00:00"
+        "ok": false,
+        "items": 2,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-11-09T02:49:21.260835+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-08T23:17:54.535365+00:00"
+        "ok": false,
+        "items": 7,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-11-09T02:49:20.208953+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-08T23:17:58.720594+00:00"
+        "ok": false,
+        "items": 10,
+        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-11-09T02:49:24.478363+00:00"
       },
       {
         "name": "Fireship",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-08T23:17:56.593625+00:00"
+        "ok": false,
+        "items": 10,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "checked_at": "2026-11-09T02:49:22.307015+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-08T23:18:01.063575+00:00"
+        "checked_at": "2026-11-09T02:49:26.719248+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-08T23:17:57.619018+00:00"
+        "ok": false,
+        "items": 7,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-11-09T02:49:23.350719+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-11-08T23:17:59.874319+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-11-09T02:49:25.526994+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-08T23:18:11.920701+00:00"
+      "checked_at": "2026-11-09T02:49:37.709192+00:00"
     }
   }
 }
