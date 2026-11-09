@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-11-09T10:37:51.884816+00:00",
+  "generated_at": "2026-11-09T21:12:05.736626+00:00",
   "items": [
+    {
+      "id": "yt:pf5tXJZM1Rw",
+      "title": "OpenAI just found 948 ways to root your Linux box...",
+      "url": "https://www.youtube.com/watch?v=pf5tXJZM1Rw",
+      "source": "Fireship",
+      "category": "videos",
+      "published": "2026-11-09T21:04:16+00:00",
+      "summary": "Greptile is the only AI code reviewer that actually runs your code. Try it for free: https://greptile.com/go/fireship A model you're not allowed to use just tore through the Linux kernel and came back with 948 root exploits... let's break it down. Want more Fireship? 🗞️ Newsletter: https://bytes.dev",
+      "thumbnail": "https://i1.ytimg.com/vi/pf5tXJZM1Rw/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Fireship"
+    },
     {
       "id": "yt:WzZtBgfeUxg",
       "title": "OpenAI's GPT-6.2 PREVIEW Is INSANE! BEATS Opus 5.5 & Fable 5.5?",
@@ -131,7 +143,7 @@
       "summary": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations. This mismatch induces systematic shifts in ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 56,
+      "upvotes": 60,
       "arxiv_id": "2611.08264"
     },
     {
@@ -156,7 +168,7 @@
       "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a meth",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 108,
+      "upvotes": 109,
       "arxiv_id": "2611.08449"
     },
     {
@@ -169,7 +181,7 @@
       "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capabi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 95,
+      "upvotes": 97,
       "arxiv_id": "2611.08373"
     },
     {
@@ -182,8 +194,21 @@
       "summary": "We present WeLM-Image, a unified image foundation model that integrates multimodal understanding into text-to-image generation, instruction-guided editing, and multi-reference synthesis. Designed for single-GPU deployment in WeChat's large-scale consumer applications, the model processes text, reference images, and target latents as one interleaved sequence. A Mixture-of-Transformers (MoT) backbon",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 45,
+      "upvotes": 48,
       "arxiv_id": "2611.07392"
+    },
+    {
+      "id": "paper:2611.07025",
+      "title": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time",
+      "url": "https://huggingface.co/papers/2611.07025",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-04T19:00:06+00:00",
+      "summary": "Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batch size and throughput. Existing post-training methods exploit redundancy across tokens, layers, and feature dimensions, or lower numerical precision. We identify a complementary axis: within each attention head, values are largely predictable from their corresponding keys. We expl",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 29,
+      "arxiv_id": "2611.07025"
     },
     {
       "id": "paper:2611.06918",
@@ -246,7 +271,7 @@
       "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine doma",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 60,
+      "upvotes": 61,
       "arxiv_id": "2611.06910"
     },
     {
@@ -272,21 +297,8 @@
       "summary": "Egocentric human video offers a scalable source of manipulation priors for robot learning, yet translating raw data scale into generalizable robot policies demands rigorous data curation and training recipes. We introduce Open-HumanScale, the first fully open recipe for scaling egocentric pretraining to 50,000 hours, anchored by Open-HumanScale-50K---a curated egocentric video corpus densely annot",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 34,
+      "upvotes": 37,
       "arxiv_id": "2611.06817"
-    },
-    {
-      "id": "paper:2611.06518",
-      "title": "EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL",
-      "url": "https://huggingface.co/papers/2611.06518",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-04T00:00:00+00:00",
-      "summary": "Group Relative Policy Optimization (GRPO) has advanced generative model post-training in verifiable domains such as code and mathematics, but evaluating video quality, especially emotional expression, often depends on subjective aesthetics and has no uniquely correct target. Existing approaches typically rely on fixed rewards for visual quality, motion quality, and text alignment that poorly captu",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 27,
-      "arxiv_id": "2611.06518"
     },
     {
       "id": "yt:k2ruCf_z75I",
@@ -310,7 +322,7 @@
       "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 119,
+      "upvotes": 120,
       "arxiv_id": "2611.05376"
     },
     {
@@ -348,7 +360,7 @@
       "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy th",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 66,
+      "upvotes": 67,
       "arxiv_id": "2611.04277"
     },
     {
@@ -825,7 +837,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-09T10:37:51.819506+00:00",
+      "fetched_at": "2026-11-09T21:12:05.636007+00:00",
       "entries": [
         {
           "rank": 1,
@@ -907,7 +919,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-09T10:37:51.820851+00:00",
+      "fetched_at": "2026-11-09T21:12:05.638059+00:00",
       "entries": [
         {
           "rank": 1,
@@ -989,7 +1001,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-09T10:37:51.822572+00:00",
+      "fetched_at": "2026-11-09T21:12:05.640783+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1009,14 +1021,14 @@
           "rank": 3,
           "name": "Dreamina Seedance 2.0",
           "creator": "Dreamina Seedance 2.0",
-          "score": 1138.0,
+          "score": 1140.0,
           "meta": "Mar 2026 · $22.45 /min"
         },
         {
           "rank": 4,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1132.0,
+          "score": 1133.0,
           "meta": "Jul 2026 · $4.80 /min"
         },
         {
@@ -1056,10 +1068,10 @@
         },
         {
           "rank": 10,
-          "name": "Wan 3.0",
-          "creator": "Wan 3.0",
-          "score": 1109.0,
-          "meta": "Aug 2026 · $12.00 /min"
+          "name": "Pika H3 Flex",
+          "creator": "Pika H3 Flex",
+          "score": 1114.0,
+          "meta": "Oct 2026 · $2.10 /min"
         }
       ]
     },
@@ -1071,13 +1083,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-09T10:37:51.823019+00:00",
+      "fetched_at": "2026-11-09T21:12:05.641551+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1132.0,
+          "score": 1133.0,
           "meta": "Jul 2026 · $4.80 /min"
         },
         {
@@ -1089,27 +1101,34 @@
         },
         {
           "rank": 3,
+          "name": "Pika H3 Flex",
+          "creator": "Pika H3 Flex",
+          "score": 1114.0,
+          "meta": "Oct 2026 · $2.10 /min"
+        },
+        {
+          "rank": 4,
           "name": "LTX-2.5 Pro",
           "creator": "LTX-2.5 Pro",
           "score": 913.0,
           "meta": "Aug 2026 · $10.20 /min"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "LTX-2.5 Fast",
           "creator": "LTX-2.5 Fast",
-          "score": 912.0,
+          "score": 911.0,
           "meta": "Aug 2026 · $7.80 /min"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "LTX-2.3 Pro",
           "creator": "LTX-2.3 Pro",
           "score": 838.0,
           "meta": "Mar 2026 · $4.80 /min"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "LTX-2.3 Fast",
           "creator": "LTX-2.3 Fast",
           "score": 832.0,
@@ -1207,13 +1226,13 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-09T10:37:51.826288+00:00",
+      "fetched_at": "2026-11-09T21:12:05.647588+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax H3 (768p)",
-          "score": 1132.0,
+          "score": 1133.0,
           "meta": "Jul 2026 · $4.80 /min"
         },
         {
@@ -1225,27 +1244,34 @@
         },
         {
           "rank": 3,
+          "name": "Pika H3 Flex",
+          "creator": "Pika H3 Flex",
+          "score": 1114.0,
+          "meta": "Oct 2026 · $2.10 /min"
+        },
+        {
+          "rank": 4,
           "name": "LTX-2.5 Pro",
           "creator": "LTX-2.5 Pro",
           "score": 913.0,
           "meta": "Aug 2026 · $10.20 /min"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "LTX-2.5 Fast",
           "creator": "LTX-2.5 Fast",
-          "score": 912.0,
+          "score": 911.0,
           "meta": "Aug 2026 · $7.80 /min"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "LTX-2.3 Pro",
           "creator": "LTX-2.3 Pro",
           "score": 838.0,
           "meta": "Mar 2026 · $4.80 /min"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "LTX-2.3 Fast",
           "creator": "LTX-2.3 Fast",
           "score": 832.0,
@@ -1261,7 +1287,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-09T10:37:51.827166+00:00",
+      "fetched_at": "2026-11-09T21:12:05.649045+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1343,76 +1369,76 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-09T10:37:51.842320+00:00",
+      "fetched_at": "2026-11-09T21:12:05.672679+00:00",
       "entries": [
         {
           "rank": 1,
+          "name": "Claude Fable 5.2 (max)",
+          "creator": "Anthropic",
+          "score": 65.0,
+          "meta": "1M ctx"
+        },
+        {
+          "rank": 2,
+          "name": "Claude Fable 5.2 (xhigh)",
+          "creator": "Anthropic",
+          "score": 62.0,
+          "meta": "1M ctx"
+        },
+        {
+          "rank": 3,
+          "name": "Claude Fable 5.2 (high)",
+          "creator": "Anthropic",
+          "score": 62.0,
+          "meta": "1M ctx"
+        },
+        {
+          "rank": 4,
           "name": "Gemini 4 Carbon (high)",
           "creator": "Google",
           "score": 60.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 2,
+          "rank": 5,
           "name": "Claude Opus 5.5 (max)",
           "creator": "Anthropic",
           "score": 59.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 3,
+          "rank": 6,
           "name": "Gemini 4 Carbon (medium)",
           "creator": "Google",
           "score": 58.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 4,
+          "rank": 7,
           "name": "Claude Opus 5.5 (xhigh)",
           "creator": "Anthropic",
           "score": 57.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 5,
+          "rank": 8,
           "name": "GPT-6 Astra (max)",
           "creator": "OpenAI",
           "score": 57.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 6,
-          "name": "GPT-6 Astra (xhigh)",
-          "creator": "OpenAI",
-          "score": 55.0,
-          "meta": "1M ctx"
-        },
-        {
-          "rank": 7,
-          "name": "GPT-6 Astra (high)",
-          "creator": "OpenAI",
-          "score": 55.0,
-          "meta": "1M ctx"
-        },
-        {
-          "rank": 8,
-          "name": "GPT-6.1 Sol (max)",
-          "creator": "OpenAI",
-          "score": 55.0,
-          "meta": "1M ctx"
-        },
-        {
           "rank": 9,
-          "name": "Claude Sonnet 5.5 (max)",
+          "name": "Claude Fable 5.2 (medium)",
           "creator": "Anthropic",
-          "score": 55.0,
+          "score": 56.0,
           "meta": "1M ctx"
         },
         {
           "rank": 10,
-          "name": "Gemini 4 Carbon (low)",
-          "creator": "Google",
-          "score": 54.0,
+          "name": "GPT-6 Astra (xhigh)",
+          "creator": "OpenAI",
+          "score": 55.0,
           "meta": "1M ctx"
         }
       ]
@@ -1425,7 +1451,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-09T10:37:51.859216+00:00",
+      "fetched_at": "2026-11-09T21:12:05.700385+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1507,7 +1533,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-09T10:37:51.865004+00:00",
+      "fetched_at": "2026-11-09T21:12:05.709332+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1589,7 +1615,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-09T10:37:51.867166+00:00",
+      "fetched_at": "2026-11-09T21:12:05.712692+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1671,7 +1697,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-09T10:37:51.872986+00:00",
+      "fetched_at": "2026-11-09T21:12:05.721979+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1753,7 +1779,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-09T10:37:51.874340+00:00",
+      "fetched_at": "2026-11-09T21:12:05.724067+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2039,55 +2065,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-09T10:37:35.464057+00:00"
+        "checked_at": "2026-11-09T21:11:45.710546+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-09T10:37:34.429336+00:00"
+        "checked_at": "2026-11-09T21:11:44.685511+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-09T10:37:38.536936+00:00"
+        "checked_at": "2026-11-09T21:11:48.762167+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-09T10:37:36.486962+00:00"
+        "checked_at": "2026-11-09T21:11:46.727531+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-09T10:37:40.845633+00:00"
+        "checked_at": "2026-11-09T21:11:51.013641+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-09T10:37:37.512239+00:00"
+        "checked_at": "2026-11-09T21:11:47.744998+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-09T10:37:39.661009+00:00"
+        "checked_at": "2026-11-09T21:11:49.793877+00:00"
       }
     ],
     "leaderboards": {
-      "ok": 13,
-      "failed": 0,
-      "checked_at": "2026-11-09T10:37:51.879449+00:00"
+      "ok": 12,
+      "failed": 1,
+      "checked_at": "2026-11-09T21:12:05.729209+00:00"
     }
   }
 }
