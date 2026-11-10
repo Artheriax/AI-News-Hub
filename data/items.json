@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T21:12:05.736626+00:00",
+  "generated_at": "2026-11-10T03:40:26.960251+00:00",
   "items": [
     {
       "id": "yt:pf5tXJZM1Rw",
@@ -143,8 +143,21 @@
       "summary": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations. This mismatch induces systematic shifts in ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 60,
+      "upvotes": 64,
       "arxiv_id": "2611.08264"
+    },
+    {
+      "id": "paper:2611.08175",
+      "title": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
+      "url": "https://huggingface.co/papers/2611.08175",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-05T15:31:15+00:00",
+      "summary": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging. We present PCBRouteAgent, a multimodal PCB routing agent inspired by how human engineers coordinate global strategy with loca",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 33,
+      "arxiv_id": "2611.08175"
     },
     {
       "id": "yt:LHxOG65r12w",
@@ -168,7 +181,7 @@
       "summary": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a meth",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 109,
+      "upvotes": 110,
       "arxiv_id": "2611.08449"
     },
     {
@@ -181,7 +194,7 @@
       "summary": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capabi",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 97,
+      "upvotes": 98,
       "arxiv_id": "2611.08373"
     },
     {
@@ -207,7 +220,7 @@
       "summary": "Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batch size and throughput. Existing post-training methods exploit redundancy across tokens, layers, and feature dimensions, or lower numerical precision. We identify a complementary axis: within each attention head, values are largely predictable from their corresponding keys. We expl",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 29,
+      "upvotes": 30,
       "arxiv_id": "2611.07025"
     },
     {
@@ -249,6 +262,19 @@
       "channel": "WorldofAI"
     },
     {
+      "id": "paper:2611.06043",
+      "title": "Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription",
+      "url": "https://huggingface.co/papers/2611.06043",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-04T06:46:50+00:00",
+      "summary": "Streaming speech recognition is increasingly consumed by machines, such as translators and voice agents, that act on each token as it appears. A token that is later revised costs wasted work or a wrong action. In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy ",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 37,
+      "arxiv_id": "2611.06043"
+    },
+    {
       "id": "paper:2611.06728",
       "title": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
       "url": "https://huggingface.co/papers/2611.06728",
@@ -258,7 +284,7 @@
       "summary": "Streaming video understanding requires models to repeatedly decide whether to respond or continue observing. Recently, Group Relative Policy Optimization (GRPO) has been applied to this setting, with existing approaches emphasizing reward design while retaining a single trajectory-level advantage across turns. Such shared credit can reinforce redundant replies after earlier successes and discourag",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 91,
+      "upvotes": 92,
       "arxiv_id": "2611.06728"
     },
     {
@@ -271,7 +297,7 @@
       "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine doma",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 61,
+      "upvotes": 62,
       "arxiv_id": "2611.06910"
     },
     {
@@ -284,7 +310,7 @@
       "summary": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts, potentially altering pretrained priors, or through specialized inference-time mechanisms that are diff",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 41,
+      "upvotes": 43,
       "arxiv_id": "2611.06741"
     },
     {
@@ -297,7 +323,7 @@
       "summary": "Egocentric human video offers a scalable source of manipulation priors for robot learning, yet translating raw data scale into generalizable robot policies demands rigorous data curation and training recipes. We introduce Open-HumanScale, the first fully open recipe for scaling egocentric pretraining to 50,000 hours, anchored by Open-HumanScale-50K---a curated egocentric video corpus densely annot",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 37,
+      "upvotes": 38,
       "arxiv_id": "2611.06817"
     },
     {
@@ -322,7 +348,7 @@
       "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 120,
+      "upvotes": 121,
       "arxiv_id": "2611.05376"
     },
     {
@@ -349,32 +375,6 @@
       "kind": "paper",
       "upvotes": 33,
       "arxiv_id": "2611.04408"
-    },
-    {
-      "id": "paper:2611.04277",
-      "title": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
-      "url": "https://huggingface.co/papers/2611.04277",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-03T00:00:00+00:00",
-      "summary": "Harness evolution from a common base exhibits Locality, Complementarity, and Nonstationarity: variants repair different failures, and their utility changes as the policy learns. Rather than seeking a universally superior harness, we introduce Harness-S to selectively rescue failures of a base execution system through sibling harnesses and transfer the resulting capabilities into a single policy th",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 67,
-      "arxiv_id": "2611.04277"
-    },
-    {
-      "id": "paper:2610.40131",
-      "title": "VideoMemBench: How Well Do MLLMs Remember in Video Conversations?",
-      "url": "https://huggingface.co/papers/2610.40131",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-03T00:00:00+00:00",
-      "summary": "Multimodal large language models (MLLMs) can now process hour-long videos, making extended multi-turn dialogue over a single video a natural mode of use. Sustaining such a dialogue requires more than answering each question in isolation: the model must retrieve and reuse information established earlier in the conversation, both what it has seen and what it has said, an ability we term in-context v",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 31,
-      "arxiv_id": "2610.40131"
     },
     {
       "id": "yt:0Kw6_DTZPrY",
@@ -807,18 +807,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/4fLVq6HJsKc/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
-    },
-    {
-      "id": "yt:X0_GDOkLKzQ",
-      "title": "New AI enzymes, 700+ math breakthroughs, AI for DNA mutations, room temp semiconductors: AI NEWS",
-      "url": "https://www.youtube.com/watch?v=X0_GDOkLKzQ",
-      "source": "AI Search",
-      "category": "videos",
-      "published": "2026-10-11T03:27:53+00:00",
-      "summary": "HUGE AI NEWS: OpenAI math breakthroughs, AlphaProtein Novo, Botanic-1, Iris 3B, Kandinsky 6.0, Mistral Large 4, Haiku 5.5 & more. Thanks to our sponsor Higgsfield. Try it today https://higgsfield.ai/s/theaisearch-SjGrCf #ai #ainews #aitools #aivideo #agi #singularity WorldPlay 2 https://worldplay2.g",
-      "thumbnail": "https://i1.ytimg.com/vi/X0_GDOkLKzQ/hqdefault.jpg",
-      "kind": "video",
-      "channel": "AI Search"
     }
   ],
   "featured": [
@@ -837,7 +825,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-09T21:12:05.636007+00:00",
+      "fetched_at": "2026-11-10T03:40:26.833250+00:00",
       "entries": [
         {
           "rank": 1,
@@ -919,7 +907,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-09T21:12:05.638059+00:00",
+      "fetched_at": "2026-11-10T03:40:26.835962+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1001,7 +989,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-09T21:12:05.640783+00:00",
+      "fetched_at": "2026-11-10T03:40:26.839580+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1083,7 +1071,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-09T21:12:05.641551+00:00",
+      "fetched_at": "2026-11-10T03:40:26.840597+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1226,7 +1214,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-09T21:12:05.647588+00:00",
+      "fetched_at": "2026-11-10T03:40:26.848185+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1287,7 +1275,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-09T21:12:05.649045+00:00",
+      "fetched_at": "2026-11-10T03:40:26.850100+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1369,7 +1357,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-09T21:12:05.672679+00:00",
+      "fetched_at": "2026-11-10T03:40:26.881194+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1451,7 +1439,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-09T21:12:05.700385+00:00",
+      "fetched_at": "2026-11-10T03:40:26.912672+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1533,7 +1521,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-09T21:12:05.709332+00:00",
+      "fetched_at": "2026-11-10T03:40:26.924422+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1615,27 +1603,27 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-09T21:12:05.712692+00:00",
+      "fetched_at": "2026-11-10T03:40:26.928659+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Qwen-Image-2.1",
           "creator": "Qwen-Image-2.1",
-          "score": 1045.0,
+          "score": 1046.0,
           "meta": "Sep 2026 · No API available"
         },
         {
           "rank": 2,
           "name": "FLUX 3 Image Klein",
           "creator": "FLUX 3 Image Klein",
-          "score": 1043.0,
+          "score": 1042.0,
           "meta": "Oct 2026 · $9.00 /1k imgs"
         },
         {
           "rank": 3,
           "name": "Fibo 2.0",
           "creator": "Fibo 2.0",
-          "score": 1039.0,
+          "score": 1040.0,
           "meta": "Oct 2026 · $32.00 /1k imgs"
         },
         {
@@ -1684,7 +1672,7 @@
           "rank": 10,
           "name": "FLUX.2 [dev] Flash",
           "creator": "FLUX.2 [dev] Flash",
-          "score": 989.0,
+          "score": 988.0,
           "meta": "Dec 2025 · $5.00 /1k imgs"
         }
       ]
@@ -1697,13 +1685,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-09T21:12:05.721979+00:00",
+      "fetched_at": "2026-11-10T03:40:26.940119+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Eleven v4",
           "creator": "Eleven v4",
-          "score": 1339.0,
+          "score": 1338.0,
           "meta": "Sept 2026 · $80.00 /1M chars"
         },
         {
@@ -1717,21 +1705,21 @@
           "rank": 3,
           "name": "Qwen-Audio-3.1-TTS-Plus",
           "creator": "Qwen-Audio-3.1-TTS-Plus",
-          "score": 1303.0,
+          "score": 1299.0,
           "meta": "Sept 2026 · $19.31 /1M chars"
         },
         {
           "rank": 4,
           "name": "Sonic 3.6",
           "creator": "Sonic 3.6",
-          "score": 1297.0,
+          "score": 1295.0,
           "meta": "Aug 2026 · $49.00 /1M chars"
         },
         {
           "rank": 5,
           "name": "Simba 3.5",
           "creator": "Simba 3.5",
-          "score": 1286.0,
+          "score": 1294.0,
           "meta": "Nov 2026 · $6.58 /1M chars"
         },
         {
@@ -1743,30 +1731,30 @@
         },
         {
           "rank": 7,
-          "name": "Fish Audio Drama 3",
-          "creator": "Fish Audio Drama 3",
-          "score": 1275.0,
-          "meta": "Oct 2026 · $15.00 /1M chars"
+          "name": "Lightning V3.1 Pro (Oct 2026)",
+          "creator": "Lightning V3.1 Pro (Oct 2026)",
+          "score": 1274.0,
+          "meta": "Oct 2026 · $19.50 /1M chars"
         },
         {
           "rank": 8,
-          "name": "Lightning V3.1 Pro (Oct 2026)",
-          "creator": "Lightning V3.1 Pro (Oct 2026)",
-          "score": 1273.0,
-          "meta": "Oct 2026 · $19.50 /1M chars"
+          "name": "Fish Audio Drama 3",
+          "creator": "Fish Audio Drama 3",
+          "score": 1271.0,
+          "meta": "Oct 2026 · $15.00 /1M chars"
         },
         {
           "rank": 9,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Qwen-Audio-3.0-TTS-Plus",
-          "score": 1268.0,
+          "score": 1267.0,
           "meta": "Sept 2026 · $19.31 /1M chars"
         },
         {
           "rank": 10,
           "name": "Realtime TTS-2",
           "creator": "Realtime TTS-2",
-          "score": 1268.0,
+          "score": 1267.0,
           "meta": "Aug 2026 · $20.83 /1M chars"
         }
       ]
@@ -1779,20 +1767,20 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-09T21:12:05.724067+00:00",
+      "fetched_at": "2026-11-10T03:40:26.942891+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fish Audio Drama 3",
           "creator": "Fish Audio Drama 3",
-          "score": 1275.0,
+          "score": 1271.0,
           "meta": "Oct 2026 · $15.00 /1M chars"
         },
         {
           "rank": 2,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio Drama 3 Preview",
-          "score": 1241.0,
+          "score": 1239.0,
           "meta": "Oct 2026 · $15.00 /1M chars"
         },
         {
@@ -1806,7 +1794,7 @@
           "rank": 4,
           "name": "Ming-3.0-tts",
           "creator": "Ming-3.0-tts",
-          "score": 1187.0,
+          "score": 1185.0,
           "meta": "Oct 2026 · N/A"
         },
         {
@@ -1820,14 +1808,14 @@
           "rank": 6,
           "name": "Fish Audio S2 Pro",
           "creator": "Fish Audio S2 Pro",
-          "score": 1108.0,
+          "score": 1106.0,
           "meta": "Mar 2026 · $15.00 /1M chars"
         },
         {
           "rank": 7,
           "name": "Step Audio EditX (Mar 2026)",
           "creator": "Step Audio EditX (Mar 2026)",
-          "score": 1101.0,
+          "score": 1098.0,
           "meta": "Feb 2026 · N/A"
         },
         {
@@ -1841,14 +1829,14 @@
           "rank": 9,
           "name": "Magpie-Multilingual 357M (Feb 2026)",
           "creator": "Magpie-Multilingual 357M (Feb 2026)",
-          "score": 1064.0,
+          "score": 1063.0,
           "meta": "Feb 2026 · N/A"
         },
         {
           "rank": 10,
           "name": "Kokoro 82M v1.0",
           "creator": "Kokoro 82M v1.0",
-          "score": 1064.0,
+          "score": 1062.0,
           "meta": "Jan 2025 · $0.65 /1M chars"
         }
       ]
@@ -2065,55 +2053,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-09T21:11:45.710546+00:00"
+        "checked_at": "2026-11-10T03:40:10.385152+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-09T21:11:44.685511+00:00"
+        "ok": false,
+        "items": 7,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-11-10T03:40:09.333925+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-09T21:11:48.762167+00:00"
+        "ok": false,
+        "items": 10,
+        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-11-10T03:40:13.675039+00:00"
       },
       {
         "name": "Fireship",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-09T21:11:46.727531+00:00"
+        "ok": false,
+        "items": 11,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "checked_at": "2026-11-10T03:40:11.450259+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-09T21:11:51.013641+00:00"
+        "checked_at": "2026-11-10T03:40:15.961933+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-09T21:11:47.744998+00:00"
+        "ok": false,
+        "items": 7,
+        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-11-10T03:40:12.537042+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-11-09T21:11:49.793877+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-11-10T03:40:14.743191+00:00"
       }
     ],
     "leaderboards": {
       "ok": 12,
       "failed": 1,
-      "checked_at": "2026-11-09T21:12:05.729209+00:00"
+      "checked_at": "2026-11-10T03:40:26.948995+00:00"
     }
   }
 }
