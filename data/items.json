@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T14:49:16.570799+00:00",
+  "generated_at": "2026-11-11T21:39:35.389841+00:00",
   "items": [
     {
       "id": "yt:S7lpCyZSdJQ",
@@ -95,7 +95,7 @@
       "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem ov",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 58,
+      "upvotes": 71,
       "arxiv_id": "2611.14210"
     },
     {
@@ -108,7 +108,7 @@
       "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from traje",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 45,
+      "upvotes": 51,
       "arxiv_id": "2611.14320"
     },
     {
@@ -121,7 +121,7 @@
       "summary": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator.",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 41,
+      "upvotes": 47,
       "arxiv_id": "2611.14033"
     },
     {
@@ -158,8 +158,21 @@
       "summary": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understan",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 97,
+      "upvotes": 98,
       "arxiv_id": "2611.12806"
+    },
+    {
+      "id": "paper:2611.12885",
+      "title": "World In-Context Learning for Agentic Robot Manipulation",
+      "url": "https://huggingface.co/papers/2611.12885",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-09T00:00:00+00:00",
+      "summary": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 63,
+      "arxiv_id": "2611.12885"
     },
     {
       "id": "paper:2611.12762",
@@ -175,19 +188,6 @@
       "arxiv_id": "2611.12762"
     },
     {
-      "id": "paper:2611.12885",
-      "title": "World In-Context Learning for Agentic Robot Manipulation",
-      "url": "https://huggingface.co/papers/2611.12885",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-09T00:00:00+00:00",
-      "summary": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 52,
-      "arxiv_id": "2611.12885"
-    },
-    {
       "id": "paper:2611.12886",
       "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
       "url": "https://huggingface.co/papers/2611.12886",
@@ -197,7 +197,7 @@
       "summary": "Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for subsequent distillation. We introduce Reframe, a post-training framework that t",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 38,
+      "upvotes": 39,
       "arxiv_id": "2611.12886"
     },
     {
@@ -212,6 +212,32 @@
       "kind": "paper",
       "upvotes": 32,
       "arxiv_id": "2611.12426"
+    },
+    {
+      "id": "paper:2611.11995",
+      "title": "Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization",
+      "url": "https://huggingface.co/papers/2611.11995",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-09T00:00:00+00:00",
+      "summary": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 runs with 24-hour budgets, totaling over 10,000 GPU-hours. Our results show that model rankings vary with the evaluation hor",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 32,
+      "arxiv_id": "2611.11995"
+    },
+    {
+      "id": "paper:2611.11558",
+      "title": "InfraRSI: Harnessing Recursive Self-Improvement for Training Infrastructure",
+      "url": "https://huggingface.co/papers/2611.11558",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-08T18:59:37+00:00",
+      "summary": "While Recursive Self-Improvement (RSI) accelerates isolated algorithm and kernel synthesis, distributed LLM training depends on tightly coupled launch settings, operator kernels, and communication schedules, where single edits often hit out-of-memory (OOM) boundaries, compiler conflicts, measurement jitter, or silent numerical drift. We present InfraRSI, the agentic harness that turns open-ended h",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 32,
+      "arxiv_id": "2611.11558"
     },
     {
       "id": "yt:FNnVmvii6Uo",
@@ -344,7 +370,7 @@
       "summary": "Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface. Learned correction codes combine corrective language, spatial evidence, execution history, and action proposals. MetaBrain provides training supervision and runtime guidance. A c",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 50,
+      "upvotes": 52,
       "arxiv_id": "2611.09124"
     },
     {
@@ -383,7 +409,7 @@
       "summary": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging. We present PCBRouteAgent, a multimodal PCB routing agent inspired by how human engineers coordinate global strategy with loca",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 41,
+      "upvotes": 42,
       "arxiv_id": "2611.08175"
     },
     {
@@ -397,32 +423,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/LHxOG65r12w/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
-    },
-    {
-      "id": "paper:2611.07025",
-      "title": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time",
-      "url": "https://huggingface.co/papers/2611.07025",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-04T19:00:06+00:00",
-      "summary": "Autoregressive decoding relies on the KV cache, whose memory footprint grows linearly with context length and caps batch size and throughput. Existing post-training methods exploit redundancy across tokens, layers, and feature dimensions, or lower numerical precision. We identify a complementary axis: within each attention head, values are largely predictable from their corresponding keys. We expl",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 34,
-      "arxiv_id": "2611.07025"
-    },
-    {
-      "id": "paper:2611.06856",
-      "title": "LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis",
-      "url": "https://huggingface.co/papers/2611.06856",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-04T18:11:56+00:00",
-      "summary": "We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing one coherent final image from multiple references. LongBanana contains 90 carefully",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 31,
-      "arxiv_id": "2611.06856"
     },
     {
       "id": "yt:FQABKeCe1jM",
@@ -843,30 +843,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/BPO7zZ7-6ec/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
-    },
-    {
-      "id": "yt:wajoP_5Cpw8",
-      "title": "Every app on Earth is now open source... whether it likes it or not",
-      "url": "https://www.youtube.com/watch?v=wajoP_5Cpw8",
-      "source": "Fireship",
-      "category": "videos",
-      "published": "2026-10-12T19:15:23+00:00",
-      "summary": "Every agent needs proper tools. Apify MCP gives yours thousands of them, ready to run. Use code FIRESHIP25 for $25 in free credits: https://apify.it/4ygURHS A developer just rewrote seven Adobe apps in Rust and open-sourced them for free. Let's test them out. Want more Fireship? 🗞️ Newsletter: https",
-      "thumbnail": "https://i4.ytimg.com/vi/wajoP_5Cpw8/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Fireship"
-    },
-    {
-      "id": "yt:ZPh0iLKS0kE",
-      "title": "Step 5 Preview First Test – Is THIS a DeepSeek Competitor?",
-      "url": "https://www.youtube.com/watch?v=ZPh0iLKS0kE",
-      "source": "Bijan Bowen",
-      "category": "videos",
-      "published": "2026-10-12T17:24:06+00:00",
-      "summary": "Timestamps: 00:00 - Intro 01:02 - First Look 01:47 - Technical Look 03:47 - Browser OS Test 08:51 - C++ Skate Game Test 11:00 - Subway FPS Test 13:32 - Blender & Godot Test 15:00 - Watch Website Test 16:42 - OSRS Test 18:11 - Testing Cost Join the Discord: https://discord.gg/hfaR2exy7S In this video",
-      "thumbnail": "https://i3.ytimg.com/vi/ZPh0iLKS0kE/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Bijan Bowen"
     }
   ],
   "featured": [
@@ -885,7 +861,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-11T14:49:16.445984+00:00",
+      "fetched_at": "2026-11-11T21:39:35.261660+00:00",
       "entries": [
         {
           "rank": 1,
@@ -927,7 +903,7 @@
           "name": "Seedream 5.5",
           "creator": "Seedream 5.5",
           "score": 1159.0,
-          "meta": "Nov 2026 · $27.00 /1k imgs"
+          "meta": "Nov 2026 · $28.00 /1k imgs"
         },
         {
           "rank": 7,
@@ -967,7 +943,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-11T14:49:16.448747+00:00",
+      "fetched_at": "2026-11-11T21:39:35.264391+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1049,7 +1025,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-11T14:49:16.452337+00:00",
+      "fetched_at": "2026-11-11T21:39:35.268122+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1131,7 +1107,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-11T14:49:16.453335+00:00",
+      "fetched_at": "2026-11-11T21:39:35.269155+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1274,7 +1250,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-11T14:49:16.461345+00:00",
+      "fetched_at": "2026-11-11T21:39:35.276848+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1335,7 +1311,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-11T14:49:16.463144+00:00",
+      "fetched_at": "2026-11-11T21:39:35.278750+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1417,7 +1393,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-11T14:49:16.492954+00:00",
+      "fetched_at": "2026-11-11T21:39:35.309741+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1499,7 +1475,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-11T14:49:16.525678+00:00",
+      "fetched_at": "2026-11-11T21:39:35.342888+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1552,23 +1528,23 @@
         },
         {
           "rank": 8,
+          "name": "Qwen3.8-Flash-Next",
+          "creator": "Alibaba",
+          "score": 29.0,
+          "meta": "256k ctx"
+        },
+        {
+          "rank": 9,
           "name": "Step 5 Preview",
           "creator": "StepFun",
           "score": 29.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "GLM-5.3-Flash",
           "creator": "Z AI",
           "score": 28.0,
-          "meta": "1M ctx"
-        },
-        {
-          "rank": 10,
-          "name": "MiMo-V2.6-Flash",
-          "creator": "Xiaomi",
-          "score": 27.0,
           "meta": "1M ctx"
         }
       ]
@@ -1581,7 +1557,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-11T14:49:16.536362+00:00",
+      "fetched_at": "2026-11-11T21:39:35.354870+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1651,7 +1627,7 @@
           "name": "Seedream 5.5",
           "creator": "Seedream 5.5",
           "score": 1135.0,
-          "meta": "Nov 2026 · $19.50 /1k imgs"
+          "meta": "Nov 2026 · $20.00 /1k imgs"
         }
       ]
     },
@@ -1663,7 +1639,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-11T14:49:16.540392+00:00",
+      "fetched_at": "2026-11-11T21:39:35.359132+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1745,7 +1721,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-11T14:49:16.551712+00:00",
+      "fetched_at": "2026-11-11T21:39:35.370681+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1827,7 +1803,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-11T14:49:16.554460+00:00",
+      "fetched_at": "2026-11-11T21:39:35.373342+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2113,55 +2089,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-11T14:48:59.731846+00:00"
+        "checked_at": "2026-11-11T21:39:17.770011+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-11T14:48:58.555737+00:00"
+        "checked_at": "2026-11-11T21:39:16.729700+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-11T14:49:03.229001+00:00"
+        "checked_at": "2026-11-11T21:39:20.956735+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-11T14:49:00.870138+00:00"
+        "checked_at": "2026-11-11T21:39:18.796973+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-11T14:49:05.687688+00:00"
+        "checked_at": "2026-11-11T21:39:23.376233+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-11T14:49:02.054685+00:00"
+        "checked_at": "2026-11-11T21:39:19.826865+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-11T14:49:04.429439+00:00"
+        "checked_at": "2026-11-11T21:39:22.135342+00:00"
       }
     ],
     "leaderboards": {
       "ok": 12,
       "failed": 1,
-      "checked_at": "2026-11-11T14:49:16.561290+00:00"
+      "checked_at": "2026-11-11T21:39:35.379096+00:00"
     }
   }
 }
