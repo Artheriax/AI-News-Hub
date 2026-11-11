@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-11-10T19:14:09.912201+00:00",
+  "generated_at": "2026-11-11T00:07:40.871814+00:00",
   "items": [
+    {
+      "id": "yt:583ThJIqQ7k",
+      "title": "Fable 5.2: The Self-Improvement Loop Keeps Loopin’ … (plus Gemini Carbon)",
+      "url": "https://www.youtube.com/watch?v=583ThJIqQ7k",
+      "source": "AI Explained",
+      "category": "videos",
+      "published": "2026-11-10T23:11:36+00:00",
+      "summary": "I’ve read the full Fable 5.2 report at 264 pages, the 30 page METR RSI report, and tested Gemini Carbon and Fable 5.2 hundreds of times. There’s too much to cover in one video, but let’s explore everything from how fast AI is accelerating AI, five benchmarks few others will talk about, why Simple Be",
+      "thumbnail": "https://i2.ytimg.com/vi/583ThJIqQ7k/hqdefault.jpg",
+      "kind": "video",
+      "channel": "AI Explained"
+    },
     {
       "id": "yt:1FurWDiK9A4",
       "title": "Did Anthropic just save its $1 trillion IPO?",
@@ -96,7 +108,7 @@
       "summary": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods. On Tai",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 49,
+      "upvotes": 51,
       "arxiv_id": "2611.12762"
     },
     {
@@ -158,7 +170,7 @@
       "summary": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a generative world model as a predictive dynamical system that maintains a persiste",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 52,
+      "upvotes": 53,
       "arxiv_id": "2611.10771"
     },
     {
@@ -243,8 +255,21 @@
       "summary": "Foundation models increasingly guide robot actions, yet sustained autonomy requires efficient control and failure recovery. We introduce A2-MEAS, an embodied multi-agent framework built around code as a scaling interface. Learned correction codes combine corrective language, spatial evidence, execution history, and action proposals. MetaBrain provides training supervision and runtime guidance. A c",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 48,
+      "upvotes": 49,
       "arxiv_id": "2611.09124"
+    },
+    {
+      "id": "paper:2611.08452",
+      "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
+      "url": "https://huggingface.co/papers/2611.08452",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-05T18:45:36+00:00",
+      "summary": "Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifacts alone. We ask whether preserving recovered procedures and decisions improves subsequent independe",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 30,
+      "arxiv_id": "2611.08452"
     },
     {
       "id": "paper:2611.08264",
@@ -256,7 +281,7 @@
       "summary": "We identify a key limitation of existing feed-forward 3DGS methods: Gaussian attributes are typically predicted in a radial-distance-normalized space that canonicalizes a global radial statistic of the reconstructed geometry, while the spacing between neighboring Gaussian centers can still vary substantially across scene scales and camera configurations. This mismatch induces systematic shifts in ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 67,
+      "upvotes": 68,
       "arxiv_id": "2611.08264"
     },
     {
@@ -324,6 +349,19 @@
       "arxiv_id": "2611.07392"
     },
     {
+      "id": "paper:2611.07461",
+      "title": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
+      "url": "https://huggingface.co/papers/2611.07461",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-05T00:00:00+00:00",
+      "summary": "How can an agent handle a real-world task end to end? Frontier models with their own harnesses still fall short on real-world benchmarks: on Terminal-Bench 4.0, GPT-5.6 Sol with Codex resolves 37.3% of the tasks and Claude Opus 5 with Claude Code 51.8%. These tasks fail at the step from reaching a resource to applying it, which we call the last mile to the real world. Existing approaches put the r",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 28,
+      "arxiv_id": "2611.07461"
+    },
+    {
       "id": "paper:2611.07025",
       "title": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time",
       "url": "https://huggingface.co/papers/2611.07025",
@@ -335,6 +373,19 @@
       "kind": "paper",
       "upvotes": 34,
       "arxiv_id": "2611.07025"
+    },
+    {
+      "id": "paper:2611.06856",
+      "title": "LongBanana: An Expert-Verified Benchmark for Long-Context Multi-Reference Image Synthesis",
+      "url": "https://huggingface.co/papers/2611.06856",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-04T18:11:56+00:00",
+      "summary": "We introduce LongBanana, to our knowledge the first expert-designed and expert-verified benchmark for long-context multi-reference image synthesis in the age of agent-driven image generation. The task requires retrieving dispersed visual evidence, rejecting distractors, binding entities and relations, and composing one coherent final image from multiple references. LongBanana contains 90 carefully",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 31,
+      "arxiv_id": "2611.06856"
     },
     {
       "id": "yt:FQABKeCe1jM",
@@ -358,47 +409,8 @@
       "summary": "Streaming speech recognition is increasingly consumed by machines, such as translators and voice agents, that act on each token as it appears. A token that is later revised costs wasted work or a wrong action. In this work, we present Confucius4-R2T2 (short for Real Real-Time Transcription), a stable-prefix streaming ASR model that never modifies its earlier output while maintaining high accuracy ",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 86,
+      "upvotes": 90,
       "arxiv_id": "2611.06043"
-    },
-    {
-      "id": "paper:2611.06741",
-      "title": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
-      "url": "https://huggingface.co/papers/2611.06741",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-04T00:00:00+00:00",
-      "summary": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts, potentially altering pretrained priors, or through specialized inference-time mechanisms that are diff",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 43,
-      "arxiv_id": "2611.06741"
-    },
-    {
-      "id": "paper:2611.06817",
-      "title": "Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models",
-      "url": "https://huggingface.co/papers/2611.06817",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-04T00:00:00+00:00",
-      "summary": "Egocentric human video offers a scalable source of manipulation priors for robot learning, yet translating raw data scale into generalizable robot policies demands rigorous data curation and training recipes. We introduce Open-HumanScale, the first fully open recipe for scaling egocentric pretraining to 50,000 hours, anchored by Open-HumanScale-50K---a curated egocentric video corpus densely annot",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 36,
-      "arxiv_id": "2611.06817"
-    },
-    {
-      "id": "paper:2611.06808",
-      "title": "LLMs Don't Know What They Know: Benchmarking Temporal Self-Knowledge for Financial Backtesting",
-      "url": "https://huggingface.co/papers/2611.06808",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-04T00:00:00+00:00",
-      "summary": "Financial backtests of large language models (LLMs) are meaningful only if the model did not already know the outcomes it is asked to predict. Practitioners guard against this by trusting a vendor's stated knowledge cutoff, by asking the model what it knows, or by instructing it to answer as of a past date. To verify whether any of these safeguards can be trusted, we introduce FinDendro, a benchma",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 34,
-      "arxiv_id": "2611.06808"
     },
     {
       "id": "yt:k2ruCf_z75I",
@@ -849,7 +861,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-10T19:14:09.781630+00:00",
+      "fetched_at": "2026-11-11T00:07:40.743007+00:00",
       "entries": [
         {
           "rank": 1,
@@ -888,38 +900,38 @@
         },
         {
           "rank": 6,
+          "name": "Seedream 5.5",
+          "creator": "Seedream 5.5",
+          "score": 1159.0,
+          "meta": "Nov 2026 · $27.00 /1k imgs"
+        },
+        {
+          "rank": 7,
           "name": "Nano Banana 2.1",
           "creator": "Nano Banana 2.1",
           "score": 1152.0,
           "meta": "Oct 2026 · $33.60 /1k imgs"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Krea 3 (Ultra)",
           "creator": "Krea 3 (Ultra)",
           "score": 1152.0,
           "meta": "Oct 2026 · $100.00 /1k imgs"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "MAI-Image-2.6",
           "creator": "MAI-Image-2.6",
           "score": 1149.0,
           "meta": "Aug 2026 · $38.91 /1k imgs"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "MAI-Image-2.6-Flash",
           "creator": "MAI-Image-2.6-Flash",
           "score": 1142.0,
           "meta": "Sep 2026 · $19.46 /1k imgs"
-        },
-        {
-          "rank": 10,
-          "name": "GPT Image 2 (high)",
-          "creator": "GPT Image 2 (high)",
-          "score": 1137.0,
-          "meta": "Apr 2026 · $211.00 /1k imgs"
         }
       ]
     },
@@ -931,7 +943,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-10T19:14:09.784377+00:00",
+      "fetched_at": "2026-11-11T00:07:40.745763+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1013,7 +1025,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-10T19:14:09.788078+00:00",
+      "fetched_at": "2026-11-11T00:07:40.749524+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1095,7 +1107,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-10T19:14:09.789114+00:00",
+      "fetched_at": "2026-11-11T00:07:40.750551+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1238,7 +1250,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-10T19:14:09.796781+00:00",
+      "fetched_at": "2026-11-11T00:07:40.758623+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1299,7 +1311,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-10T19:14:09.798788+00:00",
+      "fetched_at": "2026-11-11T00:07:40.760542+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1381,7 +1393,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-10T19:14:09.830819+00:00",
+      "fetched_at": "2026-11-11T00:07:40.791646+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1463,7 +1475,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-10T19:14:09.864769+00:00",
+      "fetched_at": "2026-11-11T00:07:40.825374+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1545,7 +1557,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-10T19:14:09.876958+00:00",
+      "fetched_at": "2026-11-11T00:07:40.837036+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1612,10 +1624,10 @@
         },
         {
           "rank": 10,
-          "name": "Muse Image",
-          "creator": "Muse Image",
-          "score": 1128.0,
-          "meta": "Jul 2026 · $10.00 /1k imgs"
+          "name": "Seedream 5.5",
+          "creator": "Seedream 5.5",
+          "score": 1135.0,
+          "meta": "Nov 2026 · $19.50 /1k imgs"
         }
       ]
     },
@@ -1627,7 +1639,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-10T19:14:09.881227+00:00",
+      "fetched_at": "2026-11-11T00:07:40.841097+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1709,7 +1721,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-10T19:14:09.892679+00:00",
+      "fetched_at": "2026-11-11T00:07:40.852342+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1722,7 +1734,7 @@
           "rank": 2,
           "name": "Eleven v4 Turbo",
           "creator": "Eleven v4 Turbo",
-          "score": 1336.0,
+          "score": 1335.0,
           "meta": "Sept 2026 · $40.00 /1M chars"
         },
         {
@@ -1750,7 +1762,7 @@
           "rank": 6,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Gemini 3.8 Flash TTS",
-          "score": 1283.0,
+          "score": 1284.0,
           "meta": "Sept 2026 · $16.49 /1M chars"
         },
         {
@@ -1764,7 +1776,7 @@
           "rank": 8,
           "name": "Fish Audio Drama 3",
           "creator": "Fish Audio Drama 3",
-          "score": 1274.0,
+          "score": 1273.0,
           "meta": "Oct 2026 · $15.00 /1M chars"
         },
         {
@@ -1791,13 +1803,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-10T19:14:09.895390+00:00",
+      "fetched_at": "2026-11-11T00:07:40.855021+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fish Audio Drama 3",
           "creator": "Fish Audio Drama 3",
-          "score": 1274.0,
+          "score": 1273.0,
           "meta": "Oct 2026 · $15.00 /1M chars"
         },
         {
@@ -2077,55 +2089,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-10T19:13:54.506985+00:00"
+        "checked_at": "2026-11-11T00:07:21.557461+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-10T19:13:53.481460+00:00"
+        "checked_at": "2026-11-11T00:07:20.397199+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-10T19:13:57.563107+00:00"
+        "checked_at": "2026-11-11T00:07:24.849571+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-10T19:13:55.524222+00:00"
+        "checked_at": "2026-11-11T00:07:22.588165+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-10T19:13:59.765561+00:00"
+        "checked_at": "2026-11-11T00:07:27.214536+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-10T19:13:56.543997+00:00"
+        "checked_at": "2026-11-11T00:07:23.707315+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-10T19:13:58.597820+00:00"
+        "checked_at": "2026-11-11T00:07:26.014307+00:00"
       }
     ],
     "leaderboards": {
       "ok": 12,
       "failed": 1,
-      "checked_at": "2026-11-10T19:14:09.901378+00:00"
+      "checked_at": "2026-11-11T00:07:40.860920+00:00"
     }
   }
 }
