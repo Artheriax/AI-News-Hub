@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-11-11T06:51:45.946373+00:00",
+  "generated_at": "2026-11-11T14:49:16.570799+00:00",
   "items": [
+    {
+      "id": "yt:S7lpCyZSdJQ",
+      "title": "Claude Fable 5.2 is a freak",
+      "url": "https://www.youtube.com/watch?v=S7lpCyZSdJQ",
+      "source": "AI Search",
+      "category": "videos",
+      "published": "2026-11-11T03:31:20+00:00",
+      "summary": "Claude Fable 5.2 review. #ai #aitools #ainews #llm #singularity #agi Thanks to our sponsor Higgsfield. Try it today https://higgsfield.ai/s/theaisearch-GjEKsU https://www.anthropic.com/claude-fable-and-mythos-5-2 00:00 Claude Fable 5.2 intro 00:23 Claude Code 00:54 Animation video 04:41 Live piano p",
+      "thumbnail": "https://i4.ytimg.com/vi/S7lpCyZSdJQ/hqdefault.jpg",
+      "kind": "video",
+      "channel": "AI Search"
+    },
+    {
+      "id": "yt:0GSvcg9wncc",
+      "title": "Gemini 4 Carbon Is INSANE – Seriously, This Model Is Ridiculous!",
+      "url": "https://www.youtube.com/watch?v=0GSvcg9wncc",
+      "source": "Bijan Bowen",
+      "category": "videos",
+      "published": "2026-11-10T23:59:25+00:00",
+      "summary": "Timestamps: 00:00 - Intro 00:58 - Personal Use Case 01:32 - First Look 02:27 - Technical Look 03:28 - Browser OS Test 10:26 - C++ Skate Game Test 13:35 - Jerry's Apartment Test 16:59 - Subway FPS Test 19:38 - Pool Party Swarm Test 24:46 - 3D Printing & Engineering Test 29:05 - C++ Skate Game Improve",
+      "thumbnail": "https://i1.ytimg.com/vi/0GSvcg9wncc/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Bijan Bowen"
+    },
     {
       "id": "yt:583ThJIqQ7k",
       "title": "Fable 5.2: The Self-Improvement Loop Keeps Loopin’ … (plus Gemini Carbon)",
@@ -62,6 +86,45 @@
       "channel": "Bijan Bowen"
     },
     {
+      "id": "paper:2611.14210",
+      "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+      "url": "https://huggingface.co/papers/2611.14210",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-10T00:00:00+00:00",
+      "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem ov",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 58,
+      "arxiv_id": "2611.14210"
+    },
+    {
+      "id": "paper:2611.14320",
+      "title": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+      "url": "https://huggingface.co/papers/2611.14320",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-10T00:00:00+00:00",
+      "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from traje",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 45,
+      "arxiv_id": "2611.14320"
+    },
+    {
+      "id": "paper:2611.14033",
+      "title": "Few-Step Streaming Video Generation via Condition Shifting",
+      "url": "https://huggingface.co/papers/2611.14033",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-10T00:00:00+00:00",
+      "summary": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator.",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 41,
+      "arxiv_id": "2611.14033"
+    },
+    {
       "id": "yt:pf5tXJZM1Rw",
       "title": "OpenAI spent $1.2 million hacking Linux... and it was a bargain",
       "url": "https://www.youtube.com/watch?v=pf5tXJZM1Rw",
@@ -95,7 +158,7 @@
       "summary": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understan",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 96,
+      "upvotes": 97,
       "arxiv_id": "2611.12806"
     },
     {
@@ -110,6 +173,19 @@
       "kind": "paper",
       "upvotes": 54,
       "arxiv_id": "2611.12762"
+    },
+    {
+      "id": "paper:2611.12885",
+      "title": "World In-Context Learning for Agentic Robot Manipulation",
+      "url": "https://huggingface.co/papers/2611.12885",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-09T00:00:00+00:00",
+      "summary": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 52,
+      "arxiv_id": "2611.12885"
     },
     {
       "id": "paper:2611.12886",
@@ -134,7 +210,7 @@
       "summary": "Discrete autoregressive modeling, notably through next-token prediction, has become a cornerstone of modern language models. Extending this paradigm to vision allows visual and language models to converge on a unified framework, thereby fostering shared methodology and infrastructure. This work investigates a central question: how far can a finite discrete vocabulary go in representing the richnes",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 27,
+      "upvotes": 32,
       "arxiv_id": "2611.12426"
     },
     {
@@ -272,19 +348,6 @@
       "arxiv_id": "2611.09124"
     },
     {
-      "id": "paper:2611.09017",
-      "title": "Frontier3DBench: Benchmarking Coding Agents for 3D Creation across Objects, Scenes, and Interactive Open Worlds",
-      "url": "https://huggingface.co/papers/2611.09017",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-06T00:00:00+00:00",
-      "summary": "Coding agents combine visual understanding with program execution, offering a new route to automated 3D creation. By translating images and instructions into editable programs, they bring reconstruction, generation, and editing into a shared workflow. Yet existing benchmarks fragment evaluation across task scopes and protocols, leaving their capabilities across construction levels unclear. We prop",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 25,
-      "arxiv_id": "2611.09017"
-    },
-    {
       "id": "paper:2611.08452",
       "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
       "url": "https://huggingface.co/papers/2611.08452",
@@ -336,32 +399,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2611.07461",
-      "title": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
-      "url": "https://huggingface.co/papers/2611.07461",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-05T00:00:00+00:00",
-      "summary": "How can an agent handle a real-world task end to end? Frontier models with their own harnesses still fall short on real-world benchmarks: on Terminal-Bench 4.0, GPT-5.6 Sol with Codex resolves 37.3% of the tasks and Claude Opus 5 with Claude Code 51.8%. These tasks fail at the step from reaching a resource to applying it, which we call the last mile to the real world. Existing approaches put the r",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 28,
-      "arxiv_id": "2611.07461"
-    },
-    {
-      "id": "paper:2611.07624",
-      "title": "Beneath the Surface: What We Overlook When We Talk About Agent Evolution",
-      "url": "https://huggingface.co/papers/2611.07624",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-05T00:00:00+00:00",
-      "summary": "Agent harness evolution enables recursive self-improvement (RSI) without updating model weights. We examine whether higher benchmark scores yield reliable, efficient, and transferable improvement. We evaluate four methods across harnesses, general and coding tasks. Repeated evaluations, controlled agent expansion, component interventions, and admission replays reveal recurring patterns. All sixtee",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 25,
-      "arxiv_id": "2611.07624"
-    },
-    {
       "id": "paper:2611.07025",
       "title": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time",
       "url": "https://huggingface.co/papers/2611.07025",
@@ -386,19 +423,6 @@
       "kind": "paper",
       "upvotes": 31,
       "arxiv_id": "2611.06856"
-    },
-    {
-      "id": "paper:2611.06748",
-      "title": "EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models",
-      "url": "https://huggingface.co/papers/2611.06748",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-04T16:26:45+00:00",
-      "summary": "Generative video models are increasingly used as visual world simulators, yet their primary strength lies in rendering plausible pixels rather than reasoning about how a world should evolve. Coherent world evolution requires more than visual fidelity: when an event occurs, a model must infer its consequences for the entities in the world and then render the resulting state. For example, after a wi",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 24,
-      "arxiv_id": "2611.06748"
     },
     {
       "id": "yt:FQABKeCe1jM",
@@ -861,7 +885,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-11T06:51:45.879020+00:00",
+      "fetched_at": "2026-11-11T14:49:16.445984+00:00",
       "entries": [
         {
           "rank": 1,
@@ -943,7 +967,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-11T06:51:45.880452+00:00",
+      "fetched_at": "2026-11-11T14:49:16.448747+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1025,7 +1049,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-11T06:51:45.882297+00:00",
+      "fetched_at": "2026-11-11T14:49:16.452337+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1107,7 +1131,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-11T06:51:45.882812+00:00",
+      "fetched_at": "2026-11-11T14:49:16.453335+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1250,7 +1274,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-11T06:51:45.886582+00:00",
+      "fetched_at": "2026-11-11T14:49:16.461345+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1311,7 +1335,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-11T06:51:45.887561+00:00",
+      "fetched_at": "2026-11-11T14:49:16.463144+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1393,7 +1417,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-11T06:51:45.902947+00:00",
+      "fetched_at": "2026-11-11T14:49:16.492954+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1475,7 +1499,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-11T06:51:45.920043+00:00",
+      "fetched_at": "2026-11-11T14:49:16.525678+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1557,7 +1581,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-11T06:51:45.925840+00:00",
+      "fetched_at": "2026-11-11T14:49:16.536362+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1639,7 +1663,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-11T06:51:45.927941+00:00",
+      "fetched_at": "2026-11-11T14:49:16.540392+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1721,7 +1745,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-11T06:51:45.933647+00:00",
+      "fetched_at": "2026-11-11T14:49:16.551712+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1803,7 +1827,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-11T06:51:45.934999+00:00",
+      "fetched_at": "2026-11-11T14:49:16.554460+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2086,58 +2110,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 3,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-11-11T06:51:26.916400+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-11T14:48:59.731846+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 6,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-11-11T06:51:25.873024+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-11T14:48:58.555737+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
-        "items": 11,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-11-11T06:51:30.058025+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-11T14:49:03.229001+00:00"
       },
       {
         "name": "Fireship",
-        "ok": false,
-        "items": 12,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-11-11T06:51:27.963357+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-11T14:49:00.870138+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-11T06:51:32.338017+00:00"
+        "checked_at": "2026-11-11T14:49:05.687688+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": false,
-        "items": 7,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-11-11T06:51:29.014355+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-11T14:49:02.054685+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-11-11T06:51:31.102467+00:00"
+        "error": null,
+        "checked_at": "2026-11-11T14:49:04.429439+00:00"
       }
     ],
     "leaderboards": {
       "ok": 12,
       "failed": 1,
-      "checked_at": "2026-11-11T06:51:45.940865+00:00"
+      "checked_at": "2026-11-11T14:49:16.561290+00:00"
     }
   }
 }
