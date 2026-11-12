@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-11-12T10:28:19.103000+00:00",
+  "generated_at": "2026-11-12T18:30:00.673802+00:00",
   "items": [
+    {
+      "id": "yt:gPNiuyYirfw",
+      "title": "DeepMind’s AI Just Did The Impossible",
+      "url": "https://www.youtube.com/watch?v=gPNiuyYirfw",
+      "source": "Two Minute Papers",
+      "category": "videos",
+      "published": "2026-11-12T13:41:41+00:00",
+      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.com/papers 📝 The DeepMind paper AlphaProof Code is available here: https://deepmind.google/blog/introducing-alphaproof-code/ https://deepmind.google/documents/36/Formal_Verification_of_Signal_4.pdf 🙏 We would like to thank our ",
+      "thumbnail": "https://i4.ytimg.com/vi/gPNiuyYirfw/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Two Minute Papers"
+    },
     {
       "id": "yt:lhCad7WDyHw",
       "title": "Google's Gemini 4 KRYPTON Is INSANE! Carbon 4, Grok 4.8, GPT-6.2 Release LEAKED, Qwen 4 Max! AI NEWS",
@@ -110,19 +122,6 @@
       "channel": "Bijan Bowen"
     },
     {
-      "id": "paper:2611.14210",
-      "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
-      "url": "https://huggingface.co/papers/2611.14210",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-10T00:00:00+00:00",
-      "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem ov",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 85,
-      "arxiv_id": "2611.14210"
-    },
-    {
       "id": "paper:2611.14033",
       "title": "Few-Step Streaming Video Generation via Condition Shifting",
       "url": "https://huggingface.co/papers/2611.14033",
@@ -132,7 +131,7 @@
       "summary": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator.",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 84,
+      "upvotes": 86,
       "arxiv_id": "2611.14033"
     },
     {
@@ -145,8 +144,21 @@
       "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from traje",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 62,
+      "upvotes": 65,
       "arxiv_id": "2611.14320"
+    },
+    {
+      "id": "paper:2611.14210",
+      "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+      "url": "https://huggingface.co/papers/2611.14210",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-10T00:00:00+00:00",
+      "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem ov",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 60,
+      "arxiv_id": "2611.14210"
     },
     {
       "id": "yt:pf5tXJZM1Rw",
@@ -182,21 +194,8 @@
       "summary": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understan",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 101,
+      "upvotes": 102,
       "arxiv_id": "2611.12806"
-    },
-    {
-      "id": "paper:2611.12885",
-      "title": "World In-Context Learning for Agentic Robot Manipulation",
-      "url": "https://huggingface.co/papers/2611.12885",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-09T00:00:00+00:00",
-      "summary": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 66,
-      "arxiv_id": "2611.12885"
     },
     {
       "id": "paper:2611.12762",
@@ -208,8 +207,21 @@
       "summary": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods. On Tai",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 54,
+      "upvotes": 56,
       "arxiv_id": "2611.12762"
+    },
+    {
+      "id": "paper:2611.12885",
+      "title": "World In-Context Learning for Agentic Robot Manipulation",
+      "url": "https://huggingface.co/papers/2611.12885",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-09T00:00:00+00:00",
+      "summary": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 55,
+      "arxiv_id": "2611.12885"
     },
     {
       "id": "paper:2611.12886",
@@ -260,7 +272,7 @@
       "summary": "While Recursive Self-Improvement (RSI) accelerates isolated algorithm and kernel synthesis, distributed LLM training depends on tightly coupled launch settings, operator kernels, and communication schedules, where single edits often hit out-of-memory (OOM) boundaries, compiler conflicts, measurement jitter, or silent numerical drift. We present InfraRSI, the agentic harness that turns open-ended h",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 34,
+      "upvotes": 32,
       "arxiv_id": "2611.11558"
     },
     {
@@ -297,7 +309,7 @@
       "summary": "Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately. This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well. We introduce the One Table Benchmark (), spanning 56 datasets, 46 registered methods, and 20 capability axes under aligned d",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 37,
+      "upvotes": 39,
       "arxiv_id": "2611.13001"
     },
     {
@@ -322,7 +334,7 @@
       "summary": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a generative world model as a predictive dynamical system that maintains a persiste",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 57,
+      "upvotes": 58,
       "arxiv_id": "2611.10771"
     },
     {
@@ -348,6 +360,19 @@
       "thumbnail": "https://i1.ytimg.com/vi/LJa_k2JyFsk/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
+    },
+    {
+      "id": "paper:2611.10649",
+      "title": "MACaQ: Fast, Model Agnostic Calibrated Quantization for Low-Precision Weights and Activations",
+      "url": "https://huggingface.co/papers/2611.10649",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-07T00:00:00+00:00",
+      "summary": "Weight-activation quantization can reduce the memory and compute cost of neural-network inference, but recent methods often require expensive optimization and architecture-specific propagation of basis transforms across layers. We introduce MACaQ, an MXFP4 W4A4 post-training quantization method that treats every linear layer independently. MACaQ applies a per-channel scale and a block-Hadamard tra",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 30,
+      "arxiv_id": "2611.10649"
     },
     {
       "id": "yt:iw9SZgyahqg",
@@ -422,19 +447,6 @@
       "kind": "paper",
       "upvotes": 32,
       "arxiv_id": "2611.08452"
-    },
-    {
-      "id": "paper:2611.08175",
-      "title": "PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?",
-      "url": "https://huggingface.co/papers/2611.08175",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-05T15:31:15+00:00",
-      "summary": "Automating printed circuit board (PCB) routing requires coordinating board-level connectivity decisions with geometric execution under strict design rules. Although recent agents can interact with native routing tools, reliable routing on complex boards remains challenging. We present PCBRouteAgent, a multimodal PCB routing agent inspired by how human engineers coordinate global strategy with loca",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 42,
-      "arxiv_id": "2611.08175"
     },
     {
       "id": "yt:LHxOG65r12w",
@@ -837,7 +849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-12T10:28:18.988802+00:00",
+      "fetched_at": "2026-11-12T18:30:00.560307+00:00",
       "entries": [
         {
           "rank": 1,
@@ -919,7 +931,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-12T10:28:18.991365+00:00",
+      "fetched_at": "2026-11-12T18:30:00.562871+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1001,7 +1013,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-12T10:28:18.994720+00:00",
+      "fetched_at": "2026-11-12T18:30:00.566250+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1083,7 +1095,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-12T10:28:18.995655+00:00",
+      "fetched_at": "2026-11-12T18:30:00.567203+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1226,7 +1238,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-12T10:28:19.002621+00:00",
+      "fetched_at": "2026-11-12T18:30:00.574480+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1287,7 +1299,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-12T10:28:19.004313+00:00",
+      "fetched_at": "2026-11-12T18:30:00.576257+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1369,7 +1381,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-12T10:28:19.032442+00:00",
+      "fetched_at": "2026-11-12T18:30:00.604260+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1451,7 +1463,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-12T10:28:19.062632+00:00",
+      "fetched_at": "2026-11-12T18:30:00.634900+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1533,7 +1545,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-12T10:28:19.073025+00:00",
+      "fetched_at": "2026-11-12T18:30:00.644925+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1615,7 +1627,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-12T10:28:19.076908+00:00",
+      "fetched_at": "2026-11-12T18:30:00.649225+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1697,7 +1709,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-12T10:28:19.087713+00:00",
+      "fetched_at": "2026-11-12T18:30:00.659483+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1779,7 +1791,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-12T10:28:19.090255+00:00",
+      "fetched_at": "2026-11-12T18:30:00.662030+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2065,55 +2077,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-12T10:28:00.958865+00:00"
+        "checked_at": "2026-11-12T18:29:43.327517+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-12T10:27:59.934372+00:00"
+        "checked_at": "2026-11-12T18:29:42.186600+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-12T10:28:04.141223+00:00"
+        "checked_at": "2026-11-12T18:29:46.658571+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-12T10:28:01.976503+00:00"
+        "checked_at": "2026-11-12T18:29:44.353091+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-12T10:28:06.487774+00:00"
+        "checked_at": "2026-11-12T18:29:48.971899+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-12T10:28:02.995185+00:00"
+        "checked_at": "2026-11-12T18:29:45.522107+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-12T10:28:05.285629+00:00"
+        "checked_at": "2026-11-12T18:29:47.793010+00:00"
       }
     ],
     "leaderboards": {
       "ok": 12,
       "failed": 1,
-      "checked_at": "2026-11-12T10:28:19.093672+00:00"
+      "checked_at": "2026-11-12T18:30:00.665420+00:00"
     }
   }
 }
