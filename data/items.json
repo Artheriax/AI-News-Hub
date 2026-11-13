@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T12:26:46.058380+00:00",
+  "generated_at": "2026-11-13T19:55:42.734944+00:00",
   "items": [
     {
       "id": "yt:1KtXDpSYedo",
@@ -83,8 +83,21 @@
       "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video genera",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 30,
+      "upvotes": 41,
       "arxiv_id": "2611.16748"
+    },
+    {
+      "id": "paper:2611.17167",
+      "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
+      "url": "https://huggingface.co/papers/2611.17167",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-12T00:00:00+00:00",
+      "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts poorl",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 29,
+      "arxiv_id": "2611.17167"
     },
     {
       "id": "yt:S7lpCyZSdJQ",
@@ -108,7 +121,7 @@
       "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 52,
+      "upvotes": 72,
       "arxiv_id": "2611.15777"
     },
     {
@@ -121,7 +134,7 @@
       "summary": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as e",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 32,
+      "upvotes": 35,
       "arxiv_id": "2611.15131"
     },
     {
@@ -219,21 +232,8 @@
       "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from traje",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 69,
+      "upvotes": 70,
       "arxiv_id": "2611.14320"
-    },
-    {
-      "id": "paper:2611.14210",
-      "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
-      "url": "https://huggingface.co/papers/2611.14210",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-10T00:00:00+00:00",
-      "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem ov",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 66,
-      "arxiv_id": "2611.14210"
     },
     {
       "id": "paper:2611.14815",
@@ -245,8 +245,21 @@
       "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify v",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 41,
+      "upvotes": 45,
       "arxiv_id": "2611.14815"
+    },
+    {
+      "id": "paper:2611.14210",
+      "title": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+      "url": "https://huggingface.co/papers/2611.14210",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-10T00:00:00+00:00",
+      "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem ov",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 45,
+      "arxiv_id": "2611.14210"
     },
     {
       "id": "paper:2611.13410",
@@ -258,7 +271,7 @@
       "summary": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Correcting these behavioral divergences remains difficult: offline data may miss the student's failure",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 34,
+      "upvotes": 35,
       "arxiv_id": "2611.13410"
     },
     {
@@ -295,7 +308,7 @@
       "summary": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 58,
+      "upvotes": 56,
       "arxiv_id": "2611.12885"
     },
     {
@@ -308,7 +321,7 @@
       "summary": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 runs with 24-hour budgets, totaling over 10,000 GPU-hours. Our results show that model rankings vary with the evaluation hor",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 37,
+      "upvotes": 43,
       "arxiv_id": "2611.11995"
     },
     {
@@ -321,21 +334,8 @@
       "summary": "Discrete autoregressive modeling, notably through next-token prediction, has become a cornerstone of modern language models. Extending this paradigm to vision allows visual and language models to converge on a unified framework, thereby fostering shared methodology and infrastructure. This work investigates a central question: how far can a finite discrete vocabulary go in representing the richnes",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 35,
+      "upvotes": 34,
       "arxiv_id": "2611.12426"
-    },
-    {
-      "id": "paper:2611.12177",
-      "title": "Embodied First Exam",
-      "url": "https://huggingface.co/papers/2611.12177",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-09T00:00:00+00:00",
-      "summary": "Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots. Existing robotics benchmarks are built around visuomotor policy learning, leaving it open whether coding agents can reliably control diverse robots under physical-world constraints. We therefore introduce the Embodied First Exam, a unified, comprehensive, and agent-native evaluatio",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 28,
-      "arxiv_id": "2611.12177"
     },
     {
       "id": "yt:FNnVmvii6Uo",
@@ -362,19 +362,6 @@
       "channel": "AI Search"
     },
     {
-      "id": "paper:2611.13001",
-      "title": "One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction",
-      "url": "https://huggingface.co/papers/2611.13001",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-08T00:00:00+00:00",
-      "summary": "Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately. This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well. We introduce the One Table Benchmark (), spanning 56 datasets, 46 registered methods, and 20 capability axes under aligned d",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 40,
-      "arxiv_id": "2611.13001"
-    },
-    {
       "id": "paper:2611.13004",
       "title": "G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation",
       "url": "https://huggingface.co/papers/2611.13004",
@@ -384,8 +371,21 @@
       "summary": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with th",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 37,
+      "upvotes": 40,
       "arxiv_id": "2611.13004"
+    },
+    {
+      "id": "paper:2611.13001",
+      "title": "One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction",
+      "url": "https://huggingface.co/papers/2611.13001",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-08T00:00:00+00:00",
+      "summary": "Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately. This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well. We introduce the One Table Benchmark (), spanning 56 datasets, 46 registered methods, and 20 capability axes under aligned d",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 39,
+      "arxiv_id": "2611.13001"
     },
     {
       "id": "yt:GJ6PMUm5oTA",
@@ -831,18 +831,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/l3L_lETiSzc/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
-    },
-    {
-      "id": "yt:QZVzuq28eFw",
-      "title": "OpenAI’s lead engineer was secretly a spy...",
-      "url": "https://www.youtube.com/watch?v=QZVzuq28eFw",
-      "source": "Fireship",
-      "category": "videos",
-      "published": "2026-10-14T17:48:10+00:00",
-      "summary": "Run GitHub Actions 2x faster and build with Codesmith at https://www.blacksmith.sh/ An OpenAI engineer built a wiretap with his wife’s ChatGPT account, hid it in toilet paper behind the executive boardroom TV, and lasted 48 hours before getting caught. Let's dive in. Want more Fireship? 🗞️ Newslette",
-      "thumbnail": "https://i2.ytimg.com/vi/QZVzuq28eFw/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Fireship"
     }
   ],
   "featured": [
@@ -861,7 +849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-13T12:26:45.958817+00:00",
+      "fetched_at": "2026-11-13T19:55:42.603606+00:00",
       "entries": [
         {
           "rank": 1,
@@ -943,7 +931,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-13T12:26:45.961028+00:00",
+      "fetched_at": "2026-11-13T19:55:42.606425+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1025,7 +1013,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-13T12:26:45.963885+00:00",
+      "fetched_at": "2026-11-13T19:55:42.610145+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1107,7 +1095,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-13T12:26:45.964668+00:00",
+      "fetched_at": "2026-11-13T19:55:42.611165+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1250,7 +1238,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-13T12:26:45.970815+00:00",
+      "fetched_at": "2026-11-13T19:55:42.618878+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1311,7 +1299,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-13T12:26:45.973318+00:00",
+      "fetched_at": "2026-11-13T19:55:42.620831+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1393,7 +1381,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-13T12:26:45.997172+00:00",
+      "fetched_at": "2026-11-13T19:55:42.652668+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1475,7 +1463,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-13T12:26:46.022983+00:00",
+      "fetched_at": "2026-11-13T19:55:42.686681+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1557,7 +1545,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-13T12:26:46.031913+00:00",
+      "fetched_at": "2026-11-13T19:55:42.699136+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1639,7 +1627,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-13T12:26:46.035096+00:00",
+      "fetched_at": "2026-11-13T19:55:42.703593+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1721,7 +1709,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-13T12:26:46.044020+00:00",
+      "fetched_at": "2026-11-13T19:55:42.715454+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1803,7 +1791,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-13T12:26:46.046179+00:00",
+      "fetched_at": "2026-11-13T19:55:42.718227+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2089,55 +2077,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-13T12:26:29.930998+00:00"
+        "checked_at": "2026-11-13T19:55:26.760331+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-13T12:26:28.905138+00:00"
+        "checked_at": "2026-11-13T19:55:25.705681+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-13T12:26:33.113167+00:00"
+        "checked_at": "2026-11-13T19:55:29.975513+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-13T12:26:30.948738+00:00"
+        "checked_at": "2026-11-13T19:55:27.798231+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-13T12:26:35.321282+00:00"
+        "checked_at": "2026-11-13T19:55:32.300193+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-13T12:26:31.967022+00:00"
+        "checked_at": "2026-11-13T19:55:28.840374+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-13T12:26:34.143973+00:00"
+        "checked_at": "2026-11-13T19:55:31.143895+00:00"
       }
     ],
     "leaderboards": {
       "ok": 12,
       "failed": 1,
-      "checked_at": "2026-11-13T12:26:46.051038+00:00"
+      "checked_at": "2026-11-13T19:55:42.724399+00:00"
     }
   }
 }
