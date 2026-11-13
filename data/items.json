@@ -1,6 +1,18 @@
 {
-  "generated_at": "2026-11-12T23:46:33.922436+00:00",
+  "generated_at": "2026-11-13T04:08:28.818127+00:00",
   "items": [
+    {
+      "id": "yt:prA0iTPDqfo",
+      "title": "Gemini 4 Hydrogen Is the BEST Flash Model Yet – Full Test!",
+      "url": "https://www.youtube.com/watch?v=prA0iTPDqfo",
+      "source": "Bijan Bowen",
+      "category": "videos",
+      "published": "2026-11-13T02:30:32+00:00",
+      "summary": "Timestamps: 00:00 - Intro 00:50 - First Look 02:00 - Technical Look 03:41 - Testing Info 04:19 - Browser OS Test 08:49 - C++ Skate Game Test 11:10 - Robot Arm Test 12:38 - Subway FPS Test 17:01 - Pool Party Game Test 19:58 - C++ Skate Game Improvement 21:38 - Jerry's Apartment 3D Print Test 25:11 - ",
+      "thumbnail": "https://i1.ytimg.com/vi/prA0iTPDqfo/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Bijan Bowen"
+    },
     {
       "id": "yt:SOwUWPtXQ9I",
       "title": "Jensen Huang just pulled out of Nvidia...",
@@ -156,7 +168,7 @@
       "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from traje",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 65,
+      "upvotes": 67,
       "arxiv_id": "2611.14320"
     },
     {
@@ -169,7 +181,7 @@
       "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem ov",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 62,
+      "upvotes": 64,
       "arxiv_id": "2611.14210"
     },
     {
@@ -182,8 +194,21 @@
       "summary": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Correcting these behavioral divergences remains difficult: offline data may miss the student's failure",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 31,
+      "upvotes": 32,
       "arxiv_id": "2611.13410"
+    },
+    {
+      "id": "paper:2611.14309",
+      "title": "MMDM: Measuring Massive Multitask Decision Making",
+      "url": "https://huggingface.co/papers/2611.14309",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-10T00:00:00+00:00",
+      "summary": "System-1 Decision Models directly make structured probabilistic decisions over query-specified options given a state in a single forward pass, without autoregressively generating reasoning trajectories or textual responses. Recent evaluations cover diverse tasks but often rely on existing benchmarks, where prior exposure to test material can obscure generalization. Moreover, real-world decision ma",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 27,
+      "arxiv_id": "2611.14309"
     },
     {
       "id": "yt:pf5tXJZM1Rw",
@@ -245,7 +270,7 @@
       "summary": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and unresolved questions, then uses these assessments to adapt research targets and select reusable reasoning methods. On Tai",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 56,
+      "upvotes": 57,
       "arxiv_id": "2611.12762"
     },
     {
@@ -258,8 +283,21 @@
       "summary": "Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for subsequent distillation. We introduce Reframe, a post-training framework that t",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 39,
+      "upvotes": 40,
       "arxiv_id": "2611.12886"
+    },
+    {
+      "id": "paper:2611.11995",
+      "title": "Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization",
+      "url": "https://huggingface.co/papers/2611.11995",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-09T00:00:00+00:00",
+      "summary": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 runs with 24-hour budgets, totaling over 10,000 GPU-hours. Our results show that model rankings vary with the evaluation hor",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 37,
+      "arxiv_id": "2611.11995"
     },
     {
       "id": "paper:2611.12426",
@@ -273,19 +311,6 @@
       "kind": "paper",
       "upvotes": 35,
       "arxiv_id": "2611.12426"
-    },
-    {
-      "id": "paper:2611.11995",
-      "title": "Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization",
-      "url": "https://huggingface.co/papers/2611.11995",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-09T00:00:00+00:00",
-      "summary": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 runs with 24-hour budgets, totaling over 10,000 GPU-hours. Our results show that model rankings vary with the evaluation hor",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 35,
-      "arxiv_id": "2611.11995"
     },
     {
       "id": "paper:2611.12177",
@@ -361,19 +386,6 @@
       "thumbnail": "https://i4.ytimg.com/vi/GJ6PMUm5oTA/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
-    },
-    {
-      "id": "paper:2611.10771",
-      "title": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
-      "url": "https://huggingface.co/papers/2611.10771",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-07T14:59:22+00:00",
-      "summary": "Visual generative models increasingly blur the line between synthesizing observations and simulating environments. Yet visual plausibility alone does not constitute successful world modeling: compelling outputs may lack persistent state, physical dynamics, or causally consistent responses to interactions. We define a generative world model as a predictive dynamical system that maintains a persiste",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 58,
-      "arxiv_id": "2611.10771"
     },
     {
       "id": "yt:Ru4V_nMbaJU",
@@ -849,7 +861,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-12T23:46:33.825262+00:00",
+      "fetched_at": "2026-11-13T04:08:28.690555+00:00",
       "entries": [
         {
           "rank": 1,
@@ -931,7 +943,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-12T23:46:33.827478+00:00",
+      "fetched_at": "2026-11-13T04:08:28.693355+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1013,7 +1025,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-12T23:46:33.830392+00:00",
+      "fetched_at": "2026-11-13T04:08:28.697074+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1095,7 +1107,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-12T23:46:33.831176+00:00",
+      "fetched_at": "2026-11-13T04:08:28.698096+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1238,7 +1250,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-12T23:46:33.837601+00:00",
+      "fetched_at": "2026-11-13T04:08:28.705921+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1299,7 +1311,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-12T23:46:33.839015+00:00",
+      "fetched_at": "2026-11-13T04:08:28.707896+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1381,7 +1393,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-12T23:46:33.862931+00:00",
+      "fetched_at": "2026-11-13T04:08:28.739068+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1463,7 +1475,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-12T23:46:33.889034+00:00",
+      "fetched_at": "2026-11-13T04:08:28.771512+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1545,76 +1557,76 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-12T23:46:33.897939+00:00",
+      "fetched_at": "2026-11-13T04:08:28.783670+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.6 Sunburst (max)",
           "creator": "GPT Image 2.6 Sunburst (max)",
-          "score": 1262.0,
+          "score": 1261.0,
           "meta": "Nov 2026 · $210.72 /1k imgs"
         },
         {
           "rank": 2,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "GPT Image 2.5 Sunburst (max)",
-          "score": 1230.0,
+          "score": 1229.0,
           "meta": "Sep 2026 · $210.72 /1k imgs"
         },
         {
           "rank": 3,
           "name": "GPT Image 2.6 Flare (max)",
           "creator": "GPT Image 2.6 Flare (max)",
-          "score": 1227.0,
+          "score": 1226.0,
           "meta": "Nov 2026 · $210.72 /1k imgs"
         },
         {
           "rank": 4,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "GPT Image 2.5 Flare (max)",
-          "score": 1211.0,
+          "score": 1210.0,
           "meta": "Sep 2026 · $210.72 /1k imgs"
         },
         {
           "rank": 5,
           "name": "GPT Image 2 (high)",
           "creator": "GPT Image 2 (high)",
-          "score": 1189.0,
+          "score": 1191.0,
           "meta": "Apr 2026 · $211.00 /1k imgs"
         },
         {
           "rank": 6,
           "name": "Nano Banana 2.1",
           "creator": "Nano Banana 2.1",
-          "score": 1177.0,
+          "score": 1176.0,
           "meta": "Oct 2026 · $33.60 /1k imgs"
         },
         {
           "rank": 7,
           "name": "MAI-Image-2.6",
           "creator": "MAI-Image-2.6",
-          "score": 1170.0,
+          "score": 1169.0,
           "meta": "Aug 2026 · $38.91 /1k imgs"
         },
         {
           "rank": 8,
           "name": "Grok Imagine Image 2.0",
           "creator": "Grok Imagine Image 2.0",
-          "score": 1167.0,
+          "score": 1168.0,
           "meta": "Aug 2026 · $60.00 /1k imgs"
         },
         {
           "rank": 9,
           "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
           "creator": "Nano Banana 2 (Gemini 3.1 Flash Image)",
-          "score": 1144.0,
+          "score": 1143.0,
           "meta": "Feb 2026 · $67.00 /1k imgs"
         },
         {
           "rank": 10,
           "name": "Seedream 5.5",
           "creator": "Seedream 5.5",
-          "score": 1135.0,
+          "score": 1134.0,
           "meta": "Nov 2026 · $20.00 /1k imgs"
         }
       ]
@@ -1627,27 +1639,27 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-12T23:46:33.901204+00:00",
+      "fetched_at": "2026-11-13T04:08:28.787866+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "H3-Image",
           "creator": "H3-Image",
-          "score": 1067.0,
+          "score": 1066.0,
           "meta": "Nov 2026 · $21.79 /1k imgs"
         },
         {
           "rank": 2,
           "name": "Qwen-Image-2.1",
           "creator": "Qwen-Image-2.1",
-          "score": 1047.0,
+          "score": 1046.0,
           "meta": "Sep 2026 · No API available"
         },
         {
           "rank": 3,
           "name": "FLUX 3 Image Klein",
           "creator": "FLUX 3 Image Klein",
-          "score": 1044.0,
+          "score": 1042.0,
           "meta": "Oct 2026 · $9.00 /1k imgs"
         },
         {
@@ -1675,7 +1687,7 @@
           "rank": 7,
           "name": "Ming-Image-0.1-Design",
           "creator": "Ming-Image-0.1-Design",
-          "score": 1002.0,
+          "score": 1001.0,
           "meta": "Sep 2026 · $30.00 /1k imgs"
         },
         {
@@ -1696,7 +1708,7 @@
           "rank": 10,
           "name": "Cosmos3-Super-Text2Image (agentic)",
           "creator": "Cosmos3-Super-Text2Image (agentic)",
-          "score": 996.0,
+          "score": 995.0,
           "meta": "May 2026 · No API available"
         }
       ]
@@ -1709,7 +1721,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-12T23:46:33.910043+00:00",
+      "fetched_at": "2026-11-13T04:08:28.799088+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1791,7 +1803,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-12T23:46:33.912187+00:00",
+      "fetched_at": "2026-11-13T04:08:28.801728+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2077,55 +2089,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-12T23:46:17.078734+00:00"
+        "checked_at": "2026-11-13T04:08:11.413787+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-12T23:46:15.951443+00:00"
+        "checked_at": "2026-11-13T04:08:10.386822+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-12T23:46:20.236028+00:00"
+        "checked_at": "2026-11-13T04:08:14.590458+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-12T23:46:18.104850+00:00"
+        "checked_at": "2026-11-13T04:08:12.432315+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-12T23:46:22.546600+00:00"
+        "checked_at": "2026-11-13T04:08:17.030965+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-12T23:46:19.133925+00:00"
+        "checked_at": "2026-11-13T04:08:13.450996+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-12T23:46:21.373610+00:00"
+        "checked_at": "2026-11-13T04:08:15.844884+00:00"
       }
     ],
     "leaderboards": {
       "ok": 12,
       "failed": 1,
-      "checked_at": "2026-11-12T23:46:33.915146+00:00"
+      "checked_at": "2026-11-13T04:08:28.807560+00:00"
     }
   }
 }
