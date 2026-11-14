@@ -417,8 +417,72 @@ def parse_models_rows(
     return entries
 
 
+def _initial_models(page_html: str) -> list[dict]:
+    """Read the model list embedded in the leaderboard's RSC payload."""
+    payload = _rsc_payload(page_html)
+    marker = '"initialModels":'
+    index = payload.find(marker)
+    if index < 0:
+        return []
+    start = payload.find("[", index + len(marker))
+    if start < 0:
+        return []
+    try:
+        models, _ = json.JSONDecoder().raw_decode(payload[start:])
+    except ValueError:
+        return []
+    return models if isinstance(models, list) else []
+
+
+def _format_context(tokens) -> str:
+    if not isinstance(tokens, (int, float)) or tokens <= 0:
+        return ""
+    if tokens >= 1_000_000:
+        return f"{tokens / 1_000_000:.1f}".rstrip("0").rstrip(".") + "M"
+    if tokens >= 1_000:
+        return f"{tokens / 1_000:.0f}k"
+    return str(int(tokens))
+
+
 def parse_lb_models_open(page_html: str, top_n: int) -> list[dict]:
-    return parse_models_rows(page_html, top_n=top_n, open_only=True)
+    models = _initial_models(page_html)
+    if not models:
+        return parse_models_rows(page_html, top_n=top_n, open_only=True)
+    candidates: list[dict] = []
+    for model in models:
+        if not model.get("isOpenWeights"):
+            continue
+        raw_score = model.get("intelligenceIndex")
+        if not isinstance(raw_score, (int, float)):
+            continue
+        release = (model.get("release") or {}).get("name") or model.get("name") or ""
+        suffix = model.get("suffix")
+        name = f"{release} {suffix}".strip() if suffix else str(release)
+        if not name:
+            continue
+        context = _format_context(model.get("contextWindowTokens"))
+        candidates.append(
+            {
+                "raw_score": raw_score,
+                "name": name,
+                "creator": model.get("modelCreatorName") or "",
+                "score": float(round(raw_score)),
+                "meta": f"{context} ctx" if context else "",
+            }
+        )
+    if not candidates:
+        return parse_models_rows(page_html, top_n=top_n, open_only=True)
+    candidates.sort(key=lambda entry: entry["raw_score"], reverse=True)
+    return [
+        {
+            "rank": rank,
+            "name": entry["name"],
+            "creator": entry["creator"],
+            "score": entry["score"],
+            "meta": entry["meta"],
+        }
+        for rank, entry in enumerate(candidates[:top_n], start=1)
+    ]
 
 
 def _model_open_flags(page_html: str) -> dict[str, bool]:
@@ -459,42 +523,69 @@ def _rsc_chunks(payload: str) -> dict[str, str]:
     }
 
 
-def _arena_entries(raw: str) -> list[dict]:
-    """Parse rank/elo/name/creator out of one embedded arena ranking."""
+def _arena_entries(raw: str, *, open_only: bool = False) -> list[dict]:
+    """Parse the overall ranking embedded in one arena data chunk."""
     try:
         data = json.loads(raw)
     except (TypeError, ValueError):
         return []
-    found: dict[str, dict] = {}
-    stack = [data]
-    while stack:
-        node = stack.pop()
-        if isinstance(node, dict):
-            formatted = node.get("formatted")
-            values = node.get("values")
+    if not isinstance(data, list):
+        return []
+    # Each chunk holds rankings for the overall board (key None) followed by
+    # per-category boards. Only the overall ranking belongs in the leaderboard.
+    ranking = None
+    for pair in data:
+        if (
+            isinstance(pair, list)
+            and len(pair) == 2
+            and pair[0] is None
+            and isinstance(pair[1], list)
+        ):
+            ranking = pair[1]
+            break
+    if ranking is None:
+        for pair in data:
             if (
-                isinstance(formatted, dict)
-                and isinstance(values, dict)
-                and values.get("name")
+                isinstance(pair, list)
+                and len(pair) == 2
+                and isinstance(pair[1], list)
             ):
-                name = str(values["name"])
-                if name not in found:
-                    creator = (values.get("creator") or {}).get("name") or ""
-                    found[name] = {
-                        "rank": int(
-                            _parse_score(formatted.get("rank")) or len(found) + 1
-                        ),
-                        "score": _parse_score(formatted.get("elo")),
-                        "name": name,
-                        "creator": creator,
-                        "meta": "",
-                    }
-            stack.extend(node.values())
-        elif isinstance(node, list):
-            stack.extend(node)
-    entries = sorted(found.values(), key=lambda entry: entry["rank"])
-    for index, entry in enumerate(entries, start=1):
-        entry["rank"] = index
+                ranking = pair[1]
+                break
+    if not ranking:
+        return []
+    entries: list[dict] = []
+    for node in ranking:
+        if not isinstance(node, dict):
+            continue
+        formatted = node.get("formatted")
+        values = node.get("values")
+        if not isinstance(formatted, dict) or not isinstance(values, dict):
+            continue
+        name = values.get("name")
+        if not name:
+            continue
+        if open_only and not values.get("openWeightsUrl"):
+            continue
+        meta_bits = []
+        released = formatted.get("released")
+        if released:
+            meta_bits.append(str(released))
+        override = values.get("priceDisplayOverride")
+        price = values.get("pricePerMinute")
+        if override == "no_api":
+            meta_bits.append("No API available")
+        elif isinstance(price, (int, float)):
+            meta_bits.append(f"${price:.2f} /min")
+        entries.append(
+            {
+                "rank": len(entries) + 1,
+                "name": str(name),
+                "creator": (values.get("creator") or {}).get("name") or "",
+                "score": _parse_score(formatted.get("elo")),
+                "meta": " · ".join(meta_bits),
+            }
+        )
     return entries
 
 
@@ -514,14 +605,21 @@ def _norm_name(name: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", name.lower())
 
 
-def parse_lb_flight_no_audio(page_html: str, top_n: int) -> list[dict]:
+def _no_audio_entries(page_html: str, *, open_only: bool = False) -> list[dict]:
     payload = _rsc_payload(page_html)
     # Newer AA pages reference the silent-video ranking explicitly.
     ref = re.search(r'"withoutAudioData":"\$Q([0-9a-z]+)"', payload)
     if ref:
-        entries = _arena_entries(_rsc_chunks(payload).get(ref.group(1), ""))
-        if entries:
-            return entries[:top_n]
+        return _arena_entries(
+            _rsc_chunks(payload).get(ref.group(1), ""), open_only=open_only
+        )
+    return []
+
+
+def parse_lb_flight_no_audio(page_html: str, top_n: int) -> list[dict]:
+    entries = _no_audio_entries(page_html)
+    if entries:
+        return entries[:top_n]
 
     # Fallback: pick the embedded ranking whose leader differs from the
     # with-audio table rendered on the page.
@@ -540,6 +638,12 @@ def parse_lb_flight_no_audio(page_html: str, top_n: int) -> list[dict]:
 
 
 def parse_lb_flight_no_audio_open(page_html: str, top_n: int) -> list[dict]:
+    entries = _no_audio_entries(page_html, open_only=True)
+    if entries:
+        return entries[:top_n]
+
+    # Older payloads lack open-weights metadata; fall back to the models
+    # rendered in the with-audio open-weights table.
     entries = parse_lb_flight_no_audio(page_html, 1000)
     heads, rows = _table_parts(page_html)
     i_name = _col(heads, "Model", default=2)

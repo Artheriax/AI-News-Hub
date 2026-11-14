@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T22:05:36.322944+00:00",
+  "generated_at": "2026-11-14T22:30:35.838475+00:00",
   "items": [
     {
       "id": "yt:tAy1IZf_4kg",
@@ -120,7 +120,7 @@
       "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts poorl",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 32,
+      "upvotes": 33,
       "arxiv_id": "2611.17167"
     },
     {
@@ -849,7 +849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:05:36.207602+00:00",
+      "fetched_at": "2026-11-14T22:30:35.764580+00:00",
       "entries": [
         {
           "rank": 1,
@@ -931,7 +931,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:05:36.209325+00:00",
+      "fetched_at": "2026-11-14T22:30:35.765640+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1013,7 +1013,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:05:36.211584+00:00",
+      "fetched_at": "2026-11-14T22:30:35.767021+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1095,7 +1095,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:05:36.212268+00:00",
+      "fetched_at": "2026-11-14T22:30:35.767450+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1156,77 +1156,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:05:36.241360+00:00",
+      "fetched_at": "2026-11-14T22:30:35.785367+00:00",
       "entries": [
         {
           "rank": 1,
-          "score": 1164.0,
           "name": "Utopai X",
           "creator": "Utopai Studios",
-          "meta": ""
+          "score": 1154.0,
+          "meta": "Sep 2026 · No API available"
         },
         {
           "rank": 2,
-          "score": 1154.0,
-          "name": "Agnes-Video-2.5",
-          "creator": "Sapiens AI",
-          "meta": ""
+          "name": "Dreamina Seedance 2.5",
+          "creator": "ByteDance Seed",
+          "score": 1128.0,
+          "meta": "Jul 2026 · $34.12 /min"
         },
         {
           "rank": 3,
-          "score": 1143.0,
-          "name": "MiniMax H3 (768p)",
-          "creator": "MiniMax",
-          "meta": ""
+          "name": "MiniMax H3 Max",
+          "creator": "Fal",
+          "score": 1124.0,
+          "meta": "Aug 2026 · $9.60 /min"
         },
         {
           "rank": 4,
-          "score": 1141.0,
           "name": "Bach 1.0 Pro",
           "creator": "Video Rebirth",
-          "meta": ""
+          "score": 1124.0,
+          "meta": "Sep 2026 · $7.20 /min"
         },
         {
           "rank": 5,
-          "score": 1137.0,
           "name": "Hyperflow H3",
           "creator": "Video Rebirth",
-          "meta": ""
+          "score": 1123.0,
+          "meta": "Sep 2026 · $9.00 /min"
         },
         {
           "rank": 6,
-          "score": 1129.0,
-          "name": "HeyGen Video 1",
-          "creator": "HeyGen",
-          "meta": ""
+          "name": "SkyReels V4",
+          "creator": "Skywork AI",
+          "score": 1119.0,
+          "meta": "Mar 2026 · $21.00 /min"
         },
         {
           "rank": 7,
-          "score": 1128.0,
-          "name": "MiniMax H3 Max",
-          "creator": "Fal",
-          "meta": ""
+          "name": "Agnes-Video-2.5",
+          "creator": "Sapiens AI",
+          "score": 1118.0,
+          "meta": "Aug 2026 · $2.40 /min"
         },
         {
           "rank": 8,
-          "score": 1127.0,
-          "name": "SkyReels V4",
-          "creator": "Skywork AI",
-          "meta": ""
+          "name": "MiniMax H3 (768p)",
+          "creator": "MiniMax",
+          "score": 1113.0,
+          "meta": "Jul 2026 · $4.80 /min"
         },
         {
           "rank": 9,
+          "name": "P-Video-2-Pro",
+          "creator": "Pruna AI",
           "score": 1109.0,
-          "name": "Dreamina Seedance 2.5",
-          "creator": "ByteDance Seed",
-          "meta": ""
+          "meta": "Sep 2026 · $5.70 /min"
         },
         {
           "rank": 10,
+          "name": "HeyGen Video 1",
+          "creator": "HeyGen",
           "score": 1107.0,
-          "name": "FLUX 3 Max",
-          "creator": "Fal",
-          "meta": ""
+          "meta": "Oct 2026 · $2.40 /min"
         }
       ]
     },
@@ -1238,56 +1238,56 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:05:36.267206+00:00",
+      "fetched_at": "2026-11-14T22:30:35.803617+00:00",
       "entries": [
         {
           "rank": 1,
-          "score": 1143.0,
-          "name": "MiniMax H3 (768p)",
-          "creator": "MiniMax",
-          "meta": ""
+          "name": "Hyperflow H3",
+          "creator": "Video Rebirth",
+          "score": 1123.0,
+          "meta": "Sep 2026 · $9.00 /min"
         },
         {
           "rank": 2,
-          "score": 1137.0,
-          "name": "Hyperflow H3",
-          "creator": "Video Rebirth",
-          "meta": ""
+          "name": "MiniMax H3 (768p)",
+          "creator": "MiniMax",
+          "score": 1113.0,
+          "meta": "Jul 2026 · $4.80 /min"
         },
         {
           "rank": 3,
-          "score": 1102.0,
           "name": "Pika H3 Flex",
           "creator": "Pika Art",
-          "meta": ""
+          "score": 1099.0,
+          "meta": "Oct 2026 · $2.10 /min"
         },
         {
           "rank": 4,
-          "score": 955.0,
-          "name": "LTX-2.5 Pro",
+          "name": "LTX-2.5 Fast",
           "creator": "Lightricks",
-          "meta": ""
+          "score": 912.0,
+          "meta": "Aug 2026 · $7.80 /min"
         },
         {
           "rank": 5,
-          "score": 912.0,
-          "name": "LTX-2.5 Fast",
+          "name": "LTX-2.5 Pro",
           "creator": "Lightricks",
-          "meta": ""
+          "score": 904.0,
+          "meta": "Aug 2026 · $10.20 /min"
         },
         {
           "rank": 6,
-          "score": 829.0,
           "name": "LTX-2.3 Fast",
           "creator": "Lightricks",
-          "meta": ""
+          "score": 821.0,
+          "meta": "Mar 2026 · $3.60 /min"
         },
         {
           "rank": 7,
-          "score": 814.0,
           "name": "LTX-2.3 Pro",
           "creator": "Lightricks",
-          "meta": ""
+          "score": 817.0,
+          "meta": "Mar 2026 · $4.80 /min"
         }
       ]
     },
@@ -1299,7 +1299,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:05:36.268357+00:00",
+      "fetched_at": "2026-11-14T22:30:35.804351+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1381,7 +1381,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T22:05:36.281195+00:00",
+      "fetched_at": "2026-11-14T22:30:35.813627+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1463,7 +1463,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T22:05:36.296520+00:00",
+      "fetched_at": "2026-11-14T22:30:35.821411+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1474,66 +1474,66 @@
         },
         {
           "rank": 2,
+          "name": "DeepSeek V4.1 Flash 1017 Max",
+          "creator": "DeepSeek",
+          "score": 33.0,
+          "meta": "1M ctx"
+        },
+        {
+          "rank": 3,
+          "name": "GLM-5.3 Max",
+          "creator": "Z AI",
+          "score": 32.0,
+          "meta": "1M ctx"
+        },
+        {
+          "rank": 4,
           "name": "Inkling 2 Small",
           "creator": "Thinking Machines",
           "score": 31.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 3,
+          "rank": 5,
           "name": "MiMo-V2.6-Pro",
           "creator": "Xiaomi",
           "score": 30.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 4,
+          "rank": 6,
           "name": "Ling 3.1 Flash 1019",
           "creator": "InclusionAI",
           "score": 30.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 5,
+          "rank": 7,
           "name": "MiniMax-M3.1-Flash",
           "creator": "MiniMax",
           "score": 29.0,
           "meta": "1M ctx"
         },
         {
-          "rank": 6,
+          "rank": 8,
+          "name": "DeepSeek V4.1 Flash 1017 High",
+          "creator": "DeepSeek",
+          "score": 29.0,
+          "meta": "1M ctx"
+        },
+        {
+          "rank": 9,
           "name": "Qwen3.8-Flash-Next",
           "creator": "Alibaba",
           "score": 29.0,
           "meta": "256k ctx"
         },
         {
-          "rank": 7,
+          "rank": 10,
           "name": "Step 5 Preview",
           "creator": "StepFun",
           "score": 29.0,
           "meta": "1M ctx"
-        },
-        {
-          "rank": 8,
-          "name": "GLM-5.3-Flash",
-          "creator": "Z AI",
-          "score": 28.0,
-          "meta": "1M ctx"
-        },
-        {
-          "rank": 9,
-          "name": "MiMo-V2.6-Flash",
-          "creator": "Xiaomi",
-          "score": 27.0,
-          "meta": "1M ctx"
-        },
-        {
-          "rank": 10,
-          "name": "Nanbeige4.3-33B",
-          "creator": "Nanbeige",
-          "score": 20.0,
-          "meta": "524k ctx"
         }
       ]
     },
@@ -1545,7 +1545,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:05:36.303184+00:00",
+      "fetched_at": "2026-11-14T22:30:35.825520+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1627,7 +1627,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:05:36.305696+00:00",
+      "fetched_at": "2026-11-14T22:30:35.827078+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1709,7 +1709,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:05:36.312201+00:00",
+      "fetched_at": "2026-11-14T22:30:35.831231+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1791,7 +1791,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:05:36.313911+00:00",
+      "fetched_at": "2026-11-14T22:30:35.832260+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2074,58 +2074,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 2,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-11-14T22:05:17.213673+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-14T22:30:19.958805+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 8,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-11-14T22:05:16.161599+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-14T22:30:18.931081+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
-        "items": 10,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-11-14T22:05:20.449677+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-14T22:30:23.033591+00:00"
       },
       {
         "name": "Fireship",
-        "ok": false,
-        "items": 10,
-        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-11-14T22:05:18.331647+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-14T22:30:20.990583+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:05:22.681890+00:00"
+        "checked_at": "2026-11-14T22:30:25.393487+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:05:19.409584+00:00"
+        "checked_at": "2026-11-14T22:30:22.014874+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:05:21.491298+00:00"
+        "checked_at": "2026-11-14T22:30:24.063514+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-14T22:05:36.316425+00:00"
+      "checked_at": "2026-11-14T22:30:35.834053+00:00"
     }
   }
 }
