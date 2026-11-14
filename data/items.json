@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T22:40:54.398808+00:00",
+  "generated_at": "2026-11-14T22:45:11.977357+00:00",
   "items": [
     {
       "id": "yt:tAy1IZf_4kg",
@@ -849,7 +849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:40:54.332474+00:00",
+      "fetched_at": "2026-11-14T22:45:11.913873+00:00",
       "entries": [
         {
           "rank": 1,
@@ -931,7 +931,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:40:54.333650+00:00",
+      "fetched_at": "2026-11-14T22:45:11.914947+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1013,7 +1013,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:40:54.335330+00:00",
+      "fetched_at": "2026-11-14T22:45:11.916310+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1095,7 +1095,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:40:54.335762+00:00",
+      "fetched_at": "2026-11-14T22:45:11.916736+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1156,7 +1156,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:40:54.350309+00:00",
+      "fetched_at": "2026-11-14T22:45:11.931055+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1238,7 +1238,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:40:54.363922+00:00",
+      "fetched_at": "2026-11-14T22:45:11.944613+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1299,7 +1299,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:40:54.365272+00:00",
+      "fetched_at": "2026-11-14T22:45:11.945327+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1381,7 +1381,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T22:40:54.372976+00:00",
+      "fetched_at": "2026-11-14T22:45:11.952976+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1463,7 +1463,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T22:40:54.381468+00:00",
+      "fetched_at": "2026-11-14T22:45:11.959371+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1545,7 +1545,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:40:54.385718+00:00",
+      "fetched_at": "2026-11-14T22:45:11.963466+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1627,7 +1627,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:40:54.387346+00:00",
+      "fetched_at": "2026-11-14T22:45:11.965342+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1709,7 +1709,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:40:54.391397+00:00",
+      "fetched_at": "2026-11-14T22:45:11.969324+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1791,7 +1791,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:40:54.392452+00:00",
+      "fetched_at": "2026-11-14T22:45:11.970354+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1893,24 +1893,24 @@
         "id": "coding",
         "label": "Coding",
         "icon": "</>",
-        "benchmark": "SWE-Bench Verified",
-        "benchmark_url": "https://aireleasetracker.com/benchmark/swe-bench-verified",
-        "source_note": "Scores via AI Release Tracker (Lab / BenchLM snapshot 2026-11-14)",
+        "benchmark": "SWE-Bench Pro",
+        "benchmark_url": "https://aireleasetracker.com/benchmark/swe-bench-pro",
+        "source_note": "Scores via AI Release Tracker (SWE-Bench Pro snapshot 2026-11-14)",
         "closed_winner": {
-          "model": "Claude Opus 5",
+          "model": "Claude Opus 5.5",
           "developer": "Anthropic",
-          "score": "96%",
-          "released": "Jul 2026"
+          "score": "89.9%",
+          "released": "Sep 2026"
         },
         "open_winner": {
-          "model": "DeepSeek-V4-Pro-0813",
-          "developer": "DeepSeek",
-          "score": "80.6%",
+          "model": "Qwen3.8-Flash-Next",
+          "developer": "Qwen",
+          "score": "62.5%",
           "released": "Aug 2026"
         },
         "runner_up": {
-          "model": "Claude Mythos 5",
-          "score": "95.5%"
+          "model": "Claude Sonnet 5.5",
+          "score": "81.3%"
         }
       },
       {
@@ -1965,24 +1965,19 @@
         "id": "agentic",
         "label": "Agentic / Computer use",
         "icon": "◈",
-        "benchmark": "OSWorld 2.0",
-        "benchmark_url": "https://aireleasetracker.com/benchmark/osworld-2.0",
-        "source_note": "Scores via AI Release Tracker snapshot 2026-11-14",
+        "benchmark": "OSWorld 2.1 (full set)",
+        "benchmark_url": "https://aireleasetracker.com/benchmark/osworld-2.1",
+        "source_note": "Scores via AI Release Tracker (OSWorld 2.1 full-set snapshot 2026-11-14)",
         "closed_winner": {
-          "model": "Claude Fable 5.1",
+          "model": "Claude Opus 5.5",
           "developer": "Anthropic",
-          "score": "77.9%",
+          "score": "81.8%",
           "released": "Sep 2026"
         },
-        "open_winner": {
-          "model": "Qwen3.8-Flash-Next",
-          "developer": "Qwen",
-          "score": "19.4%",
-          "released": "Aug 2026"
-        },
+        "open_winner": null,
         "runner_up": {
-          "model": "Claude Opus 5",
-          "score": "75.4%"
+          "model": "Claude Fable 5.1",
+          "score": "80.7%"
         }
       },
       {
@@ -2090,55 +2085,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:40:38.971567+00:00"
+        "checked_at": "2026-11-14T22:44:56.467721+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:40:37.946799+00:00"
+        "checked_at": "2026-11-14T22:44:55.441241+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:40:42.030729+00:00"
+        "checked_at": "2026-11-14T22:44:59.576237+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:40:39.989832+00:00"
+        "checked_at": "2026-11-14T22:44:57.489350+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:40:44.301572+00:00"
+        "checked_at": "2026-11-14T22:45:01.894691+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:40:41.011182+00:00"
+        "checked_at": "2026-11-14T22:44:58.512826+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:40:43.060473+00:00"
+        "checked_at": "2026-11-14T22:45:00.604953+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-14T22:40:54.394309+00:00"
+      "checked_at": "2026-11-14T22:45:11.972287+00:00"
     }
   }
 }

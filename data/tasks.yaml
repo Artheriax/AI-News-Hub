@@ -36,22 +36,22 @@ tasks:
   - id: coding
     label: Coding
     icon: "</>"
-    benchmark: SWE-Bench Verified
-    benchmark_url: https://aireleasetracker.com/benchmark/swe-bench-verified
-    source_note: "Scores via AI Release Tracker (Lab / BenchLM snapshot 2026-11-14)"
+    benchmark: SWE-Bench Pro
+    benchmark_url: https://aireleasetracker.com/benchmark/swe-bench-pro
+    source_note: "Scores via AI Release Tracker (SWE-Bench Pro snapshot 2026-11-14)"
     closed_winner:
-      model: Claude Opus 5
+      model: Claude Opus 5.5
       developer: Anthropic
-      score: "96%"
-      released: Jul 2026
+      score: "89.9%"
+      released: Sep 2026
     open_winner:
-      model: DeepSeek-V4-Pro-0813
-      developer: DeepSeek
-      score: "80.6%"
+      model: Qwen3.8-Flash-Next
+      developer: Qwen
+      score: "62.5%"
       released: Aug 2026
     runner_up:
-      model: Claude Mythos 5
-      score: "95.5%"
+      model: Claude Sonnet 5.5
+      score: "81.3%"
 
   - id: terminal
     label: Terminal / CLI
@@ -96,22 +96,18 @@ tasks:
   - id: agentic
     label: Agentic / Computer use
     icon: "◈"
-    benchmark: OSWorld 2.0
-    benchmark_url: https://aireleasetracker.com/benchmark/osworld-2.0
-    source_note: "Scores via AI Release Tracker snapshot 2026-11-14"
+    benchmark: OSWorld 2.1 (full set)
+    benchmark_url: https://aireleasetracker.com/benchmark/osworld-2.1
+    source_note: "Scores via AI Release Tracker (OSWorld 2.1 full-set snapshot 2026-11-14)"
     closed_winner:
-      model: Claude Fable 5.1
+      model: Claude Opus 5.5
       developer: Anthropic
-      score: "77.9%"
+      score: "81.8%"
       released: Sep 2026
-    open_winner:
-      model: Qwen3.8-Flash-Next
-      developer: Qwen
-      score: "19.4%"
-      released: Aug 2026
+    open_winner: null
     runner_up:
-      model: Claude Opus 5
-      score: "75.4%"
+      model: Claude Fable 5.1
+      score: "80.7%"
 
   - id: writing
     label: Writing / Knowledge work

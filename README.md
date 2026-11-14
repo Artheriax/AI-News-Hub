@@ -50,7 +50,7 @@ Static site (no framework): [`index.html`](index.html), [`app.js`](app.js), [`st
 ## Best picks & attribution
 
 - Edit [`data/tasks.yaml`](data/tasks.yaml) to update a task winner (`closed_winner` / `open_winner` + `benchmark_url` + `released`). `python fetch.py` merges it into `data/items.json` as `best_picks` (no network needed for tasks; previous snapshot is reused if the file is missing).
-- Benchmark taxonomy and top scores are snapshots inspired by [AI Release Tracker /benchmark](https://aireleasetracker.com/benchmark) (e.g. [SWE-Bench Verified](https://aireleasetracker.com/benchmark/swe-bench-verified), [Terminal-Bench 4.0](https://aireleasetracker.com/benchmark/terminal-bench-4.0)) plus [Compare](https://aireleasetracker.com/compare) for the interaction pattern. Scores © their labs/sources — each pick links to its canonical benchmark page.
+- Benchmark taxonomy and top scores are snapshots inspired by [AI Release Tracker /benchmark](https://aireleasetracker.com/benchmark) (e.g. [SWE-Bench Pro](https://aireleasetracker.com/benchmark/swe-bench-pro), [Terminal-Bench 4.0](https://aireleasetracker.com/benchmark/terminal-bench-4.0), [OSWorld 2.1](https://aireleasetracker.com/benchmark/osworld-2.1)) plus [Compare](https://aireleasetracker.com/compare) for the interaction pattern. Scores © their labs/sources — each pick links to its canonical benchmark page.
 - Open vs closed classification uses `open_patterns` in `tasks.yaml` (substring match, conservative). Unknown models render as closed without a badge claim.
 
 ## Updates
