@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-11-14T07:12:06.443677+00:00",
+  "generated_at": "2026-11-14T14:22:19.392704+00:00",
   "items": [
+    {
+      "id": "yt:tAy1IZf_4kg",
+      "title": "Claude Fable 5.2 Can Now Build INSANE Games!",
+      "url": "https://www.youtube.com/watch?v=tAy1IZf_4kg",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-11-14T10:55:50+00:00",
+      "summary": "🔥 Black Friday Sale, get up to 60% off Higgsfield plans 👉 https://higgsfield.ai/s/claude-fable-5-2-yt-intheworldofai-IhvnDD Sponsored by Higgsfield. I gave Claude Fable 5.2 one chat and Higgsfield MCP, and it built HYPERLUME: a full anti-gravity racing game with AI rivals, a soundtrack written in co",
+      "thumbnail": "https://i1.ytimg.com/vi/tAy1IZf_4kg/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
+      "id": "yt:x7iwI6WfWS0",
+      "title": "Funkiest Teams meeting EVER (Surprise video)",
+      "url": "https://www.youtube.com/watch?v=x7iwI6WfWS0",
+      "source": "Two Minute Papers",
+      "category": "videos",
+      "published": "2026-11-14T08:40:55+00:00",
+      "summary": "After finishing this song, it took me 3 months to gather the courage to stand in front of the camera to record it. Hope you Fellow Scholars enjoy it! Thank you so much for the amazing musicians for their help! - Vocals: Carolina Padrón - Drums: Federico Gucciardo - Bass: Phil Gonnand - Saxophone: Di",
+      "thumbnail": "https://i1.ytimg.com/vi/x7iwI6WfWS0/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Two Minute Papers"
+    },
     {
       "id": "yt:1KtXDpSYedo",
       "title": "Anthropic SLOWING DOWN!?, Gemini 4 HYDROGEN IS INSANE, OpenAI's NEW Model, & NVIDIA FIRES Jensen!",
@@ -83,7 +107,7 @@
       "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video genera",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 43,
+      "upvotes": 44,
       "arxiv_id": "2611.16748"
     },
     {
@@ -96,7 +120,7 @@
       "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts poorl",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 30,
+      "upvotes": 31,
       "arxiv_id": "2611.17167"
     },
     {
@@ -121,7 +145,7 @@
       "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 82,
+      "upvotes": 85,
       "arxiv_id": "2611.15777"
     },
     {
@@ -134,7 +158,7 @@
       "summary": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as e",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 38,
+      "upvotes": 39,
       "arxiv_id": "2611.15131"
     },
     {
@@ -258,7 +282,7 @@
       "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify v",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 48,
+      "upvotes": 49,
       "arxiv_id": "2611.14815"
     },
     {
@@ -284,7 +308,7 @@
       "summary": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Correcting these behavioral divergences remains difficult: offline data may miss the student's failure",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 35,
+      "upvotes": 36,
       "arxiv_id": "2611.13410"
     },
     {
@@ -334,7 +358,7 @@
       "summary": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 runs with 24-hour budgets, totaling over 10,000 GPU-hours. Our results show that model rankings vary with the evaluation hor",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 50,
+      "upvotes": 51,
       "arxiv_id": "2611.11995"
     },
     {
@@ -384,7 +408,7 @@
       "summary": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with th",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 42,
+      "upvotes": 43,
       "arxiv_id": "2611.13004"
     },
     {
@@ -617,18 +641,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "yt:L4yqXWDyGCg",
-      "title": "GEMINI 4 CARBON IS Best Model Ever?! Fable 5.5 Benchmarks, Gemini 4 Ultra, & Claude Ultrathink!",
-      "url": "https://www.youtube.com/watch?v=L4yqXWDyGCg",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-10-29T07:48:10+00:00",
-      "summary": "🎄 Start your Christmas side hustle with Printify, free to start: https://try.printify.com/bu8fpbdhjwz8 This video is sponsored by Printify. A creator partnership by @Lus_Art_Factory | Bringing brands and talents together. https://www.lusartfactory.com/for-creators #Printify #WeAreLAF #SideHustle #Pr",
-      "thumbnail": "https://i1.ytimg.com/vi/L4yqXWDyGCg/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:pryCaGv8wuo",
       "title": "DeepSeek's New AI Is An Absolute Monster",
       "url": "https://www.youtube.com/watch?v=pryCaGv8wuo",
@@ -849,7 +861,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T07:12:06.356797+00:00",
+      "fetched_at": "2026-11-14T14:22:19.296671+00:00",
       "entries": [
         {
           "rank": 1,
@@ -931,7 +943,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T07:12:06.358718+00:00",
+      "fetched_at": "2026-11-14T14:22:19.299282+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1013,7 +1025,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T07:12:06.361252+00:00",
+      "fetched_at": "2026-11-14T14:22:19.302681+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1095,7 +1107,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T07:12:06.361965+00:00",
+      "fetched_at": "2026-11-14T14:22:19.303623+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1238,7 +1250,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T07:12:06.368123+00:00",
+      "fetched_at": "2026-11-14T14:22:19.310779+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1299,7 +1311,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T07:12:06.369405+00:00",
+      "fetched_at": "2026-11-14T14:22:19.313215+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1381,77 +1393,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T07:12:06.390698+00:00",
+      "fetched_at": "2026-11-14T14:22:19.332667+00:00",
       "entries": [
         {
           "rank": 1,
-          "name": "Claude Fable 5.2 (max)",
-          "creator": "Anthropic",
-          "score": 65.0,
-          "meta": "1M ctx"
+          "name": "Claude Fable 5.2 Max, Default Fallback",
+          "creator": "$26.54",
+          "score": 45.3,
+          "meta": "65 ctx"
         },
         {
           "rank": 2,
-          "name": "Claude Fable 5.2 (xhigh)",
-          "creator": "Anthropic",
-          "score": 62.0,
-          "meta": "1M ctx"
+          "name": "Gemini 4 Carbon High",
+          "creator": "$5.48",
+          "score": 31.3,
+          "meta": "60 ctx"
         },
         {
           "rank": 3,
-          "name": "Claude Fable 5.2 (high)",
-          "creator": "Anthropic",
-          "score": 62.0,
-          "meta": "1M ctx"
+          "name": "Claude Opus 5.5 Max, Default Fallback",
+          "creator": "$10.04",
+          "score": 25.4,
+          "meta": "59 ctx"
         },
         {
           "rank": 4,
-          "name": "Gemini 4 Carbon (high)",
-          "creator": "Google",
-          "score": 60.0,
-          "meta": "1M ctx"
+          "name": "GPT-6 Astra Max",
+          "creator": "$6.24",
+          "score": 23.8,
+          "meta": "57 ctx"
         },
         {
           "rank": 5,
-          "name": "Claude Opus 5.5 (max)",
-          "creator": "Anthropic",
-          "score": 59.0,
-          "meta": "1M ctx"
+          "name": "GPT-6.1 Sol Max",
+          "creator": "$1.27",
+          "score": 23.1,
+          "meta": "55 ctx"
         },
         {
           "rank": 6,
-          "name": "Gemini 4 Carbon (medium)",
-          "creator": "Google",
-          "score": 58.0,
-          "meta": "1M ctx"
+          "name": "Claude Sonnet 5.5 Max, Default Fallback",
+          "creator": "$10.02",
+          "score": 33.9,
+          "meta": "55 ctx"
         },
         {
           "rank": 7,
-          "name": "Claude Opus 5.5 (xhigh)",
-          "creator": "Anthropic",
-          "score": 57.0,
-          "meta": "1M ctx"
+          "name": "Gemini 4 Hydrogen Xhigh",
+          "creator": "$3.16",
+          "score": 14.8,
+          "meta": "54 ctx"
         },
         {
           "rank": 8,
-          "name": "GPT-6 Astra (max)",
-          "creator": "OpenAI",
-          "score": 57.0,
-          "meta": "1M ctx"
+          "name": "GPT-6.1 Terra Max",
+          "creator": "$0.96",
+          "score": 14.6,
+          "meta": "51 ctx"
         },
         {
           "rank": 9,
-          "name": "Claude Fable 5.2 (medium)",
-          "creator": "Anthropic",
-          "score": 56.0,
-          "meta": "1M ctx"
+          "name": "Gemini 4 Argon High",
+          "creator": "$4.97",
+          "score": 29.4,
+          "meta": "50 ctx"
         },
         {
           "rank": 10,
-          "name": "GPT-6 Astra (xhigh)",
-          "creator": "OpenAI",
-          "score": 55.0,
-          "meta": "1M ctx"
+          "name": "Muse Wonder Full Max",
+          "creator": "--",
+          "score": null,
+          "meta": "50 ctx"
         }
       ]
     },
@@ -1463,77 +1475,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T07:12:06.414431+00:00",
+      "fetched_at": "2026-11-14T14:22:19.354795+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Kimi K3.1 Pro",
-          "creator": "Kimi",
-          "score": 46.0,
-          "meta": "1M ctx"
+          "creator": "$3.68",
+          "score": 39.7,
+          "meta": "46 ctx"
         },
         {
           "rank": 2,
-          "name": "DeepSeek V4.1 Flash 1017 (max)",
-          "creator": "DeepSeek",
-          "score": 33.0,
-          "meta": "1M ctx"
+          "name": "Inkling 2 Small",
+          "creator": "$1.18",
+          "score": 31.9,
+          "meta": "31 ctx"
         },
         {
           "rank": 3,
-          "name": "GLM-5.3 (max)",
-          "creator": "Z AI",
-          "score": 32.0,
-          "meta": "1M ctx"
+          "name": "MiMo-V2.6-Pro",
+          "creator": "$0.26",
+          "score": 35.6,
+          "meta": "30 ctx"
         },
         {
           "rank": 4,
-          "name": "Inkling 2 Small",
-          "creator": "Thinking Machines",
-          "score": 31.0,
-          "meta": "1M ctx"
+          "name": "Ling 3.1 Flash 1019",
+          "creator": "$3.19",
+          "score": null,
+          "meta": "30 ctx"
         },
         {
           "rank": 5,
-          "name": "MiMo-V2.6-Pro",
-          "creator": "Xiaomi",
-          "score": 30.0,
-          "meta": "1M ctx"
+          "name": "MiniMax-M3.1-Flash",
+          "creator": "$0.49",
+          "score": 16.8,
+          "meta": "29 ctx"
         },
         {
           "rank": 6,
-          "name": "Ling 3.1 Flash 1019",
-          "creator": "InclusionAI",
-          "score": 30.0,
-          "meta": "1M ctx"
+          "name": "Qwen3.8-Flash-Next",
+          "creator": "$0.57",
+          "score": 34.7,
+          "meta": "29 ctx"
         },
         {
           "rank": 7,
-          "name": "MiniMax-M3.1-Flash",
-          "creator": "MiniMax",
-          "score": 29.0,
-          "meta": "1M ctx"
+          "name": "Step 5 Preview",
+          "creator": "$2.35",
+          "score": 14.5,
+          "meta": "29 ctx"
         },
         {
           "rank": 8,
-          "name": "DeepSeek V4.1 Flash 1017 (high)",
-          "creator": "DeepSeek",
-          "score": 29.0,
-          "meta": "1M ctx"
+          "name": "GLM-5.3-Flash",
+          "creator": "$0.58",
+          "score": 46.8,
+          "meta": "28 ctx"
         },
         {
           "rank": 9,
-          "name": "Qwen3.8-Flash-Next",
-          "creator": "Alibaba",
-          "score": 29.0,
-          "meta": "256k ctx"
+          "name": "MiMo-V2.6-Flash",
+          "creator": "$0.13",
+          "score": 50.5,
+          "meta": "27 ctx"
         },
         {
           "rank": 10,
-          "name": "Step 5 Preview",
-          "creator": "StepFun",
-          "score": 29.0,
-          "meta": "1M ctx"
+          "name": "Nanbeige4.3-33B",
+          "creator": "--",
+          "score": null,
+          "meta": "20 ctx"
         }
       ]
     },
@@ -1545,7 +1557,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T07:12:06.422275+00:00",
+      "fetched_at": "2026-11-14T14:22:19.365007+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1627,7 +1639,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T07:12:06.425091+00:00",
+      "fetched_at": "2026-11-14T14:22:19.368678+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1709,7 +1721,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T07:12:06.432874+00:00",
+      "fetched_at": "2026-11-14T14:22:19.378717+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1791,7 +1803,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T07:12:06.434692+00:00",
+      "fetched_at": "2026-11-14T14:22:19.381101+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2074,58 +2086,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 2,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-11-14T07:11:50.558914+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-14T14:22:02.944592+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 8,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-11-14T07:11:49.518025+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-14T14:22:01.913389+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
-        "items": 10,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-11-14T07:11:53.728601+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-14T14:22:06.075376+00:00"
       },
       {
         "name": "Fireship",
-        "ok": false,
-        "items": 11,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-11-14T07:11:51.588562+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-14T14:22:03.963899+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T07:11:55.853598+00:00"
+        "checked_at": "2026-11-14T14:22:08.327711+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": false,
-        "items": 7,
-        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-11-14T07:11:52.700688+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-14T14:22:04.985374+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-11-14T07:11:54.764832+00:00"
+        "error": null,
+        "checked_at": "2026-11-14T14:22:07.197623+00:00"
       }
     ],
     "leaderboards": {
       "ok": 12,
       "failed": 1,
-      "checked_at": "2026-11-14T07:12:06.437278+00:00"
+      "checked_at": "2026-11-14T14:22:19.384085+00:00"
     }
   }
 }
