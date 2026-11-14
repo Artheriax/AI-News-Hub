@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T00:33:59.654479+00:00",
+  "generated_at": "2026-11-14T07:12:06.443677+00:00",
   "items": [
     {
       "id": "yt:1KtXDpSYedo",
@@ -83,7 +83,7 @@
       "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video genera",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 42,
+      "upvotes": 43,
       "arxiv_id": "2611.16748"
     },
     {
@@ -96,7 +96,7 @@
       "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts poorl",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 29,
+      "upvotes": 30,
       "arxiv_id": "2611.17167"
     },
     {
@@ -121,7 +121,7 @@
       "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 74,
+      "upvotes": 82,
       "arxiv_id": "2611.15777"
     },
     {
@@ -134,7 +134,7 @@
       "summary": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as e",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 35,
+      "upvotes": 38,
       "arxiv_id": "2611.15131"
     },
     {
@@ -147,7 +147,7 @@
       "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open and reproducible recipe for converting pretrained generators into unified multi-t",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 29,
+      "upvotes": 32,
       "arxiv_id": "2611.15844"
     },
     {
@@ -258,7 +258,7 @@
       "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify v",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 46,
+      "upvotes": 48,
       "arxiv_id": "2611.14815"
     },
     {
@@ -321,7 +321,7 @@
       "summary": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 56,
+      "upvotes": 57,
       "arxiv_id": "2611.12885"
     },
     {
@@ -334,7 +334,7 @@
       "summary": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 runs with 24-hour budgets, totaling over 10,000 GPU-hours. Our results show that model rankings vary with the evaluation hor",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 44,
+      "upvotes": 50,
       "arxiv_id": "2611.11995"
     },
     {
@@ -347,7 +347,7 @@
       "summary": "Discrete autoregressive modeling, notably through next-token prediction, has become a cornerstone of modern language models. Extending this paradigm to vision allows visual and language models to converge on a unified framework, thereby fostering shared methodology and infrastructure. This work investigates a central question: how far can a finite discrete vocabulary go in representing the richnes",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 34,
+      "upvotes": 35,
       "arxiv_id": "2611.12426"
     },
     {
@@ -384,7 +384,7 @@
       "summary": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with th",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 40,
+      "upvotes": 42,
       "arxiv_id": "2611.13004"
     },
     {
@@ -849,7 +849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T00:33:59.590830+00:00",
+      "fetched_at": "2026-11-14T07:12:06.356797+00:00",
       "entries": [
         {
           "rank": 1,
@@ -897,7 +897,7 @@
           "rank": 7,
           "name": "Seedream 5.5",
           "creator": "Seedream 5.5",
-          "score": 1159.0,
+          "score": 1160.0,
           "meta": "Nov 2026 · $28.00 /1k imgs"
         },
         {
@@ -931,20 +931,20 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T00:33:59.592161+00:00",
+      "fetched_at": "2026-11-14T07:12:06.358718+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "H3-Image",
           "creator": "H3-Image",
-          "score": 1138.0,
+          "score": 1137.0,
           "meta": "Nov 2026 · $26.54 /1k imgs"
         },
         {
           "rank": 2,
           "name": "Fibo 2.0",
           "creator": "Fibo 2.0",
-          "score": 1085.0,
+          "score": 1086.0,
           "meta": "Oct 2026 · $32.00 /1k imgs"
         },
         {
@@ -958,36 +958,36 @@
           "rank": 4,
           "name": "FLUX 3 Image Klein",
           "creator": "FLUX 3 Image Klein",
-          "score": 1069.0,
+          "score": 1070.0,
           "meta": "Oct 2026 · $9.00 /1k imgs"
         },
         {
           "rank": 5,
           "name": "HunyuanImage 3.0 Instruct",
           "creator": "HunyuanImage 3.0 Instruct",
-          "score": 1064.0,
+          "score": 1063.0,
           "meta": "Jan 2026 · No API available"
         },
         {
           "rank": 6,
           "name": "FLUX.2 [klein] 9B",
           "creator": "FLUX.2 [klein] 9B",
-          "score": 1014.0,
+          "score": 1013.0,
           "meta": "Jan 2026 · $17.00 /1k imgs"
         },
         {
           "rank": 7,
+          "name": "FLUX.2 [dev] Turbo",
+          "creator": "FLUX.2 [dev] Turbo",
+          "score": 1013.0,
+          "meta": "Dec 2025 · $8.00 /1k imgs"
+        },
+        {
+          "rank": 8,
           "name": "FLUX.2 [dev] Flash",
           "creator": "FLUX.2 [dev] Flash",
           "score": 1011.0,
           "meta": "Dec 2025 · $5.00 /1k imgs"
-        },
-        {
-          "rank": 8,
-          "name": "FLUX.2 [dev] Turbo",
-          "creator": "FLUX.2 [dev] Turbo",
-          "score": 1011.0,
-          "meta": "Dec 2025 · $8.00 /1k imgs"
         },
         {
           "rank": 9,
@@ -1000,7 +1000,7 @@
           "rank": 10,
           "name": "Qwen Image Edit Plus 2511",
           "creator": "Qwen Image Edit Plus 2511",
-          "score": 996.0,
+          "score": 997.0,
           "meta": "Nov 2025 · $60.00 /1k imgs"
         }
       ]
@@ -1013,7 +1013,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T00:33:59.593933+00:00",
+      "fetched_at": "2026-11-14T07:12:06.361252+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1095,7 +1095,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T00:33:59.594406+00:00",
+      "fetched_at": "2026-11-14T07:12:06.361965+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1238,7 +1238,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T00:33:59.597855+00:00",
+      "fetched_at": "2026-11-14T07:12:06.368123+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1299,7 +1299,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T00:33:59.598825+00:00",
+      "fetched_at": "2026-11-14T07:12:06.369405+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1381,7 +1381,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T00:33:59.613823+00:00",
+      "fetched_at": "2026-11-14T07:12:06.390698+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1463,7 +1463,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T00:33:59.629940+00:00",
+      "fetched_at": "2026-11-14T07:12:06.414431+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1545,7 +1545,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T00:33:59.635507+00:00",
+      "fetched_at": "2026-11-14T07:12:06.422275+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1565,7 +1565,7 @@
           "rank": 3,
           "name": "GPT Image 2.6 Flare (max)",
           "creator": "GPT Image 2.6 Flare (max)",
-          "score": 1226.0,
+          "score": 1227.0,
           "meta": "Nov 2026 · $210.72 /1k imgs"
         },
         {
@@ -1579,7 +1579,7 @@
           "rank": 5,
           "name": "GPT Image 2 (high)",
           "creator": "GPT Image 2 (high)",
-          "score": 1191.0,
+          "score": 1192.0,
           "meta": "Apr 2026 · $211.00 /1k imgs"
         },
         {
@@ -1600,14 +1600,14 @@
           "rank": 8,
           "name": "MAI-Image-2.6",
           "creator": "MAI-Image-2.6",
-          "score": 1169.0,
+          "score": 1168.0,
           "meta": "Aug 2026 · $38.91 /1k imgs"
         },
         {
           "rank": 9,
           "name": "Grok Imagine Image 2.0",
           "creator": "Grok Imagine Image 2.0",
-          "score": 1168.0,
+          "score": 1167.0,
           "meta": "Aug 2026 · $60.00 /1k imgs"
         },
         {
@@ -1627,7 +1627,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T00:33:59.637523+00:00",
+      "fetched_at": "2026-11-14T07:12:06.425091+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1640,21 +1640,21 @@
           "rank": 2,
           "name": "Qwen-Image-2.1",
           "creator": "Qwen-Image-2.1",
-          "score": 1046.0,
+          "score": 1047.0,
           "meta": "Sep 2026 · No API available"
         },
         {
           "rank": 3,
           "name": "FLUX 3 Image Klein",
           "creator": "FLUX 3 Image Klein",
-          "score": 1042.0,
+          "score": 1041.0,
           "meta": "Oct 2026 · $9.00 /1k imgs"
         },
         {
           "rank": 4,
           "name": "Fibo 2.0",
           "creator": "Fibo 2.0",
-          "score": 1038.0,
+          "score": 1037.0,
           "meta": "Oct 2026 · $32.00 /1k imgs"
         },
         {
@@ -1709,7 +1709,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T00:33:59.642964+00:00",
+      "fetched_at": "2026-11-14T07:12:06.432874+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1791,7 +1791,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T00:33:59.644240+00:00",
+      "fetched_at": "2026-11-14T07:12:06.434692+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2077,55 +2077,55 @@
         "ok": false,
         "items": 2,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-11-14T00:33:43.512884+00:00"
+        "checked_at": "2026-11-14T07:11:50.558914+00:00"
       },
       {
         "name": "AI Search",
         "ok": false,
         "items": 8,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-11-14T00:33:42.477194+00:00"
+        "checked_at": "2026-11-14T07:11:49.518025+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": false,
         "items": 10,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-11-14T00:33:46.614859+00:00"
+        "checked_at": "2026-11-14T07:11:53.728601+00:00"
       },
       {
         "name": "Fireship",
         "ok": false,
         "items": 11,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-11-14T00:33:44.548338+00:00"
+        "checked_at": "2026-11-14T07:11:51.588562+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T00:33:48.778703+00:00"
+        "checked_at": "2026-11-14T07:11:55.853598+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": false,
         "items": 7,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-11-14T00:33:45.576706+00:00"
+        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-11-14T07:11:52.700688+00:00"
       },
       {
         "name": "World of AI",
         "ok": false,
         "items": 15,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-11-14T00:33:47.646736+00:00"
+        "checked_at": "2026-11-14T07:11:54.764832+00:00"
       }
     ],
     "leaderboards": {
       "ok": 12,
       "failed": 1,
-      "checked_at": "2026-11-14T00:33:59.649503+00:00"
+      "checked_at": "2026-11-14T07:12:06.437278+00:00"
     }
   }
 }
