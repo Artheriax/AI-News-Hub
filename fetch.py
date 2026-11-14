@@ -275,10 +275,12 @@ def _strip_cell(cell_html: str) -> str:
     return html_lib.unescape(re.sub(r"\s+", " ", text)).strip()
 
 
-def _parse_score(raw: str | None) -> float | None:
+def _parse_score(raw) -> float | None:
     if raw is None:
         return None
-    cleaned = raw.replace("*", "").replace(",", "").strip()
+    if isinstance(raw, (int, float)):
+        return float(raw)
+    cleaned = str(raw).replace("*", "").replace(",", "").strip()
     match = re.search(r"-?\d+(?:\.\d+)?", cleaned)
     if not match:
         return None
@@ -286,6 +288,7 @@ def _parse_score(raw: str | None) -> float | None:
 
 
 def _table_parts(page_html: str) -> tuple[list[str], list[list[str]]]:
+    """Return header labels and body rows as raw <td> HTML."""
     heads: list[str] = []
     thead_m = re.search(r"<thead.*?</thead>", page_html, re.S)
     if thead_m:
@@ -298,10 +301,7 @@ def _table_parts(page_html: str) -> tuple[list[str], list[list[str]]]:
         raise ValueError("no leaderboard table found")
     rows: list[list[str]] = []
     for row_html in re.findall(r"<tr[^>]*>(.*?)</tr>", tbody_m.group(0), re.S):
-        cells = [
-            _strip_cell(cell)
-            for cell in re.findall(r"<td[^>]*>(.*?)</td>", row_html, re.S)
-        ]
+        cells = re.findall(r"<td[^>]*>(.*?)</td>", row_html, re.S)
         if cells:
             rows.append(cells)
     if not rows:
@@ -317,61 +317,52 @@ def _col(heads: list[str], *names: str, default: int | None = None) -> int | Non
     return default
 
 
-def _arena_entry(
-    row: list[str],
-    *,
-    rank: int,
-    i_creator: int | None,
-    i_name: int,
-    i_score: int | None,
-    i_released: int | None,
-    i_pricing: int | None,
-) -> dict | None:
-    if len(row) <= i_name:
-        return None
-    name = row[i_name]
-    if not name:
-        return None
-    meta_bits = []
-    if i_released is not None and i_released < len(row) and row[i_released]:
-        meta_bits.append(row[i_released])
-    if i_pricing is not None and i_pricing < len(row) and row[i_pricing]:
-        meta_bits.append(row[i_pricing])
-    return {
-        "rank": rank,
-        "name": name,
-        "creator": (
-            row[i_creator]
-            if i_creator is not None and i_creator < len(row)
-            else ""
-        ),
-        "score": _parse_score(row[i_score])
-        if i_score is not None and i_score < len(row)
-        else None,
-        "meta": " · ".join(meta_bits),
-    }
+def _cell_text(cell_html: str) -> str:
+    return _strip_cell(cell_html)
+
+
+def _cell_creator(cell_html: str) -> str:
+    """Extract the creator name from the model logo alt text."""
+    match = re.search(r'<img[^>]+alt="([^"]+)"', cell_html)
+    if not match:
+        return ""
+    creator = html_lib.unescape(match.group(1)).strip()
+    return re.sub(r"\s+logo$", "", creator, flags=re.I).strip()
 
 
 def parse_lb_table(page_html: str, top_n: int) -> list[dict]:
     heads, rows = _table_parts(page_html)
-    i_creator = _col(heads, "Creator", default=2)
-    i_name = _col(heads, "Model", default=3)
-    i_score = _col(heads, "Elo", default=4)
+    i_name = _col(heads, "Model", default=2)
+    i_score = _col(heads, "Elo", default=3)
     i_released = _col(heads, "Released")
     i_pricing = _col(heads, "API Pricing", "Pricing")
+    if i_name is None or i_score is None:
+        raise ValueError("leaderboard table is missing Model/Elo columns")
     entries: list[dict] = []
     for row in rows:
-        entry = _arena_entry(
-            row,
-            rank=len(entries) + 1,
-            i_creator=i_creator,
-            i_name=i_name,
-            i_score=i_score,
-            i_released=i_released,
-            i_pricing=i_pricing,
+        if len(row) <= i_name:
+            continue
+        name = _cell_text(row[i_name])
+        if not name:
+            continue
+        meta_bits = []
+        if i_released is not None and i_released < len(row):
+            released = _cell_text(row[i_released])
+            if released:
+                meta_bits.append(released)
+        if i_pricing is not None and i_pricing < len(row):
+            pricing = _cell_text(row[i_pricing])
+            if pricing:
+                meta_bits.append(pricing)
+        entries.append(
+            {
+                "rank": len(entries) + 1,
+                "name": name,
+                "creator": _cell_creator(row[i_name]),
+                "score": _parse_score(_cell_text(row[i_score])),
+                "meta": " · ".join(meta_bits),
+            }
         )
-        if entry:
-            entries.append(entry)
         if len(entries) >= top_n:
             break
     if not entries:
@@ -390,9 +381,10 @@ def parse_models_rows(
     flags = _model_open_flags(page_html) if open_only else {}
     entries: list[dict] = []
     for row in rows:
-        if len(row) < 4:
+        # Model | Intelligence Index | Cost/task | Speed | Latency | Context | links
+        if len(row) < 2:
             continue
-        name = row[0]
+        name = _cell_text(row[0])
         if not name:
             continue
         if open_only:
@@ -405,14 +397,16 @@ def parse_models_rows(
             if not is_open:
                 continue
         meta_bits = []
-        if row[1]:
-            meta_bits.append(f"{row[1]} ctx")
+        if len(row) > 5:
+            context = _cell_text(row[5])
+            if context:
+                meta_bits.append(f"{context} ctx")
         entries.append(
             {
                 "rank": len(entries) + 1,
                 "name": name,
-                "creator": row[2],
-                "score": _parse_score(row[3]),
+                "creator": _cell_creator(row[0]),
+                "score": _parse_score(_cell_text(row[1])),
                 "meta": " · ".join(meta_bits),
             }
         )
@@ -439,43 +433,80 @@ def _model_open_flags(page_html: str) -> dict[str, bool]:
     return flags
 
 
-_ARENA_ARRAY_START_RE = re.compile(
-    r'\[null,\[\{\\"formatted\\":\{\\"rank\\":1'
+_RSC_PUSH_RE = re.compile(
+    r"<script>self\.__next_f\.push\((\[.*?\])\)</script>", re.S
 )
-_ARENA_ENTRY_RE = re.compile(
-    r'\\"formatted\\":\{\\"rank\\":(\d+),\\"elo\\":\\"(\d+)\\"'
-    r'.{0,300}?\\"name\\":\\"([^\\"]+)\\"'
-    r'.{0,500}?\\"creator\\":\{[^}]*?\\"name\\":\\"([^\\"]+)\\"',
-    re.S,
-)
+_RSC_CHUNK_RE = re.compile(r"(?m)^([0-9a-f]+):(.*)$")
+
+
+def _rsc_payload(page_html: str) -> str:
+    """Join the streamed Next.js RSC payload embedded in the page."""
+    parts: list[str] = []
+    for match in _RSC_PUSH_RE.finditer(page_html):
+        try:
+            chunk = json.loads(match.group(1))
+        except (TypeError, ValueError):
+            continue
+        if isinstance(chunk, list) and len(chunk) > 1 and isinstance(chunk[1], str):
+            parts.append(chunk[1])
+    return "".join(parts)
+
+
+def _rsc_chunks(payload: str) -> dict[str, str]:
+    return {
+        match.group(1): match.group(2)
+        for match in _RSC_CHUNK_RE.finditer(payload)
+    }
+
+
+def _arena_entries(raw: str) -> list[dict]:
+    """Parse rank/elo/name/creator out of one embedded arena ranking."""
+    try:
+        data = json.loads(raw)
+    except (TypeError, ValueError):
+        return []
+    found: dict[str, dict] = {}
+    stack = [data]
+    while stack:
+        node = stack.pop()
+        if isinstance(node, dict):
+            formatted = node.get("formatted")
+            values = node.get("values")
+            if (
+                isinstance(formatted, dict)
+                and isinstance(values, dict)
+                and values.get("name")
+            ):
+                name = str(values["name"])
+                if name not in found:
+                    creator = (values.get("creator") or {}).get("name") or ""
+                    found[name] = {
+                        "rank": int(
+                            _parse_score(formatted.get("rank")) or len(found) + 1
+                        ),
+                        "score": _parse_score(formatted.get("elo")),
+                        "name": name,
+                        "creator": creator,
+                        "meta": "",
+                    }
+            stack.extend(node.values())
+        elif isinstance(node, list):
+            stack.extend(node)
+    entries = sorted(found.values(), key=lambda entry: entry["rank"])
+    for index, entry in enumerate(entries, start=1):
+        entry["rank"] = index
+    return entries
 
 
 def _arena_boards(page_html: str) -> list[list[dict]]:
+    chunks = _rsc_chunks(_rsc_payload(page_html))
     boards: list[list[dict]] = []
-    for match in _ARENA_ARRAY_START_RE.finditer(page_html):
-        start = match.start()
-        end = page_html.find("]]", start)
-        window = (
-            page_html[start : end + 2]
-            if end > start
-            else page_html[start : start + 200_000]
-        )
-        entries = [
-            {
-                "rank": int(m.group(1)),
-                "score": float(m.group(2)),
-                "name": m.group(3),
-                "creator": m.group(4),
-                "meta": "",
-            }
-            for m in _ARENA_ENTRY_RE.finditer(window)
-        ]
-        if len(entries) < 10:
+    for raw in chunks.values():
+        if not raw.startswith('[[null,[{"formatted"'):
             continue
-        entries.sort(key=lambda e: e["rank"])
-        for index, entry in enumerate(entries, start=1):
-            entry["rank"] = index
-        boards.append(entries)
+        entries = _arena_entries(raw)
+        if len(entries) >= 10:
+            boards.append(entries)
     return boards
 
 
@@ -484,33 +515,47 @@ def _norm_name(name: str) -> str:
 
 
 def parse_lb_flight_no_audio(page_html: str, top_n: int) -> list[dict]:
-    heads, rows = _table_parts(page_html)
-    i_name = _col(heads, "Model", default=3)
-    ssr_top = rows[0][i_name] if rows and len(rows[0]) > i_name else ""
-
-    expected: tuple[str, float] | None = None
-    faq = re.search(
-        r"models without audio by Elo rating are:\s*1\.\s*(.+?)\s*\(Elo\s+(\d+)\)",
-        page_html,
-    )
-    if faq:
-        expected = (faq.group(1).strip(), float(faq.group(2)))
-
-    boards = _arena_boards(page_html)
-    if not boards:
-        raise ValueError("no alternate (no-audio) ranking embedded in page")
-
-    if expected:
-        exp_name, exp_elo = expected
-        for entries in boards:
-            top = entries[0]
-            if _norm_name(top["name"]) == _norm_name(exp_name) and top["score"] == exp_elo:
-                return entries[:top_n]
-
-    for entries in boards:
-        if _norm_name(entries[0]["name"]) != _norm_name(ssr_top):
+    payload = _rsc_payload(page_html)
+    # Newer AA pages reference the silent-video ranking explicitly.
+    ref = re.search(r'"withoutAudioData":"\$Q([0-9a-z]+)"', payload)
+    if ref:
+        entries = _arena_entries(_rsc_chunks(payload).get(ref.group(1), ""))
+        if entries:
             return entries[:top_n]
+
+    # Fallback: pick the embedded ranking whose leader differs from the
+    # with-audio table rendered on the page.
+    heads, rows = _table_parts(page_html)
+    i_name = _col(heads, "Model", default=2)
+    ssr_top = (
+        _cell_text(rows[0][i_name])
+        if rows and i_name is not None and len(rows[0]) > i_name
+        else ""
+    )
+    for entries in _arena_boards(page_html):
+        if ssr_top and _norm_name(entries[0]["name"]) == _norm_name(ssr_top):
+            continue
+        return entries[:top_n]
     raise ValueError("no alternate (no-audio) ranking embedded in page")
+
+
+def parse_lb_flight_no_audio_open(page_html: str, top_n: int) -> list[dict]:
+    entries = parse_lb_flight_no_audio(page_html, 1000)
+    heads, rows = _table_parts(page_html)
+    i_name = _col(heads, "Model", default=2)
+    if i_name is None:
+        raise ValueError("leaderboard table is missing the Model column")
+    open_names = {
+        _norm_name(_cell_text(row[i_name]))
+        for row in rows
+        if len(row) > i_name
+    }
+    filtered = [entry for entry in entries if _norm_name(entry["name"]) in open_names]
+    if not filtered:
+        raise ValueError("no open-weights entries in the no-audio ranking")
+    for index, entry in enumerate(filtered, start=1):
+        entry["rank"] = index
+    return filtered[:top_n]
 
 
 LB_PARSERS = {
@@ -518,6 +563,7 @@ LB_PARSERS = {
     "models-table": parse_lb_models_table,
     "models-open": parse_lb_models_open,
     "flight-no-audio": parse_lb_flight_no_audio,
+    "flight-no-audio-open": parse_lb_flight_no_audio_open,
 }
 
 LB_SCORE_LABELS = {
@@ -525,6 +571,7 @@ LB_SCORE_LABELS = {
     "models-table": "Intelligence Index",
     "models-open": "Intelligence Index",
     "flight-no-audio": "Elo",
+    "flight-no-audio-open": "Elo",
 }
 
 

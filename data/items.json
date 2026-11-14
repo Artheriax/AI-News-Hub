@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T19:19:25.303297+00:00",
+  "generated_at": "2026-11-14T21:47:29.112312+00:00",
   "items": [
     {
       "id": "yt:tAy1IZf_4kg",
@@ -87,7 +87,7 @@
     },
     {
       "id": "yt:Er0740eVIEw",
-      "title": "New top local AI image editor is here!",
+      "title": "New top local AI image editor is here! Fast & 4K",
       "url": "https://www.youtube.com/watch?v=Er0740eVIEw",
       "source": "AI Search",
       "category": "videos",
@@ -107,7 +107,7 @@
       "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video genera",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 45,
+      "upvotes": 46,
       "arxiv_id": "2611.16748"
     },
     {
@@ -158,7 +158,7 @@
       "summary": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as e",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 39,
+      "upvotes": 40,
       "arxiv_id": "2611.15131"
     },
     {
@@ -408,7 +408,7 @@
       "summary": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with th",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 44,
+      "upvotes": 45,
       "arxiv_id": "2611.13004"
     },
     {
@@ -849,75 +849,75 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T19:19:25.234683+00:00",
+      "fetched_at": "2026-11-14T21:47:29.037726+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.6 Sunburst (max)",
-          "creator": "GPT Image 2.6 Sunburst (max)",
+          "creator": "OpenAI",
           "score": 1210.0,
           "meta": "Nov 2026 · $210.72 /1k imgs"
         },
         {
           "rank": 2,
           "name": "GPT Image 2.6 Flare (max)",
-          "creator": "GPT Image 2.6 Flare (max)",
+          "creator": "OpenAI",
           "score": 1206.0,
           "meta": "Nov 2026 · $210.72 /1k imgs"
         },
         {
           "rank": 3,
           "name": "GPT Image 2.5 Sunburst (max)",
-          "creator": "GPT Image 2.5 Sunburst (max)",
+          "creator": "OpenAI",
           "score": 1201.0,
           "meta": "Sep 2026 · $210.72 /1k imgs"
         },
         {
           "rank": 4,
           "name": "MAI-Image-2.7-Preview",
-          "creator": "MAI-Image-2.7-Preview",
+          "creator": "Microsoft AI",
           "score": 1198.0,
           "meta": "Oct 2026 · No API available"
         },
         {
           "rank": 5,
           "name": "GPT Image 2.5 Flare (max)",
-          "creator": "GPT Image 2.5 Flare (max)",
+          "creator": "OpenAI",
           "score": 1184.0,
           "meta": "Sep 2026 · $210.72 /1k imgs"
         },
         {
           "rank": 6,
           "name": "Kling Image 4.0 (preview)",
-          "creator": "Kling Image 4.0 (preview)",
+          "creator": "KlingAI",
           "score": 1182.0,
           "meta": "Nov 2026 · Coming soon"
         },
         {
           "rank": 7,
           "name": "Seedream 5.5",
-          "creator": "Seedream 5.5",
+          "creator": "ByteDance Seed",
           "score": 1160.0,
           "meta": "Nov 2026 · $28.00 /1k imgs"
         },
         {
           "rank": 8,
           "name": "Krea 3 (Ultra)",
-          "creator": "Krea 3 (Ultra)",
+          "creator": "Krea",
           "score": 1154.0,
           "meta": "Oct 2026 · $100.00 /1k imgs"
         },
         {
           "rank": 9,
           "name": "Nano Banana 2.1",
-          "creator": "Nano Banana 2.1",
+          "creator": "Google",
           "score": 1152.0,
           "meta": "Oct 2026 · $33.60 /1k imgs"
         },
         {
           "rank": 10,
           "name": "MAI-Image-2.6",
-          "creator": "MAI-Image-2.6",
+          "creator": "Microsoft AI",
           "score": 1150.0,
           "meta": "Aug 2026 · $38.91 /1k imgs"
         }
@@ -931,75 +931,75 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T19:19:25.236439+00:00",
+      "fetched_at": "2026-11-14T21:47:29.039498+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "H3-Image",
-          "creator": "H3-Image",
+          "creator": "MiniMax",
           "score": 1137.0,
           "meta": "Nov 2026 · $26.54 /1k imgs"
         },
         {
           "rank": 2,
           "name": "Fibo 2.0",
-          "creator": "Fibo 2.0",
+          "creator": "Bria",
           "score": 1086.0,
           "meta": "Oct 2026 · $32.00 /1k imgs"
         },
         {
           "rank": 3,
           "name": "Qwen-Image-2.1",
-          "creator": "Qwen-Image-2.1",
+          "creator": "Alibaba",
           "score": 1084.0,
           "meta": "Sep 2026 · No API available"
         },
         {
           "rank": 4,
           "name": "FLUX 3 Image Klein",
-          "creator": "FLUX 3 Image Klein",
+          "creator": "Black Forest Labs",
           "score": 1070.0,
           "meta": "Oct 2026 · $9.00 /1k imgs"
         },
         {
           "rank": 5,
           "name": "HunyuanImage 3.0 Instruct",
-          "creator": "HunyuanImage 3.0 Instruct",
+          "creator": "Tencent",
           "score": 1063.0,
           "meta": "Jan 2026 · No API available"
         },
         {
           "rank": 6,
           "name": "FLUX.2 [klein] 9B",
-          "creator": "FLUX.2 [klein] 9B",
+          "creator": "Black Forest Labs",
           "score": 1013.0,
           "meta": "Jan 2026 · $17.00 /1k imgs"
         },
         {
           "rank": 7,
           "name": "FLUX.2 [dev] Turbo",
-          "creator": "FLUX.2 [dev] Turbo",
+          "creator": "Fal",
           "score": 1013.0,
           "meta": "Dec 2025 · $8.00 /1k imgs"
         },
         {
           "rank": 8,
           "name": "FLUX.2 [dev] Flash",
-          "creator": "FLUX.2 [dev] Flash",
+          "creator": "Fal",
           "score": 1011.0,
           "meta": "Dec 2025 · $5.00 /1k imgs"
         },
         {
           "rank": 9,
           "name": "FLUX.2 [dev]",
-          "creator": "FLUX.2 [dev]",
+          "creator": "Black Forest Labs",
           "score": 1000.0,
           "meta": "Nov 2025 · $24.00 /1k imgs"
         },
         {
           "rank": 10,
           "name": "Qwen Image Edit Plus 2511",
-          "creator": "Qwen Image Edit Plus 2511",
+          "creator": "Alibaba",
           "score": 997.0,
           "meta": "Nov 2025 · $60.00 /1k imgs"
         }
@@ -1013,75 +1013,75 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T19:19:25.238754+00:00",
+      "fetched_at": "2026-11-14T21:47:29.041291+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Dreamina Seedance 2.5",
-          "creator": "Dreamina Seedance 2.5",
+          "creator": "ByteDance Seed",
           "score": 1161.0,
           "meta": "Jul 2026 · $34.12 /min"
         },
         {
           "rank": 2,
           "name": "Utopai X",
-          "creator": "Utopai X",
+          "creator": "Utopai Studios",
           "score": 1151.0,
           "meta": "Sep 2026 · No API available"
         },
         {
           "rank": 3,
           "name": "Dreamina Seedance 2.0",
-          "creator": "Dreamina Seedance 2.0",
+          "creator": "ByteDance Seed",
           "score": 1141.0,
           "meta": "Mar 2026 · $22.45 /min"
         },
         {
           "rank": 4,
           "name": "MiniMax H3 (768p)",
-          "creator": "MiniMax H3 (768p)",
+          "creator": "MiniMax",
           "score": 1134.0,
           "meta": "Jul 2026 · $4.80 /min"
         },
         {
           "rank": 5,
           "name": "SkyReels V4",
-          "creator": "SkyReels V4",
+          "creator": "Skywork AI",
           "score": 1125.0,
           "meta": "Mar 2026 · $21.00 /min"
         },
         {
           "rank": 6,
           "name": "HeyGen Video 1",
-          "creator": "HeyGen Video 1",
+          "creator": "HeyGen",
           "score": 1124.0,
           "meta": "Oct 2026 · $2.40 /min"
         },
         {
           "rank": 7,
           "name": "Hyperflow H3",
-          "creator": "Hyperflow H3",
+          "creator": "Video Rebirth",
           "score": 1119.0,
           "meta": "Sep 2026 · $9.00 /min"
         },
         {
           "rank": 8,
           "name": "P-Video-2-Pro",
-          "creator": "P-Video-2-Pro",
+          "creator": "Pruna AI",
           "score": 1117.0,
           "meta": "Sep 2026 · $5.70 /min"
         },
         {
           "rank": 9,
           "name": "MiniMax H3 Max",
-          "creator": "MiniMax H3 Max",
+          "creator": "Fal",
           "score": 1116.0,
           "meta": "Aug 2026 · $9.60 /min"
         },
         {
           "rank": 10,
           "name": "Pika H3 Flex",
-          "creator": "Pika H3 Flex",
+          "creator": "Pika Art",
           "score": 1114.0,
           "meta": "Oct 2026 · $2.10 /min"
         }
@@ -1095,54 +1095,54 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T19:19:25.239397+00:00",
+      "fetched_at": "2026-11-14T21:47:29.042040+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MiniMax H3 (768p)",
-          "creator": "MiniMax H3 (768p)",
+          "creator": "MiniMax",
           "score": 1134.0,
           "meta": "Jul 2026 · $4.80 /min"
         },
         {
           "rank": 2,
           "name": "Hyperflow H3",
-          "creator": "Hyperflow H3",
+          "creator": "Video Rebirth",
           "score": 1119.0,
           "meta": "Sep 2026 · $9.00 /min"
         },
         {
           "rank": 3,
           "name": "Pika H3 Flex",
-          "creator": "Pika H3 Flex",
+          "creator": "Pika Art",
           "score": 1114.0,
           "meta": "Oct 2026 · $2.10 /min"
         },
         {
           "rank": 4,
           "name": "LTX-2.5 Pro",
-          "creator": "LTX-2.5 Pro",
+          "creator": "Lightricks",
           "score": 912.0,
           "meta": "Aug 2026 · $10.20 /min"
         },
         {
           "rank": 5,
           "name": "LTX-2.5 Fast",
-          "creator": "LTX-2.5 Fast",
+          "creator": "Lightricks",
           "score": 912.0,
           "meta": "Aug 2026 · $7.80 /min"
         },
         {
           "rank": 6,
           "name": "LTX-2.3 Pro",
-          "creator": "LTX-2.3 Pro",
+          "creator": "Lightricks",
           "score": 837.0,
           "meta": "Mar 2026 · $4.80 /min"
         },
         {
           "rank": 7,
           "name": "LTX-2.3 Fast",
-          "creator": "LTX-2.3 Fast",
+          "creator": "Lightricks",
           "score": 832.0,
           "meta": "Mar 2026 · $3.60 /min"
         }
@@ -1156,76 +1156,76 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-09T10:37:51.826280+00:00",
+      "fetched_at": "2026-11-14T21:47:29.059310+00:00",
       "entries": [
         {
           "rank": 1,
-          "score": 1155.0,
+          "score": 1164.0,
           "name": "Utopai X",
           "creator": "Utopai Studios",
           "meta": ""
         },
         {
           "rank": 2,
-          "score": 1130.0,
-          "name": "Dreamina Seedance 2.5",
-          "creator": "ByteDance Seed",
+          "score": 1154.0,
+          "name": "Agnes-Video-2.5",
+          "creator": "Sapiens AI",
           "meta": ""
         },
         {
           "rank": 3,
-          "score": 1124.0,
-          "name": "MiniMax H3 Max",
-          "creator": "Fal",
+          "score": 1143.0,
+          "name": "MiniMax H3 (768p)",
+          "creator": "MiniMax",
           "meta": ""
         },
         {
           "rank": 4,
-          "score": 1123.0,
+          "score": 1141.0,
           "name": "Bach 1.0 Pro",
           "creator": "Video Rebirth",
           "meta": ""
         },
         {
           "rank": 5,
-          "score": 1122.0,
+          "score": 1137.0,
           "name": "Hyperflow H3",
           "creator": "Video Rebirth",
           "meta": ""
         },
         {
           "rank": 6,
-          "score": 1120.0,
+          "score": 1129.0,
+          "name": "HeyGen Video 1",
+          "creator": "HeyGen",
+          "meta": ""
+        },
+        {
+          "rank": 7,
+          "score": 1128.0,
+          "name": "MiniMax H3 Max",
+          "creator": "Fal",
+          "meta": ""
+        },
+        {
+          "rank": 8,
+          "score": 1127.0,
           "name": "SkyReels V4",
           "creator": "Skywork AI",
           "meta": ""
         },
         {
-          "rank": 7,
-          "score": 1117.0,
-          "name": "Agnes-Video-2.5",
-          "creator": "Sapiens AI",
-          "meta": ""
-        },
-        {
-          "rank": 8,
-          "score": 1114.0,
-          "name": "MiniMax H3 (768p)",
-          "creator": "MiniMax",
-          "meta": ""
-        },
-        {
           "rank": 9,
-          "score": 1108.0,
-          "name": "P-Video-2-Pro",
-          "creator": "Pruna AI",
+          "score": 1109.0,
+          "name": "Dreamina Seedance 2.5",
+          "creator": "ByteDance Seed",
           "meta": ""
         },
         {
           "rank": 10,
-          "score": 1106.0,
-          "name": "HeyGen Video 1",
-          "creator": "HeyGen",
+          "score": 1107.0,
+          "name": "FLUX 3 Max",
+          "creator": "Fal",
           "meta": ""
         }
       ]
@@ -1235,59 +1235,59 @@
       "label": "Image to Video",
       "group": "Video",
       "variant": "No audio · Open weights",
-      "note": "Approximated with the open-weights arena ranking.",
+      "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T19:19:25.245161+00:00",
+      "fetched_at": "2026-11-14T21:47:29.076098+00:00",
       "entries": [
         {
           "rank": 1,
+          "score": 1143.0,
           "name": "MiniMax H3 (768p)",
-          "creator": "MiniMax H3 (768p)",
-          "score": 1134.0,
-          "meta": "Jul 2026 · $4.80 /min"
+          "creator": "MiniMax",
+          "meta": ""
         },
         {
           "rank": 2,
+          "score": 1137.0,
           "name": "Hyperflow H3",
-          "creator": "Hyperflow H3",
-          "score": 1119.0,
-          "meta": "Sep 2026 · $9.00 /min"
+          "creator": "Video Rebirth",
+          "meta": ""
         },
         {
           "rank": 3,
+          "score": 1102.0,
           "name": "Pika H3 Flex",
-          "creator": "Pika H3 Flex",
-          "score": 1114.0,
-          "meta": "Oct 2026 · $2.10 /min"
+          "creator": "Pika Art",
+          "meta": ""
         },
         {
           "rank": 4,
+          "score": 955.0,
           "name": "LTX-2.5 Pro",
-          "creator": "LTX-2.5 Pro",
-          "score": 912.0,
-          "meta": "Aug 2026 · $10.20 /min"
+          "creator": "Lightricks",
+          "meta": ""
         },
         {
           "rank": 5,
-          "name": "LTX-2.5 Fast",
-          "creator": "LTX-2.5 Fast",
           "score": 912.0,
-          "meta": "Aug 2026 · $7.80 /min"
+          "name": "LTX-2.5 Fast",
+          "creator": "Lightricks",
+          "meta": ""
         },
         {
           "rank": 6,
-          "name": "LTX-2.3 Pro",
-          "creator": "LTX-2.3 Pro",
-          "score": 837.0,
-          "meta": "Mar 2026 · $4.80 /min"
+          "score": 829.0,
+          "name": "LTX-2.3 Fast",
+          "creator": "Lightricks",
+          "meta": ""
         },
         {
           "rank": 7,
-          "name": "LTX-2.3 Fast",
-          "creator": "LTX-2.3 Fast",
-          "score": 832.0,
-          "meta": "Mar 2026 · $3.60 /min"
+          "score": 814.0,
+          "name": "LTX-2.3 Pro",
+          "creator": "Lightricks",
+          "meta": ""
         }
       ]
     },
@@ -1299,75 +1299,75 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T19:19:25.246426+00:00",
+      "fetched_at": "2026-11-14T21:47:29.076809+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Suno v6",
-          "creator": "Suno v6",
+          "creator": "Suno",
           "score": 1148.0,
           "meta": ""
         },
         {
           "rank": 2,
           "name": "Suno v6-mini",
-          "creator": "Suno v6-mini",
+          "creator": "Suno",
           "score": 1114.0,
           "meta": ""
         },
         {
           "rank": 3,
           "name": "Mureka V9.5",
-          "creator": "Mureka V9.5",
+          "creator": "Mureka",
           "score": 1084.0,
           "meta": ""
         },
         {
           "rank": 4,
           "name": "Mureka V9",
-          "creator": "Mureka V9",
+          "creator": "Mureka",
           "score": 1083.0,
           "meta": ""
         },
         {
           "rank": 5,
           "name": "Lyria 3 Pro",
-          "creator": "Lyria 3 Pro",
+          "creator": "Google",
           "score": 1080.0,
           "meta": ""
         },
         {
           "rank": 6,
           "name": "Lyria 3.5",
-          "creator": "Lyria 3.5",
+          "creator": "Google",
           "score": 1078.0,
           "meta": ""
         },
         {
           "rank": 7,
           "name": "Eleven Music",
-          "creator": "Eleven Music",
+          "creator": "ElevenLabs",
           "score": 1021.0,
           "meta": ""
         },
         {
           "rank": 8,
           "name": "Stable Audio 3 Large",
-          "creator": "Stable Audio 3 Large",
+          "creator": "Stability.ai",
           "score": 1014.0,
           "meta": ""
         },
         {
           "rank": 9,
           "name": "Eleven Music v2",
-          "creator": "Eleven Music v2",
+          "creator": "ElevenLabs",
           "score": 1011.0,
           "meta": ""
         },
         {
           "rank": 10,
           "name": "MiniMax Music 2.5+",
-          "creator": "MiniMax Music 2.5+",
+          "creator": "MiniMax",
           "score": 1007.0,
           "meta": ""
         }
@@ -1381,77 +1381,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T19:19:25.260114+00:00",
+      "fetched_at": "2026-11-14T21:47:29.084963+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Claude Fable 5.2 Max, Default Fallback",
-          "creator": "$26.54",
-          "score": 45.3,
-          "meta": "65 ctx"
+          "creator": "Anthropic",
+          "score": 65.0,
+          "meta": "1M ctx"
         },
         {
           "rank": 2,
           "name": "Gemini 4 Carbon High",
-          "creator": "$5.48",
-          "score": 31.3,
-          "meta": "60 ctx"
+          "creator": "Google",
+          "score": 60.0,
+          "meta": "1M ctx"
         },
         {
           "rank": 3,
           "name": "Claude Opus 5.5 Max, Default Fallback",
-          "creator": "$10.04",
-          "score": 25.4,
-          "meta": "59 ctx"
+          "creator": "Anthropic",
+          "score": 59.0,
+          "meta": "1M ctx"
         },
         {
           "rank": 4,
           "name": "GPT-6 Astra Max",
-          "creator": "$6.24",
-          "score": 23.8,
-          "meta": "57 ctx"
+          "creator": "OpenAI",
+          "score": 57.0,
+          "meta": "1M ctx"
         },
         {
           "rank": 5,
           "name": "GPT-6.1 Sol Max",
-          "creator": "$1.27",
-          "score": 23.1,
-          "meta": "55 ctx"
+          "creator": "OpenAI",
+          "score": 55.0,
+          "meta": "1M ctx"
         },
         {
           "rank": 6,
           "name": "Claude Sonnet 5.5 Max, Default Fallback",
-          "creator": "$10.02",
-          "score": 33.9,
-          "meta": "55 ctx"
+          "creator": "Anthropic",
+          "score": 55.0,
+          "meta": "1M ctx"
         },
         {
           "rank": 7,
           "name": "Gemini 4 Hydrogen Xhigh",
-          "creator": "$3.16",
-          "score": 14.8,
-          "meta": "54 ctx"
+          "creator": "Google",
+          "score": 54.0,
+          "meta": "1M ctx"
         },
         {
           "rank": 8,
           "name": "GPT-6.1 Terra Max",
-          "creator": "$0.96",
-          "score": 14.6,
-          "meta": "51 ctx"
+          "creator": "OpenAI",
+          "score": 51.0,
+          "meta": "1M ctx"
         },
         {
           "rank": 9,
           "name": "Gemini 4 Argon High",
-          "creator": "$4.97",
-          "score": 29.4,
-          "meta": "50 ctx"
+          "creator": "Google",
+          "score": 50.0,
+          "meta": "1M ctx"
         },
         {
           "rank": 10,
           "name": "Muse Wonder Full Max",
-          "creator": "--",
-          "score": null,
-          "meta": "50 ctx"
+          "creator": "Meta",
+          "score": 50.0,
+          "meta": "1M ctx"
         }
       ]
     },
@@ -1463,77 +1463,77 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T19:19:25.275729+00:00",
+      "fetched_at": "2026-11-14T21:47:29.094343+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Kimi K3.1 Pro",
-          "creator": "$3.68",
-          "score": 39.7,
-          "meta": "46 ctx"
+          "creator": "Kimi",
+          "score": 46.0,
+          "meta": "1M ctx"
         },
         {
           "rank": 2,
           "name": "Inkling 2 Small",
-          "creator": "$1.18",
-          "score": 31.9,
-          "meta": "31 ctx"
+          "creator": "Thinking Machines",
+          "score": 31.0,
+          "meta": "1M ctx"
         },
         {
           "rank": 3,
           "name": "MiMo-V2.6-Pro",
-          "creator": "$0.26",
-          "score": 35.6,
-          "meta": "30 ctx"
+          "creator": "Xiaomi",
+          "score": 30.0,
+          "meta": "1M ctx"
         },
         {
           "rank": 4,
           "name": "Ling 3.1 Flash 1019",
-          "creator": "$3.19",
-          "score": null,
-          "meta": "30 ctx"
+          "creator": "InclusionAI",
+          "score": 30.0,
+          "meta": "1M ctx"
         },
         {
           "rank": 5,
           "name": "MiniMax-M3.1-Flash",
-          "creator": "$0.49",
-          "score": 16.8,
-          "meta": "29 ctx"
+          "creator": "MiniMax",
+          "score": 29.0,
+          "meta": "1M ctx"
         },
         {
           "rank": 6,
           "name": "Qwen3.8-Flash-Next",
-          "creator": "$0.57",
-          "score": 34.7,
-          "meta": "29 ctx"
+          "creator": "Alibaba",
+          "score": 29.0,
+          "meta": "256k ctx"
         },
         {
           "rank": 7,
           "name": "Step 5 Preview",
-          "creator": "$2.35",
-          "score": 14.5,
-          "meta": "29 ctx"
+          "creator": "StepFun",
+          "score": 29.0,
+          "meta": "1M ctx"
         },
         {
           "rank": 8,
           "name": "GLM-5.3-Flash",
-          "creator": "$0.58",
-          "score": 46.8,
-          "meta": "28 ctx"
+          "creator": "Z AI",
+          "score": 28.0,
+          "meta": "1M ctx"
         },
         {
           "rank": 9,
           "name": "MiMo-V2.6-Flash",
-          "creator": "$0.13",
-          "score": 50.5,
-          "meta": "27 ctx"
+          "creator": "Xiaomi",
+          "score": 27.0,
+          "meta": "1M ctx"
         },
         {
           "rank": 10,
           "name": "Nanbeige4.3-33B",
-          "creator": "--",
-          "score": null,
-          "meta": "20 ctx"
+          "creator": "Nanbeige",
+          "score": 20.0,
+          "meta": "524k ctx"
         }
       ]
     },
@@ -1545,75 +1545,75 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T19:19:25.282989+00:00",
+      "fetched_at": "2026-11-14T21:47:29.098649+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.6 Sunburst (max)",
-          "creator": "GPT Image 2.6 Sunburst (max)",
+          "creator": "OpenAI",
           "score": 1261.0,
           "meta": "Nov 2026 · $210.72 /1k imgs"
         },
         {
           "rank": 2,
           "name": "GPT Image 2.5 Sunburst (max)",
-          "creator": "GPT Image 2.5 Sunburst (max)",
+          "creator": "OpenAI",
           "score": 1229.0,
           "meta": "Sep 2026 · $210.72 /1k imgs"
         },
         {
           "rank": 3,
           "name": "GPT Image 2.6 Flare (max)",
-          "creator": "GPT Image 2.6 Flare (max)",
+          "creator": "OpenAI",
           "score": 1227.0,
           "meta": "Nov 2026 · $210.72 /1k imgs"
         },
         {
           "rank": 4,
           "name": "GPT Image 2.5 Flare (max)",
-          "creator": "GPT Image 2.5 Flare (max)",
+          "creator": "OpenAI",
           "score": 1210.0,
           "meta": "Sep 2026 · $210.72 /1k imgs"
         },
         {
           "rank": 5,
           "name": "GPT Image 2 (high)",
-          "creator": "GPT Image 2 (high)",
+          "creator": "OpenAI",
           "score": 1192.0,
           "meta": "Apr 2026 · $211.00 /1k imgs"
         },
         {
           "rank": 6,
           "name": "Kling Image 4.0 (preview)",
-          "creator": "Kling Image 4.0 (preview)",
+          "creator": "KlingAI",
           "score": 1180.0,
           "meta": "Nov 2026 · Coming soon"
         },
         {
           "rank": 7,
           "name": "Nano Banana 2.1",
-          "creator": "Nano Banana 2.1",
+          "creator": "Google",
           "score": 1176.0,
           "meta": "Oct 2026 · $33.60 /1k imgs"
         },
         {
           "rank": 8,
           "name": "MAI-Image-2.6",
-          "creator": "MAI-Image-2.6",
+          "creator": "Microsoft AI",
           "score": 1168.0,
           "meta": "Aug 2026 · $38.91 /1k imgs"
         },
         {
           "rank": 9,
           "name": "Grok Imagine Image 2.0",
-          "creator": "Grok Imagine Image 2.0",
+          "creator": "SpaceXAI",
           "score": 1167.0,
           "meta": "Aug 2026 · $60.00 /1k imgs"
         },
         {
           "rank": 10,
           "name": "Canva Craft",
-          "creator": "Canva Craft",
+          "creator": "Canva",
           "score": 1158.0,
           "meta": "Oct 2026 · $90.00 /1k imgs"
         }
@@ -1627,75 +1627,75 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T19:19:25.285685+00:00",
+      "fetched_at": "2026-11-14T21:47:29.100229+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "H3-Image",
-          "creator": "H3-Image",
+          "creator": "MiniMax",
           "score": 1066.0,
           "meta": "Nov 2026 · $21.79 /1k imgs"
         },
         {
           "rank": 2,
           "name": "Qwen-Image-2.1",
-          "creator": "Qwen-Image-2.1",
+          "creator": "Alibaba",
           "score": 1047.0,
           "meta": "Sep 2026 · No API available"
         },
         {
           "rank": 3,
           "name": "FLUX 3 Image Klein",
-          "creator": "FLUX 3 Image Klein",
+          "creator": "Black Forest Labs",
           "score": 1041.0,
           "meta": "Oct 2026 · $9.00 /1k imgs"
         },
         {
           "rank": 4,
           "name": "Fibo 2.0",
-          "creator": "Fibo 2.0",
+          "creator": "Bria",
           "score": 1037.0,
           "meta": "Oct 2026 · $32.00 /1k imgs"
         },
         {
           "rank": 5,
           "name": "Ideogram 4.0 (Quality)",
-          "creator": "Ideogram 4.0 (Quality)",
+          "creator": "Ideogram",
           "score": 1026.0,
           "meta": "Jun 2026 · $100.00 /1k imgs"
         },
         {
           "rank": 6,
           "name": "Ideogram 4.0",
-          "creator": "Ideogram 4.0",
+          "creator": "Ideogram",
           "score": 1003.0,
           "meta": "Jun 2026 · $60.00 /1k imgs"
         },
         {
           "rank": 7,
           "name": "Ming-Image-0.1-Design",
-          "creator": "Ming-Image-0.1-Design",
+          "creator": "InclusionAI",
           "score": 1001.0,
           "meta": "Sep 2026 · $30.00 /1k imgs"
         },
         {
           "rank": 8,
           "name": "FLUX.2 [dev]",
-          "creator": "FLUX.2 [dev]",
+          "creator": "Black Forest Labs",
           "score": 1000.0,
           "meta": "Nov 2025 · $12.00 /1k imgs"
         },
         {
           "rank": 9,
           "name": "FLUX.2 [dev] Turbo",
-          "creator": "FLUX.2 [dev] Turbo",
+          "creator": "Fal",
           "score": 996.0,
           "meta": "Dec 2025 · $8.00 /1k imgs"
         },
         {
           "rank": 10,
           "name": "Cosmos3-Super-Text2Image (agentic)",
-          "creator": "Cosmos3-Super-Text2Image (agentic)",
+          "creator": "NVIDIA",
           "score": 995.0,
           "meta": "May 2026 · No API available"
         }
@@ -1709,75 +1709,75 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T19:19:25.292976+00:00",
+      "fetched_at": "2026-11-14T21:47:29.104743+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Eleven v4",
-          "creator": "Eleven v4",
+          "creator": "ElevenLabs",
           "score": 1340.0,
           "meta": "Sept 2026 · $80.00 /1M chars"
         },
         {
           "rank": 2,
           "name": "Eleven v4 Turbo",
-          "creator": "Eleven v4 Turbo",
+          "creator": "ElevenLabs",
           "score": 1339.0,
           "meta": "Sept 2026 · $40.00 /1M chars"
         },
         {
           "rank": 3,
           "name": "Qwen-Audio-3.1-TTS-Plus",
-          "creator": "Qwen-Audio-3.1-TTS-Plus",
+          "creator": "Alibaba",
           "score": 1300.0,
           "meta": "Sept 2026 · $19.31 /1M chars"
         },
         {
           "rank": 4,
           "name": "Sonic 3.6",
-          "creator": "Sonic 3.6",
+          "creator": "Cartesia",
           "score": 1294.0,
           "meta": "Aug 2026 · $49.00 /1M chars"
         },
         {
           "rank": 5,
           "name": "Simba 3.5",
-          "creator": "Simba 3.5",
+          "creator": "SpeechifyAI",
           "score": 1294.0,
           "meta": "Nov 2026 · $6.58 /1M chars"
         },
         {
           "rank": 6,
           "name": "Gemini 3.8 Flash TTS",
-          "creator": "Gemini 3.8 Flash TTS",
+          "creator": "Google",
           "score": 1284.0,
           "meta": "Sept 2026 · $16.49 /1M chars"
         },
         {
           "rank": 7,
           "name": "Fish Audio Drama 3",
-          "creator": "Fish Audio Drama 3",
+          "creator": "Fish Audio",
           "score": 1275.0,
           "meta": "Oct 2026 · $15.00 /1M chars"
         },
         {
           "rank": 8,
           "name": "Lightning V3.1 Pro (Oct 2026)",
-          "creator": "Lightning V3.1 Pro (Oct 2026)",
+          "creator": "Smallest.ai",
           "score": 1273.0,
           "meta": "Oct 2026 · $19.50 /1M chars"
         },
         {
           "rank": 9,
           "name": "Realtime TTS-2",
-          "creator": "Realtime TTS-2",
+          "creator": "Inworld",
           "score": 1268.0,
           "meta": "Aug 2026 · $20.83 /1M chars"
         },
         {
           "rank": 10,
           "name": "Qwen-Audio-3.0-TTS-Plus",
-          "creator": "Qwen-Audio-3.0-TTS-Plus",
+          "creator": "Alibaba",
           "score": 1264.0,
           "meta": "Sept 2026 · $19.31 /1M chars"
         }
@@ -1791,75 +1791,75 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T19:19:25.294706+00:00",
+      "fetched_at": "2026-11-14T21:47:29.105838+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fish Audio Drama 3",
-          "creator": "Fish Audio Drama 3",
+          "creator": "Fish Audio",
           "score": 1275.0,
           "meta": "Oct 2026 · $15.00 /1M chars"
         },
         {
           "rank": 2,
           "name": "Fish Audio Drama 3 Preview",
-          "creator": "Fish Audio Drama 3 Preview",
+          "creator": "Fish Audio",
           "score": 1239.0,
           "meta": "Oct 2026 · $15.00 /1M chars"
         },
         {
           "rank": 3,
           "name": "Breeze TTS 2",
-          "creator": "Breeze TTS 2",
+          "creator": "BreezeBlue",
           "score": 1229.0,
           "meta": "Aug 2026 · $34.00 /1M chars"
         },
         {
           "rank": 4,
           "name": "Ming-3.0-tts",
-          "creator": "Ming-3.0-tts",
+          "creator": "Ant Group",
           "score": 1182.0,
           "meta": "Oct 2026 · N/A"
         },
         {
           "rank": 5,
           "name": "Phonon 31M (English)",
-          "creator": "Phonon 31M (English)",
+          "creator": "Gradium",
           "score": 1111.0,
           "meta": "Oct 2026 · $0.00 /1M chars"
         },
         {
           "rank": 6,
           "name": "Fish Audio S2 Pro",
-          "creator": "Fish Audio S2 Pro",
+          "creator": "Fish Audio",
           "score": 1104.0,
           "meta": "Mar 2026 · $15.00 /1M chars"
         },
         {
           "rank": 7,
           "name": "Step Audio EditX (Mar 2026)",
-          "creator": "Step Audio EditX (Mar 2026)",
+          "creator": "StepFun",
           "score": 1100.0,
           "meta": "Feb 2026 · N/A"
         },
         {
           "rank": 8,
           "name": "Voxtral TTS",
-          "creator": "Voxtral TTS",
+          "creator": "Mistral",
           "score": 1094.0,
           "meta": "Mar 2026 · $16.00 /1M chars"
         },
         {
           "rank": 9,
           "name": "Kokoro 82M v1.0",
-          "creator": "Kokoro 82M v1.0",
+          "creator": "Kokoro",
           "score": 1061.0,
           "meta": "Jan 2025 · $0.65 /1M chars"
         },
         {
           "rank": 10,
           "name": "Magpie-Multilingual 357M (Feb 2026)",
-          "creator": "Magpie-Multilingual 357M (Feb 2026)",
+          "creator": "NVIDIA",
           "score": 1060.0,
           "meta": "Feb 2026 · N/A"
         }
@@ -2074,58 +2074,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-14T19:19:09.000167+00:00"
+        "ok": false,
+        "items": 2,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-11-14T21:47:13.052937+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T19:19:07.966537+00:00"
+        "checked_at": "2026-11-14T21:47:12.029566+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-14T19:19:12.072532+00:00"
+        "ok": false,
+        "items": 10,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-11-14T21:47:16.118462+00:00"
       },
       {
         "name": "Fireship",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-14T19:19:10.022282+00:00"
+        "ok": false,
+        "items": 10,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "checked_at": "2026-11-14T21:47:14.071919+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T19:19:14.373568+00:00"
+        "checked_at": "2026-11-14T21:47:18.498995+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-14T19:19:11.046475+00:00"
+        "ok": false,
+        "items": 8,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-11-14T21:47:15.095476+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-11-14T19:19:13.110137+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-11-14T21:47:17.137483+00:00"
       }
     ],
     "leaderboards": {
-      "ok": 12,
-      "failed": 1,
-      "checked_at": "2026-11-14T19:19:25.297167+00:00"
+      "ok": 13,
+      "failed": 0,
+      "checked_at": "2026-11-14T21:47:29.107427+00:00"
     }
   }
 }

@@ -89,10 +89,10 @@ leaderboards:
     label: Image to Video
     group: Video
     variant: No audio · Open weights
-    note: Approximated with the open-weights arena ranking.
+    note: Silent-video arena ranking, filtered to open weights.
     url: https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true
     page: /video/leaderboard/image-to-video/open-weights
-    parse: table
+    parse: flight-no-audio-open
 
   - id: music-instrumental
     label: Music (Instrumental)

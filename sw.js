@@ -1,4 +1,4 @@
-const CACHE = "ainh-v3";
+const CACHE = "ainh-v4";
 const SHELL = [
   "./",
   "index.html",
