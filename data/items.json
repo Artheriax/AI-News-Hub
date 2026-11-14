@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T14:22:19.392704+00:00",
+  "generated_at": "2026-11-14T19:19:25.303297+00:00",
   "items": [
     {
       "id": "yt:tAy1IZf_4kg",
@@ -15,7 +15,7 @@
     },
     {
       "id": "yt:x7iwI6WfWS0",
-      "title": "Funkiest Teams meeting EVER (Surprise video)",
+      "title": "AI Can Do Everything…Except This",
       "url": "https://www.youtube.com/watch?v=x7iwI6WfWS0",
       "source": "Two Minute Papers",
       "category": "videos",
@@ -107,7 +107,7 @@
       "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video genera",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 44,
+      "upvotes": 45,
       "arxiv_id": "2611.16748"
     },
     {
@@ -120,7 +120,7 @@
       "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts poorl",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 31,
+      "upvotes": 32,
       "arxiv_id": "2611.17167"
     },
     {
@@ -145,7 +145,7 @@
       "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 85,
+      "upvotes": 134,
       "arxiv_id": "2611.15777"
     },
     {
@@ -282,7 +282,7 @@
       "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify v",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 49,
+      "upvotes": 50,
       "arxiv_id": "2611.14815"
     },
     {
@@ -408,7 +408,7 @@
       "summary": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with th",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 43,
+      "upvotes": 44,
       "arxiv_id": "2611.13004"
     },
     {
@@ -831,18 +831,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/5F4wdtNbMt4/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
-    },
-    {
-      "id": "yt:l3L_lETiSzc",
-      "title": "The runtime wars are over... and Node won",
-      "url": "https://www.youtube.com/watch?v=l3L_lETiSzc",
-      "source": "Fireship",
-      "category": "videos",
-      "published": "2026-10-15T17:35:15+00:00",
-      "summary": "Every JetBrains account now comes with a free coding model called Junie Lite. Try it: https://jb.gg/JunieLite Cloudflare just acquired Deno and the creator of Node.js is finally admitting that reimplementing it was a mistake. Let's dive in. Want more Fireship? 🗞️ Newsletter: https://bytes.dev 🧠 Cour",
-      "thumbnail": "https://i1.ytimg.com/vi/l3L_lETiSzc/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Fireship"
     }
   ],
   "featured": [
@@ -861,7 +849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T14:22:19.296671+00:00",
+      "fetched_at": "2026-11-14T19:19:25.234683+00:00",
       "entries": [
         {
           "rank": 1,
@@ -943,7 +931,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T14:22:19.299282+00:00",
+      "fetched_at": "2026-11-14T19:19:25.236439+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1025,7 +1013,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T14:22:19.302681+00:00",
+      "fetched_at": "2026-11-14T19:19:25.238754+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1107,7 +1095,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T14:22:19.303623+00:00",
+      "fetched_at": "2026-11-14T19:19:25.239397+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1250,7 +1238,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T14:22:19.310779+00:00",
+      "fetched_at": "2026-11-14T19:19:25.245161+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1311,7 +1299,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T14:22:19.313215+00:00",
+      "fetched_at": "2026-11-14T19:19:25.246426+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1393,7 +1381,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T14:22:19.332667+00:00",
+      "fetched_at": "2026-11-14T19:19:25.260114+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1475,7 +1463,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T14:22:19.354795+00:00",
+      "fetched_at": "2026-11-14T19:19:25.275729+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1557,7 +1545,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T14:22:19.365007+00:00",
+      "fetched_at": "2026-11-14T19:19:25.282989+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1639,7 +1627,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T14:22:19.368678+00:00",
+      "fetched_at": "2026-11-14T19:19:25.285685+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1721,7 +1709,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T14:22:19.378717+00:00",
+      "fetched_at": "2026-11-14T19:19:25.292976+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1803,7 +1791,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T14:22:19.381101+00:00",
+      "fetched_at": "2026-11-14T19:19:25.294706+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2089,55 +2077,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T14:22:02.944592+00:00"
+        "checked_at": "2026-11-14T19:19:09.000167+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T14:22:01.913389+00:00"
+        "checked_at": "2026-11-14T19:19:07.966537+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T14:22:06.075376+00:00"
+        "checked_at": "2026-11-14T19:19:12.072532+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T14:22:03.963899+00:00"
+        "checked_at": "2026-11-14T19:19:10.022282+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T14:22:08.327711+00:00"
+        "checked_at": "2026-11-14T19:19:14.373568+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T14:22:04.985374+00:00"
+        "checked_at": "2026-11-14T19:19:11.046475+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T14:22:07.197623+00:00"
+        "checked_at": "2026-11-14T19:19:13.110137+00:00"
       }
     ],
     "leaderboards": {
       "ok": 12,
       "failed": 1,
-      "checked_at": "2026-11-14T14:22:19.384085+00:00"
+      "checked_at": "2026-11-14T19:19:25.297167+00:00"
     }
   }
 }
