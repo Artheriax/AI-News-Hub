@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T22:33:30.421718+00:00",
+  "generated_at": "2026-11-14T22:40:54.398808+00:00",
   "items": [
     {
       "id": "yt:tAy1IZf_4kg",
@@ -849,7 +849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:33:30.280963+00:00",
+      "fetched_at": "2026-11-14T22:40:54.332474+00:00",
       "entries": [
         {
           "rank": 1,
@@ -931,7 +931,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:33:30.283532+00:00",
+      "fetched_at": "2026-11-14T22:40:54.333650+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1013,7 +1013,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:33:30.286781+00:00",
+      "fetched_at": "2026-11-14T22:40:54.335330+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1095,7 +1095,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:33:30.287803+00:00",
+      "fetched_at": "2026-11-14T22:40:54.335762+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1156,7 +1156,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:33:30.318576+00:00",
+      "fetched_at": "2026-11-14T22:40:54.350309+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1238,7 +1238,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:33:30.347675+00:00",
+      "fetched_at": "2026-11-14T22:40:54.363922+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1299,7 +1299,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:33:30.349304+00:00",
+      "fetched_at": "2026-11-14T22:40:54.365272+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1381,7 +1381,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T22:33:30.367368+00:00",
+      "fetched_at": "2026-11-14T22:40:54.372976+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1463,7 +1463,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T22:33:30.380740+00:00",
+      "fetched_at": "2026-11-14T22:40:54.381468+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1545,7 +1545,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:33:30.389943+00:00",
+      "fetched_at": "2026-11-14T22:40:54.385718+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1627,7 +1627,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:33:30.393509+00:00",
+      "fetched_at": "2026-11-14T22:40:54.387346+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1709,7 +1709,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:33:30.402639+00:00",
+      "fetched_at": "2026-11-14T22:40:54.391397+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1791,7 +1791,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:33:30.405004+00:00",
+      "fetched_at": "2026-11-14T22:40:54.392452+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1867,7 +1867,7 @@
     }
   ],
   "best_picks": {
-    "updated_at": "2026-10-16T00:00:00+00:00",
+    "updated_at": "2026-11-14T00:00:00+00:00",
     "open_patterns": [
       "open",
       "oss",
@@ -1883,7 +1883,10 @@
       "nemotron",
       "solar open",
       "breeze tts",
-      "qwen-image"
+      "qwen-image",
+      "h3-image",
+      "minimax h3 (768p)",
+      "fish audio"
     ],
     "tasks": [
       {
@@ -1892,7 +1895,7 @@
         "icon": "</>",
         "benchmark": "SWE-Bench Verified",
         "benchmark_url": "https://aireleasetracker.com/benchmark/swe-bench-verified",
-        "source_note": "Scores via AI Release Tracker (Lab / BenchLM snapshot 2026-10-16)",
+        "source_note": "Scores via AI Release Tracker (Lab / BenchLM snapshot 2026-11-14)",
         "closed_winner": {
           "model": "Claude Opus 5",
           "developer": "Anthropic",
@@ -1906,7 +1909,7 @@
           "released": "Aug 2026"
         },
         "runner_up": {
-          "model": "Claude Fable 5",
+          "model": "Claude Mythos 5",
           "score": "95.5%"
         }
       },
@@ -1916,7 +1919,7 @@
         "icon": "$_",
         "benchmark": "Terminal-Bench 4.0",
         "benchmark_url": "https://aireleasetracker.com/benchmark/terminal-bench-4.0",
-        "source_note": "Scores via AI Release Tracker (Lab / Terminal-Bench snapshot 2026-10-16)",
+        "source_note": "Scores via AI Release Tracker (Lab / Terminal-Bench snapshot 2026-11-14)",
         "closed_winner": {
           "model": "Claude Sonnet 5.5",
           "developer": "Anthropic",
@@ -1924,10 +1927,10 @@
           "released": "Sep 2026"
         },
         "open_winner": {
-          "model": "GLM-5.3",
-          "developer": "Z.ai",
-          "score": "41.82%",
-          "released": "Aug 2026"
+          "model": "Kimi K3.1 Pro",
+          "developer": "Moonshot AI",
+          "score": "65.7%",
+          "released": "Oct 2026"
         },
         "runner_up": {
           "model": "Claude Opus 5.5",
@@ -1940,17 +1943,22 @@
         "icon": "∴",
         "benchmark": "Humanity's Last Exam (with tools)",
         "benchmark_url": "https://aireleasetracker.com/benchmark/hle-with-tools",
-        "source_note": "Scores via AI Release Tracker snapshot 2026-10-16",
+        "source_note": "Scores via AI Release Tracker snapshot 2026-11-14",
         "closed_winner": {
-          "model": "Claude Opus 5.5",
+          "model": "Claude Fable 5.2",
           "developer": "Anthropic",
-          "score": "67.7%",
-          "released": "Sep 2026"
+          "score": "74.2%",
+          "released": "Nov 2026"
         },
-        "open_winner": null,
+        "open_winner": {
+          "model": "Kimi K3.1 Pro",
+          "developer": "Moonshot AI",
+          "score": "70%",
+          "released": "Oct 2026"
+        },
         "runner_up": {
-          "model": "GPT-6 Astra",
-          "score": "—"
+          "model": "Claude Opus 5.5",
+          "score": "67.7%"
         }
       },
       {
@@ -1959,26 +1967,31 @@
         "icon": "◈",
         "benchmark": "OSWorld 2.0",
         "benchmark_url": "https://aireleasetracker.com/benchmark/osworld-2.0",
-        "source_note": "Scores via AI Release Tracker snapshot 2026-10-16",
+        "source_note": "Scores via AI Release Tracker snapshot 2026-11-14",
         "closed_winner": {
-          "model": "Claude Opus 5.5",
+          "model": "Claude Fable 5.1",
           "developer": "Anthropic",
-          "score": "81.8%",
+          "score": "77.9%",
           "released": "Sep 2026"
         },
-        "open_winner": null,
+        "open_winner": {
+          "model": "Qwen3.8-Flash-Next",
+          "developer": "Qwen",
+          "score": "19.4%",
+          "released": "Aug 2026"
+        },
         "runner_up": {
-          "model": "GPT-6.1 Sol",
-          "score": "71.4%"
+          "model": "Claude Opus 5",
+          "score": "75.4%"
         }
       },
       {
         "id": "writing",
         "label": "Writing / Knowledge work",
         "icon": "✎",
-        "benchmark": "GDPval-AA v2.1 + Intelligence Index",
+        "benchmark": "GDPval-AA v2.1",
         "benchmark_url": "https://aireleasetracker.com/benchmark/gdpval-aa-v2.1",
-        "source_note": "Closed pick via AI Release Tracker; open pick mirrors own Text Generation (open) board",
+        "source_note": "Scores via AI Release Tracker snapshot 2026-11-14",
         "closed_winner": {
           "model": "Claude Opus 5.5",
           "developer": "Anthropic",
@@ -1986,14 +1999,14 @@
           "released": "Sep 2026"
         },
         "open_winner": {
-          "model": "MiMo-V2.6-Pro",
-          "developer": "Xiaomi",
-          "score": "46",
-          "released": "—"
+          "model": "Kimi K3.1 Pro",
+          "developer": "Moonshot AI",
+          "score": "1846 (GDPval-AA)",
+          "released": "Oct 2026"
         },
         "runner_up": {
-          "model": "Claude Fable 5",
-          "score": "1932 (GDPval-AA)"
+          "model": "Claude Sonnet 5.5",
+          "score": "1844 (GDPval-AA)"
         }
       },
       {
@@ -2004,20 +2017,20 @@
         "benchmark_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
         "source_note": "Top-1 of own Artificial Analysis boards (snapshot per fetch)",
         "closed_winner": {
-          "model": "GPT Image 2.5 Sunburst (max)",
+          "model": "GPT Image 2.6 Sunburst (max)",
           "developer": "OpenAI",
-          "score": "1198",
-          "released": "Sep 2026"
+          "score": "1261",
+          "released": "Nov 2026"
         },
         "open_winner": {
-          "model": "Qwen-Image-2.1",
-          "developer": "Qwen",
-          "score": "1035",
-          "released": "Sep 2026"
+          "model": "H3-Image",
+          "developer": "MiniMax",
+          "score": "1066",
+          "released": "Nov 2026"
         },
         "runner_up": {
-          "model": "GPT Image 2.5 Flare (max)",
-          "score": "1191"
+          "model": "GPT Image 2.5 Sunburst (max)",
+          "score": "1229"
         }
       },
       {
@@ -2028,20 +2041,20 @@
         "benchmark_url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
         "source_note": "Top-1 of own Artificial Analysis boards (snapshot per fetch)",
         "closed_winner": {
-          "model": "MiniMax H3 Max",
-          "developer": "MiniMax",
-          "score": "1195",
-          "released": "Aug 2026"
+          "model": "Dreamina Seedance 2.5",
+          "developer": "ByteDance Seed",
+          "score": "1161",
+          "released": "Jul 2026"
         },
         "open_winner": {
-          "model": "MiniMax H3",
+          "model": "MiniMax H3 (768p)",
           "developer": "MiniMax",
-          "score": "1181",
+          "score": "1134",
           "released": "Jul 2026"
         },
         "runner_up": {
-          "model": "GPT Image 2.5 Flare (max)",
-          "score": "—"
+          "model": "Utopai X",
+          "score": "1151"
         }
       },
       {
@@ -2052,20 +2065,20 @@
         "benchmark_url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
         "source_note": "Top-1 of own Artificial Analysis boards (snapshot per fetch)",
         "closed_winner": {
-          "model": "Eleven v4 Turbo",
+          "model": "Eleven v4",
           "developer": "ElevenLabs",
-          "score": "1329",
+          "score": "1340",
           "released": "Sep 2026"
         },
         "open_winner": {
-          "model": "Breeze TTS 2",
-          "developer": "Breeze",
-          "score": "1222",
-          "released": "Aug 2026"
+          "model": "Fish Audio Drama 3",
+          "developer": "Fish Audio",
+          "score": "1275",
+          "released": "Oct 2026"
         },
         "runner_up": {
           "model": "Suno v6",
-          "score": "1140 (Music)"
+          "score": "1148 (Music)"
         }
       }
     ]
@@ -2077,55 +2090,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:33:14.950594+00:00"
+        "checked_at": "2026-11-14T22:40:38.971567+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:33:13.923905+00:00"
+        "checked_at": "2026-11-14T22:40:37.946799+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:33:18.008168+00:00"
+        "checked_at": "2026-11-14T22:40:42.030729+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:33:15.968619+00:00"
+        "checked_at": "2026-11-14T22:40:39.989832+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:33:20.255033+00:00"
+        "checked_at": "2026-11-14T22:40:44.301572+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:33:16.988862+00:00"
+        "checked_at": "2026-11-14T22:40:41.011182+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:33:19.041547+00:00"
+        "checked_at": "2026-11-14T22:40:43.060473+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-14T22:33:30.411197+00:00"
+      "checked_at": "2026-11-14T22:40:54.394309+00:00"
     }
   }
 }

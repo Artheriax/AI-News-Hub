@@ -1,5 +1,5 @@
 # Curated "Use model X for Y" picks.
-# Benchmark winners are snapshots (2026-10-16) inspired by the taxonomy at
+# Benchmark winners are snapshots (2026-11-14) inspired by the taxonomy at
 # https://aireleasetracker.com/benchmark — scores stay attributed via
 # benchmark_url + source_note and are NOT live-scraped (see README).
 # Image/Video/Speech/Music winners mirror our own Artificial Analysis
@@ -7,7 +7,7 @@
 # Update a winner by editing the 4 fields below; fetch.py merges this file
 # into data/items.json as `best_picks` (no network needed for tasks).
 
-updated_at: "2026-10-16T00:00:00+00:00"
+updated_at: "2026-11-14T00:00:00+00:00"
 
 # Slug patterns (lowercase, substring match on normalized model name) that
 # classify a model as open-weights. Everything else renders as closed-source.
@@ -28,6 +28,9 @@ open_patterns:
   - "solar open"
   - "breeze tts"
   - "qwen-image"
+  - "h3-image"
+  - "minimax h3 (768p)"
+  - "fish audio"
 
 tasks:
   - id: coding
@@ -35,7 +38,7 @@ tasks:
     icon: "</>"
     benchmark: SWE-Bench Verified
     benchmark_url: https://aireleasetracker.com/benchmark/swe-bench-verified
-    source_note: "Scores via AI Release Tracker (Lab / BenchLM snapshot 2026-10-16)"
+    source_note: "Scores via AI Release Tracker (Lab / BenchLM snapshot 2026-11-14)"
     closed_winner:
       model: Claude Opus 5
       developer: Anthropic
@@ -47,7 +50,7 @@ tasks:
       score: "80.6%"
       released: Aug 2026
     runner_up:
-      model: Claude Fable 5
+      model: Claude Mythos 5
       score: "95.5%"
 
   - id: terminal
@@ -55,17 +58,17 @@ tasks:
     icon: "$_"
     benchmark: Terminal-Bench 4.0
     benchmark_url: https://aireleasetracker.com/benchmark/terminal-bench-4.0
-    source_note: "Scores via AI Release Tracker (Lab / Terminal-Bench snapshot 2026-10-16)"
+    source_note: "Scores via AI Release Tracker (Lab / Terminal-Bench snapshot 2026-11-14)"
     closed_winner:
       model: Claude Sonnet 5.5
       developer: Anthropic
       score: "70.6%"
       released: Sep 2026
     open_winner:
-      model: GLM-5.3
-      developer: Z.ai
-      score: "41.82%"
-      released: Aug 2026
+      model: Kimi K3.1 Pro
+      developer: Moonshot AI
+      score: "65.7%"
+      released: Oct 2026
     runner_up:
       model: Claude Opus 5.5
       score: "66.4%"
@@ -75,52 +78,60 @@ tasks:
     icon: "∴"
     benchmark: Humanity's Last Exam (with tools)
     benchmark_url: https://aireleasetracker.com/benchmark/hle-with-tools
-    source_note: "Scores via AI Release Tracker snapshot 2026-10-16"
+    source_note: "Scores via AI Release Tracker snapshot 2026-11-14"
     closed_winner:
-      model: Claude Opus 5.5
+      model: Claude Fable 5.2
       developer: Anthropic
-      score: "67.7%"
-      released: Sep 2026
-    open_winner: null
+      score: "74.2%"
+      released: Nov 2026
+    open_winner:
+      model: Kimi K3.1 Pro
+      developer: Moonshot AI
+      score: "70%"
+      released: Oct 2026
     runner_up:
-      model: GPT-6 Astra
-      score: "—"
+      model: Claude Opus 5.5
+      score: "67.7%"
 
   - id: agentic
     label: Agentic / Computer use
     icon: "◈"
     benchmark: OSWorld 2.0
     benchmark_url: https://aireleasetracker.com/benchmark/osworld-2.0
-    source_note: "Scores via AI Release Tracker snapshot 2026-10-16"
+    source_note: "Scores via AI Release Tracker snapshot 2026-11-14"
     closed_winner:
-      model: Claude Opus 5.5
+      model: Claude Fable 5.1
       developer: Anthropic
-      score: "81.8%"
+      score: "77.9%"
       released: Sep 2026
-    open_winner: null
+    open_winner:
+      model: Qwen3.8-Flash-Next
+      developer: Qwen
+      score: "19.4%"
+      released: Aug 2026
     runner_up:
-      model: GPT-6.1 Sol
-      score: "71.4%"
+      model: Claude Opus 5
+      score: "75.4%"
 
   - id: writing
     label: Writing / Knowledge work
     icon: "✎"
-    benchmark: GDPval-AA v2.1 + Intelligence Index
+    benchmark: GDPval-AA v2.1
     benchmark_url: https://aireleasetracker.com/benchmark/gdpval-aa-v2.1
-    source_note: "Closed pick via AI Release Tracker; open pick mirrors own Text Generation (open) board"
+    source_note: "Scores via AI Release Tracker snapshot 2026-11-14"
     closed_winner:
       model: Claude Opus 5.5
       developer: Anthropic
       score: "1846"
       released: Sep 2026
     open_winner:
-      model: MiMo-V2.6-Pro
-      developer: Xiaomi
-      score: "46"
-      released: "—"
+      model: Kimi K3.1 Pro
+      developer: Moonshot AI
+      score: "1846 (GDPval-AA)"
+      released: Oct 2026
     runner_up:
-      model: Claude Fable 5
-      score: "1932 (GDPval-AA)"
+      model: Claude Sonnet 5.5
+      score: "1844 (GDPval-AA)"
 
   - id: image
     label: Image
@@ -129,18 +140,18 @@ tasks:
     benchmark_url: https://artificialanalysis.ai/image/leaderboard/text-to-image
     source_note: "Top-1 of own Artificial Analysis boards (snapshot per fetch)"
     closed_winner:
-      model: GPT Image 2.5 Sunburst (max)
+      model: GPT Image 2.6 Sunburst (max)
       developer: OpenAI
-      score: "1198"
-      released: Sep 2026
+      score: "1261"
+      released: Nov 2026
     open_winner:
-      model: Qwen-Image-2.1
-      developer: Qwen
-      score: "1035"
-      released: Sep 2026
+      model: H3-Image
+      developer: MiniMax
+      score: "1066"
+      released: Nov 2026
     runner_up:
-      model: GPT Image 2.5 Flare (max)
-      score: "1191"
+      model: GPT Image 2.5 Sunburst (max)
+      score: "1229"
 
   - id: video
     label: Video
@@ -149,18 +160,18 @@ tasks:
     benchmark_url: https://artificialanalysis.ai/video/leaderboard/image-to-video
     source_note: "Top-1 of own Artificial Analysis boards (snapshot per fetch)"
     closed_winner:
-      model: MiniMax H3 Max
-      developer: MiniMax
-      score: "1195"
-      released: Aug 2026
+      model: Dreamina Seedance 2.5
+      developer: ByteDance Seed
+      score: "1161"
+      released: Jul 2026
     open_winner:
-      model: MiniMax H3
+      model: MiniMax H3 (768p)
       developer: MiniMax
-      score: "1181"
+      score: "1134"
       released: Jul 2026
     runner_up:
-      model: GPT Image 2.5 Flare (max)
-      score: "—"
+      model: Utopai X
+      score: "1151"
 
   - id: speech
     label: Speech / Music
@@ -169,15 +180,15 @@ tasks:
     benchmark_url: https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice
     source_note: "Top-1 of own Artificial Analysis boards (snapshot per fetch)"
     closed_winner:
-      model: Eleven v4 Turbo
+      model: Eleven v4
       developer: ElevenLabs
-      score: "1329"
+      score: "1340"
       released: Sep 2026
     open_winner:
-      model: Breeze TTS 2
-      developer: Breeze
-      score: "1222"
-      released: Aug 2026
+      model: Fish Audio Drama 3
+      developer: Fish Audio
+      score: "1275"
+      released: Oct 2026
     runner_up:
       model: Suno v6
-      score: "1140 (Music)"
+      score: "1148 (Music)"
