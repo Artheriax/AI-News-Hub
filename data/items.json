@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T19:55:42.734944+00:00",
+  "generated_at": "2026-11-14T00:33:59.654479+00:00",
   "items": [
     {
       "id": "yt:1KtXDpSYedo",
@@ -83,7 +83,7 @@
       "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video genera",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 41,
+      "upvotes": 42,
       "arxiv_id": "2611.16748"
     },
     {
@@ -121,7 +121,7 @@
       "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 72,
+      "upvotes": 74,
       "arxiv_id": "2611.15777"
     },
     {
@@ -136,6 +136,19 @@
       "kind": "paper",
       "upvotes": 35,
       "arxiv_id": "2611.15131"
+    },
+    {
+      "id": "paper:2611.15844",
+      "title": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
+      "url": "https://huggingface.co/papers/2611.15844",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-11T00:00:00+00:00",
+      "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open and reproducible recipe for converting pretrained generators into unified multi-t",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 29,
+      "arxiv_id": "2611.15844"
     },
     {
       "id": "yt:0GSvcg9wncc",
@@ -245,7 +258,7 @@
       "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify v",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 45,
+      "upvotes": 46,
       "arxiv_id": "2611.14815"
     },
     {
@@ -321,7 +334,7 @@
       "summary": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 runs with 24-hour budgets, totaling over 10,000 GPU-hours. Our results show that model rankings vary with the evaluation hor",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 43,
+      "upvotes": 44,
       "arxiv_id": "2611.11995"
     },
     {
@@ -422,19 +435,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/LJa_k2JyFsk/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
-    },
-    {
-      "id": "paper:2611.10649",
-      "title": "MACaQ: Fast, Model Agnostic Calibrated Quantization for Low-Precision Weights and Activations",
-      "url": "https://huggingface.co/papers/2611.10649",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-07T00:00:00+00:00",
-      "summary": "Weight-activation quantization can reduce the memory and compute cost of neural-network inference, but recent methods often require expensive optimization and architecture-specific propagation of basis transforms across layers. We introduce MACaQ, an MXFP4 W4A4 post-training quantization method that treats every linear layer independently. MACaQ applies a per-channel scale and a block-Hadamard tra",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 30,
-      "arxiv_id": "2611.10649"
     },
     {
       "id": "yt:iw9SZgyahqg",
@@ -849,7 +849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-13T19:55:42.603606+00:00",
+      "fetched_at": "2026-11-14T00:33:59.590830+00:00",
       "entries": [
         {
           "rank": 1,
@@ -888,38 +888,38 @@
         },
         {
           "rank": 6,
+          "name": "Kling Image 4.0 (preview)",
+          "creator": "Kling Image 4.0 (preview)",
+          "score": 1182.0,
+          "meta": "Nov 2026 · Coming soon"
+        },
+        {
+          "rank": 7,
           "name": "Seedream 5.5",
           "creator": "Seedream 5.5",
           "score": 1159.0,
           "meta": "Nov 2026 · $28.00 /1k imgs"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Krea 3 (Ultra)",
           "creator": "Krea 3 (Ultra)",
           "score": 1154.0,
           "meta": "Oct 2026 · $100.00 /1k imgs"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Nano Banana 2.1",
           "creator": "Nano Banana 2.1",
           "score": 1152.0,
           "meta": "Oct 2026 · $33.60 /1k imgs"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "MAI-Image-2.6",
           "creator": "MAI-Image-2.6",
           "score": 1150.0,
           "meta": "Aug 2026 · $38.91 /1k imgs"
-        },
-        {
-          "rank": 10,
-          "name": "MAI-Image-2.6-Flash",
-          "creator": "MAI-Image-2.6-Flash",
-          "score": 1143.0,
-          "meta": "Sep 2026 · $19.46 /1k imgs"
         }
       ]
     },
@@ -931,7 +931,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-13T19:55:42.606425+00:00",
+      "fetched_at": "2026-11-14T00:33:59.592161+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1013,7 +1013,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-13T19:55:42.610145+00:00",
+      "fetched_at": "2026-11-14T00:33:59.593933+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1095,7 +1095,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-13T19:55:42.611165+00:00",
+      "fetched_at": "2026-11-14T00:33:59.594406+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1238,7 +1238,7 @@
       "note": "Approximated with the open-weights arena ranking.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-13T19:55:42.618878+00:00",
+      "fetched_at": "2026-11-14T00:33:59.597855+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1299,7 +1299,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-13T19:55:42.620831+00:00",
+      "fetched_at": "2026-11-14T00:33:59.598825+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1381,7 +1381,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-13T19:55:42.652668+00:00",
+      "fetched_at": "2026-11-14T00:33:59.613823+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1463,7 +1463,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-13T19:55:42.686681+00:00",
+      "fetched_at": "2026-11-14T00:33:59.629940+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1545,7 +1545,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-13T19:55:42.699136+00:00",
+      "fetched_at": "2026-11-14T00:33:59.635507+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1584,38 +1584,38 @@
         },
         {
           "rank": 6,
+          "name": "Kling Image 4.0 (preview)",
+          "creator": "Kling Image 4.0 (preview)",
+          "score": 1180.0,
+          "meta": "Nov 2026 · Coming soon"
+        },
+        {
+          "rank": 7,
           "name": "Nano Banana 2.1",
           "creator": "Nano Banana 2.1",
           "score": 1176.0,
           "meta": "Oct 2026 · $33.60 /1k imgs"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "MAI-Image-2.6",
           "creator": "MAI-Image-2.6",
           "score": 1169.0,
           "meta": "Aug 2026 · $38.91 /1k imgs"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Grok Imagine Image 2.0",
           "creator": "Grok Imagine Image 2.0",
           "score": 1168.0,
           "meta": "Aug 2026 · $60.00 /1k imgs"
         },
         {
-          "rank": 9,
-          "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
-          "creator": "Nano Banana 2 (Gemini 3.1 Flash Image)",
-          "score": 1143.0,
-          "meta": "Feb 2026 · $67.00 /1k imgs"
-        },
-        {
           "rank": 10,
-          "name": "Seedream 5.5",
-          "creator": "Seedream 5.5",
-          "score": 1134.0,
-          "meta": "Nov 2026 · $20.00 /1k imgs"
+          "name": "Canva Craft",
+          "creator": "Canva Craft",
+          "score": 1158.0,
+          "meta": "Oct 2026 · $90.00 /1k imgs"
         }
       ]
     },
@@ -1627,7 +1627,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-13T19:55:42.703593+00:00",
+      "fetched_at": "2026-11-14T00:33:59.637523+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1709,7 +1709,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-13T19:55:42.715454+00:00",
+      "fetched_at": "2026-11-14T00:33:59.642964+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1791,7 +1791,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-13T19:55:42.718227+00:00",
+      "fetched_at": "2026-11-14T00:33:59.644240+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2074,58 +2074,58 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-13T19:55:26.760331+00:00"
+        "ok": false,
+        "items": 2,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-11-14T00:33:43.512884+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-13T19:55:25.705681+00:00"
+        "ok": false,
+        "items": 8,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-11-14T00:33:42.477194+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-13T19:55:29.975513+00:00"
+        "ok": false,
+        "items": 10,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-11-14T00:33:46.614859+00:00"
       },
       {
         "name": "Fireship",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-13T19:55:27.798231+00:00"
+        "ok": false,
+        "items": 11,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "checked_at": "2026-11-14T00:33:44.548338+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-13T19:55:32.300193+00:00"
+        "checked_at": "2026-11-14T00:33:48.778703+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-13T19:55:28.840374+00:00"
+        "ok": false,
+        "items": 7,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-11-14T00:33:45.576706+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-11-13T19:55:31.143895+00:00"
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-11-14T00:33:47.646736+00:00"
       }
     ],
     "leaderboards": {
       "ok": 12,
       "failed": 1,
-      "checked_at": "2026-11-13T19:55:42.724399+00:00"
+      "checked_at": "2026-11-14T00:33:59.649503+00:00"
     }
   }
 }
