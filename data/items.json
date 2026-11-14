@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T21:47:29.112312+00:00",
+  "generated_at": "2026-11-14T22:05:36.322944+00:00",
   "items": [
     {
       "id": "yt:tAy1IZf_4kg",
@@ -171,7 +171,7 @@
       "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open and reproducible recipe for converting pretrained generators into unified multi-t",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 32,
+      "upvotes": 34,
       "arxiv_id": "2611.15844"
     },
     {
@@ -849,7 +849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T21:47:29.037726+00:00",
+      "fetched_at": "2026-11-14T22:05:36.207602+00:00",
       "entries": [
         {
           "rank": 1,
@@ -931,7 +931,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T21:47:29.039498+00:00",
+      "fetched_at": "2026-11-14T22:05:36.209325+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1013,7 +1013,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T21:47:29.041291+00:00",
+      "fetched_at": "2026-11-14T22:05:36.211584+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1095,7 +1095,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T21:47:29.042040+00:00",
+      "fetched_at": "2026-11-14T22:05:36.212268+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1156,7 +1156,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T21:47:29.059310+00:00",
+      "fetched_at": "2026-11-14T22:05:36.241360+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1238,7 +1238,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T21:47:29.076098+00:00",
+      "fetched_at": "2026-11-14T22:05:36.267206+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1299,7 +1299,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T21:47:29.076809+00:00",
+      "fetched_at": "2026-11-14T22:05:36.268357+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1381,7 +1381,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T21:47:29.084963+00:00",
+      "fetched_at": "2026-11-14T22:05:36.281195+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1463,7 +1463,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T21:47:29.094343+00:00",
+      "fetched_at": "2026-11-14T22:05:36.296520+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1545,7 +1545,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T21:47:29.098649+00:00",
+      "fetched_at": "2026-11-14T22:05:36.303184+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1627,7 +1627,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T21:47:29.100229+00:00",
+      "fetched_at": "2026-11-14T22:05:36.305696+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1709,7 +1709,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T21:47:29.104743+00:00",
+      "fetched_at": "2026-11-14T22:05:36.312201+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1791,7 +1791,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T21:47:29.105838+00:00",
+      "fetched_at": "2026-11-14T22:05:36.313911+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2077,55 +2077,55 @@
         "ok": false,
         "items": 2,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-11-14T21:47:13.052937+00:00"
+        "checked_at": "2026-11-14T22:05:17.213673+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-14T21:47:12.029566+00:00"
+        "ok": false,
+        "items": 8,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-11-14T22:05:16.161599+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": false,
         "items": 10,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-11-14T21:47:16.118462+00:00"
+        "checked_at": "2026-11-14T22:05:20.449677+00:00"
       },
       {
         "name": "Fireship",
         "ok": false,
         "items": 10,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-11-14T21:47:14.071919+00:00"
+        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "checked_at": "2026-11-14T22:05:18.331647+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T21:47:18.498995+00:00"
+        "checked_at": "2026-11-14T22:05:22.681890+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": false,
-        "items": 8,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-11-14T21:47:15.095476+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-14T22:05:19.409584+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-11-14T21:47:17.137483+00:00"
+        "error": null,
+        "checked_at": "2026-11-14T22:05:21.491298+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-14T21:47:29.107427+00:00"
+      "checked_at": "2026-11-14T22:05:36.316425+00:00"
     }
   }
 }
