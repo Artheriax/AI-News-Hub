@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T23:18:25.082028+00:00",
+  "generated_at": "2026-11-14T23:22:49.605502+00:00",
   "items": [
     {
       "id": "rss:https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
@@ -1598,7 +1598,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:17:57.379058+00:00",
+      "fetched_at": "2026-11-14T23:22:49.485463+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1700,7 +1700,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:17:57.380153+00:00",
+      "fetched_at": "2026-11-14T23:22:49.487654+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1802,7 +1802,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:17:57.381540+00:00",
+      "fetched_at": "2026-11-14T23:22:49.490313+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1904,7 +1904,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:17:57.382131+00:00",
+      "fetched_at": "2026-11-14T23:22:49.491154+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1979,7 +1979,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:17:57.397461+00:00",
+      "fetched_at": "2026-11-14T23:22:49.521399+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2081,7 +2081,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:17:57.411375+00:00",
+      "fetched_at": "2026-11-14T23:22:49.546044+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2156,7 +2156,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:17:57.412138+00:00",
+      "fetched_at": "2026-11-14T23:22:49.547431+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2258,7 +2258,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T23:17:57.420971+00:00",
+      "fetched_at": "2026-11-14T23:22:49.562380+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2360,7 +2360,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T23:17:57.427880+00:00",
+      "fetched_at": "2026-11-14T23:22:49.573128+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2462,7 +2462,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:17:57.432441+00:00",
+      "fetched_at": "2026-11-14T23:22:49.580867+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2564,7 +2564,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:17:57.434112+00:00",
+      "fetched_at": "2026-11-14T23:22:49.583977+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2666,7 +2666,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:17:57.438737+00:00",
+      "fetched_at": "2026-11-14T23:22:49.591711+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2768,7 +2768,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:17:57.439936+00:00",
+      "fetched_at": "2026-11-14T23:22:49.593739+00:00",
       "entries": [
         {
           "rank": 1,
@@ -3082,38 +3082,38 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-14T23:17:33.860682+00:00",
-        "failed_streak": 0,
+        "ok": false,
+        "items": 2,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-11-14T23:22:24.258638+00:00",
+        "failed_streak": 1,
         "last_ok_at": "2026-11-14T23:17:33.860682+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-14T23:17:32.834743+00:00",
-        "failed_streak": 0,
+        "ok": false,
+        "items": 8,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-11-14T23:22:20.849382+00:00",
+        "failed_streak": 1,
         "last_ok_at": "2026-11-14T23:17:32.834743+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-14T23:17:36.952143+00:00",
-        "failed_streak": 0,
+        "ok": false,
+        "items": 10,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
+        "checked_at": "2026-11-14T23:22:27.421441+00:00",
+        "failed_streak": 1,
         "last_ok_at": "2026-11-14T23:17:36.952143+00:00"
       },
       {
         "name": "Fireship",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-14T23:17:34.878035+00:00",
-        "failed_streak": 0,
+        "ok": false,
+        "items": 10,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "checked_at": "2026-11-14T23:22:25.324369+00:00",
+        "failed_streak": 1,
         "last_ok_at": "2026-11-14T23:17:34.878035+00:00"
       },
       {
@@ -3121,53 +3121,53 @@
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-14T23:17:41.752346+00:00",
+        "checked_at": "2026-11-14T23:22:32.222322+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-14T23:17:41.752346+00:00"
+        "last_ok_at": "2026-11-14T23:22:32.222322+00:00"
       },
       {
         "name": "Google DeepMind",
         "ok": true,
         "items": 25,
         "error": null,
-        "checked_at": "2026-11-14T23:17:40.354645+00:00",
+        "checked_at": "2026-11-14T23:22:30.917910+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-14T23:17:40.354645+00:00"
+        "last_ok_at": "2026-11-14T23:22:30.917910+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T23:17:39.264915+00:00",
+        "checked_at": "2026-11-14T23:22:29.708176+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-14T23:17:39.264915+00:00"
+        "last_ok_at": "2026-11-14T23:22:29.708176+00:00"
       },
       {
         "name": "MIT Technology Review AI",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-14T23:17:45.835957+00:00",
+        "checked_at": "2026-11-14T23:22:36.970465+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-14T23:17:45.835957+00:00"
+        "last_ok_at": "2026-11-14T23:22:36.970465+00:00"
       },
       {
         "name": "TechCrunch AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-14T23:17:44.734806+00:00",
+        "checked_at": "2026-11-14T23:22:35.801123+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-14T23:17:44.734806+00:00"
+        "last_ok_at": "2026-11-14T23:22:35.801123+00:00"
       },
       {
         "name": "The Batch",
-        "ok": true,
-        "items": 16,
-        "error": null,
-        "checked_at": "2026-11-14T23:17:47.018443+00:00",
-        "failed_streak": 0,
+        "ok": false,
+        "items": 5,
+        "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
+        "checked_at": "2026-11-14T23:22:38.102831+00:00",
+        "failed_streak": 1,
         "last_ok_at": "2026-11-14T23:17:47.018443+00:00"
       },
       {
@@ -3175,35 +3175,35 @@
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-14T23:17:43.650043+00:00",
+        "checked_at": "2026-11-14T23:22:34.640421+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-14T23:17:43.650043+00:00"
+        "last_ok_at": "2026-11-14T23:22:34.640421+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T23:17:35.897364+00:00",
+        "checked_at": "2026-11-14T23:22:26.358964+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-14T23:17:35.897364+00:00"
+        "last_ok_at": "2026-11-14T23:22:26.358964+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-11-14T23:18:25.076926+00:00",
-        "failed_streak": 0,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-11-14T23:22:28.487610+00:00",
+        "failed_streak": 1,
         "last_ok_at": "2026-11-14T23:18:25.076926+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-14T23:17:57.442168+00:00",
+      "checked_at": "2026-11-14T23:22:49.596631+00:00",
       "failed_streak": 0,
-      "last_ok_at": "2026-11-14T23:17:57.442168+00:00"
+      "last_ok_at": "2026-11-14T23:22:49.596631+00:00"
     }
   }
 }
