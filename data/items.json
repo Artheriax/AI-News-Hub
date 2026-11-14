@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T22:30:35.838475+00:00",
+  "generated_at": "2026-11-14T22:33:30.421718+00:00",
   "items": [
     {
       "id": "yt:tAy1IZf_4kg",
@@ -849,7 +849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:30:35.764580+00:00",
+      "fetched_at": "2026-11-14T22:33:30.280963+00:00",
       "entries": [
         {
           "rank": 1,
@@ -931,7 +931,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:30:35.765640+00:00",
+      "fetched_at": "2026-11-14T22:33:30.283532+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1013,7 +1013,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:30:35.767021+00:00",
+      "fetched_at": "2026-11-14T22:33:30.286781+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1095,7 +1095,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:30:35.767450+00:00",
+      "fetched_at": "2026-11-14T22:33:30.287803+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1156,7 +1156,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:30:35.785367+00:00",
+      "fetched_at": "2026-11-14T22:33:30.318576+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1238,7 +1238,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:30:35.803617+00:00",
+      "fetched_at": "2026-11-14T22:33:30.347675+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1299,7 +1299,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:30:35.804351+00:00",
+      "fetched_at": "2026-11-14T22:33:30.349304+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1381,7 +1381,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T22:30:35.813627+00:00",
+      "fetched_at": "2026-11-14T22:33:30.367368+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1463,7 +1463,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T22:30:35.821411+00:00",
+      "fetched_at": "2026-11-14T22:33:30.380740+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1545,7 +1545,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:30:35.825520+00:00",
+      "fetched_at": "2026-11-14T22:33:30.389943+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1627,7 +1627,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:30:35.827078+00:00",
+      "fetched_at": "2026-11-14T22:33:30.393509+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1709,7 +1709,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:30:35.831231+00:00",
+      "fetched_at": "2026-11-14T22:33:30.402639+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1791,7 +1791,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T22:30:35.832260+00:00",
+      "fetched_at": "2026-11-14T22:33:30.405004+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2077,55 +2077,55 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:30:19.958805+00:00"
+        "checked_at": "2026-11-14T22:33:14.950594+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:30:18.931081+00:00"
+        "checked_at": "2026-11-14T22:33:13.923905+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:30:23.033591+00:00"
+        "checked_at": "2026-11-14T22:33:18.008168+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:30:20.990583+00:00"
+        "checked_at": "2026-11-14T22:33:15.968619+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:30:25.393487+00:00"
+        "checked_at": "2026-11-14T22:33:20.255033+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:30:22.014874+00:00"
+        "checked_at": "2026-11-14T22:33:16.988862+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T22:30:24.063514+00:00"
+        "checked_at": "2026-11-14T22:33:19.041547+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-14T22:30:35.834053+00:00"
+      "checked_at": "2026-11-14T22:33:30.411197+00:00"
     }
   }
 }
