@@ -1,4 +1,4 @@
-const CACHE = "ainh-v4";
+const CACHE = "ainh-v5";
 const SHELL = [
   "./",
   "index.html",
@@ -41,28 +41,22 @@ self.addEventListener("fetch", (event) => {
   if (request.method !== "GET") return;
 
   const url = new URL(request.url);
+  if (url.origin !== self.location.origin) return;
 
-  if (url.pathname.endsWith("/data/items.json")) {
+  // Data and generated feeds are small and change every run: prefer the network.
+  if (url.pathname.includes("/data/")) {
     event.respondWith(networkFirst(request));
     return;
   }
 
   if (request.mode === "navigate") {
-    event.respondWith(
-      fetch(request)
-        .then((response) => {
-          const copy = response.clone();
-          event.waitUntil(
-            caches.open(CACHE).then((cache) => cache.put("index.html", copy)),
-          );
-          return response;
-        })
-        .catch(() => caches.match("index.html")),
-    );
+    event.respondWith(networkFirst(request, "index.html"));
     return;
   }
 
-  event.respondWith(cacheFirst(request));
+  // Shell assets refresh in the background, so a new deploy is picked up on the
+  // next visit instead of being pinned forever by a cache-first strategy.
+  event.respondWith(staleWhileRevalidate(event, request));
 });
 
 async function cacheFirst(request) {
@@ -81,10 +75,29 @@ async function cacheFirst(request) {
   }
 }
 
-async function networkFirst(request) {
+async function staleWhileRevalidate(event, request) {
+  const cache = await caches.open(CACHE);
+  const cached = await cache.match(request);
+  const network = fetch(request)
+    .then(async (response) => {
+      if (response.ok && response.type === "basic") {
+        await cache.put(request, response.clone());
+      }
+      return response;
+    })
+    .catch(() => null);
+
+  if (cached) {
+    event.waitUntil(network);
+    return cached;
+  }
+  return (await network) || cacheFirst(request);
+}
+
+async function networkFirst(request, fallbackUrl) {
   try {
     const response = await fetch(request);
-    if (response.ok) {
+    if (response.ok && response.type === "basic") {
       const copy = response.clone();
       const cache = await caches.open(CACHE);
       await cache.put(request, copy);
@@ -93,6 +106,10 @@ async function networkFirst(request) {
   } catch (error) {
     const cached = await caches.match(request);
     if (cached) return cached;
+    if (fallbackUrl) {
+      const fallback = await caches.match(fallbackUrl);
+      if (fallback) return fallback;
+    }
     return Response.error();
   }
 }

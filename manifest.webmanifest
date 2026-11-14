@@ -1,7 +1,7 @@
 {
   "name": "AI News Hub",
   "short_name": "AI News",
-  "description": "Aggregated AI news, papers, and videos from trusted sources — one timeline, refreshed hourly.",
+  "description": "Aggregated AI news, papers, and videos from trusted sources — one timeline, refreshed every 30 minutes.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

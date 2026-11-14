@@ -1,6 +1,95 @@
 {
-  "generated_at": "2026-11-14T23:11:39.173814+00:00",
+  "schema_version": 1,
+  "generated_at": "2026-11-14T23:18:25.082028+00:00",
   "items": [
+    {
+      "id": "rss:https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-14T21:41:22+00:00",
+      "summary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
+      "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
+      "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-14T19:05:17+00:00",
+      "summary": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_logos-5.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-14T17:30:00+00:00",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
+      "title": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol",
+      "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-14T16:48:01+00:00",
+      "summary": "For the first time in a while, no OpenAI model leads the MathArena AI math benchmark. Google's Gemini 4 Carbon and Anthropic's Fable 5.2 have knocked GPT-6.1 Sol from the top, though both cost significantly more. Gemini ignored the time limit in testing and almost never gave up on a task. The…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/gemini-4_carbon_logo.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+      "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+      "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-14T16:42:56+00:00",
+      "summary": "Anthropic has made Claude Opus 5.5 the default model on all paid plans and published a guide that does away with old prompting habits. The main takeaway is to drop \"think hard\" and start at Medium effort. The article Anthropic says outdated prompting habits are slowing down Claude Opus 5.5 appeared…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_claude_logo.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-14T16:34:15+00:00",
+      "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+      "title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary",
+      "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-14T11:40:51+00:00",
+      "summary": "OpenAI is dissolving its standalone robotics team for the second time, but not because it lacks data. General-purpose models like GPT-6 Astra can apparently control robots directly, making a dedicated unit unnecessary. The researchers are being redistributed across other teams in what the company…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/09/openai_robot_arms.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
+      "title": "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon",
+      "url": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-14T11:21:41+00:00",
+      "summary": "Former OpenAI and Anthropic researcher Jacob Coxon points to a slide from Anthropic's IPO roadshow as a reason he left, saying it shows the company's algorithms are improving not just quickly but at an accelerating rate. Coxon continues to call for a pause on frontier model development so…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/09/claude_laser.png",
+      "kind": "article"
+    },
     {
       "id": "yt:tAy1IZf_4kg",
       "title": "Claude Fable 5.2 Can Now Build INSANE Games!",
@@ -8,10 +97,21 @@
       "source": "World of AI",
       "category": "videos",
       "published": "2026-11-14T10:55:50+00:00",
-      "summary": "🔥 Black Friday Sale, get up to 60% off Higgsfield plans 👉 https://higgsfield.ai/s/claude-fable-5-2-yt-intheworldofai-IhvnDD Sponsored by Higgsfield. I gave Claude Fable 5.2 one chat and Higgsfield MCP, and it built HYPERLUME: a full anti-gravity racing game with AI rivals, a soundtrack written in co",
+      "summary": "🔥 Black Friday Sale, get up to 60% off Higgsfield plans 👉 https://higgsfield.ai/s/claude-fable-5-2-yt-intheworldofai-IhvnDD Sponsored by Higgsfield. I gave Claude Fable 5.2 one chat and Higgsfield MCP, and it built HYPERLUME: a full anti-gravity racing game with AI rivals, a soundtrack written in…",
       "thumbnail": "https://i1.ytimg.com/vi/tAy1IZf_4kg/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
+    },
+    {
+      "id": "rss:https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+      "title": "Runway's open-source Praxis-1 turns video AI into a robot controller",
+      "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-14T09:45:45+00:00",
+      "summary": "Runway releases its robotics model Praxis-1 with open weights and source code under the Apache 2.0 license. The model uses knowledge from video training for robot control and leads the World Action Model category on Nvidia's RoboLab-120 benchmark. It can't yet plan complex action sequences on its…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/Runway-Praxis-1.jpg",
+      "kind": "article"
     },
     {
       "id": "yt:x7iwI6WfWS0",
@@ -20,10 +120,142 @@
       "source": "Two Minute Papers",
       "category": "videos",
       "published": "2026-11-14T08:40:55+00:00",
-      "summary": "After finishing this song, it took me 3 months to gather the courage to stand in front of the camera to record it. Hope you Fellow Scholars enjoy it! Thank you so much for the amazing musicians for their help! - Vocals: Carolina Padrón - Drums: Federico Gucciardo - Bass: Phil Gonnand - Saxophone: Di",
+      "summary": "After finishing this song, it took me 3 months to gather the courage to stand in front of the camera to record it. Hope you Fellow Scholars enjoy it! Thank you so much for the amazing musicians for their help! - Vocals: Carolina Padrón - Drums: Federico Gucciardo - Bass: Phil Gonnand - Saxophone…",
       "thumbnail": "https://i1.ytimg.com/vi/x7iwI6WfWS0/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-13T22:43:00+00:00",
+      "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
+      "title": "Jensen Huang's ouster likely traces back to Nvidia's risky business practices more than his personal life",
+      "url": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-13T20:07:34+00:00",
+      "summary": "Jensen Huang likely left Nvidia more because of risky business practices than anything else, a Wall Street Journal report suggests. At the very least, those practices made him enemies internally. The company offered cloud providers billions in financial guarantees for chip purchases, including a…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_logo_glitch.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-13T19:37:57+00:00",
+      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/",
+      "title": "OpenAI rebuilt AI shopping from scratch with ChatGPT Wallet",
+      "url": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-13T18:55:21+00:00",
+      "summary": "OpenAI is taking a second shot at AI-powered shopping with ChatGPT Wallet after scrapping its first approach, Instant Checkout. Users register a card once and confirm each purchase through Face ID or a fingerprint, while actual card details stay hidden behind payment tokens. Rivals such as…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/ChatGPT-Wallet-title-scaled.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-13T18:40:30+00:00",
+      "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
+      "title": "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls",
+      "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-13T18:01:53+00:00",
+      "summary": "Chinese investors are shut out of Anthropic's IPO, Bloomberg reports. Banks are rejecting buy orders from mainland China and Hong Kong, citing U.S. export control rules known as ITAR. Similar restrictions applied during SpaceX's IPO, and Anthropic's products aren't available in either region…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/08/anthropic_claude.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
+      "title": "Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows",
+      "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-13T16:37:01+00:00",
+      "summary": "Anthropic's new Claude for Manufacturing plugin connects the AI directly to Autodesk Fusion, Oracle NetSuite, and Infor. Its 17 specialized skills let the AI draft quotes, compare suppliers, and place backup orders when deliveries are delayed, all after human approval. The plugin doesn't control…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/claude_for_manufactoring.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-13T16:00:12+00:00",
+      "summary": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-13T15:58:00+00:00",
+      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+      "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+      "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-13T14:44:48+00:00",
+      "summary": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+      "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+      "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-13T12:52:19+00:00",
+      "summary": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+      "title": "Jensen Huang didn’t show confidence in his successor, report says",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-13T12:28:23+00:00",
+      "summary": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
+      "thumbnail": null,
+      "kind": "article"
     },
     {
       "id": "yt:1KtXDpSYedo",
@@ -32,7 +264,7 @@
       "source": "World of AI",
       "category": "videos",
       "published": "2026-11-13T08:20:18+00:00",
-      "summary": "Build 3D games and apps with Astra and Opus 5.5 on Abacus AI SuperComputer!: https://supercomputer.abacus.ai/ Anthropic is willing to SLOW DOWN AI development?! Meanwhile, Google just released Gemini 4 Hydrogen, its fastest and cheapest Flash model yet, OpenAI revealed an insanely powerful new cyber",
+      "summary": "Build 3D games and apps with Astra and Opus 5.5 on Abacus AI SuperComputer!: https://supercomputer.abacus.ai/ Anthropic is willing to SLOW DOWN AI development?! Meanwhile, Google just released Gemini 4 Hydrogen, its fastest and cheapest Flash model yet, OpenAI revealed an insanely powerful new…",
       "thumbnail": "https://i2.ytimg.com/vi/1KtXDpSYedo/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
@@ -44,10 +276,54 @@
       "source": "Bijan Bowen",
       "category": "videos",
       "published": "2026-11-13T02:30:32+00:00",
-      "summary": "Timestamps: 00:00 - Intro 00:50 - First Look 02:00 - Technical Look 03:41 - Testing Info 04:19 - Browser OS Test 08:49 - C++ Skate Game Test 11:10 - Robot Arm Test 12:38 - Subway FPS Test 17:01 - Pool Party Game Test 19:58 - C++ Skate Game Improvement 21:38 - Jerry's Apartment 3D Print Test 25:11 - ",
+      "summary": "Timestamps: 00:00 - Intro 00:50 - First Look 02:00 - Technical Look 03:41 - Testing Info 04:19 - Browser OS Test 08:49 - C++ Skate Game Test 11:10 - Robot Arm Test 12:38 - Subway FPS Test 17:01 - Pool Party Game Test 19:58 - C++ Skate Game Improvement 21:38 - Jerry's Apartment 3D Print Test 25:11…",
       "thumbnail": "https://i1.ytimg.com/vi/prA0iTPDqfo/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
+    },
+    {
+      "id": "batch:/the-batch/issue-379",
+      "title": "GPT-6 Cyber Versus Linux, The Problem With LLM-Powered Search, LLMs Edit Model Weights, Agentic Doc Retrieval",
+      "url": "https://www.deeplearning.ai/the-batch/issue-379",
+      "source": "The Batch",
+      "category": "newsletter",
+      "published": "2026-11-13T00:00:00+00:00",
+      "summary": "",
+      "thumbnail": "https://charonhub.deeplearning.ai/content/images/2026/11/agentic-harness.webp",
+      "kind": "newsletter"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+      "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-12T22:42:51+00:00",
+      "summary": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+      "title": "Muse can now place calls to US businesses — if you pay",
+      "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-12T22:22:28+00:00",
+      "summary": "Muse's AI can now place outbound calls to U.S. businesses — but it's not free.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+      "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+      "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-12T21:27:10+00:00",
+      "summary": "Nebius plans to fund its $40 billion AI infrastructure expansion through customer prepayments and loans, even as delays at a Microsoft data center raise questions about its financing model.",
+      "thumbnail": null,
+      "kind": "article"
     },
     {
       "id": "yt:SOwUWPtXQ9I",
@@ -56,10 +332,109 @@
       "source": "Fireship",
       "category": "videos",
       "published": "2026-11-12T21:17:10+00:00",
-      "summary": "Manufact is the easiest way to build and deploy your MCP. Get $100 in free credits: https://manufact.com/fireship Jensen Huang just resigned as Nvidia’s CEO four days after admitting to an affair with a suspected Chinese spy whose tiny Singapore company bought $4.8 billion of Nvidia GPUs. Let's dive",
+      "summary": "Manufact is the easiest way to build and deploy your MCP. Get $100 in free credits: https://manufact.com/fireship Jensen Huang just resigned as Nvidia’s CEO four days after admitting to an affair with a suspected Chinese spy whose tiny Singapore company bought $4.8 billion of Nvidia GPUs. Let's…",
       "thumbnail": "https://i4.ytimg.com/vi/SOwUWPtXQ9I/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+      "title": "Jensen Huang was having a third affair, Reuters reports",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-12T20:26:47+00:00",
+      "summary": "Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+      "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "source": "MIT Technology Review AI",
+      "category": "news",
+      "published": "2026-11-12T20:16:24+00:00",
+      "summary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were…",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-12T19:27:45+00:00",
+      "summary": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-12T19:11:00+00:00",
+      "summary": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-12T18:39:23+00:00",
+      "summary": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "source": "Google DeepMind",
+      "category": "news",
+      "published": "2026-11-12T18:00:50+00:00",
+      "summary": "",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "source": "Google AI Blog",
+      "category": "news",
+      "published": "2026-11-12T18:00:00+00:00",
+      "summary": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-12T17:36:40+00:00",
+      "summary": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-12T17:17:58+00:00",
+      "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
+      "thumbnail": null,
+      "kind": "article"
     },
     {
       "id": "yt:gPNiuyYirfw",
@@ -68,7 +443,7 @@
       "source": "Two Minute Papers",
       "category": "videos",
       "published": "2026-11-12T13:41:41+00:00",
-      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.com/papers 📝 The DeepMind paper AlphaProof Code is available here: https://deepmind.google/blog/introducing-alphaproof-code/ https://deepmind.google/documents/36/Formal_Verification_of_Signal_4.pdf 🙏 We would like to thank our ",
+      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.com/papers 📝 The DeepMind paper AlphaProof Code is available here: https://deepmind.google/blog/introducing-alphaproof-code/ https://deepmind.google/documents/36/Formal_Verification_of_Signal_4.pdf 🙏 We would like to thank our…",
       "thumbnail": "https://i4.ytimg.com/vi/gPNiuyYirfw/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
@@ -80,7 +455,7 @@
       "source": "World of AI",
       "category": "videos",
       "published": "2026-11-12T08:43:37+00:00",
-      "summary": "Every top AI model in one place, from $10/month: Mammouth → https://mammouth.ai Google is making a MASSIVE comeback in the AI race! Gemini 4 Carbon is officially here, but Google's SECRET Gemini 4 Krypton model could be even more powerful! Today, we're diving into exclusive early tests of Krypton, c",
+      "summary": "Every top AI model in one place, from $10/month: Mammouth → https://mammouth.ai Google is making a MASSIVE comeback in the AI race! Gemini 4 Carbon is officially here, but Google's SECRET Gemini 4 Krypton model could be even more powerful! Today, we're diving into exclusive early tests of Krypton…",
       "thumbnail": "https://i1.ytimg.com/vi/lhCad7WDyHw/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
@@ -92,7 +467,7 @@
       "source": "AI Search",
       "category": "videos",
       "published": "2026-11-12T03:31:52+00:00",
-      "summary": "Minimax H3 Image review & tutorial. How to use Minimax image in ComfyUI. Thanks to our sponsor Higgsfield. The biggest discount of the year - up to 60% OFF. Try it today https://higgsfield.ai/s/theaisearch-gZKvHd #ai #aitools #aiart #imagegenerator #agi #ainews Try Minimax online: https://hailuoai.v",
+      "summary": "Minimax H3 Image review & tutorial. How to use Minimax image in ComfyUI. Thanks to our sponsor Higgsfield. The biggest discount of the year - up to 60% OFF. Try it today https://higgsfield.ai/s/theaisearch-gZKvHd #ai #aitools #aiart #imagegenerator #agi #ainews Try Minimax online…",
       "thumbnail": "https://i2.ytimg.com/vi/Er0740eVIEw/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
@@ -104,7 +479,7 @@
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-11-12T00:00:00+00:00",
-      "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video genera",
+      "summary": "Video generation models produce visually realistic videos but still struggle with physical dynamics and causal consistency. Learning from generated videos requires fine-grained physical supervision, yet reliable quality judgments, correction pairs, and controlled variations are difficult to obtain. Large language models (LLMs) possess physical knowledge, but struggle to reliably guide video…",
       "thumbnail": null,
       "kind": "paper",
       "upvotes": 46,
@@ -117,11 +492,55 @@
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-11-12T00:00:00+00:00",
-      "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts poorl",
+      "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts…",
       "thumbnail": null,
       "kind": "paper",
       "upvotes": 33,
       "arxiv_id": "2611.17167"
+    },
+    {
+      "id": "rss:https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "source": "Google AI Blog",
+      "category": "news",
+      "published": "2026-11-11T18:00:00+00:00",
+      "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "source": "Google AI Blog",
+      "category": "news",
+      "published": "2026-11-11T16:00:00+00:00",
+      "summary": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "source": "Google DeepMind",
+      "category": "news",
+      "published": "2026-11-11T15:00:15+00:00",
+      "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+      "thumbnail": "https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w528-h297-n-nu-rw-lo",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+      "source": "Google AI Blog",
+      "category": "news",
+      "published": "2026-11-11T09:00:00+00:00",
+      "summary": "A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand",
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/esther_video_still.max-600x600.format-webp.webp",
+      "kind": "article"
     },
     {
       "id": "yt:S7lpCyZSdJQ",
@@ -130,7 +549,7 @@
       "source": "AI Search",
       "category": "videos",
       "published": "2026-11-11T03:31:20+00:00",
-      "summary": "Claude Fable 5.2 review. #ai #aitools #ainews #llm #singularity #agi Thanks to our sponsor Higgsfield. Try it today https://higgsfield.ai/s/theaisearch-GjEKsU https://www.anthropic.com/claude-fable-and-mythos-5-2 00:00 Claude Fable 5.2 intro 00:23 Claude Code 00:54 Animation video 04:41 Live piano p",
+      "summary": "Claude Fable 5.2 review. #ai #aitools #ainews #llm #singularity #agi Thanks to our sponsor Higgsfield. Try it today https://higgsfield.ai/s/theaisearch-GjEKsU https://www.anthropic.com/claude-fable-and-mythos-5-2 00:00 Claude Fable 5.2 intro 00:23 Claude Code 00:54 Animation video 04:41 Live piano…",
       "thumbnail": "https://i4.ytimg.com/vi/S7lpCyZSdJQ/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
@@ -142,7 +561,7 @@
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-11-11T00:00:00+00:00",
-      "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a benchmark",
+      "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a…",
       "thumbnail": null,
       "kind": "paper",
       "upvotes": 134,
@@ -155,7 +574,7 @@
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-11-11T00:00:00+00:00",
-      "summary": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as e",
+      "summary": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as…",
       "thumbnail": null,
       "kind": "paper",
       "upvotes": 40,
@@ -168,7 +587,7 @@
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-11-11T00:00:00+00:00",
-      "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open and reproducible recipe for converting pretrained generators into unified multi-t",
+      "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open and reproducible recipe for converting pretrained generators into unified…",
       "thumbnail": null,
       "kind": "paper",
       "upvotes": 34,
@@ -181,7 +600,7 @@
       "source": "Bijan Bowen",
       "category": "videos",
       "published": "2026-11-10T23:59:25+00:00",
-      "summary": "Timestamps: 00:00 - Intro 00:58 - Personal Use Case 01:32 - First Look 02:27 - Technical Look 03:28 - Browser OS Test 10:26 - C++ Skate Game Test 13:35 - Jerry's Apartment Test 16:59 - Subway FPS Test 19:38 - Pool Party Swarm Test 24:46 - 3D Printing & Engineering Test 29:05 - C++ Skate Game Improve",
+      "summary": "Timestamps: 00:00 - Intro 00:58 - Personal Use Case 01:32 - First Look 02:27 - Technical Look 03:28 - Browser OS Test 10:26 - C++ Skate Game Test 13:35 - Jerry's Apartment Test 16:59 - Subway FPS Test 19:38 - Pool Party Swarm Test 24:46 - 3D Printing & Engineering Test 29:05 - C++ Skate Game…",
       "thumbnail": "https://i1.ytimg.com/vi/0GSvcg9wncc/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
@@ -193,10 +612,21 @@
       "source": "AI Explained",
       "category": "videos",
       "published": "2026-11-10T23:11:36+00:00",
-      "summary": "I’ve read the full Fable 5.2 report at 264 pages, the 30 page METR RSI report, and tested Gemini Carbon and Fable 5.2 hundreds of times. There’s too much to cover in one video, but let’s explore everything from how fast AI is accelerating AI, five benchmarks few others will talk about, why Simple Be",
+      "summary": "I’ve read the full Fable 5.2 report at 264 pages, the 30 page METR RSI report, and tested Gemini Carbon and Fable 5.2 hundreds of times. There’s too much to cover in one video, but let’s explore everything from how fast AI is accelerating AI, five benchmarks few others will talk about, why Simple…",
       "thumbnail": "https://i2.ytimg.com/vi/583ThJIqQ7k/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Explained"
+    },
+    {
+      "id": "rss:https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "title": "Gemini Intelligence: New features, on more devices",
+      "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "source": "Google AI Blog",
+      "category": "news",
+      "published": "2026-11-10T19:00:00+00:00",
+      "summary": "A man speaks into a phone. Text on the screen reads 'Gemini Intelligence'",
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Intelligence_Signature27.max-600x600.format-webp.webp",
+      "kind": "article"
     },
     {
       "id": "yt:1FurWDiK9A4",
@@ -205,10 +635,65 @@
       "source": "Fireship",
       "category": "videos",
       "published": "2026-11-10T18:19:55+00:00",
-      "summary": "Mux is the video API that translates audio and answers questions about your video. Get $50 in free credits: https://mux.com/fireship Anthropic just dropped Fable and Mythos 5.2 in the middle of a rocky IPO roadshow. Let's dive into what they can do 🐎. Want more Fireship? 🗞️ Newsletter: https://bytes",
+      "summary": "Mux is the video API that translates audio and answers questions about your video. Get $50 in free credits: https://mux.com/fireship Anthropic just dropped Fable and Mythos 5.2 in the middle of a rocky IPO roadshow. Let's dive into what they can do 🐎. Want more Fireship? 🗞️ Newsletter…",
       "thumbnail": "https://i2.ytimg.com/vi/1FurWDiK9A4/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
+    },
+    {
+      "id": "rss:https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "title": "Gemini 4 Carbon is now available",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "source": "Google DeepMind",
+      "category": "news",
+      "published": "2026-11-10T16:03:47+00:00",
+      "summary": "",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "source": "Google AI Blog",
+      "category": "news",
+      "published": "2026-11-10T14:00:00+00:00",
+      "summary": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Adobe_snippet_hero.max-600x600.format-webp.webp",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "source": "Google AI Blog",
+      "category": "news",
+      "published": "2026-11-10T13:00:00+00:00",
+      "summary": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_share_NWQpgus.max-600x600.format-webp.webp",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://deepmind.google/blog/introducing-alphaproof-code/",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "source": "Google DeepMind",
+      "category": "news",
+      "published": "2026-11-10T12:02:28+00:00",
+      "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+      "thumbnail": "https://lh3.googleusercontent.com/hn6AiI6lYFo6chi1mL6uJ9nOW9UXfsAKnSyOApiie2urHNU2tmSPUmGn0hNfWyYLRcsWCGjCIrBZSCt1ihZmvW-LDJPfyolsr5w-yvzlknZVzmaH=w528-h297-n-nu-rw-lo",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "title": "Opening the datasets behind our AI weather models",
+      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "source": "Google DeepMind",
+      "category": "news",
+      "published": "2026-11-10T11:13:04+00:00",
+      "summary": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+      "thumbnail": "https://lh3.googleusercontent.com/ggsqfaBnOayx-i7z9Kj8AeZruz8BSo0N7tsnqwH8Z3REnHcDKBt-QSA3DR4UUM8lcwklWihSARoEN2AyQFhoRFGFlk2-0-xGuKt_rtGoFwpJg8LHVQ=w528-h297-n-nu-rw-lo",
+      "kind": "article"
     },
     {
       "id": "yt:vug73goPJaM",
@@ -217,7 +702,7 @@
       "source": "Two Minute Papers",
       "category": "videos",
       "published": "2026-11-10T10:15:57+00:00",
-      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.com/papers 📝 The papers and sources are available here: MirrorCode: https://arxiv.org/abs/2606.30182 REMEND: https://huggingface.co/udiboy1209/REMEND WebUI-95: https://tommasocalo.github.io/papers/26-webui95-chiea.pdf Photocraf",
+      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.com/papers 📝 The papers and sources are available here: MirrorCode: https://arxiv.org/abs/2606.30182 REMEND: https://huggingface.co/udiboy1209/REMEND WebUI-95: https://tommasocalo.github.io/papers/26-webui95-chiea.pdf…",
       "thumbnail": "https://i3.ytimg.com/vi/vug73goPJaM/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
@@ -229,7 +714,7 @@
       "source": "World of AI",
       "category": "videos",
       "published": "2026-11-10T07:44:20+00:00",
-      "summary": "Build 3D games and apps with Astra and Opus 5.5 on Abacus AI SuperComputer!: https://supercomputer.abacus.ai/ Claude Fable 5.2 and Claude Mythos 5.2 are officially here, and Anthropic may have just delivered one of the biggest AI breakthroughs of 2026! From building entire operating systems and Mine",
+      "summary": "Build 3D games and apps with Astra and Opus 5.5 on Abacus AI SuperComputer!: https://supercomputer.abacus.ai/ Claude Fable 5.2 and Claude Mythos 5.2 are officially here, and Anthropic may have just delivered one of the biggest AI breakthroughs of 2026! From building entire operating systems and…",
       "thumbnail": "https://i3.ytimg.com/vi/rGzEmR8fGaw/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
@@ -241,7 +726,7 @@
       "source": "Bijan Bowen",
       "category": "videos",
       "published": "2026-11-10T02:14:04+00:00",
-      "summary": "Timestamps: 00:00 - Intro 01:39 - Technical Look 04:24 - Browser OS Test 11:21 - C++ Skate Game Test 16:48 - Robot Arm Test 17:47 - Subway FPS Test 21:41 - Blender & Godot Pool Test 24:32 - C++ Wrestling Game Test 27:50 - Physical PCB Troubleshooting 34:53 - INSANE Bijan Game Test 40:00 - Usage & Cl",
+      "summary": "Timestamps: 00:00 - Intro 01:39 - Technical Look 04:24 - Browser OS Test 11:21 - C++ Skate Game Test 16:48 - Robot Arm Test 17:47 - Subway FPS Test 21:41 - Blender & Godot Pool Test 24:32 - C++ Wrestling Game Test 27:50 - Physical PCB Troubleshooting 34:53 - INSANE Bijan Game Test 40:00 - Usage &…",
       "thumbnail": "https://i1.ytimg.com/vi/0Lf_uKY9zvw/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
@@ -253,7 +738,7 @@
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-11-10T00:00:00+00:00",
-      "summary": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the generator.",
+      "summary": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the…",
       "thumbnail": null,
       "kind": "paper",
       "upvotes": 88,
@@ -266,7 +751,7 @@
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-11-10T00:00:00+00:00",
-      "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from traje",
+      "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from…",
       "thumbnail": null,
       "kind": "paper",
       "upvotes": 70,
@@ -279,7 +764,7 @@
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-11-10T00:00:00+00:00",
-      "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify v",
+      "summary": "Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify…",
       "thumbnail": null,
       "kind": "paper",
       "upvotes": 50,
@@ -292,7 +777,7 @@
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-11-10T00:00:00+00:00",
-      "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem ov",
+      "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem…",
       "thumbnail": null,
       "kind": "paper",
       "upvotes": 45,
@@ -305,7 +790,7 @@
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-11-10T00:00:00+00:00",
-      "summary": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Correcting these behavioral divergences remains difficult: offline data may miss the student's failure",
+      "summary": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Correcting these behavioral divergences remains difficult: offline data may miss the student's…",
       "thumbnail": null,
       "kind": "paper",
       "upvotes": 36,
@@ -318,10 +803,54 @@
       "source": "Fireship",
       "category": "videos",
       "published": "2026-11-09T21:04:16+00:00",
-      "summary": "Greptile is the only AI code reviewer that actually runs your code. Try it for free: https://greptile.com/go/fireship A model you're not allowed to use just tore through the Linux kernel and came back with 948 root exploits... let's break it down. Want more Fireship? 🗞️ Newsletter: https://bytes.dev",
+      "summary": "Greptile is the only AI code reviewer that actually runs your code. Try it for free: https://greptile.com/go/fireship A model you're not allowed to use just tore through the Linux kernel and came back with 948 root exploits... let's break it down. Want more Fireship? 🗞️ Newsletter…",
       "thumbnail": "https://i1.ytimg.com/vi/pf5tXJZM1Rw/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
+    },
+    {
+      "id": "rss:https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "source": "Google DeepMind",
+      "category": "news",
+      "published": "2026-11-09T19:51:47+00:00",
+      "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+      "thumbnail": "https://lh3.googleusercontent.com/F1CrVEYRb8lJOyyxGgcyow-Td1de-nkp7K8MZrhjrKPANJUc0EYB754Ninn-Yrppjdb54nolOWo6Rk8iDaRNuixWwLaEKc0K9ImGooxen9fj9IOh=w528-h297-n-nu-rw-lo",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+      "title": "The backlash about data centers might really just be about electricity",
+      "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+      "source": "MIT Technology Review AI",
+      "category": "news",
+      "published": "2026-11-09T19:35:33+00:00",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s largest data center hub…",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "source": "MIT Technology Review AI",
+      "category": "news",
+      "published": "2026-11-09T17:05:43+00:00",
+      "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy.  I spoke with…",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+      "title": "Innovating with AI in the special chemicals industry",
+      "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+      "source": "MIT Technology Review AI",
+      "category": "news",
+      "published": "2026-11-09T13:00:00+00:00",
+      "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals…",
+      "thumbnail": null,
+      "kind": "article"
     },
     {
       "id": "yt:WzZtBgfeUxg",
@@ -330,7 +859,7 @@
       "source": "World of AI",
       "category": "videos",
       "published": "2026-11-09T07:15:11+00:00",
-      "summary": "Every top AI model in one place, from $10/month: Mammouth → https://mammouth.ai OpenAI might be quietly testing its next major AI model, GPT-6.2 Sol, and the early results are absolutely INSANE! Reports suggest that some ChatGPT and Codex users are being routed from GPT-6.1 Sol to a potentially upgr",
+      "summary": "Every top AI model in one place, from $10/month: Mammouth → https://mammouth.ai OpenAI might be quietly testing its next major AI model, GPT-6.2 Sol, and the early results are absolutely INSANE! Reports suggest that some ChatGPT and Codex users are being routed from GPT-6.1 Sol to a potentially…",
       "thumbnail": "https://i4.ytimg.com/vi/WzZtBgfeUxg/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
@@ -342,7 +871,7 @@
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-11-09T00:00:00+00:00",
-      "summary": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording",
+      "summary": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic…",
       "thumbnail": null,
       "kind": "paper",
       "upvotes": 57,
@@ -355,7 +884,7 @@
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-11-09T00:00:00+00:00",
-      "summary": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 runs with 24-hour budgets, totaling over 10,000 GPU-hours. Our results show that model rankings vary with the evaluation hor",
+      "summary": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 runs with 24-hour budgets, totaling over 10,000 GPU-hours. Our results show that model rankings vary with the evaluation…",
       "thumbnail": null,
       "kind": "paper",
       "upvotes": 51,
@@ -368,7 +897,7 @@
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-11-09T00:00:00+00:00",
-      "summary": "Discrete autoregressive modeling, notably through next-token prediction, has become a cornerstone of modern language models. Extending this paradigm to vision allows visual and language models to converge on a unified framework, thereby fostering shared methodology and infrastructure. This work investigates a central question: how far can a finite discrete vocabulary go in representing the richnes",
+      "summary": "Discrete autoregressive modeling, notably through next-token prediction, has become a cornerstone of modern language models. Extending this paradigm to vision allows visual and language models to converge on a unified framework, thereby fostering shared methodology and infrastructure. This work investigates a central question: how far can a finite discrete vocabulary go in representing the…",
       "thumbnail": null,
       "kind": "paper",
       "upvotes": 35,
@@ -381,7 +910,7 @@
       "source": "World of AI",
       "category": "videos",
       "published": "2026-11-08T07:50:35+00:00",
-      "summary": "Omen AI. Omen Sentry: continuous coolant analysis for liquid-cooled data centers. https://www.omen.ai/sentry?utm_source=youtube&utm_medium=creator&utm_campaign=yard_2026&utm_content=[slug] Anthropic may be secretly testing an entirely NEW Claude model family! A mysterious model codenamed Claude Donu",
+      "summary": "Omen AI. Omen Sentry: continuous coolant analysis for liquid-cooled data centers. https://www.omen.ai/sentry?utm_source=youtube&utm_medium=creator&utm_campaign=yard_2026&utm_content=[slug] Anthropic may be secretly testing an entirely NEW Claude model family! A mysterious model codenamed Claude…",
       "thumbnail": "https://i3.ytimg.com/vi/FNnVmvii6Uo/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
@@ -393,7 +922,7 @@
       "source": "AI Search",
       "category": "videos",
       "published": "2026-11-08T03:27:33+00:00",
-      "summary": "HUGE AI NEWS: RelayVSR, Kimi K3.1, Hy4, Gemini Omni 1.2, GPT Image 2.6, & more. Thanks to our sponsor Higgsfield. Try it today https://higgsfield.ai/s/theaisearch-pSEbsn 00:00 AI news intro 00:54 HairDeck 02:32 RelayVSR 03:50 NitroFusion 2 05:11 STRATA 06:47 FlowHMR 08:23 ReLift 09:35 Gemini Omni 1.",
+      "summary": "HUGE AI NEWS: RelayVSR, Kimi K3.1, Hy4, Gemini Omni 1.2, GPT Image 2.6, & more. Thanks to our sponsor Higgsfield. Try it today https://higgsfield.ai/s/theaisearch-pSEbsn 00:00 AI news intro 00:54 HairDeck 02:32 RelayVSR 03:50 NitroFusion 2 05:11 STRATA 06:47 FlowHMR 08:23 ReLift 09:35 Gemini Omni…",
       "thumbnail": "https://i2.ytimg.com/vi/9RIK3A24ZxA/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
@@ -405,7 +934,7 @@
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-11-08T00:00:00+00:00",
-      "summary": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with th",
+      "summary": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with…",
       "thumbnail": null,
       "kind": "paper",
       "upvotes": 45,
@@ -418,7 +947,7 @@
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-11-08T00:00:00+00:00",
-      "summary": "Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately. This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well. We introduce the One Table Benchmark (), spanning 56 datasets, 46 registered methods, and 20 capability axes under aligned d",
+      "summary": "Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately. This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well. We introduce the One Table Benchmark (), spanning 56 datasets, 46 registered methods, and 20 capability axes under aligned…",
       "thumbnail": null,
       "kind": "paper",
       "upvotes": 39,
@@ -431,7 +960,7 @@
       "source": "Two Minute Papers",
       "category": "videos",
       "published": "2026-11-07T16:24:47+00:00",
-      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.com/papers 📝 The Weight Space Programming work is available here: https://rikiyat.github.io/blog/weight-space-programming/ 🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible: Adam Bridg",
+      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.com/papers 📝 The Weight Space Programming work is available here: https://rikiyat.github.io/blog/weight-space-programming/ 🙏 We would like to thank our generous Patreon supporters who make Two Minute Papers possible: Adam…",
       "thumbnail": "https://i4.ytimg.com/vi/GJ6PMUm5oTA/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
@@ -443,7 +972,7 @@
       "source": "Bijan Bowen",
       "category": "videos",
       "published": "2026-11-07T14:18:29+00:00",
-      "summary": "Olares One – Get $300 off: https://shop.olares.com/products/olares-one-exclusive-for-bijan-bowens-viewers-get-300-off In this video, we take a hands-on look at Olares One, exploring its hardware, operating system, and development capabilities through a complete real-world project. We begin with an o",
+      "summary": "Olares One – Get $300 off: https://shop.olares.com/products/olares-one-exclusive-for-bijan-bowens-viewers-get-300-off In this video, we take a hands-on look at Olares One, exploring its hardware, operating system, and development capabilities through a complete real-world project. We begin with an…",
       "thumbnail": "https://i3.ytimg.com/vi/Ru4V_nMbaJU/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
@@ -455,7 +984,7 @@
       "source": "World of AI",
       "category": "videos",
       "published": "2026-11-07T08:34:14+00:00",
-      "summary": "🎙️ Sponsored by Krisp: try it free → https://krisp.ai/ Most AI note takers give you transcripts and summaries. Krisp also fixes how you sound: no bot joins your call, it runs on your own machine, and it removes background noise and voices as you talk. You still get the transcript, summary and action",
+      "summary": "🎙️ Sponsored by Krisp: try it free → https://krisp.ai/ Most AI note takers give you transcripts and summaries. Krisp also fixes how you sound: no bot joins your call, it runs on your own machine, and it removes background noise and voices as you talk. You still get the transcript, summary and…",
       "thumbnail": "https://i1.ytimg.com/vi/LJa_k2JyFsk/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
@@ -467,7 +996,7 @@
       "source": "Fireship",
       "category": "videos",
       "published": "2026-11-06T16:42:38+00:00",
-      "summary": "Warp Factories is open infrastructure to build self-improving software factories. Get early access: https://warp.dev/fireship An unnamed OpenAI model just wrote an algorithm that solves 3-SAT faster than exponential time, breaking a 27-year-old hypothesis that over 800 published papers depend on. Le",
+      "summary": "Warp Factories is open infrastructure to build self-improving software factories. Get early access: https://warp.dev/fireship An unnamed OpenAI model just wrote an algorithm that solves 3-SAT faster than exponential time, breaking a 27-year-old hypothesis that over 800 published papers depend on…",
       "thumbnail": "https://i2.ytimg.com/vi/iw9SZgyahqg/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
@@ -479,10 +1008,21 @@
       "source": "Bijan Bowen",
       "category": "videos",
       "published": "2026-11-06T15:29:55+00:00",
-      "summary": "Try Tencent Hy4 on WorkBuddy here: https://www.workbuddy.ai/?fromSource=gwzcw.24559276.24559276.24559276&utm_medium=cpm&utm_id=gwzcw.24559276.24559276.24559276 Timestamps: 00:00 - Intro 01:05 - First Look 02:24 - Technical Look 04:42 - Browser OS Test 10:36 - C++ Skate Game Test 13:04 - Blender & Go",
+      "summary": "Try Tencent Hy4 on WorkBuddy here: https://www.workbuddy.ai/?fromSource=gwzcw.24559276.24559276.24559276&utm_medium=cpm&utm_id=gwzcw.24559276.24559276.24559276 Timestamps: 00:00 - Intro 01:05 - First Look 02:24 - Technical Look 04:42 - Browser OS Test 10:36 - C++ Skate Game Test 13:04 - Blender &…",
       "thumbnail": "https://i4.ytimg.com/vi/GBjDU9Ct0VQ/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
+    },
+    {
+      "id": "rss:https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "source": "MIT Technology Review AI",
+      "category": "news",
+      "published": "2026-11-06T10:00:00+00:00",
+      "summary": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed…",
+      "thumbnail": null,
+      "kind": "article"
     },
     {
       "id": "yt:efnEcbHnRa0",
@@ -491,7 +1031,7 @@
       "source": "World of AI",
       "category": "videos",
       "published": "2026-11-06T08:44:58+00:00",
-      "summary": "🎙️ Never miss a moment with Soulog Sense, the AI voice recorder with 30-minute Rewind! Get yours here: 🌐 https://www.soulog.com/k/worldofai-yt | 🛒 Amazon: https://www.amazon.com/dp/B0HKG3NH4V The AI race is getting absolutely INSANE! Anthropic may be secretly testing its next-generation Claude Sonne",
+      "summary": "🎙️ Never miss a moment with Soulog Sense, the AI voice recorder with 30-minute Rewind! Get yours here: 🌐 https://www.soulog.com/k/worldofai-yt | 🛒 Amazon: https://www.amazon.com/dp/B0HKG3NH4V The AI race is getting absolutely INSANE! Anthropic may be secretly testing its next-generation Claude…",
       "thumbnail": "https://i2.ytimg.com/vi/efnEcbHnRa0/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
@@ -503,10 +1043,43 @@
       "source": "Two Minute Papers",
       "category": "videos",
       "published": "2026-11-06T07:27:02+00:00",
-      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers Chapters: 00:00 Intro 02:40 Why Robots Are Hard 08:16 The Perfect Data Diet 16:05 Intelligence Density 20:13 Building AI Worlds 22:10 Learning From Failure 25:41 The Reality Gap 29:35 Robots Get Injured Too 31:28 100 ",
+      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers Chapters: 00:00 Intro 02:40 Why Robots Are Hard 08:16 The Perfect Data Diet 16:05 Intelligence Density 20:13 Building AI Worlds 22:10 Learning From Failure 25:41 The Reality Gap 29:35 Robots Get Injured Too 31:28 100…",
       "thumbnail": "https://i1.ytimg.com/vi/XgC1QTs6A2U/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
+    },
+    {
+      "id": "batch:/the-batch/issue-378",
+      "title": "Gemini 4 Carbon Heads Toward Wider Availability, What Anthropic's IPO Means for Developers, Genie 4 Combines with Gemini to Train Robots",
+      "url": "https://www.deeplearning.ai/the-batch/issue-378",
+      "source": "The Batch",
+      "category": "newsletter",
+      "published": "2026-11-06T00:00:00+00:00",
+      "summary": "",
+      "thumbnail": "https://charonhub.deeplearning.ai/content/images/2026/11/Most-Common-AI-Builder-Occupations.webp",
+      "kind": "newsletter"
+    },
+    {
+      "id": "rss:https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+      "source": "Google DeepMind",
+      "category": "news",
+      "published": "2026-11-05T17:05:16+00:00",
+      "summary": "",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "source": "Google AI Blog",
+      "category": "news",
+      "published": "2026-11-05T17:00:00+00:00",
+      "summary": "Text \"Gemini Introducing Gemini Omni 1.2 Flash\" surroudned by images of a beehive, animals in conversation, a squid, and a woman walking down a street",
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.max-600x600.format-webp.webp",
+      "kind": "article"
     },
     {
       "id": "yt:LHxOG65r12w",
@@ -515,10 +1088,32 @@
       "source": "World of AI",
       "category": "videos",
       "published": "2026-11-05T08:58:25+00:00",
-      "summary": "🚀 Install Mobbin MCP and give your AI coding agent access to hundreds of thousands of real production UI patterns: http://mobbin.com/worldofai Is the AI boom ENDING—or are we about to see its biggest wave of releases yet? Today, we break down the post-midterm debate over AI regulation, calls to paus",
+      "summary": "🚀 Install Mobbin MCP and give your AI coding agent access to hundreds of thousands of real production UI patterns: http://mobbin.com/worldofai Is the AI boom ENDING—or are we about to see its biggest wave of releases yet? Today, we break down the post-midterm debate over AI regulation, calls to…",
       "thumbnail": "https://i1.ytimg.com/vi/LHxOG65r12w/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
+    },
+    {
+      "id": "rss:https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+      "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+      "source": "MIT Technology Review AI",
+      "category": "news",
+      "published": "2026-11-04T18:50:55+00:00",
+      "summary": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor…",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+      "title": "Securing the agentic enterprise with data lineage",
+      "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+      "source": "MIT Technology Review AI",
+      "category": "news",
+      "published": "2026-11-04T13:00:00+00:00",
+      "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No…",
+      "thumbnail": "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR_Cyberhaven_V4_Cover.png?w=840",
+      "kind": "article"
     },
     {
       "id": "yt:FQABKeCe1jM",
@@ -527,7 +1122,7 @@
       "source": "World of AI",
       "category": "videos",
       "published": "2026-11-04T09:41:09+00:00",
-      "summary": "Turn PDFs and scans into clean, structured JSON with DocuPipe. Start free with 300 credits, no credit card: https://www.docupipe.ai/?campaign=cr_worldofai&utm_source=worldofai&utm_medium=youtube OpenAI is heating up with mysterious new GPT-ADA model candidates, while GPT-6.2 Astra is reportedly deli",
+      "summary": "Turn PDFs and scans into clean, structured JSON with DocuPipe. Start free with 300 credits, no credit card: https://www.docupipe.ai/?campaign=cr_worldofai&utm_source=worldofai&utm_medium=youtube OpenAI is heating up with mysterious new GPT-ADA model candidates, while GPT-6.2 Astra is reportedly…",
       "thumbnail": "https://i3.ytimg.com/vi/FQABKeCe1jM/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
@@ -539,10 +1134,32 @@
       "source": "Fireship",
       "category": "videos",
       "published": "2026-11-03T19:47:10+00:00",
-      "summary": "Start a free 14-day CodeRabbit Secure trial, no credit card required: https://coderabbit.link/fireship-011 Cursor shipped a backdoor, Polymarket got drained, North Korea pulled off the largest theft in human history, and Anthropic showed an unreleased Claude model can get root on any unpatched Linux",
+      "summary": "Start a free 14-day CodeRabbit Secure trial, no credit card required: https://coderabbit.link/fireship-011 Cursor shipped a backdoor, Polymarket got drained, North Korea pulled off the largest theft in human history, and Anthropic showed an unreleased Claude model can get root on any unpatched…",
       "thumbnail": "https://i4.ytimg.com/vi/k2ruCf_z75I/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
+    },
+    {
+      "id": "rss:https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "source": "Google DeepMind",
+      "category": "news",
+      "published": "2026-11-03T17:01:49+00:00",
+      "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "thumbnail": "https://lh3.googleusercontent.com/UFTBrp1IrRBrc6_f4ibNgtV35iY8F2iTYaqOb1lzR-qZNy-Mb5726xrLKTozohfdZ_3quHe50uyn8z-Wh_Eril_8CVh7py7gH0188sl_EXkoJknlqg=w528-h297-n-nu-rw-lo",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+      "title": "How “reverse game theory” could keep AI agents in check",
+      "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+      "source": "MIT Technology Review AI",
+      "category": "news",
+      "published": "2026-11-03T10:43:41+00:00",
+      "summary": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that…",
+      "thumbnail": null,
+      "kind": "article"
     },
     {
       "id": "yt:i-wYjUriSzo",
@@ -551,10 +1168,32 @@
       "source": "World of AI",
       "category": "videos",
       "published": "2026-11-03T08:12:32+00:00",
-      "summary": "🔒 Sponsored by CodeRabbit. Find, verify, and fix security vulnerabilities before they ship with CodeRabbit Secure. Try CodeRabbit Secure free for 14 days, no credit card needed 👉 https://coderabbit.link/world-of-ai-004 Anthropic has reportedly made a shocking update to its IPO filing, suggesting tha",
+      "summary": "🔒 Sponsored by CodeRabbit. Find, verify, and fix security vulnerabilities before they ship with CodeRabbit Secure. Try CodeRabbit Secure free for 14 days, no credit card needed 👉 https://coderabbit.link/world-of-ai-004 Anthropic has reportedly made a shocking update to its IPO filing, suggesting…",
       "thumbnail": "https://i2.ytimg.com/vi/i-wYjUriSzo/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
+    },
+    {
+      "id": "rss:https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+      "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+      "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+      "source": "MIT Technology Review AI",
+      "category": "news",
+      "published": "2026-11-03T04:18:47+00:00",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been…",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "title": "The latest AI news we announced in October 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "source": "Google AI Blog",
+      "category": "news",
+      "published": "2026-11-02T17:45:00+00:00",
+      "summary": "Animated carousel of images from AI posts in October",
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp",
+      "kind": "article"
     },
     {
       "id": "yt:0Kw6_DTZPrY",
@@ -563,10 +1202,21 @@
       "source": "AI Explained",
       "category": "videos",
       "published": "2026-11-02T17:02:16+00:00",
-      "summary": "You know what, by AI standards, it might not have been the craziest week, but that doesn’t mean several headline-worthy things happened - from Altman and Anthropic implying they would release models they can’t control, with behavior they cannot verify, to Gemini 4 Carbon bursting onto the scene, som",
+      "summary": "You know what, by AI standards, it might not have been the craziest week, but that doesn’t mean several headline-worthy things happened - from Altman and Anthropic implying they would release models they can’t control, with behavior they cannot verify, to Gemini 4 Carbon bursting onto the scene…",
       "thumbnail": "https://i1.ytimg.com/vi/0Kw6_DTZPrY/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Explained"
+    },
+    {
+      "id": "rss:https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+      "title": "Raising the quality of insights in agentic analytics",
+      "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+      "source": "MIT Technology Review AI",
+      "category": "news",
+      "published": "2026-11-02T17:00:00+00:00",
+      "summary": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The…",
+      "thumbnail": "https://wp.technologyreview.com/wp-content/uploads/2026/10/Snowflake-cover-2026.png",
+      "kind": "article"
     },
     {
       "id": "yt:L7opnQdpdMY",
@@ -575,7 +1225,7 @@
       "source": "World of AI",
       "category": "videos",
       "published": "2026-11-02T08:55:44+00:00",
-      "summary": "🎁 Sell personalised Christmas gifts with Printify, free to start: https://try.printify.com/bu8fpbdhjwz8 Sponsored by Printify · Paid partnership HUGE AI NEWS! Claude Mythos 5.5 has reportedly been spotted in Anthropic's official website code, while Claude Fable 5.5 is making waves with INSANE coding",
+      "summary": "🎁 Sell personalised Christmas gifts with Printify, free to start: https://try.printify.com/bu8fpbdhjwz8 Sponsored by Printify · Paid partnership HUGE AI NEWS! Claude Mythos 5.5 has reportedly been spotted in Anthropic's official website code, while Claude Fable 5.5 is making waves with INSANE…",
       "thumbnail": "https://i1.ytimg.com/vi/L7opnQdpdMY/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
@@ -587,7 +1237,7 @@
       "source": "World of AI",
       "category": "videos",
       "published": "2026-11-01T06:38:44+00:00",
-      "summary": "🤖 Try Grok Bot by @Grok: https://x.ai/bot 📰 Read the launch post: https://x.ai/news/introducing-grok-bot This video is sponsored by Grok Bot. SpaceX's Grok Bot gives you AI teammates that don't just answer questions; they actually do the work. Every Bot runs on its own cloud computer with a real bro",
+      "summary": "🤖 Try Grok Bot by @Grok: https://x.ai/bot 📰 Read the launch post: https://x.ai/news/introducing-grok-bot This video is sponsored by Grok Bot. SpaceX's Grok Bot gives you AI teammates that don't just answer questions; they actually do the work. Every Bot runs on its own cloud computer with a real…",
       "thumbnail": "https://i3.ytimg.com/vi/Nj7rnWJE92o/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
@@ -599,7 +1249,7 @@
       "source": "AI Search",
       "category": "videos",
       "published": "2026-11-01T03:27:10+00:00",
-      "summary": "HUGE AI NEWS: Gemini 4 Carbon, Genie 4, GPT 6.1 Terra, Nanbeige 4.3, Anthropic IPO, MotionBricks & more. Thanks to our sponsor Luma. Try it today https://lumalabs.ai/aisearch-oct4 #ai #ainews #aitools #aivideo #agi #singularity 00:00 AI news intro 01:10 MotionBricks 03:11 Idol 04:27 SceneBloom 05:48",
+      "summary": "HUGE AI NEWS: Gemini 4 Carbon, Genie 4, GPT 6.1 Terra, Nanbeige 4.3, Anthropic IPO, MotionBricks & more. Thanks to our sponsor Luma. Try it today https://lumalabs.ai/aisearch-oct4 #ai #ainews #aitools #aivideo #agi #singularity 00:00 AI news intro 01:10 MotionBricks 03:11 Idol 04:27 SceneBloom…",
       "thumbnail": "https://i2.ytimg.com/vi/IGICYFyP_EI/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
@@ -611,7 +1261,7 @@
       "source": "World of AI",
       "category": "videos",
       "published": "2026-10-31T06:50:44+00:00",
-      "summary": "▶ Run all 8 models with the same prompt on Higgsfield: https://higgsfield.ai/s/video-model-showdown-kling-4-intheworldofai-IgGqDE I gave eight AI video models the exact same prompt on Higgsfield AI (Kling 4.0, Seedance 2.5, Gemini Omni Flash 1.1, FLUX.3 Video, Grok Imagine 1.5, Wan 3.0 Prime, MiniMa",
+      "summary": "▶ Run all 8 models with the same prompt on Higgsfield: https://higgsfield.ai/s/video-model-showdown-kling-4-intheworldofai-IgGqDE I gave eight AI video models the exact same prompt on Higgsfield AI (Kling 4.0, Seedance 2.5, Gemini Omni Flash 1.1, FLUX.3 Video, Grok Imagine 1.5, Wan 3.0 Prime…",
       "thumbnail": "https://i2.ytimg.com/vi/eadEYJY9ydg/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
@@ -623,10 +1273,21 @@
       "source": "Two Minute Papers",
       "category": "videos",
       "published": "2026-10-30T15:57:16+00:00",
-      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 OpenAI's paper is available here: https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf Our paper with the cherry splash ray tracing simulation at 0:17",
+      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 OpenAI's paper is available here: https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf Our paper with the cherry splash ray tracing simulation at…",
       "thumbnail": "https://i4.ytimg.com/vi/CWdTBLsbaQs/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
+    },
+    {
+      "id": "rss:https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+      "title": "Speeding up planning decisions with AI",
+      "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+      "source": "Google DeepMind",
+      "category": "news",
+      "published": "2026-10-30T14:18:30+00:00",
+      "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
+      "thumbnail": "https://lh3.googleusercontent.com/AnSfPLyNIwSu1XsT_WUP3aYfQrc9jo8lwlotms7NmryT7RhWXnwdF4_zzYBMlJOcNT1U_ZbDMCM7AzpnFDPeYKJDardybJGlm447xeEXo1eQqgjCEg=w528-h297-n-nu-rw-lo",
+      "kind": "article"
     },
     {
       "id": "yt:GlRVbIdc_Mk",
@@ -635,10 +1296,21 @@
       "source": "World of AI",
       "category": "videos",
       "published": "2026-10-30T07:39:47+00:00",
-      "summary": "Every top AI model in one place, from $10/month: Mammouth → https://mammouth.ai OpenAI's mysterious GPT-6.2 Bel (Betelgeuse) has reportedly been spotted in internal tracking, potentially signaling another massive frontier model release! Meanwhile, Anthropic is testing rumored new Claude checkpoints,",
+      "summary": "Every top AI model in one place, from $10/month: Mammouth → https://mammouth.ai OpenAI's mysterious GPT-6.2 Bel (Betelgeuse) has reportedly been spotted in internal tracking, potentially signaling another massive frontier model release! Meanwhile, Anthropic is testing rumored new Claude…",
       "thumbnail": "https://i4.ytimg.com/vi/GlRVbIdc_Mk/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
+    },
+    {
+      "id": "batch:/the-batch/issue-377",
+      "title": "Zombie Agents, Vampire Models, Witch Hunts, and the Mummy's Curse: AI Fears for Halloween 2026",
+      "url": "https://www.deeplearning.ai/the-batch/issue-377",
+      "source": "The Batch",
+      "category": "newsletter",
+      "published": "2026-10-30T00:00:00+00:00",
+      "summary": "",
+      "thumbnail": "https://charonhub.deeplearning.ai/content/images/2026/10/Cozy-Halloween-Storytime-Circle.webp",
+      "kind": "newsletter"
     },
     {
       "id": "yt:pryCaGv8wuo",
@@ -647,10 +1319,21 @@
       "source": "Two Minute Papers",
       "category": "videos",
       "published": "2026-10-28T17:32:40+00:00",
-      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 DeepSeek v4.1 Flash 1017 is available here: https://api-docs.deepseek.com/news/news261017/ Sources: https://x.com/marcthecreatorr/status/2111427716142571554/video/1 https://x.com/olezhavich/status/211289779102226481",
+      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 DeepSeek v4.1 Flash 1017 is available here: https://api-docs.deepseek.com/news/news261017/ Sources: https://x.com/marcthecreatorr/status/2111427716142571554/video/1…",
       "thumbnail": "https://i1.ytimg.com/vi/pryCaGv8wuo/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
+    },
+    {
+      "id": "rss:https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "source": "Google DeepMind",
+      "category": "news",
+      "published": "2026-10-28T17:00:58+00:00",
+      "summary": "",
+      "thumbnail": null,
+      "kind": "article"
     },
     {
       "id": "yt:nEaJMdM1djM",
@@ -671,10 +1354,21 @@
       "source": "Bijan Bowen",
       "category": "videos",
       "published": "2026-10-28T12:17:58+00:00",
-      "summary": "Timestamps: 00:00 - Intro 01:04 - First Look 01:59 - Technical Look 03:10 - Model Weights Overview 04:22 - LFM3 1.7B Test 05:48 - 1.7B Hermes Agent Test 11:41 - Vision Model Test 16:35 - Voice Model Test 21:23 - Omni Model Test 23:43 - Edge Device Test 25:30 - Closing Thoughts Join the Discord: http",
+      "summary": "Timestamps: 00:00 - Intro 01:04 - First Look 01:59 - Technical Look 03:10 - Model Weights Overview 04:22 - LFM3 1.7B Test 05:48 - 1.7B Hermes Agent Test 11:41 - Vision Model Test 16:35 - Voice Model Test 21:23 - Omni Model Test 23:43 - Edge Device Test 25:30 - Closing Thoughts Join the Discord…",
       "thumbnail": "https://i4.ytimg.com/vi/SX5f8IIBriU/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
+    },
+    {
+      "id": "rss:https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "title": "Genie 4: A new generation of world simulation",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "source": "Google DeepMind",
+      "category": "news",
+      "published": "2026-10-27T16:01:38+00:00",
+      "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+      "thumbnail": "https://lh3.googleusercontent.com/i7iotPkcMbMubxRzAdriO5wsIsowROonBvjLNnmPbOaRgEb1k4LKTBqay5VrcPpZi0R4il_bYCCsPYQ0Gy_-XbAw66azAGEfE-E6_9Izz5apP0BMJVE=w528-h297-n-nu-rw-lo",
+      "kind": "article"
     },
     {
       "id": "yt:VHJfY-c7VkA",
@@ -683,7 +1377,7 @@
       "source": "Bijan Bowen",
       "category": "videos",
       "published": "2026-10-27T05:03:23+00:00",
-      "summary": "Timestamps: 00:00 - Intro 01:15 - First Look 02:02 - Technical Look 03:06 - Browser OS Test 07:45 - C++ Skate Game Test 10:24 - Robot Arm Test 11:25 - Subway FPS Test 14:25 - Blender & Godot Test 17:41 - SNL Skit Test 20:21 - Computer Use Mensa Test 22:19 - Computer Use Blender Test 25:32 - Usage In",
+      "summary": "Timestamps: 00:00 - Intro 01:15 - First Look 02:02 - Technical Look 03:06 - Browser OS Test 07:45 - C++ Skate Game Test 10:24 - Robot Arm Test 11:25 - Subway FPS Test 14:25 - Blender & Godot Test 17:41 - SNL Skit Test 20:21 - Computer Use Mensa Test 22:19 - Computer Use Blender Test 25:32 - Usage…",
       "thumbnail": "https://i3.ytimg.com/vi/VHJfY-c7VkA/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
@@ -695,10 +1389,21 @@
       "source": "Fireship",
       "category": "videos",
       "published": "2026-10-26T18:55:29+00:00",
-      "summary": "Get 20% off Mobbin Pro to help your agent design UIs that actually convert - https://mobbin.com/fireship Kimi K3.1 just dropped as a free 3-trillion-parameter open-weight model that comes within one point of Opus on Terminal Bench. But is it *actually* good? Let's find out. Want more Fireship? 🗞️ Ne",
+      "summary": "Get 20% off Mobbin Pro to help your agent design UIs that actually convert - https://mobbin.com/fireship Kimi K3.1 just dropped as a free 3-trillion-parameter open-weight model that comes within one point of Opus on Terminal Bench. But is it *actually* good? Let's find out. Want more Fireship? 🗞️…",
       "thumbnail": "https://i4.ytimg.com/vi/G_em1hHPnXY/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
+    },
+    {
+      "id": "rss:https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+      "title": "Our newest AI Quest: Mapping the human brain",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+      "source": "Google AI Blog",
+      "category": "news",
+      "published": "2026-10-26T16:00:00+00:00",
+      "summary": "An illustration of a planet rotating to show various cartoon figures waving. At the top is the text \"AI Quests\"",
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/social_sharing_updated.max-600x600.format-webp.webp",
+      "kind": "article"
     },
     {
       "id": "yt:EfyQOAJjx1A",
@@ -707,7 +1412,7 @@
       "source": "AI Search",
       "category": "videos",
       "published": "2026-10-25T03:29:04+00:00",
-      "summary": "HUGE AI NEWS: AI cyber attacks, Kimi K3.1, Minimax M3.1, Hi3D, Dessa voice. Thanks to our sponsor Luma. Try it today https://lumalabs.ai/aisearch-oct3 #ai #ainews #aitools #agi #singularity 00:00 AI news intro 01:01 WeVisOne-VL 03:10 Bark3 04:53 Fibo 2.0 07:37 Carbon-X 09:27 Hy-Nomas 11:14 Hi3D 1.0 ",
+      "summary": "HUGE AI NEWS: AI cyber attacks, Kimi K3.1, Minimax M3.1, Hi3D, Dessa voice. Thanks to our sponsor Luma. Try it today https://lumalabs.ai/aisearch-oct3 #ai #ainews #aitools #agi #singularity 00:00 AI news intro 01:01 WeVisOne-VL 03:10 Bark3 04:53 Fibo 2.0 07:37 Carbon-X 09:27 Hy-Nomas 11:14 Hi3D 1.0…",
       "thumbnail": "https://i2.ytimg.com/vi/EfyQOAJjx1A/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
@@ -719,7 +1424,7 @@
       "source": "Bijan Bowen",
       "category": "videos",
       "published": "2026-10-24T02:57:41+00:00",
-      "summary": "Thanks to Switch AI for sponsoring this video: https://devtoolsacademy.link/Bijan Timestamps: 00:00 - Intro 00:54 - First Look 02:29 - Open-Weight Mention 03:18 - Technical Look 03:53 - Testing Setup Info 05:41 - Browser OS Test 10:46 - C++ Skate Game Test 13:07 - Switch AI Sponsor 14:35 - C++ Skate",
+      "summary": "Thanks to Switch AI for sponsoring this video: https://devtoolsacademy.link/Bijan Timestamps: 00:00 - Intro 00:54 - First Look 02:29 - Open-Weight Mention 03:18 - Technical Look 03:53 - Testing Setup Info 05:41 - Browser OS Test 10:46 - C++ Skate Game Test 13:07 - Switch AI Sponsor 14:35 - C++…",
       "thumbnail": "https://i1.ytimg.com/vi/4MRMLerpcQc/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
@@ -731,7 +1436,7 @@
       "source": "Fireship",
       "category": "videos",
       "published": "2026-10-23T18:19:58+00:00",
-      "summary": "Semgrep Guardian catches the risky code and packages your agent introduces. Try it free for 60 days: https://semgrep.dev/onboarding/guardian?offer=fireship_202610&utm_source=fireship&utm_medium=referral&utm_campaign=2026-10_fireship_guardian_campaign PHP2Shell, a backdoored Python package with 23 mi",
+      "summary": "Semgrep Guardian catches the risky code and packages your agent introduces. Try it free for 60 days: https://semgrep.dev/onboarding/guardian?offer=fireship_202610&utm_source=fireship&utm_medium=referral&utm_campaign=2026-10_fireship_guardian_campaign PHP2Shell, a backdoored Python package with 23…",
       "thumbnail": "https://i4.ytimg.com/vi/SMGg7iisHmc/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
@@ -743,10 +1448,21 @@
       "source": "AI Search",
       "category": "videos",
       "published": "2026-10-23T03:29:27+00:00",
-      "summary": "New Deepseek model. Deepseek V4.1 Flash 1017 and DeepInfer review. Thanks to our sponsor Higgsfield. Try it today https://higgsfield.ai/s/theaisearch-ZsWXGm #ainews #ai #agi #singularity #llm #aitools Deepseek V4.1 1017 https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017 DeepInfer https://gi",
+      "summary": "New Deepseek model. Deepseek V4.1 Flash 1017 and DeepInfer review. Thanks to our sponsor Higgsfield. Try it today https://higgsfield.ai/s/theaisearch-ZsWXGm #ainews #ai #agi #singularity #llm #aitools Deepseek V4.1 1017 https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017 DeepInfer…",
       "thumbnail": "https://i2.ytimg.com/vi/1Aqhg0FVm-w/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
+    },
+    {
+      "id": "batch:/the-batch/issue-376",
+      "title": "Meta’s Muse Wonder and Spark Open, Educational Use of ChatGPT, Reflection's Partnership with Nvidia",
+      "url": "https://www.deeplearning.ai/the-batch/issue-376",
+      "source": "The Batch",
+      "category": "newsletter",
+      "published": "2026-10-23T00:00:00+00:00",
+      "summary": "",
+      "thumbnail": "https://charonhub.deeplearning.ai/content/images/2026/10/Futuristic-Space-Station-Classroom-Crew.webp",
+      "kind": "newsletter"
     },
     {
       "id": "yt:zv6B6PQOuHE",
@@ -755,10 +1471,32 @@
       "source": "Fireship",
       "category": "videos",
       "published": "2026-10-22T15:09:31+00:00",
-      "summary": "Get real-time search data from a single API. Fireship viewers get 1,000 free searches: https://serpapi.com/fireship Yes the very foundations of the internet are currently crumbling to pieces, but before we look at that, let's distract ourselves with the 7 common programmer stereotypes that still exi",
+      "summary": "Get real-time search data from a single API. Fireship viewers get 1,000 free searches: https://serpapi.com/fireship Yes the very foundations of the internet are currently crumbling to pieces, but before we look at that, let's distract ourselves with the 7 common programmer stereotypes that still…",
       "thumbnail": "https://i3.ytimg.com/vi/zv6B6PQOuHE/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
+    },
+    {
+      "id": "rss:https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "source": "Google DeepMind",
+      "category": "news",
+      "published": "2026-10-22T14:30:24+00:00",
+      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+      "thumbnail": "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w528-h297-n-nu-rw-lo",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+      "title": "Southeast Asia’s digital economy to hit $368 billion",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+      "source": "Google AI Blog",
+      "category": "news",
+      "published": "2026-10-21T04:00:00+00:00",
+      "summary": "Cover image for the e-Conomy SEA 2026 report titled Building the intelligent economy by Google, Temasek, and Bain and Company. A 3D illustration features a glowing yellow star surrounded by miniature scenes representing digital sectors, including data cen",
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/e-Conomy_SEA_hero.max-600x600.format-webp.webp",
+      "kind": "article"
     },
     {
       "id": "yt:b2tjnxX8IHU",
@@ -779,7 +1517,7 @@
       "source": "AI Search",
       "category": "videos",
       "published": "2026-10-20T03:24:08+00:00",
-      "summary": "MOSS Image review & tutorial. How to use MOSS Image in ComfyUI. How to edit images with MOSS. Thanks to our sponsor Higgsfield. Try it today https://higgsfield.ai/s/theaisearch-rxYPHC #ai #aiart #imagegenerator #aitools #ainews #agi https://huggingface.co/Comfy-Org/MOSS-Image https://huggingface.co/",
+      "summary": "MOSS Image review & tutorial. How to use MOSS Image in ComfyUI. How to edit images with MOSS. Thanks to our sponsor Higgsfield. Try it today https://higgsfield.ai/s/theaisearch-rxYPHC #ai #aiart #imagegenerator #aitools #ainews #agi https://huggingface.co/Comfy-Org/MOSS-Image…",
       "thumbnail": "https://i4.ytimg.com/vi/cUeZMUGCxrw/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
@@ -791,7 +1529,7 @@
       "source": "Two Minute Papers",
       "category": "videos",
       "published": "2026-10-19T08:49:21+00:00",
-      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 Gemini 4 Argon + report are available here: https://deepmind.google/models/model-cards/gemini-4-argon/ https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf Sources: https://x.com/thebugged",
+      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 Gemini 4 Argon + report are available here: https://deepmind.google/models/model-cards/gemini-4-argon/ https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf Sources…",
       "thumbnail": "https://i1.ytimg.com/vi/LWxX6vvHfrc/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
@@ -803,7 +1541,7 @@
       "source": "Bijan Bowen",
       "category": "videos",
       "published": "2026-10-18T15:07:16+00:00",
-      "summary": "Timestamps: 00:00 - Intro 00:55 - First Look 01:54 - Technical Look 03:42 - Model Slug Incident 04:46 - Browser OS Test 10:56 - Corvette Website Test 15:28 - C++ Skate Game Test 18:35 - Robot Arm Test 19:05 - Blender & Godot Skate Test 20:50 - Subway FPS Test 24:49 - Pool Party Test 28:55 - Cost Bre",
+      "summary": "Timestamps: 00:00 - Intro 00:55 - First Look 01:54 - Technical Look 03:42 - Model Slug Incident 04:46 - Browser OS Test 10:56 - Corvette Website Test 15:28 - C++ Skate Game Test 18:35 - Robot Arm Test 19:05 - Blender & Godot Skate Test 20:50 - Subway FPS Test 24:49 - Pool Party Test 28:55 - Cost…",
       "thumbnail": "https://i1.ytimg.com/vi/dk1OY5z08_Y/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
@@ -815,7 +1553,7 @@
       "source": "AI Search",
       "category": "videos",
       "published": "2026-10-18T03:30:33+00:00",
-      "summary": "HUGE AI NEWS: Gemini 4 Argon, Muse Wonder, Drama 3, MOSS Image, Krea 3, KLING 4, Flux 3 & more. Thanks to our sponsor Luma. Try it today https://lumalabs.ai/aisearch-oct2 #ai #ainews #aitools #aivideo #agi #singularity Drama 3 https://fish.audio/drama-3/ Matrix-Game 4.0 https://matrix-game-v4-0.gith",
+      "summary": "HUGE AI NEWS: Gemini 4 Argon, Muse Wonder, Drama 3, MOSS Image, Krea 3, KLING 4, Flux 3 & more. Thanks to our sponsor Luma. Try it today https://lumalabs.ai/aisearch-oct2 #ai #ainews #aitools #aivideo #agi #singularity Drama 3 https://fish.audio/drama-3/ Matrix-Game 4.0…",
       "thumbnail": "https://i1.ytimg.com/vi/tDWtcyeNNew/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
@@ -827,10 +1565,21 @@
       "source": "Bijan Bowen",
       "category": "videos",
       "published": "2026-10-16T11:10:44+00:00",
-      "summary": "https://rog.gg/upgrade_what_matters_2026_bijan Join the ASUS ROG Upgrade What Matters giveaway for a chance to win a custom PC, ROG Edition 20 gear, and more from a $15,000+ prize pool! In this video, we test Qwen3.8 27B Q4 across Blender and Godot tasks, then move into Strata with Qwen3.8 Flash Nex",
+      "summary": "https://rog.gg/upgrade_what_matters_2026_bijan Join the ASUS ROG Upgrade What Matters giveaway for a chance to win a custom PC, ROG Edition 20 gear, and more from a $15,000+ prize pool! In this video, we test Qwen3.8 27B Q4 across Blender and Godot tasks, then move into Strata with Qwen3.8 Flash…",
       "thumbnail": "https://i2.ytimg.com/vi/5F4wdtNbMt4/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
+    },
+    {
+      "id": "batch:/the-batch/issue-375",
+      "title": "Claude Haiku 5.5, Mistral Large 4, and Local Models for Mac and Windows",
+      "url": "https://www.deeplearning.ai/the-batch/issue-375",
+      "source": "The Batch",
+      "category": "newsletter",
+      "published": "2026-10-16T00:00:00+00:00",
+      "summary": "",
+      "thumbnail": "https://charonhub.deeplearning.ai/content/images/2026/10/Thoughts--Proofs--and-Robot-Triumph.webp",
+      "kind": "newsletter"
     }
   ],
   "featured": [
@@ -849,77 +1598,97 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:11:39.033372+00:00",
+      "fetched_at": "2026-11-14T23:17:57.379058+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.6 Sunburst (max)",
           "creator": "OpenAI",
           "score": 1210.0,
-          "meta": "Nov 2026 · $210.72 /1k imgs"
+          "meta": "Nov 2026 · $210.72 /1k imgs",
+          "previous_rank": 1,
+          "rank_delta": 0
         },
         {
           "rank": 2,
           "name": "GPT Image 2.6 Flare (max)",
           "creator": "OpenAI",
           "score": 1206.0,
-          "meta": "Nov 2026 · $210.72 /1k imgs"
+          "meta": "Nov 2026 · $210.72 /1k imgs",
+          "previous_rank": 2,
+          "rank_delta": 0
         },
         {
           "rank": 3,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "OpenAI",
           "score": 1201.0,
-          "meta": "Sep 2026 · $210.72 /1k imgs"
+          "meta": "Sep 2026 · $210.72 /1k imgs",
+          "previous_rank": 3,
+          "rank_delta": 0
         },
         {
           "rank": 4,
           "name": "MAI-Image-2.7-Preview",
           "creator": "Microsoft AI",
           "score": 1198.0,
-          "meta": "Oct 2026 · No API available"
+          "meta": "Oct 2026 · No API available",
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "OpenAI",
           "score": 1184.0,
-          "meta": "Sep 2026 · $210.72 /1k imgs"
+          "meta": "Sep 2026 · $210.72 /1k imgs",
+          "previous_rank": 5,
+          "rank_delta": 0
         },
         {
           "rank": 6,
           "name": "Kling Image 4.0 (preview)",
           "creator": "KlingAI",
           "score": 1182.0,
-          "meta": "Nov 2026 · Coming soon"
+          "meta": "Nov 2026 · Coming soon",
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
           "name": "Seedream 5.5",
           "creator": "ByteDance Seed",
           "score": 1160.0,
-          "meta": "Nov 2026 · $28.00 /1k imgs"
+          "meta": "Nov 2026 · $28.00 /1k imgs",
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
           "name": "Krea 3 (Ultra)",
           "creator": "Krea",
           "score": 1154.0,
-          "meta": "Oct 2026 · $100.00 /1k imgs"
+          "meta": "Oct 2026 · $100.00 /1k imgs",
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
           "name": "Nano Banana 2.1",
           "creator": "Google",
           "score": 1152.0,
-          "meta": "Oct 2026 · $33.60 /1k imgs"
+          "meta": "Oct 2026 · $33.60 /1k imgs",
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
           "name": "MAI-Image-2.6",
           "creator": "Microsoft AI",
           "score": 1150.0,
-          "meta": "Aug 2026 · $38.91 /1k imgs"
+          "meta": "Aug 2026 · $38.91 /1k imgs",
+          "previous_rank": 10,
+          "rank_delta": 0
         }
       ]
     },
@@ -931,77 +1700,97 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:11:39.035961+00:00",
+      "fetched_at": "2026-11-14T23:17:57.380153+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "H3-Image",
           "creator": "MiniMax",
           "score": 1137.0,
-          "meta": "Nov 2026 · $26.54 /1k imgs"
+          "meta": "Nov 2026 · $26.54 /1k imgs",
+          "previous_rank": 1,
+          "rank_delta": 0
         },
         {
           "rank": 2,
           "name": "Fibo 2.0",
           "creator": "Bria",
           "score": 1086.0,
-          "meta": "Oct 2026 · $32.00 /1k imgs"
+          "meta": "Oct 2026 · $32.00 /1k imgs",
+          "previous_rank": 2,
+          "rank_delta": 0
         },
         {
           "rank": 3,
           "name": "Qwen-Image-2.1",
           "creator": "Alibaba",
           "score": 1084.0,
-          "meta": "Sep 2026 · No API available"
+          "meta": "Sep 2026 · No API available",
+          "previous_rank": 3,
+          "rank_delta": 0
         },
         {
           "rank": 4,
           "name": "FLUX 3 Image Klein",
           "creator": "Black Forest Labs",
           "score": 1070.0,
-          "meta": "Oct 2026 · $9.00 /1k imgs"
+          "meta": "Oct 2026 · $9.00 /1k imgs",
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
           "name": "HunyuanImage 3.0 Instruct",
           "creator": "Tencent",
           "score": 1063.0,
-          "meta": "Jan 2026 · No API available"
+          "meta": "Jan 2026 · No API available",
+          "previous_rank": 5,
+          "rank_delta": 0
         },
         {
           "rank": 6,
           "name": "FLUX.2 [klein] 9B",
           "creator": "Black Forest Labs",
           "score": 1013.0,
-          "meta": "Jan 2026 · $17.00 /1k imgs"
+          "meta": "Jan 2026 · $17.00 /1k imgs",
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
           "name": "FLUX.2 [dev] Turbo",
           "creator": "Fal",
           "score": 1013.0,
-          "meta": "Dec 2025 · $8.00 /1k imgs"
+          "meta": "Dec 2025 · $8.00 /1k imgs",
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
           "name": "FLUX.2 [dev] Flash",
           "creator": "Fal",
           "score": 1011.0,
-          "meta": "Dec 2025 · $5.00 /1k imgs"
+          "meta": "Dec 2025 · $5.00 /1k imgs",
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
           "name": "FLUX.2 [dev]",
           "creator": "Black Forest Labs",
           "score": 1000.0,
-          "meta": "Nov 2025 · $24.00 /1k imgs"
+          "meta": "Nov 2025 · $24.00 /1k imgs",
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
           "name": "Qwen Image Edit Plus 2511",
           "creator": "Alibaba",
           "score": 997.0,
-          "meta": "Nov 2025 · $60.00 /1k imgs"
+          "meta": "Nov 2025 · $60.00 /1k imgs",
+          "previous_rank": 10,
+          "rank_delta": 0
         }
       ]
     },
@@ -1013,77 +1802,97 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:11:39.039069+00:00",
+      "fetched_at": "2026-11-14T23:17:57.381540+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Dreamina Seedance 2.5",
           "creator": "ByteDance Seed",
           "score": 1161.0,
-          "meta": "Jul 2026 · $34.12 /min"
+          "meta": "Jul 2026 · $34.12 /min",
+          "previous_rank": 1,
+          "rank_delta": 0
         },
         {
           "rank": 2,
           "name": "Utopai X",
           "creator": "Utopai Studios",
           "score": 1151.0,
-          "meta": "Sep 2026 · No API available"
+          "meta": "Sep 2026 · No API available",
+          "previous_rank": 2,
+          "rank_delta": 0
         },
         {
           "rank": 3,
           "name": "Dreamina Seedance 2.0",
           "creator": "ByteDance Seed",
           "score": 1141.0,
-          "meta": "Mar 2026 · $22.45 /min"
+          "meta": "Mar 2026 · $22.45 /min",
+          "previous_rank": 3,
+          "rank_delta": 0
         },
         {
           "rank": 4,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax",
           "score": 1134.0,
-          "meta": "Jul 2026 · $4.80 /min"
+          "meta": "Jul 2026 · $4.80 /min",
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
           "name": "SkyReels V4",
           "creator": "Skywork AI",
           "score": 1125.0,
-          "meta": "Mar 2026 · $21.00 /min"
+          "meta": "Mar 2026 · $21.00 /min",
+          "previous_rank": 5,
+          "rank_delta": 0
         },
         {
           "rank": 6,
           "name": "HeyGen Video 1",
           "creator": "HeyGen",
           "score": 1124.0,
-          "meta": "Oct 2026 · $2.40 /min"
+          "meta": "Oct 2026 · $2.40 /min",
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
           "name": "Hyperflow H3",
           "creator": "Video Rebirth",
           "score": 1119.0,
-          "meta": "Sep 2026 · $9.00 /min"
+          "meta": "Sep 2026 · $9.00 /min",
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
           "name": "P-Video-2-Pro",
           "creator": "Pruna AI",
           "score": 1117.0,
-          "meta": "Sep 2026 · $5.70 /min"
+          "meta": "Sep 2026 · $5.70 /min",
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
           "name": "MiniMax H3 Max",
           "creator": "Fal",
           "score": 1116.0,
-          "meta": "Aug 2026 · $9.60 /min"
+          "meta": "Aug 2026 · $9.60 /min",
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
           "name": "Pika H3 Flex",
           "creator": "Pika Art",
           "score": 1114.0,
-          "meta": "Oct 2026 · $2.10 /min"
+          "meta": "Oct 2026 · $2.10 /min",
+          "previous_rank": 10,
+          "rank_delta": 0
         }
       ]
     },
@@ -1095,56 +1904,70 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:11:39.040086+00:00",
+      "fetched_at": "2026-11-14T23:17:57.382131+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax",
           "score": 1134.0,
-          "meta": "Jul 2026 · $4.80 /min"
+          "meta": "Jul 2026 · $4.80 /min",
+          "previous_rank": 1,
+          "rank_delta": 0
         },
         {
           "rank": 2,
           "name": "Hyperflow H3",
           "creator": "Video Rebirth",
           "score": 1119.0,
-          "meta": "Sep 2026 · $9.00 /min"
+          "meta": "Sep 2026 · $9.00 /min",
+          "previous_rank": 2,
+          "rank_delta": 0
         },
         {
           "rank": 3,
           "name": "Pika H3 Flex",
           "creator": "Pika Art",
           "score": 1114.0,
-          "meta": "Oct 2026 · $2.10 /min"
+          "meta": "Oct 2026 · $2.10 /min",
+          "previous_rank": 3,
+          "rank_delta": 0
         },
         {
           "rank": 4,
           "name": "LTX-2.5 Pro",
           "creator": "Lightricks",
           "score": 912.0,
-          "meta": "Aug 2026 · $10.20 /min"
+          "meta": "Aug 2026 · $10.20 /min",
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
           "name": "LTX-2.5 Fast",
           "creator": "Lightricks",
           "score": 912.0,
-          "meta": "Aug 2026 · $7.80 /min"
+          "meta": "Aug 2026 · $7.80 /min",
+          "previous_rank": 5,
+          "rank_delta": 0
         },
         {
           "rank": 6,
           "name": "LTX-2.3 Pro",
           "creator": "Lightricks",
           "score": 837.0,
-          "meta": "Mar 2026 · $4.80 /min"
+          "meta": "Mar 2026 · $4.80 /min",
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
           "name": "LTX-2.3 Fast",
           "creator": "Lightricks",
           "score": 832.0,
-          "meta": "Mar 2026 · $3.60 /min"
+          "meta": "Mar 2026 · $3.60 /min",
+          "previous_rank": 7,
+          "rank_delta": 0
         }
       ]
     },
@@ -1156,77 +1979,97 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:11:39.072507+00:00",
+      "fetched_at": "2026-11-14T23:17:57.397461+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Utopai X",
           "creator": "Utopai Studios",
           "score": 1154.0,
-          "meta": "Sep 2026 · No API available"
+          "meta": "Sep 2026 · No API available",
+          "previous_rank": 1,
+          "rank_delta": 0
         },
         {
           "rank": 2,
           "name": "Dreamina Seedance 2.5",
           "creator": "ByteDance Seed",
           "score": 1128.0,
-          "meta": "Jul 2026 · $34.12 /min"
+          "meta": "Jul 2026 · $34.12 /min",
+          "previous_rank": 2,
+          "rank_delta": 0
         },
         {
           "rank": 3,
           "name": "MiniMax H3 Max",
           "creator": "Fal",
           "score": 1124.0,
-          "meta": "Aug 2026 · $9.60 /min"
+          "meta": "Aug 2026 · $9.60 /min",
+          "previous_rank": 3,
+          "rank_delta": 0
         },
         {
           "rank": 4,
           "name": "Bach 1.0 Pro",
           "creator": "Video Rebirth",
           "score": 1124.0,
-          "meta": "Sep 2026 · $7.20 /min"
+          "meta": "Sep 2026 · $7.20 /min",
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
           "name": "Hyperflow H3",
           "creator": "Video Rebirth",
           "score": 1123.0,
-          "meta": "Sep 2026 · $9.00 /min"
+          "meta": "Sep 2026 · $9.00 /min",
+          "previous_rank": 5,
+          "rank_delta": 0
         },
         {
           "rank": 6,
           "name": "SkyReels V4",
           "creator": "Skywork AI",
           "score": 1119.0,
-          "meta": "Mar 2026 · $21.00 /min"
+          "meta": "Mar 2026 · $21.00 /min",
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
           "name": "Agnes-Video-2.5",
           "creator": "Sapiens AI",
           "score": 1118.0,
-          "meta": "Aug 2026 · $2.40 /min"
+          "meta": "Aug 2026 · $2.40 /min",
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax",
           "score": 1113.0,
-          "meta": "Jul 2026 · $4.80 /min"
+          "meta": "Jul 2026 · $4.80 /min",
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
           "name": "P-Video-2-Pro",
           "creator": "Pruna AI",
           "score": 1109.0,
-          "meta": "Sep 2026 · $5.70 /min"
+          "meta": "Sep 2026 · $5.70 /min",
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
           "name": "HeyGen Video 1",
           "creator": "HeyGen",
           "score": 1107.0,
-          "meta": "Oct 2026 · $2.40 /min"
+          "meta": "Oct 2026 · $2.40 /min",
+          "previous_rank": 10,
+          "rank_delta": 0
         }
       ]
     },
@@ -1238,56 +2081,70 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:11:39.100068+00:00",
+      "fetched_at": "2026-11-14T23:17:57.411375+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Hyperflow H3",
           "creator": "Video Rebirth",
           "score": 1123.0,
-          "meta": "Sep 2026 · $9.00 /min"
+          "meta": "Sep 2026 · $9.00 /min",
+          "previous_rank": 1,
+          "rank_delta": 0
         },
         {
           "rank": 2,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax",
           "score": 1113.0,
-          "meta": "Jul 2026 · $4.80 /min"
+          "meta": "Jul 2026 · $4.80 /min",
+          "previous_rank": 2,
+          "rank_delta": 0
         },
         {
           "rank": 3,
           "name": "Pika H3 Flex",
           "creator": "Pika Art",
           "score": 1099.0,
-          "meta": "Oct 2026 · $2.10 /min"
+          "meta": "Oct 2026 · $2.10 /min",
+          "previous_rank": 3,
+          "rank_delta": 0
         },
         {
           "rank": 4,
           "name": "LTX-2.5 Fast",
           "creator": "Lightricks",
           "score": 912.0,
-          "meta": "Aug 2026 · $7.80 /min"
+          "meta": "Aug 2026 · $7.80 /min",
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
           "name": "LTX-2.5 Pro",
           "creator": "Lightricks",
           "score": 904.0,
-          "meta": "Aug 2026 · $10.20 /min"
+          "meta": "Aug 2026 · $10.20 /min",
+          "previous_rank": 5,
+          "rank_delta": 0
         },
         {
           "rank": 6,
           "name": "LTX-2.3 Fast",
           "creator": "Lightricks",
           "score": 821.0,
-          "meta": "Mar 2026 · $3.60 /min"
+          "meta": "Mar 2026 · $3.60 /min",
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
           "name": "LTX-2.3 Pro",
           "creator": "Lightricks",
           "score": 817.0,
-          "meta": "Mar 2026 · $4.80 /min"
+          "meta": "Mar 2026 · $4.80 /min",
+          "previous_rank": 7,
+          "rank_delta": 0
         }
       ]
     },
@@ -1299,77 +2156,97 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:11:39.101703+00:00",
+      "fetched_at": "2026-11-14T23:17:57.412138+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Suno v6",
           "creator": "Suno",
           "score": 1148.0,
-          "meta": ""
+          "meta": "",
+          "previous_rank": 1,
+          "rank_delta": 0
         },
         {
           "rank": 2,
           "name": "Suno v6-mini",
           "creator": "Suno",
           "score": 1114.0,
-          "meta": ""
+          "meta": "",
+          "previous_rank": 2,
+          "rank_delta": 0
         },
         {
           "rank": 3,
           "name": "Mureka V9.5",
           "creator": "Mureka",
           "score": 1084.0,
-          "meta": ""
+          "meta": "",
+          "previous_rank": 3,
+          "rank_delta": 0
         },
         {
           "rank": 4,
           "name": "Mureka V9",
           "creator": "Mureka",
           "score": 1083.0,
-          "meta": ""
+          "meta": "",
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
           "name": "Lyria 3 Pro",
           "creator": "Google",
           "score": 1080.0,
-          "meta": ""
+          "meta": "",
+          "previous_rank": 5,
+          "rank_delta": 0
         },
         {
           "rank": 6,
           "name": "Lyria 3.5",
           "creator": "Google",
           "score": 1078.0,
-          "meta": ""
+          "meta": "",
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
           "name": "Eleven Music",
           "creator": "ElevenLabs",
           "score": 1021.0,
-          "meta": ""
+          "meta": "",
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
           "name": "Stable Audio 3 Large",
           "creator": "Stability.ai",
           "score": 1014.0,
-          "meta": ""
+          "meta": "",
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
           "name": "Eleven Music v2",
           "creator": "ElevenLabs",
           "score": 1011.0,
-          "meta": ""
+          "meta": "",
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
           "name": "MiniMax Music 2.5+",
           "creator": "MiniMax",
           "score": 1007.0,
-          "meta": ""
+          "meta": "",
+          "previous_rank": 10,
+          "rank_delta": 0
         }
       ]
     },
@@ -1381,77 +2258,97 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T23:11:39.120133+00:00",
+      "fetched_at": "2026-11-14T23:17:57.420971+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Claude Fable 5.2 Max, Default Fallback",
           "creator": "Anthropic",
           "score": 65.0,
-          "meta": "1M ctx"
+          "meta": "1M ctx",
+          "previous_rank": 1,
+          "rank_delta": 0
         },
         {
           "rank": 2,
           "name": "Gemini 4 Carbon High",
           "creator": "Google",
           "score": 60.0,
-          "meta": "1M ctx"
+          "meta": "1M ctx",
+          "previous_rank": 2,
+          "rank_delta": 0
         },
         {
           "rank": 3,
           "name": "Claude Opus 5.5 Max, Default Fallback",
           "creator": "Anthropic",
           "score": 59.0,
-          "meta": "1M ctx"
+          "meta": "1M ctx",
+          "previous_rank": 3,
+          "rank_delta": 0
         },
         {
           "rank": 4,
           "name": "GPT-6 Astra Max",
           "creator": "OpenAI",
           "score": 57.0,
-          "meta": "1M ctx"
+          "meta": "1M ctx",
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
           "name": "GPT-6.1 Sol Max",
           "creator": "OpenAI",
           "score": 55.0,
-          "meta": "1M ctx"
+          "meta": "1M ctx",
+          "previous_rank": 5,
+          "rank_delta": 0
         },
         {
           "rank": 6,
           "name": "Claude Sonnet 5.5 Max, Default Fallback",
           "creator": "Anthropic",
           "score": 55.0,
-          "meta": "1M ctx"
+          "meta": "1M ctx",
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
           "name": "Gemini 4 Hydrogen Xhigh",
           "creator": "Google",
           "score": 54.0,
-          "meta": "1M ctx"
+          "meta": "1M ctx",
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
           "name": "GPT-6.1 Terra Max",
           "creator": "OpenAI",
           "score": 51.0,
-          "meta": "1M ctx"
+          "meta": "1M ctx",
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
           "name": "Gemini 4 Argon High",
           "creator": "Google",
           "score": 50.0,
-          "meta": "1M ctx"
+          "meta": "1M ctx",
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
           "name": "Muse Wonder Full Max",
           "creator": "Meta",
           "score": 50.0,
-          "meta": "1M ctx"
+          "meta": "1M ctx",
+          "previous_rank": 10,
+          "rank_delta": 0
         }
       ]
     },
@@ -1463,77 +2360,97 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T23:11:39.131838+00:00",
+      "fetched_at": "2026-11-14T23:17:57.427880+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Kimi K3.1 Pro",
           "creator": "Kimi",
           "score": 46.0,
-          "meta": "1M ctx"
+          "meta": "1M ctx",
+          "previous_rank": 1,
+          "rank_delta": 0
         },
         {
           "rank": 2,
           "name": "DeepSeek V4.1 Flash 1017 Max",
           "creator": "DeepSeek",
           "score": 33.0,
-          "meta": "1M ctx"
+          "meta": "1M ctx",
+          "previous_rank": 2,
+          "rank_delta": 0
         },
         {
           "rank": 3,
           "name": "GLM-5.3 Max",
           "creator": "Z AI",
           "score": 32.0,
-          "meta": "1M ctx"
+          "meta": "1M ctx",
+          "previous_rank": 3,
+          "rank_delta": 0
         },
         {
           "rank": 4,
           "name": "Inkling 2 Small",
           "creator": "Thinking Machines",
           "score": 31.0,
-          "meta": "1M ctx"
+          "meta": "1M ctx",
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
           "name": "MiMo-V2.6-Pro",
           "creator": "Xiaomi",
           "score": 30.0,
-          "meta": "1M ctx"
+          "meta": "1M ctx",
+          "previous_rank": 5,
+          "rank_delta": 0
         },
         {
           "rank": 6,
           "name": "Ling 3.1 Flash 1019",
           "creator": "InclusionAI",
           "score": 30.0,
-          "meta": "1M ctx"
+          "meta": "1M ctx",
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
           "name": "MiniMax-M3.1-Flash",
           "creator": "MiniMax",
           "score": 29.0,
-          "meta": "1M ctx"
+          "meta": "1M ctx",
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
           "name": "DeepSeek V4.1 Flash 1017 High",
           "creator": "DeepSeek",
           "score": 29.0,
-          "meta": "1M ctx"
+          "meta": "1M ctx",
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
           "name": "Qwen3.8-Flash-Next",
           "creator": "Alibaba",
           "score": 29.0,
-          "meta": "256k ctx"
+          "meta": "256k ctx",
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
           "name": "Step 5 Preview",
           "creator": "StepFun",
           "score": 29.0,
-          "meta": "1M ctx"
+          "meta": "1M ctx",
+          "previous_rank": 10,
+          "rank_delta": 0
         }
       ]
     },
@@ -1545,77 +2462,97 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:11:39.141612+00:00",
+      "fetched_at": "2026-11-14T23:17:57.432441+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.6 Sunburst (max)",
           "creator": "OpenAI",
           "score": 1261.0,
-          "meta": "Nov 2026 · $210.72 /1k imgs"
+          "meta": "Nov 2026 · $210.72 /1k imgs",
+          "previous_rank": 1,
+          "rank_delta": 0
         },
         {
           "rank": 2,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "OpenAI",
           "score": 1229.0,
-          "meta": "Sep 2026 · $210.72 /1k imgs"
+          "meta": "Sep 2026 · $210.72 /1k imgs",
+          "previous_rank": 2,
+          "rank_delta": 0
         },
         {
           "rank": 3,
           "name": "GPT Image 2.6 Flare (max)",
           "creator": "OpenAI",
           "score": 1227.0,
-          "meta": "Nov 2026 · $210.72 /1k imgs"
+          "meta": "Nov 2026 · $210.72 /1k imgs",
+          "previous_rank": 3,
+          "rank_delta": 0
         },
         {
           "rank": 4,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "OpenAI",
           "score": 1210.0,
-          "meta": "Sep 2026 · $210.72 /1k imgs"
+          "meta": "Sep 2026 · $210.72 /1k imgs",
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
           "name": "GPT Image 2 (high)",
           "creator": "OpenAI",
           "score": 1192.0,
-          "meta": "Apr 2026 · $211.00 /1k imgs"
+          "meta": "Apr 2026 · $211.00 /1k imgs",
+          "previous_rank": 5,
+          "rank_delta": 0
         },
         {
           "rank": 6,
           "name": "Kling Image 4.0 (preview)",
           "creator": "KlingAI",
           "score": 1180.0,
-          "meta": "Nov 2026 · Coming soon"
+          "meta": "Nov 2026 · Coming soon",
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
           "name": "Nano Banana 2.1",
           "creator": "Google",
           "score": 1176.0,
-          "meta": "Oct 2026 · $33.60 /1k imgs"
+          "meta": "Oct 2026 · $33.60 /1k imgs",
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
           "name": "MAI-Image-2.6",
           "creator": "Microsoft AI",
           "score": 1168.0,
-          "meta": "Aug 2026 · $38.91 /1k imgs"
+          "meta": "Aug 2026 · $38.91 /1k imgs",
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
           "name": "Grok Imagine Image 2.0",
           "creator": "SpaceXAI",
           "score": 1167.0,
-          "meta": "Aug 2026 · $60.00 /1k imgs"
+          "meta": "Aug 2026 · $60.00 /1k imgs",
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
           "name": "Canva Craft",
           "creator": "Canva",
           "score": 1158.0,
-          "meta": "Oct 2026 · $90.00 /1k imgs"
+          "meta": "Oct 2026 · $90.00 /1k imgs",
+          "previous_rank": 10,
+          "rank_delta": 0
         }
       ]
     },
@@ -1627,77 +2564,97 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:11:39.145268+00:00",
+      "fetched_at": "2026-11-14T23:17:57.434112+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "H3-Image",
           "creator": "MiniMax",
           "score": 1066.0,
-          "meta": "Nov 2026 · $21.79 /1k imgs"
+          "meta": "Nov 2026 · $21.79 /1k imgs",
+          "previous_rank": 1,
+          "rank_delta": 0
         },
         {
           "rank": 2,
           "name": "Qwen-Image-2.1",
           "creator": "Alibaba",
           "score": 1047.0,
-          "meta": "Sep 2026 · No API available"
+          "meta": "Sep 2026 · No API available",
+          "previous_rank": 2,
+          "rank_delta": 0
         },
         {
           "rank": 3,
           "name": "FLUX 3 Image Klein",
           "creator": "Black Forest Labs",
           "score": 1041.0,
-          "meta": "Oct 2026 · $9.00 /1k imgs"
+          "meta": "Oct 2026 · $9.00 /1k imgs",
+          "previous_rank": 3,
+          "rank_delta": 0
         },
         {
           "rank": 4,
           "name": "Fibo 2.0",
           "creator": "Bria",
           "score": 1037.0,
-          "meta": "Oct 2026 · $32.00 /1k imgs"
+          "meta": "Oct 2026 · $32.00 /1k imgs",
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
           "name": "Ideogram 4.0 (Quality)",
           "creator": "Ideogram",
           "score": 1026.0,
-          "meta": "Jun 2026 · $100.00 /1k imgs"
+          "meta": "Jun 2026 · $100.00 /1k imgs",
+          "previous_rank": 5,
+          "rank_delta": 0
         },
         {
           "rank": 6,
           "name": "Ideogram 4.0",
           "creator": "Ideogram",
           "score": 1003.0,
-          "meta": "Jun 2026 · $60.00 /1k imgs"
+          "meta": "Jun 2026 · $60.00 /1k imgs",
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
           "name": "Ming-Image-0.1-Design",
           "creator": "InclusionAI",
           "score": 1001.0,
-          "meta": "Sep 2026 · $30.00 /1k imgs"
+          "meta": "Sep 2026 · $30.00 /1k imgs",
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
           "name": "FLUX.2 [dev]",
           "creator": "Black Forest Labs",
           "score": 1000.0,
-          "meta": "Nov 2025 · $12.00 /1k imgs"
+          "meta": "Nov 2025 · $12.00 /1k imgs",
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
           "name": "FLUX.2 [dev] Turbo",
           "creator": "Fal",
           "score": 996.0,
-          "meta": "Dec 2025 · $8.00 /1k imgs"
+          "meta": "Dec 2025 · $8.00 /1k imgs",
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
           "name": "Cosmos3-Super-Text2Image (agentic)",
           "creator": "NVIDIA",
           "score": 995.0,
-          "meta": "May 2026 · No API available"
+          "meta": "May 2026 · No API available",
+          "previous_rank": 10,
+          "rank_delta": 0
         }
       ]
     },
@@ -1709,77 +2666,97 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:11:39.154709+00:00",
+      "fetched_at": "2026-11-14T23:17:57.438737+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Eleven v4",
           "creator": "ElevenLabs",
           "score": 1340.0,
-          "meta": "Sept 2026 · $80.00 /1M chars"
+          "meta": "Sept 2026 · $80.00 /1M chars",
+          "previous_rank": 1,
+          "rank_delta": 0
         },
         {
           "rank": 2,
           "name": "Eleven v4 Turbo",
           "creator": "ElevenLabs",
           "score": 1339.0,
-          "meta": "Sept 2026 · $40.00 /1M chars"
+          "meta": "Sept 2026 · $40.00 /1M chars",
+          "previous_rank": 2,
+          "rank_delta": 0
         },
         {
           "rank": 3,
           "name": "Qwen-Audio-3.1-TTS-Plus",
           "creator": "Alibaba",
           "score": 1300.0,
-          "meta": "Sept 2026 · $19.31 /1M chars"
+          "meta": "Sept 2026 · $19.31 /1M chars",
+          "previous_rank": 3,
+          "rank_delta": 0
         },
         {
           "rank": 4,
           "name": "Sonic 3.6",
           "creator": "Cartesia",
           "score": 1294.0,
-          "meta": "Aug 2026 · $49.00 /1M chars"
+          "meta": "Aug 2026 · $49.00 /1M chars",
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
           "name": "Simba 3.5",
           "creator": "SpeechifyAI",
           "score": 1294.0,
-          "meta": "Nov 2026 · $6.58 /1M chars"
+          "meta": "Nov 2026 · $6.58 /1M chars",
+          "previous_rank": 5,
+          "rank_delta": 0
         },
         {
           "rank": 6,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Google",
           "score": 1284.0,
-          "meta": "Sept 2026 · $16.49 /1M chars"
+          "meta": "Sept 2026 · $16.49 /1M chars",
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
           "name": "Fish Audio Drama 3",
           "creator": "Fish Audio",
           "score": 1275.0,
-          "meta": "Oct 2026 · $15.00 /1M chars"
+          "meta": "Oct 2026 · $15.00 /1M chars",
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
           "name": "Lightning V3.1 Pro (Oct 2026)",
           "creator": "Smallest.ai",
           "score": 1273.0,
-          "meta": "Oct 2026 · $19.50 /1M chars"
+          "meta": "Oct 2026 · $19.50 /1M chars",
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
           "name": "Realtime TTS-2",
           "creator": "Inworld",
           "score": 1268.0,
-          "meta": "Aug 2026 · $20.83 /1M chars"
+          "meta": "Aug 2026 · $20.83 /1M chars",
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Alibaba",
           "score": 1264.0,
-          "meta": "Sept 2026 · $19.31 /1M chars"
+          "meta": "Sept 2026 · $19.31 /1M chars",
+          "previous_rank": 10,
+          "rank_delta": 0
         }
       ]
     },
@@ -1791,77 +2768,97 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:11:39.157122+00:00",
+      "fetched_at": "2026-11-14T23:17:57.439936+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fish Audio Drama 3",
           "creator": "Fish Audio",
           "score": 1275.0,
-          "meta": "Oct 2026 · $15.00 /1M chars"
+          "meta": "Oct 2026 · $15.00 /1M chars",
+          "previous_rank": 1,
+          "rank_delta": 0
         },
         {
           "rank": 2,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio",
           "score": 1239.0,
-          "meta": "Oct 2026 · $15.00 /1M chars"
+          "meta": "Oct 2026 · $15.00 /1M chars",
+          "previous_rank": 2,
+          "rank_delta": 0
         },
         {
           "rank": 3,
           "name": "Breeze TTS 2",
           "creator": "BreezeBlue",
           "score": 1229.0,
-          "meta": "Aug 2026 · $34.00 /1M chars"
+          "meta": "Aug 2026 · $34.00 /1M chars",
+          "previous_rank": 3,
+          "rank_delta": 0
         },
         {
           "rank": 4,
           "name": "Ming-3.0-tts",
           "creator": "Ant Group",
           "score": 1182.0,
-          "meta": "Oct 2026 · N/A"
+          "meta": "Oct 2026 · N/A",
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
           "name": "Phonon 31M (English)",
           "creator": "Gradium",
           "score": 1111.0,
-          "meta": "Oct 2026 · $0.00 /1M chars"
+          "meta": "Oct 2026 · $0.00 /1M chars",
+          "previous_rank": 5,
+          "rank_delta": 0
         },
         {
           "rank": 6,
           "name": "Fish Audio S2 Pro",
           "creator": "Fish Audio",
           "score": 1104.0,
-          "meta": "Mar 2026 · $15.00 /1M chars"
+          "meta": "Mar 2026 · $15.00 /1M chars",
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
           "name": "Step Audio EditX (Mar 2026)",
           "creator": "StepFun",
           "score": 1100.0,
-          "meta": "Feb 2026 · N/A"
+          "meta": "Feb 2026 · N/A",
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
           "name": "Voxtral TTS",
           "creator": "Mistral",
           "score": 1094.0,
-          "meta": "Mar 2026 · $16.00 /1M chars"
+          "meta": "Mar 2026 · $16.00 /1M chars",
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
           "name": "Kokoro 82M v1.0",
           "creator": "Kokoro",
           "score": 1061.0,
-          "meta": "Jan 2025 · $0.65 /1M chars"
+          "meta": "Jan 2025 · $0.65 /1M chars",
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
           "name": "Magpie-Multilingual 357M (Feb 2026)",
           "creator": "NVIDIA",
           "score": 1060.0,
-          "meta": "Feb 2026 · N/A"
+          "meta": "Feb 2026 · N/A",
+          "previous_rank": 10,
+          "rank_delta": 0
         }
       ]
     }
@@ -1869,15 +2866,12 @@
   "best_picks": {
     "updated_at": "2026-11-14T00:00:00+00:00",
     "open_patterns": [
-      "open",
-      "oss",
       "gpt-oss",
       "deepseek",
       "qwen",
       "glm",
       "kimi",
       "mistral",
-      "miMo",
       "mimo",
       "llama",
       "nemotron",
@@ -2010,6 +3004,8 @@
         "icon": "◐",
         "benchmark": "Text to Image (own leaderboard)",
         "benchmark_url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+        "board_closed": "text-to-image",
+        "board_open": "text-to-image-open",
         "source_note": "Top-1 of own Artificial Analysis boards (snapshot per fetch)",
         "closed_winner": {
           "model": "GPT Image 2.6 Sunburst (max)",
@@ -2034,6 +3030,8 @@
         "icon": "▶",
         "benchmark": "Image to Video (own leaderboard)",
         "benchmark_url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
+        "board_closed": "image-to-video",
+        "board_open": "image-to-video-open",
         "source_note": "Top-1 of own Artificial Analysis boards (snapshot per fetch)",
         "closed_winner": {
           "model": "Dreamina Seedance 2.5",
@@ -2058,12 +3056,14 @@
         "icon": "♪",
         "benchmark": "TTS Provider Voice + Music (own leaderboards)",
         "benchmark_url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
+        "board_closed": "tts-provider-voice",
+        "board_open": "tts-provider-voice-open",
         "source_note": "Top-1 of own Artificial Analysis boards (snapshot per fetch)",
         "closed_winner": {
           "model": "Eleven v4",
           "developer": "ElevenLabs",
           "score": "1340",
-          "released": "Sep 2026"
+          "released": "Sept 2026"
         },
         "open_winner": {
           "model": "Fish Audio Drama 3",
@@ -2072,8 +3072,8 @@
           "released": "Oct 2026"
         },
         "runner_up": {
-          "model": "Suno v6",
-          "score": "1148 (Music)"
+          "model": "Eleven v4 Turbo",
+          "score": "1339"
         }
       }
     ]
@@ -2082,58 +3082,128 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 2,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-11-14T23:11:23.003748+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-14T23:17:33.860682+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-14T23:17:33.860682+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 8,
-        "error": "500 Server Error: Internal Server Error for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-11-14T23:11:21.967202+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-14T23:17:32.834743+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-14T23:17:32.834743+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
-        "items": 10,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-11-14T23:11:26.112460+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-14T23:17:36.952143+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-14T23:17:36.952143+00:00"
       },
       {
         "name": "Fireship",
-        "ok": false,
-        "items": 10,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-11-14T23:11:24.042261+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-14T23:17:34.878035+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-14T23:17:34.878035+00:00"
+      },
+      {
+        "name": "Google AI Blog",
+        "ok": true,
+        "items": 20,
+        "error": null,
+        "checked_at": "2026-11-14T23:17:41.752346+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-14T23:17:41.752346+00:00"
+      },
+      {
+        "name": "Google DeepMind",
+        "ok": true,
+        "items": 25,
+        "error": null,
+        "checked_at": "2026-11-14T23:17:40.354645+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-14T23:17:40.354645+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T23:11:28.258074+00:00"
+        "checked_at": "2026-11-14T23:17:39.264915+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-14T23:17:39.264915+00:00"
+      },
+      {
+        "name": "MIT Technology Review AI",
+        "ok": true,
+        "items": 10,
+        "error": null,
+        "checked_at": "2026-11-14T23:17:45.835957+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-14T23:17:45.835957+00:00"
+      },
+      {
+        "name": "TechCrunch AI",
+        "ok": true,
+        "items": 20,
+        "error": null,
+        "checked_at": "2026-11-14T23:17:44.734806+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-14T23:17:44.734806+00:00"
+      },
+      {
+        "name": "The Batch",
+        "ok": true,
+        "items": 16,
+        "error": null,
+        "checked_at": "2026-11-14T23:17:47.018443+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-14T23:17:47.018443+00:00"
+      },
+      {
+        "name": "The Decoder",
+        "ok": true,
+        "items": 10,
+        "error": null,
+        "checked_at": "2026-11-14T23:17:43.650043+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-14T23:17:43.650043+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T23:11:25.078117+00:00"
+        "checked_at": "2026-11-14T23:17:35.897364+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-14T23:17:35.897364+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-11-14T23:11:27.146401+00:00"
+        "error": null,
+        "checked_at": "2026-11-14T23:18:25.076926+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-14T23:18:25.076926+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-14T23:11:39.163067+00:00"
+      "checked_at": "2026-11-14T23:17:57.442168+00:00",
+      "failed_streak": 0,
+      "last_ok_at": "2026-11-14T23:17:57.442168+00:00"
     }
   }
 }

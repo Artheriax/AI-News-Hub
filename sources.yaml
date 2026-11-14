@@ -39,6 +39,36 @@ sources:
     days: 7
     top_n: 15
 
+  - name: Google DeepMind
+    type: rss
+    url: https://deepmind.google/blog/rss.xml
+    category: news
+
+  - name: Google AI Blog
+    type: rss
+    url: https://blog.google/technology/ai/rss/
+    category: news
+
+  - name: The Decoder
+    type: rss
+    url: https://the-decoder.com/feed/
+    category: news
+
+  - name: TechCrunch AI
+    type: rss
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+    category: news
+
+  - name: MIT Technology Review AI
+    type: rss
+    url: https://www.technologyreview.com/topic/artificial-intelligence/feed
+    category: news
+
+  - name: The Batch
+    type: batch
+    url: https://www.deeplearning.ai/the-batch/
+    category: newsletter
+
 featured_links:
   - name: AI Search
     url: https://ai-search.io

@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Generated feeds (rebuilt by fetch.py on every run)
+data/feed.xml
+data/feed.json
+
 # C extensions
 *.so
 

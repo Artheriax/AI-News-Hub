@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://artheriax.github.io/AI-News-Hub/sitemap.xml

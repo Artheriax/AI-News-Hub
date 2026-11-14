@@ -2,10 +2,10 @@
 # Benchmark winners are snapshots (2026-11-14) inspired by the taxonomy at
 # https://aireleasetracker.com/benchmark — scores stay attributed via
 # benchmark_url + source_note and are NOT live-scraped (see README).
-# Image/Video/Speech/Music winners mirror our own Artificial Analysis
-# leaderboards in data/items.json (top-1 closed + open boards).
-# Update a winner by editing the 4 fields below; fetch.py merges this file
-# into data/items.json as `best_picks` (no network needed for tasks).
+# Media tasks declare board_closed / board_open; fetch.py refreshes their
+# winners and closed-board runner-up from data/items.json on every run.
+# Update a benchmark winner by editing the 4 fields below; fetch.py merges
+# this file into data/items.json as `best_picks` (no network needed for tasks).
 
 updated_at: "2026-11-14T00:00:00+00:00"
 
@@ -13,15 +13,12 @@ updated_at: "2026-11-14T00:00:00+00:00"
 # classify a model as open-weights. Everything else renders as closed-source.
 # Keep conservative: unknown models fall back to "closed" with no badge claim.
 open_patterns:
-  - "open"
-  - "oss"
   - "gpt-oss"
   - "deepseek"
   - "qwen"
   - "glm"
   - "kimi"
   - "mistral"
-  - "miMo"
   - "mimo"
   - "llama"
   - "nemotron"
@@ -134,6 +131,8 @@ tasks:
     icon: "◐"
     benchmark: Text to Image (own leaderboard)
     benchmark_url: https://artificialanalysis.ai/image/leaderboard/text-to-image
+    board_closed: text-to-image
+    board_open: text-to-image-open
     source_note: "Top-1 of own Artificial Analysis boards (snapshot per fetch)"
     closed_winner:
       model: GPT Image 2.6 Sunburst (max)
@@ -154,6 +153,8 @@ tasks:
     icon: "▶"
     benchmark: Image to Video (own leaderboard)
     benchmark_url: https://artificialanalysis.ai/video/leaderboard/image-to-video
+    board_closed: image-to-video
+    board_open: image-to-video-open
     source_note: "Top-1 of own Artificial Analysis boards (snapshot per fetch)"
     closed_winner:
       model: Dreamina Seedance 2.5
@@ -174,6 +175,8 @@ tasks:
     icon: "♪"
     benchmark: TTS Provider Voice + Music (own leaderboards)
     benchmark_url: https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice
+    board_closed: tts-provider-voice
+    board_open: tts-provider-voice-open
     source_note: "Top-1 of own Artificial Analysis boards (snapshot per fetch)"
     closed_winner:
       model: Eleven v4

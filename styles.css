@@ -17,6 +17,8 @@
   --badge-news: var(--cyan);
   --badge-papers: var(--yellow);
   --badge-newsletter: var(--magenta);
+  --badge-video-ink: #ff8fc9;
+  --badge-newsletter-ink: #ff8fc9;
   --chip-selected-bg: var(--yellow);
   --chip-selected-fg: #161616;
   --shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
@@ -38,6 +40,8 @@ html[data-theme="dark"] {
   --badge-news: var(--cyan);
   --badge-papers: var(--yellow);
   --badge-newsletter: var(--magenta);
+  --badge-video-ink: #ff8fc9;
+  --badge-newsletter-ink: #ff8fc9;
   --chip-selected-bg: var(--yellow);
   --chip-selected-fg: #161616;
   --shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
@@ -58,6 +62,8 @@ html[data-theme="light"] {
   --badge-news: #00778a;
   --badge-papers: #8a6d00;
   --badge-newsletter: #c7005f;
+  --badge-video-ink: #c7005f;
+  --badge-newsletter-ink: #c7005f;
   --chip-selected-bg: var(--yellow);
   --chip-selected-fg: #161616;
   --shadow: 0 10px 26px rgba(0, 0, 0, 0.08);
@@ -70,6 +76,25 @@ html[data-theme="light"] {
 
 [hidden] {
   display: none !important;
+}
+
+.skip-link {
+  position: fixed;
+  top: -4.5rem;
+  left: 1rem;
+  z-index: 100;
+  padding: 0.6rem 1.1rem;
+  border-radius: 999px;
+  background: var(--yellow);
+  color: #161616;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: var(--shadow);
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
 }
 
 html {
@@ -100,6 +125,35 @@ a {
 
 html[data-theme="light"] a {
   color: #00778a;
+}
+
+.chip:focus-visible,
+.page-btn:focus-visible,
+.icon-btn:focus-visible,
+.seg-btn:focus-visible,
+.save-btn:focus-visible,
+.compare-slots select:focus-visible,
+.featured-card:focus-visible,
+.lb-link:focus-visible,
+.card-title a:focus-visible,
+.site-footer a:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--yellow);
+  outline-offset: 2px;
+}
+
+html[data-theme="light"] .chip:focus-visible,
+html[data-theme="light"] .page-btn:focus-visible,
+html[data-theme="light"] .icon-btn:focus-visible,
+html[data-theme="light"] .seg-btn:focus-visible,
+html[data-theme="light"] .save-btn:focus-visible,
+html[data-theme="light"] .compare-slots select:focus-visible,
+html[data-theme="light"] .featured-card:focus-visible,
+html[data-theme="light"] .lb-link:focus-visible,
+html[data-theme="light"] .card-title a:focus-visible,
+html[data-theme="light"] .site-footer a:focus-visible,
+html[data-theme="light"] summary:focus-visible {
+  outline-color: #8a6d00;
 }
 
 .container {
@@ -662,6 +716,7 @@ html[data-theme="light"] .pick-score {
   .card {
     animation: none !important;
   }
+}
 
 .featured {
   margin-top: 1.5rem;
@@ -750,6 +805,13 @@ html[data-theme="light"] .featured-card strong {
   justify-content: space-between;
 }
 
+.filter-left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  align-items: center;
+}
+
 .chip-row {
   display: flex;
   flex-wrap: wrap;
@@ -772,7 +834,13 @@ html[data-theme="light"] .featured-card strong {
   border-color: var(--border-strong);
 }
 
-.chip[aria-selected="true"] {
+.chip:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.chip[aria-selected="true"],
+.chip[aria-pressed="true"] {
   background: var(--chip-selected-bg);
   border-color: var(--chip-selected-bg);
   color: var(--chip-selected-fg);
@@ -914,7 +982,7 @@ html[data-theme="light"] .featured-card strong {
 
 .badge.category-videos {
   background: color-mix(in srgb, var(--badge-video) 14%, transparent);
-  color: var(--badge-video);
+  color: var(--badge-video-ink);
 }
 
 .badge.category-news {
@@ -929,7 +997,7 @@ html[data-theme="light"] .featured-card strong {
 
 .badge.category-newsletter {
   background: color-mix(in srgb, var(--badge-newsletter) 14%, transparent);
-  color: var(--badge-newsletter);
+  color: var(--badge-newsletter-ink);
 }
 
 .card-title {
@@ -968,9 +1036,43 @@ html[data-theme="light"] .card-title a:hover {
   margin-top: auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 0.5rem;
   color: var(--text-muted);
   font-size: 0.8rem;
+}
+
+.card-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.save-btn {
+  border: 0;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 0.15rem 0.25rem;
+  border-radius: 8px;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.save-btn:hover {
+  color: var(--yellow);
+  transform: translateY(-1px);
+}
+
+.save-btn[aria-pressed="true"] {
+  color: var(--yellow);
+}
+
+html[data-theme="light"] .save-btn[aria-pressed="true"],
+html[data-theme="light"] .save-btn:hover {
+  color: #8a6d00;
 }
 
 .upvotes {
@@ -986,6 +1088,11 @@ html[data-theme="light"] .upvotes {
   text-align: center;
   color: var(--text-muted);
   padding: 3rem 1rem;
+}
+
+.noscript {
+  padding: 2rem 0;
+  color: var(--text-muted);
 }
 
 .pagination {
@@ -1179,6 +1286,45 @@ html[data-theme="light"] .lb-list li:nth-child(3) .lb-rank {
   color: var(--cyan);
 }
 
+.lb-score-wrap {
+  justify-self: end;
+  white-space: nowrap;
+}
+
+.lb-delta {
+  display: inline-block;
+  margin-left: 0.3rem;
+  font-size: 0.66rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.lb-delta.up {
+  color: var(--cyan);
+}
+
+.lb-delta.down {
+  color: var(--magenta);
+}
+
+.lb-delta.flat {
+  color: var(--text-muted);
+}
+
+html[data-theme="light"] .lb-delta.up {
+  color: #00778a;
+}
+
+html[data-theme="light"] .lb-delta.down {
+  color: #c7005f;
+}
+
+.lb-asof {
+  margin: 0;
+  font-size: 0.66rem;
+  color: var(--text-muted);
+}
+
 html[data-theme="light"] .lb-score {
   color: #00778a;
 }
@@ -1332,6 +1478,37 @@ html[data-theme="light"] .badge-new {
   color: var(--text);
 }
 
+.refresh-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.32rem 0.7rem;
+  border: 1px solid var(--yellow);
+  border-radius: 999px;
+  background: var(--yellow);
+  color: #161616;
+  font-family: inherit;
+  font-size: 0.72rem;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.refresh-pill:hover {
+  transform: translateY(-1px);
+}
+
+.refresh-pill:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+html[data-theme="light"] .refresh-pill {
+  background: #e6b800;
+  border-color: #e6b800;
+}
+
 .freshness.stale .fresh-dot {
   background: var(--magenta);
   animation-name: fresh-pulse-magenta;
@@ -1432,17 +1609,6 @@ html[data-theme="light"] .health-chip.fail .hc-dot {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-
-  body,
-  .controls,
-  .meta-bar,
-  .card {
-    animation: none !important;
-  }
-
   .sk-media,
   .sk-line {
     animation: none !important;

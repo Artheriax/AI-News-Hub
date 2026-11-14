@@ -22,6 +22,9 @@ const state = {
   feedEmptyHidden: true,
   health: null,
   seenTs: null,
+  generatedAt: null,
+  saved: new Set(),
+  savedOnly: false,
   category: "all",
   source: "",
   query: "",
@@ -36,6 +39,7 @@ const els = {
   search: document.getElementById("search"),
   sourceFilter: document.getElementById("source-filter"),
   categoryFilters: document.getElementById("category-filters"),
+  savedToggle: document.getElementById("saved-toggle"),
   featured: document.getElementById("featured"),
   featuredList: document.getElementById("featured-list"),
   pagination: document.getElementById("pagination"),
@@ -59,20 +63,47 @@ const els = {
   feedControls: document.getElementById("feed-controls"),
   feedMeta: document.getElementById("feed-meta"),
   themeToggle: document.getElementById("theme-toggle"),
+  refreshPill: document.getElementById("refresh-pill"),
   freshness: document.getElementById("freshness"),
   freshnessText: document.getElementById("freshness-text"),
   health: document.getElementById("health"),
 };
 
+function updateThemeToggle() {
+  if (!els.themeToggle) return;
+  const dark = document.documentElement.dataset.theme === "dark";
+  els.themeToggle.setAttribute(
+    "aria-label",
+    dark ? "Switch to light theme" : "Switch to dark theme",
+  );
+  els.themeToggle.title = dark ? "Switch to light theme" : "Switch to dark theme";
+}
+
 function applyTheme(theme) {
   document.documentElement.dataset.theme = theme;
   localStorage.setItem("theme", theme);
+  updateThemeToggle();
+  document.dispatchEvent(new Event("themechange"));
 }
 
 function initTheme() {
-  const saved = localStorage.getItem("theme");
+  const savedRaw = localStorage.getItem("theme");
+  const saved = savedRaw === "light" || savedRaw === "dark" ? savedRaw : null;
   const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  applyTheme(saved || (prefersDark ? "dark" : "light"));
+  const theme =
+    document.documentElement.dataset.theme ||
+    saved ||
+    (prefersDark ? "dark" : "light");
+  document.documentElement.dataset.theme = theme;
+  updateThemeToggle();
+  const media = window.matchMedia("(prefers-color-scheme: dark)");
+  const onChange = (event) => {
+    if (localStorage.getItem("theme")) return;
+    document.documentElement.dataset.theme = event.matches ? "dark" : "light";
+    updateThemeToggle();
+    document.dispatchEvent(new Event("themechange"));
+  };
+  if (media.addEventListener) media.addEventListener("change", onChange);
 }
 
 function escapeHtml(value) {
@@ -95,19 +126,97 @@ function formatDate(iso) {
   });
 }
 
+function formatWhen(iso) {
+  if (!iso) return "";
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return "";
+  const diff = date.getTime() - Date.now();
+  const abs = Math.abs(diff);
+  if (abs < 60 * 1000) return "just now";
+  const relative = new Intl.RelativeTimeFormat(undefined, { numeric: "auto" });
+  if (abs < 60 * 60 * 1000) {
+    return relative.format(Math.round(diff / (60 * 1000)), "minute");
+  }
+  if (abs < 24 * 60 * 60 * 1000) {
+    return relative.format(Math.round(diff / (60 * 60 * 1000)), "hour");
+  }
+  if (abs < 7 * 24 * 60 * 60 * 1000) {
+    return relative.format(Math.round(diff / (24 * 60 * 60 * 1000)), "day");
+  }
+  return formatDate(iso);
+}
+
+function safeHref(url) {
+  try {
+    const parsed = new URL(String(url || ""), location.href);
+    if (parsed.protocol === "http:" || parsed.protocol === "https:") {
+      return parsed.href;
+    }
+  } catch {
+    /* invalid URL */
+  }
+  return "#";
+}
+
+function readFiltersFromUrl() {
+  const params = new URLSearchParams(location.search);
+  const query = (params.get("q") || "").trim();
+  state.query = query.toLowerCase();
+  if (els.search) els.search.value = query;
+  const category = params.get("category");
+  state.category =
+    category && Object.prototype.hasOwnProperty.call(CATEGORY_LABELS, category)
+      ? category
+      : "all";
+  state.savedOnly = params.get("saved") === "1";
+  const source = params.get("source") || "";
+  state.source = state.items.some((item) => item.source === source) ? source : "";
+  const page = Number.parseInt(params.get("page") || "1", 10);
+  state.page = Number.isFinite(page) && page > 0 ? page : 1;
+}
+
+function writeFiltersToUrl() {
+  try {
+    const params = new URLSearchParams(location.search);
+    if (state.query) params.set("q", state.query);
+    else params.delete("q");
+    if (state.category !== "all") params.set("category", state.category);
+    else params.delete("category");
+    if (state.source) params.set("source", state.source);
+    else params.delete("source");
+    if (state.savedOnly) params.set("saved", "1");
+    else params.delete("saved");
+    if (state.page > 1) params.set("page", String(state.page));
+    else params.delete("page");
+    const search = params.toString();
+    const next =
+      location.pathname + (search ? `?${search}` : "") + location.hash;
+    history.replaceState(null, "", next);
+  } catch {
+    /* ignore */
+  }
+}
+
 function categoryOf(item) {
   return item.category || "news";
 }
 
-function matches(item) {
-  if (state.category !== "all" && categoryOf(item) !== state.category) {
+function matches(item, options = {}) {
+  if (state.savedOnly && !state.saved.has(item.id)) {
+    return false;
+  }
+  if (
+    !options.ignoreCategory &&
+    state.category !== "all" &&
+    categoryOf(item) !== state.category
+  ) {
     return false;
   }
   if (state.source && item.source !== state.source) {
     return false;
   }
   if (state.query) {
-    const haystack = [item.title, item.source, item.summary]
+    const haystack = [item.title, item.source, item.summary, item.channel]
       .join(" ")
       .toLowerCase();
     if (!haystack.includes(state.query)) return false;
@@ -155,8 +264,10 @@ function showTab(tab, options) {
 }
 
 function renderCategories(items) {
-  const counts = { all: items.length };
+  const counts = { all: 0 };
   for (const item of items) {
+    if (!matches(item, { ignoreCategory: true })) continue;
+    counts.all += 1;
     const cat = categoryOf(item);
     counts[cat] = (counts[cat] || 0) + 1;
   }
@@ -169,12 +280,19 @@ function renderCategories(items) {
       <button
         type="button"
         class="chip"
-        role="tab"
         data-category="${key}"
-        aria-selected="${state.category === key}"
+        aria-pressed="${state.category === key}"
       >${escapeHtml(CATEGORY_LABELS[key] || key)} (${counts[key] || 0})</button>`,
     )
     .join("");
+}
+
+function renderSavedToggle() {
+  if (!els.savedToggle) return;
+  const count = state.saved.size;
+  els.savedToggle.textContent = `★ Saved (${count})`;
+  els.savedToggle.setAttribute("aria-pressed", String(state.savedOnly));
+  els.savedToggle.disabled = count === 0 && !state.savedOnly;
 }
 
 function renderSources(items) {
@@ -198,7 +316,7 @@ function renderFeatured() {
   els.featuredList.innerHTML = state.featured
     .map(
       (link) => `
-      <a class="featured-card reveal" href="${escapeHtml(link.url)}" target="_blank" rel="noopener">
+      <a class="featured-card reveal" href="${escapeHtml(safeHref(link.url))}" target="_blank" rel="noopener noreferrer">
         <strong>${escapeHtml(link.name)}</strong>
         <span>${escapeHtml(link.description || link.url)}</span>
       </a>`,
@@ -238,10 +356,17 @@ function renderLeaderboards() {
             entry.score != null && entry.score !== ""
               ? `<span class="lb-score">${escapeHtml(formatScore(entry.score))}</span>`
               : "";
+          let delta = "";
+          if (typeof entry.rank_delta === "number" && entry.rank_delta !== 0) {
+            const up = entry.rank_delta > 0;
+            delta = `<span class="lb-delta ${up ? "up" : "down"}" title="Previous rank #${
+              entry.previous_rank
+            }">${up ? "↑" : "↓"}${Math.abs(entry.rank_delta)}</span>`;
+          }
           return `<li>
             <span class="lb-rank">${escapeHtml(entry.rank)}</span>
             <span class="lb-name">${escapeHtml(entry.name)}${creator}</span>
-            ${score}
+            <span class="lb-score-wrap">${score}${delta}</span>
           </li>`;
         })
         .join("");
@@ -257,7 +382,12 @@ function renderLeaderboards() {
           ${note}
           ${scoreLabel}
           <ol class="lb-list">${entries}</ol>
-          <a class="lb-link" href="${escapeHtml(lb.url)}" target="_blank" rel="noopener">View leaderboard →</a>
+          ${
+            lb.fetched_at
+              ? `<p class="lb-asof">As of ${escapeHtml(formatWhen(lb.fetched_at))}</p>`
+              : ""
+          }
+          <a class="lb-link" href="${escapeHtml(safeHref(lb.url))}" target="_blank" rel="noopener noreferrer">View leaderboard →</a>
         </article>`;
     })
     .join("");
@@ -279,15 +409,32 @@ function slugifyModel(name) {
     .slice(0, 80);
 }
 
-function isOpenModel(name) {
+function isOpenBoard(lb) {
+  return (
+    /(^|-)open$/i.test(String(lb.id || "")) ||
+    /open\s*weights/i.test(String(lb.variant || ""))
+  );
+}
+
+function isOpenModel(name, openNames) {
+  const norm = normalizeModelName(name).toLowerCase();
+  if (openNames && openNames.has(norm)) return true;
   const hay = String(name || "").toLowerCase();
   for (const pat of state.openPatterns) {
     if (pat && hay.includes(String(pat).toLowerCase())) return true;
   }
-  return hay.includes("open") || hay.includes("oss");
+  return false;
 }
 
 function buildModelsIndex() {
+  const openNames = new Set();
+  for (const lb of state.leaderboards) {
+    if (!isOpenBoard(lb)) continue;
+    for (const entry of lb.entries || []) {
+      const norm = normalizeModelName(entry.name).toLowerCase();
+      if (norm) openNames.add(norm);
+    }
+  }
   const map = new Map();
   for (const lb of state.leaderboards) {
     for (const entry of lb.entries || []) {
@@ -298,7 +445,7 @@ function buildModelsIndex() {
           name: norm,
           display: norm,
           creator: entry.creator || "",
-          open: isOpenModel(entry.name),
+          open: isOpenModel(entry.name, openNames),
           boards: [],
           mentions: 0,
         });
@@ -315,7 +462,7 @@ function buildModelsIndex() {
         url: lb.url,
       });
       if (!rec.creator && entry.creator) rec.creator = entry.creator;
-      if (isOpenModel(entry.name)) rec.open = true;
+      if (isOpenModel(entry.name, openNames)) rec.open = true;
     }
   }
   // Feed mentions: title contains normalized model (min 4 chars to avoid noise).
@@ -367,7 +514,7 @@ function renderBestPicks() {
             ${licenseBadge}
           </header>
           <p class="pick-empty muted">No verified ${escapeHtml(state.pickLicense)} pick yet — see the benchmark ranking.</p>
-          ${task.benchmark_url ? `<a class="lb-link" href="${escapeHtml(task.benchmark_url)}" target="_blank" rel="noopener">View benchmark →</a>` : ""}
+          ${task.benchmark_url ? `<a class="lb-link" href="${escapeHtml(safeHref(task.benchmark_url))}" target="_blank" rel="noopener noreferrer">View benchmark →</a>` : ""}
         </article>`;
       }
       const runner = task.runner_up
@@ -389,7 +536,7 @@ function renderBestPicks() {
           ${runner}
           ${task.source_note ? `<p class="pick-src muted">${escapeHtml(task.source_note)}</p>` : ""}
           <div class="pick-links">
-            ${task.benchmark_url ? `<a class="lb-link" href="${escapeHtml(task.benchmark_url)}" target="_blank" rel="noopener">Benchmark →</a>` : ""}
+            ${task.benchmark_url ? `<a class="lb-link" href="${escapeHtml(safeHref(task.benchmark_url))}" target="_blank" rel="noopener noreferrer">Benchmark →</a>` : ""}
             <button type="button" class="lb-link pick-compare" data-model="${escapeHtml(winner.model)}">Compare →</button>
           </div>
         </article>`;
@@ -503,7 +650,13 @@ function renderCompare() {
       .map((c, idx) => {
         if (!c) return `<td class="cmp-missing">—</td>`;
         const win = idx === bestIdx ? " cmp-win" : "";
-        return `<td class="cmp-cell${win}">#${escapeHtml(c.rank)} · ${escapeHtml(formatScore(c.score))}</td>`;
+        const delta =
+          typeof c.rank_delta === "number" && c.rank_delta !== 0
+            ? ` ${c.rank_delta > 0 ? "↑" : "↓"}${Math.abs(c.rank_delta)}`
+            : "";
+        return `<td class="cmp-cell${win}">#${escapeHtml(c.rank)} · ${escapeHtml(
+          formatScore(c.score),
+        )}${delta}</td>`;
       })
       .join("");
     const label = `${escapeHtml(lb.label)}${lb.variant ? ` <span class="muted">· ${escapeHtml(lb.variant)}</span>` : ""}`;
@@ -556,9 +709,11 @@ function renderPopularCompare() {
       .join(" ");
 }
 
-function mediaHtml(item) {
+function mediaHtml(item, index = 0) {
   if (item.thumbnail) {
-    return `<img src="${escapeHtml(item.thumbnail)}" alt="" loading="lazy" />`;
+    const loading = index < 4 ? "eager" : "lazy";
+    const priority = index === 0 ? ' fetchpriority="high"' : "";
+    return `<img src="${escapeHtml(item.thumbnail)}" alt="" loading="${loading}" decoding="async" referrerpolicy="no-referrer"${priority} />`;
   }
   return `<div class="placeholder">${escapeHtml(
     item.kind === "video" ? "Video" : item.kind === "paper" ? "Paper" : "Article",
@@ -590,7 +745,7 @@ function renderTimeline() {
   }
 
   els.timeline.innerHTML = pageItems
-    .map((item) => {
+    .map((item, index) => {
       const category = categoryOf(item);
       const upvotes =
         typeof item.upvotes === "number"
@@ -601,9 +756,10 @@ function renderTimeline() {
         state.seenTs != null &&
         !Number.isNaN(publishedMs) &&
         publishedMs > state.seenTs;
+      const saved = state.saved.has(item.id);
       return `
         <article class="card">
-          <div class="card-media">${mediaHtml(item)}</div>
+          <div class="card-media">${mediaHtml(item, index)}</div>
           <div class="card-body">
             <div class="card-meta">
               <span class="badge category-${escapeHtml(category)}">${escapeHtml(
@@ -613,7 +769,7 @@ function renderTimeline() {
               ${isNew ? '<span class="badge badge-new">New</span>' : ""}
             </div>
             <h3 class="card-title">
-              <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener">${escapeHtml(
+              <a href="${escapeHtml(safeHref(item.url))}" target="_blank" rel="noopener noreferrer">${escapeHtml(
                 item.title,
               )}</a>
             </h3>
@@ -623,10 +779,20 @@ function renderTimeline() {
                 : ""
             }
             <div class="card-footer">
-              <time datetime="${escapeHtml(item.published)}">${escapeHtml(
+              <time datetime="${escapeHtml(item.published || "")}" title="${escapeHtml(
                 formatDate(item.published),
-              )}</time>
-              ${upvotes}
+              )}">${escapeHtml(formatWhen(item.published))}</time>
+              <div class="card-actions">
+                <button
+                  type="button"
+                  class="save-btn"
+                  data-save-id="${escapeHtml(item.id)}"
+                  aria-pressed="${saved}"
+                  aria-label="${saved ? "Remove from saved" : "Save for later"}"
+                  title="${saved ? "Remove from saved" : "Save for later"}"
+                >${saved ? "★" : "☆"}</button>
+                ${upvotes}
+              </div>
             </div>
           </div>
         </article>`;
@@ -635,6 +801,7 @@ function renderTimeline() {
 }
 
 function renderAll() {
+  renderSavedToggle();
   renderCategories(state.items);
   renderSources(state.items);
   renderTimeline();
@@ -671,8 +838,8 @@ function initBackground() {
   if (!canvas || !canvas.getContext) return;
   const ctx = canvas.getContext("2d");
   if (!ctx) return;
-  // Animate even when reduced-motion is requested: background is subtle ambience,
-  // but a frozen canvas reads as "broken". Only CSS motion is disabled.
+  const motionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+  let reduced = motionQuery.matches;
   const COLORS = ["#ffd60a", "#ff2d95", "#00e5ff"];
   let width = 0;
   let height = 0;
@@ -718,19 +885,21 @@ function initBackground() {
     particles = Array.from({ length: count }, makeParticle);
   }
 
-  function draw(time) {
+  function draw(time, animate = true) {
     const theme = document.documentElement.dataset.theme;
     const alphaScale = theme === "light" ? 0.5 : 1;
     ctx.clearRect(0, 0, width, height);
     for (const p of particles) {
-      p.x += p.vx;
-      p.y += p.vy;
-      if (p.y < -p.r) {
-        p.y = height + p.r;
-        p.x = Math.random() * width;
+      if (animate) {
+        p.x += p.vx;
+        p.y += p.vy;
+        if (p.y < -p.r) {
+          p.y = height + p.r;
+          p.x = Math.random() * width;
+        }
+        if (p.x < -p.r) p.x = width + p.r;
+        if (p.x > width + p.r) p.x = -p.r;
       }
-      if (p.x < -p.r) p.x = width + p.r;
-      if (p.x > width + p.r) p.x = -p.r;
       const twinkle = 0.7 + 0.3 * Math.sin(time * 0.001 * p.twinkle + p.phase);
       const alpha = p.base * twinkle * alphaScale;
       if (p.shine) {
@@ -761,7 +930,10 @@ function initBackground() {
   }
 
   function start() {
-    if (running) return;
+    if (running || reduced) {
+      if (reduced) draw(0, false);
+      return;
+    }
     running = true;
     rafId = requestAnimationFrame(loop);
   }
@@ -778,11 +950,25 @@ function initBackground() {
   window.addEventListener("resize", () => {
     resize();
     seed();
+    if (reduced) draw(0, false);
   });
   document.addEventListener("visibilitychange", () => {
     if (document.hidden) stop();
     else start();
   });
+  document.addEventListener("themechange", () => {
+    if (reduced) draw(0, false);
+  });
+  const onMotionChange = (event) => {
+    reduced = event.matches;
+    if (reduced) {
+      stop();
+      draw(0, false);
+    } else {
+      start();
+    }
+  };
+  if (motionQuery.addEventListener) motionQuery.addEventListener("change", onMotionChange);
 }
 
 function updateFreshness(iso) {
@@ -815,9 +1001,17 @@ function renderHealth(health) {
   }</span>`;
   const chips = sources
     .map((row) => {
+      const streak =
+        !row.ok && row.failed_streak > 1
+          ? ` · ${row.failed_streak} consecutive failures`
+          : "";
+      const lastOk =
+        !row.ok && row.last_ok_at
+          ? ` · last ok ${formatWhen(row.last_ok_at)}`
+          : "";
       const title = row.ok
         ? `${row.name}: ${row.items} items`
-        : `${row.name}: ${row.error || "fetch failed"}`;
+        : `${row.name}: ${row.error || "fetch failed"}${streak}${lastOk}`;
       return `<span class="health-chip ${row.ok ? "ok" : "fail"}" title="${escapeHtml(
         title,
       )}"><span class="hc-dot" aria-hidden="true"></span>${escapeHtml(row.name)}</span>`;
@@ -829,12 +1023,40 @@ function renderHealth(health) {
     const detail = lb.failed
       ? `${lb.ok} ok · ${lb.failed} failed`
       : `${lb.ok} ok`;
+    const streak =
+      lb.failed && lb.failed_streak > 1
+        ? ` · ${lb.failed_streak} consecutive failures`
+        : "";
     lbChip = `<span class="health-chip ${
       lb.failed ? "fail" : "ok"
-    }" title="${escapeHtml(`Leaderboards: ${detail}`)}"><span class="hc-dot" aria-hidden="true"></span>Leaderboards</span>`;
+    }" title="${escapeHtml(`Leaderboards: ${detail}${streak}`)}"><span class="hc-dot" aria-hidden="true"></span>Leaderboards</span>`;
   }
   els.health.innerHTML = summary + chips + lbChip;
   els.health.hidden = false;
+}
+
+let refreshTimer = null;
+
+async function checkForUpdates() {
+  if (document.hidden || !state.generatedAt) return;
+  try {
+    const resp = await fetch("data/items.json", { cache: "no-cache" });
+    if (!resp.ok) return;
+    const data = await resp.json();
+    if (data.generated_at && data.generated_at !== state.generatedAt) {
+      if (els.refreshPill) els.refreshPill.hidden = false;
+    }
+  } catch {
+    /* transient network failure */
+  }
+}
+
+function startRefreshWatch() {
+  if (refreshTimer) return;
+  refreshTimer = setInterval(checkForUpdates, 5 * 60 * 1000);
+  document.addEventListener("visibilitychange", () => {
+    if (!document.hidden) checkForUpdates();
+  });
 }
 
 async function load() {
@@ -843,7 +1065,7 @@ async function load() {
     state.seenTs = seenRaw ? Number(seenRaw) : null;
     if (Number.isNaN(state.seenTs)) state.seenTs = null;
 
-    const resp = await fetch("data/items.json", { cache: "no-store" });
+    const resp = await fetch("data/items.json", { cache: "no-cache" });
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const data = await resp.json();
     state.items = Array.isArray(data.items) ? data.items : [];
@@ -854,6 +1076,17 @@ async function load() {
     state.health = data.health || null;
     state.bestPicks = data.best_picks || null;
     state.openPatterns = (state.bestPicks && state.bestPicks.open_patterns) || [];
+    state.generatedAt = data.generated_at || null;
+    try {
+      const savedRaw = JSON.parse(localStorage.getItem("saved_ids") || "[]");
+      state.saved = new Set(
+        Array.isArray(savedRaw)
+          ? savedRaw.filter((id) => typeof id === "string")
+          : [],
+      );
+    } catch {
+      state.saved = new Set();
+    }
     const savedLicense = localStorage.getItem("pick_license");
     if (savedLicense === "open" || savedLicense === "closed") {
       state.pickLicense = savedLicense;
@@ -862,6 +1095,7 @@ async function load() {
     if (els.updated && data.generated_at) {
       els.updated.textContent = `Updated ${formatDate(data.generated_at)}`;
     }
+    readFiltersFromUrl();
     renderFeatured();
     renderLeaderboards();
     buildModelsIndex();
@@ -873,6 +1107,7 @@ async function load() {
     observeReveals();
     renderHealth(state.health);
     showTab(tabFromHash(), { scroll: false });
+    startRefreshWatch();
     localStorage.setItem("seen_ts", String(Date.now()));
   } catch (error) {
     els.status.textContent = `Failed to load data: ${error.message}`;
@@ -886,6 +1121,7 @@ async function load() {
 function goToPage(page) {
   state.page = page;
   renderTimeline();
+  writeFiltersToUrl();
   els.timeline.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
@@ -897,14 +1133,18 @@ function bindEvents() {
     searchTimer = setTimeout(() => {
       state.query = value.trim().toLowerCase();
       state.page = 1;
+      renderCategories(state.items);
       renderTimeline();
+      writeFiltersToUrl();
     }, 200);
   });
 
   els.sourceFilter.addEventListener("change", (event) => {
     state.source = event.target.value;
     state.page = 1;
+    renderCategories(state.items);
     renderTimeline();
+    writeFiltersToUrl();
   });
 
   els.categoryFilters.addEventListener("click", (event) => {
@@ -914,6 +1154,7 @@ function bindEvents() {
     state.page = 1;
     renderCategories(state.items);
     renderTimeline();
+    writeFiltersToUrl();
   });
 
   els.prevPage.addEventListener("click", () => {
@@ -922,6 +1163,66 @@ function bindEvents() {
 
   els.nextPage.addEventListener("click", () => {
     goToPage(state.page + 1);
+  });
+
+  if (els.refreshPill) {
+    els.refreshPill.addEventListener("click", () => location.reload());
+  }
+
+  if (els.savedToggle) {
+    els.savedToggle.addEventListener("click", () => {
+      state.savedOnly = !state.savedOnly;
+      state.page = 1;
+      renderSavedToggle();
+      renderCategories(state.items);
+      renderTimeline();
+      writeFiltersToUrl();
+    });
+  }
+
+  els.timeline.addEventListener("click", (event) => {
+    const btn = event.target.closest("[data-save-id]");
+    if (!btn) return;
+    const id = btn.dataset.saveId;
+    if (!id) return;
+    if (state.saved.has(id)) state.saved.delete(id);
+    else state.saved.add(id);
+    try {
+      localStorage.setItem("saved_ids", JSON.stringify([...state.saved]));
+    } catch {
+      /* storage unavailable */
+    }
+    renderSavedToggle();
+    renderCategories(state.items);
+    renderTimeline();
+    writeFiltersToUrl();
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "/" || event.metaKey || event.ctrlKey || event.altKey) {
+      return;
+    }
+    const active = document.activeElement;
+    const tag = active && active.tagName;
+    if (
+      tag === "INPUT" ||
+      tag === "TEXTAREA" ||
+      tag === "SELECT" ||
+      (active && active.isContentEditable)
+    ) {
+      return;
+    }
+    event.preventDefault();
+    showTab("feed");
+    els.search.focus();
+  });
+
+  window.addEventListener("popstate", () => {
+    readFiltersFromUrl();
+    renderSavedToggle();
+    renderCategories(state.items);
+    renderSources(state.items);
+    renderTimeline();
   });
 
   els.themeToggle.addEventListener("click", () => {

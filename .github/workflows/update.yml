@@ -2,6 +2,11 @@ name: Update and deploy
 
 on:
   workflow_dispatch:
+    inputs:
+      only:
+        description: Optional source-name substring (passed to fetch.py --only)
+        required: false
+        default: ""
   schedule:
     - cron: "*/30 * * * *"
 
@@ -17,6 +22,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -24,14 +30,21 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.13"
           cache: pip
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
       - name: Fetch sources
-        run: python fetch.py
+        env:
+          ONLY: ${{ inputs.only }}
+        run: |
+          if [ -n "$ONLY" ]; then
+            python fetch.py --only "$ONLY"
+          else
+            python fetch.py
+          fi
 
       - name: Commit updated data
         run: |
@@ -48,9 +61,9 @@ jobs:
       - name: Assemble site
         run: |
           mkdir -p _site/data _site/icons
-          cp index.html app.js styles.css 404.html favicon.svg manifest.webmanifest sw.js og.png _site/
+          cp index.html app.js styles.css 404.html favicon.svg manifest.webmanifest sw.js og.png robots.txt sitemap.xml _site/
           cp icons/192.png icons/512.png _site/icons/
-          cp data/items.json _site/data/
+          cp data/items.json data/feed.xml data/feed.json _site/data/
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

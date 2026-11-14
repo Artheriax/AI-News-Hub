@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch AI news sources and write data/items.json for the static site."""
+"""Fetch AI news sources and write data/items.json plus RSS/JSON feeds."""
 
 from __future__ import annotations
 
@@ -7,20 +7,30 @@ import argparse
 import calendar
 import html as html_lib
 import json
+import os
 import re
 import sys
+import tempfile
 import time
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
+from email.utils import format_datetime
 from pathlib import Path
-from urllib.parse import parse_qs, unquote, urlparse
+from urllib.parse import parse_qs, unquote, urljoin, urlparse
+from xml.sax.saxutils import escape as xml_escape
 
 import feedparser
 import requests
 import yaml
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 ROOT = Path(__file__).resolve().parent
 DATA_PATH = ROOT / "data" / "items.json"
+FEED_XML_PATH = ROOT / "data" / "feed.xml"
+FEED_JSON_PATH = ROOT / "data" / "feed.json"
 TASKS_PATH = ROOT / "data" / "tasks.yaml"
+SITE_URL = "https://artheriax.github.io/AI-News-Hub"
+SITE_TITLE = "AI News Hub"
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -28,6 +38,19 @@ USER_AGENT = (
 )
 session = requests.Session()
 session.headers.update({"User-Agent": USER_AGENT})
+retry = Retry(
+    total=3,
+    connect=3,
+    read=3,
+    status=3,
+    backoff_factor=1.0,
+    status_forcelist=(429, 500, 502, 503, 504),
+    allowed_methods=frozenset({"GET"}),
+    respect_retry_after_header=True,
+)
+adapter = HTTPAdapter(max_retries=retry)
+session.mount("https://", adapter)
+session.mount("http://", adapter)
 
 
 def http_get(url: str, **kwargs) -> requests.Response:
@@ -36,11 +59,57 @@ def http_get(url: str, **kwargs) -> requests.Response:
     return resp
 
 
+def safe_http_url(value: str | None) -> str | None:
+    """Return an absolute http(s) URL or None. Feeds are untrusted input."""
+    if not value:
+        return None
+    try:
+        parsed = urlparse(str(value).strip())
+    except ValueError:
+        return None
+    if parsed.scheme not in ("http", "https") or not parsed.netloc:
+        return None
+    return parsed.geturl()
+
+
+def clip_text(text: str, limit: int) -> str:
+    """Trim to a word boundary instead of cutting mid-word."""
+    text = text.strip()
+    if len(text) <= limit:
+        return text
+    cut = text[:limit].rsplit(" ", 1)[0].rstrip(" ,.;:-–—")
+    return f"{cut}…" if cut else text[:limit]
+
+
+def atomic_write_text(path: Path, text: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    handle, temp_path = tempfile.mkstemp(
+        dir=path.parent, prefix=f".{path.name}.", suffix=".tmp"
+    )
+    try:
+        with os.fdopen(handle, "w", encoding="utf-8", newline="\n") as stream:
+            stream.write(text)
+        os.replace(temp_path, path)
+    except Exception:
+        try:
+            os.unlink(temp_path)
+        except OSError:
+            pass
+        raise
+
+
+def display_path(path: Path) -> Path | str:
+    try:
+        return path.relative_to(ROOT)
+    except ValueError:
+        return path
+
+
 def entry_datetime(entry) -> datetime | None:
     parsed = entry.get("published_parsed") or entry.get("updated_parsed")
     if not parsed:
         return None
-    return datetime.fromtimestamp(calendar.timegm(parsed), tz=timezone.utc)
+    return datetime.fromtimestamp(calendar.timegm(parsed), tz=UTC)
 
 
 def strip_html(text: str) -> str:
@@ -65,12 +134,12 @@ def make_item(
     item = {
         "id": item_id,
         "title": html_lib.unescape(title).strip(),
-        "url": url,
+        "url": safe_http_url(url) or "",
         "source": source,
         "category": category,
-        "published": (published or datetime.now(timezone.utc)).isoformat(),
+        "published": published.isoformat() if published else None,
         "summary": summary,
-        "thumbnail": thumbnail,
+        "thumbnail": safe_http_url(thumbnail),
     }
     if extra:
         item.update(extra)
@@ -104,12 +173,53 @@ def fetch_youtube(src: dict, limit: int) -> list[dict]:
                 source=src["name"],
                 category=src.get("category", "videos"),
                 published=entry_datetime(entry),
-                summary=strip_html(entry.get("summary", ""))[:300],
+                summary=clip_text(strip_html(entry.get("summary", "")), 300),
                 thumbnail=thumb,
                 extra={"kind": "video", "channel": entry.get("author", src["name"])},
             )
         )
     return items
+
+
+def _is_image_url(url: str) -> bool:
+    path = urlparse(url).path.lower()
+    return path.endswith((".jpg", ".jpeg", ".png", ".webp", ".gif", ".avif"))
+
+
+def _entry_image(entry, base_url: str) -> str | None:
+    """Best-effort thumbnail extraction across common RSS extensions."""
+    for key in ("media_thumbnail", "media_content"):
+        for media in entry.get(key) or []:
+            if not isinstance(media, dict):
+                continue
+            raw = media.get("url")
+            if not raw:
+                continue
+            medium = str(media.get("medium") or media.get("type") or "")
+            if medium and not medium.startswith("image") and not _is_image_url(raw):
+                continue
+            url = safe_http_url(urljoin(base_url, raw))
+            if url:
+                return url
+    for enclosure in entry.get("enclosures") or []:
+        if not isinstance(enclosure, dict):
+            continue
+        raw = enclosure.get("href") or enclosure.get("url")
+        if raw and _is_image_url(raw):
+            url = safe_http_url(urljoin(base_url, raw))
+            if url:
+                return url
+    html_blobs = [entry.get("summary") or ""]
+    for content in entry.get("content") or []:
+        if isinstance(content, dict) and content.get("value"):
+            html_blobs.append(content["value"])
+    for blob in html_blobs:
+        match = re.search(r'<img[^>]+src=["\']([^"\']+)', blob, re.I)
+        if match:
+            url = safe_http_url(urljoin(base_url, match.group(1)))
+            if url:
+                return url
+    return None
 
 
 def fetch_rss(src: dict, limit: int) -> list[dict]:
@@ -120,15 +230,7 @@ def fetch_rss(src: dict, limit: int) -> list[dict]:
         link = entry.get("link")
         if not link:
             continue
-        thumb = None
-        if entry.get("media_thumbnail"):
-            thumb = entry.media_thumbnail[0].get("url")
-        elif entry.get("enclosures"):
-            href = entry.enclosures[0].get("href")
-            if href and any(
-                href.lower().endswith(ext) for ext in (".jpg", ".jpeg", ".png", ".webp")
-            ):
-                thumb = href
+        link = urljoin(src["url"], link)
         items.append(
             make_item(
                 item_id=f"rss:{link}",
@@ -137,8 +239,8 @@ def fetch_rss(src: dict, limit: int) -> list[dict]:
                 source=src["name"],
                 category=src.get("category", "news"),
                 published=entry_datetime(entry),
-                summary=strip_html(entry.get("summary", ""))[:300],
-                thumbnail=thumb,
+                summary=clip_text(strip_html(entry.get("summary", "")), 300),
+                thumbnail=_entry_image(entry, src["url"]),
                 extra={"kind": "article"},
             )
         )
@@ -192,7 +294,7 @@ def fetch_batch(src: dict, limit: int) -> list[dict]:
         published = None
         try:
             published = datetime.strptime(date_m.group(1), "%b %d, %Y").replace(
-                tzinfo=timezone.utc
+                tzinfo=UTC
             )
         except ValueError:
             pass
@@ -223,7 +325,7 @@ def fetch_papers(src: dict, limit: int) -> list[dict]:
         params={"sort": "publishedAt", "direction": "-1", "limit": 100},
     )
     payload = resp.json()
-    cutoff = datetime.now(timezone.utc) - timedelta(days=days)
+    cutoff = datetime.now(UTC) - timedelta(days=days)
     papers = []
     for row in payload:
         paper = row.get("paper") or {}
@@ -248,7 +350,7 @@ def fetch_papers(src: dict, limit: int) -> list[dict]:
                 source=src["name"],
                 category=src.get("category", "papers"),
                 published=published,
-                summary=strip_html(paper.get("summary", ""))[:400],
+                summary=clip_text(strip_html(paper.get("summary", "")), 400),
                 thumbnail=None,
                 extra={
                     "kind": "paper",
@@ -753,6 +855,18 @@ def fetch_leaderboards(
             else:
                 entries = parser(html_text, top_n)
                 parse_cache[cache_key] = entries
+            entries = [dict(entry) for entry in entries]
+            previous_entries = (prev_by_id.get(lb_id) or {}).get("entries") or []
+            previous_ranks = {
+                _norm_name(entry.get("name", "")): entry.get("rank")
+                for entry in previous_entries
+                if entry.get("name") and entry.get("rank")
+            }
+            for entry in entries:
+                previous_rank = previous_ranks.get(_norm_name(entry.get("name", "")))
+                entry["previous_rank"] = previous_rank
+                if previous_rank and entry.get("rank"):
+                    entry["rank_delta"] = previous_rank - entry["rank"]
             record = {
                 "id": lb_id,
                 "label": lb.get("label") or lb_id,
@@ -761,7 +875,7 @@ def fetch_leaderboards(
                 "note": lb.get("note"),
                 "url": lb.get("url") or (AA_BASE + (lb.get("page") or "")),
                 "score_label": LB_SCORE_LABELS.get(parse_type, "Score"),
-                "fetched_at": datetime.now(timezone.utc).isoformat(),
+                "fetched_at": datetime.now(UTC).isoformat(),
                 "entries": entries,
             }
             results.append(record)
@@ -778,6 +892,175 @@ def fetch_leaderboards(
                 file=sys.stderr,
             )
     return results, succeeded, failed
+
+
+def _coerce_datetime(raw) -> datetime | None:
+    if not raw:
+        return None
+    try:
+        value = datetime.fromisoformat(str(raw).replace("Z", "+00:00"))
+    except (TypeError, ValueError):
+        return None
+    if value.tzinfo is None:
+        value = value.replace(tzinfo=UTC)
+    return value.astimezone(UTC)
+
+
+def stabilize_items(items: list[dict], previous: list[dict]) -> list[dict]:
+    """Fill missing dates from the previous snapshot and normalise timestamps.
+
+    A feed that omits dates should not make an item look freshly published on
+    every run. Future-dated entries are clamped so they cannot pin the top of
+    the timeline indefinitely.
+    """
+    previous_by_id = {
+        item.get("id"): item for item in previous if item.get("id")
+    }
+    now = datetime.now(UTC)
+    future_limit = now + timedelta(days=1)
+    for item in items:
+        published = _coerce_datetime(item.get("published"))
+        if published is None:
+            prior = previous_by_id.get(item.get("id")) or {}
+            published = _coerce_datetime(prior.get("published"))
+        if published is None:
+            published = now
+        elif published > future_limit:
+            published = now
+        item["published"] = published.isoformat()
+    return items
+
+
+def make_health_row(
+    name: str,
+    *,
+    ok: bool,
+    count: int,
+    error: str | None,
+    previous: dict | None,
+) -> dict:
+    previous = previous or {}
+    now = datetime.now(UTC).isoformat()
+    return {
+        "name": name,
+        "ok": ok,
+        "items": count,
+        "error": error,
+        "checked_at": now,
+        "failed_streak": 0 if ok else int(previous.get("failed_streak") or 0) + 1,
+        "last_ok_at": now if ok else previous.get("last_ok_at"),
+    }
+
+
+def _format_score(value) -> str:
+    if value is None or value == "":
+        return ""
+    if isinstance(value, (int, float)):
+        return str(int(value)) if float(value).is_integer() else f"{value:.1f}"
+    return str(value)
+
+
+def apply_board_picks(best_picks: dict | None, leaderboards: list[dict]) -> None:
+    """Refresh media picks from our own boards so they cannot silently drift."""
+    if not best_picks or not isinstance(best_picks.get("tasks"), list):
+        return
+    boards = {lb.get("id"): lb for lb in leaderboards if lb.get("id")}
+    for task in best_picks["tasks"]:
+        for license_name, key in (("closed", "board_closed"), ("open", "board_open")):
+            board_id = task.get(key)
+            if not board_id:
+                continue
+            entries = (boards.get(board_id) or {}).get("entries") or []
+            if not entries:
+                continue
+            top = entries[0]
+            meta = str(top.get("meta") or "")
+            task[f"{license_name}_winner"] = {
+                "model": top.get("name") or "",
+                "developer": top.get("creator") or "",
+                "score": _format_score(top.get("score")),
+                "released": meta.split(" · ")[0].strip(),
+            }
+            if license_name == "closed" and len(entries) > 1:
+                runner = entries[1]
+                task["runner_up"] = {
+                    "model": runner.get("name") or "",
+                    "score": _format_score(runner.get("score")),
+                }
+
+
+def write_feeds(output: dict) -> None:
+    """Write an RSS 2.0 feed and a JSON Feed next to items.json."""
+    items = output.get("items") or []
+    feed_items = []
+    for item in items[:60]:
+        published = _coerce_datetime(item.get("published"))
+        url = safe_http_url(item.get("url"))
+        if not url or published is None:
+            continue
+        feed_items.append((item, published, url))
+
+    generated = _coerce_datetime(output.get("generated_at")) or datetime.now(UTC)
+    updated = format_datetime(generated, usegmt=True)
+
+    rss = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
+        "  <channel>",
+        f"    <title>{xml_escape(SITE_TITLE)}</title>",
+        f"    <link>{xml_escape(SITE_URL + '/')}</link>",
+        "    <description>Aggregated AI news, papers, and videos from trusted sources.</description>",
+        "    <language>en</language>",
+        f"    <lastBuildDate>{updated}</lastBuildDate>",
+        "    <ttl>30</ttl>",
+        f'    <atom:link href="{xml_escape(SITE_URL + "/data/feed.xml")}" rel="self" type="application/rss+xml" />',
+    ]
+    for item, published, url in feed_items:
+        title = xml_escape(item.get("title") or "(untitled)")
+        summary = xml_escape(item.get("summary") or "")
+        guid = xml_escape(str(item.get("id") or url))
+        rss.extend(
+            [
+                "    <item>",
+                f"      <title>{title}</title>",
+                f"      <link>{xml_escape(url)}</link>",
+                f'      <guid isPermaLink="false">{guid}</guid>',
+                f"      <pubDate>{format_datetime(published, usegmt=True)}</pubDate>",
+                f"      <description>{summary}</description>",
+                f"      <category>{xml_escape(str(item.get('source') or ''))}</category>",
+                "    </item>",
+            ]
+        )
+    rss.extend(["  </channel>", "</rss>", ""])
+    atomic_write_text(FEED_XML_PATH, "\n".join(rss))
+
+    json_items = []
+    for item, published, url in feed_items:
+        entry = {
+            "id": str(item.get("id") or url),
+            "url": url,
+            "title": item.get("title") or "(untitled)",
+            "content_text": item.get("summary") or "",
+            "date_published": published.isoformat(),
+            "tags": [tag for tag in (item.get("source"), item.get("category")) if tag],
+        }
+        thumbnail = safe_http_url(item.get("thumbnail"))
+        if thumbnail:
+            entry["image"] = thumbnail
+        json_items.append(entry)
+    payload = {
+        "version": "https://jsonfeed.org/version/1.1",
+        "title": SITE_TITLE,
+        "home_page_url": SITE_URL + "/",
+        "feed_url": SITE_URL + "/data/feed.json",
+        "description": "Aggregated AI news, papers, and videos from trusted sources.",
+        "items": json_items,
+    }
+    atomic_write_text(
+        FEED_JSON_PATH, json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+    )
+    print(f"wrote {display_path(FEED_XML_PATH)}: {len(json_items)} items")
+    print(f"wrote {display_path(FEED_JSON_PATH)}: {len(json_items)} items")
 
 
 def load_existing() -> tuple[list[dict], list[dict], dict | None]:
@@ -838,7 +1121,11 @@ def main() -> int:
     limit = int(config.get("max_items_per_source", 25))
     max_age_days = config.get("max_age_days")
     sources = config.get("sources", [])
-    featured = config.get("featured_links", [])
+    featured = [
+        link
+        for link in (config.get("featured_links", []) or [])
+        if isinstance(link, dict) and safe_http_url(link.get("url"))
+    ]
     lb_defs = config.get("leaderboards") or []
     lb_top_n = int(config.get("leaderboard_top_n", 10))
 
@@ -854,6 +1141,12 @@ def main() -> int:
         name = item.get("source", "")
         if name in active_names:
             by_source.setdefault(name, []).append(item)
+
+    duplicate_names = {
+        name for name in active_names if [src.get("name") for src in sources].count(name) > 1
+    }
+    for name in sorted(duplicate_names):
+        print(f"warn  duplicate source name in config: {name}", file=sys.stderr)
 
     source_health: dict[str, dict] = {}
     if existing_health:
@@ -877,38 +1170,62 @@ def main() -> int:
             time.sleep(delay)
         fetcher = FETCHERS.get(src.get("type"))
         if not fetcher:
-            print(f"error {name}: unknown type {src.get('type')!r}", file=sys.stderr)
             failed += 1
-            source_health[name] = {
-                "name": name,
-                "ok": False,
-                "items": len(by_source.get(name, [])),
-                "error": f"unknown type {src.get('type')!r}",
-                "checked_at": datetime.now(timezone.utc).isoformat(),
-            }
+            error = f"unknown type {src.get('type')!r}"
+            source_health[name] = make_health_row(
+                name,
+                ok=False,
+                count=len(by_source.get(name, [])),
+                error=error,
+                previous=source_health.get(name),
+            )
+            print(f"error {name}: {error}", file=sys.stderr)
+            did_fetch = True
             continue
         try:
+            previous_items = by_source.get(name, [])
             items = fetcher(src, limit)
+            items = [item for item in items if item.get("url")]
+            stabilize_items(items, previous_items)
+            if not items:
+                failed += 1
+                kept = len(previous_items)
+                error = (
+                    "fetch returned 0 usable items"
+                    + (f"; kept {kept} previous items" if kept else "")
+                )
+                if kept:
+                    by_source[name] = previous_items
+                source_health[name] = make_health_row(
+                    name,
+                    ok=False,
+                    count=kept,
+                    error=error,
+                    previous=source_health.get(name),
+                )
+                print(f"warn  {name}: {error}", file=sys.stderr)
+                did_fetch = True
+                continue
             by_source[name] = items
             succeeded += 1
-            source_health[name] = {
-                "name": name,
-                "ok": True,
-                "items": len(items),
-                "error": None,
-                "checked_at": datetime.now(timezone.utc).isoformat(),
-            }
+            source_health[name] = make_health_row(
+                name,
+                ok=True,
+                count=len(items),
+                error=None,
+                previous=source_health.get(name),
+            )
             print(f"ok    {name}: {len(items)} items")
         except Exception as exc:  # noqa: BLE001 - isolate per-source failures
             failed += 1
             kept = len(by_source.get(name, []))
-            source_health[name] = {
-                "name": name,
-                "ok": False,
-                "items": kept,
-                "error": str(exc),
-                "checked_at": datetime.now(timezone.utc).isoformat(),
-            }
+            source_health[name] = make_health_row(
+                name,
+                ok=False,
+                count=kept,
+                error=str(exc),
+                previous=source_health.get(name),
+            )
             print(f"error {name}: {exc} (keeping {kept} previous items)", file=sys.stderr)
         did_fetch = True
 
@@ -923,21 +1240,12 @@ def main() -> int:
     merged.sort(key=lambda item: item.get("published", ""), reverse=True)
 
     if max_age_days is not None:
-        cutoff = datetime.now(timezone.utc) - timedelta(days=float(max_age_days))
+        cutoff = datetime.now(UTC) - timedelta(days=float(max_age_days))
         before = len(merged)
         filtered: list[dict] = []
         for item in merged:
-            raw = item.get("published")
-            try:
-                published = datetime.fromisoformat(raw) if raw else None
-            except (TypeError, ValueError):
-                published = None
-            if published is None:
-                filtered.append(item)
-                continue
-            if published.tzinfo is None:
-                published = published.replace(tzinfo=timezone.utc)
-            if published >= cutoff:
+            published = _coerce_datetime(item.get("published"))
+            if published is None or published >= cutoff:
                 filtered.append(item)
         dropped = before - len(filtered)
         if dropped:
@@ -948,10 +1256,14 @@ def main() -> int:
         print("all sources failed and no previous data", file=sys.stderr)
         return 1
 
-    leaderboards = existing_leaderboards
+    leaderboards: list[dict] = []
     lb_ok = 0
     lb_failed = 0
-    lb_health = (existing_health or {}).get("leaderboards") if existing_health else None
+    previous_lb_health = None
+    lb_health = None
+    if existing_health:
+        previous_lb_health = existing_health.get("leaderboards")
+    lb_health = previous_lb_health if lb_defs else None
     if lb_defs:
         leaderboards, lb_ok, lb_failed = fetch_leaderboards(
             lb_defs,
@@ -961,10 +1273,18 @@ def main() -> int:
             previous=existing_leaderboards,
         )
         if not args.only or lb_ok or lb_failed:
+            previous_lb_health = previous_lb_health or {}
+            now = datetime.now(UTC).isoformat()
             lb_health = {
                 "ok": lb_ok,
                 "failed": lb_failed,
-                "checked_at": datetime.now(timezone.utc).isoformat(),
+                "checked_at": now,
+                "failed_streak": 0
+                if lb_failed == 0
+                else int(previous_lb_health.get("failed_streak") or 0) + 1,
+                "last_ok_at": now
+                if lb_failed == 0
+                else previous_lb_health.get("last_ok_at"),
             }
 
     health = {
@@ -984,17 +1304,23 @@ def main() -> int:
                 print("keep  best_picks: previous snapshot reused")
         except (json.JSONDecodeError, OSError):
             pass
+    apply_board_picks(best_picks, leaderboards)
     output = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "schema_version": 1,
+        "generated_at": datetime.now(UTC).isoformat(),
         "items": merged,
         "featured": featured,
         "leaderboards": leaderboards,
         "best_picks": best_picks,
         "health": health,
     }
-    DATA_PATH.write_text(
-        json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    atomic_write_text(
+        DATA_PATH, json.dumps(output, ensure_ascii=False, indent=2) + "\n"
     )
+    try:
+        write_feeds(output)
+    except Exception as exc:  # noqa: BLE001 - feeds must not block the main data
+        print(f"warn  feeds: {exc}", file=sys.stderr)
     print(
         f"wrote {DATA_PATH.relative_to(ROOT)}: {len(merged)} items, "
         f"{len(leaderboards)} leaderboards, "
