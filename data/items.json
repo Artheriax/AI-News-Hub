@@ -1,7 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T17:18:20.435445+00:00",
+  "generated_at": "2026-11-15T21:56:06.820597+00:00",
   "items": [
+    {
+      "id": "rss:https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+      "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+      "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-15T20:20:57+00:00",
+      "summary": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
+      "thumbnail": null,
+      "kind": "article"
+    },
     {
       "id": "rss:https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
       "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
@@ -60,7 +71,7 @@
     },
     {
       "id": "yt:woWo80dPkVk",
-      "title": "Gemini 4 Carbon, Alpha Genome 2, realtime voices, new TTS, ACE Music, Seedream 5.5: AI NEWS",
+      "title": "Gemini 4 Carbon & Hydrogen, realtime voices, new TTS, 3D models, Seedream 5.5: AI NEWS",
       "url": "https://www.youtube.com/watch?v=woWo80dPkVk",
       "source": "AI Search",
       "category": "videos",
@@ -450,17 +461,6 @@
       "kind": "article"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
-      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-12T17:36:40+00:00",
-      "summary": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
       "id": "yt:gPNiuyYirfw",
       "title": "DeepMind’s AI Just Did The Impossible",
       "url": "https://www.youtube.com/watch?v=gPNiuyYirfw",
@@ -601,7 +601,7 @@
       "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 136,
+      "upvotes": 137,
       "arxiv_id": "2611.15777"
     },
     {
@@ -614,7 +614,7 @@
       "summary": "In this report, we introduce the Reciprocal World Model (RWM) and present Duo v1, a full-duplex world model that continuously perceives audiovisual inputs while responding to users in real time. The RWM treats intelligence and physical reality as equally fundamental to what constitutes a world. Existing world models largely focus on simulating the latter, leaving reasoning and decision-making as…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 42,
+      "upvotes": 43,
       "arxiv_id": "2611.15131"
     },
     {
@@ -1587,7 +1587,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T17:18:20.304661+00:00",
+      "fetched_at": "2026-11-15T21:56:06.693247+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1689,7 +1689,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T17:18:20.307118+00:00",
+      "fetched_at": "2026-11-15T21:56:06.695635+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1791,7 +1791,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T17:18:20.310213+00:00",
+      "fetched_at": "2026-11-15T21:56:06.698653+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1893,7 +1893,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T17:18:20.311186+00:00",
+      "fetched_at": "2026-11-15T21:56:06.699641+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1968,7 +1968,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T17:18:20.340482+00:00",
+      "fetched_at": "2026-11-15T21:56:06.727861+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2070,7 +2070,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T17:18:20.367972+00:00",
+      "fetched_at": "2026-11-15T21:56:06.754162+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2145,7 +2145,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T17:18:20.369548+00:00",
+      "fetched_at": "2026-11-15T21:56:06.755762+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2247,7 +2247,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-15T17:18:20.386844+00:00",
+      "fetched_at": "2026-11-15T21:56:06.772797+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2349,7 +2349,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-15T17:18:20.398603+00:00",
+      "fetched_at": "2026-11-15T21:56:06.784462+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2451,7 +2451,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T17:18:20.407678+00:00",
+      "fetched_at": "2026-11-15T21:56:06.793480+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2553,7 +2553,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T17:18:20.411258+00:00",
+      "fetched_at": "2026-11-15T21:56:06.797026+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2655,7 +2655,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T17:18:20.420325+00:00",
+      "fetched_at": "2026-11-15T21:56:06.805864+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2757,7 +2757,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T17:18:20.422650+00:00",
+      "fetched_at": "2026-11-15T21:56:06.808155+00:00",
       "entries": [
         {
           "rank": 1,
@@ -3074,89 +3074,89 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-15T17:17:53.371917+00:00",
+        "checked_at": "2026-11-15T21:55:40.918953+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T17:17:53.371917+00:00"
+        "last_ok_at": "2026-11-15T21:55:40.918953+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-15T17:17:52.213733+00:00",
+        "checked_at": "2026-11-15T21:55:39.584407+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T17:17:52.213733+00:00"
+        "last_ok_at": "2026-11-15T21:55:39.584407+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-15T17:17:56.859416+00:00",
+        "checked_at": "2026-11-15T21:55:44.142192+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T17:17:56.859416+00:00"
+        "last_ok_at": "2026-11-15T21:55:44.142192+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-15T17:17:54.520277+00:00",
+        "checked_at": "2026-11-15T21:55:41.945091+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T17:17:54.520277+00:00"
+        "last_ok_at": "2026-11-15T21:55:41.945091+00:00"
       },
       {
         "name": "Google AI Blog",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-15T17:18:01.899650+00:00",
+        "checked_at": "2026-11-15T21:55:49.176155+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T17:18:01.899650+00:00"
+        "last_ok_at": "2026-11-15T21:55:49.176155+00:00"
       },
       {
         "name": "Google DeepMind",
         "ok": true,
         "items": 25,
         "error": null,
-        "checked_at": "2026-11-15T17:18:00.613968+00:00",
+        "checked_at": "2026-11-15T21:55:47.915757+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T17:18:00.613968+00:00"
+        "last_ok_at": "2026-11-15T21:55:47.915757+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-15T17:17:59.254110+00:00",
+        "checked_at": "2026-11-15T21:55:46.670754+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T17:17:59.254110+00:00"
+        "last_ok_at": "2026-11-15T21:55:46.670754+00:00"
       },
       {
         "name": "MIT Technology Review AI",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-15T17:18:07.432622+00:00",
+        "checked_at": "2026-11-15T21:55:53.991866+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T17:18:07.432622+00:00"
+        "last_ok_at": "2026-11-15T21:55:53.991866+00:00"
       },
       {
         "name": "TechCrunch AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-15T17:18:06.221006+00:00",
+        "checked_at": "2026-11-15T21:55:52.836854+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T17:18:06.221006+00:00"
+        "last_ok_at": "2026-11-15T21:55:52.836854+00:00"
       },
       {
         "name": "The Batch",
         "ok": false,
         "items": 4,
         "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
-        "checked_at": "2026-11-15T17:18:08.494559+00:00",
-        "failed_streak": 1,
+        "checked_at": "2026-11-15T21:55:55.133734+00:00",
+        "failed_streak": 2,
         "last_ok_at": "2026-11-15T10:10:07.698616+00:00"
       },
       {
@@ -3164,35 +3164,35 @@
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-15T17:18:05.158520+00:00",
+        "checked_at": "2026-11-15T21:55:51.678437+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T17:18:05.158520+00:00"
+        "last_ok_at": "2026-11-15T21:55:51.678437+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-15T17:17:55.723327+00:00",
+        "checked_at": "2026-11-15T21:55:42.973645+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T17:17:55.723327+00:00"
+        "last_ok_at": "2026-11-15T21:55:42.973645+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-15T17:17:58.025895+00:00",
+        "checked_at": "2026-11-15T21:55:45.305778+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T17:17:58.025895+00:00"
+        "last_ok_at": "2026-11-15T21:55:45.305778+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-15T17:18:20.425754+00:00",
+      "checked_at": "2026-11-15T21:56:06.811006+00:00",
       "failed_streak": 0,
-      "last_ok_at": "2026-11-15T17:18:20.425754+00:00"
+      "last_ok_at": "2026-11-15T21:56:06.811006+00:00"
     }
   }
 }
