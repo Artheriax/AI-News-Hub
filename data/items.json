@@ -1,7 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T23:22:49.605502+00:00",
+  "generated_at": "2026-11-15T02:54:18.762237+00:00",
   "items": [
+    {
+      "id": "rss:https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "title": "Where was Nvidia’s security team?",
+      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-15T00:08:07+00:00",
+      "summary": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which…",
+      "thumbnail": null,
+      "kind": "article"
+    },
     {
       "id": "rss:https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
       "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
@@ -426,17 +437,6 @@
       "kind": "article"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
-      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
-      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-12T17:17:58+00:00",
-      "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
       "id": "yt:gPNiuyYirfw",
       "title": "DeepMind’s AI Just Did The Impossible",
       "url": "https://www.youtube.com/watch?v=gPNiuyYirfw",
@@ -564,7 +564,7 @@
       "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 134,
+      "upvotes": 135,
       "arxiv_id": "2611.15777"
     },
     {
@@ -590,7 +590,7 @@
       "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open and reproducible recipe for converting pretrained generators into unified…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 34,
+      "upvotes": 35,
       "arxiv_id": "2611.15844"
     },
     {
@@ -797,6 +797,19 @@
       "arxiv_id": "2611.13410"
     },
     {
+      "id": "paper:2611.14309",
+      "title": "MMDM: Measuring Massive Multitask Decision Making",
+      "url": "https://huggingface.co/papers/2611.14309",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-10T00:00:00+00:00",
+      "summary": "System-1 Decision Models directly make structured probabilistic decisions over query-specified options given a state in a single forward pass, without autoregressively generating reasoning trajectories or textual responses. Recent evaluations cover diverse tasks but often rely on existing benchmarks, where prior exposure to test material can obscure generalization. Moreover, real-world decision…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 28,
+      "arxiv_id": "2611.14309"
+    },
+    {
       "id": "yt:pf5tXJZM1Rw",
       "title": "OpenAI spent $1.2 million hacking Linux... and it was a bargain",
       "url": "https://www.youtube.com/watch?v=pf5tXJZM1Rw",
@@ -904,6 +917,19 @@
       "arxiv_id": "2611.12426"
     },
     {
+      "id": "paper:2611.12177",
+      "title": "Embodied First Exam",
+      "url": "https://huggingface.co/papers/2611.12177",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-09T00:00:00+00:00",
+      "summary": "Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots. Existing robotics benchmarks are built around visuomotor policy learning, leaving it open whether coding agents can reliably control diverse robots under physical-world constraints. We therefore introduce the Embodied First Exam, a unified, comprehensive, and agent-native…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 28,
+      "arxiv_id": "2611.12177"
+    },
+    {
       "id": "yt:FNnVmvii6Uo",
       "title": "NEW Claude Model Family LEAKED?! Stealth Model BEATS Opus 5.5, OpenAI Cactus, Qoduck! AI NEWS",
       "url": "https://www.youtube.com/watch?v=FNnVmvii6Uo",
@@ -926,32 +952,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/9RIK3A24ZxA/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "paper:2611.13004",
-      "title": "G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation",
-      "url": "https://huggingface.co/papers/2611.13004",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-08T00:00:00+00:00",
-      "summary": "Discrete autoregressive models offer a scalable framework for image generation. However, they face a fundamental trade-off: long token sequences preserve representation quality but slow generation, while aggressive spatial compression reduces representation capacity. Based on product quantization, we show that, under a fixed nominal information budget, group size should scale quadratically with…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 45,
-      "arxiv_id": "2611.13004"
-    },
-    {
-      "id": "paper:2611.13001",
-      "title": "One Table, Many Queries: Benchmarking Generalist Tabular Models Across Generation, Imputation, and Prediction",
-      "url": "https://huggingface.co/papers/2611.13001",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-08T00:00:00+00:00",
-      "summary": "Generation, imputation, and prediction query different aspects of the same tabular distribution, but are usually evaluated separately. This leaves unclear which capabilities they share, how their training objectives interact, and whether one model can perform all three well. We introduce the One Table Benchmark (), spanning 56 datasets, 46 registered methods, and 20 capability axes under aligned…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 39,
-      "arxiv_id": "2611.13001"
     },
     {
       "id": "yt:GJ6PMUm5oTA",
@@ -1569,17 +1569,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/5F4wdtNbMt4/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
-    },
-    {
-      "id": "batch:/the-batch/issue-375",
-      "title": "Claude Haiku 5.5, Mistral Large 4, and Local Models for Mac and Windows",
-      "url": "https://www.deeplearning.ai/the-batch/issue-375",
-      "source": "The Batch",
-      "category": "newsletter",
-      "published": "2026-10-16T00:00:00+00:00",
-      "summary": "",
-      "thumbnail": "https://charonhub.deeplearning.ai/content/images/2026/10/Thoughts--Proofs--and-Robot-Triumph.webp",
-      "kind": "newsletter"
     }
   ],
   "featured": [
@@ -1598,7 +1587,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:22:49.485463+00:00",
+      "fetched_at": "2026-11-15T02:54:18.667890+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1700,7 +1689,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:22:49.487654+00:00",
+      "fetched_at": "2026-11-15T02:54:18.669508+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1802,7 +1791,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:22:49.490313+00:00",
+      "fetched_at": "2026-11-15T02:54:18.671463+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1904,7 +1893,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:22:49.491154+00:00",
+      "fetched_at": "2026-11-15T02:54:18.672101+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1979,7 +1968,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:22:49.521399+00:00",
+      "fetched_at": "2026-11-15T02:54:18.697277+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2081,7 +2070,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:22:49.546044+00:00",
+      "fetched_at": "2026-11-15T02:54:18.717264+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2156,7 +2145,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:22:49.547431+00:00",
+      "fetched_at": "2026-11-15T02:54:18.718318+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2258,7 +2247,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T23:22:49.562380+00:00",
+      "fetched_at": "2026-11-15T02:54:18.729340+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2360,7 +2349,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-14T23:22:49.573128+00:00",
+      "fetched_at": "2026-11-15T02:54:18.737566+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2462,7 +2451,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:22:49.580867+00:00",
+      "fetched_at": "2026-11-15T02:54:18.743439+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2564,7 +2553,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:22:49.583977+00:00",
+      "fetched_at": "2026-11-15T02:54:18.745675+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2666,7 +2655,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:22:49.591711+00:00",
+      "fetched_at": "2026-11-15T02:54:18.751605+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2768,7 +2757,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-14T23:22:49.593739+00:00",
+      "fetched_at": "2026-11-15T02:54:18.753123+00:00",
       "entries": [
         {
           "rank": 1,
@@ -3085,8 +3074,8 @@
         "ok": false,
         "items": 2,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-11-14T23:22:24.258638+00:00",
-        "failed_streak": 1,
+        "checked_at": "2026-11-15T02:53:54.454825+00:00",
+        "failed_streak": 2,
         "last_ok_at": "2026-11-14T23:17:33.860682+00:00"
       },
       {
@@ -3094,8 +3083,8 @@
         "ok": false,
         "items": 8,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-11-14T23:22:20.849382+00:00",
-        "failed_streak": 1,
+        "checked_at": "2026-11-15T02:53:53.406147+00:00",
+        "failed_streak": 2,
         "last_ok_at": "2026-11-14T23:17:32.834743+00:00"
       },
       {
@@ -3103,8 +3092,8 @@
         "ok": false,
         "items": 10,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-11-14T23:22:27.421441+00:00",
-        "failed_streak": 1,
+        "checked_at": "2026-11-15T02:53:57.600362+00:00",
+        "failed_streak": 2,
         "last_ok_at": "2026-11-14T23:17:36.952143+00:00"
       },
       {
@@ -3112,8 +3101,8 @@
         "ok": false,
         "items": 10,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-11-14T23:22:25.324369+00:00",
-        "failed_streak": 1,
+        "checked_at": "2026-11-15T02:53:55.497763+00:00",
+        "failed_streak": 2,
         "last_ok_at": "2026-11-14T23:17:34.878035+00:00"
       },
       {
@@ -3121,53 +3110,53 @@
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-14T23:22:32.222322+00:00",
+        "checked_at": "2026-11-15T02:54:02.349720+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-14T23:22:32.222322+00:00"
+        "last_ok_at": "2026-11-15T02:54:02.349720+00:00"
       },
       {
         "name": "Google DeepMind",
         "ok": true,
         "items": 25,
         "error": null,
-        "checked_at": "2026-11-14T23:22:30.917910+00:00",
+        "checked_at": "2026-11-15T02:54:01.117477+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-14T23:22:30.917910+00:00"
+        "last_ok_at": "2026-11-15T02:54:01.117477+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-14T23:22:29.708176+00:00",
+        "checked_at": "2026-11-15T02:53:59.856962+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-14T23:22:29.708176+00:00"
+        "last_ok_at": "2026-11-15T02:53:59.856962+00:00"
       },
       {
         "name": "MIT Technology Review AI",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-14T23:22:36.970465+00:00",
+        "checked_at": "2026-11-15T02:54:06.902214+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-14T23:22:36.970465+00:00"
+        "last_ok_at": "2026-11-15T02:54:06.902214+00:00"
       },
       {
         "name": "TechCrunch AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-14T23:22:35.801123+00:00",
+        "checked_at": "2026-11-15T02:54:05.778616+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-14T23:22:35.801123+00:00"
+        "last_ok_at": "2026-11-15T02:54:05.778616+00:00"
       },
       {
         "name": "The Batch",
         "ok": false,
         "items": 5,
         "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
-        "checked_at": "2026-11-14T23:22:38.102831+00:00",
-        "failed_streak": 1,
+        "checked_at": "2026-11-15T02:54:08.023486+00:00",
+        "failed_streak": 2,
         "last_ok_at": "2026-11-14T23:17:47.018443+00:00"
       },
       {
@@ -3175,17 +3164,17 @@
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-14T23:22:34.640421+00:00",
+        "checked_at": "2026-11-15T02:54:04.687728+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-14T23:22:34.640421+00:00"
+        "last_ok_at": "2026-11-15T02:54:04.687728+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-14T23:22:26.358964+00:00",
-        "failed_streak": 0,
+        "ok": false,
+        "items": 8,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "checked_at": "2026-11-15T02:53:56.551396+00:00",
+        "failed_streak": 1,
         "last_ok_at": "2026-11-14T23:22:26.358964+00:00"
       },
       {
@@ -3193,17 +3182,17 @@
         "ok": false,
         "items": 15,
         "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-11-14T23:22:28.487610+00:00",
-        "failed_streak": 1,
+        "checked_at": "2026-11-15T02:53:58.652108+00:00",
+        "failed_streak": 2,
         "last_ok_at": "2026-11-14T23:18:25.076926+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-14T23:22:49.596631+00:00",
+      "checked_at": "2026-11-15T02:54:18.755814+00:00",
       "failed_streak": 0,
-      "last_ok_at": "2026-11-14T23:22:49.596631+00:00"
+      "last_ok_at": "2026-11-15T02:54:18.755814+00:00"
     }
   }
 }
