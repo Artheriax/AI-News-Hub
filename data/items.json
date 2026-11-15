@@ -1,7 +1,42 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T02:54:18.762237+00:00",
+  "generated_at": "2026-11-15T10:10:20.278074+00:00",
   "items": [
+    {
+      "id": "rss:https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+      "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+      "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-15T10:06:06+00:00",
+      "summary": "Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents and trained entirely on Chinese hardware. On Terminal Bench, it scores 88.4 points, landing just behind Claude Opus 5. The sample deployment runs on 194 Huawei Ascend chips, and Meituan makes no…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/meituan-logo-wall-chatgpt-5.6.jpg",
+      "kind": "article"
+    },
+    {
+      "id": "yt:iXvttGCoc1g",
+      "title": "Gemini 4 Krypton BEATS FABLE 5.2!?, GPT-6.2 Preview, GLM-5.5 LEAKED & Claude Code UPDATE! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=iXvttGCoc1g",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-11-15T07:13:16+00:00",
+      "summary": "Your whole AI workflow in one place, from $10/month: Mammouth → https://mammouth.ai Google is moving at an INSANE pace! 🚀 A new Gemini 4 Krypton checkpoint, reportedly being tested on Arena under the name gemini-4-hydrogen, is showing some incredible early results, potentially challenging Claude…",
+      "thumbnail": "https://i2.ytimg.com/vi/iXvttGCoc1g/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
+    {
+      "id": "yt:woWo80dPkVk",
+      "title": "Gemini 4 Carbon, Alpha Genome 2, realtime voices, new TTS, ACE Music, Seedream 5.5: AI NEWS",
+      "url": "https://www.youtube.com/watch?v=woWo80dPkVk",
+      "source": "AI Search",
+      "category": "videos",
+      "published": "2026-11-15T03:25:24+00:00",
+      "summary": "HUGE AI NEWS: Gemini 4 Carbon review, Gemini Hydrogen, Muse Ember, Ernie 5.5. Thanks to our sponsor BytePlus Seedream 5.5. Try it today! Try it today! https://www.byteplus.com/en/contact-us/seedream5-5 #ai #ainews #aitools #aivideo #agi #singularity 00:00 AI news intro 01:03 Budget3D 02:18 Reshoot…",
+      "thumbnail": "https://i4.ytimg.com/vi/woWo80dPkVk/hqdefault.jpg",
+      "kind": "video",
+      "channel": "AI Search"
+    },
     {
       "id": "rss:https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
       "title": "Where was Nvidia’s security team?",
@@ -200,17 +235,6 @@
       "published": "2026-11-13T18:01:53+00:00",
       "summary": "Chinese investors are shut out of Anthropic's IPO, Bloomberg reports. Banks are rejecting buy orders from mainland China and Hong Kong, citing U.S. export control rules known as ITAR. Similar restrictions applied during SpaceX's IPO, and Anthropic's products aren't available in either region…",
       "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/08/anthropic_claude.png",
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
-      "title": "Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows",
-      "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-13T16:37:01+00:00",
-      "summary": "Anthropic's new Claude for Manufacturing plugin connects the AI directly to Autodesk Fusion, Oracle NetSuite, and Infor. Its 17 specialized skills let the AI draft quotes, compare suppliers, and place backup orders when deliveries are delayed, all after human approval. The plugin doesn't control…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/claude_for_manufactoring.png",
       "kind": "article"
     },
     {
@@ -495,7 +519,7 @@
       "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 33,
+      "upvotes": 34,
       "arxiv_id": "2611.17167"
     },
     {
@@ -564,7 +588,7 @@
       "summary": "System One models promise fast, general-purpose decision-making without lengthy token generation. However, understanding their capability spectrum and decision reliability requires more than aggregate performance on current benchmarks. Existing evaluations often provide limited insight into the breadth of model capabilities and the reliability of their decisions. We introduce SO-Arena, a…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 135,
+      "upvotes": 136,
       "arxiv_id": "2611.15777"
     },
     {
@@ -793,7 +817,7 @@
       "summary": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Correcting these behavioral divergences remains difficult: offline data may miss the student's…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 36,
+      "upvotes": 37,
       "arxiv_id": "2611.13410"
     },
     {
@@ -900,7 +924,7 @@
       "summary": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 runs with 24-hour budgets, totaling over 10,000 GPU-hours. Our results show that model rankings vary with the evaluation…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 51,
+      "upvotes": 52,
       "arxiv_id": "2611.11995"
     },
     {
@@ -1290,18 +1314,6 @@
       "kind": "article"
     },
     {
-      "id": "yt:GlRVbIdc_Mk",
-      "title": "HUGE GPT-6.2 BEL LEAK! Opus 6, Gemini 4 Carbon First Look, Claude Fable 5.5, Qwen 4 & More! AI NEWS",
-      "url": "https://www.youtube.com/watch?v=GlRVbIdc_Mk",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-10-30T07:39:47+00:00",
-      "summary": "Every top AI model in one place, from $10/month: Mammouth → https://mammouth.ai OpenAI's mysterious GPT-6.2 Bel (Betelgeuse) has reportedly been spotted in internal tracking, potentially signaling another massive frontier model release! Meanwhile, Anthropic is testing rumored new Claude…",
-      "thumbnail": "https://i4.ytimg.com/vi/GlRVbIdc_Mk/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "batch:/the-batch/issue-377",
       "title": "Zombie Agents, Vampire Models, Witch Hunts, and the Mummy's Curse: AI Fears for Halloween 2026",
       "url": "https://www.deeplearning.ai/the-batch/issue-377",
@@ -1587,7 +1599,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T02:54:18.667890+00:00",
+      "fetched_at": "2026-11-15T10:10:20.183351+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1689,7 +1701,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T02:54:18.669508+00:00",
+      "fetched_at": "2026-11-15T10:10:20.185043+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1791,7 +1803,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T02:54:18.671463+00:00",
+      "fetched_at": "2026-11-15T10:10:20.187198+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1893,7 +1905,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T02:54:18.672101+00:00",
+      "fetched_at": "2026-11-15T10:10:20.187916+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1968,7 +1980,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T02:54:18.697277+00:00",
+      "fetched_at": "2026-11-15T10:10:20.210161+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2070,7 +2082,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T02:54:18.717264+00:00",
+      "fetched_at": "2026-11-15T10:10:20.230200+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2145,7 +2157,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T02:54:18.718318+00:00",
+      "fetched_at": "2026-11-15T10:10:20.231344+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2247,7 +2259,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-15T02:54:18.729340+00:00",
+      "fetched_at": "2026-11-15T10:10:20.243255+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2349,7 +2361,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-15T02:54:18.737566+00:00",
+      "fetched_at": "2026-11-15T10:10:20.251928+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2451,7 +2463,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T02:54:18.743439+00:00",
+      "fetched_at": "2026-11-15T10:10:20.258228+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2553,7 +2565,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T02:54:18.745675+00:00",
+      "fetched_at": "2026-11-15T10:10:20.260669+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2655,7 +2667,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T02:54:18.751605+00:00",
+      "fetched_at": "2026-11-15T10:10:20.266924+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2757,7 +2769,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T02:54:18.753123+00:00",
+      "fetched_at": "2026-11-15T10:10:20.268543+00:00",
       "entries": [
         {
           "rank": 1,
@@ -3071,128 +3083,128 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": false,
-        "items": 2,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
-        "checked_at": "2026-11-15T02:53:54.454825+00:00",
-        "failed_streak": 2,
-        "last_ok_at": "2026-11-14T23:17:33.860682+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-15T10:09:53.180543+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-15T10:09:53.180543+00:00"
       },
       {
         "name": "AI Search",
-        "ok": false,
-        "items": 8,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
-        "checked_at": "2026-11-15T02:53:53.406147+00:00",
-        "failed_streak": 2,
-        "last_ok_at": "2026-11-14T23:17:32.834743+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-15T10:09:52.155643+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-15T10:09:52.155643+00:00"
       },
       {
         "name": "Bijan Bowen",
-        "ok": false,
-        "items": 10,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCOCahKBCEUuzDJawM7yN1dg",
-        "checked_at": "2026-11-15T02:53:57.600362+00:00",
-        "failed_streak": 2,
-        "last_ok_at": "2026-11-14T23:17:36.952143+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-15T10:09:56.347831+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-15T10:09:56.347831+00:00"
       },
       {
         "name": "Fireship",
-        "ok": false,
-        "items": 10,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
-        "checked_at": "2026-11-15T02:53:55.497763+00:00",
-        "failed_streak": 2,
-        "last_ok_at": "2026-11-14T23:17:34.878035+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-15T10:09:54.197400+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-15T10:09:54.197400+00:00"
       },
       {
         "name": "Google AI Blog",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-15T02:54:02.349720+00:00",
+        "checked_at": "2026-11-15T10:10:01.292712+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T02:54:02.349720+00:00"
+        "last_ok_at": "2026-11-15T10:10:01.292712+00:00"
       },
       {
         "name": "Google DeepMind",
         "ok": true,
         "items": 25,
         "error": null,
-        "checked_at": "2026-11-15T02:54:01.117477+00:00",
+        "checked_at": "2026-11-15T10:09:59.927610+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T02:54:01.117477+00:00"
+        "last_ok_at": "2026-11-15T10:09:59.927610+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-15T02:53:59.856962+00:00",
+        "checked_at": "2026-11-15T10:09:58.546326+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T02:53:59.856962+00:00"
+        "last_ok_at": "2026-11-15T10:09:58.546326+00:00"
       },
       {
         "name": "MIT Technology Review AI",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-15T02:54:06.902214+00:00",
+        "checked_at": "2026-11-15T10:10:06.523930+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T02:54:06.902214+00:00"
+        "last_ok_at": "2026-11-15T10:10:06.523930+00:00"
       },
       {
         "name": "TechCrunch AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-15T02:54:05.778616+00:00",
+        "checked_at": "2026-11-15T10:10:05.444478+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T02:54:05.778616+00:00"
+        "last_ok_at": "2026-11-15T10:10:05.444478+00:00"
       },
       {
         "name": "The Batch",
-        "ok": false,
-        "items": 5,
-        "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
-        "checked_at": "2026-11-15T02:54:08.023486+00:00",
-        "failed_streak": 2,
-        "last_ok_at": "2026-11-14T23:17:47.018443+00:00"
+        "ok": true,
+        "items": 16,
+        "error": null,
+        "checked_at": "2026-11-15T10:10:07.698616+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-15T10:10:07.698616+00:00"
       },
       {
         "name": "The Decoder",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-15T02:54:04.687728+00:00",
+        "checked_at": "2026-11-15T10:10:04.391296+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T02:54:04.687728+00:00"
+        "last_ok_at": "2026-11-15T10:10:04.391296+00:00"
       },
       {
         "name": "Two Minute Papers",
-        "ok": false,
-        "items": 8,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
-        "checked_at": "2026-11-15T02:53:56.551396+00:00",
-        "failed_streak": 1,
-        "last_ok_at": "2026-11-14T23:22:26.358964+00:00"
+        "ok": true,
+        "items": 15,
+        "error": null,
+        "checked_at": "2026-11-15T10:09:55.215089+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-15T10:09:55.215089+00:00"
       },
       {
         "name": "World of AI",
-        "ok": false,
+        "ok": true,
         "items": 15,
-        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
-        "checked_at": "2026-11-15T02:53:58.652108+00:00",
-        "failed_streak": 2,
-        "last_ok_at": "2026-11-14T23:18:25.076926+00:00"
+        "error": null,
+        "checked_at": "2026-11-15T10:09:57.376639+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-15T10:09:57.376639+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-15T02:54:18.755814+00:00",
+      "checked_at": "2026-11-15T10:10:20.271046+00:00",
       "failed_streak": 0,
-      "last_ok_at": "2026-11-15T02:54:18.755814+00:00"
+      "last_ok_at": "2026-11-15T10:10:20.271046+00:00"
     }
   }
 }
