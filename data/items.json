@@ -1,7 +1,29 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T21:56:06.820597+00:00",
+  "generated_at": "2026-11-16T01:30:11.863014+00:00",
   "items": [
+    {
+      "id": "rss:https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-15T23:30:00+00:00",
+      "summary": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+      "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-15T21:56:35+00:00",
+      "summary": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+      "thumbnail": null,
+      "kind": "article"
+    },
     {
       "id": "rss:https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
       "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
@@ -417,28 +439,6 @@
       "kind": "article"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
-      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
-      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-12T19:11:00+00:00",
-      "summary": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
-      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
-      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-12T18:39:23+00:00",
-      "summary": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
       "id": "rss:https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
       "title": "Introducing Gemini 4 Hydrogen",
       "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
@@ -534,6 +534,19 @@
       "kind": "paper",
       "upvotes": 30,
       "arxiv_id": "2611.17060"
+    },
+    {
+      "id": "paper:2611.17331",
+      "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
+      "url": "https://huggingface.co/papers/2611.17331",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-12T00:00:00+00:00",
+      "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy that learns to bake global scene information from cross-view attention into a…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 25,
+      "arxiv_id": "2611.17331"
     },
     {
       "id": "rss:https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
@@ -778,7 +791,7 @@
       "summary": "Few-step sampling reduces the cost of streaming video generation. Distribution Matching Distillation (DMD) supervises few-step generators with a separate fake-score network, which adds training memory and computation and must track the evolving generator. We extend APEX to streaming video by using condition shifting to estimate the velocity field of the generated distribution within the…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 88,
+      "upvotes": 89,
       "arxiv_id": "2611.14033"
     },
     {
@@ -791,7 +804,7 @@
       "summary": "External memory enables LLM agents to improve from experience by distilling trajectories of past tasks into concise lessons for new tasks. However, memory can also lead to memory-induced degradation, where an agent fails on tasks it would solve without memory, often because it follows a lesson that is incorrect, or misapplies or misreads a valid one. This is because lessons are inferred from…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 70,
+      "upvotes": 72,
       "arxiv_id": "2611.14320"
     },
     {
@@ -817,7 +830,7 @@
       "summary": "Weight-space programming, introduced in recent MIT work by Takehi et al., enables a frontier LLM agent to read a network's weights and write a repair. Their GPT-6 Astra agent corrected the reasoning loops of Qwen3.5-0.8B without gradients, using 158 agent turns, 89.7 million tokens, and 50 forward-pass requests. Our method, Tree-Ising, casts this repair as a sparse discrete optimization problem…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 45,
+      "upvotes": 46,
       "arxiv_id": "2611.14210"
     },
     {
@@ -830,8 +843,34 @@
       "summary": "Low-bit quantization reduces the inference cost of LLM agents but can compromise task success. Examining failed rollouts, we find that quantized agents overlook task requirements or environmental conditions, producing environment transitions that diverge from successful full-precision references. Correcting these behavioral divergences remains difficult: offline data may miss the student's…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 37,
+      "upvotes": 39,
       "arxiv_id": "2611.13410"
+    },
+    {
+      "id": "paper:2611.14309",
+      "title": "MMDM: Measuring Massive Multitask Decision Making",
+      "url": "https://huggingface.co/papers/2611.14309",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-10T00:00:00+00:00",
+      "summary": "System-1 Decision Models directly make structured probabilistic decisions over query-specified options given a state in a single forward pass, without autoregressively generating reasoning trajectories or textual responses. Recent evaluations cover diverse tasks but often rely on existing benchmarks, where prior exposure to test material can obscure generalization. Moreover, real-world decision…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 28,
+      "arxiv_id": "2611.14309"
+    },
+    {
+      "id": "paper:2611.11166",
+      "title": "DexForesight: Grounding Dexterous Policies with Implicit Spatial Foresight",
+      "url": "https://huggingface.co/papers/2611.11166",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-10T00:00:00+00:00",
+      "summary": "Dexterous manipulation requires rich spatial foresight over both the surrounding scene and the robot hand. Existing world-action models often acquire such predictive knowledge through explicit future prediction. We introduce DexForesight, a framework that learns spatial foresight implicitly by injecting dynamics-aware world representations into the latent space of a dexterous policy. During…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 26,
+      "arxiv_id": "2611.11166"
     },
     {
       "id": "yt:pf5tXJZM1Rw",
@@ -879,6 +918,19 @@
       "kind": "article"
     },
     {
+      "id": "paper:2611.12527",
+      "title": "WaveGen: Truly End-to-End Waveform Generation via Internal Spectral Trajectory Learning",
+      "url": "https://huggingface.co/papers/2611.12527",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-09T15:02:29+00:00",
+      "summary": "This work proposes WaveGen, a fully end-to-end diffusion-based text-to-waveform framework based on Spectral Forcing, which jointly learns an internal spectral trajectory and the target waveform trajectory within a single model, enabling direct end-to-end text-to-waveform generation. Unlike recent TTS pipelines, WaveGen does not rely on separately trained or externally decoded intermediate…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 19,
+      "arxiv_id": "2611.12527"
+    },
+    {
       "id": "rss:https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
       "title": "Innovating with AI in the special chemicals industry",
       "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
@@ -900,58 +952,6 @@
       "thumbnail": "https://i4.ytimg.com/vi/WzZtBgfeUxg/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
-    },
-    {
-      "id": "paper:2611.12885",
-      "title": "World In-Context Learning for Agentic Robot Manipulation",
-      "url": "https://huggingface.co/papers/2611.12885",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-09T00:00:00+00:00",
-      "summary": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 57,
-      "arxiv_id": "2611.12885"
-    },
-    {
-      "id": "paper:2611.11995",
-      "title": "Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization",
-      "url": "https://huggingface.co/papers/2611.11995",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-09T00:00:00+00:00",
-      "summary": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 runs with 24-hour budgets, totaling over 10,000 GPU-hours. Our results show that model rankings vary with the evaluation…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 52,
-      "arxiv_id": "2611.11995"
-    },
-    {
-      "id": "paper:2611.12426",
-      "title": "dNaViT: Discrete Codes are General-Purpose Visual Representations",
-      "url": "https://huggingface.co/papers/2611.12426",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-09T00:00:00+00:00",
-      "summary": "Discrete autoregressive modeling, notably through next-token prediction, has become a cornerstone of modern language models. Extending this paradigm to vision allows visual and language models to converge on a unified framework, thereby fostering shared methodology and infrastructure. This work investigates a central question: how far can a finite discrete vocabulary go in representing the…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 35,
-      "arxiv_id": "2611.12426"
-    },
-    {
-      "id": "paper:2611.12177",
-      "title": "Embodied First Exam",
-      "url": "https://huggingface.co/papers/2611.12177",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-09T00:00:00+00:00",
-      "summary": "Early successes on agentic robotics point to a potential paradigm shift toward using coding agents to control robots. Existing robotics benchmarks are built around visuomotor policy learning, leaving it open whether coding agents can reliably control diverse robots under physical-world constraints. We therefore introduce the Embodied First Exam, a unified, comprehensive, and agent-native…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 28,
-      "arxiv_id": "2611.12177"
     },
     {
       "id": "yt:FNnVmvii6Uo",
@@ -1587,7 +1587,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T21:56:06.693247+00:00",
+      "fetched_at": "2026-11-16T01:30:11.787652+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1689,7 +1689,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T21:56:06.695635+00:00",
+      "fetched_at": "2026-11-16T01:30:11.788922+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1791,7 +1791,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T21:56:06.698653+00:00",
+      "fetched_at": "2026-11-16T01:30:11.790485+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1893,7 +1893,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T21:56:06.699641+00:00",
+      "fetched_at": "2026-11-16T01:30:11.790982+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1968,7 +1968,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T21:56:06.727861+00:00",
+      "fetched_at": "2026-11-16T01:30:11.809724+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2070,7 +2070,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T21:56:06.754162+00:00",
+      "fetched_at": "2026-11-16T01:30:11.823823+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2145,7 +2145,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T21:56:06.755762+00:00",
+      "fetched_at": "2026-11-16T01:30:11.824667+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2247,7 +2247,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-15T21:56:06.772797+00:00",
+      "fetched_at": "2026-11-16T01:30:11.833293+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2349,7 +2349,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-15T21:56:06.784462+00:00",
+      "fetched_at": "2026-11-16T01:30:11.839828+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2451,7 +2451,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T21:56:06.793480+00:00",
+      "fetched_at": "2026-11-16T01:30:11.844461+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2553,7 +2553,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T21:56:06.797026+00:00",
+      "fetched_at": "2026-11-16T01:30:11.846279+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2655,31 +2655,31 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T21:56:06.805864+00:00",
+      "fetched_at": "2026-11-16T01:30:11.850829+00:00",
       "entries": [
         {
           "rank": 1,
+          "name": "Eleven v4 Turbo",
+          "creator": "ElevenLabs",
+          "score": 1340.0,
+          "meta": "Sept 2026 · $40.00 /1M chars",
+          "previous_rank": 2,
+          "rank_delta": 1
+        },
+        {
+          "rank": 2,
           "name": "Eleven v4",
           "creator": "ElevenLabs",
           "score": 1340.0,
           "meta": "Sept 2026 · $80.00 /1M chars",
           "previous_rank": 1,
-          "rank_delta": 0
-        },
-        {
-          "rank": 2,
-          "name": "Eleven v4 Turbo",
-          "creator": "ElevenLabs",
-          "score": 1339.0,
-          "meta": "Sept 2026 · $40.00 /1M chars",
-          "previous_rank": 2,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
           "rank": 3,
           "name": "Qwen-Audio-3.1-TTS-Plus",
           "creator": "Alibaba",
-          "score": 1300.0,
+          "score": 1298.0,
           "meta": "Sept 2026 · $19.31 /1M chars",
           "previous_rank": 3,
           "rank_delta": 0
@@ -2688,7 +2688,7 @@
           "rank": 4,
           "name": "Sonic 3.6",
           "creator": "Cartesia",
-          "score": 1294.0,
+          "score": 1295.0,
           "meta": "Aug 2026 · $49.00 /1M chars",
           "previous_rank": 4,
           "rank_delta": 0
@@ -2697,7 +2697,7 @@
           "rank": 5,
           "name": "Simba 3.5",
           "creator": "SpeechifyAI",
-          "score": 1294.0,
+          "score": 1291.0,
           "meta": "Nov 2026 · $6.58 /1M chars",
           "previous_rank": 5,
           "rank_delta": 0
@@ -2706,7 +2706,7 @@
           "rank": 6,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Google",
-          "score": 1284.0,
+          "score": 1283.0,
           "meta": "Sept 2026 · $16.49 /1M chars",
           "previous_rank": 6,
           "rank_delta": 0
@@ -2715,7 +2715,7 @@
           "rank": 7,
           "name": "Fish Audio Drama 3",
           "creator": "Fish Audio",
-          "score": 1275.0,
+          "score": 1277.0,
           "meta": "Oct 2026 · $15.00 /1M chars",
           "previous_rank": 7,
           "rank_delta": 0
@@ -2742,7 +2742,7 @@
           "rank": 10,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Alibaba",
-          "score": 1264.0,
+          "score": 1265.0,
           "meta": "Sept 2026 · $19.31 /1M chars",
           "previous_rank": 10,
           "rank_delta": 0
@@ -2757,13 +2757,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-15T21:56:06.808155+00:00",
+      "fetched_at": "2026-11-16T01:30:11.852023+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fish Audio Drama 3",
           "creator": "Fish Audio",
-          "score": 1275.0,
+          "score": 1277.0,
           "meta": "Oct 2026 · $15.00 /1M chars",
           "previous_rank": 1,
           "rank_delta": 0
@@ -2772,7 +2772,7 @@
           "rank": 2,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio",
-          "score": 1239.0,
+          "score": 1238.0,
           "meta": "Oct 2026 · $15.00 /1M chars",
           "previous_rank": 2,
           "rank_delta": 0
@@ -2790,7 +2790,7 @@
           "rank": 4,
           "name": "Ming-3.0-tts",
           "creator": "Ant Group",
-          "score": 1182.0,
+          "score": 1183.0,
           "meta": "Oct 2026 · N/A",
           "previous_rank": 4,
           "rank_delta": 0
@@ -2826,28 +2826,28 @@
           "rank": 8,
           "name": "Voxtral TTS",
           "creator": "Mistral",
-          "score": 1094.0,
+          "score": 1093.0,
           "meta": "Mar 2026 · $16.00 /1M chars",
           "previous_rank": 8,
           "rank_delta": 0
         },
         {
           "rank": 9,
-          "name": "Kokoro 82M v1.0",
-          "creator": "Kokoro",
-          "score": 1061.0,
-          "meta": "Jan 2025 · $0.65 /1M chars",
-          "previous_rank": 9,
-          "rank_delta": 0
+          "name": "Magpie-Multilingual 357M (Feb 2026)",
+          "creator": "NVIDIA",
+          "score": 1062.0,
+          "meta": "Feb 2026 · N/A",
+          "previous_rank": 10,
+          "rank_delta": 1
         },
         {
           "rank": 10,
-          "name": "Magpie-Multilingual 357M (Feb 2026)",
-          "creator": "NVIDIA",
+          "name": "Kokoro 82M v1.0",
+          "creator": "Kokoro",
           "score": 1060.0,
-          "meta": "Feb 2026 · N/A",
-          "previous_rank": 10,
-          "rank_delta": 0
+          "meta": "Jan 2025 · $0.65 /1M chars",
+          "previous_rank": 9,
+          "rank_delta": -1
         }
       ]
     }
@@ -3049,7 +3049,7 @@
         "board_open": "tts-provider-voice-open",
         "source_note": "Top-1 of own Artificial Analysis boards (snapshot per fetch)",
         "closed_winner": {
-          "model": "Eleven v4",
+          "model": "Eleven v4 Turbo",
           "developer": "ElevenLabs",
           "score": "1340",
           "released": "Sept 2026"
@@ -3057,12 +3057,12 @@
         "open_winner": {
           "model": "Fish Audio Drama 3",
           "developer": "Fish Audio",
-          "score": "1275",
+          "score": "1277",
           "released": "Oct 2026"
         },
         "runner_up": {
-          "model": "Eleven v4 Turbo",
-          "score": "1339"
+          "model": "Eleven v4",
+          "score": "1340"
         }
       }
     ]
@@ -3071,20 +3071,20 @@
     "sources": [
       {
         "name": "AI Explained",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-15T21:55:40.918953+00:00",
-        "failed_streak": 0,
+        "ok": false,
+        "items": 2,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "checked_at": "2026-11-16T01:29:47.902575+00:00",
+        "failed_streak": 1,
         "last_ok_at": "2026-11-15T21:55:40.918953+00:00"
       },
       {
         "name": "AI Search",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-15T21:55:39.584407+00:00",
-        "failed_streak": 0,
+        "ok": false,
+        "items": 9,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCIgnGlGkVRhd4qNFcEwLL4A",
+        "checked_at": "2026-11-16T01:29:46.866119+00:00",
+        "failed_streak": 1,
         "last_ok_at": "2026-11-15T21:55:39.584407+00:00"
       },
       {
@@ -3092,17 +3092,17 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-15T21:55:44.142192+00:00",
+        "checked_at": "2026-11-16T01:29:50.979260+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T21:55:44.142192+00:00"
+        "last_ok_at": "2026-11-16T01:29:50.979260+00:00"
       },
       {
         "name": "Fireship",
-        "ok": true,
-        "items": 15,
-        "error": null,
-        "checked_at": "2026-11-15T21:55:41.945091+00:00",
-        "failed_streak": 0,
+        "ok": false,
+        "items": 10,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "checked_at": "2026-11-16T01:29:48.939891+00:00",
+        "failed_streak": 1,
         "last_ok_at": "2026-11-15T21:55:41.945091+00:00"
       },
       {
@@ -3110,53 +3110,53 @@
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-15T21:55:49.176155+00:00",
+        "checked_at": "2026-11-16T01:29:55.535506+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T21:55:49.176155+00:00"
+        "last_ok_at": "2026-11-16T01:29:55.535506+00:00"
       },
       {
         "name": "Google DeepMind",
         "ok": true,
         "items": 25,
         "error": null,
-        "checked_at": "2026-11-15T21:55:47.915757+00:00",
+        "checked_at": "2026-11-16T01:29:54.338189+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T21:55:47.915757+00:00"
+        "last_ok_at": "2026-11-16T01:29:54.338189+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-15T21:55:46.670754+00:00",
+        "checked_at": "2026-11-16T01:29:53.145181+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T21:55:46.670754+00:00"
+        "last_ok_at": "2026-11-16T01:29:53.145181+00:00"
       },
       {
         "name": "MIT Technology Review AI",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-15T21:55:53.991866+00:00",
+        "checked_at": "2026-11-16T01:29:59.926526+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T21:55:53.991866+00:00"
+        "last_ok_at": "2026-11-16T01:29:59.926526+00:00"
       },
       {
         "name": "TechCrunch AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-15T21:55:52.836854+00:00",
+        "checked_at": "2026-11-16T01:29:58.843115+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T21:55:52.836854+00:00"
+        "last_ok_at": "2026-11-16T01:29:58.843115+00:00"
       },
       {
         "name": "The Batch",
         "ok": false,
         "items": 4,
         "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
-        "checked_at": "2026-11-15T21:55:55.133734+00:00",
-        "failed_streak": 2,
+        "checked_at": "2026-11-16T01:30:01.094931+00:00",
+        "failed_streak": 3,
         "last_ok_at": "2026-11-15T10:10:07.698616+00:00"
       },
       {
@@ -3164,35 +3164,35 @@
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-15T21:55:51.678437+00:00",
+        "checked_at": "2026-11-16T01:29:57.753277+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T21:55:51.678437+00:00"
+        "last_ok_at": "2026-11-16T01:29:57.753277+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-15T21:55:42.973645+00:00",
+        "checked_at": "2026-11-16T01:29:49.962604+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-15T21:55:42.973645+00:00"
+        "last_ok_at": "2026-11-16T01:29:49.962604+00:00"
       },
       {
         "name": "World of AI",
-        "ok": true,
+        "ok": false,
         "items": 15,
-        "error": null,
-        "checked_at": "2026-11-15T21:55:45.305778+00:00",
-        "failed_streak": 0,
+        "error": "404 Client Error: Not Found for url: https://www.youtube.com/feeds/videos.xml?channel_id=UC2WmuBuFq6gL08QYG-JjXKw",
+        "checked_at": "2026-11-16T01:29:52.012845+00:00",
+        "failed_streak": 1,
         "last_ok_at": "2026-11-15T21:55:45.305778+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-15T21:56:06.811006+00:00",
+      "checked_at": "2026-11-16T01:30:11.857408+00:00",
       "failed_streak": 0,
-      "last_ok_at": "2026-11-15T21:56:06.811006+00:00"
+      "last_ok_at": "2026-11-16T01:30:11.857408+00:00"
     }
   }
 }
