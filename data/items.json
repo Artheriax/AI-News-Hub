@@ -1,7 +1,129 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T19:29:23.625239+00:00",
+  "generated_at": "2026-11-18T01:47:22.633526+00:00",
   "items": [
+    {
+      "id": "rss:https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future  deals in doubt",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-18T01:44:21+00:00",
+      "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "yt:jm_h5nRZoCg",
+      "title": "GPT-6.2 Astra Is INSANE – Does THIS Beat Claude Fable?",
+      "url": "https://www.youtube.com/watch?v=jm_h5nRZoCg",
+      "source": "Bijan Bowen",
+      "category": "videos",
+      "published": "2026-11-18T00:39:37+00:00",
+      "summary": "Timestamps: 00:00 - Intro 00:43 - First Look 02:06 - Technical Look 03:13 - Browser OS Test 08:57 - C++ Skate Game Test 13:38 - Subway FPS Test 16:56 - Peri Robot Mention 17:27 - Robot Arm Test 18:30 - 3D Print & CAD Test 22:49 - GTA C++ Skate Game Test 26:44 - Pool Wrestling Game Test 29:09…",
+      "thumbnail": "https://i3.ytimg.com/vi/jm_h5nRZoCg/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Bijan Bowen"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+      "title": "Nvidia promises that revenue will keep soaring — for now",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-18T00:16:50+00:00",
+      "summary": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+      "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-17T23:37:48+00:00",
+      "summary": "Nvidia's interim CEO says the company is done selling chips to China. How much will that cost?",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+      "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-17T23:04:35+00:00",
+      "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+      "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-17T22:42:27+00:00",
+      "summary": "The former CEO offered to return to his top role at the company after his resignation last week.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+      "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-17T22:29:05+00:00",
+      "summary": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+      "title": "SEC reportedly investigating Nvidia amid Huang exit",
+      "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-17T21:48:07+00:00",
+      "summary": "The SEC is opening a probe into Nvidia following the departure of CEO Jensen Huang, who admitted to an affair with an alleged Chinese spy, reports The Wall Street Journal.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+      "title": "Google joins the tech outage trend by announcing it’s not having one",
+      "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-17T21:34:50+00:00",
+      "summary": "With tech outages seemingly everywhere, Google took the unusual step of announcing that Gmail is working just fine, actually.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/",
+      "title": "OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains",
+      "url": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-17T20:30:50+00:00",
+      "summary": "OpenAI releases GPT-6.2 Astra and Sol, two new models that are more capable and cheaper than their predecessors. In the independent Artificial Analysis Intelligence Index, Astra ranks second behind Claude Fable 5.2, and it is the first released model to reach the High threshold for AI…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/openai_vals_sol.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+      "title": "Model ML raises $250M to automate investment banking grunt work",
+      "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-17T19:32:11+00:00",
+      "summary": "The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
+      "thumbnail": null,
+      "kind": "article"
+    },
     {
       "id": "rss:https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
       "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
@@ -212,28 +334,6 @@
       "kind": "article"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
-      "title": "Nvidia’s first big move after Jensen Huang’s exit targets national security",
-      "url": "https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-17T14:05:30+00:00",
-      "summary": "The new standing committee will give board-level oversight of national security policies, export control compliance, and global trade risks, the company said.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
-      "title": "Spotify’s new tool aims to stop deepfakes from being attributed to real artists",
-      "url": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-17T14:00:00+00:00",
-      "summary": "The update comes as Billboard reported last month that Sony Music had requested the removal of more than 260,000 deepfake songs from digital platforms, nearly double the number the label disclosed in March.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
       "id": "yt:gl2U4fGTr6g",
       "title": "OpenAI's New Breakthrough Is... Utter Chaos",
       "url": "https://www.youtube.com/watch?v=gl2U4fGTr6g",
@@ -270,28 +370,6 @@
       "channel": "Bijan Bowen"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
-      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
-      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-16T23:32:32+00:00",
-      "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
-      "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
-      "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-16T22:03:02+00:00",
-      "summary": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
       "id": "yt:ytmawkPTP24",
       "title": "Why Microsoft couldn’t fix its own servers for 36 hours...",
       "url": "https://www.youtube.com/watch?v=ytmawkPTP24",
@@ -302,17 +380,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/ytmawkPTP24/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-      "title": "California state AG sues OpenAI over rogue agent incidents",
-      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-16T20:07:13+00:00",
-      "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
-      "thumbnail": null,
-      "kind": "article"
     },
     {
       "id": "rss:https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/",
@@ -337,17 +404,6 @@
       "kind": "article"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
-      "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
-      "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-16T19:12:02+00:00",
-      "summary": "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
       "id": "rss:https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/",
       "title": "Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten",
       "url": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/",
@@ -367,50 +423,6 @@
       "published": "2026-11-16T18:38:47+00:00",
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including…",
       "thumbnail": null,
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
-      "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
-      "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-16T18:11:10+00:00",
-      "summary": "OpenAI CEO Sam Altman acknowledged the special role Nvidia CEO Jensen Huang has played in the AI boom, but ultimately thinks the industry will be “fine” without him at the helm.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
-      "title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
-      "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-16T17:36:43+00:00",
-      "summary": "The FBI says that the open source hacking tool was used in cyberattacks targeting a U.S. IT giant and the South Korean financial industry.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
-      "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
-      "url": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-16T17:10:00+00:00",
-      "summary": "Belfort claims his AI sales voice can already close deals almost as well as the best human salespeople, and he thinks it will catch up in a year.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/",
-      "title": "Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices",
-      "url": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-16T16:56:04+00:00",
-      "summary": "Alibaba launches Qwen4-Max, a new flagship model with 2.4 trillion parameters that activates only 71 billion per token. A hybrid architecture sharply cuts costs on long contexts. Qwen4-Max lands just behind Kimi K3.1 Pro on the Artificial Analysis Intelligence Index, and Alibaba plans to release…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/07/qwen_logo-1.png",
       "kind": "article"
     },
     {
@@ -468,7 +480,7 @@
       "summary": "We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered patches of measurements. Modality-specific projectors map these representations into the input…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 83,
+      "upvotes": 85,
       "arxiv_id": "2611.21072"
     },
     {
@@ -481,7 +493,7 @@
       "summary": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 66,
+      "upvotes": 72,
       "arxiv_id": "2611.21003"
     },
     {
@@ -544,7 +556,7 @@
       "summary": "Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints. Advances in forecasting models and alpha discovery help identify opportunities. However, traditional pipelines often decouple signal forecasting from portfolio construction, potentially misaligning learning with…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 66,
+      "upvotes": 67,
       "arxiv_id": "2611.19937"
     },
     {
@@ -557,8 +569,21 @@
       "summary": "A coding agent working within a software organization must establish what to build, collaborate with colleagues, and verify what it delivers. We introduce SWE-CoWork, a benchmark comprising 101 development assignments across 101 real repositories, 11 programming languages, and 12 application domains. Each assignment places an agent in a simulated engineering organization with 26 colleagues who…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 44,
+      "upvotes": 46,
       "arxiv_id": "2611.20218"
+    },
+    {
+      "id": "paper:2611.20254",
+      "title": "VoxMel TTS Technical Report",
+      "url": "https://huggingface.co/papers/2611.20254",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-15T00:00:00+00:00",
+      "summary": "Continuous autoregressive TTS relies on an acoustic target that enables stable next-latent modeling while preserving fine-grained acoustic details. While existing approaches employ learned compressed representations (e.g., continuous VAE latents) to render prediction tractable, they rely on complex neural encoders that often cap generation fidelity. Conversely, training-free targets like…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 22,
+      "arxiv_id": "2611.20254"
     },
     {
       "id": "yt:tAy1IZf_4kg",
@@ -631,7 +656,7 @@
       "summary": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 117,
+      "upvotes": 120,
       "arxiv_id": "2611.18397"
     },
     {
@@ -657,8 +682,47 @@
       "summary": "As AI conference submissions grow rapidly, AI reviewers are being considered as an alternative. However, simply imitating human reviewing is problematic because reviewing serves multiple purposes, including evaluating papers' soundness, interestingness, and clarity, the last two of which are subjective. In this work, we focus solely on evaluating soundness, the most important and objective…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 26,
+      "upvotes": 28,
       "arxiv_id": "2611.17834"
+    },
+    {
+      "id": "paper:2611.17831",
+      "title": "V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations",
+      "url": "https://huggingface.co/papers/2611.17831",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-13T00:00:00+00:00",
+      "summary": "World-model video encoders such as V-JEPA learn how scenes change (direction, speed, order, state) from video alone. To answer questions, they are joined to a language model trained on captions and question-answer pairs. But each caption or question names only a few attributes of a clip, so the model learns to retrieve those attributes rather than to read the clip, and the dynamics the encoder…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 24,
+      "arxiv_id": "2611.17831"
+    },
+    {
+      "id": "paper:2611.17878",
+      "title": "DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery",
+      "url": "https://huggingface.co/papers/2611.17878",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-13T00:00:00+00:00",
+      "summary": "Cities account for over two-thirds of the world's energy and more than 70% of global carbon dioxide emissions. City energy is essential for achieving the 2050 net-zero target and the UN's Sustainable Development Goals 7 and 11. Although existing studies have made progress, they are limited by data and methodological gaps. Existing studies are largely predictive for existing cities rather than…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 23,
+      "arxiv_id": "2611.17878"
+    },
+    {
+      "id": "paper:2611.17814",
+      "title": "G-CAST: Governed Continual Self-Training for E-Commerce Agents under Evolving Demands",
+      "url": "https://huggingface.co/papers/2611.17814",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-13T00:00:00+00:00",
+      "summary": "With the rapid advancement of Large Language Models (LLMs), an increasing number of users are turning to LLM-powered agents for conversational shopping in e-commerce. However, the user needs continue to change as new product categories, procurement scenarios, and feature requests emerge. At the same time, the product's execution harness-including its tools, skills, and operating…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 20,
+      "arxiv_id": "2611.17814"
     },
     {
       "id": "batch:/the-batch/issue-379",
@@ -753,32 +817,6 @@
       "channel": "AI Search"
     },
     {
-      "id": "paper:2611.17167",
-      "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
-      "url": "https://huggingface.co/papers/2611.17167",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-12T00:00:00+00:00",
-      "summary": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 38,
-      "arxiv_id": "2611.17167"
-    },
-    {
-      "id": "paper:2611.17060",
-      "title": "Ropedia Xperience 2: A Gold Standard for Scaling Physical AI Environments and Behaviors",
-      "url": "https://huggingface.co/papers/2611.17060",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-12T00:00:00+00:00",
-      "summary": "Large foundation models such as GPT-6 Astra and Claude Fable 5.1 have recently been shown to control robots directly from visual observations. They nevertheless remain brittle on long-horizon, contact-rich tasks in real-world environments. Further progress depends on two complementary resources: demonstrations of human behavior that supervise how tasks are performed, and interactive environments…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 35,
-      "arxiv_id": "2611.17060"
-    },
-    {
       "id": "paper:2611.17331",
       "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
       "url": "https://huggingface.co/papers/2611.17331",
@@ -846,32 +884,6 @@
       "thumbnail": "https://i4.ytimg.com/vi/S7lpCyZSdJQ/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "paper:2611.15789",
-      "title": "VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender",
-      "url": "https://huggingface.co/papers/2611.15789",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-11T00:00:00+00:00",
-      "summary": "Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera. Coding agents can build such videos by reconstructing a 4D scene in Blender, yet no benchmark checks both these videos and the long, multi-shot scenes behind them. We introduce VibePrevisBench, a benchmark for 4D scene reconstruction: an agent turns a brief into…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 88,
-      "arxiv_id": "2611.15789"
-    },
-    {
-      "id": "paper:2611.15844",
-      "title": "Open Vision Banana: A Fully Open Recipe for Generative Visual Perception",
-      "url": "https://huggingface.co/papers/2611.15844",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-11T00:00:00+00:00",
-      "summary": "Recent work suggests that pretrained image generators encode real-world understanding beyond image synthesis. Vision Banana exploits this by framing vision tasks as conditional image editing. However, its data, weights, code, and implementation details are not public. We present Open Vision Banana (OVB), a fully open and reproducible recipe for converting pretrained generators into unified…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 40,
-      "arxiv_id": "2611.15844"
     },
     {
       "id": "yt:0GSvcg9wncc",
@@ -1621,7 +1633,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-17T19:29:23.515973+00:00",
+      "fetched_at": "2026-11-18T01:47:22.528426+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1629,7 +1641,8 @@
           "creator": "Microsoft AI",
           "score": 1215.0,
           "meta": "Nov 2026 · $34.82 /1k imgs",
-          "previous_rank": null
+          "previous_rank": 1,
+          "rank_delta": 0
         },
         {
           "rank": 2,
@@ -1637,8 +1650,8 @@
           "creator": "OpenAI",
           "score": 1211.0,
           "meta": "Nov 2026 · $210.72 /1k imgs",
-          "previous_rank": 1,
-          "rank_delta": -1
+          "previous_rank": 2,
+          "rank_delta": 0
         },
         {
           "rank": 3,
@@ -1646,8 +1659,8 @@
           "creator": "OpenAI",
           "score": 1205.0,
           "meta": "Nov 2026 · $210.72 /1k imgs",
-          "previous_rank": 2,
-          "rank_delta": -1
+          "previous_rank": 3,
+          "rank_delta": 0
         },
         {
           "rank": 4,
@@ -1655,8 +1668,8 @@
           "creator": "OpenAI",
           "score": 1202.0,
           "meta": "Sep 2026 · $210.72 /1k imgs",
-          "previous_rank": 3,
-          "rank_delta": -1
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
@@ -1673,7 +1686,8 @@
           "creator": "KlingAI",
           "score": 1183.0,
           "meta": "Nov 2026 · $66.00 /1k imgs",
-          "previous_rank": null
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
@@ -1681,7 +1695,8 @@
           "creator": "Microsoft AI",
           "score": 1179.0,
           "meta": "Nov 2026 · $10.24 /1k imgs",
-          "previous_rank": null
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
@@ -1689,8 +1704,8 @@
           "creator": "ByteDance Seed",
           "score": 1160.0,
           "meta": "Nov 2026 · $28.00 /1k imgs",
-          "previous_rank": 7,
-          "rank_delta": -1
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
@@ -1698,8 +1713,8 @@
           "creator": "Krea",
           "score": 1154.0,
           "meta": "Oct 2026 · $100.00 /1k imgs",
-          "previous_rank": 8,
-          "rank_delta": -1
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
@@ -1707,8 +1722,8 @@
           "creator": "Google",
           "score": 1152.0,
           "meta": "Oct 2026 · $33.60 /1k imgs",
-          "previous_rank": 9,
-          "rank_delta": -1
+          "previous_rank": 10,
+          "rank_delta": 0
         }
       ]
     },
@@ -1720,7 +1735,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-17T19:29:23.518100+00:00",
+      "fetched_at": "2026-11-18T01:47:22.530376+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1822,7 +1837,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-17T19:29:23.520730+00:00",
+      "fetched_at": "2026-11-18T01:47:22.532763+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1924,7 +1939,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-17T19:29:23.521576+00:00",
+      "fetched_at": "2026-11-18T01:47:22.533561+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1999,7 +2014,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-17T19:29:23.544232+00:00",
+      "fetched_at": "2026-11-18T01:47:22.555958+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2101,7 +2116,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-17T19:29:23.565405+00:00",
+      "fetched_at": "2026-11-18T01:47:22.576233+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2176,7 +2191,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-17T19:29:23.566884+00:00",
+      "fetched_at": "2026-11-18T01:47:22.577636+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2278,7 +2293,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-17T19:29:23.581871+00:00",
+      "fetched_at": "2026-11-18T01:47:22.592486+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2295,7 +2310,8 @@
           "creator": "OpenAI",
           "score": 62.0,
           "meta": "1M ctx",
-          "previous_rank": null
+          "previous_rank": 2,
+          "rank_delta": 0
         },
         {
           "rank": 3,
@@ -2303,8 +2319,8 @@
           "creator": "Google",
           "score": 60.0,
           "meta": "1M ctx",
-          "previous_rank": 2,
-          "rank_delta": -1
+          "previous_rank": 3,
+          "rank_delta": 0
         },
         {
           "rank": 4,
@@ -2312,8 +2328,8 @@
           "creator": "Anthropic",
           "score": 59.0,
           "meta": "1M ctx",
-          "previous_rank": 3,
-          "rank_delta": -1
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
@@ -2321,7 +2337,8 @@
           "creator": "OpenAI",
           "score": 57.0,
           "meta": "1M ctx",
-          "previous_rank": null
+          "previous_rank": 5,
+          "rank_delta": 0
         },
         {
           "rank": 6,
@@ -2378,7 +2395,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-17T19:29:23.591203+00:00",
+      "fetched_at": "2026-11-18T01:47:22.601150+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2480,7 +2497,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-17T19:29:23.599573+00:00",
+      "fetched_at": "2026-11-18T01:47:22.608682+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2515,7 +2532,8 @@
           "creator": "Microsoft AI",
           "score": 1214.0,
           "meta": "Nov 2026 · $34.82 /1k imgs",
-          "previous_rank": null
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
@@ -2523,8 +2541,8 @@
           "creator": "OpenAI",
           "score": 1210.0,
           "meta": "Sep 2026 · $210.72 /1k imgs",
-          "previous_rank": 4,
-          "rank_delta": -1
+          "previous_rank": 5,
+          "rank_delta": 0
         },
         {
           "rank": 6,
@@ -2532,8 +2550,8 @@
           "creator": "OpenAI",
           "score": 1192.0,
           "meta": "Apr 2026 · $211.00 /1k imgs",
-          "previous_rank": 5,
-          "rank_delta": -1
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
@@ -2541,7 +2559,8 @@
           "creator": "KlingAI",
           "score": 1180.0,
           "meta": "Nov 2026 · $63.00 /1k imgs",
-          "previous_rank": null
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
@@ -2549,8 +2568,8 @@
           "creator": "Google",
           "score": 1176.0,
           "meta": "Oct 2026 · $33.60 /1k imgs",
-          "previous_rank": 7,
-          "rank_delta": -1
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
@@ -2558,8 +2577,8 @@
           "creator": "Microsoft AI",
           "score": 1168.0,
           "meta": "Aug 2026 · $38.91 /1k imgs",
-          "previous_rank": 8,
-          "rank_delta": -1
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
@@ -2567,8 +2586,8 @@
           "creator": "SpaceXAI",
           "score": 1167.0,
           "meta": "Aug 2026 · $60.00 /1k imgs",
-          "previous_rank": 9,
-          "rank_delta": -1
+          "previous_rank": 10,
+          "rank_delta": 0
         }
       ]
     },
@@ -2580,7 +2599,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-17T19:29:23.602419+00:00",
+      "fetched_at": "2026-11-18T01:47:22.611558+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2682,31 +2701,31 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-17T19:29:23.609823+00:00",
+      "fetched_at": "2026-11-18T01:47:22.618836+00:00",
       "entries": [
         {
           "rank": 1,
-          "name": "Eleven v4 Turbo",
+          "name": "Eleven v4",
           "creator": "ElevenLabs",
           "score": 1340.0,
-          "meta": "Sept 2026 · $40.00 /1M chars",
-          "previous_rank": 1,
-          "rank_delta": 0
+          "meta": "Sept 2026 · $80.00 /1M chars",
+          "previous_rank": 2,
+          "rank_delta": 1
         },
         {
           "rank": 2,
-          "name": "Eleven v4",
+          "name": "Eleven v4 Turbo",
           "creator": "ElevenLabs",
-          "score": 1338.0,
-          "meta": "Sept 2026 · $80.00 /1M chars",
-          "previous_rank": 2,
-          "rank_delta": 0
+          "score": 1339.0,
+          "meta": "Sept 2026 · $40.00 /1M chars",
+          "previous_rank": 1,
+          "rank_delta": -1
         },
         {
           "rank": 3,
           "name": "Qwen-Audio-3.1-TTS-Plus",
           "creator": "Alibaba",
-          "score": 1298.0,
+          "score": 1300.0,
           "meta": "Sept 2026 · $19.31 /1M chars",
           "previous_rank": 3,
           "rank_delta": 0
@@ -2715,7 +2734,7 @@
           "rank": 4,
           "name": "Sonic 3.6",
           "creator": "Cartesia",
-          "score": 1295.0,
+          "score": 1297.0,
           "meta": "Aug 2026 · $49.00 /1M chars",
           "previous_rank": 4,
           "rank_delta": 0
@@ -2724,7 +2743,7 @@
           "rank": 5,
           "name": "Simba 3.5",
           "creator": "SpeechifyAI",
-          "score": 1291.0,
+          "score": 1296.0,
           "meta": "Nov 2026 · $6.58 /1M chars",
           "previous_rank": 5,
           "rank_delta": 0
@@ -2733,7 +2752,7 @@
           "rank": 6,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Google",
-          "score": 1283.0,
+          "score": 1284.0,
           "meta": "Sept 2026 · $16.49 /1M chars",
           "previous_rank": 6,
           "rank_delta": 0
@@ -2742,7 +2761,7 @@
           "rank": 7,
           "name": "Fish Audio Drama 3",
           "creator": "Fish Audio",
-          "score": 1279.0,
+          "score": 1277.0,
           "meta": "Oct 2026 · $15.00 /1M chars",
           "previous_rank": 7,
           "rank_delta": 0
@@ -2751,7 +2770,7 @@
           "rank": 8,
           "name": "Lightning V3.1 Pro (Oct 2026)",
           "creator": "Smallest.ai",
-          "score": 1271.0,
+          "score": 1276.0,
           "meta": "Oct 2026 · $19.50 /1M chars",
           "previous_rank": 8,
           "rank_delta": 0
@@ -2760,7 +2779,7 @@
           "rank": 9,
           "name": "Realtime TTS-2",
           "creator": "Inworld",
-          "score": 1270.0,
+          "score": 1271.0,
           "meta": "Aug 2026 · $20.83 /1M chars",
           "previous_rank": 9,
           "rank_delta": 0
@@ -2784,13 +2803,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-17T19:29:23.611767+00:00",
+      "fetched_at": "2026-11-18T01:47:22.620767+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fish Audio Drama 3",
           "creator": "Fish Audio",
-          "score": 1279.0,
+          "score": 1277.0,
           "meta": "Oct 2026 · $15.00 /1M chars",
           "previous_rank": 1,
           "rank_delta": 0
@@ -2799,7 +2818,7 @@
           "rank": 2,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio",
-          "score": 1236.0,
+          "score": 1235.0,
           "meta": "Oct 2026 · $15.00 /1M chars",
           "previous_rank": 2,
           "rank_delta": 0
@@ -2808,7 +2827,7 @@
           "rank": 3,
           "name": "Breeze TTS 2",
           "creator": "BreezeBlue",
-          "score": 1229.0,
+          "score": 1231.0,
           "meta": "Aug 2026 · $34.00 /1M chars",
           "previous_rank": 3,
           "rank_delta": 0
@@ -2817,7 +2836,7 @@
           "rank": 4,
           "name": "Ming-3.0-tts",
           "creator": "Ant Group",
-          "score": 1182.0,
+          "score": 1180.0,
           "meta": "Oct 2026 · N/A",
           "previous_rank": 4,
           "rank_delta": 0
@@ -2826,34 +2845,34 @@
           "rank": 5,
           "name": "Phonon 31M (English)",
           "creator": "Gradium",
-          "score": 1109.0,
+          "score": 1106.0,
           "meta": "Oct 2026 · $0.00 /1M chars",
           "previous_rank": 5,
           "rank_delta": 0
         },
         {
           "rank": 6,
-          "name": "Step Audio EditX (Mar 2026)",
-          "creator": "StepFun",
-          "score": 1102.0,
-          "meta": "Feb 2026 · N/A",
-          "previous_rank": 6,
-          "rank_delta": 0
-        },
-        {
-          "rank": 7,
           "name": "Fish Audio S2 Pro",
           "creator": "Fish Audio",
           "score": 1102.0,
           "meta": "Mar 2026 · $15.00 /1M chars",
           "previous_rank": 7,
-          "rank_delta": 0
+          "rank_delta": 1
+        },
+        {
+          "rank": 7,
+          "name": "Step Audio EditX (Mar 2026)",
+          "creator": "StepFun",
+          "score": 1101.0,
+          "meta": "Feb 2026 · N/A",
+          "previous_rank": 6,
+          "rank_delta": -1
         },
         {
           "rank": 8,
           "name": "Voxtral TTS",
           "creator": "Mistral",
-          "score": 1094.0,
+          "score": 1093.0,
           "meta": "Mar 2026 · $16.00 /1M chars",
           "previous_rank": 8,
           "rank_delta": 0
@@ -3076,7 +3095,7 @@
         "board_open": "tts-provider-voice-open",
         "source_note": "Top-1 of own Artificial Analysis boards (snapshot per fetch)",
         "closed_winner": {
-          "model": "Eleven v4 Turbo",
+          "model": "Eleven v4",
           "developer": "ElevenLabs",
           "score": "1340",
           "released": "Sept 2026"
@@ -3084,12 +3103,12 @@
         "open_winner": {
           "model": "Fish Audio Drama 3",
           "developer": "Fish Audio",
-          "score": "1279",
+          "score": "1277",
           "released": "Oct 2026"
         },
         "runner_up": {
-          "model": "Eleven v4",
-          "score": "1338"
+          "model": "Eleven v4 Turbo",
+          "score": "1339"
         }
       }
     ]
@@ -3101,89 +3120,89 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-17T19:28:57.489117+00:00",
+        "checked_at": "2026-11-18T01:46:58.349471+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-17T19:28:57.489117+00:00"
+        "last_ok_at": "2026-11-18T01:46:58.349471+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-17T19:28:56.446005+00:00",
+        "checked_at": "2026-11-18T01:46:57.328833+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-17T19:28:56.446005+00:00"
+        "last_ok_at": "2026-11-18T01:46:57.328833+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-17T19:29:00.782735+00:00",
+        "checked_at": "2026-11-18T01:47:01.590813+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-17T19:29:00.782735+00:00"
+        "last_ok_at": "2026-11-18T01:47:01.590813+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-17T19:28:58.586779+00:00",
+        "checked_at": "2026-11-18T01:46:59.363233+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-17T19:28:58.586779+00:00"
+        "last_ok_at": "2026-11-18T01:46:59.363233+00:00"
       },
       {
         "name": "Google AI Blog",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-17T19:29:05.856006+00:00",
+        "checked_at": "2026-11-18T01:47:06.225375+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-17T19:29:05.856006+00:00"
+        "last_ok_at": "2026-11-18T01:47:06.225375+00:00"
       },
       {
         "name": "Google DeepMind",
         "ok": true,
         "items": 25,
         "error": null,
-        "checked_at": "2026-11-17T19:29:04.441198+00:00",
+        "checked_at": "2026-11-18T01:47:05.016806+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-17T19:29:04.441198+00:00"
+        "last_ok_at": "2026-11-18T01:47:05.016806+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-17T19:29:03.144866+00:00",
+        "checked_at": "2026-11-18T01:47:03.921930+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-17T19:29:03.144866+00:00"
+        "last_ok_at": "2026-11-18T01:47:03.921930+00:00"
       },
       {
         "name": "MIT Technology Review AI",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-17T19:29:10.411854+00:00",
+        "checked_at": "2026-11-18T01:47:10.800514+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-17T19:29:10.411854+00:00"
+        "last_ok_at": "2026-11-18T01:47:10.800514+00:00"
       },
       {
         "name": "TechCrunch AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-17T19:29:09.305827+00:00",
+        "checked_at": "2026-11-18T01:47:09.677872+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-17T19:29:09.305827+00:00"
+        "last_ok_at": "2026-11-18T01:47:09.677872+00:00"
       },
       {
         "name": "The Batch",
         "ok": false,
         "items": 4,
         "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
-        "checked_at": "2026-11-17T19:29:11.769106+00:00",
-        "failed_streak": 1,
+        "checked_at": "2026-11-18T01:47:11.871500+00:00",
+        "failed_streak": 2,
         "last_ok_at": "2026-11-17T10:55:03.004343+00:00"
       },
       {
@@ -3191,35 +3210,35 @@
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-17T19:29:08.194365+00:00",
+        "checked_at": "2026-11-18T01:47:08.500530+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-17T19:29:08.194365+00:00"
+        "last_ok_at": "2026-11-18T01:47:08.500530+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-17T19:28:59.681995+00:00",
+        "checked_at": "2026-11-18T01:47:00.473392+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-17T19:28:59.681995+00:00"
+        "last_ok_at": "2026-11-18T01:47:00.473392+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-17T19:29:01.909823+00:00",
+        "checked_at": "2026-11-18T01:47:02.728399+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-17T19:29:01.909823+00:00"
+        "last_ok_at": "2026-11-18T01:47:02.728399+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-17T19:29:23.617443+00:00",
+      "checked_at": "2026-11-18T01:47:22.625824+00:00",
       "failed_streak": 0,
-      "last_ok_at": "2026-11-17T19:29:23.617443+00:00"
+      "last_ok_at": "2026-11-18T01:47:22.625824+00:00"
     }
   }
 }
