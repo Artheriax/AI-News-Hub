@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T01:47:22.633526+00:00",
+  "generated_at": "2026-11-18T09:29:11.240831+00:00",
   "items": [
     {
       "id": "rss:https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
@@ -358,6 +358,32 @@
       "channel": "WorldofAI"
     },
     {
+      "id": "paper:2611.22115",
+      "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+      "url": "https://huggingface.co/papers/2611.22115",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-17T00:00:00+00:00",
+      "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 140,
+      "arxiv_id": "2611.22115"
+    },
+    {
+      "id": "paper:2611.22055",
+      "title": "Weight-Space Programming Doesn't Need Transformers",
+      "url": "https://huggingface.co/papers/2611.22055",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-17T00:00:00+00:00",
+      "summary": "Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by hand without gradient-based training, so those reasons no longer apply. Should we keep the Transformer? Given minimal guidance, ten labeled examples, and a sandbox, mainly on…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 40,
+      "arxiv_id": "2611.22055"
+    },
+    {
       "id": "yt:atz4gzB7ykY",
       "title": "Qwen 4 Max Is HERE – Is THIS Really a Frontier Model?",
       "url": "https://www.youtube.com/watch?v=atz4gzB7ykY",
@@ -480,21 +506,8 @@
       "summary": "We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered patches of measurements. Modality-specific projectors map these representations into the input…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 85,
+      "upvotes": 94,
       "arxiv_id": "2611.21072"
-    },
-    {
-      "id": "paper:2611.21003",
-      "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
-      "url": "https://huggingface.co/papers/2611.21003",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-16T00:00:00+00:00",
-      "summary": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 72,
-      "arxiv_id": "2611.21003"
     },
     {
       "id": "paper:2611.21218",
@@ -506,8 +519,21 @@
       "summary": "Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven. We introduce InclusionMed, an open medical AI evaluation initiative for inclusive healthcare. The InclusionMed Atlas organizes benchmarks across three healthcare roles and three AI capabilities. For the first release, we selected four…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 62,
+      "upvotes": 90,
       "arxiv_id": "2611.21218"
+    },
+    {
+      "id": "paper:2611.21003",
+      "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+      "url": "https://huggingface.co/papers/2611.21003",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-16T00:00:00+00:00",
+      "summary": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 75,
+      "arxiv_id": "2611.21003"
     },
     {
       "id": "paper:2611.21607",
@@ -519,8 +545,21 @@
       "summary": "Frontier Vision-Language Models (VLMs) such as GPT-6 Astra have demonstrated remarkable capabilities in robot control, suggesting that broad pretraining provides knowledge valuable for physical action. Yet most Vision-Language-Action (VLA) policies still rely on much smaller VLM backbones, leaving this potential largely untapped. We ask whether frontier-scale representations can provide a…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 41,
+      "upvotes": 43,
       "arxiv_id": "2611.21607"
+    },
+    {
+      "id": "paper:2611.21099",
+      "title": "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
+      "url": "https://huggingface.co/papers/2611.21099",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-16T00:00:00+00:00",
+      "summary": "Frontier multimodal models can now control robots zero-shot from images, yet many manipulation tasks depend on contact forces that images cannot show. Bringing force to an API-only frozen model raises two challenges. First, contact evolves much faster than an API model can decide, so the system must close the loop on force beneath the model. Second, a frozen model cannot interpret raw force…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 39,
+      "arxiv_id": "2611.21099"
     },
     {
       "id": "yt:iXvttGCoc1g",
@@ -556,7 +595,7 @@
       "summary": "Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints. Advances in forecasting models and alpha discovery help identify opportunities. However, traditional pipelines often decouple signal forecasting from portfolio construction, potentially misaligning learning with…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 67,
+      "upvotes": 70,
       "arxiv_id": "2611.19937"
     },
     {
@@ -569,21 +608,34 @@
       "summary": "A coding agent working within a software organization must establish what to build, collaborate with colleagues, and verify what it delivers. We introduce SWE-CoWork, a benchmark comprising 101 development assignments across 101 real repositories, 11 programming languages, and 12 application domains. Each assignment places an agent in a simulated engineering organization with 26 colleagues who…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 46,
+      "upvotes": 51,
       "arxiv_id": "2611.20218"
     },
     {
-      "id": "paper:2611.20254",
-      "title": "VoxMel TTS Technical Report",
-      "url": "https://huggingface.co/papers/2611.20254",
+      "id": "paper:2611.19800",
+      "title": "Multi-Branch Transformer",
+      "url": "https://huggingface.co/papers/2611.19800",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-11-15T00:00:00+00:00",
-      "summary": "Continuous autoregressive TTS relies on an acoustic target that enables stable next-latent modeling while preserving fine-grained acoustic details. While existing approaches employ learned compressed representations (e.g., continuous VAE latents) to render prediction tractable, they rely on complex neural encoders that often cap generation fidelity. Conversely, training-free targets like…",
+      "summary": "Transformer language models are commonly scaled by making their blocks wider or stacking them deeper. In this work, we explore a complementary path: branching, the parallel composition of full Transformer blocks. We introduce the Multi-Branch Transformer (MBT), which processes the input through shared initial layers, executes independently parameterized branches of sequential blocks in parallel…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 22,
-      "arxiv_id": "2611.20254"
+      "upvotes": 31,
+      "arxiv_id": "2611.19800"
+    },
+    {
+      "id": "paper:2611.17048",
+      "title": "Beyond Answering: Learning to Speak First and Act in Streaming Video",
+      "url": "https://huggingface.co/papers/2611.17048",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-15T00:00:00+00:00",
+      "summary": "Most AI assistants respond only when prompted, remaining silent even when events in the video stream offer meaningful opportunities for conversation. To move beyond purely user-driven interaction, we present AURA 2.0, a streaming video large language model that introduces three core upgrades to AURA. The key advance is Model-Initiated Conversation (MIC), which enables the model to identify topics…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 29,
+      "arxiv_id": "2611.17048"
     },
     {
       "id": "yt:tAy1IZf_4kg",
@@ -634,19 +686,6 @@
       "channel": "Bijan Bowen"
     },
     {
-      "id": "paper:2611.18359",
-      "title": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
-      "url": "https://huggingface.co/papers/2611.18359",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-13T00:00:00+00:00",
-      "summary": "The release of GPT-6 Astra marks the emergence of a new paradigm in robotics: agentic robotics. Within weeks, frontier models with agentic harnesses matched or exceeded task-specific policies on many embodied benchmarks. Instead of training a dedicated policy for each family of tasks, an agentic robotic system applies a foundation model to open-world embodied tasks. It operates in a closed loop…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 124,
-      "arxiv_id": "2611.18359"
-    },
-    {
       "id": "paper:2611.18397",
       "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
       "url": "https://huggingface.co/papers/2611.18397",
@@ -656,8 +695,21 @@
       "summary": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 120,
+      "upvotes": 128,
       "arxiv_id": "2611.18397"
+    },
+    {
+      "id": "paper:2611.17621",
+      "title": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
+      "url": "https://huggingface.co/papers/2611.17621",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-13T00:00:00+00:00",
+      "summary": "Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads. To address this requirement, we introduce AscendGYM, a benchmark whose initial…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 86,
+      "arxiv_id": "2611.17621"
     },
     {
       "id": "paper:2611.18482",
@@ -669,7 +721,7 @@
       "summary": "Speculative decoding accelerates generation by letting a lightweight drafter propose tokens for parallel verification by a target model. Diffusion drafters such as DFlash propose an entire token block in a single forward pass, but mainly focus on text-only tasks, leaving multimodal drafting underexplored. To study this setting, we first introduce a metric of token-level visual dependence based on…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 38,
+      "upvotes": 39,
       "arxiv_id": "2611.18482"
     },
     {
@@ -682,47 +734,8 @@
       "summary": "As AI conference submissions grow rapidly, AI reviewers are being considered as an alternative. However, simply imitating human reviewing is problematic because reviewing serves multiple purposes, including evaluating papers' soundness, interestingness, and clarity, the last two of which are subjective. In this work, we focus solely on evaluating soundness, the most important and objective…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 28,
+      "upvotes": 31,
       "arxiv_id": "2611.17834"
-    },
-    {
-      "id": "paper:2611.17831",
-      "title": "V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations",
-      "url": "https://huggingface.co/papers/2611.17831",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-13T00:00:00+00:00",
-      "summary": "World-model video encoders such as V-JEPA learn how scenes change (direction, speed, order, state) from video alone. To answer questions, they are joined to a language model trained on captions and question-answer pairs. But each caption or question names only a few attributes of a clip, so the model learns to retrieve those attributes rather than to read the clip, and the dynamics the encoder…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 24,
-      "arxiv_id": "2611.17831"
-    },
-    {
-      "id": "paper:2611.17878",
-      "title": "DySENSE: Dynamic Spatiotemporal ENergy Synthesis and Emulation with Satellite Imagery",
-      "url": "https://huggingface.co/papers/2611.17878",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-13T00:00:00+00:00",
-      "summary": "Cities account for over two-thirds of the world's energy and more than 70% of global carbon dioxide emissions. City energy is essential for achieving the 2050 net-zero target and the UN's Sustainable Development Goals 7 and 11. Although existing studies have made progress, they are limited by data and methodological gaps. Existing studies are largely predictive for existing cities rather than…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 23,
-      "arxiv_id": "2611.17878"
-    },
-    {
-      "id": "paper:2611.17814",
-      "title": "G-CAST: Governed Continual Self-Training for E-Commerce Agents under Evolving Demands",
-      "url": "https://huggingface.co/papers/2611.17814",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-13T00:00:00+00:00",
-      "summary": "With the rapid advancement of Large Language Models (LLMs), an increasing number of users are turning to LLM-powered agents for conversational shopping in e-commerce. However, the user needs continue to change as new product categories, procurement scenarios, and feature requests emerge. At the same time, the product's execution harness-including its tools, skills, and operating…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 20,
-      "arxiv_id": "2611.17814"
     },
     {
       "id": "batch:/the-batch/issue-379",
@@ -815,19 +828,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/Er0740eVIEw/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "paper:2611.17331",
-      "title": "TTB: Test-time Baking for Efficient Rendering of Decoder-only View Synthesis Models",
-      "url": "https://huggingface.co/papers/2611.17331",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-12T00:00:00+00:00",
-      "summary": "Decoder-only Large View Synthesis Models (LVSMs) with KV-cache have recently achieved state-of-the-art quality by regressing novel views from neural networks without reconstructing 3D geometry, while Test-Time Training (TTT) layers save computation but sacrifice quality. We propose Test-Time Baking (TTB), a strategy that learns to bake global scene information from cross-view attention into a…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 26,
-      "arxiv_id": "2611.17331"
     },
     {
       "id": "rss:https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
@@ -1603,18 +1603,6 @@
       "thumbnail": "https://i4.ytimg.com/vi/cUeZMUGCxrw/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "yt:LWxX6vvHfrc",
-      "title": "Gemini 4 Argon Is Not What I Expected",
-      "url": "https://www.youtube.com/watch?v=LWxX6vvHfrc",
-      "source": "Two Minute Papers",
-      "category": "videos",
-      "published": "2026-10-19T08:49:21+00:00",
-      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 Gemini 4 Argon + report are available here: https://deepmind.google/models/model-cards/gemini-4-argon/ https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf Sources…",
-      "thumbnail": "https://i1.ytimg.com/vi/LWxX6vvHfrc/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Two Minute Papers"
     }
   ],
   "featured": [
@@ -1633,7 +1621,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-18T01:47:22.528426+00:00",
+      "fetched_at": "2026-11-18T09:29:11.097848+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1735,7 +1723,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-18T01:47:22.530376+00:00",
+      "fetched_at": "2026-11-18T09:29:11.100217+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1837,7 +1825,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-18T01:47:22.532763+00:00",
+      "fetched_at": "2026-11-18T09:29:11.103243+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1939,7 +1927,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-18T01:47:22.533561+00:00",
+      "fetched_at": "2026-11-18T09:29:11.104225+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2014,7 +2002,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-18T01:47:22.555958+00:00",
+      "fetched_at": "2026-11-18T09:29:11.135214+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2116,7 +2104,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-18T01:47:22.576233+00:00",
+      "fetched_at": "2026-11-18T09:29:11.166115+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2191,7 +2179,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-18T01:47:22.577636+00:00",
+      "fetched_at": "2026-11-18T09:29:11.167813+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2293,7 +2281,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-18T01:47:22.592486+00:00",
+      "fetched_at": "2026-11-18T09:29:11.186148+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2395,7 +2383,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-18T01:47:22.601150+00:00",
+      "fetched_at": "2026-11-18T09:29:11.198394+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2497,7 +2485,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-18T01:47:22.608682+00:00",
+      "fetched_at": "2026-11-18T09:29:11.207946+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2599,7 +2587,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-18T01:47:22.611558+00:00",
+      "fetched_at": "2026-11-18T09:29:11.211602+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2701,31 +2689,31 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-18T01:47:22.618836+00:00",
+      "fetched_at": "2026-11-18T09:29:11.221645+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Eleven v4",
           "creator": "ElevenLabs",
-          "score": 1340.0,
+          "score": 1341.0,
           "meta": "Sept 2026 · $80.00 /1M chars",
-          "previous_rank": 2,
-          "rank_delta": 1
+          "previous_rank": 1,
+          "rank_delta": 0
         },
         {
           "rank": 2,
           "name": "Eleven v4 Turbo",
           "creator": "ElevenLabs",
-          "score": 1339.0,
+          "score": 1341.0,
           "meta": "Sept 2026 · $40.00 /1M chars",
-          "previous_rank": 1,
-          "rank_delta": -1
+          "previous_rank": 2,
+          "rank_delta": 0
         },
         {
           "rank": 3,
           "name": "Qwen-Audio-3.1-TTS-Plus",
           "creator": "Alibaba",
-          "score": 1300.0,
+          "score": 1299.0,
           "meta": "Sept 2026 · $19.31 /1M chars",
           "previous_rank": 3,
           "rank_delta": 0
@@ -2734,7 +2722,7 @@
           "rank": 4,
           "name": "Sonic 3.6",
           "creator": "Cartesia",
-          "score": 1297.0,
+          "score": 1295.0,
           "meta": "Aug 2026 · $49.00 /1M chars",
           "previous_rank": 4,
           "rank_delta": 0
@@ -2743,7 +2731,7 @@
           "rank": 5,
           "name": "Simba 3.5",
           "creator": "SpeechifyAI",
-          "score": 1296.0,
+          "score": 1293.0,
           "meta": "Nov 2026 · $6.58 /1M chars",
           "previous_rank": 5,
           "rank_delta": 0
@@ -2752,7 +2740,7 @@
           "rank": 6,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Google",
-          "score": 1284.0,
+          "score": 1283.0,
           "meta": "Sept 2026 · $16.49 /1M chars",
           "previous_rank": 6,
           "rank_delta": 0
@@ -2761,7 +2749,7 @@
           "rank": 7,
           "name": "Fish Audio Drama 3",
           "creator": "Fish Audio",
-          "score": 1277.0,
+          "score": 1279.0,
           "meta": "Oct 2026 · $15.00 /1M chars",
           "previous_rank": 7,
           "rank_delta": 0
@@ -2770,7 +2758,7 @@
           "rank": 8,
           "name": "Lightning V3.1 Pro (Oct 2026)",
           "creator": "Smallest.ai",
-          "score": 1276.0,
+          "score": 1278.0,
           "meta": "Oct 2026 · $19.50 /1M chars",
           "previous_rank": 8,
           "rank_delta": 0
@@ -2779,7 +2767,7 @@
           "rank": 9,
           "name": "Realtime TTS-2",
           "creator": "Inworld",
-          "score": 1271.0,
+          "score": 1270.0,
           "meta": "Aug 2026 · $20.83 /1M chars",
           "previous_rank": 9,
           "rank_delta": 0
@@ -2788,7 +2776,7 @@
           "rank": 10,
           "name": "Qwen-Audio-3.0-TTS-Plus",
           "creator": "Alibaba",
-          "score": 1263.0,
+          "score": 1262.0,
           "meta": "Sept 2026 · $19.31 /1M chars",
           "previous_rank": 10,
           "rank_delta": 0
@@ -2803,13 +2791,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-18T01:47:22.620767+00:00",
+      "fetched_at": "2026-11-18T09:29:11.224263+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fish Audio Drama 3",
           "creator": "Fish Audio",
-          "score": 1277.0,
+          "score": 1279.0,
           "meta": "Oct 2026 · $15.00 /1M chars",
           "previous_rank": 1,
           "rank_delta": 0
@@ -2818,7 +2806,7 @@
           "rank": 2,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio",
-          "score": 1235.0,
+          "score": 1237.0,
           "meta": "Oct 2026 · $15.00 /1M chars",
           "previous_rank": 2,
           "rank_delta": 0
@@ -2827,7 +2815,7 @@
           "rank": 3,
           "name": "Breeze TTS 2",
           "creator": "BreezeBlue",
-          "score": 1231.0,
+          "score": 1229.0,
           "meta": "Aug 2026 · $34.00 /1M chars",
           "previous_rank": 3,
           "rank_delta": 0
@@ -2836,7 +2824,7 @@
           "rank": 4,
           "name": "Ming-3.0-tts",
           "creator": "Ant Group",
-          "score": 1180.0,
+          "score": 1182.0,
           "meta": "Oct 2026 · N/A",
           "previous_rank": 4,
           "rank_delta": 0
@@ -2845,26 +2833,26 @@
           "rank": 5,
           "name": "Phonon 31M (English)",
           "creator": "Gradium",
-          "score": 1106.0,
+          "score": 1110.0,
           "meta": "Oct 2026 · $0.00 /1M chars",
           "previous_rank": 5,
           "rank_delta": 0
         },
         {
           "rank": 6,
-          "name": "Fish Audio S2 Pro",
-          "creator": "Fish Audio",
-          "score": 1102.0,
-          "meta": "Mar 2026 · $15.00 /1M chars",
+          "name": "Step Audio EditX (Mar 2026)",
+          "creator": "StepFun",
+          "score": 1101.0,
+          "meta": "Feb 2026 · N/A",
           "previous_rank": 7,
           "rank_delta": 1
         },
         {
           "rank": 7,
-          "name": "Step Audio EditX (Mar 2026)",
-          "creator": "StepFun",
+          "name": "Fish Audio S2 Pro",
+          "creator": "Fish Audio",
           "score": 1101.0,
-          "meta": "Feb 2026 · N/A",
+          "meta": "Mar 2026 · $15.00 /1M chars",
           "previous_rank": 6,
           "rank_delta": -1
         },
@@ -2872,7 +2860,7 @@
           "rank": 8,
           "name": "Voxtral TTS",
           "creator": "Mistral",
-          "score": 1093.0,
+          "score": 1094.0,
           "meta": "Mar 2026 · $16.00 /1M chars",
           "previous_rank": 8,
           "rank_delta": 0
@@ -3097,18 +3085,18 @@
         "closed_winner": {
           "model": "Eleven v4",
           "developer": "ElevenLabs",
-          "score": "1340",
+          "score": "1341",
           "released": "Sept 2026"
         },
         "open_winner": {
           "model": "Fish Audio Drama 3",
           "developer": "Fish Audio",
-          "score": "1277",
+          "score": "1279",
           "released": "Oct 2026"
         },
         "runner_up": {
           "model": "Eleven v4 Turbo",
-          "score": "1339"
+          "score": "1341"
         }
       }
     ]
@@ -3120,89 +3108,89 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-18T01:46:58.349471+00:00",
+        "checked_at": "2026-11-18T09:28:45.981297+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-18T01:46:58.349471+00:00"
+        "last_ok_at": "2026-11-18T09:28:45.981297+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-18T01:46:57.328833+00:00",
+        "checked_at": "2026-11-18T09:28:44.839723+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-18T01:46:57.328833+00:00"
+        "last_ok_at": "2026-11-18T09:28:44.839723+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-18T01:47:01.590813+00:00",
+        "checked_at": "2026-11-18T09:28:49.297369+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-18T01:47:01.590813+00:00"
+        "last_ok_at": "2026-11-18T09:28:49.297369+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-18T01:46:59.363233+00:00",
+        "checked_at": "2026-11-18T09:28:47.011972+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-18T01:46:59.363233+00:00"
+        "last_ok_at": "2026-11-18T09:28:47.011972+00:00"
       },
       {
         "name": "Google AI Blog",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-18T01:47:06.225375+00:00",
+        "checked_at": "2026-11-18T09:28:54.048369+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-18T01:47:06.225375+00:00"
+        "last_ok_at": "2026-11-18T09:28:54.048369+00:00"
       },
       {
         "name": "Google DeepMind",
         "ok": true,
         "items": 25,
         "error": null,
-        "checked_at": "2026-11-18T01:47:05.016806+00:00",
+        "checked_at": "2026-11-18T09:28:52.877764+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-18T01:47:05.016806+00:00"
+        "last_ok_at": "2026-11-18T09:28:52.877764+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-18T01:47:03.921930+00:00",
+        "checked_at": "2026-11-18T09:28:51.680752+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-18T01:47:03.921930+00:00"
+        "last_ok_at": "2026-11-18T09:28:51.680752+00:00"
       },
       {
         "name": "MIT Technology Review AI",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-18T01:47:10.800514+00:00",
+        "checked_at": "2026-11-18T09:28:58.710957+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-18T01:47:10.800514+00:00"
+        "last_ok_at": "2026-11-18T09:28:58.710957+00:00"
       },
       {
         "name": "TechCrunch AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-18T01:47:09.677872+00:00",
+        "checked_at": "2026-11-18T09:28:57.537610+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-18T01:47:09.677872+00:00"
+        "last_ok_at": "2026-11-18T09:28:57.537610+00:00"
       },
       {
         "name": "The Batch",
         "ok": false,
         "items": 4,
         "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
-        "checked_at": "2026-11-18T01:47:11.871500+00:00",
-        "failed_streak": 2,
+        "checked_at": "2026-11-18T09:28:59.895907+00:00",
+        "failed_streak": 3,
         "last_ok_at": "2026-11-17T10:55:03.004343+00:00"
       },
       {
@@ -3210,35 +3198,35 @@
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-18T01:47:08.500530+00:00",
+        "checked_at": "2026-11-18T09:28:56.454276+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-18T01:47:08.500530+00:00"
+        "last_ok_at": "2026-11-18T09:28:56.454276+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-18T01:47:00.473392+00:00",
+        "checked_at": "2026-11-18T09:28:48.123397+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-18T01:47:00.473392+00:00"
+        "last_ok_at": "2026-11-18T09:28:48.123397+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-18T01:47:02.728399+00:00",
+        "checked_at": "2026-11-18T09:28:50.432495+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-18T01:47:02.728399+00:00"
+        "last_ok_at": "2026-11-18T09:28:50.432495+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-18T01:47:22.625824+00:00",
+      "checked_at": "2026-11-18T09:29:11.229859+00:00",
       "failed_streak": 0,
-      "last_ok_at": "2026-11-18T01:47:22.625824+00:00"
+      "last_ok_at": "2026-11-18T09:29:11.229859+00:00"
     }
   }
 }
