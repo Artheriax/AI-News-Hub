@@ -1,7 +1,152 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T08:10:50.337812+00:00",
+  "generated_at": "2026-11-19T17:29:32.163633+00:00",
   "items": [
+    {
+      "id": "rss:https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/",
+      "title": "Chinese tech firms face a double hit as chip shipments stop and overseas cloud access disappears",
+      "url": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-19T17:02:41+00:00",
+      "summary": "Stricter US export controls on AI chips are hitting fast. China's Moonshot AI walked away from a $150 million deal in Indonesia, while TSMC and Samsung stopped shipping to Chinese customers. A New York Times investigation found that Alibaba had routed Nvidia chips to Chinese military researchers…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/07/us_vs_china_open_models.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
+      "title": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
+      "url": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-19T17:00:00+00:00",
+      "summary": "Everful has raised $48.5 million to expand its factory-direct sourcing platform, helping retailers source products from overseas manufacturers.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+      "source": "Google AI Blog",
+      "category": "news",
+      "published": "2026-11-19T17:00:00+00:00",
+      "summary": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues.max-600x600.format-webp.webp",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+      "title": "Anthropic hits NASDAQ exchanges at $111, 33% above IPO price",
+      "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-19T16:59:23+00:00",
+      "summary": "Anthropic's IPO price was set at $83, representing more than $80 billion in new capital raised.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+      "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+      "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-19T16:19:41+00:00",
+      "summary": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+      "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-19T14:54:39+00:00",
+      "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "yt:90vN0xFeLcQ",
+      "title": "Gemini 4 Neon Is INSANE – Is THIS Google's BEST Model Yet?",
+      "url": "https://www.youtube.com/watch?v=90vN0xFeLcQ",
+      "source": "Bijan Bowen",
+      "category": "videos",
+      "published": "2026-11-19T14:17:18+00:00",
+      "summary": "Timestamps: 00:00 - Intro 01:02 - First Look 01:49 - Technical Look 02:41 - Testing Info 03:01 - Browser OS Test 10:40 - C++ Skate Game Test 15:35 - Robot Arm Test 17:05 - Creative Writing Test 20:47 - Subway FPS Test 22:20 - Subway Image Improvement 24:47 - Chad Game Test 29:19 - 3D CAD & Print…",
+      "thumbnail": "https://i2.ytimg.com/vi/90vN0xFeLcQ/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Bijan Bowen"
+    },
+    {
+      "id": "rss:https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector/",
+      "title": "Anthropic's $81.3 billion IPO shatters SpaceX's record as rising rates and political headwinds shake the sector",
+      "url": "https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-19T14:02:22+00:00",
+      "summary": "Anthropic launches the largest IPO in history, dethroning SpaceX as the previous record holder. Early investor Dustin Moskovitz is publicly distancing himself, warning that his early funding may have been an act \"that ended the world.\" The article Anthropic's $81.3 billion IPO shatters SpaceX's…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_claude_logo.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
+      "title": "Superhuman pushes its Go assistant everywhere",
+      "url": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-19T14:00:00+00:00",
+      "summary": "Superhuman is making Go its central agent and making it available in Docs and Mail.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues/",
+      "title": "OpenAI's own researchers now say they value their AI tools more than nearly half their colleagues",
+      "url": "https://the-decoder.com/openais-own-researchers-now-say-they-value-their-ai-tools-more-than-nearly-half-their-colleagues/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-19T13:08:35+00:00",
+      "summary": "OpenAI's internal use of coding agents is growing fast, with theoretical token costs now exceeding researchers' base salaries. Even though teams are reluctant to work without these tools, the models still produce a lot of \"AI slop\" beyond routine tasks. The article OpenAI's own researchers now say…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/10/openai_logo_numbers.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/googles-latest-ai-model-is-faster-cheaper-and-smarter-than-its-flagship-predecessor-from-just-weeks-ago/",
+      "title": "Google's latest AI model is faster, cheaper and smarter than its flagship predecessor from just weeks ago",
+      "url": "https://the-decoder.com/googles-latest-ai-model-is-faster-cheaper-and-smarter-than-its-flagship-predecessor-from-just-weeks-ago/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-19T11:18:18+00:00",
+      "summary": "Google DeepMind has released Gemini 4 Neon, its fourth model in seven weeks, which is nearly 2x faster than its sibling Carbon, outperforms it on most benchmarks and comes in at a significantly lower price. The article Google's latest AI model is faster, cheaper and smarter than its flagship…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/gemini-4-neon__blog-header__sm.width-1600.format-webp.webp",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/",
+      "title": "OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months",
+      "url": "https://the-decoder.com/ocr-models-now-digitize-a-million-pages-for-under-130-as-costs-drop-fivefold-in-18-months/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-19T09:28:01+00:00",
+      "summary": "Pulling text out of scanned books and records has gotten a lot cheaper with freely available AI models. The article OCR models now digitize a million pages for under $130 as costs drop fivefold in 18 months appeared first on The Decoder .",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/07/baidu-ocr-machine-nano-banana-pro.jpg",
+      "kind": "article"
+    },
+    {
+      "id": "yt:Cy7Wz6Z4TWU",
+      "title": "DeepMind Just Released The Best Thing AI Ever Did",
+      "url": "https://www.youtube.com/watch?v=Cy7Wz6Z4TWU",
+      "source": "Two Minute Papers",
+      "category": "videos",
+      "published": "2026-11-19T09:26:19+00:00",
+      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.com/papers 📝 The DeepMind AlphaGenome paper is available here: https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/ Interview with creator Dr. Pushmeet Kohli…",
+      "thumbnail": "https://i4.ytimg.com/vi/Cy7Wz6Z4TWU/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Two Minute Papers"
+    },
     {
       "id": "yt:rYsIpPP6QY4",
       "title": "GPT 6.2 Astra is out!",
@@ -280,17 +425,6 @@
       "kind": "article"
     },
     {
-      "id": "rss:https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets/",
-      "title": "Anthropic, OpenAI, and Google models readily marked medics, journalists, and surrendering soldiers as kamikaze drone targets",
-      "url": "https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-18T15:47:49+00:00",
-      "summary": "A Vals AI investigation shows that leading AI models from Anthropic, OpenAI and Google have almost no safeguards against use in autonomous weapons systems. In tests, the models readily flagged civilians as military targets, and a simple video game framing in the prompt was enough to override even…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/03/AI-Fake-Chain-of-Evidence.png",
-      "kind": "article"
-    },
-    {
       "id": "rss:https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
       "title": "The AI Hype Index: AI is everywhere",
       "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
@@ -298,83 +432,6 @@
       "category": "news",
       "published": "2026-11-18T14:42:44+00:00",
       "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go…",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/",
-      "title": "Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems",
-      "url": "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-18T14:40:52+00:00",
-      "summary": "Mistral's AI agent Vibe now has its own desktop app. The article Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems appeared first on The Decoder .",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/07/mistral_ai-3.png",
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/",
-      "title": "OpenAI opens its AI systems to four independent on-site auditors for the first time",
-      "url": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-18T14:36:42+00:00",
-      "summary": "OpenAI is giving four independent audit organizations, including Apollo Research and METR, direct access to unreleased models, source code, and training data for the first time. The embedded reviews are designed to uncover hidden misbehavior and safety gaps. OpenAI can redact or delay reports, so…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/10/openai_logo-1.png",
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed/",
-      "title": "Hugging Face now routes model requests through OpenRouter for the best price or speed",
-      "url": "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-18T14:33:44+00:00",
-      "summary": "Hugging Face now routes language model requests through OpenRouter, which automatically selects the cheapest or fastest provider. Bring-your-own API keys for language models are going away. According to OpenRouter, the new routing cut capacity errors by 46 percent. Both partners face…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/huggingface-openrouter-01-hero.jpg",
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://the-decoder.com/more-than-half-the-electricity-feeding-americas-largest-data-centers-comes-from-gas-and-coal/",
-      "title": "More than half the electricity feeding America's largest data centers comes from gas and coal",
-      "url": "https://the-decoder.com/more-than-half-the-electricity-feeding-americas-largest-data-centers-comes-from-gas-and-coal/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-18T14:25:04+00:00",
-      "summary": "A Harvard study published in Nature Sustainability found that 403 US hyperscale data centers produced roughly 25.7 million metric tons of CO2 between May 2024 and April 2025, more than all of Denmark. Over half of their electricity came from fossil fuels. With 2,000 additional facilities planned…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/data_center_climate_impact2.png",
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
-      "title": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
-      "url": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-18T13:00:00+00:00",
-      "summary": "If Nvidia is backstopping a data center loan, it won't be on the hook unless the neocould has independent financing and gets the facility built, with Nvidia gear installed, interim CEO Colette Kress explained.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
-      "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
-      "url": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-18T12:00:00+00:00",
-      "summary": "With a team of just seven, Unsiloed AI plans to compete with tech giants and specialized startups in the crowded AI document-processing market.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
-      "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
-      "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-18T11:30:00+00:00",
-      "summary": "Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
       "thumbnail": null,
       "kind": "article"
     },
@@ -402,17 +459,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
-      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future  deals in doubt",
-      "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-18T01:44:21+00:00",
-      "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
       "id": "yt:jm_h5nRZoCg",
       "title": "GPT-6.2 Astra Is INSANE – Does THIS Beat Claude Fable?",
       "url": "https://www.youtube.com/watch?v=jm_h5nRZoCg",
@@ -425,17 +471,6 @@
       "channel": "Bijan Bowen"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
-      "title": "Nvidia promises that revenue will keep soaring — for now",
-      "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-18T00:16:50+00:00",
-      "summary": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
       "id": "paper:2611.24738",
       "title": "Jeveration: System One Models Now Generate",
       "url": "https://huggingface.co/papers/2611.24738",
@@ -445,8 +480,47 @@
       "summary": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 27,
+      "upvotes": 80,
       "arxiv_id": "2611.24738"
+    },
+    {
+      "id": "paper:2611.24154",
+      "title": "Game2Player: Scaling Gameplay Experience for Visual Agents through Environment-Player Co-Development",
+      "url": "https://huggingface.co/papers/2611.24154",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-18T00:00:00+00:00",
+      "summary": "Games are a rich testbed for visual agents, demanding perception, long-horizon planning, and precise control. However, collecting human gameplay is costly, and learning from gameplay videos requires inferring missing actions. Existing datasets also cover a limited range of games, often without explicit tasks or verifiable outcomes. To address these gaps, we introduce Game2Player, a framework that…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 24,
+      "arxiv_id": "2611.24154"
+    },
+    {
+      "id": "paper:2611.24654",
+      "title": "CurvDelta: Low-Curvature Delta Modeling For Surgical Learning and Unlearning",
+      "url": "https://huggingface.co/papers/2611.24654",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-18T00:00:00+00:00",
+      "summary": "A central challenge in adapting large language models (LLMs) is capability preservation: an adaptation can achieve its target while degrading general capabilities. We introduce CurvDelta, a scalable framework that incorporates the preservation constraint into the parameterization of the model update. By analyzing the local geometry of the preservation constraint around the pre-adaptation model…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 22,
+      "arxiv_id": "2611.24654"
+    },
+    {
+      "id": "paper:2611.24789",
+      "title": "HINT-WAM: Hindsight-Informed Training for World Action Models",
+      "url": "https://huggingface.co/papers/2611.24789",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-18T00:00:00+00:00",
+      "summary": "World action models (WAMs) have shown promising generalization and data efficiency in robot manipulation by coupling action generation with predictions of future visual dynamics. Translating these capabilities into reliable task execution, however, remains a challenge for existing post-training methods. Offline supervised fine-tuning provides dense supervision on expert trajectories, but its…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 22,
+      "arxiv_id": "2611.24789"
     },
     {
       "id": "rss:https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
@@ -504,7 +578,7 @@
       "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 155,
+      "upvotes": 158,
       "arxiv_id": "2611.22115"
     },
     {
@@ -517,8 +591,21 @@
       "summary": "Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by hand without gradient-based training, so those reasons no longer apply. Should we keep the Transformer? Given minimal guidance, ten labeled examples, and a sandbox, mainly on…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 52,
+      "upvotes": 53,
       "arxiv_id": "2611.22055"
+    },
+    {
+      "id": "paper:2611.23068",
+      "title": "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
+      "url": "https://huggingface.co/papers/2611.23068",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-17T00:00:00+00:00",
+      "summary": "Agent evolution follows a simple loop: a proposer writes candidate artifacts (prompts, skills, memories) and selection accepts those that score higher. This loop has shown promise, yet practitioners face a puzzle: methods trade wins across papers, and evolution often fails to bootstrap on certain tasks. We trace this puzzle to the Resolution Hypothesis: agent evolution stalls not because methods…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 32,
+      "arxiv_id": "2611.23068"
     },
     {
       "id": "paper:2611.23226",
@@ -530,7 +617,7 @@
       "summary": "Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregressive video diffusion models that achieves interactive latency without compromising quality. We…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 24,
+      "upvotes": 28,
       "arxiv_id": "2611.23226"
     },
     {
@@ -545,19 +632,6 @@
       "kind": "paper",
       "upvotes": 24,
       "arxiv_id": "2611.23143"
-    },
-    {
-      "id": "paper:2611.22275",
-      "title": "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration",
-      "url": "https://huggingface.co/papers/2611.22275",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-17T00:00:00+00:00",
-      "summary": "Collaboration promises to extend humanoid capabilities beyond what individual robots can achieve. However, realizing this potential requires coordinated whole-body interactions, coherent long-horizon planning, and precise synchronization across robots. We introduce Heave-Ho, a decentralized framework for long-horizon collaborative multi-humanoid loco-manipulation. At the low level, we develop a…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 21,
-      "arxiv_id": "2611.22275"
     },
     {
       "id": "yt:atz4gzB7ykY",
@@ -640,32 +714,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2611.21218",
-      "title": "InclusionMed: Benchmarking AI for Inclusive Healthcare",
-      "url": "https://huggingface.co/papers/2611.21218",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-16T00:00:00+00:00",
-      "summary": "Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven. We introduce InclusionMed, an open medical AI evaluation initiative for inclusive healthcare. The InclusionMed Atlas organizes benchmarks across three healthcare roles and three AI capabilities. For the first release, we selected four…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 99,
-      "arxiv_id": "2611.21218"
-    },
-    {
-      "id": "paper:2611.21072",
-      "title": "Sage S2.1 Flash Technical Report",
-      "url": "https://huggingface.co/papers/2611.21072",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-16T00:00:00+00:00",
-      "summary": "We introduce Sage S1.5 Flash, a 320-billion-parameter general-purpose mixture-of-experts model designed to reason over scientific evidence and act in interactive environments. Sage Sci-Perception uses dedicated encoders for molecular graphs and biological sequences and represents spectra as ordered patches of measurements. Modality-specific projectors map these representations into the input…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 95,
-      "arxiv_id": "2611.21072"
-    },
-    {
       "id": "paper:2611.21099",
       "title": "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
       "url": "https://huggingface.co/papers/2611.21099",
@@ -675,21 +723,21 @@
       "summary": "Frontier multimodal models can now control robots zero-shot from images, yet many manipulation tasks depend on contact forces that images cannot show. Bringing force to an API-only frozen model raises two challenges. First, contact evolves much faster than an API model can decide, so the system must close the loop on force beneath the model. Second, a frozen model cannot interpret raw force…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 41,
+      "upvotes": 40,
       "arxiv_id": "2611.21099"
     },
     {
-      "id": "paper:2611.21479",
-      "title": "LynnReal-Hand: Unlocking World Interaction with Hand Control",
-      "url": "https://huggingface.co/papers/2611.21479",
+      "id": "paper:2611.21366",
+      "title": "ALIVE: Making Streaming Video Models Interactive",
+      "url": "https://huggingface.co/papers/2611.21366",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-11-16T00:00:00+00:00",
-      "summary": "Interactive video world models enable exploration through text and camera controls, yet direct object interaction requires finer control. Hands provide a natural interface, but translating continuous hand movements into coherent visual responses remains challenging because of complex hand-object dynamics and demanding real-time computation. To address these challenges, we introduce LynnReal-Hand…",
+      "summary": "Streaming video LLMs can continuously observe the world, yet often handle user requests in isolation. We introduce ALIVE, an interactive streaming video model supporting proactive monitoring, streaming task coordination, and feedback-seeking interaction. We construct ALIVE-SFT-288K and ALIVE-RL-3K for two-stage training. Contrastive supervised fine-tuning teaches when and how to respond, while…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 22,
-      "arxiv_id": "2611.21479"
+      "upvotes": 29,
+      "arxiv_id": "2611.21366"
     },
     {
       "id": "yt:iXvttGCoc1g",
@@ -716,19 +764,6 @@
       "channel": "AI Search"
     },
     {
-      "id": "paper:2611.20218",
-      "title": "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
-      "url": "https://huggingface.co/papers/2611.20218",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-15T00:00:00+00:00",
-      "summary": "A coding agent working within a software organization must establish what to build, collaborate with colleagues, and verify what it delivers. We introduce SWE-CoWork, a benchmark comprising 101 development assignments across 101 real repositories, 11 programming languages, and 12 application domains. Each assignment places an agent in a simulated engineering organization with 26 colleagues who…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 51,
-      "arxiv_id": "2611.20218"
-    },
-    {
       "id": "paper:2611.19800",
       "title": "Multi-Branch Transformer",
       "url": "https://huggingface.co/papers/2611.19800",
@@ -738,7 +773,7 @@
       "summary": "Transformer language models are commonly scaled by making their blocks wider or stacking them deeper. In this work, we explore a complementary path: branching, the parallel composition of full Transformer blocks. We introduce the Multi-Branch Transformer (MBT), which processes the input through shared initial layers, executes independently parameterized branches of sequential blocks in parallel…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 45,
+      "upvotes": 43,
       "arxiv_id": "2611.19800"
     },
     {
@@ -751,7 +786,7 @@
       "summary": "Most AI assistants respond only when prompted, remaining silent even when events in the video stream offer meaningful opportunities for conversation. To move beyond purely user-driven interaction, we present AURA 2.0, a streaming video large language model that introduces three core upgrades to AURA. The key advance is Model-Initiated Conversation (MIC), which enables the model to identify topics…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 35,
+      "upvotes": 36,
       "arxiv_id": "2611.17048"
     },
     {
@@ -812,7 +847,7 @@
       "summary": "Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads. To address this requirement, we introduce AscendGYM, a benchmark whose initial…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 91,
+      "upvotes": 92,
       "arxiv_id": "2611.17621"
     },
     {
@@ -1624,18 +1659,6 @@
       "summary": "Cover image for the e-Conomy SEA 2026 report titled Building the intelligent economy by Google, Temasek, and Bain and Company. A 3D illustration features a glowing yellow star surrounded by miniature scenes representing digital sectors, including data cen",
       "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/e-Conomy_SEA_hero.max-600x600.format-webp.webp",
       "kind": "article"
-    },
-    {
-      "id": "yt:b2tjnxX8IHU",
-      "title": "Did Google just dethrone OpenAI and Anthropic?",
-      "url": "https://www.youtube.com/watch?v=b2tjnxX8IHU",
-      "source": "Fireship",
-      "category": "videos",
-      "published": "2026-10-20T16:21:03+00:00",
-      "summary": "Macroscope can auto-approve your team's PRs safely. Try it here: https://macroscope.com/?utm_source=fireship Google’s new model claims to beat GPT-6 and Opus 5.5, so I took them all for a test drive. Let's dive in. Want more Fireship? 🗞️ Newsletter: https://bytes.dev 🧠 Courses: https://fireship.dev",
-      "thumbnail": "https://i3.ytimg.com/vi/b2tjnxX8IHU/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Fireship"
     }
   ],
   "featured": [
@@ -1654,7 +1677,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T08:10:50.224665+00:00",
+      "fetched_at": "2026-11-19T17:29:32.019467+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1756,7 +1779,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T08:10:50.226751+00:00",
+      "fetched_at": "2026-11-19T17:29:32.022040+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1858,7 +1881,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T08:10:50.229344+00:00",
+      "fetched_at": "2026-11-19T17:29:32.025576+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1960,7 +1983,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T08:10:50.230193+00:00",
+      "fetched_at": "2026-11-19T17:29:32.026683+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2035,7 +2058,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T08:10:50.256189+00:00",
+      "fetched_at": "2026-11-19T17:29:32.058542+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2137,7 +2160,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T08:10:50.279649+00:00",
+      "fetched_at": "2026-11-19T17:29:32.088858+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2212,7 +2235,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T08:10:50.281019+00:00",
+      "fetched_at": "2026-11-19T17:29:32.090651+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2314,7 +2337,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-19T08:10:50.295377+00:00",
+      "fetched_at": "2026-11-19T17:29:32.108945+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2416,7 +2439,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-19T08:10:50.305689+00:00",
+      "fetched_at": "2026-11-19T17:29:32.121515+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2518,7 +2541,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T08:10:50.313473+00:00",
+      "fetched_at": "2026-11-19T17:29:32.131287+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2620,7 +2643,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T08:10:50.316351+00:00",
+      "fetched_at": "2026-11-19T17:29:32.134887+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2722,7 +2745,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T08:10:50.323969+00:00",
+      "fetched_at": "2026-11-19T17:29:32.144563+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2824,7 +2847,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T08:10:50.325956+00:00",
+      "fetched_at": "2026-11-19T17:29:32.147072+00:00",
       "entries": [
         {
           "rank": 1,
@@ -3141,89 +3164,89 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T08:10:25.604227+00:00",
+        "checked_at": "2026-11-19T17:29:07.784524+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T08:10:25.604227+00:00"
+        "last_ok_at": "2026-11-19T17:29:07.784524+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T08:10:24.472328+00:00",
+        "checked_at": "2026-11-19T17:29:06.620307+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T08:10:24.472328+00:00"
+        "last_ok_at": "2026-11-19T17:29:06.620307+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T08:10:28.769463+00:00",
+        "checked_at": "2026-11-19T17:29:11.096505+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T08:10:28.769463+00:00"
+        "last_ok_at": "2026-11-19T17:29:11.096505+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T08:10:26.633478+00:00",
+        "checked_at": "2026-11-19T17:29:08.823786+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T08:10:26.633478+00:00"
+        "last_ok_at": "2026-11-19T17:29:08.823786+00:00"
       },
       {
         "name": "Google AI Blog",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-19T08:10:33.747535+00:00",
+        "checked_at": "2026-11-19T17:29:16.254816+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T08:10:33.747535+00:00"
+        "last_ok_at": "2026-11-19T17:29:16.254816+00:00"
       },
       {
         "name": "Google DeepMind",
         "ok": true,
         "items": 25,
         "error": null,
-        "checked_at": "2026-11-19T08:10:32.463559+00:00",
+        "checked_at": "2026-11-19T17:29:14.955514+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T08:10:32.463559+00:00"
+        "last_ok_at": "2026-11-19T17:29:14.955514+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T08:10:31.129804+00:00",
+        "checked_at": "2026-11-19T17:29:13.440516+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T08:10:31.129804+00:00"
+        "last_ok_at": "2026-11-19T17:29:13.440516+00:00"
       },
       {
         "name": "MIT Technology Review AI",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-19T08:10:38.316964+00:00",
+        "checked_at": "2026-11-19T17:29:20.805702+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T08:10:38.316964+00:00"
+        "last_ok_at": "2026-11-19T17:29:20.805702+00:00"
       },
       {
         "name": "TechCrunch AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-19T08:10:37.165301+00:00",
+        "checked_at": "2026-11-19T17:29:19.667219+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T08:10:37.165301+00:00"
+        "last_ok_at": "2026-11-19T17:29:19.667219+00:00"
       },
       {
         "name": "The Batch",
         "ok": false,
         "items": 4,
         "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
-        "checked_at": "2026-11-19T08:10:39.400697+00:00",
-        "failed_streak": 2,
+        "checked_at": "2026-11-19T17:29:21.848895+00:00",
+        "failed_streak": 3,
         "last_ok_at": "2026-11-18T18:18:48.566798+00:00"
       },
       {
@@ -3231,35 +3254,35 @@
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-19T08:10:36.076974+00:00",
+        "checked_at": "2026-11-19T17:29:18.614851+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T08:10:36.076974+00:00"
+        "last_ok_at": "2026-11-19T17:29:18.614851+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T08:10:27.738268+00:00",
+        "checked_at": "2026-11-19T17:29:09.962745+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T08:10:27.738268+00:00"
+        "last_ok_at": "2026-11-19T17:29:09.962745+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T08:10:29.935364+00:00",
+        "checked_at": "2026-11-19T17:29:12.280938+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T08:10:29.935364+00:00"
+        "last_ok_at": "2026-11-19T17:29:12.280938+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-19T08:10:50.328946+00:00",
+      "checked_at": "2026-11-19T17:29:32.152758+00:00",
       "failed_streak": 0,
-      "last_ok_at": "2026-11-19T08:10:50.328946+00:00"
+      "last_ok_at": "2026-11-19T17:29:32.152758+00:00"
     }
   }
 }
