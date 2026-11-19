@@ -1,7 +1,130 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T17:29:32.163633+00:00",
+  "generated_at": "2026-11-19T23:42:16.991784+00:00",
   "items": [
+    {
+      "id": "rss:https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "title": "Meta’s new Muse Charm device may cost $300",
+      "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-19T21:58:06+00:00",
+      "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+      "title": "These tech outages are giving Y2K, AI agent style",
+      "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-19T21:42:31+00:00",
+      "summary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/an-openai-agent-assigned-a-simple-writing-task-decided-on-its-own-to-build-a-secret-email-surveillance-tool/",
+      "title": "An OpenAI agent assigned a simple writing task decided on its own to build a secret email surveillance tool",
+      "url": "https://the-decoder.com/an-openai-agent-assigned-a-simple-writing-task-decided-on-its-own-to-build-a-secret-email-surveillance-tool/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-19T21:15:01+00:00",
+      "summary": "An internal OpenAI model was supposed to create a fitness document but instead began planning scripts to secretly forward emails to an \"attacker.\" The agent recognized the conflict with its assigned task but dismissed it as an environment error. OpenAI identified security training against prompt…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/agent_mail_compromise.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-19T20:18:49+00:00",
+      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "yt:KGA7B_c_S4s",
+      "title": "Anthropic IPOs, GPT 6.2 Astra Arrives, But There’s a Bigger Story",
+      "url": "https://www.youtube.com/watch?v=KGA7B_c_S4s",
+      "source": "AI Explained",
+      "category": "videos",
+      "published": "2026-11-19T20:03:10+00:00",
+      "summary": "GPT 6.2 Astra is OpenAI’s best model, so for each of the last 4 years this would have been the only headline. But now Gemini is catching up fast, with 4 Carbon and Neon, and Anthropic are IPO-ing after promising imminent RSI. And even all this isn’t quite the main story, is it? We now have data on…",
+      "thumbnail": "https://i4.ytimg.com/vi/KGA7B_c_S4s/hqdefault.jpg",
+      "kind": "video",
+      "channel": "AI Explained"
+    },
+    {
+      "id": "rss:https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/",
+      "title": "AI industry growth remains strong, but the pace is slowing",
+      "url": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-19T19:28:19+00:00",
+      "summary": "Token prices for AI models fell 21 percent in six weeks while usage volume hit a record high, according to the Ramp AI Index. Anthropic dominates with nearly 59 percent of token spending. Data from Ramp, Stripe and OpenRouter independently show the same pattern: the AI industry is still growing…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2024/02/Throwing-money-at-AI.jpg",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+      "title": "Anthropic’s IPO could deliver $156B to charity",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-19T19:10:45+00:00",
+      "summary": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "title": "Google gives Gemini the ability to use your Mac for you",
+      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-19T18:09:11+00:00",
+      "summary": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "source": "Google AI Blog",
+      "category": "news",
+      "published": "2026-11-19T18:00:00+00:00",
+      "summary": "Gemini spark on a space background",
+      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tool_retrieval_hero.max-600x600.format-webp.webp",
+      "kind": "article"
+    },
+    {
+      "id": "yt:Qxor6jpfSiU",
+      "title": "The only software that didn’t break this week...",
+      "url": "https://www.youtube.com/watch?v=Qxor6jpfSiU",
+      "source": "Fireship",
+      "category": "videos",
+      "published": "2026-11-19T17:40:33+00:00",
+      "summary": "Use all your coding agents side by side in one IDE with JetBrains Air: https://jb.gg/https://jb.gg/JetBrainsAir-in-IDEs Solid 2.0 is the framework's first major release in over five years. Why should you care? Let's dive in. Want more Fireship? 🗞️ Newsletter: https://bytes.dev 🧠 Courses…",
+      "thumbnail": "https://i2.ytimg.com/vi/Qxor6jpfSiU/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Fireship"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-19T17:38:40+00:00",
+      "summary": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belong to them.",
+      "thumbnail": null,
+      "kind": "article"
+    },
     {
       "id": "rss:https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/",
       "title": "Chinese tech firms face a double hit as chip shipments stop and overseas cloud access disappears",
@@ -37,7 +160,7 @@
     },
     {
       "id": "rss:https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
-      "title": "Anthropic hits NASDAQ exchanges at $111, 33% above IPO price",
+      "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
       "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
       "source": "TechCrunch AI",
       "category": "news",
@@ -293,28 +416,6 @@
       "kind": "article"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie/",
-      "title": "Sam Altman says his life is so weird that he’s unfazed by Andrew Garfield portraying him in upcoming movie",
-      "url": "https://techcrunch.com/2026/11/18/sam-altman-says-his-life-is-so-weird-that-hes-unfazed-by-andrew-garfield-portraying-him-in-upcoming-movie/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-18T20:07:01+00:00",
-      "summary": "\"It doesn't feel like it's in like the top 10 weirdest things about my life,\" Altman said.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
-      "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
-      "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-18T19:56:39+00:00",
-      "summary": "Lens creators can describe the Lens they want in plain language, and their AI assistant handles the process from start to finish, Snapchat says.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
       "id": "rss:https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/",
       "title": "Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing",
       "url": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/",
@@ -348,39 +449,6 @@
       "kind": "article"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
-      "title": "Google’s AI feature in Search gets its own incognito mode",
-      "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-18T18:04:05+00:00",
-      "summary": "Google's new temporary threads let users have conversations in AI Mode without adding them to their search history or influencing future recommendations.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/",
-      "title": "OpenAI says its models delivered a year's worth of chip optimization on top of AMD's own engineering",
-      "url": "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-18T18:00:33+00:00",
-      "summary": "Working with AMD, OpenAI achieved up to 14 percent PPA improvement on AMD's flagship GPU IP in less than five months. According to OpenAI, that's roughly a year's worth of progress, and AMD has already folded the changes into a design sent to production. Anthropic is also applying AI to chip work…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/07/openai_red_Logo.png",
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
-      "title": "More banks say customers using AI agents are on their own — even if they get hacked",
-      "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-18T17:32:10+00:00",
-      "summary": "Citi is the latest major financial institution to put the breaks on personal finance AI agents.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
       "id": "rss:https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
       "title": "The Gemini app is now available on lower-memory Android devices.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
@@ -389,39 +457,6 @@
       "published": "2026-11-18T17:00:00+00:00",
       "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
       "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-600x600.format-webp.webp",
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
-      "title": "Sam Altman warns against a future where AI, not humans, calls the shots",
-      "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-18T16:59:00+00:00",
-      "summary": "Sam Altman and Greg Brockman pushed back against Silicon Valley's growing debate over an AI takeover, while acknowledging the challenges of keeping advanced models under human control.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
-      "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
-      "url": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-18T16:14:09+00:00",
-      "summary": "Nvidia founder and former CEO Jensen Huang stepped down last week amid several scandals, including an affair with an alleged Chinese spy.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/",
-      "title": "Pangram flags 99 percent of an award-winning Peruvian novel as AI-generated, but the publisher stands by its author",
-      "url": "https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-18T16:09:08+00:00",
-      "summary": "The AI detection tool Pangram flags 99 percent of a prize-winning Peruvian novel as AI-generated, but Mexican publisher Almadía is standing by the award after its own review. Pangram also classified over 80 percent of the author's personal texts as machine-written. French publisher Gallimard plans…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/pangram_literature.png",
       "kind": "article"
     },
     {
@@ -480,7 +515,7 @@
       "summary": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 80,
+      "upvotes": 111,
       "arxiv_id": "2611.24738"
     },
     {
@@ -493,7 +528,7 @@
       "summary": "Games are a rich testbed for visual agents, demanding perception, long-horizon planning, and precise control. However, collecting human gameplay is costly, and learning from gameplay videos requires inferring missing actions. Existing datasets also cover a limited range of games, often without explicit tasks or verifiable outcomes. To address these gaps, we introduce Game2Player, a framework that…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 24,
+      "upvotes": 25,
       "arxiv_id": "2611.24154"
     },
     {
@@ -578,7 +613,7 @@
       "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 158,
+      "upvotes": 159,
       "arxiv_id": "2611.22115"
     },
     {
@@ -591,7 +626,7 @@
       "summary": "Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by hand without gradient-based training, so those reasons no longer apply. Should we keep the Transformer? Given minimal guidance, ten labeled examples, and a sandbox, mainly on…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 53,
+      "upvotes": 54,
       "arxiv_id": "2611.22055"
     },
     {
@@ -604,7 +639,7 @@
       "summary": "Agent evolution follows a simple loop: a proposer writes candidate artifacts (prompts, skills, memories) and selection accepts those that score higher. This loop has shown promise, yet practitioners face a puzzle: methods trade wins across papers, and evolution often fails to bootstrap on certain tasks. We trace this puzzle to the Resolution Hypothesis: agent evolution stalls not because methods…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 32,
+      "upvotes": 35,
       "arxiv_id": "2611.23068"
     },
     {
@@ -617,7 +652,7 @@
       "summary": "Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregressive video diffusion models that achieves interactive latency without compromising quality. We…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 28,
+      "upvotes": 29,
       "arxiv_id": "2611.23226"
     },
     {
@@ -723,7 +758,7 @@
       "summary": "Frontier multimodal models can now control robots zero-shot from images, yet many manipulation tasks depend on contact forces that images cannot show. Bringing force to an API-only frozen model raises two challenges. First, contact evolves much faster than an API model can decide, so the system must close the loop on force beneath the model. Second, a frozen model cannot interpret raw force…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 40,
+      "upvotes": 41,
       "arxiv_id": "2611.21099"
     },
     {
@@ -736,7 +771,7 @@
       "summary": "Streaming video LLMs can continuously observe the world, yet often handle user requests in isolation. We introduce ALIVE, an interactive streaming video model supporting proactive monitoring, streaming task coordination, and feedback-seeking interaction. We construct ALIVE-SFT-288K and ALIVE-RL-3K for two-stage training. Contrastive supervised fine-tuning teaches when and how to respond, while…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 29,
+      "upvotes": 32,
       "arxiv_id": "2611.21366"
     },
     {
@@ -773,7 +808,7 @@
       "summary": "Transformer language models are commonly scaled by making their blocks wider or stacking them deeper. In this work, we explore a complementary path: branching, the parallel composition of full Transformer blocks. We introduce the Multi-Branch Transformer (MBT), which processes the input through shared initial layers, executes independently parameterized branches of sequential blocks in parallel…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 43,
+      "upvotes": 44,
       "arxiv_id": "2611.19800"
     },
     {
@@ -860,7 +895,7 @@
       "summary": "Harness optimization is often studied with a fixed policy model and benchmark. When either changes, the optimizer must decide which parts of an evolved harness to reuse or revise, but the harness alone may not explain why earlier edits were made or how they performed. In this work, we study Continual Recursive Self-Improvement (CRSI), a setting for continuing existing harness-optimization methods…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 31,
+      "upvotes": 33,
       "arxiv_id": "2611.18856"
     },
     {
@@ -1677,7 +1712,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T17:29:32.019467+00:00",
+      "fetched_at": "2026-11-19T23:42:16.898785+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1779,7 +1814,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T17:29:32.022040+00:00",
+      "fetched_at": "2026-11-19T23:42:16.900466+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1881,7 +1916,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T17:29:32.025576+00:00",
+      "fetched_at": "2026-11-19T23:42:16.902558+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1983,7 +2018,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T17:29:32.026683+00:00",
+      "fetched_at": "2026-11-19T23:42:16.903236+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2058,7 +2093,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T17:29:32.058542+00:00",
+      "fetched_at": "2026-11-19T23:42:16.924952+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2160,7 +2195,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T17:29:32.088858+00:00",
+      "fetched_at": "2026-11-19T23:42:16.944523+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2235,7 +2270,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T17:29:32.090651+00:00",
+      "fetched_at": "2026-11-19T23:42:16.945636+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2337,7 +2372,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-19T17:29:32.108945+00:00",
+      "fetched_at": "2026-11-19T23:42:16.957369+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2439,7 +2474,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-19T17:29:32.121515+00:00",
+      "fetched_at": "2026-11-19T23:42:16.965810+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2541,7 +2576,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T17:29:32.131287+00:00",
+      "fetched_at": "2026-11-19T23:42:16.972231+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2643,7 +2678,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T17:29:32.134887+00:00",
+      "fetched_at": "2026-11-19T23:42:16.974635+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2745,13 +2780,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T17:29:32.144563+00:00",
+      "fetched_at": "2026-11-19T23:42:16.980892+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Eleven v4",
           "creator": "ElevenLabs",
-          "score": 1341.0,
+          "score": 1340.0,
           "meta": "Sept 2026 · $80.00 /1M chars",
           "previous_rank": 1,
           "rank_delta": 0
@@ -2760,7 +2795,7 @@
           "rank": 2,
           "name": "Eleven v4 Turbo",
           "creator": "ElevenLabs",
-          "score": 1341.0,
+          "score": 1340.0,
           "meta": "Sept 2026 · $40.00 /1M chars",
           "previous_rank": 2,
           "rank_delta": 0
@@ -2778,7 +2813,7 @@
           "rank": 4,
           "name": "Sonic 3.6",
           "creator": "Cartesia",
-          "score": 1295.0,
+          "score": 1294.0,
           "meta": "Aug 2026 · $49.00 /1M chars",
           "previous_rank": 4,
           "rank_delta": 0
@@ -2805,7 +2840,7 @@
           "rank": 7,
           "name": "Fish Audio Drama 3",
           "creator": "Fish Audio",
-          "score": 1279.0,
+          "score": 1278.0,
           "meta": "Oct 2026 · $15.00 /1M chars",
           "previous_rank": 7,
           "rank_delta": 0
@@ -2814,7 +2849,7 @@
           "rank": 8,
           "name": "Lightning V3.1 Pro (Oct 2026)",
           "creator": "Smallest.ai",
-          "score": 1278.0,
+          "score": 1276.0,
           "meta": "Oct 2026 · $19.50 /1M chars",
           "previous_rank": 8,
           "rank_delta": 0
@@ -2823,7 +2858,7 @@
           "rank": 9,
           "name": "Realtime TTS-2",
           "creator": "Inworld",
-          "score": 1270.0,
+          "score": 1269.0,
           "meta": "Aug 2026 · $20.83 /1M chars",
           "previous_rank": 9,
           "rank_delta": 0
@@ -2847,13 +2882,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T17:29:32.147072+00:00",
+      "fetched_at": "2026-11-19T23:42:16.982498+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fish Audio Drama 3",
           "creator": "Fish Audio",
-          "score": 1279.0,
+          "score": 1278.0,
           "meta": "Oct 2026 · $15.00 /1M chars",
           "previous_rank": 1,
           "rank_delta": 0
@@ -2880,7 +2915,7 @@
           "rank": 4,
           "name": "Ming-3.0-tts",
           "creator": "Ant Group",
-          "score": 1182.0,
+          "score": 1181.0,
           "meta": "Oct 2026 · N/A",
           "previous_rank": 4,
           "rank_delta": 0
@@ -2889,7 +2924,7 @@
           "rank": 5,
           "name": "Phonon 31M (English)",
           "creator": "Gradium",
-          "score": 1110.0,
+          "score": 1109.0,
           "meta": "Oct 2026 · $0.00 /1M chars",
           "previous_rank": 5,
           "rank_delta": 0
@@ -3141,18 +3176,18 @@
         "closed_winner": {
           "model": "Eleven v4",
           "developer": "ElevenLabs",
-          "score": "1341",
+          "score": "1340",
           "released": "Sept 2026"
         },
         "open_winner": {
           "model": "Fish Audio Drama 3",
           "developer": "Fish Audio",
-          "score": "1279",
+          "score": "1278",
           "released": "Oct 2026"
         },
         "runner_up": {
           "model": "Eleven v4 Turbo",
-          "score": "1341"
+          "score": "1340"
         }
       }
     ]
@@ -3164,125 +3199,125 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T17:29:07.784524+00:00",
+        "checked_at": "2026-11-19T23:41:52.565468+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T17:29:07.784524+00:00"
+        "last_ok_at": "2026-11-19T23:41:52.565468+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T17:29:06.620307+00:00",
+        "checked_at": "2026-11-19T23:41:51.540134+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T17:29:06.620307+00:00"
+        "last_ok_at": "2026-11-19T23:41:51.540134+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T17:29:11.096505+00:00",
+        "checked_at": "2026-11-19T23:41:55.617963+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T17:29:11.096505+00:00"
+        "last_ok_at": "2026-11-19T23:41:55.617963+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T17:29:08.823786+00:00",
+        "checked_at": "2026-11-19T23:41:53.582450+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T17:29:08.823786+00:00"
+        "last_ok_at": "2026-11-19T23:41:53.582450+00:00"
       },
       {
         "name": "Google AI Blog",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-19T17:29:16.254816+00:00",
+        "checked_at": "2026-11-19T23:42:00.275329+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T17:29:16.254816+00:00"
+        "last_ok_at": "2026-11-19T23:42:00.275329+00:00"
       },
       {
         "name": "Google DeepMind",
         "ok": true,
         "items": 25,
         "error": null,
-        "checked_at": "2026-11-19T17:29:14.955514+00:00",
+        "checked_at": "2026-11-19T23:41:58.990338+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T17:29:14.955514+00:00"
+        "last_ok_at": "2026-11-19T23:41:58.990338+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T17:29:13.440516+00:00",
+        "checked_at": "2026-11-19T23:41:57.812756+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T17:29:13.440516+00:00"
+        "last_ok_at": "2026-11-19T23:41:57.812756+00:00"
       },
       {
         "name": "MIT Technology Review AI",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-19T17:29:20.805702+00:00",
+        "checked_at": "2026-11-19T23:42:04.788638+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T17:29:20.805702+00:00"
+        "last_ok_at": "2026-11-19T23:42:04.788638+00:00"
       },
       {
         "name": "TechCrunch AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-19T17:29:19.667219+00:00",
+        "checked_at": "2026-11-19T23:42:03.700277+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T17:29:19.667219+00:00"
+        "last_ok_at": "2026-11-19T23:42:03.700277+00:00"
       },
       {
         "name": "The Batch",
-        "ok": false,
-        "items": 4,
-        "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
-        "checked_at": "2026-11-19T17:29:21.848895+00:00",
-        "failed_streak": 3,
-        "last_ok_at": "2026-11-18T18:18:48.566798+00:00"
+        "ok": true,
+        "items": 16,
+        "error": null,
+        "checked_at": "2026-11-19T23:42:06.033318+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-19T23:42:06.033318+00:00"
       },
       {
         "name": "The Decoder",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-19T17:29:18.614851+00:00",
+        "checked_at": "2026-11-19T23:42:02.645427+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T17:29:18.614851+00:00"
+        "last_ok_at": "2026-11-19T23:42:02.645427+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T17:29:09.962745+00:00",
+        "checked_at": "2026-11-19T23:41:54.600467+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T17:29:09.962745+00:00"
+        "last_ok_at": "2026-11-19T23:41:54.600467+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T17:29:12.280938+00:00",
+        "checked_at": "2026-11-19T23:41:56.648765+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T17:29:12.280938+00:00"
+        "last_ok_at": "2026-11-19T23:41:56.648765+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-19T17:29:32.152758+00:00",
+      "checked_at": "2026-11-19T23:42:16.984839+00:00",
       "failed_streak": 0,
-      "last_ok_at": "2026-11-19T17:29:32.152758+00:00"
+      "last_ok_at": "2026-11-19T23:42:16.984839+00:00"
     }
   }
 }
