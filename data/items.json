@@ -1,7 +1,30 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T00:36:49.933712+00:00",
+  "generated_at": "2026-11-19T08:10:50.337812+00:00",
   "items": [
+    {
+      "id": "yt:rYsIpPP6QY4",
+      "title": "GPT 6.2 Astra is out!",
+      "url": "https://www.youtube.com/watch?v=rYsIpPP6QY4",
+      "source": "AI Search",
+      "category": "videos",
+      "published": "2026-11-19T03:26:49+00:00",
+      "summary": "GPT 6.2 Astra review. #ai #ainews #aitools #llm #agi #singularity Thanks to our sponsor Higgsfield. Try it today: https://higgsfield.ai/s/theaisearch-xLXjAo Also see: Gemini Carbon review https://youtu.be/woWo80dPkVk Fable 5.2 review https://youtu.be/S7lpCyZSdJQ Opus 5.5 review…",
+      "thumbnail": "https://i3.ytimg.com/vi/rYsIpPP6QY4/hqdefault.jpg",
+      "kind": "video",
+      "channel": "AI Search"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-19T00:42:56+00:00",
+      "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect.",
+      "thumbnail": null,
+      "kind": "article"
+    },
     {
       "id": "yt:R0rXSJmymTc",
       "title": "Gemini 4 Neon Is Google’s Most Powerful AI Model! BEATS Opus 5.5 & GPT-6.2 (Fully Tested)",
@@ -60,7 +83,7 @@
     },
     {
       "id": "rss:https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
-      "title": "Anthropic reportedly prices IPO at $83 a share, above projected range",
+      "title": "Anthropic prices IPO at $83 a share, above projected range",
       "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
       "source": "TechCrunch AI",
       "category": "news",
@@ -413,15 +436,17 @@
       "kind": "article"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
-      "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
-      "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-17T23:37:48+00:00",
-      "summary": "Nvidia's interim CEO says the company is done selling chips to China. How much will that cost?",
+      "id": "paper:2611.24738",
+      "title": "Jeveration: System One Models Now Generate",
+      "url": "https://huggingface.co/papers/2611.24738",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-18T00:00:00+00:00",
+      "summary": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global…",
       "thumbnail": null,
-      "kind": "article"
+      "kind": "paper",
+      "upvotes": 27,
+      "arxiv_id": "2611.24738"
     },
     {
       "id": "rss:https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
@@ -479,7 +504,7 @@
       "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 149,
+      "upvotes": 155,
       "arxiv_id": "2611.22115"
     },
     {
@@ -492,7 +517,7 @@
       "summary": "Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by hand without gradient-based training, so those reasons no longer apply. Should we keep the Transformer? Given minimal guidance, ten labeled examples, and a sandbox, mainly on…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 47,
+      "upvotes": 52,
       "arxiv_id": "2611.22055"
     },
     {
@@ -505,8 +530,34 @@
       "summary": "Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregressive video diffusion models that achieves interactive latency without compromising quality. We…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 23,
+      "upvotes": 24,
       "arxiv_id": "2611.23226"
+    },
+    {
+      "id": "paper:2611.23143",
+      "title": "TCP4D: A Unified Tool-Center-Point Tracking and Generation Model for Robot Manipulation",
+      "url": "https://huggingface.co/papers/2611.23143",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-17T00:00:00+00:00",
+      "summary": "Robot manipulation videos provide a rich visual experience, yet recovering robot action and gripper-state annotations from RGB observations still remains challenging. Using the embodiment-agnostic tool-center-point (TCP) pose as the action space, we present TCP4D, a unified model in which a shared 4D scene representation both tracks observed TCP motion and generates future TCP trajectories. Given…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 24,
+      "arxiv_id": "2611.23143"
+    },
+    {
+      "id": "paper:2611.22275",
+      "title": "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration",
+      "url": "https://huggingface.co/papers/2611.22275",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-17T00:00:00+00:00",
+      "summary": "Collaboration promises to extend humanoid capabilities beyond what individual robots can achieve. However, realizing this potential requires coordinated whole-body interactions, coherent long-horizon planning, and precise synchronization across robots. We introduce Heave-Ho, a decentralized framework for long-horizon collaborative multi-humanoid loco-manipulation. At the low level, we develop a…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 21,
+      "arxiv_id": "2611.22275"
     },
     {
       "id": "yt:atz4gzB7ykY",
@@ -598,7 +649,7 @@
       "summary": "Advancing medical AI for inclusive healthcare requires evaluation across diverse healthcare roles, tasks, and care settings, but benchmark coverage remains uneven. We introduce InclusionMed, an open medical AI evaluation initiative for inclusive healthcare. The InclusionMed Atlas organizes benchmarks across three healthcare roles and three AI capabilities. For the first release, we selected four…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 97,
+      "upvotes": 99,
       "arxiv_id": "2611.21218"
     },
     {
@@ -615,19 +666,6 @@
       "arxiv_id": "2611.21072"
     },
     {
-      "id": "paper:2611.21003",
-      "title": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
-      "url": "https://huggingface.co/papers/2611.21003",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-16T00:00:00+00:00",
-      "summary": "We present K2-Horizon, a fleet of six fully open language models, from a 0.9B dense model to a 375B-A23B MoE, built for general-purpose reasoning and agentic work across math and science, software engineering, deep research, office automation, and beyond. The models lead or are competitive with strong open models of their size on agentic and coding benchmarks. On the modeling side, to strengthen…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 84,
-      "arxiv_id": "2611.21003"
-    },
-    {
       "id": "paper:2611.21099",
       "title": "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
       "url": "https://huggingface.co/papers/2611.21099",
@@ -637,21 +675,21 @@
       "summary": "Frontier multimodal models can now control robots zero-shot from images, yet many manipulation tasks depend on contact forces that images cannot show. Bringing force to an API-only frozen model raises two challenges. First, contact evolves much faster than an API model can decide, so the system must close the loop on force beneath the model. Second, a frozen model cannot interpret raw force…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 38,
+      "upvotes": 41,
       "arxiv_id": "2611.21099"
     },
     {
-      "id": "paper:2611.21607",
-      "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
-      "url": "https://huggingface.co/papers/2611.21607",
+      "id": "paper:2611.21479",
+      "title": "LynnReal-Hand: Unlocking World Interaction with Hand Control",
+      "url": "https://huggingface.co/papers/2611.21479",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-11-16T00:00:00+00:00",
-      "summary": "Frontier Vision-Language Models (VLMs) such as GPT-6 Astra have demonstrated remarkable capabilities in robot control, suggesting that broad pretraining provides knowledge valuable for physical action. Yet most Vision-Language-Action (VLA) policies still rely on much smaller VLM backbones, leaving this potential largely untapped. We ask whether frontier-scale representations can provide a…",
+      "summary": "Interactive video world models enable exploration through text and camera controls, yet direct object interaction requires finer control. Hands provide a natural interface, but translating continuous hand movements into coherent visual responses remains challenging because of complex hand-object dynamics and demanding real-time computation. To address these challenges, we introduce LynnReal-Hand…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 36,
-      "arxiv_id": "2611.21607"
+      "upvotes": 22,
+      "arxiv_id": "2611.21479"
     },
     {
       "id": "yt:iXvttGCoc1g",
@@ -678,19 +716,6 @@
       "channel": "AI Search"
     },
     {
-      "id": "paper:2611.19937",
-      "title": "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data",
-      "url": "https://huggingface.co/papers/2611.19937",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-15T00:00:00+00:00",
-      "summary": "Real-world portfolio management requires converting noisy market observations into coordinated, simultaneous allocations across multiple assets under shared capital constraints. Advances in forecasting models and alpha discovery help identify opportunities. However, traditional pipelines often decouple signal forecasting from portfolio construction, potentially misaligning learning with…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 72,
-      "arxiv_id": "2611.19937"
-    },
-    {
       "id": "paper:2611.20218",
       "title": "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
       "url": "https://huggingface.co/papers/2611.20218",
@@ -713,7 +738,7 @@
       "summary": "Transformer language models are commonly scaled by making their blocks wider or stacking them deeper. In this work, we explore a complementary path: branching, the parallel composition of full Transformer blocks. We introduce the Multi-Branch Transformer (MBT), which processes the input through shared initial layers, executes independently parameterized branches of sequential blocks in parallel…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 43,
+      "upvotes": 45,
       "arxiv_id": "2611.19800"
     },
     {
@@ -726,7 +751,7 @@
       "summary": "Most AI assistants respond only when prompted, remaining silent even when events in the video stream offer meaningful opportunities for conversation. To move beyond purely user-driven interaction, we present AURA 2.0, a streaming video large language model that introduces three core upgrades to AURA. The key advance is Model-Initiated Conversation (MIC), which enables the model to identify topics…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 33,
+      "upvotes": 35,
       "arxiv_id": "2611.17048"
     },
     {
@@ -791,19 +816,6 @@
       "arxiv_id": "2611.17621"
     },
     {
-      "id": "paper:2611.17834",
-      "title": "PaperCritic: Training AI Reviewers to Assess the Soundness of Papers",
-      "url": "https://huggingface.co/papers/2611.17834",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-13T00:00:00+00:00",
-      "summary": "As AI conference submissions grow rapidly, AI reviewers are being considered as an alternative. However, simply imitating human reviewing is problematic because reviewing serves multiple purposes, including evaluating papers' soundness, interestingness, and clarity, the last two of which are subjective. In this work, we focus solely on evaluating soundness, the most important and objective…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 31,
-      "arxiv_id": "2611.17834"
-    },
-    {
       "id": "paper:2611.18856",
       "title": "Self-Improvement Memory Enables Continual Recursive Self-Improvement",
       "url": "https://huggingface.co/papers/2611.18856",
@@ -813,7 +825,7 @@
       "summary": "Harness optimization is often studied with a fixed policy model and benchmark. When either changes, the optimizer must decide which parts of an evolved harness to reuse or revise, but the harness alone may not explain why earlier edits were made or how they performed. In this work, we study Continual Recursive Self-Improvement (CRSI), a setting for continuing existing harness-optimization methods…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 30,
+      "upvotes": 31,
       "arxiv_id": "2611.18856"
     },
     {
@@ -1624,18 +1636,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/b2tjnxX8IHU/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
-    },
-    {
-      "id": "yt:cUeZMUGCxrw",
-      "title": "New top local AI image generator is here!",
-      "url": "https://www.youtube.com/watch?v=cUeZMUGCxrw",
-      "source": "AI Search",
-      "category": "videos",
-      "published": "2026-10-20T03:24:08+00:00",
-      "summary": "MOSS Image review & tutorial. How to use MOSS Image in ComfyUI. How to edit images with MOSS. Thanks to our sponsor Higgsfield. Try it today https://higgsfield.ai/s/theaisearch-rxYPHC #ai #aiart #imagegenerator #aitools #ainews #agi https://huggingface.co/Comfy-Org/MOSS-Image…",
-      "thumbnail": "https://i4.ytimg.com/vi/cUeZMUGCxrw/hqdefault.jpg",
-      "kind": "video",
-      "channel": "AI Search"
     }
   ],
   "featured": [
@@ -1654,7 +1654,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T00:36:49.832070+00:00",
+      "fetched_at": "2026-11-19T08:10:50.224665+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1756,7 +1756,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T00:36:49.833877+00:00",
+      "fetched_at": "2026-11-19T08:10:50.226751+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1858,7 +1858,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T00:36:49.836116+00:00",
+      "fetched_at": "2026-11-19T08:10:50.229344+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1960,7 +1960,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T00:36:49.836853+00:00",
+      "fetched_at": "2026-11-19T08:10:50.230193+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2035,7 +2035,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T00:36:49.860303+00:00",
+      "fetched_at": "2026-11-19T08:10:50.256189+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2137,7 +2137,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T00:36:49.881658+00:00",
+      "fetched_at": "2026-11-19T08:10:50.279649+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2212,7 +2212,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T00:36:49.882835+00:00",
+      "fetched_at": "2026-11-19T08:10:50.281019+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2314,7 +2314,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-19T00:36:49.895620+00:00",
+      "fetched_at": "2026-11-19T08:10:50.295377+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2340,7 +2340,8 @@
           "creator": "Google",
           "score": 61.0,
           "meta": "1M ctx",
-          "previous_rank": null
+          "previous_rank": 3,
+          "rank_delta": 0
         },
         {
           "rank": 4,
@@ -2348,8 +2349,8 @@
           "creator": "Google",
           "score": 60.0,
           "meta": "1M ctx",
-          "previous_rank": 3,
-          "rank_delta": -1
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
@@ -2357,8 +2358,8 @@
           "creator": "Anthropic",
           "score": 59.0,
           "meta": "1M ctx",
-          "previous_rank": 4,
-          "rank_delta": -1
+          "previous_rank": 5,
+          "rank_delta": 0
         },
         {
           "rank": 6,
@@ -2366,8 +2367,8 @@
           "creator": "OpenAI",
           "score": 57.0,
           "meta": "1M ctx",
-          "previous_rank": 5,
-          "rank_delta": -1
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
@@ -2375,8 +2376,8 @@
           "creator": "Anthropic",
           "score": 55.0,
           "meta": "1M ctx",
-          "previous_rank": 6,
-          "rank_delta": -1
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
@@ -2384,8 +2385,8 @@
           "creator": "Google",
           "score": 54.0,
           "meta": "1M ctx",
-          "previous_rank": 7,
-          "rank_delta": -1
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
@@ -2393,8 +2394,8 @@
           "creator": "OpenAI",
           "score": 51.0,
           "meta": "1M ctx",
-          "previous_rank": 8,
-          "rank_delta": -1
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
@@ -2402,8 +2403,8 @@
           "creator": "Google",
           "score": 50.0,
           "meta": "1M ctx",
-          "previous_rank": 9,
-          "rank_delta": -1
+          "previous_rank": 10,
+          "rank_delta": 0
         }
       ]
     },
@@ -2415,7 +2416,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-19T00:36:49.904724+00:00",
+      "fetched_at": "2026-11-19T08:10:50.305689+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2517,7 +2518,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T00:36:49.911737+00:00",
+      "fetched_at": "2026-11-19T08:10:50.313473+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2619,7 +2620,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T00:36:49.914388+00:00",
+      "fetched_at": "2026-11-19T08:10:50.316351+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2721,7 +2722,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T00:36:49.921295+00:00",
+      "fetched_at": "2026-11-19T08:10:50.323969+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2823,7 +2824,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T00:36:49.923060+00:00",
+      "fetched_at": "2026-11-19T08:10:50.325956+00:00",
       "entries": [
         {
           "rank": 1,
@@ -3140,89 +3141,89 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T00:36:25.382736+00:00",
+        "checked_at": "2026-11-19T08:10:25.604227+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T00:36:25.382736+00:00"
+        "last_ok_at": "2026-11-19T08:10:25.604227+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T00:36:24.360500+00:00",
+        "checked_at": "2026-11-19T08:10:24.472328+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T00:36:24.360500+00:00"
+        "last_ok_at": "2026-11-19T08:10:24.472328+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T00:36:28.688652+00:00",
+        "checked_at": "2026-11-19T08:10:28.769463+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T00:36:28.688652+00:00"
+        "last_ok_at": "2026-11-19T08:10:28.769463+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T00:36:26.400541+00:00",
+        "checked_at": "2026-11-19T08:10:26.633478+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T00:36:26.400541+00:00"
+        "last_ok_at": "2026-11-19T08:10:26.633478+00:00"
       },
       {
         "name": "Google AI Blog",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-19T00:36:33.370173+00:00",
+        "checked_at": "2026-11-19T08:10:33.747535+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T00:36:33.370173+00:00"
+        "last_ok_at": "2026-11-19T08:10:33.747535+00:00"
       },
       {
         "name": "Google DeepMind",
         "ok": true,
         "items": 25,
         "error": null,
-        "checked_at": "2026-11-19T00:36:32.167006+00:00",
+        "checked_at": "2026-11-19T08:10:32.463559+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T00:36:32.167006+00:00"
+        "last_ok_at": "2026-11-19T08:10:32.463559+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T00:36:31.033435+00:00",
+        "checked_at": "2026-11-19T08:10:31.129804+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T00:36:31.033435+00:00"
+        "last_ok_at": "2026-11-19T08:10:31.129804+00:00"
       },
       {
         "name": "MIT Technology Review AI",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-19T00:36:38.330161+00:00",
+        "checked_at": "2026-11-19T08:10:38.316964+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T00:36:38.330161+00:00"
+        "last_ok_at": "2026-11-19T08:10:38.316964+00:00"
       },
       {
         "name": "TechCrunch AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-19T00:36:37.202700+00:00",
+        "checked_at": "2026-11-19T08:10:37.165301+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T00:36:37.202700+00:00"
+        "last_ok_at": "2026-11-19T08:10:37.165301+00:00"
       },
       {
         "name": "The Batch",
         "ok": false,
         "items": 4,
         "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
-        "checked_at": "2026-11-19T00:36:39.415293+00:00",
-        "failed_streak": 1,
+        "checked_at": "2026-11-19T08:10:39.400697+00:00",
+        "failed_streak": 2,
         "last_ok_at": "2026-11-18T18:18:48.566798+00:00"
       },
       {
@@ -3230,35 +3231,35 @@
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-19T00:36:36.077331+00:00",
+        "checked_at": "2026-11-19T08:10:36.076974+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T00:36:36.077331+00:00"
+        "last_ok_at": "2026-11-19T08:10:36.076974+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T00:36:27.534644+00:00",
+        "checked_at": "2026-11-19T08:10:27.738268+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T00:36:27.534644+00:00"
+        "last_ok_at": "2026-11-19T08:10:27.738268+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T00:36:29.851582+00:00",
+        "checked_at": "2026-11-19T08:10:29.935364+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T00:36:29.851582+00:00"
+        "last_ok_at": "2026-11-19T08:10:29.935364+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-19T00:36:49.925974+00:00",
+      "checked_at": "2026-11-19T08:10:50.328946+00:00",
       "failed_streak": 0,
-      "last_ok_at": "2026-11-19T00:36:49.925974+00:00"
+      "last_ok_at": "2026-11-19T08:10:50.328946+00:00"
     }
   }
 }
