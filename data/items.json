@@ -1,7 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T23:42:16.991784+00:00",
+  "generated_at": "2026-11-20T04:54:53.032077+00:00",
   "items": [
+    {
+      "id": "yt:3FE-hBh1rsY",
+      "title": "Gemini 4 Neon is ON FIRE!",
+      "url": "https://www.youtube.com/watch?v=3FE-hBh1rsY",
+      "source": "AI Search",
+      "category": "videos",
+      "published": "2026-11-20T03:26:03+00:00",
+      "summary": "Gemini 4 Neon review. #ai #aitools #ainews #llm #agi #singularity. Thanks to our sponsor Luma. Try it for free https://lumalabs.ai/aisearch-nov2 Also see: GPT 6.2 Astra https://youtu.be/rYsIpPP6QY4 Gemini Carbon review https://youtu.be/woWo80dPkVk Fable 5.2 review https://youtu.be/S7lpCyZSdJQ Opus…",
+      "thumbnail": "https://i4.ytimg.com/vi/3FE-hBh1rsY/hqdefault.jpg",
+      "kind": "video",
+      "channel": "AI Search"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-20T00:56:01+00:00",
+      "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-20T00:43:50+00:00",
+      "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
+      "thumbnail": null,
+      "kind": "article"
+    },
     {
       "id": "rss:https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
       "title": "Meta’s new Muse Charm device may cost $300",
@@ -383,28 +417,6 @@
       "kind": "article"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
-      "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
-      "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-18T21:34:13+00:00",
-      "summary": "The Anduril co-founder says outdated technology is leaving systems vulnerable to a new wave of AI-enabled attacks.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
-      "title": "Palmer Luckey thinks China is ‘thrilled to have Jensen out,’ so he wants the ousted Nvidia CEO reinstated",
-      "url": "https://techcrunch.com/2026/11/18/palmer-luckey-thinks-china-is-thrilled-to-have-jensen-out-so-he-wants-the-ousted-nvidia-ceo-reinstated/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-18T21:31:21+00:00",
-      "summary": "\"It makes America weaker to knock him out,\" the Anduril CEO said about ousted Nvidia leader Jensen Huang.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
       "id": "rss:https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/",
       "title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
       "url": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/",
@@ -515,7 +527,7 @@
       "summary": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 111,
+      "upvotes": 120,
       "arxiv_id": "2611.24738"
     },
     {
@@ -556,6 +568,19 @@
       "kind": "paper",
       "upvotes": 22,
       "arxiv_id": "2611.24789"
+    },
+    {
+      "id": "paper:2611.24869",
+      "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
+      "url": "https://huggingface.co/papers/2611.24869",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-18T00:00:00+00:00",
+      "summary": "Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within similar scenes and action spaces. For customizable gameplay, generative world models must follow user-defined rules beyond real-world behaviors. However, realizing user-defined rules presents two challenges: Rule-State Persistence and Rule-to-Visual Realization. The former…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 19,
+      "arxiv_id": "2611.24869"
     },
     {
       "id": "rss:https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
@@ -613,7 +638,7 @@
       "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 159,
+      "upvotes": 160,
       "arxiv_id": "2611.22115"
     },
     {
@@ -667,6 +692,19 @@
       "kind": "paper",
       "upvotes": 24,
       "arxiv_id": "2611.23143"
+    },
+    {
+      "id": "paper:2611.22275",
+      "title": "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration",
+      "url": "https://huggingface.co/papers/2611.22275",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-17T00:00:00+00:00",
+      "summary": "Collaboration promises to extend humanoid capabilities beyond what individual robots can achieve. However, realizing this potential requires coordinated whole-body interactions, coherent long-horizon planning, and precise synchronization across robots. We introduce Heave-Ho, a decentralized framework for long-horizon collaborative multi-humanoid loco-manipulation. At the low level, we develop a…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 22,
+      "arxiv_id": "2611.22275"
     },
     {
       "id": "yt:atz4gzB7ykY",
@@ -749,19 +787,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2611.21099",
-      "title": "ForceHarness: Turning Force into Action and Physics for Frozen Frontier Models",
-      "url": "https://huggingface.co/papers/2611.21099",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-16T00:00:00+00:00",
-      "summary": "Frontier multimodal models can now control robots zero-shot from images, yet many manipulation tasks depend on contact forces that images cannot show. Bringing force to an API-only frozen model raises two challenges. First, contact evolves much faster than an API model can decide, so the system must close the loop on force beneath the model. Second, a frozen model cannot interpret raw force…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 41,
-      "arxiv_id": "2611.21099"
-    },
-    {
       "id": "paper:2611.21366",
       "title": "ALIVE: Making Streaming Video Models Interactive",
       "url": "https://huggingface.co/papers/2611.21366",
@@ -771,8 +796,21 @@
       "summary": "Streaming video LLMs can continuously observe the world, yet often handle user requests in isolation. We introduce ALIVE, an interactive streaming video model supporting proactive monitoring, streaming task coordination, and feedback-seeking interaction. We construct ALIVE-SFT-288K and ALIVE-RL-3K for two-stage training. Contrastive supervised fine-tuning teaches when and how to respond, while…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 32,
+      "upvotes": 35,
       "arxiv_id": "2611.21366"
+    },
+    {
+      "id": "paper:2611.21392",
+      "title": "VideoNexus: Video Perception Beyond the Reasoning Context",
+      "url": "https://huggingface.co/papers/2611.21392",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-16T00:00:00+00:00",
+      "summary": "Understanding long videos requires locating evidence, resolving visual details, and integrating observations into an answer. Even when relevant evidence is present, performing these operations within long, dense visual sequences burdens both perception and reasoning. Video agents enable selective inspection, but returning frames to the planner still accumulates visual information in its reasoning…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 20,
+      "arxiv_id": "2611.21392"
     },
     {
       "id": "yt:iXvttGCoc1g",
@@ -871,32 +909,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/prA0iTPDqfo/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
-    },
-    {
-      "id": "paper:2611.17621",
-      "title": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
-      "url": "https://huggingface.co/papers/2611.17621",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-13T00:00:00+00:00",
-      "summary": "Kernel optimization is essential for efficient large language model (LLM) training and inference on Ascend NPUs. Existing Ascend kernel benchmarks primarily focus on kernel generation, with less emphasis on the ability of agents to optimize existing implementations under input configurations drawn from real workloads. To address this requirement, we introduce AscendGYM, a benchmark whose initial…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 92,
-      "arxiv_id": "2611.17621"
-    },
-    {
-      "id": "paper:2611.18856",
-      "title": "Self-Improvement Memory Enables Continual Recursive Self-Improvement",
-      "url": "https://huggingface.co/papers/2611.18856",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-13T00:00:00+00:00",
-      "summary": "Harness optimization is often studied with a fixed policy model and benchmark. When either changes, the optimizer must decide which parts of an evolved harness to reuse or revise, but the harness alone may not explain why earlier edits were made or how they performed. In this work, we study Continual Recursive Self-Improvement (CRSI), a setting for continuing existing harness-optimization methods…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 33,
-      "arxiv_id": "2611.18856"
     },
     {
       "id": "batch:/the-batch/issue-379",
@@ -1683,17 +1695,6 @@
       "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
       "thumbnail": "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w528-h297-n-nu-rw-lo",
       "kind": "article"
-    },
-    {
-      "id": "rss:https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
-      "title": "Southeast Asia’s digital economy to hit $368 billion",
-      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
-      "source": "Google AI Blog",
-      "category": "news",
-      "published": "2026-10-21T04:00:00+00:00",
-      "summary": "Cover image for the e-Conomy SEA 2026 report titled Building the intelligent economy by Google, Temasek, and Bain and Company. A 3D illustration features a glowing yellow star surrounded by miniature scenes representing digital sectors, including data cen",
-      "thumbnail": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/e-Conomy_SEA_hero.max-600x600.format-webp.webp",
-      "kind": "article"
     }
   ],
   "featured": [
@@ -1712,7 +1713,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T23:42:16.898785+00:00",
+      "fetched_at": "2026-11-20T04:54:52.925525+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1814,7 +1815,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T23:42:16.900466+00:00",
+      "fetched_at": "2026-11-20T04:54:52.927549+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1916,7 +1917,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T23:42:16.902558+00:00",
+      "fetched_at": "2026-11-20T04:54:52.930114+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1938,75 +1939,74 @@
         },
         {
           "rank": 3,
+          "name": "Boreal-H3",
+          "creator": "Creatify",
+          "score": 1148.0,
+          "meta": "Oct 2026 · $2.69 /min",
+          "previous_rank": null
+        },
+        {
+          "rank": 4,
           "name": "Dreamina Seedance 2.0",
           "creator": "ByteDance Seed",
           "score": 1141.0,
           "meta": "Mar 2026 · $22.45 /min",
           "previous_rank": 3,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax",
           "score": 1134.0,
           "meta": "Jul 2026 · $4.80 /min",
           "previous_rank": 4,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "SkyReels V4",
           "creator": "Skywork AI",
           "score": 1125.0,
           "meta": "Mar 2026 · $21.00 /min",
           "previous_rank": 5,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "HeyGen Video 1",
           "creator": "HeyGen",
           "score": 1124.0,
           "meta": "Oct 2026 · $2.40 /min",
           "previous_rank": 6,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Hyperflow H3",
           "creator": "Video Rebirth",
           "score": 1119.0,
           "meta": "Sep 2026 · $9.00 /min",
           "previous_rank": 7,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "P-Video-2-Pro",
           "creator": "Pruna AI",
           "score": 1117.0,
           "meta": "Sep 2026 · $5.70 /min",
           "previous_rank": 8,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "MiniMax H3 Max",
           "creator": "Fal",
           "score": 1116.0,
           "meta": "Aug 2026 · $9.60 /min",
           "previous_rank": 9,
-          "rank_delta": 0
-        },
-        {
-          "rank": 10,
-          "name": "Pika H3 Flex",
-          "creator": "Pika Art",
-          "score": 1114.0,
-          "meta": "Oct 2026 · $2.10 /min",
-          "previous_rank": 10,
-          "rank_delta": 0
+          "rank_delta": -1
         }
       ]
     },
@@ -2018,7 +2018,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T23:42:16.903236+00:00",
+      "fetched_at": "2026-11-20T04:54:52.930905+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2093,7 +2093,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T23:42:16.924952+00:00",
+      "fetched_at": "2026-11-20T04:54:52.953664+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2142,48 +2142,47 @@
         },
         {
           "rank": 6,
+          "name": "Boreal-H3",
+          "creator": "Creatify",
+          "score": 1121.0,
+          "meta": "Oct 2026 · $2.69 /min",
+          "previous_rank": null
+        },
+        {
+          "rank": 7,
           "name": "SkyReels V4",
           "creator": "Skywork AI",
           "score": 1119.0,
           "meta": "Mar 2026 · $21.00 /min",
           "previous_rank": 6,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "Agnes-Video-2.5",
           "creator": "Sapiens AI",
           "score": 1118.0,
           "meta": "Aug 2026 · $2.40 /min",
           "previous_rank": 7,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax",
           "score": 1113.0,
           "meta": "Jul 2026 · $4.80 /min",
           "previous_rank": 8,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "P-Video-2-Pro",
           "creator": "Pruna AI",
           "score": 1109.0,
           "meta": "Sep 2026 · $5.70 /min",
           "previous_rank": 9,
-          "rank_delta": 0
-        },
-        {
-          "rank": 10,
-          "name": "HeyGen Video 1",
-          "creator": "HeyGen",
-          "score": 1107.0,
-          "meta": "Oct 2026 · $2.40 /min",
-          "previous_rank": 10,
-          "rank_delta": 0
+          "rank_delta": -1
         }
       ]
     },
@@ -2195,7 +2194,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T23:42:16.944523+00:00",
+      "fetched_at": "2026-11-20T04:54:52.974614+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2270,7 +2269,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T23:42:16.945636+00:00",
+      "fetched_at": "2026-11-20T04:54:52.975965+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2372,7 +2371,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-19T23:42:16.957369+00:00",
+      "fetched_at": "2026-11-20T04:54:52.990142+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2474,7 +2473,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-19T23:42:16.965810+00:00",
+      "fetched_at": "2026-11-20T04:54:52.998879+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2576,7 +2575,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T23:42:16.972231+00:00",
+      "fetched_at": "2026-11-20T04:54:53.006799+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2678,7 +2677,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T23:42:16.974635+00:00",
+      "fetched_at": "2026-11-20T04:54:53.009871+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2780,97 +2779,96 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T23:42:16.980892+00:00",
+      "fetched_at": "2026-11-20T04:54:53.017231+00:00",
       "entries": [
         {
           "rank": 1,
-          "name": "Eleven v4",
-          "creator": "ElevenLabs",
-          "score": 1340.0,
-          "meta": "Sept 2026 · $80.00 /1M chars",
-          "previous_rank": 1,
-          "rank_delta": 0
-        },
-        {
-          "rank": 2,
           "name": "Eleven v4 Turbo",
           "creator": "ElevenLabs",
           "score": 1340.0,
           "meta": "Sept 2026 · $40.00 /1M chars",
           "previous_rank": 2,
-          "rank_delta": 0
+          "rank_delta": 1
+        },
+        {
+          "rank": 2,
+          "name": "Eleven v4",
+          "creator": "ElevenLabs",
+          "score": 1340.0,
+          "meta": "Sept 2026 · $80.00 /1M chars",
+          "previous_rank": 1,
+          "rank_delta": -1
         },
         {
           "rank": 3,
-          "name": "Qwen-Audio-3.1-TTS-Plus",
-          "creator": "Alibaba",
-          "score": 1299.0,
-          "meta": "Sept 2026 · $19.31 /1M chars",
-          "previous_rank": 3,
-          "rank_delta": 0
+          "name": "StepAudio 3 TTS",
+          "creator": "StepFun",
+          "score": 1307.0,
+          "meta": "Nov 2026 · $14.00 /1M chars",
+          "previous_rank": null
         },
         {
           "rank": 4,
+          "name": "Qwen-Audio-3.1-TTS-Plus",
+          "creator": "Alibaba",
+          "score": 1298.0,
+          "meta": "Sept 2026 · $19.31 /1M chars",
+          "previous_rank": 3,
+          "rank_delta": -1
+        },
+        {
+          "rank": 5,
           "name": "Sonic 3.6",
           "creator": "Cartesia",
           "score": 1294.0,
           "meta": "Aug 2026 · $49.00 /1M chars",
           "previous_rank": 4,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Simba 3.5",
           "creator": "SpeechifyAI",
           "score": 1293.0,
           "meta": "Nov 2026 · $6.58 /1M chars",
           "previous_rank": 5,
-          "rank_delta": 0
-        },
-        {
-          "rank": 6,
-          "name": "Gemini 3.8 Flash TTS",
-          "creator": "Google",
-          "score": 1283.0,
-          "meta": "Sept 2026 · $16.49 /1M chars",
-          "previous_rank": 6,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
           "rank": 7,
-          "name": "Fish Audio Drama 3",
-          "creator": "Fish Audio",
-          "score": 1278.0,
-          "meta": "Oct 2026 · $15.00 /1M chars",
-          "previous_rank": 7,
-          "rank_delta": 0
+          "name": "Gemini 3.8 Flash TTS",
+          "creator": "Google",
+          "score": 1282.0,
+          "meta": "Sept 2026 · $16.49 /1M chars",
+          "previous_rank": 6,
+          "rank_delta": -1
         },
         {
           "rank": 8,
+          "name": "Fish Audio Drama 3",
+          "creator": "Fish Audio",
+          "score": 1277.0,
+          "meta": "Oct 2026 · $15.00 /1M chars",
+          "previous_rank": 7,
+          "rank_delta": -1
+        },
+        {
+          "rank": 9,
           "name": "Lightning V3.1 Pro (Oct 2026)",
           "creator": "Smallest.ai",
           "score": 1276.0,
           "meta": "Oct 2026 · $19.50 /1M chars",
           "previous_rank": 8,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Realtime TTS-2",
           "creator": "Inworld",
           "score": 1269.0,
           "meta": "Aug 2026 · $20.83 /1M chars",
           "previous_rank": 9,
-          "rank_delta": 0
-        },
-        {
-          "rank": 10,
-          "name": "Qwen-Audio-3.0-TTS-Plus",
-          "creator": "Alibaba",
-          "score": 1262.0,
-          "meta": "Sept 2026 · $19.31 /1M chars",
-          "previous_rank": 10,
-          "rank_delta": 0
+          "rank_delta": -1
         }
       ]
     },
@@ -2882,13 +2880,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-19T23:42:16.982498+00:00",
+      "fetched_at": "2026-11-20T04:54:53.019218+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fish Audio Drama 3",
           "creator": "Fish Audio",
-          "score": 1278.0,
+          "score": 1277.0,
           "meta": "Oct 2026 · $15.00 /1M chars",
           "previous_rank": 1,
           "rank_delta": 0
@@ -2906,7 +2904,7 @@
           "rank": 3,
           "name": "Breeze TTS 2",
           "creator": "BreezeBlue",
-          "score": 1229.0,
+          "score": 1228.0,
           "meta": "Aug 2026 · $34.00 /1M chars",
           "previous_rank": 3,
           "rank_delta": 0
@@ -2915,7 +2913,7 @@
           "rank": 4,
           "name": "Ming-3.0-tts",
           "creator": "Ant Group",
-          "score": 1181.0,
+          "score": 1179.0,
           "meta": "Oct 2026 · N/A",
           "previous_rank": 4,
           "rank_delta": 0
@@ -2924,28 +2922,28 @@
           "rank": 5,
           "name": "Phonon 31M (English)",
           "creator": "Gradium",
-          "score": 1109.0,
+          "score": 1108.0,
           "meta": "Oct 2026 · $0.00 /1M chars",
           "previous_rank": 5,
           "rank_delta": 0
         },
         {
           "rank": 6,
-          "name": "Step Audio EditX (Mar 2026)",
-          "creator": "StepFun",
-          "score": 1101.0,
-          "meta": "Feb 2026 · N/A",
-          "previous_rank": 6,
-          "rank_delta": 0
-        },
-        {
-          "rank": 7,
           "name": "Fish Audio S2 Pro",
           "creator": "Fish Audio",
           "score": 1101.0,
           "meta": "Mar 2026 · $15.00 /1M chars",
           "previous_rank": 7,
-          "rank_delta": 0
+          "rank_delta": 1
+        },
+        {
+          "rank": 7,
+          "name": "Step Audio EditX (Mar 2026)",
+          "creator": "StepFun",
+          "score": 1100.0,
+          "meta": "Feb 2026 · N/A",
+          "previous_rank": 6,
+          "rank_delta": -1
         },
         {
           "rank": 8,
@@ -2960,7 +2958,7 @@
           "rank": 9,
           "name": "Magpie-Multilingual 357M (Feb 2026)",
           "creator": "NVIDIA",
-          "score": 1063.0,
+          "score": 1064.0,
           "meta": "Feb 2026 · N/A",
           "previous_rank": 9,
           "rank_delta": 0
@@ -3174,7 +3172,7 @@
         "board_open": "tts-provider-voice-open",
         "source_note": "Top-1 of own Artificial Analysis boards (snapshot per fetch)",
         "closed_winner": {
-          "model": "Eleven v4",
+          "model": "Eleven v4 Turbo",
           "developer": "ElevenLabs",
           "score": "1340",
           "released": "Sept 2026"
@@ -3182,11 +3180,11 @@
         "open_winner": {
           "model": "Fish Audio Drama 3",
           "developer": "Fish Audio",
-          "score": "1278",
+          "score": "1277",
           "released": "Oct 2026"
         },
         "runner_up": {
-          "model": "Eleven v4 Turbo",
+          "model": "Eleven v4",
           "score": "1340"
         }
       }
@@ -3199,89 +3197,89 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T23:41:52.565468+00:00",
+        "checked_at": "2026-11-20T04:54:28.784268+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T23:41:52.565468+00:00"
+        "last_ok_at": "2026-11-20T04:54:28.784268+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T23:41:51.540134+00:00",
+        "checked_at": "2026-11-20T04:54:27.756492+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T23:41:51.540134+00:00"
+        "last_ok_at": "2026-11-20T04:54:27.756492+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T23:41:55.617963+00:00",
+        "checked_at": "2026-11-20T04:54:31.917657+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T23:41:55.617963+00:00"
+        "last_ok_at": "2026-11-20T04:54:31.917657+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T23:41:53.582450+00:00",
+        "checked_at": "2026-11-20T04:54:29.802039+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T23:41:53.582450+00:00"
+        "last_ok_at": "2026-11-20T04:54:29.802039+00:00"
       },
       {
         "name": "Google AI Blog",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-19T23:42:00.275329+00:00",
+        "checked_at": "2026-11-20T04:54:36.649654+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T23:42:00.275329+00:00"
+        "last_ok_at": "2026-11-20T04:54:36.649654+00:00"
       },
       {
         "name": "Google DeepMind",
         "ok": true,
         "items": 25,
         "error": null,
-        "checked_at": "2026-11-19T23:41:58.990338+00:00",
+        "checked_at": "2026-11-20T04:54:35.372810+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T23:41:58.990338+00:00"
+        "last_ok_at": "2026-11-20T04:54:35.372810+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T23:41:57.812756+00:00",
+        "checked_at": "2026-11-20T04:54:34.151186+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T23:41:57.812756+00:00"
+        "last_ok_at": "2026-11-20T04:54:34.151186+00:00"
       },
       {
         "name": "MIT Technology Review AI",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-19T23:42:04.788638+00:00",
+        "checked_at": "2026-11-20T04:54:41.044287+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T23:42:04.788638+00:00"
+        "last_ok_at": "2026-11-20T04:54:41.044287+00:00"
       },
       {
         "name": "TechCrunch AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-19T23:42:03.700277+00:00",
+        "checked_at": "2026-11-20T04:54:39.953645+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T23:42:03.700277+00:00"
+        "last_ok_at": "2026-11-20T04:54:39.953645+00:00"
       },
       {
         "name": "The Batch",
-        "ok": true,
-        "items": 16,
-        "error": null,
-        "checked_at": "2026-11-19T23:42:06.033318+00:00",
-        "failed_streak": 0,
+        "ok": false,
+        "items": 4,
+        "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
+        "checked_at": "2026-11-20T04:54:42.151170+00:00",
+        "failed_streak": 1,
         "last_ok_at": "2026-11-19T23:42:06.033318+00:00"
       },
       {
@@ -3289,35 +3287,35 @@
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-19T23:42:02.645427+00:00",
+        "checked_at": "2026-11-20T04:54:38.876652+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T23:42:02.645427+00:00"
+        "last_ok_at": "2026-11-20T04:54:38.876652+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T23:41:54.600467+00:00",
+        "checked_at": "2026-11-20T04:54:30.820688+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T23:41:54.600467+00:00"
+        "last_ok_at": "2026-11-20T04:54:30.820688+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-19T23:41:56.648765+00:00",
+        "checked_at": "2026-11-20T04:54:33.038898+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-19T23:41:56.648765+00:00"
+        "last_ok_at": "2026-11-20T04:54:33.038898+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-19T23:42:16.984839+00:00",
+      "checked_at": "2026-11-20T04:54:53.024170+00:00",
       "failed_streak": 0,
-      "last_ok_at": "2026-11-19T23:42:16.984839+00:00"
+      "last_ok_at": "2026-11-20T04:54:53.024170+00:00"
     }
   }
 }
