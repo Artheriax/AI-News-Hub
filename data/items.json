@@ -1,7 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T04:54:53.032077+00:00",
+  "generated_at": "2026-11-20T13:44:24.985218+00:00",
   "items": [
+    {
+      "id": "rss:https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/",
+      "title": "Google's latest homepage update pushes its search engine further toward an AI answer engine",
+      "url": "https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-20T13:19:31+00:00",
+      "summary": "Google is rolling out a collapsible sidebar globally on its Desktop Search homepage. In AI Mode, it lets users reopen recent AI searches, search threads, and create notebooks. Temporary threads that aren't saved to history are also launching worldwide. Google Search co-lead Robby Stein says the…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/07/google_gemini-1.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
+      "title": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
+      "url": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-20T09:59:51+00:00",
+      "summary": "Companies will soon be able to run the open-source Hermes Agent from Nous Research directly inside Microsoft Teams. The article Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill appeared first on The Decoder .",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/06/hermes-og-image-blue.png",
+      "kind": "article"
+    },
+    {
+      "id": "yt:6NT9TsT6iMc",
+      "title": "Google ACHIEVED RSI?! New Stealth Model BEATS Fable 5.2, Anthropic Post IPO, Genie 4 & MORE! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=6NT9TsT6iMc",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-11-20T08:15:34+00:00",
+      "summary": "Catch the bugs that only show up at the merge. Try TestSprite free: https://www.testsprite.com/?via=mahi-2611a Google may have just achieved Recursive Self-Improvement (RSI), and the latest Gemini 4 developments are raising some serious questions! In today's AI news, we're breaking down Google's…",
+      "thumbnail": "https://i3.ytimg.com/vi/6NT9TsT6iMc/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
     {
       "id": "yt:3FE-hBh1rsY",
       "title": "Gemini 4 Neon is ON FIRE!",
@@ -328,6 +362,97 @@
       "kind": "article"
     },
     {
+      "id": "paper:2611.26444",
+      "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+      "url": "https://huggingface.co/papers/2611.26444",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-19T00:00:00+00:00",
+      "summary": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 42,
+      "arxiv_id": "2611.26444"
+    },
+    {
+      "id": "paper:2611.26409",
+      "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+      "url": "https://huggingface.co/papers/2611.26409",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-19T00:00:00+00:00",
+      "summary": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants. Centering on joint audio-visual perception and reasoning, WeMM-Video unifies text, image, audio, and video processing within a…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 36,
+      "arxiv_id": "2611.26409"
+    },
+    {
+      "id": "paper:2611.26595",
+      "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
+      "url": "https://huggingface.co/papers/2611.26595",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-19T00:00:00+00:00",
+      "summary": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm. Through controlled experiments and blinded human evaluation, we study proxy granularity, physics simulation, and…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 29,
+      "arxiv_id": "2611.26595"
+    },
+    {
+      "id": "paper:2611.26590",
+      "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+      "url": "https://huggingface.co/papers/2611.26590",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-19T00:00:00+00:00",
+      "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 26,
+      "arxiv_id": "2611.26590"
+    },
+    {
+      "id": "paper:2611.26107",
+      "title": "HiUni: Harmonizing Understanding and Generation in Shared Visual Space",
+      "url": "https://huggingface.co/papers/2611.26107",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-19T00:00:00+00:00",
+      "summary": "Unified multimodal models aim to support visual understanding and generation within a single framework. However, prevailing approaches often separate their visual representations or backbone computation to accommodate the different requirements of these two tasks, which limits the degree of unification. In this paper, we present HiUni, which revisits this design choice and explores whether a…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 23,
+      "arxiv_id": "2611.26107"
+    },
+    {
+      "id": "paper:2611.26380",
+      "title": "EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning",
+      "url": "https://huggingface.co/papers/2611.26380",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-19T00:00:00+00:00",
+      "summary": "Egocentric video captioning requires fine-grained detail and accurate timing, yet current multimodal large language models (MLLMs) often miss brief actions, confuse their order, or misinterpret the wearer's motion. Existing caption formats also offer limited support for combining detailed narration with precise timing. We present EgoCaptioner, which pairs a video-level overview of the setting…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 22,
+      "arxiv_id": "2611.26380"
+    },
+    {
+      "id": "paper:2611.25387",
+      "title": "TuringSpace: Grounding Spatial Intelligence in Action with Interactive CAPTCHAs",
+      "url": "https://huggingface.co/papers/2611.25387",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-19T00:00:00+00:00",
+      "summary": "Humans act in the visual world by inferring the 3D layout behind a 2D view, predicting how an action changes it, and correcting themselves after seeing the result. Can multimodal large language models (MLLMs) do the same? CAPTCHAs offer a natural test, since humans solve them through this very loop, clicking and dragging on the screen and adjusting after each result. Yet existing CAPTCHA…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 21,
+      "arxiv_id": "2611.25387"
+    },
+    {
       "id": "yt:R0rXSJmymTc",
       "title": "Gemini 4 Neon Is Google’s Most Powerful AI Model! BEATS Opus 5.5 & GPT-6.2 (Fully Tested)",
       "url": "https://www.youtube.com/watch?v=R0rXSJmymTc",
@@ -428,28 +553,6 @@
       "kind": "article"
     },
     {
-      "id": "rss:https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/",
-      "title": "Google Deepmind's Project Genie update brings Genie 4, chainable worlds, and a community gallery for remixing",
-      "url": "https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-18T19:26:25+00:00",
-      "summary": "With Genie 4, Google DeepMind is launching its most realistic world model to date for Google AI Ultra subscribers. It generates interactive 3D worlds that can be modified in real time via text input and, for the first time, includes native sound. A community gallery allows users to share and remix…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/10/Genie-4-Google-title.png",
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives/",
-      "title": "Microsoft is replacing outside AI models in its own products with cheaper in-house alternatives",
-      "url": "https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-18T18:47:36+00:00",
-      "summary": "Microsoft's AI division MAI unveiled seven new models for code, security, images, language, and routing at Ignite. MAI Code 2 reaches 98 percent of GPT-6.1 Sol's performance at 40 percent of the cost, according to Microsoft. The models are built for running AI agents around the clock in…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/06/microsoft_logo_red_pink.png",
-      "kind": "article"
-    },
-    {
       "id": "rss:https://deepmind.google/blog/genie-4-is-now-available/",
       "title": "Genie 4 is now available",
       "url": "https://deepmind.google/blog/genie-4-is-now-available/",
@@ -527,7 +630,7 @@
       "summary": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 120,
+      "upvotes": 123,
       "arxiv_id": "2611.24738"
     },
     {
@@ -540,7 +643,7 @@
       "summary": "Games are a rich testbed for visual agents, demanding perception, long-horizon planning, and precise control. However, collecting human gameplay is costly, and learning from gameplay videos requires inferring missing actions. Existing datasets also cover a limited range of games, often without explicit tasks or verifiable outcomes. To address these gaps, we introduce Game2Player, a framework that…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 25,
+      "upvotes": 27,
       "arxiv_id": "2611.24154"
     },
     {
@@ -553,7 +656,7 @@
       "summary": "A central challenge in adapting large language models (LLMs) is capability preservation: an adaptation can achieve its target while degrading general capabilities. We introduce CurvDelta, a scalable framework that incorporates the preservation constraint into the parameterization of the model update. By analyzing the local geometry of the preservation constraint around the pre-adaptation model…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 22,
+      "upvotes": 24,
       "arxiv_id": "2611.24654"
     },
     {
@@ -568,19 +671,6 @@
       "kind": "paper",
       "upvotes": 22,
       "arxiv_id": "2611.24789"
-    },
-    {
-      "id": "paper:2611.24869",
-      "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
-      "url": "https://huggingface.co/papers/2611.24869",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-18T00:00:00+00:00",
-      "summary": "Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within similar scenes and action spaces. For customizable gameplay, generative world models must follow user-defined rules beyond real-world behaviors. However, realizing user-defined rules presents two challenges: Rule-State Persistence and Rule-to-Visual Realization. The former…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 19,
-      "arxiv_id": "2611.24869"
     },
     {
       "id": "rss:https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
@@ -629,32 +719,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2611.22115",
-      "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
-      "url": "https://huggingface.co/papers/2611.22115",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-17T00:00:00+00:00",
-      "summary": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning architecture selection, large-scale pretraining, and reasoning and agentic post-training. We study how sparse activation…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 160,
-      "arxiv_id": "2611.22115"
-    },
-    {
-      "id": "paper:2611.22055",
-      "title": "Weight-Space Programming Doesn't Need Transformers",
-      "url": "https://huggingface.co/papers/2611.22055",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-17T00:00:00+00:00",
-      "summary": "Standard neural architectures such as the Transformer were chosen because they train well with gradient descent and run fast on GPUs. In weight-space programming, a large language model (LLM) writes target weights by hand without gradient-based training, so those reasons no longer apply. Should we keep the Transformer? Given minimal guidance, ten labeled examples, and a sandbox, mainly on…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 54,
-      "arxiv_id": "2611.22055"
-    },
-    {
       "id": "paper:2611.23068",
       "title": "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
       "url": "https://huggingface.co/papers/2611.23068",
@@ -664,47 +728,8 @@
       "summary": "Agent evolution follows a simple loop: a proposer writes candidate artifacts (prompts, skills, memories) and selection accepts those that score higher. This loop has shown promise, yet practitioners face a puzzle: methods trade wins across papers, and evolution often fails to bootstrap on certain tasks. We trace this puzzle to the Resolution Hypothesis: agent evolution stalls not because methods…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 35,
+      "upvotes": 36,
       "arxiv_id": "2611.23068"
-    },
-    {
-      "id": "paper:2611.23226",
-      "title": "FastFrames: Video Generation at Interactive Latency",
-      "url": "https://huggingface.co/papers/2611.23226",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-17T00:00:00+00:00",
-      "summary": "Autoregressive video diffusion models generate frames based on new observations and inputs, making them a promising medium for interactive visual experiences. However, existing models are orders of magnitude too slow for fluid interaction. This paper introduces FastFrames, a family of fast autoregressive video diffusion models that achieves interactive latency without compromising quality. We…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 29,
-      "arxiv_id": "2611.23226"
-    },
-    {
-      "id": "paper:2611.23143",
-      "title": "TCP4D: A Unified Tool-Center-Point Tracking and Generation Model for Robot Manipulation",
-      "url": "https://huggingface.co/papers/2611.23143",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-17T00:00:00+00:00",
-      "summary": "Robot manipulation videos provide a rich visual experience, yet recovering robot action and gripper-state annotations from RGB observations still remains challenging. Using the embodiment-agnostic tool-center-point (TCP) pose as the action space, we present TCP4D, a unified model in which a shared 4D scene representation both tracks observed TCP motion and generates future TCP trajectories. Given…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 24,
-      "arxiv_id": "2611.23143"
-    },
-    {
-      "id": "paper:2611.22275",
-      "title": "Heave-Ho: Decentralized Long-Horizon Multi-Humanoid Collaboration",
-      "url": "https://huggingface.co/papers/2611.22275",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-17T00:00:00+00:00",
-      "summary": "Collaboration promises to extend humanoid capabilities beyond what individual robots can achieve. However, realizing this potential requires coordinated whole-body interactions, coherent long-horizon planning, and precise synchronization across robots. We introduce Heave-Ho, a decentralized framework for long-horizon collaborative multi-humanoid loco-manipulation. At the low level, we develop a…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 22,
-      "arxiv_id": "2611.22275"
     },
     {
       "id": "yt:atz4gzB7ykY",
@@ -787,6 +812,19 @@
       "channel": "WorldofAI"
     },
     {
+      "id": "paper:2611.21373",
+      "title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
+      "url": "https://huggingface.co/papers/2611.21373",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-16T00:00:00+00:00",
+      "summary": "Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections. Even with adaptive investigation, optimizing the…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 41,
+      "arxiv_id": "2611.21373"
+    },
+    {
       "id": "paper:2611.21366",
       "title": "ALIVE: Making Streaming Video Models Interactive",
       "url": "https://huggingface.co/papers/2611.21366",
@@ -796,21 +834,21 @@
       "summary": "Streaming video LLMs can continuously observe the world, yet often handle user requests in isolation. We introduce ALIVE, an interactive streaming video model supporting proactive monitoring, streaming task coordination, and feedback-seeking interaction. We construct ALIVE-SFT-288K and ALIVE-RL-3K for two-stage training. Contrastive supervised fine-tuning teaches when and how to respond, while…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 35,
+      "upvotes": 39,
       "arxiv_id": "2611.21366"
     },
     {
-      "id": "paper:2611.21392",
-      "title": "VideoNexus: Video Perception Beyond the Reasoning Context",
-      "url": "https://huggingface.co/papers/2611.21392",
+      "id": "paper:2611.21383",
+      "title": "The Mask Is Not the Object: Volumetric Supervision for 3D Gaussian Segmentation",
+      "url": "https://huggingface.co/papers/2611.21383",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-11-16T00:00:00+00:00",
-      "summary": "Understanding long videos requires locating evidence, resolving visual details, and integrating observations into an answer. Even when relevant evidence is present, performing these operations within long, dense visual sequences burdens both perception and reasoning. Video agents enable selective inspection, but returning frames to the planner still accumulates visual information in its reasoning…",
+      "summary": "3D Gaussian Splatting enables object-level operations on Gaussian primitives, yet existing segmentation methods are largely trained and evaluated through rendered views. This mismatch can produce accurate rendered masks from incomplete 3D selections since alpha-blended feature supervision concentrates learning on dominant contributors while leaving occluded or low-contribution Gaussians weakly…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 20,
-      "arxiv_id": "2611.21392"
+      "upvotes": 27,
+      "arxiv_id": "2611.21383"
     },
     {
       "id": "yt:iXvttGCoc1g",
@@ -835,32 +873,6 @@
       "thumbnail": "https://i4.ytimg.com/vi/woWo80dPkVk/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "paper:2611.19800",
-      "title": "Multi-Branch Transformer",
-      "url": "https://huggingface.co/papers/2611.19800",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-15T00:00:00+00:00",
-      "summary": "Transformer language models are commonly scaled by making their blocks wider or stacking them deeper. In this work, we explore a complementary path: branching, the parallel composition of full Transformer blocks. We introduce the Multi-Branch Transformer (MBT), which processes the input through shared initial layers, executes independently parameterized branches of sequential blocks in parallel…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 44,
-      "arxiv_id": "2611.19800"
-    },
-    {
-      "id": "paper:2611.17048",
-      "title": "Beyond Answering: Learning to Speak First and Act in Streaming Video",
-      "url": "https://huggingface.co/papers/2611.17048",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-15T00:00:00+00:00",
-      "summary": "Most AI assistants respond only when prompted, remaining silent even when events in the video stream offer meaningful opportunities for conversation. To move beyond purely user-driven interaction, we present AURA 2.0, a streaming video large language model that introduces three core upgrades to AURA. The key advance is Model-Initiated Conversation (MIC), which enables the model to identify topics…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 36,
-      "arxiv_id": "2611.17048"
     },
     {
       "id": "yt:tAy1IZf_4kg",
@@ -1418,18 +1430,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "yt:FQABKeCe1jM",
-      "title": "OpenAI's NEW GPT-ADA! GPT-6.2 Astra is Fable 5.5 Level?! Hy4 IS OUT, DeepSeek V5, & More! AI NEWS",
-      "url": "https://www.youtube.com/watch?v=FQABKeCe1jM",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-11-04T09:41:09+00:00",
-      "summary": "Turn PDFs and scans into clean, structured JSON with DocuPipe. Start free with 300 credits, no credit card: https://www.docupipe.ai/?campaign=cr_worldofai&utm_source=worldofai&utm_medium=youtube OpenAI is heating up with mysterious new GPT-ADA model candidates, while GPT-6.2 Astra is reportedly…",
-      "thumbnail": "https://i3.ytimg.com/vi/FQABKeCe1jM/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
-    },
-    {
       "id": "yt:k2ruCf_z75I",
       "title": "The worst week in cybersecurity history... so far",
       "url": "https://www.youtube.com/watch?v=k2ruCf_z75I",
@@ -1713,7 +1713,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T04:54:52.925525+00:00",
+      "fetched_at": "2026-11-20T13:44:24.875083+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1746,7 +1746,7 @@
           "rank": 4,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "OpenAI",
-          "score": 1202.0,
+          "score": 1201.0,
           "meta": "Sep 2026 · $210.72 /1k imgs",
           "previous_rank": 4,
           "rank_delta": 0
@@ -1782,7 +1782,7 @@
           "rank": 8,
           "name": "Seedream 5.5",
           "creator": "ByteDance Seed",
-          "score": 1160.0,
+          "score": 1159.0,
           "meta": "Nov 2026 · $28.00 /1k imgs",
           "previous_rank": 8,
           "rank_delta": 0
@@ -1791,7 +1791,7 @@
           "rank": 9,
           "name": "Krea 3 (Ultra)",
           "creator": "Krea",
-          "score": 1154.0,
+          "score": 1153.0,
           "meta": "Oct 2026 · $100.00 /1k imgs",
           "previous_rank": 9,
           "rank_delta": 0
@@ -1815,13 +1815,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T04:54:52.927549+00:00",
+      "fetched_at": "2026-11-20T13:44:24.877018+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "H3-Image",
           "creator": "MiniMax",
-          "score": 1135.0,
+          "score": 1136.0,
           "meta": "Nov 2026 · $26.54 /1k imgs",
           "previous_rank": 1,
           "rank_delta": 0
@@ -1848,7 +1848,7 @@
           "rank": 4,
           "name": "FLUX 3 Image Klein",
           "creator": "Black Forest Labs",
-          "score": 1069.0,
+          "score": 1068.0,
           "meta": "Oct 2026 · $9.00 /1k imgs",
           "previous_rank": 4,
           "rank_delta": 0
@@ -1857,7 +1857,7 @@
           "rank": 5,
           "name": "HunyuanImage 3.0 Instruct",
           "creator": "Tencent",
-          "score": 1064.0,
+          "score": 1063.0,
           "meta": "Jan 2026 · No API available",
           "previous_rank": 5,
           "rank_delta": 0
@@ -1866,7 +1866,7 @@
           "rank": 6,
           "name": "FLUX.2 [dev] Turbo",
           "creator": "Fal",
-          "score": 1014.0,
+          "score": 1013.0,
           "meta": "Dec 2025 · $8.00 /1k imgs",
           "previous_rank": 6,
           "rank_delta": 0
@@ -1875,7 +1875,7 @@
           "rank": 7,
           "name": "FLUX.2 [klein] 9B",
           "creator": "Black Forest Labs",
-          "score": 1013.0,
+          "score": 1012.0,
           "meta": "Jan 2026 · $17.00 /1k imgs",
           "previous_rank": 7,
           "rank_delta": 0
@@ -1884,7 +1884,7 @@
           "rank": 8,
           "name": "FLUX.2 [dev] Flash",
           "creator": "Fal",
-          "score": 1010.0,
+          "score": 1008.0,
           "meta": "Dec 2025 · $5.00 /1k imgs",
           "previous_rank": 8,
           "rank_delta": 0
@@ -1917,7 +1917,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T04:54:52.930114+00:00",
+      "fetched_at": "2026-11-20T13:44:24.879484+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1943,7 +1943,8 @@
           "creator": "Creatify",
           "score": 1148.0,
           "meta": "Oct 2026 · $2.69 /min",
-          "previous_rank": null
+          "previous_rank": 3,
+          "rank_delta": 0
         },
         {
           "rank": 4,
@@ -1951,8 +1952,8 @@
           "creator": "ByteDance Seed",
           "score": 1141.0,
           "meta": "Mar 2026 · $22.45 /min",
-          "previous_rank": 3,
-          "rank_delta": -1
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
@@ -1960,8 +1961,8 @@
           "creator": "MiniMax",
           "score": 1134.0,
           "meta": "Jul 2026 · $4.80 /min",
-          "previous_rank": 4,
-          "rank_delta": -1
+          "previous_rank": 5,
+          "rank_delta": 0
         },
         {
           "rank": 6,
@@ -1969,8 +1970,8 @@
           "creator": "Skywork AI",
           "score": 1125.0,
           "meta": "Mar 2026 · $21.00 /min",
-          "previous_rank": 5,
-          "rank_delta": -1
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
@@ -1978,8 +1979,8 @@
           "creator": "HeyGen",
           "score": 1124.0,
           "meta": "Oct 2026 · $2.40 /min",
-          "previous_rank": 6,
-          "rank_delta": -1
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
@@ -1987,8 +1988,8 @@
           "creator": "Video Rebirth",
           "score": 1119.0,
           "meta": "Sep 2026 · $9.00 /min",
-          "previous_rank": 7,
-          "rank_delta": -1
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
@@ -1996,8 +1997,8 @@
           "creator": "Pruna AI",
           "score": 1117.0,
           "meta": "Sep 2026 · $5.70 /min",
-          "previous_rank": 8,
-          "rank_delta": -1
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
@@ -2005,8 +2006,8 @@
           "creator": "Fal",
           "score": 1116.0,
           "meta": "Aug 2026 · $9.60 /min",
-          "previous_rank": 9,
-          "rank_delta": -1
+          "previous_rank": 10,
+          "rank_delta": 0
         }
       ]
     },
@@ -2018,7 +2019,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T04:54:52.930905+00:00",
+      "fetched_at": "2026-11-20T13:44:24.880342+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2093,7 +2094,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T04:54:52.953664+00:00",
+      "fetched_at": "2026-11-20T13:44:24.905970+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2146,7 +2147,8 @@
           "creator": "Creatify",
           "score": 1121.0,
           "meta": "Oct 2026 · $2.69 /min",
-          "previous_rank": null
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
@@ -2154,8 +2156,8 @@
           "creator": "Skywork AI",
           "score": 1119.0,
           "meta": "Mar 2026 · $21.00 /min",
-          "previous_rank": 6,
-          "rank_delta": -1
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
@@ -2163,8 +2165,8 @@
           "creator": "Sapiens AI",
           "score": 1118.0,
           "meta": "Aug 2026 · $2.40 /min",
-          "previous_rank": 7,
-          "rank_delta": -1
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
@@ -2172,8 +2174,8 @@
           "creator": "MiniMax",
           "score": 1113.0,
           "meta": "Jul 2026 · $4.80 /min",
-          "previous_rank": 8,
-          "rank_delta": -1
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
@@ -2181,8 +2183,8 @@
           "creator": "Pruna AI",
           "score": 1109.0,
           "meta": "Sep 2026 · $5.70 /min",
-          "previous_rank": 9,
-          "rank_delta": -1
+          "previous_rank": 10,
+          "rank_delta": 0
         }
       ]
     },
@@ -2194,7 +2196,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T04:54:52.974614+00:00",
+      "fetched_at": "2026-11-20T13:44:24.927023+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2269,7 +2271,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T04:54:52.975965+00:00",
+      "fetched_at": "2026-11-20T13:44:24.928448+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2371,7 +2373,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-20T04:54:52.990142+00:00",
+      "fetched_at": "2026-11-20T13:44:24.943404+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2473,7 +2475,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-20T04:54:52.998879+00:00",
+      "fetched_at": "2026-11-20T13:44:24.952050+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2575,7 +2577,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T04:54:53.006799+00:00",
+      "fetched_at": "2026-11-20T13:44:24.959749+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2590,7 +2592,7 @@
           "rank": 2,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "OpenAI",
-          "score": 1229.0,
+          "score": 1230.0,
           "meta": "Sep 2026 · $210.72 /1k imgs",
           "previous_rank": 2,
           "rank_delta": 0
@@ -2608,7 +2610,7 @@
           "rank": 4,
           "name": "MAI-Image-2.7",
           "creator": "Microsoft AI",
-          "score": 1214.0,
+          "score": 1215.0,
           "meta": "Nov 2026 · $34.82 /1k imgs",
           "previous_rank": 4,
           "rank_delta": 0
@@ -2617,7 +2619,7 @@
           "rank": 5,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "OpenAI",
-          "score": 1210.0,
+          "score": 1211.0,
           "meta": "Sep 2026 · $210.72 /1k imgs",
           "previous_rank": 5,
           "rank_delta": 0
@@ -2626,7 +2628,7 @@
           "rank": 6,
           "name": "GPT Image 2 (high)",
           "creator": "OpenAI",
-          "score": 1192.0,
+          "score": 1193.0,
           "meta": "Apr 2026 · $211.00 /1k imgs",
           "previous_rank": 6,
           "rank_delta": 0
@@ -2635,7 +2637,7 @@
           "rank": 7,
           "name": "Kling Image 4.0",
           "creator": "KlingAI",
-          "score": 1180.0,
+          "score": 1181.0,
           "meta": "Nov 2026 · $63.00 /1k imgs",
           "previous_rank": 7,
           "rank_delta": 0
@@ -2644,7 +2646,7 @@
           "rank": 8,
           "name": "Nano Banana 2.1",
           "creator": "Google",
-          "score": 1176.0,
+          "score": 1177.0,
           "meta": "Oct 2026 · $33.60 /1k imgs",
           "previous_rank": 8,
           "rank_delta": 0
@@ -2677,7 +2679,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T04:54:53.009871+00:00",
+      "fetched_at": "2026-11-20T13:44:24.962891+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2692,7 +2694,7 @@
           "rank": 2,
           "name": "Qwen-Image-2.1",
           "creator": "Alibaba",
-          "score": 1047.0,
+          "score": 1048.0,
           "meta": "Sep 2026 · No API available",
           "previous_rank": 2,
           "rank_delta": 0
@@ -2701,7 +2703,7 @@
           "rank": 3,
           "name": "FLUX 3 Image Klein",
           "creator": "Black Forest Labs",
-          "score": 1041.0,
+          "score": 1042.0,
           "meta": "Oct 2026 · $9.00 /1k imgs",
           "previous_rank": 3,
           "rank_delta": 0
@@ -2710,7 +2712,7 @@
           "rank": 4,
           "name": "Fibo 2.0",
           "creator": "Bria",
-          "score": 1037.0,
+          "score": 1038.0,
           "meta": "Oct 2026 · $32.00 /1k imgs",
           "previous_rank": 4,
           "rank_delta": 0
@@ -2779,7 +2781,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T04:54:53.017231+00:00",
+      "fetched_at": "2026-11-20T13:44:24.970406+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2787,8 +2789,8 @@
           "creator": "ElevenLabs",
           "score": 1340.0,
           "meta": "Sept 2026 · $40.00 /1M chars",
-          "previous_rank": 2,
-          "rank_delta": 1
+          "previous_rank": 1,
+          "rank_delta": 0
         },
         {
           "rank": 2,
@@ -2796,8 +2798,8 @@
           "creator": "ElevenLabs",
           "score": 1340.0,
           "meta": "Sept 2026 · $80.00 /1M chars",
-          "previous_rank": 1,
-          "rank_delta": -1
+          "previous_rank": 2,
+          "rank_delta": 0
         },
         {
           "rank": 3,
@@ -2805,7 +2807,8 @@
           "creator": "StepFun",
           "score": 1307.0,
           "meta": "Nov 2026 · $14.00 /1M chars",
-          "previous_rank": null
+          "previous_rank": 3,
+          "rank_delta": 0
         },
         {
           "rank": 4,
@@ -2813,8 +2816,8 @@
           "creator": "Alibaba",
           "score": 1298.0,
           "meta": "Sept 2026 · $19.31 /1M chars",
-          "previous_rank": 3,
-          "rank_delta": -1
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
@@ -2822,8 +2825,8 @@
           "creator": "Cartesia",
           "score": 1294.0,
           "meta": "Aug 2026 · $49.00 /1M chars",
-          "previous_rank": 4,
-          "rank_delta": -1
+          "previous_rank": 5,
+          "rank_delta": 0
         },
         {
           "rank": 6,
@@ -2831,8 +2834,8 @@
           "creator": "SpeechifyAI",
           "score": 1293.0,
           "meta": "Nov 2026 · $6.58 /1M chars",
-          "previous_rank": 5,
-          "rank_delta": -1
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
@@ -2840,8 +2843,8 @@
           "creator": "Google",
           "score": 1282.0,
           "meta": "Sept 2026 · $16.49 /1M chars",
-          "previous_rank": 6,
-          "rank_delta": -1
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
@@ -2849,8 +2852,8 @@
           "creator": "Fish Audio",
           "score": 1277.0,
           "meta": "Oct 2026 · $15.00 /1M chars",
-          "previous_rank": 7,
-          "rank_delta": -1
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
@@ -2858,8 +2861,8 @@
           "creator": "Smallest.ai",
           "score": 1276.0,
           "meta": "Oct 2026 · $19.50 /1M chars",
-          "previous_rank": 8,
-          "rank_delta": -1
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
@@ -2867,8 +2870,8 @@
           "creator": "Inworld",
           "score": 1269.0,
           "meta": "Aug 2026 · $20.83 /1M chars",
-          "previous_rank": 9,
-          "rank_delta": -1
+          "previous_rank": 10,
+          "rank_delta": 0
         }
       ]
     },
@@ -2880,7 +2883,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T04:54:53.019218+00:00",
+      "fetched_at": "2026-11-20T13:44:24.972361+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2933,8 +2936,8 @@
           "creator": "Fish Audio",
           "score": 1101.0,
           "meta": "Mar 2026 · $15.00 /1M chars",
-          "previous_rank": 7,
-          "rank_delta": 1
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
@@ -2942,8 +2945,8 @@
           "creator": "StepFun",
           "score": 1100.0,
           "meta": "Feb 2026 · N/A",
-          "previous_rank": 6,
-          "rank_delta": -1
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
@@ -3133,7 +3136,7 @@
         },
         "runner_up": {
           "model": "GPT Image 2.5 Sunburst (max)",
-          "score": "1229"
+          "score": "1230"
         }
       },
       {
@@ -3197,89 +3200,89 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-20T04:54:28.784268+00:00",
+        "checked_at": "2026-11-20T13:44:00.850849+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T04:54:28.784268+00:00"
+        "last_ok_at": "2026-11-20T13:44:00.850849+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-20T04:54:27.756492+00:00",
+        "checked_at": "2026-11-20T13:43:59.824041+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T04:54:27.756492+00:00"
+        "last_ok_at": "2026-11-20T13:43:59.824041+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-20T04:54:31.917657+00:00",
+        "checked_at": "2026-11-20T13:44:03.972696+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T04:54:31.917657+00:00"
+        "last_ok_at": "2026-11-20T13:44:03.972696+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-20T04:54:29.802039+00:00",
+        "checked_at": "2026-11-20T13:44:01.867957+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T04:54:29.802039+00:00"
+        "last_ok_at": "2026-11-20T13:44:01.867957+00:00"
       },
       {
         "name": "Google AI Blog",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-20T04:54:36.649654+00:00",
+        "checked_at": "2026-11-20T13:44:08.693167+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T04:54:36.649654+00:00"
+        "last_ok_at": "2026-11-20T13:44:08.693167+00:00"
       },
       {
         "name": "Google DeepMind",
         "ok": true,
         "items": 25,
         "error": null,
-        "checked_at": "2026-11-20T04:54:35.372810+00:00",
+        "checked_at": "2026-11-20T13:44:07.329123+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T04:54:35.372810+00:00"
+        "last_ok_at": "2026-11-20T13:44:07.329123+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-20T04:54:34.151186+00:00",
+        "checked_at": "2026-11-20T13:44:06.239775+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T04:54:34.151186+00:00"
+        "last_ok_at": "2026-11-20T13:44:06.239775+00:00"
       },
       {
         "name": "MIT Technology Review AI",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-20T04:54:41.044287+00:00",
+        "checked_at": "2026-11-20T13:44:13.271123+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T04:54:41.044287+00:00"
+        "last_ok_at": "2026-11-20T13:44:13.271123+00:00"
       },
       {
         "name": "TechCrunch AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-20T04:54:39.953645+00:00",
+        "checked_at": "2026-11-20T13:44:12.182546+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T04:54:39.953645+00:00"
+        "last_ok_at": "2026-11-20T13:44:12.182546+00:00"
       },
       {
         "name": "The Batch",
         "ok": false,
         "items": 4,
         "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
-        "checked_at": "2026-11-20T04:54:42.151170+00:00",
-        "failed_streak": 1,
+        "checked_at": "2026-11-20T13:44:14.327768+00:00",
+        "failed_streak": 2,
         "last_ok_at": "2026-11-19T23:42:06.033318+00:00"
       },
       {
@@ -3287,35 +3290,35 @@
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-20T04:54:38.876652+00:00",
+        "checked_at": "2026-11-20T13:44:10.950813+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T04:54:38.876652+00:00"
+        "last_ok_at": "2026-11-20T13:44:10.950813+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-20T04:54:30.820688+00:00",
+        "checked_at": "2026-11-20T13:44:02.886233+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T04:54:30.820688+00:00"
+        "last_ok_at": "2026-11-20T13:44:02.886233+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-20T04:54:33.038898+00:00",
+        "checked_at": "2026-11-20T13:44:05.133417+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T04:54:33.038898+00:00"
+        "last_ok_at": "2026-11-20T13:44:05.133417+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-20T04:54:53.024170+00:00",
+      "checked_at": "2026-11-20T13:44:24.977434+00:00",
       "failed_streak": 0,
-      "last_ok_at": "2026-11-20T04:54:53.024170+00:00"
+      "last_ok_at": "2026-11-20T13:44:24.977434+00:00"
     }
   }
 }
