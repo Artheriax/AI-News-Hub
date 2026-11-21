@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T21:38:16.370171+00:00",
+  "generated_at": "2026-11-21T02:55:25.028574+00:00",
   "items": [
     {
       "id": "rss:https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/",
@@ -49,7 +49,7 @@
     },
     {
       "id": "rss:https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
-      "title": "AI claimed a solution to the 167-year-old Riemann Hypothesis — and a human did, too",
+      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
       "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
       "source": "TechCrunch AI",
       "category": "news",
@@ -182,7 +182,7 @@
     },
     {
       "id": "yt:3FE-hBh1rsY",
-      "title": "Gemini 4 Neon is ON FIRE!",
+      "title": "Gemini 4 Neon is on fire!",
       "url": "https://www.youtube.com/watch?v=3FE-hBh1rsY",
       "source": "AI Search",
       "category": "videos",
@@ -464,19 +464,6 @@
       "arxiv_id": "2611.26444"
     },
     {
-      "id": "paper:2611.26409",
-      "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
-      "url": "https://huggingface.co/papers/2611.26409",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-19T00:00:00+00:00",
-      "summary": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants. Centering on joint audio-visual perception and reasoning, WeMM-Video unifies text, image, audio, and video processing within a…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 39,
-      "arxiv_id": "2611.26409"
-    },
-    {
       "id": "paper:2611.26590",
       "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
       "url": "https://huggingface.co/papers/2611.26590",
@@ -486,8 +473,21 @@
       "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 34,
+      "upvotes": 40,
       "arxiv_id": "2611.26590"
+    },
+    {
+      "id": "paper:2611.26409",
+      "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+      "url": "https://huggingface.co/papers/2611.26409",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-19T00:00:00+00:00",
+      "summary": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants. Centering on joint audio-visual perception and reasoning, WeMM-Video unifies text, image, audio, and video processing within a…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 40,
+      "arxiv_id": "2611.26409"
     },
     {
       "id": "paper:2611.26595",
@@ -512,7 +512,7 @@
       "summary": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 30,
+      "upvotes": 31,
       "arxiv_id": "2611.26629"
     },
     {
@@ -525,7 +525,7 @@
       "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 27,
+      "upvotes": 28,
       "arxiv_id": "2611.26603"
     },
     {
@@ -666,7 +666,7 @@
       "summary": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 139,
+      "upvotes": 146,
       "arxiv_id": "2611.24738"
     },
     {
@@ -679,7 +679,7 @@
       "summary": "Games are a rich testbed for visual agents, demanding perception, long-horizon planning, and precise control. However, collecting human gameplay is costly, and learning from gameplay videos requires inferring missing actions. Existing datasets also cover a limited range of games, often without explicit tasks or verifiable outcomes. To address these gaps, we introduce Game2Player, a framework that…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 27,
+      "upvotes": 28,
       "arxiv_id": "2611.24154"
     },
     {
@@ -844,7 +844,7 @@
       "summary": "Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections. Even with adaptive investigation, optimizing the…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 48,
+      "upvotes": 50,
       "arxiv_id": "2611.21373"
     },
     {
@@ -870,7 +870,7 @@
       "summary": "3D Gaussian Splatting enables object-level operations on Gaussian primitives, yet existing segmentation methods are largely trained and evaluated through rendered views. This mismatch can produce accurate rendered masks from incomplete 3D selections since alpha-blended feature supervision concentrates learning on dominant contributors while leaving occluded or low-contribution Gaussians weakly…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 30,
+      "upvotes": 31,
       "arxiv_id": "2611.21383"
     },
     {
@@ -1725,7 +1725,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T21:38:16.222033+00:00",
+      "fetched_at": "2026-11-21T02:55:24.918024+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1827,7 +1827,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T21:38:16.224586+00:00",
+      "fetched_at": "2026-11-21T02:55:24.920007+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1929,7 +1929,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T21:38:16.228139+00:00",
+      "fetched_at": "2026-11-21T02:55:24.922488+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1954,7 +1954,7 @@
           "name": "Boreal-H3",
           "creator": "Creatify",
           "score": 1148.0,
-          "meta": "Oct 2026 · $2.69 /min",
+          "meta": "Oct 2026 · $2.42 /min",
           "previous_rank": 3,
           "rank_delta": 0
         },
@@ -2031,7 +2031,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T21:38:16.229249+00:00",
+      "fetched_at": "2026-11-21T02:55:24.923274+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2106,7 +2106,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T21:38:16.265236+00:00",
+      "fetched_at": "2026-11-21T02:55:24.948660+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2158,7 +2158,7 @@
           "name": "Boreal-H3",
           "creator": "Creatify",
           "score": 1121.0,
-          "meta": "Oct 2026 · $2.69 /min",
+          "meta": "Oct 2026 · $2.42 /min",
           "previous_rank": 6,
           "rank_delta": 0
         },
@@ -2208,7 +2208,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T21:38:16.295846+00:00",
+      "fetched_at": "2026-11-21T02:55:24.969666+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2283,7 +2283,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T21:38:16.297553+00:00",
+      "fetched_at": "2026-11-21T02:55:24.971107+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2385,7 +2385,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-20T21:38:16.316001+00:00",
+      "fetched_at": "2026-11-21T02:55:24.986961+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2487,7 +2487,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-20T21:38:16.327686+00:00",
+      "fetched_at": "2026-11-21T02:55:24.995727+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2504,7 +2504,8 @@
           "creator": "Tencent",
           "score": 35.0,
           "meta": "1M ctx",
-          "previous_rank": null
+          "previous_rank": 2,
+          "rank_delta": 0
         },
         {
           "rank": 3,
@@ -2512,8 +2513,8 @@
           "creator": "DeepSeek",
           "score": 33.0,
           "meta": "1M ctx",
-          "previous_rank": 2,
-          "rank_delta": -1
+          "previous_rank": 3,
+          "rank_delta": 0
         },
         {
           "rank": 4,
@@ -2521,8 +2522,8 @@
           "creator": "Z AI",
           "score": 32.0,
           "meta": "1M ctx",
-          "previous_rank": 3,
-          "rank_delta": -1
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
@@ -2530,8 +2531,8 @@
           "creator": "Thinking Machines",
           "score": 31.0,
           "meta": "1M ctx",
-          "previous_rank": 4,
-          "rank_delta": -1
+          "previous_rank": 5,
+          "rank_delta": 0
         },
         {
           "rank": 6,
@@ -2539,8 +2540,8 @@
           "creator": "Xiaomi",
           "score": 30.0,
           "meta": "1M ctx",
-          "previous_rank": 5,
-          "rank_delta": -1
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
@@ -2548,8 +2549,8 @@
           "creator": "InclusionAI",
           "score": 30.0,
           "meta": "1M ctx",
-          "previous_rank": 6,
-          "rank_delta": -1
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
@@ -2557,8 +2558,8 @@
           "creator": "MiniMax",
           "score": 29.0,
           "meta": "1M ctx",
-          "previous_rank": 7,
-          "rank_delta": -1
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
@@ -2566,8 +2567,8 @@
           "creator": "DeepSeek",
           "score": 29.0,
           "meta": "1M ctx",
-          "previous_rank": 8,
-          "rank_delta": -1
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
@@ -2575,8 +2576,8 @@
           "creator": "Alibaba",
           "score": 29.0,
           "meta": "256k ctx",
-          "previous_rank": 9,
-          "rank_delta": -1
+          "previous_rank": 10,
+          "rank_delta": 0
         }
       ]
     },
@@ -2588,13 +2589,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T21:38:16.337303+00:00",
+      "fetched_at": "2026-11-21T02:55:25.003481+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.6 Sunburst (max)",
           "creator": "OpenAI",
-          "score": 1261.0,
+          "score": 1262.0,
           "meta": "Nov 2026 · $210.72 /1k imgs",
           "previous_rank": 1,
           "rank_delta": 0
@@ -2603,7 +2604,7 @@
           "rank": 2,
           "name": "GPT Image 2.5 Sunburst (max)",
           "creator": "OpenAI",
-          "score": 1230.0,
+          "score": 1229.0,
           "meta": "Sep 2026 · $210.72 /1k imgs",
           "previous_rank": 2,
           "rank_delta": 0
@@ -2612,7 +2613,7 @@
           "rank": 3,
           "name": "GPT Image 2.6 Flare (max)",
           "creator": "OpenAI",
-          "score": 1227.0,
+          "score": 1226.0,
           "meta": "Nov 2026 · $210.72 /1k imgs",
           "previous_rank": 3,
           "rank_delta": 0
@@ -2621,7 +2622,7 @@
           "rank": 4,
           "name": "MAI-Image-2.7",
           "creator": "Microsoft AI",
-          "score": 1215.0,
+          "score": 1216.0,
           "meta": "Nov 2026 · $34.82 /1k imgs",
           "previous_rank": 4,
           "rank_delta": 0
@@ -2630,7 +2631,7 @@
           "rank": 5,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "OpenAI",
-          "score": 1211.0,
+          "score": 1210.0,
           "meta": "Sep 2026 · $210.72 /1k imgs",
           "previous_rank": 5,
           "rank_delta": 0
@@ -2639,7 +2640,7 @@
           "rank": 6,
           "name": "GPT Image 2 (high)",
           "creator": "OpenAI",
-          "score": 1193.0,
+          "score": 1194.0,
           "meta": "Apr 2026 · $211.00 /1k imgs",
           "previous_rank": 6,
           "rank_delta": 0
@@ -2657,7 +2658,7 @@
           "rank": 8,
           "name": "Nano Banana 2.1",
           "creator": "Google",
-          "score": 1177.0,
+          "score": 1176.0,
           "meta": "Oct 2026 · $33.60 /1k imgs",
           "previous_rank": 8,
           "rank_delta": 0
@@ -2666,7 +2667,7 @@
           "rank": 9,
           "name": "MAI-Image-2.6",
           "creator": "Microsoft AI",
-          "score": 1168.0,
+          "score": 1169.0,
           "meta": "Aug 2026 · $38.91 /1k imgs",
           "previous_rank": 9,
           "rank_delta": 0
@@ -2675,7 +2676,7 @@
           "rank": 10,
           "name": "Grok Imagine Image 2.0",
           "creator": "SpaceXAI",
-          "score": 1167.0,
+          "score": 1166.0,
           "meta": "Aug 2026 · $60.00 /1k imgs",
           "previous_rank": 10,
           "rank_delta": 0
@@ -2690,7 +2691,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T21:38:16.341037+00:00",
+      "fetched_at": "2026-11-21T02:55:25.006426+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2714,7 +2715,7 @@
           "rank": 3,
           "name": "FLUX 3 Image Klein",
           "creator": "Black Forest Labs",
-          "score": 1042.0,
+          "score": 1041.0,
           "meta": "Oct 2026 · $9.00 /1k imgs",
           "previous_rank": 3,
           "rank_delta": 0
@@ -2723,7 +2724,7 @@
           "rank": 4,
           "name": "Fibo 2.0",
           "creator": "Bria",
-          "score": 1038.0,
+          "score": 1037.0,
           "meta": "Oct 2026 · $32.00 /1k imgs",
           "previous_rank": 4,
           "rank_delta": 0
@@ -2732,7 +2733,7 @@
           "rank": 5,
           "name": "Ideogram 4.0 (Quality)",
           "creator": "Ideogram",
-          "score": 1026.0,
+          "score": 1027.0,
           "meta": "Jun 2026 · $100.00 /1k imgs",
           "previous_rank": 5,
           "rank_delta": 0
@@ -2741,7 +2742,7 @@
           "rank": 6,
           "name": "Ideogram 4.0",
           "creator": "Ideogram",
-          "score": 1003.0,
+          "score": 1004.0,
           "meta": "Jun 2026 · $60.00 /1k imgs",
           "previous_rank": 6,
           "rank_delta": 0
@@ -2768,7 +2769,7 @@
           "rank": 9,
           "name": "FLUX.2 [dev] Turbo",
           "creator": "Fal",
-          "score": 996.0,
+          "score": 997.0,
           "meta": "Dec 2025 · $8.00 /1k imgs",
           "previous_rank": 9,
           "rank_delta": 0
@@ -2777,7 +2778,7 @@
           "rank": 10,
           "name": "Cosmos3-Super-Text2Image (agentic)",
           "creator": "NVIDIA",
-          "score": 995.0,
+          "score": 996.0,
           "meta": "May 2026 · No API available",
           "previous_rank": 10,
           "rank_delta": 0
@@ -2792,7 +2793,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T21:38:16.350647+00:00",
+      "fetched_at": "2026-11-21T02:55:25.013752+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2894,7 +2895,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-20T21:38:16.353204+00:00",
+      "fetched_at": "2026-11-21T02:55:25.015730+00:00",
       "entries": [
         {
           "rank": 1,
@@ -3136,7 +3137,7 @@
         "closed_winner": {
           "model": "GPT Image 2.6 Sunburst (max)",
           "developer": "OpenAI",
-          "score": "1261",
+          "score": "1262",
           "released": "Nov 2026"
         },
         "open_winner": {
@@ -3147,7 +3148,7 @@
         },
         "runner_up": {
           "model": "GPT Image 2.5 Sunburst (max)",
-          "score": "1230"
+          "score": "1229"
         }
       },
       {
@@ -3211,89 +3212,89 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-20T21:37:51.383471+00:00",
+        "checked_at": "2026-11-21T02:54:54.692714+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T21:37:51.383471+00:00"
+        "last_ok_at": "2026-11-21T02:54:54.692714+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-20T21:37:50.351321+00:00",
+        "checked_at": "2026-11-21T02:54:53.441581+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T21:37:50.351321+00:00"
+        "last_ok_at": "2026-11-21T02:54:53.441581+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-20T21:37:54.455470+00:00",
+        "checked_at": "2026-11-21T02:54:57.850422+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T21:37:54.455470+00:00"
+        "last_ok_at": "2026-11-21T02:54:57.850422+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-20T21:37:52.407278+00:00",
+        "checked_at": "2026-11-21T02:54:55.719179+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T21:37:52.407278+00:00"
+        "last_ok_at": "2026-11-21T02:54:55.719179+00:00"
       },
       {
         "name": "Google AI Blog",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-20T21:37:59.425446+00:00",
+        "checked_at": "2026-11-21T02:55:02.738298+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T21:37:59.425446+00:00"
+        "last_ok_at": "2026-11-21T02:55:02.738298+00:00"
       },
       {
         "name": "Google DeepMind",
         "ok": true,
         "items": 25,
         "error": null,
-        "checked_at": "2026-11-20T21:37:58.113274+00:00",
+        "checked_at": "2026-11-21T02:55:01.509235+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T21:37:58.113274+00:00"
+        "last_ok_at": "2026-11-21T02:55:01.509235+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-20T21:37:56.916598+00:00",
+        "checked_at": "2026-11-21T02:55:00.185765+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T21:37:56.916598+00:00"
+        "last_ok_at": "2026-11-21T02:55:00.185765+00:00"
       },
       {
         "name": "MIT Technology Review AI",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-20T21:38:04.259885+00:00",
+        "checked_at": "2026-11-21T02:55:07.286619+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T21:38:04.259885+00:00"
+        "last_ok_at": "2026-11-21T02:55:07.286619+00:00"
       },
       {
         "name": "TechCrunch AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-20T21:38:03.033435+00:00",
+        "checked_at": "2026-11-21T02:55:06.176882+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T21:38:03.033435+00:00"
+        "last_ok_at": "2026-11-21T02:55:06.176882+00:00"
       },
       {
         "name": "The Batch",
         "ok": false,
         "items": 4,
         "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
-        "checked_at": "2026-11-20T21:38:05.333033+00:00",
-        "failed_streak": 3,
+        "checked_at": "2026-11-21T02:55:08.385406+00:00",
+        "failed_streak": 4,
         "last_ok_at": "2026-11-19T23:42:06.033318+00:00"
       },
       {
@@ -3301,35 +3302,35 @@
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-20T21:38:01.969085+00:00",
+        "checked_at": "2026-11-21T02:55:05.051207+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T21:38:01.969085+00:00"
+        "last_ok_at": "2026-11-21T02:55:05.051207+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-20T21:37:53.432524+00:00",
+        "checked_at": "2026-11-21T02:54:56.746738+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T21:37:53.432524+00:00"
+        "last_ok_at": "2026-11-21T02:54:56.746738+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-20T21:37:55.681234+00:00",
+        "checked_at": "2026-11-21T02:54:58.991215+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-20T21:37:55.681234+00:00"
+        "last_ok_at": "2026-11-21T02:54:58.991215+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-20T21:38:16.359142+00:00",
+      "checked_at": "2026-11-21T02:55:25.020787+00:00",
       "failed_streak": 0,
-      "last_ok_at": "2026-11-20T21:38:16.359142+00:00"
+      "last_ok_at": "2026-11-21T02:55:25.020787+00:00"
     }
   }
 }
