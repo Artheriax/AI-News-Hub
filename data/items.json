@@ -1,7 +1,29 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T17:43:01.755877+00:00",
+  "generated_at": "2026-11-21T22:36:05.251457+00:00",
   "items": [
+    {
+      "id": "rss:https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-21T21:37:10+00:00",
+      "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "title": "A tale of two Nvidias",
+      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-21T21:07:42+00:00",
+      "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+      "thumbnail": null,
+      "kind": "article"
+    },
     {
       "id": "rss:https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
       "title": "Here are the top AI agents that can live in your text messages",
@@ -283,6 +305,17 @@
       "kind": "article"
     },
     {
+      "id": "batch:/the-batch/issue-380",
+      "title": "Jensen Huang’s Nvidia legacy, Claude Fable 5.2 and Anthropic’s IPO, World Labs Releases Atlas to Developers",
+      "url": "https://www.deeplearning.ai/the-batch/issue-380",
+      "source": "The Batch",
+      "category": "newsletter",
+      "published": "2026-11-20T00:00:00+00:00",
+      "summary": "",
+      "thumbnail": "https://charonhub.deeplearning.ai/content/images/2026/11/Andrew-and-Jensen.webp",
+      "kind": "newsletter"
+    },
+    {
       "id": "rss:https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
       "title": "Meta’s new Muse Charm device may cost $300",
       "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
@@ -428,17 +461,6 @@
       "kind": "article"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-      "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
-      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-19T14:54:39+00:00",
-      "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
       "id": "yt:90vN0xFeLcQ",
       "title": "Gemini 4 Neon Is INSANE – Is THIS Google's BEST Model Yet?",
       "url": "https://www.youtube.com/watch?v=90vN0xFeLcQ",
@@ -449,17 +471,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/90vN0xFeLcQ/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
-      "title": "Superhuman pushes its Go assistant everywhere",
-      "url": "https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-19T14:00:00+00:00",
-      "summary": "Superhuman is making Go its central agent and making it available in Docs and Mail.",
-      "thumbnail": null,
-      "kind": "article"
     },
     {
       "id": "yt:Cy7Wz6Z4TWU",
@@ -499,6 +510,19 @@
       "arxiv_id": "2611.26444"
     },
     {
+      "id": "paper:2611.26409",
+      "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+      "url": "https://huggingface.co/papers/2611.26409",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-19T00:00:00+00:00",
+      "summary": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants. Centering on joint audio-visual perception and reasoning, WeMM-Video unifies text, image, audio, and video processing within a…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 44,
+      "arxiv_id": "2611.26409"
+    },
+    {
       "id": "paper:2611.26590",
       "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
       "url": "https://huggingface.co/papers/2611.26590",
@@ -512,19 +536,6 @@
       "arxiv_id": "2611.26590"
     },
     {
-      "id": "paper:2611.26409",
-      "title": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
-      "url": "https://huggingface.co/papers/2611.26409",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-19T00:00:00+00:00",
-      "summary": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants. Centering on joint audio-visual perception and reasoning, WeMM-Video unifies text, image, audio, and video processing within a…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 42,
-      "arxiv_id": "2611.26409"
-    },
-    {
       "id": "paper:2611.26629",
       "title": "Posterior Matching Distillation",
       "url": "https://huggingface.co/papers/2611.26629",
@@ -534,7 +545,7 @@
       "summary": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 36,
+      "upvotes": 37,
       "arxiv_id": "2611.26629"
     },
     {
@@ -560,7 +571,7 @@
       "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 29,
+      "upvotes": 30,
       "arxiv_id": "2611.26603"
     },
     {
@@ -1714,7 +1725,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T17:43:01.609591+00:00",
+      "fetched_at": "2026-11-21T22:36:05.152413+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1816,7 +1827,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T17:43:01.612011+00:00",
+      "fetched_at": "2026-11-21T22:36:05.154108+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1918,7 +1929,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T17:43:01.615160+00:00",
+      "fetched_at": "2026-11-21T22:36:05.156272+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1935,8 +1946,8 @@
           "creator": "Creatify",
           "score": 1154.0,
           "meta": "Oct 2026 · $2.42 /min",
-          "previous_rank": 3,
-          "rank_delta": 1
+          "previous_rank": 2,
+          "rank_delta": 0
         },
         {
           "rank": 3,
@@ -1944,8 +1955,8 @@
           "creator": "Utopai Studios",
           "score": 1153.0,
           "meta": "Sep 2026 · No API available",
-          "previous_rank": 2,
-          "rank_delta": -1
+          "previous_rank": 3,
+          "rank_delta": 0
         },
         {
           "rank": 4,
@@ -1998,8 +2009,8 @@
           "creator": "Fal",
           "score": 1120.0,
           "meta": "Aug 2026 · $9.60 /min",
-          "previous_rank": 10,
-          "rank_delta": 1
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
@@ -2007,8 +2018,8 @@
           "creator": "Pruna AI",
           "score": 1119.0,
           "meta": "Sep 2026 · $5.70 /min",
-          "previous_rank": 9,
-          "rank_delta": -1
+          "previous_rank": 10,
+          "rank_delta": 0
         }
       ]
     },
@@ -2020,7 +2031,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T17:43:01.616200+00:00",
+      "fetched_at": "2026-11-21T22:36:05.156966+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2055,8 +2066,8 @@
           "creator": "Lightricks",
           "score": 914.0,
           "meta": "Aug 2026 · $7.80 /min",
-          "previous_rank": 5,
-          "rank_delta": 1
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
@@ -2064,8 +2075,8 @@
           "creator": "Lightricks",
           "score": 913.0,
           "meta": "Aug 2026 · $10.20 /min",
-          "previous_rank": 4,
-          "rank_delta": -1
+          "previous_rank": 5,
+          "rank_delta": 0
         },
         {
           "rank": 6,
@@ -2095,7 +2106,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T17:43:01.651970+00:00",
+      "fetched_at": "2026-11-21T22:36:05.183388+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2148,8 +2159,8 @@
           "creator": "Skywork AI",
           "score": 1116.0,
           "meta": "Mar 2026 · $21.00 /min",
-          "previous_rank": 7,
-          "rank_delta": 1
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
@@ -2157,8 +2168,8 @@
           "creator": "Sapiens AI",
           "score": 1115.0,
           "meta": "Aug 2026 · $2.40 /min",
-          "previous_rank": 8,
-          "rank_delta": 1
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
@@ -2166,8 +2177,8 @@
           "creator": "Creatify",
           "score": 1115.0,
           "meta": "Oct 2026 · $2.42 /min",
-          "previous_rank": 6,
-          "rank_delta": -2
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
@@ -2197,7 +2208,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T17:43:01.682607+00:00",
+      "fetched_at": "2026-11-21T22:36:05.203842+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2272,7 +2283,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T17:43:01.684314+00:00",
+      "fetched_at": "2026-11-21T22:36:05.204974+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2374,7 +2385,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-21T17:43:01.701622+00:00",
+      "fetched_at": "2026-11-21T22:36:05.216789+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2476,7 +2487,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-21T17:43:01.713959+00:00",
+      "fetched_at": "2026-11-21T22:36:05.225456+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2578,7 +2589,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T17:43:01.723201+00:00",
+      "fetched_at": "2026-11-21T22:36:05.231750+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2680,7 +2691,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T17:43:01.726716+00:00",
+      "fetched_at": "2026-11-21T22:36:05.234154+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2782,7 +2793,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T17:43:01.736678+00:00",
+      "fetched_at": "2026-11-21T22:36:05.240426+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2884,7 +2895,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T17:43:01.739247+00:00",
+      "fetched_at": "2026-11-21T22:36:05.242027+00:00",
       "entries": [
         {
           "rank": 1,
@@ -3201,125 +3212,125 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-21T17:42:38.133185+00:00",
+        "checked_at": "2026-11-21T22:35:41.559562+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T17:42:38.133185+00:00"
+        "last_ok_at": "2026-11-21T22:35:41.559562+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-21T17:42:37.069883+00:00",
+        "checked_at": "2026-11-21T22:35:40.539523+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T17:42:37.069883+00:00"
+        "last_ok_at": "2026-11-21T22:35:40.539523+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-21T17:42:41.192077+00:00",
+        "checked_at": "2026-11-21T22:35:44.661463+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T17:42:41.192077+00:00"
+        "last_ok_at": "2026-11-21T22:35:44.661463+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-21T17:42:39.152354+00:00",
+        "checked_at": "2026-11-21T22:35:42.573898+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T17:42:39.152354+00:00"
+        "last_ok_at": "2026-11-21T22:35:42.573898+00:00"
       },
       {
         "name": "Google AI Blog",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-21T17:42:46.113974+00:00",
+        "checked_at": "2026-11-21T22:35:49.150598+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T17:42:46.113974+00:00"
+        "last_ok_at": "2026-11-21T22:35:49.150598+00:00"
       },
       {
         "name": "Google DeepMind",
         "ok": true,
         "items": 25,
         "error": null,
-        "checked_at": "2026-11-21T17:42:44.834723+00:00",
+        "checked_at": "2026-11-21T22:35:48.014369+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T17:42:44.834723+00:00"
+        "last_ok_at": "2026-11-21T22:35:48.014369+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-21T17:42:43.641313+00:00",
+        "checked_at": "2026-11-21T22:35:46.904273+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T17:42:43.641313+00:00"
+        "last_ok_at": "2026-11-21T22:35:46.904273+00:00"
       },
       {
         "name": "MIT Technology Review AI",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-21T17:42:50.579478+00:00",
+        "checked_at": "2026-11-21T22:35:53.213427+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T17:42:50.579478+00:00"
+        "last_ok_at": "2026-11-21T22:35:53.213427+00:00"
       },
       {
         "name": "TechCrunch AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-21T17:42:49.477773+00:00",
+        "checked_at": "2026-11-21T22:35:52.170570+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T17:42:49.477773+00:00"
+        "last_ok_at": "2026-11-21T22:35:52.170570+00:00"
       },
       {
         "name": "The Batch",
-        "ok": false,
-        "items": 4,
-        "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
-        "checked_at": "2026-11-21T17:42:51.615043+00:00",
-        "failed_streak": 6,
-        "last_ok_at": "2026-11-19T23:42:06.033318+00:00"
+        "ok": true,
+        "items": 16,
+        "error": null,
+        "checked_at": "2026-11-21T22:35:54.317961+00:00",
+        "failed_streak": 0,
+        "last_ok_at": "2026-11-21T22:35:54.317961+00:00"
       },
       {
         "name": "The Decoder",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-21T17:42:48.424625+00:00",
+        "checked_at": "2026-11-21T22:35:51.139102+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T17:42:48.424625+00:00"
+        "last_ok_at": "2026-11-21T22:35:51.139102+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-21T17:42:40.173786+00:00",
+        "checked_at": "2026-11-21T22:35:43.588390+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T17:42:40.173786+00:00"
+        "last_ok_at": "2026-11-21T22:35:43.588390+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-21T17:42:42.448435+00:00",
+        "checked_at": "2026-11-21T22:35:45.816985+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T17:42:42.448435+00:00"
+        "last_ok_at": "2026-11-21T22:35:45.816985+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-21T17:43:01.744823+00:00",
+      "checked_at": "2026-11-21T22:36:05.244559+00:00",
       "failed_streak": 0,
-      "last_ok_at": "2026-11-21T17:43:01.744823+00:00"
+      "last_ok_at": "2026-11-21T22:36:05.244559+00:00"
     }
   }
 }
