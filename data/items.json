@@ -1,7 +1,107 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T10:27:52.776024+00:00",
+  "generated_at": "2026-11-21T17:43:01.755877+00:00",
   "items": [
+    {
+      "id": "rss:https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-21T17:00:00+00:00",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
+      "title": "Nvidia researchers argue huge AI context windows are a dead end",
+      "url": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-21T16:23:45+00:00",
+      "summary": "Nvidia researchers argue that language models often don't need their full context windows—which are slow, expensive, and prone to errors—and propose an alternative. In tests, periodic summaries and targeted keyword search usually matched full-context results at a fraction of the cost. The team even…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/you-dont-need-long-context-nano-banana-pro.jpg",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
+      "title": "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion",
+      "url": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-21T16:04:29+00:00",
+      "summary": "A Buddhist monastery in Vermont called Maple wants to establish itself as Silicon Valley's spiritual authority while creating its own AI god. According to a New Yorker report, leader Soryu Forall's group records every breath its members take to train an AI in his image. Former members report…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/buddhist_ai_sect.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-21T16:00:00+00:00",
+      "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+      "thumbnail": null,
+      "kind": "article"
+    },
+    {
+      "id": "yt:OdMpNiByntM",
+      "title": "Inkling 2 Mini Is INSANE – Is THIS the BEST Local AI Model?",
+      "url": "https://www.youtube.com/watch?v=OdMpNiByntM",
+      "source": "Bijan Bowen",
+      "category": "videos",
+      "published": "2026-11-21T15:18:05+00:00",
+      "summary": "Timestamps: 00:00 - Local Preamble 01:26 - First Look 02:04 - Technical Look 03:18 - Looped Transformer 06:37 - Open Weights 07:44 - Testing Setup 08:07 - Browser OS Test 12:07 - C++ Skate Game Test 15:03 - Subway FPS Test 17:30 - Blender & Godot Wrestling Test 18:57 - Watch Website Test 20:31…",
+      "thumbnail": "https://i4.ytimg.com/vi/OdMpNiByntM/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Bijan Bowen"
+    },
+    {
+      "id": "rss:https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
+      "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
+      "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-21T13:32:35+00:00",
+      "summary": "OpenAI has released new prompt templates for GPT-6.2 Astra and Sol meant to fix common model behaviors such as overly brief answers, unnecessary follow-up questions, and excessive testing when coding. The API is changing as well, since editing a conversation's history can discard reasoning content…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/06/openai_logo_chatgpt-2.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
+      "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
+      "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-21T11:19:49+00:00",
+      "summary": "Anthropic mathematician Levent Alpöge says he used Claude to prove the Riemann hypothesis, math's most famous open problem for 167 years, with a proof formalized in Lean that spans over 250,000 pages. Just hours later, Stanford researchers published an independent, entirely human competing proof…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/anthropic_riemann.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
+      "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
+      "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-21T10:33:02+00:00",
+      "summary": "Thinking Machines has released Inkling 2 Mini, an open looped transformer that runs 12 of its 24 layers three times per token. This lets the model reason internally for longer without generating extra text. On Artificial Analysis's Intelligence Index, it ties with Qwen3.8 27B at roughly six times…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2025/09/thinking_machines_ca_illustration.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/",
+      "title": "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
+      "url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-21T10:27:44+00:00",
+      "summary": "The Nasdaq 100 has slipped into a bear market after its worst weekly loss since the Covid-19 crisis. Nvidia plunged 14 percent as the SEC reviews its accounting, and Anthropic lost nearly all of its gains a day after its record IPO. AI doubts, scandals, rising interest rates, and political…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/tech_crash_synth.png",
+      "kind": "article"
+    },
     {
       "id": "rss:https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
       "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
@@ -115,28 +215,6 @@
       "kind": "article"
     },
     {
-      "id": "rss:https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
-      "title": "Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others",
-      "url": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-20T15:56:03+00:00",
-      "summary": "A Bloomberg News analysis of 10 million job postings suggests AI is compounding China's already weak labor market. Entry-level workers and the creative industry are feeling the shift most, with more than 90% of Chinese micro-dramas now produced using AI. Former central bank adviser Cai Fang warns…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/08/china_flag_visual-1.png",
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
-      "title": "Apple joins the race for AI agents that control your device while raising new barriers for competitors",
-      "url": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-20T15:03:25+00:00",
-      "summary": "After Meta, OpenAI, Anthropic, and Google launched their own AI agents, Apple is now building one too - while making it harder for rivals to access its devices. The article Apple joins the race for AI agents that control your device while raising new barriers for competitors appeared first on The…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/07/apple_logo_neon_green.png",
-      "kind": "article"
-    },
-    {
       "id": "rss:https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
       "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
       "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/",
@@ -148,17 +226,6 @@
       "kind": "article"
     },
     {
-      "id": "rss:https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
-      "title": "Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup",
-      "url": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-20T14:53:50+00:00",
-      "summary": "Nvidia is close to acquiring AI startup Inception for at least $500 million, according to The Information. The company is just two years old and builds language models based on diffusion processes, an alternative approach to the token-by-token generation used by models like ChatGPT. The deal would…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/10/inception.png",
-      "kind": "article"
-    },
-    {
       "id": "rss:https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
       "title": "Six AI-powered gadgets that could make your home office smarter",
       "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
@@ -167,28 +234,6 @@
       "published": "2026-11-20T14:00:00+00:00",
       "summary": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
       "thumbnail": null,
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/",
-      "title": "Google's latest homepage update pushes its search engine further toward an AI answer engine",
-      "url": "https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-20T13:19:31+00:00",
-      "summary": "Google is rolling out a collapsible sidebar globally on its Desktop Search homepage. In AI Mode, it lets users reopen recent AI searches, search threads, and create notebooks. Temporary threads that aren't saved to history are also launching worldwide. Google Search co-lead Robby Stein says the…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/07/google_gemini-1.png",
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
-      "title": "Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill",
-      "url": "https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-20T09:59:51+00:00",
-      "summary": "Companies will soon be able to run the open-source Hermes Agent from Nous Research directly inside Microsoft Teams. The article Hermes Agent's Collective Wisdom feature turns one employee's AI trick into the whole team's skill appeared first on The Decoder .",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/06/hermes-og-image-blue.png",
       "kind": "article"
     },
     {
@@ -257,17 +302,6 @@
       "published": "2026-11-19T21:42:31+00:00",
       "summary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
       "thumbnail": null,
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://the-decoder.com/an-openai-agent-assigned-a-simple-writing-task-decided-on-its-own-to-build-a-secret-email-surveillance-tool/",
-      "title": "An OpenAI agent assigned a simple writing task decided on its own to build a secret email surveillance tool",
-      "url": "https://the-decoder.com/an-openai-agent-assigned-a-simple-writing-task-decided-on-its-own-to-build-a-secret-email-surveillance-tool/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-19T21:15:01+00:00",
-      "summary": "An internal OpenAI model was supposed to create a fitness document but instead began planning scripts to secretly forward emails to an \"attacker.\" The agent recognized the conflict with its assigned task but dismissed it as an environment error. OpenAI identified security training against prompt…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/agent_mail_compromise.png",
       "kind": "article"
     },
     {
@@ -452,17 +486,6 @@
       "channel": "AI Search"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
-      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
-      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-19T00:42:56+00:00",
-      "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
       "id": "paper:2611.26444",
       "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
       "url": "https://huggingface.co/papers/2611.26444",
@@ -472,7 +495,7 @@
       "summary": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 47,
+      "upvotes": 50,
       "arxiv_id": "2611.26444"
     },
     {
@@ -485,7 +508,7 @@
       "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 41,
+      "upvotes": 42,
       "arxiv_id": "2611.26590"
     },
     {
@@ -498,7 +521,7 @@
       "summary": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants. Centering on joint audio-visual perception and reasoning, WeMM-Video unifies text, image, audio, and video processing within a…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 40,
+      "upvotes": 42,
       "arxiv_id": "2611.26409"
     },
     {
@@ -511,7 +534,7 @@
       "summary": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 35,
+      "upvotes": 36,
       "arxiv_id": "2611.26629"
     },
     {
@@ -524,7 +547,7 @@
       "summary": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm. Through controlled experiments and blinded human evaluation, we study proxy granularity, physics simulation, and…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 34,
+      "upvotes": 35,
       "arxiv_id": "2611.26595"
     },
     {
@@ -537,7 +560,7 @@
       "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 28,
+      "upvotes": 29,
       "arxiv_id": "2611.26603"
     },
     {
@@ -563,7 +586,7 @@
       "summary": "Egocentric video captioning requires fine-grained detail and accurate timing, yet current multimodal large language models (MLLMs) often miss brief actions, confuse their order, or misinterpret the wearer's motion. Existing caption formats also offer limited support for combining detailed narration with precise timing. We present EgoCaptioner, which pairs a video-level overview of the setting…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 24,
+      "upvotes": 25,
       "arxiv_id": "2611.26380"
     },
     {
@@ -577,17 +600,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/R0rXSJmymTc/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
-    },
-    {
-      "id": "rss:https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
-      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
-      "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-18T23:45:00+00:00",
-      "summary": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
-      "thumbnail": null,
-      "kind": "article"
     },
     {
       "id": "rss:https://deepmind.google/blog/introducing-gemini-4-neon/",
@@ -856,7 +868,7 @@
       "summary": "Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections. Even with adaptive investigation, optimizing the…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 51,
+      "upvotes": 52,
       "arxiv_id": "2611.21373"
     },
     {
@@ -882,7 +894,7 @@
       "summary": "3D Gaussian Splatting enables object-level operations on Gaussian primitives, yet existing segmentation methods are largely trained and evaluated through rendered views. This mismatch can produce accurate rendered masks from incomplete 3D selections since alpha-blended feature supervision concentrates learning on dominant contributors while leaving occluded or low-contribution Gaussians weakly…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 31,
+      "upvotes": 32,
       "arxiv_id": "2611.21383"
     },
     {
@@ -1684,29 +1696,6 @@
       "summary": "",
       "thumbnail": "https://charonhub.deeplearning.ai/content/images/2026/10/Futuristic-Space-Station-Classroom-Crew.webp",
       "kind": "newsletter"
-    },
-    {
-      "id": "yt:zv6B6PQOuHE",
-      "title": "The last real programmers are dying out...",
-      "url": "https://www.youtube.com/watch?v=zv6B6PQOuHE",
-      "source": "Fireship",
-      "category": "videos",
-      "published": "2026-10-22T15:09:31+00:00",
-      "summary": "Get real-time search data from a single API. Fireship viewers get 1,000 free searches: https://serpapi.com/fireship Yes the very foundations of the internet are currently crumbling to pieces, but before we look at that, let's distract ourselves with the 7 common programmer stereotypes that still…",
-      "thumbnail": "https://i3.ytimg.com/vi/zv6B6PQOuHE/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Fireship"
-    },
-    {
-      "id": "rss:https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "source": "Google DeepMind",
-      "category": "news",
-      "published": "2026-10-22T14:30:24+00:00",
-      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-      "thumbnail": "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w528-h297-n-nu-rw-lo",
-      "kind": "article"
     }
   ],
   "featured": [
@@ -1725,7 +1714,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T10:27:52.625055+00:00",
+      "fetched_at": "2026-11-21T17:43:01.609591+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1827,7 +1816,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T10:27:52.627443+00:00",
+      "fetched_at": "2026-11-21T17:43:01.612011+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1929,34 +1918,34 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T10:27:52.630942+00:00",
+      "fetched_at": "2026-11-21T17:43:01.615160+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Dreamina Seedance 2.5",
           "creator": "ByteDance Seed",
-          "score": 1161.0,
+          "score": 1162.0,
           "meta": "Jul 2026 · $34.12 /min",
           "previous_rank": 1,
           "rank_delta": 0
         },
         {
           "rank": 2,
-          "name": "Utopai X",
-          "creator": "Utopai Studios",
-          "score": 1152.0,
-          "meta": "Sep 2026 · No API available",
-          "previous_rank": 2,
-          "rank_delta": 0
+          "name": "Boreal-H3",
+          "creator": "Creatify",
+          "score": 1154.0,
+          "meta": "Oct 2026 · $2.42 /min",
+          "previous_rank": 3,
+          "rank_delta": 1
         },
         {
           "rank": 3,
-          "name": "Boreal-H3",
-          "creator": "Creatify",
-          "score": 1151.0,
-          "meta": "Oct 2026 · $2.42 /min",
-          "previous_rank": 3,
-          "rank_delta": 0
+          "name": "Utopai X",
+          "creator": "Utopai Studios",
+          "score": 1153.0,
+          "meta": "Sep 2026 · No API available",
+          "previous_rank": 2,
+          "rank_delta": -1
         },
         {
           "rank": 4,
@@ -1971,7 +1960,7 @@
           "rank": 5,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax",
-          "score": 1134.0,
+          "score": 1137.0,
           "meta": "Jul 2026 · $4.80 /min",
           "previous_rank": 5,
           "rank_delta": 0
@@ -1980,10 +1969,10 @@
           "rank": 6,
           "name": "HeyGen Video 1",
           "creator": "HeyGen",
-          "score": 1125.0,
+          "score": 1127.0,
           "meta": "Oct 2026 · $2.40 /min",
-          "previous_rank": 7,
-          "rank_delta": 1
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
@@ -1991,35 +1980,35 @@
           "creator": "Skywork AI",
           "score": 1125.0,
           "meta": "Mar 2026 · $21.00 /min",
-          "previous_rank": 6,
-          "rank_delta": -1
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
           "name": "Hyperflow H3",
           "creator": "Video Rebirth",
-          "score": 1119.0,
+          "score": 1121.0,
           "meta": "Sep 2026 · $9.00 /min",
           "previous_rank": 8,
           "rank_delta": 0
         },
         {
           "rank": 9,
+          "name": "MiniMax H3 Max",
+          "creator": "Fal",
+          "score": 1120.0,
+          "meta": "Aug 2026 · $9.60 /min",
+          "previous_rank": 10,
+          "rank_delta": 1
+        },
+        {
+          "rank": 10,
           "name": "P-Video-2-Pro",
           "creator": "Pruna AI",
           "score": 1119.0,
           "meta": "Sep 2026 · $5.70 /min",
           "previous_rank": 9,
-          "rank_delta": 0
-        },
-        {
-          "rank": 10,
-          "name": "MiniMax H3 Max",
-          "creator": "Fal",
-          "score": 1118.0,
-          "meta": "Aug 2026 · $9.60 /min",
-          "previous_rank": 10,
-          "rank_delta": 0
+          "rank_delta": -1
         }
       ]
     },
@@ -2031,13 +2020,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T10:27:52.632015+00:00",
+      "fetched_at": "2026-11-21T17:43:01.616200+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax",
-          "score": 1134.0,
+          "score": 1137.0,
           "meta": "Jul 2026 · $4.80 /min",
           "previous_rank": 1,
           "rank_delta": 0
@@ -2046,7 +2035,7 @@
           "rank": 2,
           "name": "Hyperflow H3",
           "creator": "Video Rebirth",
-          "score": 1119.0,
+          "score": 1121.0,
           "meta": "Sep 2026 · $9.00 /min",
           "previous_rank": 2,
           "rank_delta": 0
@@ -2055,34 +2044,34 @@
           "rank": 3,
           "name": "Pika H3 Flex",
           "creator": "Pika Art",
-          "score": 1115.0,
+          "score": 1117.0,
           "meta": "Oct 2026 · $2.10 /min",
           "previous_rank": 3,
           "rank_delta": 0
         },
         {
           "rank": 4,
-          "name": "LTX-2.5 Pro",
+          "name": "LTX-2.5 Fast",
           "creator": "Lightricks",
-          "score": 912.0,
-          "meta": "Aug 2026 · $10.20 /min",
-          "previous_rank": 4,
-          "rank_delta": 0
+          "score": 914.0,
+          "meta": "Aug 2026 · $7.80 /min",
+          "previous_rank": 5,
+          "rank_delta": 1
         },
         {
           "rank": 5,
-          "name": "LTX-2.5 Fast",
+          "name": "LTX-2.5 Pro",
           "creator": "Lightricks",
-          "score": 912.0,
-          "meta": "Aug 2026 · $7.80 /min",
-          "previous_rank": 5,
-          "rank_delta": 0
+          "score": 913.0,
+          "meta": "Aug 2026 · $10.20 /min",
+          "previous_rank": 4,
+          "rank_delta": -1
         },
         {
           "rank": 6,
           "name": "LTX-2.3 Pro",
           "creator": "Lightricks",
-          "score": 838.0,
+          "score": 842.0,
           "meta": "Mar 2026 · $4.80 /min",
           "previous_rank": 6,
           "rank_delta": 0
@@ -2091,7 +2080,7 @@
           "rank": 7,
           "name": "LTX-2.3 Fast",
           "creator": "Lightricks",
-          "score": 833.0,
+          "score": 835.0,
           "meta": "Mar 2026 · $3.60 /min",
           "previous_rank": 7,
           "rank_delta": 0
@@ -2106,13 +2095,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T10:27:52.668532+00:00",
+      "fetched_at": "2026-11-21T17:43:01.651970+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Utopai X",
           "creator": "Utopai Studios",
-          "score": 1152.0,
+          "score": 1150.0,
           "meta": "Sep 2026 · No API available",
           "previous_rank": 1,
           "rank_delta": 0
@@ -2121,7 +2110,7 @@
           "rank": 2,
           "name": "Dreamina Seedance 2.5",
           "creator": "ByteDance Seed",
-          "score": 1127.0,
+          "score": 1126.0,
           "meta": "Jul 2026 · $34.12 /min",
           "previous_rank": 2,
           "rank_delta": 0
@@ -2139,7 +2128,7 @@
           "rank": 4,
           "name": "Bach 1.0 Pro",
           "creator": "Video Rebirth",
-          "score": 1122.0,
+          "score": 1121.0,
           "meta": "Sep 2026 · $7.20 /min",
           "previous_rank": 4,
           "rank_delta": 0
@@ -2155,36 +2144,36 @@
         },
         {
           "rank": 6,
-          "name": "Boreal-H3",
-          "creator": "Creatify",
-          "score": 1119.0,
-          "meta": "Oct 2026 · $2.42 /min",
-          "previous_rank": 6,
-          "rank_delta": 0
+          "name": "SkyReels V4",
+          "creator": "Skywork AI",
+          "score": 1116.0,
+          "meta": "Mar 2026 · $21.00 /min",
+          "previous_rank": 7,
+          "rank_delta": 1
         },
         {
           "rank": 7,
-          "name": "SkyReels V4",
-          "creator": "Skywork AI",
-          "score": 1119.0,
-          "meta": "Mar 2026 · $21.00 /min",
-          "previous_rank": 7,
-          "rank_delta": 0
+          "name": "Agnes-Video-2.5",
+          "creator": "Sapiens AI",
+          "score": 1115.0,
+          "meta": "Aug 2026 · $2.40 /min",
+          "previous_rank": 8,
+          "rank_delta": 1
         },
         {
           "rank": 8,
-          "name": "Agnes-Video-2.5",
-          "creator": "Sapiens AI",
-          "score": 1116.0,
-          "meta": "Aug 2026 · $2.40 /min",
-          "previous_rank": 8,
-          "rank_delta": 0
+          "name": "Boreal-H3",
+          "creator": "Creatify",
+          "score": 1115.0,
+          "meta": "Oct 2026 · $2.42 /min",
+          "previous_rank": 6,
+          "rank_delta": -2
         },
         {
           "rank": 9,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax",
-          "score": 1113.0,
+          "score": 1112.0,
           "meta": "Jul 2026 · $4.80 /min",
           "previous_rank": 9,
           "rank_delta": 0
@@ -2193,7 +2182,7 @@
           "rank": 10,
           "name": "P-Video-2-Pro",
           "creator": "Pruna AI",
-          "score": 1106.0,
+          "score": 1105.0,
           "meta": "Sep 2026 · $5.70 /min",
           "previous_rank": 10,
           "rank_delta": 0
@@ -2208,7 +2197,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T10:27:52.700336+00:00",
+      "fetched_at": "2026-11-21T17:43:01.682607+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2223,7 +2212,7 @@
           "rank": 2,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax",
-          "score": 1113.0,
+          "score": 1112.0,
           "meta": "Jul 2026 · $4.80 /min",
           "previous_rank": 2,
           "rank_delta": 0
@@ -2241,7 +2230,7 @@
           "rank": 4,
           "name": "LTX-2.5 Fast",
           "creator": "Lightricks",
-          "score": 910.0,
+          "score": 909.0,
           "meta": "Aug 2026 · $7.80 /min",
           "previous_rank": 4,
           "rank_delta": 0
@@ -2250,7 +2239,7 @@
           "rank": 5,
           "name": "LTX-2.5 Pro",
           "creator": "Lightricks",
-          "score": 903.0,
+          "score": 901.0,
           "meta": "Aug 2026 · $10.20 /min",
           "previous_rank": 5,
           "rank_delta": 0
@@ -2259,7 +2248,7 @@
           "rank": 6,
           "name": "LTX-2.3 Fast",
           "creator": "Lightricks",
-          "score": 820.0,
+          "score": 818.0,
           "meta": "Mar 2026 · $3.60 /min",
           "previous_rank": 6,
           "rank_delta": 0
@@ -2268,7 +2257,7 @@
           "rank": 7,
           "name": "LTX-2.3 Pro",
           "creator": "Lightricks",
-          "score": 816.0,
+          "score": 812.0,
           "meta": "Mar 2026 · $4.80 /min",
           "previous_rank": 7,
           "rank_delta": 0
@@ -2283,7 +2272,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T10:27:52.702035+00:00",
+      "fetched_at": "2026-11-21T17:43:01.684314+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2385,7 +2374,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-21T10:27:52.719944+00:00",
+      "fetched_at": "2026-11-21T17:43:01.701622+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2487,7 +2476,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-21T10:27:52.732587+00:00",
+      "fetched_at": "2026-11-21T17:43:01.713959+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2589,7 +2578,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T10:27:52.742599+00:00",
+      "fetched_at": "2026-11-21T17:43:01.723201+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2691,7 +2680,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T10:27:52.746362+00:00",
+      "fetched_at": "2026-11-21T17:43:01.726716+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2793,7 +2782,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T10:27:52.756194+00:00",
+      "fetched_at": "2026-11-21T17:43:01.736678+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2895,7 +2884,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T10:27:52.758789+00:00",
+      "fetched_at": "2026-11-21T17:43:01.739247+00:00",
       "entries": [
         {
           "rank": 1,
@@ -3163,18 +3152,18 @@
         "closed_winner": {
           "model": "Dreamina Seedance 2.5",
           "developer": "ByteDance Seed",
-          "score": "1161",
+          "score": "1162",
           "released": "Jul 2026"
         },
         "open_winner": {
           "model": "MiniMax H3 (768p)",
           "developer": "MiniMax",
-          "score": "1134",
+          "score": "1137",
           "released": "Jul 2026"
         },
         "runner_up": {
-          "model": "Utopai X",
-          "score": "1152"
+          "model": "Boreal-H3",
+          "score": "1154"
         }
       },
       {
@@ -3212,89 +3201,89 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-21T10:27:27.026117+00:00",
+        "checked_at": "2026-11-21T17:42:38.133185+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T10:27:27.026117+00:00"
+        "last_ok_at": "2026-11-21T17:42:38.133185+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-21T10:27:25.874642+00:00",
+        "checked_at": "2026-11-21T17:42:37.069883+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T10:27:25.874642+00:00"
+        "last_ok_at": "2026-11-21T17:42:37.069883+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-21T10:27:30.360680+00:00",
+        "checked_at": "2026-11-21T17:42:41.192077+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T10:27:30.360680+00:00"
+        "last_ok_at": "2026-11-21T17:42:41.192077+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-21T10:27:28.055186+00:00",
+        "checked_at": "2026-11-21T17:42:39.152354+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T10:27:28.055186+00:00"
+        "last_ok_at": "2026-11-21T17:42:39.152354+00:00"
       },
       {
         "name": "Google AI Blog",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-21T10:27:35.156919+00:00",
+        "checked_at": "2026-11-21T17:42:46.113974+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T10:27:35.156919+00:00"
+        "last_ok_at": "2026-11-21T17:42:46.113974+00:00"
       },
       {
         "name": "Google DeepMind",
         "ok": true,
         "items": 25,
         "error": null,
-        "checked_at": "2026-11-21T10:27:33.890555+00:00",
+        "checked_at": "2026-11-21T17:42:44.834723+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T10:27:33.890555+00:00"
+        "last_ok_at": "2026-11-21T17:42:44.834723+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-21T10:27:32.744058+00:00",
+        "checked_at": "2026-11-21T17:42:43.641313+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T10:27:32.744058+00:00"
+        "last_ok_at": "2026-11-21T17:42:43.641313+00:00"
       },
       {
         "name": "MIT Technology Review AI",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-21T10:27:39.943219+00:00",
+        "checked_at": "2026-11-21T17:42:50.579478+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T10:27:39.943219+00:00"
+        "last_ok_at": "2026-11-21T17:42:50.579478+00:00"
       },
       {
         "name": "TechCrunch AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-21T10:27:38.772184+00:00",
+        "checked_at": "2026-11-21T17:42:49.477773+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T10:27:38.772184+00:00"
+        "last_ok_at": "2026-11-21T17:42:49.477773+00:00"
       },
       {
         "name": "The Batch",
         "ok": false,
         "items": 4,
         "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
-        "checked_at": "2026-11-21T10:27:41.047435+00:00",
-        "failed_streak": 5,
+        "checked_at": "2026-11-21T17:42:51.615043+00:00",
+        "failed_streak": 6,
         "last_ok_at": "2026-11-19T23:42:06.033318+00:00"
       },
       {
@@ -3302,35 +3291,35 @@
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-21T10:27:37.601237+00:00",
+        "checked_at": "2026-11-21T17:42:48.424625+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T10:27:37.601237+00:00"
+        "last_ok_at": "2026-11-21T17:42:48.424625+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-21T10:27:29.241789+00:00",
+        "checked_at": "2026-11-21T17:42:40.173786+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T10:27:29.241789+00:00"
+        "last_ok_at": "2026-11-21T17:42:40.173786+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-21T10:27:31.528390+00:00",
+        "checked_at": "2026-11-21T17:42:42.448435+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T10:27:31.528390+00:00"
+        "last_ok_at": "2026-11-21T17:42:42.448435+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-21T10:27:52.764849+00:00",
+      "checked_at": "2026-11-21T17:43:01.744823+00:00",
       "failed_streak": 0,
-      "last_ok_at": "2026-11-21T10:27:52.764849+00:00"
+      "last_ok_at": "2026-11-21T17:43:01.744823+00:00"
     }
   }
 }
