@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T22:36:05.251457+00:00",
+  "generated_at": "2026-11-22T02:44:54.205565+00:00",
   "items": [
     {
       "id": "rss:https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
@@ -506,7 +506,7 @@
       "summary": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 50,
+      "upvotes": 51,
       "arxiv_id": "2611.26444"
     },
     {
@@ -571,7 +571,7 @@
       "summary": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor consistency, single-frame methods favor sharpness. To overcome this trade-off, we train a single, scalable network that…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 30,
+      "upvotes": 31,
       "arxiv_id": "2611.26603"
     },
     {
@@ -879,7 +879,7 @@
       "summary": "Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections. Even with adaptive investigation, optimizing the…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 52,
+      "upvotes": 53,
       "arxiv_id": "2611.21373"
     },
     {
@@ -1696,17 +1696,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/1Aqhg0FVm-w/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "batch:/the-batch/issue-376",
-      "title": "Meta’s Muse Wonder and Spark Open, Educational Use of ChatGPT, Reflection's Partnership with Nvidia",
-      "url": "https://www.deeplearning.ai/the-batch/issue-376",
-      "source": "The Batch",
-      "category": "newsletter",
-      "published": "2026-10-23T00:00:00+00:00",
-      "summary": "",
-      "thumbnail": "https://charonhub.deeplearning.ai/content/images/2026/10/Futuristic-Space-Station-Classroom-Crew.webp",
-      "kind": "newsletter"
     }
   ],
   "featured": [
@@ -1725,7 +1714,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T22:36:05.152413+00:00",
+      "fetched_at": "2026-11-22T02:44:54.082213+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1827,7 +1816,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T22:36:05.154108+00:00",
+      "fetched_at": "2026-11-22T02:44:54.084336+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1929,7 +1918,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T22:36:05.156272+00:00",
+      "fetched_at": "2026-11-22T02:44:54.086985+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2031,7 +2020,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T22:36:05.156966+00:00",
+      "fetched_at": "2026-11-22T02:44:54.087829+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2106,7 +2095,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T22:36:05.183388+00:00",
+      "fetched_at": "2026-11-22T02:44:54.120092+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2208,7 +2197,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T22:36:05.203842+00:00",
+      "fetched_at": "2026-11-22T02:44:54.145799+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2283,7 +2272,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T22:36:05.204974+00:00",
+      "fetched_at": "2026-11-22T02:44:54.147285+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2385,7 +2374,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-21T22:36:05.216789+00:00",
+      "fetched_at": "2026-11-22T02:44:54.162261+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2487,7 +2476,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-21T22:36:05.225456+00:00",
+      "fetched_at": "2026-11-22T02:44:54.173075+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2589,7 +2578,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T22:36:05.231750+00:00",
+      "fetched_at": "2026-11-22T02:44:54.180820+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2691,7 +2680,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T22:36:05.234154+00:00",
+      "fetched_at": "2026-11-22T02:44:54.183925+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2793,7 +2782,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T22:36:05.240426+00:00",
+      "fetched_at": "2026-11-22T02:44:54.191741+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2895,7 +2884,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-21T22:36:05.242027+00:00",
+      "fetched_at": "2026-11-22T02:44:54.193759+00:00",
       "entries": [
         {
           "rank": 1,
@@ -3212,89 +3201,89 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-21T22:35:41.559562+00:00",
+        "checked_at": "2026-11-22T02:44:29.269240+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T22:35:41.559562+00:00"
+        "last_ok_at": "2026-11-22T02:44:29.269240+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-21T22:35:40.539523+00:00",
+        "checked_at": "2026-11-22T02:44:28.224804+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T22:35:40.539523+00:00"
+        "last_ok_at": "2026-11-22T02:44:28.224804+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-21T22:35:44.661463+00:00",
+        "checked_at": "2026-11-22T02:44:32.372973+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T22:35:44.661463+00:00"
+        "last_ok_at": "2026-11-22T02:44:32.372973+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-21T22:35:42.573898+00:00",
+        "checked_at": "2026-11-22T02:44:30.297662+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T22:35:42.573898+00:00"
+        "last_ok_at": "2026-11-22T02:44:30.297662+00:00"
       },
       {
         "name": "Google AI Blog",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-21T22:35:49.150598+00:00",
+        "checked_at": "2026-11-22T02:44:37.510955+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T22:35:49.150598+00:00"
+        "last_ok_at": "2026-11-22T02:44:37.510955+00:00"
       },
       {
         "name": "Google DeepMind",
         "ok": true,
         "items": 25,
         "error": null,
-        "checked_at": "2026-11-21T22:35:48.014369+00:00",
+        "checked_at": "2026-11-22T02:44:36.267286+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T22:35:48.014369+00:00"
+        "last_ok_at": "2026-11-22T02:44:36.267286+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-21T22:35:46.904273+00:00",
+        "checked_at": "2026-11-22T02:44:34.620263+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T22:35:46.904273+00:00"
+        "last_ok_at": "2026-11-22T02:44:34.620263+00:00"
       },
       {
         "name": "MIT Technology Review AI",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-21T22:35:53.213427+00:00",
+        "checked_at": "2026-11-22T02:44:42.106916+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T22:35:53.213427+00:00"
+        "last_ok_at": "2026-11-22T02:44:42.106916+00:00"
       },
       {
         "name": "TechCrunch AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-21T22:35:52.170570+00:00",
+        "checked_at": "2026-11-22T02:44:40.932965+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T22:35:52.170570+00:00"
+        "last_ok_at": "2026-11-22T02:44:40.932965+00:00"
       },
       {
         "name": "The Batch",
-        "ok": true,
-        "items": 16,
-        "error": null,
-        "checked_at": "2026-11-21T22:35:54.317961+00:00",
-        "failed_streak": 0,
+        "ok": false,
+        "items": 5,
+        "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
+        "checked_at": "2026-11-22T02:44:43.303846+00:00",
+        "failed_streak": 1,
         "last_ok_at": "2026-11-21T22:35:54.317961+00:00"
       },
       {
@@ -3302,35 +3291,35 @@
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-21T22:35:51.139102+00:00",
+        "checked_at": "2026-11-22T02:44:39.821626+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T22:35:51.139102+00:00"
+        "last_ok_at": "2026-11-22T02:44:39.821626+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-21T22:35:43.588390+00:00",
+        "checked_at": "2026-11-22T02:44:31.343534+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T22:35:43.588390+00:00"
+        "last_ok_at": "2026-11-22T02:44:31.343534+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-21T22:35:45.816985+00:00",
+        "checked_at": "2026-11-22T02:44:33.417830+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-21T22:35:45.816985+00:00"
+        "last_ok_at": "2026-11-22T02:44:33.417830+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-21T22:36:05.244559+00:00",
+      "checked_at": "2026-11-22T02:44:54.196832+00:00",
       "failed_streak": 0,
-      "last_ok_at": "2026-11-21T22:36:05.244559+00:00"
+      "last_ok_at": "2026-11-22T02:44:54.196832+00:00"
     }
   }
 }
