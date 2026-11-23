@@ -1,7 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T23:41:45.880355+00:00",
+  "generated_at": "2026-11-23T04:47:00.387461+00:00",
   "items": [
+    {
+      "id": "rss:https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-23T01:25:53+00:00",
+      "summary": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+      "thumbnail": null,
+      "kind": "article"
+    },
     {
       "id": "rss:https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
       "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
@@ -463,17 +474,6 @@
       "kind": "article"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
-      "title": "Former Alibaba exec’s Everful raises $48.5M to connect retailers with Chinese factories",
-      "url": "https://techcrunch.com/2026/11/19/former-alibaba-execs-everful-raises-48-5m-to-connect-retailers-with-chinese-factories/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-19T17:00:00+00:00",
-      "summary": "Everful has raised $48.5 million to expand its factory-direct sourcing platform, helping retailers source products from overseas manufacturers.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
       "id": "rss:https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
       "title": "Walter Isaacson on curiosity and creativity in the AI age.",
       "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
@@ -530,7 +530,7 @@
       "summary": "Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate reasoning and execution within the same…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 53,
+      "upvotes": 55,
       "arxiv_id": "2611.26444"
     },
     {
@@ -543,7 +543,7 @@
       "summary": "Video understanding, particularly with accompanying audio, remains a central challenge in multimodal intelligence. In this report, we introduce WeMM-Video, a family of Chinese-English bilingual omni-modal foundation models spanning 2B, 4B, 9B, and 35B-A3B variants. Centering on joint audio-visual perception and reasoning, WeMM-Video unifies text, image, audio, and video processing within a…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 45,
+      "upvotes": 46,
       "arxiv_id": "2611.26409"
     },
     {
@@ -623,6 +623,45 @@
       "kind": "paper",
       "upvotes": 25,
       "arxiv_id": "2611.26380"
+    },
+    {
+      "id": "paper:2611.26073",
+      "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
+      "url": "https://huggingface.co/papers/2611.26073",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-19T00:00:00+00:00",
+      "summary": "Large language models (LLMs) are increasingly used as judges and graders to replace human annotators, raising the question of when such replacement is statistically justified. To support such decisions, the Alternative Annotator Test (Alt-Test) was introduced for dense settings where all items are annotated by the same annotators. However, in many large-scale annotation settings, items are…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 23,
+      "arxiv_id": "2611.26073"
+    },
+    {
+      "id": "paper:2611.25387",
+      "title": "TuringSpace: Grounding Spatial Intelligence in Action with Interactive CAPTCHAs",
+      "url": "https://huggingface.co/papers/2611.25387",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-19T00:00:00+00:00",
+      "summary": "Humans act in the visual world by inferring the 3D layout behind a 2D view, predicting how an action changes it, and correcting themselves after seeing the result. Can multimodal large language models (MLLMs) do the same? CAPTCHAs offer a natural test, since humans solve them through this very loop, clicking and dragging on the screen and adjusting after each result. Yet existing CAPTCHA…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 23,
+      "arxiv_id": "2611.25387"
+    },
+    {
+      "id": "paper:2611.26414",
+      "title": "ZeroVLN: Learning to Navigate without Supervised Fine-Tuning of the VLM Brain",
+      "url": "https://huggingface.co/papers/2611.26414",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-19T00:00:00+00:00",
+      "summary": "Representative vision-language navigation (VLN) methods typically couple a vision-language model (VLM) brain with a learnable action head and fine-tune the VLM brain on navigation-domain data to predict geometric goals. However, such adaptation can substantially alter base VLM weights and degrade general visual capabilities. We introduce ZeroVLN, a slow-fast navigation framework that achieves…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 22,
+      "arxiv_id": "2611.26414"
     },
     {
       "id": "yt:R0rXSJmymTc",
@@ -725,7 +764,7 @@
       "summary": "System One models such as Jev return decisions through fast, parallel prediction. In this paper, we introduce Jeveration, showing that the same decision paradigm can also generate high-quality images in a single forward pass. Jeveration builds on a frozen vision-language model, repurposing its visual-semantic knowledge for holistic image generation. The key challenge is to maintain global…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 149,
+      "upvotes": 150,
       "arxiv_id": "2611.24738"
     },
     {
@@ -753,6 +792,19 @@
       "kind": "paper",
       "upvotes": 26,
       "arxiv_id": "2611.24654"
+    },
+    {
+      "id": "paper:2611.24789",
+      "title": "HINT-WAM: Hindsight-Informed Training for World Action Models",
+      "url": "https://huggingface.co/papers/2611.24789",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-18T00:00:00+00:00",
+      "summary": "World action models (WAMs) have shown promising generalization and data efficiency in robot manipulation by coupling action generation with predictions of future visual dynamics. Translating these capabilities into reliable task execution, however, remains a challenge for existing post-training methods. Offline supervised fine-tuning provides dense supervision on expert trajectories, but its…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 22,
+      "arxiv_id": "2611.24789"
     },
     {
       "id": "rss:https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
@@ -799,19 +851,6 @@
       "thumbnail": "https://i4.ytimg.com/vi/WRdgKyOTPXA/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
-    },
-    {
-      "id": "paper:2611.23068",
-      "title": "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
-      "url": "https://huggingface.co/papers/2611.23068",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-17T00:00:00+00:00",
-      "summary": "Agent evolution follows a simple loop: a proposer writes candidate artifacts (prompts, skills, memories) and selection accepts those that score higher. This loop has shown promise, yet practitioners face a puzzle: methods trade wins across papers, and evolution often fails to bootstrap on certain tasks. We trace this puzzle to the Resolution Hypothesis: agent evolution stalls not because methods…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 39,
-      "arxiv_id": "2611.23068"
     },
     {
       "id": "yt:atz4gzB7ykY",
@@ -892,45 +931,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/5vPXJiy83Sg/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
-    },
-    {
-      "id": "paper:2611.21373",
-      "title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
-      "url": "https://huggingface.co/papers/2611.21373",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-16T00:00:00+00:00",
-      "summary": "Recent advances in video generation call for reliable detection grounded in explicit forensic evidence. However, current methods primarily depend on single-pass chain-of-thought reasoning that overlooks brief or localized artifacts, or on predefined multi-agent workflows that offer limited flexibility in selecting relevant inspections. Even with adaptive investigation, optimizing the…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 56,
-      "arxiv_id": "2611.21373"
-    },
-    {
-      "id": "paper:2611.21366",
-      "title": "ALIVE: Making Streaming Video Models Interactive",
-      "url": "https://huggingface.co/papers/2611.21366",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-16T00:00:00+00:00",
-      "summary": "Streaming video LLMs can continuously observe the world, yet often handle user requests in isolation. We introduce ALIVE, an interactive streaming video model supporting proactive monitoring, streaming task coordination, and feedback-seeking interaction. We construct ALIVE-SFT-288K and ALIVE-RL-3K for two-stage training. Contrastive supervised fine-tuning teaches when and how to respond, while…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 42,
-      "arxiv_id": "2611.21366"
-    },
-    {
-      "id": "paper:2611.21383",
-      "title": "The Mask Is Not the Object: Volumetric Supervision for 3D Gaussian Segmentation",
-      "url": "https://huggingface.co/papers/2611.21383",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-16T00:00:00+00:00",
-      "summary": "3D Gaussian Splatting enables object-level operations on Gaussian primitives, yet existing segmentation methods are largely trained and evaluated through rendered views. This mismatch can produce accurate rendered masks from incomplete 3D selections since alpha-blended feature supervision concentrates learning on dominant contributors while leaving occluded or low-contribution Gaussians weakly…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 33,
-      "arxiv_id": "2611.21383"
     },
     {
       "id": "yt:iXvttGCoc1g",
@@ -1672,18 +1672,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/EfyQOAJjx1A/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
-    },
-    {
-      "id": "yt:4MRMLerpcQc",
-      "title": "Kimi K3.1 Pro Is HERE – Does THIS Really Beat Claude & GPT?",
-      "url": "https://www.youtube.com/watch?v=4MRMLerpcQc",
-      "source": "Bijan Bowen",
-      "category": "videos",
-      "published": "2026-10-24T02:57:41+00:00",
-      "summary": "Thanks to Switch AI for sponsoring this video: https://devtoolsacademy.link/Bijan Timestamps: 00:00 - Intro 00:54 - First Look 02:29 - Open-Weight Mention 03:18 - Technical Look 03:53 - Testing Setup Info 05:41 - Browser OS Test 10:46 - C++ Skate Game Test 13:07 - Switch AI Sponsor 14:35 - C++…",
-      "thumbnail": "https://i1.ytimg.com/vi/4MRMLerpcQc/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Bijan Bowen"
     }
   ],
   "featured": [
@@ -1702,7 +1690,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-22T23:41:45.729602+00:00",
+      "fetched_at": "2026-11-23T04:47:00.239179+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1804,7 +1792,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-22T23:41:45.731970+00:00",
+      "fetched_at": "2026-11-23T04:47:00.241609+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1906,7 +1894,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-22T23:41:45.735205+00:00",
+      "fetched_at": "2026-11-23T04:47:00.244818+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2008,7 +1996,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-22T23:41:45.736207+00:00",
+      "fetched_at": "2026-11-23T04:47:00.245804+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2083,7 +2071,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-22T23:41:45.772531+00:00",
+      "fetched_at": "2026-11-23T04:47:00.282695+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2185,7 +2173,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-22T23:41:45.803356+00:00",
+      "fetched_at": "2026-11-23T04:47:00.313624+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2260,7 +2248,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-22T23:41:45.805056+00:00",
+      "fetched_at": "2026-11-23T04:47:00.315318+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2362,7 +2350,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-22T23:41:45.824113+00:00",
+      "fetched_at": "2026-11-23T04:47:00.332470+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2464,7 +2452,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-22T23:41:45.837321+00:00",
+      "fetched_at": "2026-11-23T04:47:00.344475+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2566,7 +2554,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-22T23:41:45.846510+00:00",
+      "fetched_at": "2026-11-23T04:47:00.354072+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2668,7 +2656,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-22T23:41:45.850267+00:00",
+      "fetched_at": "2026-11-23T04:47:00.357720+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2770,7 +2758,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-22T23:41:45.860200+00:00",
+      "fetched_at": "2026-11-23T04:47:00.367702+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2872,7 +2860,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-22T23:41:45.862757+00:00",
+      "fetched_at": "2026-11-23T04:47:00.370182+00:00",
       "entries": [
         {
           "rank": 1,
@@ -3189,89 +3177,89 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-22T23:41:21.614639+00:00",
+        "checked_at": "2026-11-23T04:46:36.091829+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-22T23:41:21.614639+00:00"
+        "last_ok_at": "2026-11-23T04:46:36.091829+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-22T23:41:20.439156+00:00",
+        "checked_at": "2026-11-23T04:46:34.935888+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-22T23:41:20.439156+00:00"
+        "last_ok_at": "2026-11-23T04:46:34.935888+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-22T23:41:24.731628+00:00",
+        "checked_at": "2026-11-23T04:46:39.292987+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-22T23:41:24.731628+00:00"
+        "last_ok_at": "2026-11-23T04:46:39.292987+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-22T23:41:22.633560+00:00",
+        "checked_at": "2026-11-23T04:46:37.114011+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-22T23:41:22.633560+00:00"
+        "last_ok_at": "2026-11-23T04:46:37.114011+00:00"
       },
       {
         "name": "Google AI Blog",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-22T23:41:29.523604+00:00",
+        "checked_at": "2026-11-23T04:46:44.019942+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-22T23:41:29.523604+00:00"
+        "last_ok_at": "2026-11-23T04:46:44.019942+00:00"
       },
       {
         "name": "Google DeepMind",
         "ok": true,
         "items": 25,
         "error": null,
-        "checked_at": "2026-11-22T23:41:28.256507+00:00",
+        "checked_at": "2026-11-23T04:46:42.767559+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-22T23:41:28.256507+00:00"
+        "last_ok_at": "2026-11-23T04:46:42.767559+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-22T23:41:27.090997+00:00",
+        "checked_at": "2026-11-23T04:46:41.448007+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-22T23:41:27.090997+00:00"
+        "last_ok_at": "2026-11-23T04:46:41.448007+00:00"
       },
       {
         "name": "MIT Technology Review AI",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-22T23:41:33.899717+00:00",
+        "checked_at": "2026-11-23T04:46:48.357378+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-22T23:41:33.899717+00:00"
+        "last_ok_at": "2026-11-23T04:46:48.357378+00:00"
       },
       {
         "name": "TechCrunch AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-22T23:41:32.807817+00:00",
+        "checked_at": "2026-11-23T04:46:47.273502+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-22T23:41:32.807817+00:00"
+        "last_ok_at": "2026-11-23T04:46:47.273502+00:00"
       },
       {
         "name": "The Batch",
         "ok": false,
         "items": 4,
         "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
-        "checked_at": "2026-11-22T23:41:34.934149+00:00",
-        "failed_streak": 4,
+        "checked_at": "2026-11-23T04:46:49.464079+00:00",
+        "failed_streak": 5,
         "last_ok_at": "2026-11-21T22:35:54.317961+00:00"
       },
       {
@@ -3279,35 +3267,35 @@
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-22T23:41:31.706728+00:00",
+        "checked_at": "2026-11-23T04:46:46.211241+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-22T23:41:31.706728+00:00"
+        "last_ok_at": "2026-11-23T04:46:46.211241+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-22T23:41:23.653791+00:00",
+        "checked_at": "2026-11-23T04:46:38.208323+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-22T23:41:23.653791+00:00"
+        "last_ok_at": "2026-11-23T04:46:38.208323+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-22T23:41:25.913666+00:00",
+        "checked_at": "2026-11-23T04:46:40.331505+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-22T23:41:25.913666+00:00"
+        "last_ok_at": "2026-11-23T04:46:40.331505+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-22T23:41:45.868759+00:00",
+      "checked_at": "2026-11-23T04:47:00.376279+00:00",
       "failed_streak": 0,
-      "last_ok_at": "2026-11-22T23:41:45.868759+00:00"
+      "last_ok_at": "2026-11-23T04:47:00.376279+00:00"
     }
   }
 }
