@@ -1,7 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T23:09:20.006860+00:00",
+  "generated_at": "2026-11-25T05:32:48.732402+00:00",
   "items": [
+    {
+      "id": "rss:https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+      "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "source": "TechCrunch AI",
+      "category": "news",
+      "published": "2026-11-25T00:12:02+00:00",
+      "summary": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether…",
+      "thumbnail": null,
+      "kind": "article"
+    },
     {
       "id": "rss:https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
       "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
@@ -391,17 +402,6 @@
       "kind": "article"
     },
     {
-      "id": "rss:https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
-      "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
-      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
-      "source": "TechCrunch AI",
-      "category": "news",
-      "published": "2026-11-23T17:14:23+00:00",
-      "summary": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal.",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
       "id": "rss:https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
       "title": "A more tailored Google Search that’s uniquely yours",
       "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
@@ -457,8 +457,21 @@
       "summary": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but bounded attention caches limit access to distant history, while repeated denoising introduces substantial inference…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 171,
+      "upvotes": 180,
       "arxiv_id": "2611.29897"
+    },
+    {
+      "id": "paper:2611.30989",
+      "title": "WorldLeague: Benchmarking Physical Agency",
+      "url": "https://huggingface.co/papers/2611.30989",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-23T00:00:00+00:00",
+      "summary": "AI systems can now operate Blender, follow instructions in complex video games, and manipulate objects with robot arms. What range of physical goals can today's AI systems achieve autonomously? Answering this question requires testing systems on tasks that demand different combinations of perception, memory, planning, and action. We introduce WorldLeague, a benchmark that compares AI systems on a…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 126,
+      "arxiv_id": "2611.30989"
     },
     {
       "id": "paper:2611.31201",
@@ -472,19 +485,6 @@
       "kind": "paper",
       "upvotes": 90,
       "arxiv_id": "2611.31201"
-    },
-    {
-      "id": "paper:2611.30989",
-      "title": "WorldLeague: Benchmarking Physical Agency",
-      "url": "https://huggingface.co/papers/2611.30989",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-23T00:00:00+00:00",
-      "summary": "AI systems can now operate Blender, follow instructions in complex video games, and manipulate objects with robot arms. What range of physical goals can today's AI systems achieve autonomously? Answering this question requires testing systems on tasks that demand different combinations of perception, memory, planning, and action. We introduce WorldLeague, a benchmark that compares AI systems on a…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 77,
-      "arxiv_id": "2611.30989"
     },
     {
       "id": "paper:2611.30013",
@@ -509,8 +509,60 @@
       "summary": "We present WeMM-Ecom, a family of multimodal large language models that deliver frontier e-commerce capabilities while achieving state-of-the-art general-purpose performance at their respective scales. The family spans five sizes, from a 0.8B dense model to a 35B mixture-of-experts model with 3B active parameters. Our training pipeline begins with two-stage continued pre-training that…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 54,
+      "upvotes": 55,
       "arxiv_id": "2611.30662"
+    },
+    {
+      "id": "paper:2611.31358",
+      "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
+      "url": "https://huggingface.co/papers/2611.31358",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-23T00:00:00+00:00",
+      "summary": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Raster images are represented by learned discrete visual tokens, while structured artifacts use explicit programs. A shared generation-and-rendering interface connects…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 37,
+      "arxiv_id": "2611.31358"
+    },
+    {
+      "id": "paper:2611.30898",
+      "title": "World Models as Native Latent Action Models",
+      "url": "https://huggingface.co/papers/2611.30898",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-23T00:00:00+00:00",
+      "summary": "Large and diverse video sources, such as egocentric human video and heterogeneous robot recordings, carry rich dynamics but come either without actions or without a shared action space. Latent action models (LAMs) can recover these dynamics, but they train their inverse- and forward-dynamics models (IDM, FDM) from scratch, trading off pixel reconstruction against latent capacity and accuracy…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 25,
+      "arxiv_id": "2611.30898"
+    },
+    {
+      "id": "paper:2611.30634",
+      "title": "Rewirable Circuits in Transformers with Loom Attention",
+      "url": "https://huggingface.co/papers/2611.30634",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-23T00:00:00+00:00",
+      "summary": "We propose loom attention, which allows a Transformer to dynamically rewire its circuits at every token by interweaving a head's vertical attention over the outputs of earlier heads (to obtain its query, key and value) with its horizontal attention over tokens. We instantiate vertical attention efficiently with normalized and gated linear attention over a per-token matrix memory, which stores the…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 22,
+      "arxiv_id": "2611.30634"
+    },
+    {
+      "id": "paper:2611.31115",
+      "title": "RUIBench: What Makes a Good Robot-Use Interface?",
+      "url": "https://huggingface.co/papers/2611.31115",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-23T00:00:00+00:00",
+      "summary": "Foundation models can reason about complex physical tasks, yet translating this intelligence into reliable robot execution remains challenging. We argue that a critical, often overlooked factor is the robot-use interface (RUI), which determines how agents express and execute physical actions. To systematically study its impact, we introduce RUIBench, comprising 30 manipulation tasks across five…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 22,
+      "arxiv_id": "2611.31115"
     },
     {
       "id": "yt:cUuVObUqbn0",
@@ -546,7 +598,7 @@
       "summary": "Recently, GPT-6 Astra demonstrates strong generalization in robot control, yet limited disclosure of its training leaves open how such capabilities can be reproduced. We introduce nanoAstra, an approach to training vision-language models (VLMs) for generalizable manipulation that combines semantic action modeling with capability-preserving supervised fine-tuning (CP-SFT). nanoAstra represents…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 53,
+      "upvotes": 54,
       "arxiv_id": "2611.29338"
     },
     {
@@ -572,6 +624,19 @@
       "thumbnail": "https://i2.ytimg.com/vi/a36atq-Dy8A/hqdefault.jpg",
       "kind": "video",
       "channel": "WorldofAI"
+    },
+    {
+      "id": "paper:2611.28649",
+      "title": "S-Mind: Internalizing Multi-View Geometry for Spatial Intelligence",
+      "url": "https://huggingface.co/papers/2611.28649",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-21T00:00:00+00:00",
+      "summary": "Spatial intelligence, the ability to reason about 3D space from visual observations, becomes essential as multimodal large language models (MLLMs) move into the physical world. Beyond perceiving each view, it rests on two cornerstones of human cognition: fusing multiple views into one coherent 3D scene and mentally transforming that scene to new viewpoints as reasoning unfolds. Yet our spatial…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 23,
+      "arxiv_id": "2611.28649"
     },
     {
       "id": "yt:rMaMe32qQkA",
@@ -621,45 +686,6 @@
       "channel": "AI Search"
     },
     {
-      "id": "paper:2611.27193",
-      "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
-      "url": "https://huggingface.co/papers/2611.27193",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-20T00:00:00+00:00",
-      "summary": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to the Birkhoff polytope, the set of doubly stochastic matrices. In this work, we investigate how to effectively mix residual streams within the Birkhoff polytope. We reveal a mixing trade-off: when under-mixed residual…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 94,
-      "arxiv_id": "2611.27193"
-    },
-    {
-      "id": "paper:2611.27963",
-      "title": "Non-penetrating World Models",
-      "url": "https://huggingface.co/papers/2611.27963",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-20T00:00:00+00:00",
-      "summary": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to physical obstacles. Our evaluation reveals that none of the open-source models can reliably prevent such failures. Surprisingly, however, these models already encode the information…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 60,
-      "arxiv_id": "2611.27963"
-    },
-    {
-      "id": "paper:2611.26954",
-      "title": "Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation",
-      "url": "https://huggingface.co/papers/2611.26954",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-20T00:00:00+00:00",
-      "summary": "Video foresight reasoning requires vision-language models to anticipate future events or next actions from currently observed videos. Existing methods fit future captions, rationales, or full visual states, but face two limitations. First, they rely on annotations or external large models for supervision, limiting scalability. We address this with an on-policy self-distillation framework that…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 43,
-      "arxiv_id": "2611.26954"
-    },
-    {
       "id": "paper:2611.28202",
       "title": "AutoPILOT: A Visual Agent Harness for Real-Time Gameplay",
       "url": "https://huggingface.co/papers/2611.28202",
@@ -669,7 +695,7 @@
       "summary": "Multimodal foundation models can play video games well when the game waits for them, but often fail when it keeps running. We find that much of this gap lies in the harness, which decides what the model sees, what it remembers, and how its outputs become actions over time. Existing harnesses such as VISTA improve the first two, yet turn each model call into at most one action, so the agent acts…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 32,
+      "upvotes": 33,
       "arxiv_id": "2611.28202"
     },
     {
@@ -682,7 +708,7 @@
       "summary": "RL post-training typically produces domain experts that must then be consolidated into one model, and as new experts keep arriving, this consolidation becomes a continual process. Weight merging and multi-teacher on-policy distillation (MOPD) must re-consolidate the whole model whenever an expert is added, and can erode capabilities outside the target domains. We propose Composable Soft-Prompt…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 27,
+      "upvotes": 30,
       "arxiv_id": "2611.27376"
     },
     {
@@ -788,34 +814,21 @@
       "summary": "Current leading video generation models can synthesize highly realistic videos, while still frequently violating physical and logical constraints in multi-step reasoning and planning, even after training with large-scale reasoning data or existing diffusion RL methods. We attribute these failures to the conventional video training paradigm, which treats a solution as a fixed-length clip rather…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 38,
+      "upvotes": 39,
       "arxiv_id": "2611.26389"
     },
     {
-      "id": "paper:2611.25773",
-      "title": "Duopra: From Full-Duplex Conversation to Full-Duplex Agency",
-      "url": "https://huggingface.co/papers/2611.25773",
+      "id": "paper:2611.18639",
+      "title": "SynthDCB: World Distillation for Scalable Device Control Benchmarking",
+      "url": "https://huggingface.co/papers/2611.18639",
       "source": "Hugging Face Papers",
       "category": "papers",
       "published": "2026-11-19T00:00:00+00:00",
-      "summary": "Full-duplex interaction models exhibit strong conversational agency, enabling natural, low-latency turn-taking, backchannels, and interruptions. However, completing tasks further requires task agency: timely tool invocation and argument revision following user corrections. Frontend-backend agents separate initiation from execution: the frontend decides whether and what to request, while the…",
+      "summary": "Scaling device-control evaluation requires scaling both interactive worlds and the tasks agents must solve. We introduce SynthDCB, a benchmark for environment awareness and device control built through world distillation (WD). World distillation transforms knowledge of device behaviors, constraints, and environmental effects into modular executable components. A unified capability representation…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 29,
-      "arxiv_id": "2611.25773"
-    },
-    {
-      "id": "paper:2611.26516",
-      "title": "Plan4D: Generative Plannable 4D Worlds",
-      "url": "https://huggingface.co/papers/2611.26516",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-19T00:00:00+00:00",
-      "summary": "Most world models for future prediction prioritize aestetic quality of generated videos, but offer only weak physical grounding and limited geometric consistency over time, due to the lack of explicit 4D modeling. In this paper, we introduce plan4d, a possible next milestone towards building a generative plannable 4D world model that predicts future RGB videos together with dense 4D geometry…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 28,
-      "arxiv_id": "2611.26516"
+      "upvotes": 25,
+      "arxiv_id": "2611.18639"
     },
     {
       "id": "yt:R0rXSJmymTc",
@@ -907,19 +920,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/jm_h5nRZoCg/hqdefault.jpg",
       "kind": "video",
       "channel": "Bijan Bowen"
-    },
-    {
-      "id": "paper:2611.24636",
-      "title": "Clover-35B-A3B-Preview Technical Report",
-      "url": "https://huggingface.co/papers/2611.24636",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-18T00:00:00+00:00",
-      "summary": "We introduce Clover-35B-A3B-Preview (Clover), a mixture-of-experts diffusion language model with 35 billion total parameters and 3 billion activated parameters, supporting thinking-mode generation. Clover adapts Gated Delta Networks to block diffusion by combining recurrent memory of previously generated context with bidirectional softmax attention inside the current block. Historical memory…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 42,
-      "arxiv_id": "2611.24636"
     },
     {
       "id": "rss:https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
@@ -1747,7 +1747,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-24T23:09:19.858850+00:00",
+      "fetched_at": "2026-11-25T05:32:48.656549+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1849,7 +1849,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-24T23:09:19.861335+00:00",
+      "fetched_at": "2026-11-25T05:32:48.657884+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1951,97 +1951,96 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-24T23:09:19.864898+00:00",
+      "fetched_at": "2026-11-25T05:32:48.659677+00:00",
       "entries": [
         {
           "rank": 1,
+          "name": "MAGI-2",
+          "creator": "Sand.ai",
+          "score": 1165.0,
+          "meta": "Nov 2026 · $4.80 /min",
+          "previous_rank": null
+        },
+        {
+          "rank": 2,
           "name": "Dreamina Seedance 2.5",
           "creator": "ByteDance Seed",
           "score": 1161.0,
           "meta": "Jul 2026 · $34.12 /min",
           "previous_rank": 1,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Utopai X",
           "creator": "Utopai Studios",
           "score": 1151.0,
           "meta": "Sep 2026 · No API available",
           "previous_rank": 2,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Boreal-H3",
           "creator": "Creatify",
           "score": 1148.0,
           "meta": "Oct 2026 · $2.42 /min",
           "previous_rank": 3,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "Dreamina Seedance 2.0",
           "creator": "ByteDance Seed",
           "score": 1141.0,
           "meta": "Mar 2026 · $22.45 /min",
           "previous_rank": 4,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "MiniMax H3 (768p)",
           "creator": "MiniMax",
           "score": 1137.0,
           "meta": "Jul 2026 · $4.80 /min",
           "previous_rank": 5,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Dreamina Seedance 2.5 Flash (720p)",
           "creator": "ByteDance Seed",
           "score": 1136.0,
           "meta": "Nov 2026 · $9.00 /min",
           "previous_rank": 6,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "HeyGen Video 1",
           "creator": "HeyGen",
           "score": 1125.0,
           "meta": "Oct 2026 · $2.40 /min",
           "previous_rank": 7,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "SkyReels V4",
           "creator": "Skywork AI",
           "score": 1124.0,
           "meta": "Mar 2026 · $21.00 /min",
           "previous_rank": 8,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Hyperflow H3",
           "creator": "Video Rebirth",
           "score": 1122.0,
           "meta": "Sep 2026 · $9.00 /min",
           "previous_rank": 9,
-          "rank_delta": 0
-        },
-        {
-          "rank": 10,
-          "name": "MiniMax H3 Max",
-          "creator": "Fal",
-          "score": 1118.0,
-          "meta": "Aug 2026 · $9.60 /min",
-          "previous_rank": 10,
-          "rank_delta": 0
+          "rank_delta": -1
         }
       ]
     },
@@ -2053,7 +2052,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-24T23:09:19.865975+00:00",
+      "fetched_at": "2026-11-25T05:32:48.660214+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2128,97 +2127,96 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-24T23:09:19.900966+00:00",
+      "fetched_at": "2026-11-25T05:32:48.677262+00:00",
       "entries": [
         {
           "rank": 1,
+          "name": "MAGI-2",
+          "creator": "Sand.ai",
+          "score": 1151.0,
+          "meta": "Nov 2026 · $4.80 /min",
+          "previous_rank": null
+        },
+        {
+          "rank": 2,
           "name": "Utopai X",
           "creator": "Utopai Studios",
           "score": 1148.0,
           "meta": "Sep 2026 · No API available",
           "previous_rank": 1,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Dreamina Seedance 2.5",
           "creator": "ByteDance Seed",
           "score": 1128.0,
           "meta": "Jul 2026 · $34.12 /min",
           "previous_rank": 2,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Hyperflow H3",
           "creator": "Video Rebirth",
           "score": 1125.0,
           "meta": "Sep 2026 · $9.00 /min",
           "previous_rank": 3,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "MiniMax H3 Max",
           "creator": "Fal",
           "score": 1124.0,
           "meta": "Aug 2026 · $9.60 /min",
           "previous_rank": 4,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "Bach 1.0 Pro",
           "creator": "Video Rebirth",
           "score": 1123.0,
           "meta": "Sep 2026 · $7.20 /min",
           "previous_rank": 5,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "Boreal-H3",
           "creator": "Creatify",
           "score": 1116.0,
           "meta": "Oct 2026 · $2.42 /min",
           "previous_rank": 6,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "SkyReels V4",
           "creator": "Skywork AI",
           "score": 1115.0,
           "meta": "Mar 2026 · $21.00 /min",
           "previous_rank": 7,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "Agnes-Video-2.5",
           "creator": "Sapiens AI",
           "score": 1114.0,
           "meta": "Aug 2026 · $2.40 /min",
           "previous_rank": 8,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "Dreamina Seedance 2.5 Flash (720p)",
           "creator": "ByteDance Seed",
           "score": 1112.0,
           "meta": "Nov 2026 · $9.00 /min",
           "previous_rank": 9,
-          "rank_delta": 0
-        },
-        {
-          "rank": 10,
-          "name": "MiniMax H3 (768p)",
-          "creator": "MiniMax",
-          "score": 1110.0,
-          "meta": "Jul 2026 · $4.80 /min",
-          "previous_rank": 10,
-          "rank_delta": 0
+          "rank_delta": -1
         }
       ]
     },
@@ -2230,7 +2228,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-24T23:09:19.932478+00:00",
+      "fetched_at": "2026-11-25T05:32:48.692085+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2305,7 +2303,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-24T23:09:19.934079+00:00",
+      "fetched_at": "2026-11-25T05:32:48.692949+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2407,7 +2405,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-24T23:09:19.951690+00:00",
+      "fetched_at": "2026-11-25T05:32:48.702034+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2509,7 +2507,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-24T23:09:19.963899+00:00",
+      "fetched_at": "2026-11-25T05:32:48.708577+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2598,7 +2596,8 @@
           "creator": "StepFun",
           "score": 29.0,
           "meta": "1M ctx",
-          "previous_rank": null
+          "previous_rank": 10,
+          "rank_delta": 0
         }
       ]
     },
@@ -2610,7 +2609,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-24T23:09:19.973598+00:00",
+      "fetched_at": "2026-11-25T05:32:48.713489+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2712,7 +2711,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-24T23:09:19.977323+00:00",
+      "fetched_at": "2026-11-25T05:32:48.715334+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2814,7 +2813,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-24T23:09:19.987554+00:00",
+      "fetched_at": "2026-11-25T05:32:48.719976+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2885,8 +2884,8 @@
           "creator": "Smallest.ai",
           "score": 1279.0,
           "meta": "Oct 2026 · $19.50 /1M chars",
-          "previous_rank": 9,
-          "rank_delta": 1
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
@@ -2894,8 +2893,8 @@
           "creator": "Fish Audio",
           "score": 1277.0,
           "meta": "Oct 2026 · $15.00 /1M chars",
-          "previous_rank": 8,
-          "rank_delta": -1
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
@@ -2916,7 +2915,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-24T23:09:19.990153+00:00",
+      "fetched_at": "2026-11-25T05:32:48.721187+00:00",
       "entries": [
         {
           "rank": 1,
@@ -3182,10 +3181,10 @@
         "board_open": "image-to-video-open",
         "source_note": "Top-1 of own Artificial Analysis boards (snapshot per fetch)",
         "closed_winner": {
-          "model": "Dreamina Seedance 2.5",
-          "developer": "ByteDance Seed",
-          "score": "1161",
-          "released": "Jul 2026"
+          "model": "MAGI-2",
+          "developer": "Sand.ai",
+          "score": "1165",
+          "released": "Nov 2026"
         },
         "open_winner": {
           "model": "MiniMax H3 (768p)",
@@ -3194,8 +3193,8 @@
           "released": "Jul 2026"
         },
         "runner_up": {
-          "model": "Utopai X",
-          "score": "1151"
+          "model": "Dreamina Seedance 2.5",
+          "score": "1161"
         }
       },
       {
@@ -3233,89 +3232,89 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-24T23:08:55.062890+00:00",
+        "checked_at": "2026-11-25T05:32:24.604126+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-24T23:08:55.062890+00:00"
+        "last_ok_at": "2026-11-25T05:32:24.604126+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-24T23:08:54.031168+00:00",
+        "checked_at": "2026-11-25T05:32:23.480602+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-24T23:08:54.031168+00:00"
+        "last_ok_at": "2026-11-25T05:32:23.480602+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-24T23:08:58.130236+00:00",
+        "checked_at": "2026-11-25T05:32:27.861974+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-24T23:08:58.130236+00:00"
+        "last_ok_at": "2026-11-25T05:32:27.861974+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-24T23:08:56.084585+00:00",
+        "checked_at": "2026-11-25T05:32:25.623954+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-24T23:08:56.084585+00:00"
+        "last_ok_at": "2026-11-25T05:32:25.623954+00:00"
       },
       {
         "name": "Google AI Blog",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-24T23:09:03.036571+00:00",
+        "checked_at": "2026-11-25T05:32:32.682420+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-24T23:09:03.036571+00:00"
+        "last_ok_at": "2026-11-25T05:32:32.682420+00:00"
       },
       {
         "name": "Google DeepMind",
         "ok": true,
         "items": 25,
         "error": null,
-        "checked_at": "2026-11-24T23:09:01.714537+00:00",
+        "checked_at": "2026-11-25T05:32:31.482820+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-24T23:09:01.714537+00:00"
+        "last_ok_at": "2026-11-25T05:32:31.482820+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-24T23:09:00.384099+00:00",
+        "checked_at": "2026-11-25T05:32:30.282310+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-24T23:09:00.384099+00:00"
+        "last_ok_at": "2026-11-25T05:32:30.282310+00:00"
       },
       {
         "name": "MIT Technology Review AI",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-24T23:09:07.035162+00:00",
+        "checked_at": "2026-11-25T05:32:36.574509+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-24T23:09:07.035162+00:00"
+        "last_ok_at": "2026-11-25T05:32:36.574509+00:00"
       },
       {
         "name": "TechCrunch AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-24T23:09:05.849255+00:00",
+        "checked_at": "2026-11-25T05:32:35.444457+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-24T23:09:05.849255+00:00"
+        "last_ok_at": "2026-11-25T05:32:35.444457+00:00"
       },
       {
         "name": "The Batch",
         "ok": false,
         "items": 4,
         "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
-        "checked_at": "2026-11-24T23:09:08.102713+00:00",
-        "failed_streak": 9,
+        "checked_at": "2026-11-25T05:32:37.759608+00:00",
+        "failed_streak": 10,
         "last_ok_at": "2026-11-21T22:35:54.317961+00:00"
       },
       {
@@ -3323,35 +3322,35 @@
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-24T23:09:04.757806+00:00",
+        "checked_at": "2026-11-25T05:32:34.332065+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-24T23:09:04.757806+00:00"
+        "last_ok_at": "2026-11-25T05:32:34.332065+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-24T23:08:57.107187+00:00",
+        "checked_at": "2026-11-25T05:32:26.713575+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-24T23:08:57.107187+00:00"
+        "last_ok_at": "2026-11-25T05:32:26.713575+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-24T23:08:59.168195+00:00",
+        "checked_at": "2026-11-25T05:32:28.991861+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-24T23:08:59.168195+00:00"
+        "last_ok_at": "2026-11-25T05:32:28.991861+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-24T23:09:19.995989+00:00",
+      "checked_at": "2026-11-25T05:32:48.726677+00:00",
       "failed_streak": 0,
-      "last_ok_at": "2026-11-24T23:09:19.995989+00:00"
+      "last_ok_at": "2026-11-25T05:32:48.726677+00:00"
     }
   }
 }
