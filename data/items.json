@@ -1,7 +1,96 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T11:04:53.752325+00:00",
+  "generated_at": "2026-11-27T20:05:58.597525+00:00",
   "items": [
+    {
+      "id": "rss:https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+      "title": "OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers",
+      "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-27T19:38:37+00:00",
+      "summary": "OpenAI is suing Apple in a California court, accusing it of trade secret theft and of coercing shared suppliers. The countersuit follows Apple's own lawsuit from the summer. Just two years ago, the two companies teamed up to bring ChatGPT to the iPhone. Now OpenAI is building its own devices to…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/openai_apple.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+      "title": "Banned Nvidia Blackwell chips turn up in a Shanghai data center linked to Alice Huang, Bloomberg reports",
+      "url": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-27T18:27:02+00:00",
+      "summary": "Two Chinese companies installed Nvidia's powerful Blackwell chips at a Shanghai data center linked to Alice Huang, according to a Bloomberg investigation. A serial number led Bloomberg to Taiwanese manufacturer Gigabyte. Exporting these chips to China without a US license is illegal. The article…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/jensen_huang_china.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
+      "title": "Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models",
+      "url": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-27T16:58:56+00:00",
+      "summary": "Yann LeCun is pushing forward with his alternative to language models through his startup AMI Labs. The JEPA architecture aims to give machines an internal world model that captures cause and effect. Three new studies show progress in robot planning, more efficient training, and error correction…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/lecun_wireframe.png",
+      "kind": "article"
+    },
+    {
+      "id": "yt:sPGzM3ktJVE",
+      "title": "The wild world of tech in 2027...",
+      "url": "https://www.youtube.com/watch?v=sPGzM3ktJVE",
+      "source": "Fireship",
+      "category": "videos",
+      "published": "2026-11-27T16:08:25+00:00",
+      "summary": "Get 67% off VPS hosting with Hostinger's Black Friday sale. Use code FIRESHIP for an extra discount - https://hostinger.com/fireship The junior dev job is dead, open source is drowning in slop, and npm install is a gamble. Here are 10 trends every dev needs to watch in 2027 to avoid the permanent…",
+      "thumbnail": "https://i4.ytimg.com/vi/sPGzM3ktJVE/hqdefault.jpg",
+      "kind": "video",
+      "channel": "Fireship"
+    },
+    {
+      "id": "rss:https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says/",
+      "title": "Hackers breached the US Air Force's flagship Cloud One platform, report says",
+      "url": "https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-27T16:06:43+00:00",
+      "summary": "Hackers breached the US Air Force's flagship cloud platform. The article Hackers breached the US Air Force's flagship Cloud One platform, report says appeared first on The Decoder .",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/XQ-58-Testflight-scaled.jpg",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
+      "title": "OpenAI is building \"Athena\" data platform to cut down on AI agent guesswork",
+      "url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-27T16:05:23+00:00",
+      "summary": "OpenAI's data agent in ChatGPT Work still isn't accurate enough. Under the codename \"Athena,\" the company is building a semantic layer that gives agents standardized definitions for business metrics. The tool could also put OpenAI in direct competition with Snowflake and Databricks. The article…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/10/openai_logo-1.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/",
+      "title": "Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents?",
+      "url": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-27T15:37:47+00:00",
+      "summary": "More than 40 projects are working to bring a leaked Xbox build of GTA 6 to PC through reverse engineering just days after its $3.79 billion record console launch. AI coding agents like Claude Code are speeding up the process so much that an early unofficial multiplayer mode is already running…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/Rockstar-logo-reihe.png",
+      "kind": "article"
+    },
+    {
+      "id": "rss:https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
+      "title": "SAP plans to cut at least 10,000 jobs as it pivots to AI",
+      "url": "https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-27T14:57:25+00:00",
+      "summary": "SAP is preparing to eliminate at least 10,000 positions as part of a sweeping AI restructuring, Bloomberg reports, citing people familiar with the matter. The article SAP plans to cut at least 10,000 jobs as it pivots to AI appeared first on The Decoder .",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/05/SAP-Logo-Silouette.png",
+      "kind": "article"
+    },
     {
       "id": "yt:u6UYsl-KEoc",
       "title": "DeepMind’s New AI Just Changed The AI Race",
@@ -106,39 +195,6 @@
       "kind": "article"
     },
     {
-      "id": "rss:https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/",
-      "title": "FCC clears SpaceX to deploy up to 1 million Starmind satellites for orbital AI data centers by 2040",
-      "url": "https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-26T13:41:07+00:00",
-      "summary": "The FCC has authorized SpaceX to deploy up to 1 million Starmind satellites to process AI data as orbital data centers. SpaceX is targeting its first launches in 2027, and the full constellation is set to be operating by 2040. Google and Blue Origin are also working on AI infrastructure in space…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/SpaceX-xAI-Satellite-scaled.png",
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
-      "title": "Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks",
-      "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-26T11:30:06+00:00",
-      "summary": "Microsoft has published the technical architecture of ARTEX, an AI framework in wide use since July 2026 that runs cyberattacks with specialized agents and almost no human involvement. State-backed groups from China and North Korea, along with criminal organizations, are already using the system…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/10/microsoft_human_touch.png",
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
-      "title": "Nvidia halts server shipments to Malaysia, Singapore, Thailand, and Indonesia after tighter US export controls",
-      "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-26T11:21:16+00:00",
-      "summary": "Nvidia has told partners such as Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand, and Indonesia. Following new US export controls targeting Chinese cloud access, dealers are already seeking buyers for thousands of B300 chips, while one cloud executive describes…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/nvidia_logo_glitch.png",
-      "kind": "article"
-    },
-    {
       "id": "yt:rsBYH09bR30",
       "title": "Claude 6.0 LEAKED?! AI Quantum Scares, HUGE Gemini Breakthrough, Gemini Bots & MORE! AI NEWS",
       "url": "https://www.youtube.com/watch?v=rsBYH09bR30",
@@ -159,28 +215,6 @@
       "published": "2026-11-25T22:44:32+00:00",
       "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
       "thumbnail": null,
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/",
-      "title": "US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs",
-      "url": "https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-25T20:51:02+00:00",
-      "summary": "Chip restrictions, anti-distillation measures, and shrinking access to Nvidia hardware abroad are putting growing pressure on Deepseek, Moonshot AI, and Alibaba, according to a report. Deepseek researchers internally estimate they're already up to nine months behind US models, and the gap is…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/us_china.png",
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/",
-      "title": "Anthropic CEO Dario Amodei says letting AI govern society would be \"a bad idea\"",
-      "url": "https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-25T20:15:50+00:00",
-      "summary": "Anthropic CEO Dario Amodei is pushing back on an Axios report saying some employees believe humanity will hand power to superintelligent systems. Amodei says \"turning over governance to AI is a bad idea.\" The article Anthropic CEO Dario Amodei says letting AI govern society would be \"a bad idea\"…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/09/anthropic_amodei.png",
       "kind": "article"
     },
     {
@@ -217,17 +251,6 @@
       "kind": "article"
     },
     {
-      "id": "rss:https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/",
-      "title": "OpenAI wants companies to trust it with sensitive work by promising not to look at their data",
-      "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-25T18:22:02+00:00",
-      "summary": "OpenAI is testing a new feature called \"Private Inference\" that lets companies run queries on its most powerful models without OpenAI being able to access the data. The article OpenAI wants companies to trust it with sensitive work by promising not to look at their data appeared first on The…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/10/openai_logo-1.png",
-      "kind": "article"
-    },
-    {
       "id": "rss:https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
       "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
       "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
@@ -260,17 +283,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/Jatwf_XOncE/hqdefault.jpg",
       "kind": "video",
       "channel": "Fireship"
-    },
-    {
-      "id": "rss:https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
-      "title": "Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store.",
-      "url": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-25T16:44:37+00:00",
-      "summary": "Amazon and Meta are in talks to bring back Muse, Meta's AI shopping agent that Amazon kicked off its platform in September. The two sides are stuck on ad revenue and who gets to control search results. That matters because Amazon's ad business generates $68.6 billion a year, and Muse already…",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/10/met_muse_gadget_logo.jpg",
-      "kind": "article"
     },
     {
       "id": "rss:https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
@@ -361,7 +373,7 @@
       "summary": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training failures during long-context training. We trace these failures to the asymmetry…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 102,
+      "upvotes": 126,
       "arxiv_id": "2611.34051"
     },
     {
@@ -374,7 +386,7 @@
       "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear whether a single generalist agent can execute long-horizon workflows that span multiple operating systems and persistent application states. We introduce OS-Omni, a live…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 94,
+      "upvotes": 101,
       "arxiv_id": "2611.34232"
     },
     {
@@ -387,7 +399,7 @@
       "summary": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 80,
+      "upvotes": 81,
       "arxiv_id": "2611.34575"
     },
     {
@@ -400,7 +412,7 @@
       "summary": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 70,
+      "upvotes": 74,
       "arxiv_id": "2611.34923"
     },
     {
@@ -413,8 +425,21 @@
       "summary": "Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind. A program that exits cleanly can still render overlapping labels, a camera aimed away from its subject, broken object interactions, or narration that drifts out of…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 56,
+      "upvotes": 57,
       "arxiv_id": "2611.34237"
+    },
+    {
+      "id": "paper:2611.34813",
+      "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+      "url": "https://huggingface.co/papers/2611.34813",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-25T00:00:00+00:00",
+      "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is considered advantageous because the reasoning is native to the visual medium, unfolding directly in the frames rather than through language or code. Whether this native route is in…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 51,
+      "arxiv_id": "2611.34813"
     },
     {
       "id": "paper:2611.34941",
@@ -426,7 +451,7 @@
       "summary": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We introduce Image-to-Video Transfer (I2VT), which improves pretrained video editors and expands them to…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 44,
+      "upvotes": 46,
       "arxiv_id": "2611.34941"
     },
     {
@@ -439,7 +464,7 @@
       "summary": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene layout, motion, camera behavior, and event order. However, these coarse inputs leave details unspecified and may contain artifacts that should not be reproduced. Successful proxy-guided generation must…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 35,
+      "upvotes": 36,
       "arxiv_id": "2611.34457"
     },
     {
@@ -452,7 +477,7 @@
       "summary": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performed. However, scaling human-video ICL on world-action models (WAMs) faces two challenges: task-level human-robot pairs are not temporally aligned with robot actions, and standard…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 28,
+      "upvotes": 34,
       "arxiv_id": "2611.28732"
     },
     {
@@ -467,19 +492,6 @@
       "kind": "paper",
       "upvotes": 28,
       "arxiv_id": "2611.34420"
-    },
-    {
-      "id": "paper:2611.34852",
-      "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
-      "url": "https://huggingface.co/papers/2611.34852",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-25T00:00:00+00:00",
-      "summary": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a report covers and how deeply it explores them. We introduce DRBench Pro, a benchmark that makes structured knowledge…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 22,
-      "arxiv_id": "2611.34852"
     },
     {
       "id": "rss:https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
@@ -625,7 +637,7 @@
       "summary": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up. We present PyRUA-Dex, a framework that enables coding agents to develop dexterous manipulation through programmatic policy, without the need of…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 42,
+      "upvotes": 43,
       "arxiv_id": "2611.33144"
     },
     {
@@ -698,19 +710,6 @@
       "channel": "WorldofAI"
     },
     {
-      "id": "paper:2611.31358",
-      "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
-      "url": "https://huggingface.co/papers/2611.31358",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-23T00:00:00+00:00",
-      "summary": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Raster images are represented by learned discrete visual tokens, while structured artifacts use explicit programs. A shared generation-and-rendering interface connects…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 55,
-      "arxiv_id": "2611.31358"
-    },
-    {
       "id": "paper:2611.30844",
       "title": "DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers",
       "url": "https://huggingface.co/papers/2611.30844",
@@ -720,7 +719,7 @@
       "summary": "Diffusion Transformers (DiTs) scale model capacity by increasing both parameter count and computation. Mixture-of-Experts (MoE) variants expand parameter capacity while keeping per-token computation roughly fixed, but still require substantial parameter storage. In this paper, we propose Dynamic Looped MoE DiT (DyLoMo-DiT), which reuses parameters rather than adding them: a weight-shared loop…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 39,
+      "upvotes": 65,
       "arxiv_id": "2611.30844"
     },
     {
@@ -733,8 +732,21 @@
       "summary": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards carry most comparisons, yet none of them states how small a difference its datasets can detect. We call that quantity the resolution of a board and introduce Vernier, a tool that…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 35,
+      "upvotes": 57,
       "arxiv_id": "2611.31619"
+    },
+    {
+      "id": "paper:2611.31358",
+      "title": "Nemotron-Labs-VisualCreation: Pixel as Code for Agentic Visual Creation",
+      "url": "https://huggingface.co/papers/2611.31358",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-23T00:00:00+00:00",
+      "summary": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Raster images are represented by learned discrete visual tokens, while structured artifacts use explicit programs. A shared generation-and-rendering interface connects…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 55,
+      "arxiv_id": "2611.31358"
     },
     {
       "id": "paper:2611.31237",
@@ -1707,53 +1719,6 @@
       "summary": "",
       "thumbnail": "https://charonhub.deeplearning.ai/content/images/2026/10/Cozy-Halloween-Storytime-Circle.webp",
       "kind": "newsletter"
-    },
-    {
-      "id": "yt:pryCaGv8wuo",
-      "title": "DeepSeek's New AI Is An Absolute Monster",
-      "url": "https://www.youtube.com/watch?v=pryCaGv8wuo",
-      "source": "Two Minute Papers",
-      "category": "videos",
-      "published": "2026-10-28T17:32:40+00:00",
-      "summary": "❤️ Check out Lambda here and sign up for their GPU Cloud: https://lambda.ai/papers 📝 DeepSeek v4.1 Flash 1017 is available here: https://api-docs.deepseek.com/news/news261017/ Sources: https://x.com/marcthecreatorr/status/2111427716142571554/video/1…",
-      "thumbnail": "https://i1.ytimg.com/vi/pryCaGv8wuo/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Two Minute Papers"
-    },
-    {
-      "id": "rss:https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "source": "Google DeepMind",
-      "category": "news",
-      "published": "2026-10-28T17:00:58+00:00",
-      "summary": "",
-      "thumbnail": null,
-      "kind": "article"
-    },
-    {
-      "id": "yt:nEaJMdM1djM",
-      "title": "Did the AI bubble just pop?",
-      "url": "https://www.youtube.com/watch?v=nEaJMdM1djM",
-      "source": "Fireship",
-      "category": "videos",
-      "published": "2026-10-28T13:31:29+00:00",
-      "summary": "Try Hyperagent for free, or sign in with ChatGPT to get more usage from your existing plan: https://www.hyperagent.com/login?utm_source=youtube&utm_medium=influencer&utm_campaign=FIRESHIP Are we cooked chat? Want more Fireship? 🗞️ Newsletter: https://bytes.dev 🧠 Courses: https://fireship.dev",
-      "thumbnail": "https://i3.ytimg.com/vi/nEaJMdM1djM/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Fireship"
-    },
-    {
-      "id": "yt:SX5f8IIBriU",
-      "title": "Liquid LFM3 Is INSANE – Tiny Local AI That ANYONE Can Run!",
-      "url": "https://www.youtube.com/watch?v=SX5f8IIBriU",
-      "source": "Bijan Bowen",
-      "category": "videos",
-      "published": "2026-10-28T12:17:58+00:00",
-      "summary": "Timestamps: 00:00 - Intro 01:04 - First Look 01:59 - Technical Look 03:10 - Model Weights Overview 04:22 - LFM3 1.7B Test 05:48 - 1.7B Hermes Agent Test 11:41 - Vision Model Test 16:35 - Voice Model Test 21:23 - Omni Model Test 23:43 - Edge Device Test 25:30 - Closing Thoughts Join the Discord…",
-      "thumbnail": "https://i4.ytimg.com/vi/SX5f8IIBriU/hqdefault.jpg",
-      "kind": "video",
-      "channel": "Bijan Bowen"
     }
   ],
   "featured": [
@@ -1772,7 +1737,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T11:04:53.614744+00:00",
+      "fetched_at": "2026-11-27T20:05:58.472599+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1874,7 +1839,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T11:04:53.617101+00:00",
+      "fetched_at": "2026-11-27T20:05:58.474667+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1976,7 +1941,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T11:04:53.620485+00:00",
+      "fetched_at": "2026-11-27T20:05:58.477578+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2078,7 +2043,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T11:04:53.621431+00:00",
+      "fetched_at": "2026-11-27T20:05:58.478418+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2153,7 +2118,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T11:04:53.653972+00:00",
+      "fetched_at": "2026-11-27T20:05:58.508793+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2255,7 +2220,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T11:04:53.684091+00:00",
+      "fetched_at": "2026-11-27T20:05:58.536348+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2330,7 +2295,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T11:04:53.685666+00:00",
+      "fetched_at": "2026-11-27T20:05:58.537756+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2432,7 +2397,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-27T11:04:53.702778+00:00",
+      "fetched_at": "2026-11-27T20:05:58.553799+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2534,7 +2499,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-27T11:04:53.714905+00:00",
+      "fetched_at": "2026-11-27T20:05:58.564435+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2578,7 +2543,8 @@
           "creator": "Baidu",
           "score": 31.0,
           "meta": "1M ctx",
-          "previous_rank": null
+          "previous_rank": 5,
+          "rank_delta": 0
         },
         {
           "rank": 6,
@@ -2586,8 +2552,8 @@
           "creator": "Thinking Machines",
           "score": 31.0,
           "meta": "1M ctx",
-          "previous_rank": 5,
-          "rank_delta": -1
+          "previous_rank": 6,
+          "rank_delta": 0
         },
         {
           "rank": 7,
@@ -2595,8 +2561,8 @@
           "creator": "Xiaomi",
           "score": 30.0,
           "meta": "1M ctx",
-          "previous_rank": 6,
-          "rank_delta": -1
+          "previous_rank": 7,
+          "rank_delta": 0
         },
         {
           "rank": 8,
@@ -2604,8 +2570,8 @@
           "creator": "InclusionAI",
           "score": 30.0,
           "meta": "1M ctx",
-          "previous_rank": 7,
-          "rank_delta": -1
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
@@ -2613,8 +2579,8 @@
           "creator": "MiniMax",
           "score": 29.0,
           "meta": "1M ctx",
-          "previous_rank": 8,
-          "rank_delta": -1
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
@@ -2622,8 +2588,8 @@
           "creator": "DeepSeek",
           "score": 29.0,
           "meta": "1M ctx",
-          "previous_rank": 9,
-          "rank_delta": -1
+          "previous_rank": 10,
+          "rank_delta": 0
         }
       ]
     },
@@ -2635,7 +2601,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T11:04:53.724140+00:00",
+      "fetched_at": "2026-11-27T20:05:58.572462+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2737,7 +2703,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T11:04:53.727723+00:00",
+      "fetched_at": "2026-11-27T20:05:58.575506+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2839,7 +2805,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T11:04:53.736740+00:00",
+      "fetched_at": "2026-11-27T20:05:58.583351+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2941,7 +2907,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T11:04:53.739033+00:00",
+      "fetched_at": "2026-11-27T20:05:58.585370+00:00",
       "entries": [
         {
           "rank": 1,
@@ -3258,89 +3224,89 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-27T11:04:29.265049+00:00",
+        "checked_at": "2026-11-27T20:05:33.933724+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T11:04:29.265049+00:00"
+        "last_ok_at": "2026-11-27T20:05:33.933724+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-27T11:04:28.237632+00:00",
+        "checked_at": "2026-11-27T20:05:32.890329+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T11:04:28.237632+00:00"
+        "last_ok_at": "2026-11-27T20:05:32.890329+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-27T11:04:32.517329+00:00",
+        "checked_at": "2026-11-27T20:05:37.097441+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T11:04:32.517329+00:00"
+        "last_ok_at": "2026-11-27T20:05:37.097441+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-27T11:04:30.283449+00:00",
+        "checked_at": "2026-11-27T20:05:34.966057+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T11:04:30.283449+00:00"
+        "last_ok_at": "2026-11-27T20:05:34.966057+00:00"
       },
       {
         "name": "Google AI Blog",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-27T11:04:37.333773+00:00",
+        "checked_at": "2026-11-27T20:05:41.944232+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T11:04:37.333773+00:00"
+        "last_ok_at": "2026-11-27T20:05:41.944232+00:00"
       },
       {
         "name": "Google DeepMind",
         "ok": true,
         "items": 25,
         "error": null,
-        "checked_at": "2026-11-27T11:04:36.053748+00:00",
+        "checked_at": "2026-11-27T20:05:40.692219+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T11:04:36.053748+00:00"
+        "last_ok_at": "2026-11-27T20:05:40.692219+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-27T11:04:34.895918+00:00",
+        "checked_at": "2026-11-27T20:05:39.376637+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T11:04:34.895918+00:00"
+        "last_ok_at": "2026-11-27T20:05:39.376637+00:00"
       },
       {
         "name": "MIT Technology Review AI",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-27T11:04:41.200186+00:00",
+        "checked_at": "2026-11-27T20:05:45.854086+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T11:04:41.200186+00:00"
+        "last_ok_at": "2026-11-27T20:05:45.854086+00:00"
       },
       {
         "name": "TechCrunch AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-27T11:04:40.074652+00:00",
+        "checked_at": "2026-11-27T20:05:44.701949+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T11:04:40.074652+00:00"
+        "last_ok_at": "2026-11-27T20:05:44.701949+00:00"
       },
       {
         "name": "The Batch",
         "ok": false,
         "items": 4,
         "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
-        "checked_at": "2026-11-27T11:04:42.270521+00:00",
-        "failed_streak": 16,
+        "checked_at": "2026-11-27T20:05:46.937974+00:00",
+        "failed_streak": 17,
         "last_ok_at": "2026-11-21T22:35:54.317961+00:00"
       },
       {
@@ -3348,35 +3314,35 @@
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-27T11:04:38.975746+00:00",
+        "checked_at": "2026-11-27T20:05:43.616030+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T11:04:38.975746+00:00"
+        "last_ok_at": "2026-11-27T20:05:43.616030+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-27T11:04:31.401906+00:00",
+        "checked_at": "2026-11-27T20:05:35.994708+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T11:04:31.401906+00:00"
+        "last_ok_at": "2026-11-27T20:05:35.994708+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-27T11:04:33.689913+00:00",
+        "checked_at": "2026-11-27T20:05:38.167587+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T11:04:33.689913+00:00"
+        "last_ok_at": "2026-11-27T20:05:38.167587+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-27T11:04:53.742615+00:00",
+      "checked_at": "2026-11-27T20:05:58.588683+00:00",
       "failed_streak": 0,
-      "last_ok_at": "2026-11-27T11:04:53.742615+00:00"
+      "last_ok_at": "2026-11-27T20:05:58.588683+00:00"
     }
   }
 }
