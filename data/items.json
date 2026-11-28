@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T20:05:58.597525+00:00",
+  "generated_at": "2026-11-28T02:50:47.057594+00:00",
   "items": [
     {
       "id": "rss:https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
@@ -373,7 +373,7 @@
       "summary": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training failures during long-context training. We trace these failures to the asymmetry…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 126,
+      "upvotes": 128,
       "arxiv_id": "2611.34051"
     },
     {
@@ -386,7 +386,7 @@
       "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear whether a single generalist agent can execute long-horizon workflows that span multiple operating systems and persistent application states. We introduce OS-Omni, a live…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 101,
+      "upvotes": 104,
       "arxiv_id": "2611.34232"
     },
     {
@@ -416,19 +416,6 @@
       "arxiv_id": "2611.34923"
     },
     {
-      "id": "paper:2611.34237",
-      "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
-      "url": "https://huggingface.co/papers/2611.34237",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-25T00:00:00+00:00",
-      "summary": "Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind. A program that exits cleanly can still render overlapping labels, a camera aimed away from its subject, broken object interactions, or narration that drifts out of…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 57,
-      "arxiv_id": "2611.34237"
-    },
-    {
       "id": "paper:2611.34813",
       "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
       "url": "https://huggingface.co/papers/2611.34813",
@@ -438,8 +425,21 @@
       "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is considered advantageous because the reasoning is native to the visual medium, unfolding directly in the frames rather than through language or code. Whether this native route is in…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 51,
+      "upvotes": 59,
       "arxiv_id": "2611.34813"
+    },
+    {
+      "id": "paper:2611.34237",
+      "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
+      "url": "https://huggingface.co/papers/2611.34237",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-25T00:00:00+00:00",
+      "summary": "Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind. A program that exits cleanly can still render overlapping labels, a camera aimed away from its subject, broken object interactions, or narration that drifts out of…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 58,
+      "arxiv_id": "2611.34237"
     },
     {
       "id": "paper:2611.34941",
@@ -492,6 +492,19 @@
       "kind": "paper",
       "upvotes": 28,
       "arxiv_id": "2611.34420"
+    },
+    {
+      "id": "paper:2611.34290",
+      "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+      "url": "https://huggingface.co/papers/2611.34290",
+      "source": "Hugging Face Papers",
+      "category": "papers",
+      "published": "2026-11-25T00:00:00+00:00",
+      "summary": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference updates remain limited. We introduce StateWeaver, which combines Active States and Hierarchical…",
+      "thumbnail": null,
+      "kind": "paper",
+      "upvotes": 27,
+      "arxiv_id": "2611.34290"
     },
     {
       "id": "rss:https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
@@ -719,7 +732,7 @@
       "summary": "Diffusion Transformers (DiTs) scale model capacity by increasing both parameter count and computation. Mixture-of-Experts (MoE) variants expand parameter capacity while keeping per-token computation roughly fixed, but still require substantial parameter storage. In this paper, we propose Dynamic Looped MoE DiT (DyLoMo-DiT), which reuses parameters rather than adding them: a weight-shared loop…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 65,
+      "upvotes": 73,
       "arxiv_id": "2611.30844"
     },
     {
@@ -747,19 +760,6 @@
       "kind": "paper",
       "upvotes": 55,
       "arxiv_id": "2611.31358"
-    },
-    {
-      "id": "paper:2611.31237",
-      "title": "Let Vision-Language Models Generate Images through Their Representations",
-      "url": "https://huggingface.co/papers/2611.31237",
-      "source": "Hugging Face Papers",
-      "category": "papers",
-      "published": "2026-11-23T00:00:00+00:00",
-      "summary": "Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectively integrating the two capabilities remains challenging. Leveraging pretrained vision-language models offers a way to build on already learned multimodal knowledge, but making this knowledge effectively accessible to visual generation remains nontrivial. We find that a central…",
-      "thumbnail": null,
-      "kind": "paper",
-      "upvotes": 27,
-      "arxiv_id": "2611.31237"
     },
     {
       "id": "yt:cUuVObUqbn0",
@@ -1737,13 +1737,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T20:05:58.472599+00:00",
+      "fetched_at": "2026-11-28T02:50:46.960148+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "MAI-Image-2.7",
           "creator": "Microsoft AI",
-          "score": 1217.0,
+          "score": 1218.0,
           "meta": "Nov 2026 · $34.82 /1k imgs",
           "previous_rank": 1,
           "rank_delta": 0
@@ -1752,7 +1752,7 @@
           "rank": 2,
           "name": "GPT Image 2.6 Sunburst (max)",
           "creator": "OpenAI",
-          "score": 1212.0,
+          "score": 1211.0,
           "meta": "Nov 2026 · $210.72 /1k imgs",
           "previous_rank": 2,
           "rank_delta": 0
@@ -1779,7 +1779,7 @@
           "rank": 5,
           "name": "GPT Image 2.5 Flare (max)",
           "creator": "OpenAI",
-          "score": 1187.0,
+          "score": 1186.0,
           "meta": "Sep 2026 · $210.72 /1k imgs",
           "previous_rank": 5,
           "rank_delta": 0
@@ -1788,7 +1788,7 @@
           "rank": 6,
           "name": "Kling Image 4.0",
           "creator": "KlingAI",
-          "score": 1184.0,
+          "score": 1185.0,
           "meta": "Nov 2026 · $66.00 /1k imgs",
           "previous_rank": 6,
           "rank_delta": 0
@@ -1806,7 +1806,7 @@
           "rank": 8,
           "name": "Seedream 5.5",
           "creator": "ByteDance Seed",
-          "score": 1159.0,
+          "score": 1158.0,
           "meta": "Nov 2026 · $28.00 /1k imgs",
           "previous_rank": 8,
           "rank_delta": 0
@@ -1815,7 +1815,7 @@
           "rank": 9,
           "name": "Krea 3 (Ultra)",
           "creator": "Krea",
-          "score": 1155.0,
+          "score": 1154.0,
           "meta": "Oct 2026 · $100.00 /1k imgs",
           "previous_rank": 9,
           "rank_delta": 0
@@ -1839,7 +1839,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T20:05:58.474667+00:00",
+      "fetched_at": "2026-11-28T02:50:46.961784+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1863,7 +1863,7 @@
           "rank": 3,
           "name": "Qwen-Image-2.1",
           "creator": "Alibaba",
-          "score": 1082.0,
+          "score": 1083.0,
           "meta": "Sep 2026 · No API available",
           "previous_rank": 3,
           "rank_delta": 0
@@ -1890,7 +1890,7 @@
           "rank": 6,
           "name": "FLUX.2 [dev] Turbo",
           "creator": "Fal",
-          "score": 1016.0,
+          "score": 1015.0,
           "meta": "Dec 2025 · $8.00 /1k imgs",
           "previous_rank": 6,
           "rank_delta": 0
@@ -1908,7 +1908,7 @@
           "rank": 8,
           "name": "FLUX.2 [dev] Flash",
           "creator": "Fal",
-          "score": 1007.0,
+          "score": 1006.0,
           "meta": "Dec 2025 · $5.00 /1k imgs",
           "previous_rank": 8,
           "rank_delta": 0
@@ -1926,7 +1926,7 @@
           "rank": 10,
           "name": "Qwen Image Edit Plus 2511",
           "creator": "Alibaba",
-          "score": 996.0,
+          "score": 993.0,
           "meta": "Nov 2025 · $60.00 /1k imgs",
           "previous_rank": 10,
           "rank_delta": 0
@@ -1941,7 +1941,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T20:05:58.477578+00:00",
+      "fetched_at": "2026-11-28T02:50:46.963988+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2043,7 +2043,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T20:05:58.478418+00:00",
+      "fetched_at": "2026-11-28T02:50:46.964639+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2118,7 +2118,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T20:05:58.508793+00:00",
+      "fetched_at": "2026-11-28T02:50:46.989391+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2220,7 +2220,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T20:05:58.536348+00:00",
+      "fetched_at": "2026-11-28T02:50:47.011108+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2295,7 +2295,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T20:05:58.537756+00:00",
+      "fetched_at": "2026-11-28T02:50:47.012203+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2397,7 +2397,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-27T20:05:58.553799+00:00",
+      "fetched_at": "2026-11-28T02:50:47.023829+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2499,7 +2499,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-27T20:05:58.564435+00:00",
+      "fetched_at": "2026-11-28T02:50:47.032194+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2601,13 +2601,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T20:05:58.572462+00:00",
+      "fetched_at": "2026-11-28T02:50:47.038359+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "GPT Image 2.6 Sunburst (max)",
           "creator": "OpenAI",
-          "score": 1264.0,
+          "score": 1266.0,
           "meta": "Nov 2026 · $210.72 /1k imgs",
           "previous_rank": 1,
           "rank_delta": 0
@@ -2625,7 +2625,7 @@
           "rank": 3,
           "name": "GPT Image 2.6 Flare (max)",
           "creator": "OpenAI",
-          "score": 1226.0,
+          "score": 1227.0,
           "meta": "Nov 2026 · $210.72 /1k imgs",
           "previous_rank": 3,
           "rank_delta": 0
@@ -2652,7 +2652,7 @@
           "rank": 6,
           "name": "GPT Image 2 (high)",
           "creator": "OpenAI",
-          "score": 1196.0,
+          "score": 1197.0,
           "meta": "Apr 2026 · $211.00 /1k imgs",
           "previous_rank": 6,
           "rank_delta": 0
@@ -2670,7 +2670,7 @@
           "rank": 8,
           "name": "Nano Banana 2.1",
           "creator": "Google",
-          "score": 1175.0,
+          "score": 1174.0,
           "meta": "Oct 2026 · $33.60 /1k imgs",
           "previous_rank": 8,
           "rank_delta": 0
@@ -2679,7 +2679,7 @@
           "rank": 9,
           "name": "Grok Imagine Image 2.0",
           "creator": "SpaceXAI",
-          "score": 1168.0,
+          "score": 1169.0,
           "meta": "Aug 2026 · $60.00 /1k imgs",
           "previous_rank": 9,
           "rank_delta": 0
@@ -2688,7 +2688,7 @@
           "rank": 10,
           "name": "MAI-Image-2.6",
           "creator": "Microsoft AI",
-          "score": 1167.0,
+          "score": 1166.0,
           "meta": "Aug 2026 · $38.91 /1k imgs",
           "previous_rank": 10,
           "rank_delta": 0
@@ -2703,7 +2703,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T20:05:58.575506+00:00",
+      "fetched_at": "2026-11-28T02:50:47.040655+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2718,7 +2718,7 @@
           "rank": 2,
           "name": "H3-Image",
           "creator": "MiniMax",
-          "score": 1066.0,
+          "score": 1067.0,
           "meta": "Nov 2026 · $21.79 /1k imgs",
           "previous_rank": 2,
           "rank_delta": 0
@@ -2763,7 +2763,7 @@
           "rank": 7,
           "name": "Ideogram 4.0",
           "creator": "Ideogram",
-          "score": 1004.0,
+          "score": 1003.0,
           "meta": "Jun 2026 · $60.00 /1k imgs",
           "previous_rank": 7,
           "rank_delta": 0
@@ -2805,43 +2805,43 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T20:05:58.583351+00:00",
+      "fetched_at": "2026-11-28T02:50:47.046581+00:00",
       "entries": [
         {
           "rank": 1,
-          "name": "Eleven v4 Turbo",
-          "creator": "ElevenLabs",
-          "score": 1343.0,
-          "meta": "Sept 2026 · $40.00 /1M chars",
-          "previous_rank": 1,
-          "rank_delta": 0
+          "name": "Qwen-Audio-3.1-TTS-Plus",
+          "creator": "Alibaba",
+          "score": 1349.0,
+          "meta": "Sept 2026 · $27.59 /1M chars",
+          "previous_rank": 4,
+          "rank_delta": 3
         },
         {
           "rank": 2,
+          "name": "Eleven v4 Turbo",
+          "creator": "ElevenLabs",
+          "score": 1344.0,
+          "meta": "Sept 2026 · $40.00 /1M chars",
+          "previous_rank": 1,
+          "rank_delta": -1
+        },
+        {
+          "rank": 3,
           "name": "Eleven v4",
           "creator": "ElevenLabs",
           "score": 1340.0,
           "meta": "Sept 2026 · $80.00 /1M chars",
           "previous_rank": 2,
-          "rank_delta": 0
-        },
-        {
-          "rank": 3,
-          "name": "StepAudio 3 TTS",
-          "creator": "StepFun",
-          "score": 1310.0,
-          "meta": "Nov 2026 · $14.00 /1M chars",
-          "previous_rank": 3,
-          "rank_delta": 0
+          "rank_delta": -1
         },
         {
           "rank": 4,
-          "name": "Qwen-Audio-3.1-TTS-Plus",
-          "creator": "Alibaba",
-          "score": 1299.0,
-          "meta": "Sept 2026 · $19.31 /1M chars",
-          "previous_rank": 4,
-          "rank_delta": 0
+          "name": "StepAudio 3 TTS",
+          "creator": "StepFun",
+          "score": 1308.0,
+          "meta": "Nov 2026 · $14.00 /1M chars",
+          "previous_rank": 3,
+          "rank_delta": -1
         },
         {
           "rank": 5,
@@ -2856,7 +2856,7 @@
           "rank": 6,
           "name": "Simba 3.5",
           "creator": "SpeechifyAI",
-          "score": 1296.0,
+          "score": 1297.0,
           "meta": "Nov 2026 · $6.58 /1M chars",
           "previous_rank": 6,
           "rank_delta": 0
@@ -2865,34 +2865,34 @@
           "rank": 7,
           "name": "Gemini 3.8 Flash TTS",
           "creator": "Google",
-          "score": 1286.0,
+          "score": 1285.0,
           "meta": "Sept 2026 · $16.49 /1M chars",
           "previous_rank": 7,
           "rank_delta": 0
         },
         {
           "rank": 8,
-          "name": "Lightning V3.1 Pro (Oct 2026)",
-          "creator": "Smallest.ai",
-          "score": 1279.0,
-          "meta": "Oct 2026 · $19.50 /1M chars",
-          "previous_rank": 8,
-          "rank_delta": 0
+          "name": "Fish Audio Drama 3",
+          "creator": "Fish Audio",
+          "score": 1280.0,
+          "meta": "Oct 2026 · $15.00 /1M chars",
+          "previous_rank": 9,
+          "rank_delta": 1
         },
         {
           "rank": 9,
-          "name": "Fish Audio Drama 3",
-          "creator": "Fish Audio",
-          "score": 1278.0,
-          "meta": "Oct 2026 · $15.00 /1M chars",
-          "previous_rank": 9,
-          "rank_delta": 0
+          "name": "Lightning V3.1 Pro (Oct 2026)",
+          "creator": "Smallest.ai",
+          "score": 1280.0,
+          "meta": "Oct 2026 · $19.50 /1M chars",
+          "previous_rank": 8,
+          "rank_delta": -1
         },
         {
           "rank": 10,
           "name": "Realtime TTS-2",
           "creator": "Inworld",
-          "score": 1272.0,
+          "score": 1273.0,
           "meta": "Aug 2026 · $20.83 /1M chars",
           "previous_rank": 10,
           "rank_delta": 0
@@ -2907,13 +2907,13 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-27T20:05:58.585370+00:00",
+      "fetched_at": "2026-11-28T02:50:47.048089+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Fish Audio Drama 3",
           "creator": "Fish Audio",
-          "score": 1278.0,
+          "score": 1280.0,
           "meta": "Oct 2026 · $15.00 /1M chars",
           "previous_rank": 1,
           "rank_delta": 0
@@ -2931,7 +2931,7 @@
           "rank": 3,
           "name": "Breeze TTS 2",
           "creator": "BreezeBlue",
-          "score": 1230.0,
+          "score": 1231.0,
           "meta": "Aug 2026 · $34.00 /1M chars",
           "previous_rank": 3,
           "rank_delta": 0
@@ -2949,7 +2949,7 @@
           "rank": 5,
           "name": "Phonon 31M (English)",
           "creator": "Gradium",
-          "score": 1107.0,
+          "score": 1106.0,
           "meta": "Oct 2026 · $0.00 /1M chars",
           "previous_rank": 5,
           "rank_delta": 0
@@ -2967,7 +2967,7 @@
           "rank": 7,
           "name": "Step Audio EditX (Mar 2026)",
           "creator": "StepFun",
-          "score": 1101.0,
+          "score": 1100.0,
           "meta": "Feb 2026 · N/A",
           "previous_rank": 7,
           "rank_delta": 0
@@ -2985,7 +2985,7 @@
           "rank": 9,
           "name": "Magpie-Multilingual 357M (Feb 2026)",
           "creator": "NVIDIA",
-          "score": 1064.0,
+          "score": 1063.0,
           "meta": "Feb 2026 · N/A",
           "previous_rank": 9,
           "rank_delta": 0
@@ -3149,7 +3149,7 @@
         "closed_winner": {
           "model": "GPT Image 2.6 Sunburst (max)",
           "developer": "OpenAI",
-          "score": "1264",
+          "score": "1266",
           "released": "Nov 2026"
         },
         "open_winner": {
@@ -3199,20 +3199,20 @@
         "board_open": "tts-provider-voice-open",
         "source_note": "Top-1 of own Artificial Analysis boards (snapshot per fetch)",
         "closed_winner": {
-          "model": "Eleven v4 Turbo",
-          "developer": "ElevenLabs",
-          "score": "1343",
+          "model": "Qwen-Audio-3.1-TTS-Plus",
+          "developer": "Alibaba",
+          "score": "1349",
           "released": "Sept 2026"
         },
         "open_winner": {
           "model": "Fish Audio Drama 3",
           "developer": "Fish Audio",
-          "score": "1278",
+          "score": "1280",
           "released": "Oct 2026"
         },
         "runner_up": {
-          "model": "Eleven v4",
-          "score": "1340"
+          "model": "Eleven v4 Turbo",
+          "score": "1344"
         }
       }
     ]
@@ -3224,89 +3224,89 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-27T20:05:33.933724+00:00",
+        "checked_at": "2026-11-28T02:50:23.453720+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T20:05:33.933724+00:00"
+        "last_ok_at": "2026-11-28T02:50:23.453720+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-27T20:05:32.890329+00:00",
+        "checked_at": "2026-11-28T02:50:22.312452+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T20:05:32.890329+00:00"
+        "last_ok_at": "2026-11-28T02:50:22.312452+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-27T20:05:37.097441+00:00",
+        "checked_at": "2026-11-28T02:50:26.594513+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T20:05:37.097441+00:00"
+        "last_ok_at": "2026-11-28T02:50:26.594513+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-27T20:05:34.966057+00:00",
+        "checked_at": "2026-11-28T02:50:24.478557+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T20:05:34.966057+00:00"
+        "last_ok_at": "2026-11-28T02:50:24.478557+00:00"
       },
       {
         "name": "Google AI Blog",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-27T20:05:41.944232+00:00",
+        "checked_at": "2026-11-28T02:50:31.413341+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T20:05:41.944232+00:00"
+        "last_ok_at": "2026-11-28T02:50:31.413341+00:00"
       },
       {
         "name": "Google DeepMind",
         "ok": true,
         "items": 25,
         "error": null,
-        "checked_at": "2026-11-27T20:05:40.692219+00:00",
+        "checked_at": "2026-11-28T02:50:30.213791+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T20:05:40.692219+00:00"
+        "last_ok_at": "2026-11-28T02:50:30.213791+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-27T20:05:39.376637+00:00",
+        "checked_at": "2026-11-28T02:50:28.854944+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T20:05:39.376637+00:00"
+        "last_ok_at": "2026-11-28T02:50:28.854944+00:00"
       },
       {
         "name": "MIT Technology Review AI",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-27T20:05:45.854086+00:00",
+        "checked_at": "2026-11-28T02:50:35.307216+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T20:05:45.854086+00:00"
+        "last_ok_at": "2026-11-28T02:50:35.307216+00:00"
       },
       {
         "name": "TechCrunch AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-27T20:05:44.701949+00:00",
+        "checked_at": "2026-11-28T02:50:34.183341+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T20:05:44.701949+00:00"
+        "last_ok_at": "2026-11-28T02:50:34.183341+00:00"
       },
       {
         "name": "The Batch",
         "ok": false,
         "items": 4,
         "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
-        "checked_at": "2026-11-27T20:05:46.937974+00:00",
-        "failed_streak": 17,
+        "checked_at": "2026-11-28T02:50:36.483665+00:00",
+        "failed_streak": 18,
         "last_ok_at": "2026-11-21T22:35:54.317961+00:00"
       },
       {
@@ -3314,35 +3314,35 @@
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-27T20:05:43.616030+00:00",
+        "checked_at": "2026-11-28T02:50:33.094819+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T20:05:43.616030+00:00"
+        "last_ok_at": "2026-11-28T02:50:33.094819+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-27T20:05:35.994708+00:00",
+        "checked_at": "2026-11-28T02:50:25.504515+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T20:05:35.994708+00:00"
+        "last_ok_at": "2026-11-28T02:50:25.504515+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-27T20:05:38.167587+00:00",
+        "checked_at": "2026-11-28T02:50:27.634212+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-27T20:05:38.167587+00:00"
+        "last_ok_at": "2026-11-28T02:50:27.634212+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-27T20:05:58.588683+00:00",
+      "checked_at": "2026-11-28T02:50:47.051056+00:00",
       "failed_streak": 0,
-      "last_ok_at": "2026-11-27T20:05:58.588683+00:00"
+      "last_ok_at": "2026-11-28T02:50:47.051056+00:00"
     }
   }
 }
