@@ -1,7 +1,30 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T02:50:47.057594+00:00",
+  "generated_at": "2026-11-28T11:08:05.132163+00:00",
   "items": [
+    {
+      "id": "rss:https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/",
+      "title": "Robotics startup Embo raises $110 million in seed funding to build world-model AI for robots",
+      "url": "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/",
+      "source": "The Decoder",
+      "category": "news",
+      "published": "2026-11-28T10:48:18+00:00",
+      "summary": "Embo raised $110 million in seed funding to build a universal robot brain with world models. Its AI learns how the physical world works from internet video and practices motor skills in simulation. Google Deepmind, Meta, and MIT researchers are behind the startup as the race for general-purpose…",
+      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/embo_logo.png",
+      "kind": "article"
+    },
+    {
+      "id": "yt:xku8pGsNpdA",
+      "title": "Claude Sonnet 6 Is Going To Be INSANE! AI Singularity, Grok 4.8, HUGE Gemini Updates & MORE! AI NEWS",
+      "url": "https://www.youtube.com/watch?v=xku8pGsNpdA",
+      "source": "World of AI",
+      "category": "videos",
+      "published": "2026-11-28T07:52:45+00:00",
+      "summary": "Try Zapier MCP free for 14 days on the Professional plan: https://zapier.com/mcp Claude Sonnet 6 is shaping up to be INSANE! Anthropic is quietly testing a brand-new Sonnet model within Claude Code, with early testers reporting performance that surpasses Claude Opus 5.5 while using significantly…",
+      "thumbnail": "https://i1.ytimg.com/vi/xku8pGsNpdA/hqdefault.jpg",
+      "kind": "video",
+      "channel": "WorldofAI"
+    },
     {
       "id": "rss:https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
       "title": "OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers",
@@ -122,7 +145,7 @@
       "source": "AI Search",
       "category": "videos",
       "published": "2026-11-27T03:21:08+00:00",
-      "summary": "Google’s new breakthrough on continual recursive self improvement. Thanks to our sponsor Higgsfield. Try it today https://higgsfield.ai/s/EFXMKG #ai #aitools #agi #singularity #llm 00:00 Continual RSI 00:51 What’s a harness 02:08 RSI of the harness 03:48 Self improvement memory 04:50 Ablation…",
+      "summary": "Google’s new breakthrough on continual recursive self improvement. Thanks to our sponsor Higgsfield. Try it today https://higgsfield.ai/s/EFXMKG #ai #aitools #agi #singularity #llm https://arxiv.org/html/2611.18856v1 00:00 Continual RSI 00:51 What’s a harness 02:08 RSI of the harness 03:48 Self…",
       "thumbnail": "https://i2.ytimg.com/vi/YOsQULgqgNA/hqdefault.jpg",
       "kind": "video",
       "channel": "AI Search"
@@ -181,17 +204,6 @@
       "published": "2026-11-26T16:00:00+00:00",
       "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
       "thumbnail": null,
-      "kind": "article"
-    },
-    {
-      "id": "rss:https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/",
-      "title": "After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead",
-      "url": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/",
-      "source": "The Decoder",
-      "category": "news",
-      "published": "2026-11-26T15:45:08+00:00",
-      "summary": "Chinese AI companies Z.AI and Moonshot AI have to delay their next flagship models and are looking for new sources of training data. The article After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead appeared first on The Decoder .",
-      "thumbnail": "https://the-decoder.com/wp-content/uploads/2026/11/us_china.png",
       "kind": "article"
     },
     {
@@ -373,7 +385,7 @@
       "summary": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it suffers from training failures during long-context training. We trace these failures to the asymmetry…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 128,
+      "upvotes": 132,
       "arxiv_id": "2611.34051"
     },
     {
@@ -386,7 +398,7 @@
       "summary": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear whether a single generalist agent can execute long-horizon workflows that span multiple operating systems and persistent application states. We introduce OS-Omni, a live…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 104,
+      "upvotes": 110,
       "arxiv_id": "2611.34232"
     },
     {
@@ -399,7 +411,7 @@
       "summary": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 81,
+      "upvotes": 82,
       "arxiv_id": "2611.34575"
     },
     {
@@ -412,7 +424,7 @@
       "summary": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 74,
+      "upvotes": 76,
       "arxiv_id": "2611.34923"
     },
     {
@@ -425,7 +437,7 @@
       "summary": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is considered advantageous because the reasoning is native to the visual medium, unfolding directly in the frames rather than through language or code. Whether this native route is in…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 59,
+      "upvotes": 61,
       "arxiv_id": "2611.34813"
     },
     {
@@ -451,7 +463,7 @@
       "summary": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We introduce Image-to-Video Transfer (I2VT), which improves pretrained video editors and expands them to…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 46,
+      "upvotes": 47,
       "arxiv_id": "2611.34941"
     },
     {
@@ -745,7 +757,7 @@
       "summary": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards carry most comparisons, yet none of them states how small a difference its datasets can detect. We call that quantity the resolution of a board and introduce Vernier, a tool that…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 57,
+      "upvotes": 58,
       "arxiv_id": "2611.31619"
     },
     {
@@ -758,7 +770,7 @@
       "summary": "Visual creation demands expressive imagery together with precise control over text, layout, and structure. We introduce Nemotron-Labs-VisualCreation, an agentic framework that connects these capabilities through Pixel as Code. Raster images are represented by learned discrete visual tokens, while structured artifacts use explicit programs. A shared generation-and-rendering interface connects…",
       "thumbnail": null,
       "kind": "paper",
-      "upvotes": 55,
+      "upvotes": 56,
       "arxiv_id": "2611.31358"
     },
     {
@@ -1213,18 +1225,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/x7iwI6WfWS0/hqdefault.jpg",
       "kind": "video",
       "channel": "Two Minute Papers"
-    },
-    {
-      "id": "yt:1KtXDpSYedo",
-      "title": "Anthropic SLOWING DOWN!?, Gemini 4 HYDROGEN IS INSANE, OpenAI's NEW Model, & NVIDIA FIRES Jensen!",
-      "url": "https://www.youtube.com/watch?v=1KtXDpSYedo",
-      "source": "World of AI",
-      "category": "videos",
-      "published": "2026-11-13T08:20:18+00:00",
-      "summary": "Build 3D games and apps with Astra and Opus 5.5 on Abacus AI SuperComputer!: https://supercomputer.abacus.ai/ Anthropic is willing to SLOW DOWN AI development?! Meanwhile, Google just released Gemini 4 Hydrogen, its fastest and cheapest Flash model yet, OpenAI revealed an insanely powerful new…",
-      "thumbnail": "https://i2.ytimg.com/vi/1KtXDpSYedo/hqdefault.jpg",
-      "kind": "video",
-      "channel": "WorldofAI"
     },
     {
       "id": "yt:prA0iTPDqfo",
@@ -1737,7 +1737,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing",
       "score_label": "Elo",
-      "fetched_at": "2026-11-28T02:50:46.960148+00:00",
+      "fetched_at": "2026-11-28T11:08:04.979520+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1839,7 +1839,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/editing?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-28T02:50:46.961784+00:00",
+      "fetched_at": "2026-11-28T11:08:04.982055+00:00",
       "entries": [
         {
           "rank": 1,
@@ -1941,7 +1941,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video",
       "score_label": "Elo",
-      "fetched_at": "2026-11-28T02:50:46.963988+00:00",
+      "fetched_at": "2026-11-28T11:08:04.985822+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2043,7 +2043,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-28T02:50:46.964639+00:00",
+      "fetched_at": "2026-11-28T11:08:04.986891+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2118,7 +2118,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false",
       "score_label": "Elo",
-      "fetched_at": "2026-11-28T02:50:46.989391+00:00",
+      "fetched_at": "2026-11-28T11:08:05.023633+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2220,7 +2220,7 @@
       "note": "Silent-video arena ranking, filtered to open weights.",
       "url": "https://artificialanalysis.ai/video/leaderboard/image-to-video?audio-output=false&open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-28T02:50:47.011108+00:00",
+      "fetched_at": "2026-11-28T11:08:05.056577+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2295,7 +2295,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/music/leaderboard/instrumental",
       "score_label": "Elo",
-      "fetched_at": "2026-11-28T02:50:47.012203+00:00",
+      "fetched_at": "2026-11-28T11:08:05.058323+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2397,7 +2397,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-28T02:50:47.023829+00:00",
+      "fetched_at": "2026-11-28T11:08:05.077224+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2499,7 +2499,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/leaderboards/models?weights=open",
       "score_label": "Intelligence Index",
-      "fetched_at": "2026-11-28T02:50:47.032194+00:00",
+      "fetched_at": "2026-11-28T11:08:05.089912+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2601,7 +2601,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "score_label": "Elo",
-      "fetched_at": "2026-11-28T02:50:47.038359+00:00",
+      "fetched_at": "2026-11-28T11:08:05.099371+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2703,7 +2703,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-28T02:50:47.040655+00:00",
+      "fetched_at": "2026-11-28T11:08:05.103153+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2805,16 +2805,16 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
       "score_label": "Elo",
-      "fetched_at": "2026-11-28T02:50:47.046581+00:00",
+      "fetched_at": "2026-11-28T11:08:05.112988+00:00",
       "entries": [
         {
           "rank": 1,
           "name": "Qwen-Audio-3.1-TTS-Plus",
           "creator": "Alibaba",
-          "score": 1349.0,
+          "score": 1350.0,
           "meta": "Sept 2026 · $27.59 /1M chars",
-          "previous_rank": 4,
-          "rank_delta": 3
+          "previous_rank": 1,
+          "rank_delta": 0
         },
         {
           "rank": 2,
@@ -2822,8 +2822,8 @@
           "creator": "ElevenLabs",
           "score": 1344.0,
           "meta": "Sept 2026 · $40.00 /1M chars",
-          "previous_rank": 1,
-          "rank_delta": -1
+          "previous_rank": 2,
+          "rank_delta": 0
         },
         {
           "rank": 3,
@@ -2831,17 +2831,17 @@
           "creator": "ElevenLabs",
           "score": 1340.0,
           "meta": "Sept 2026 · $80.00 /1M chars",
-          "previous_rank": 2,
-          "rank_delta": -1
+          "previous_rank": 3,
+          "rank_delta": 0
         },
         {
           "rank": 4,
           "name": "StepAudio 3 TTS",
           "creator": "StepFun",
-          "score": 1308.0,
+          "score": 1309.0,
           "meta": "Nov 2026 · $14.00 /1M chars",
-          "previous_rank": 3,
-          "rank_delta": -1
+          "previous_rank": 4,
+          "rank_delta": 0
         },
         {
           "rank": 5,
@@ -2876,8 +2876,8 @@
           "creator": "Fish Audio",
           "score": 1280.0,
           "meta": "Oct 2026 · $15.00 /1M chars",
-          "previous_rank": 9,
-          "rank_delta": 1
+          "previous_rank": 8,
+          "rank_delta": 0
         },
         {
           "rank": 9,
@@ -2885,14 +2885,14 @@
           "creator": "Smallest.ai",
           "score": 1280.0,
           "meta": "Oct 2026 · $19.50 /1M chars",
-          "previous_rank": 8,
-          "rank_delta": -1
+          "previous_rank": 9,
+          "rank_delta": 0
         },
         {
           "rank": 10,
           "name": "Realtime TTS-2",
           "creator": "Inworld",
-          "score": 1273.0,
+          "score": 1272.0,
           "meta": "Aug 2026 · $20.83 /1M chars",
           "previous_rank": 10,
           "rank_delta": 0
@@ -2907,7 +2907,7 @@
       "note": null,
       "url": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice?open-weights=true",
       "score_label": "Elo",
-      "fetched_at": "2026-11-28T02:50:47.048089+00:00",
+      "fetched_at": "2026-11-28T11:08:05.115500+00:00",
       "entries": [
         {
           "rank": 1,
@@ -2922,7 +2922,7 @@
           "rank": 2,
           "name": "Fish Audio Drama 3 Preview",
           "creator": "Fish Audio",
-          "score": 1241.0,
+          "score": 1242.0,
           "meta": "Oct 2026 · $15.00 /1M chars",
           "previous_rank": 2,
           "rank_delta": 0
@@ -2931,7 +2931,7 @@
           "rank": 3,
           "name": "Breeze TTS 2",
           "creator": "BreezeBlue",
-          "score": 1231.0,
+          "score": 1230.0,
           "meta": "Aug 2026 · $34.00 /1M chars",
           "previous_rank": 3,
           "rank_delta": 0
@@ -2940,7 +2940,7 @@
           "rank": 4,
           "name": "Ming-3.0-tts",
           "creator": "Ant Group",
-          "score": 1179.0,
+          "score": 1178.0,
           "meta": "Oct 2026 · N/A",
           "previous_rank": 4,
           "rank_delta": 0
@@ -2949,7 +2949,7 @@
           "rank": 5,
           "name": "Phonon 31M (English)",
           "creator": "Gradium",
-          "score": 1106.0,
+          "score": 1107.0,
           "meta": "Oct 2026 · $0.00 /1M chars",
           "previous_rank": 5,
           "rank_delta": 0
@@ -2967,7 +2967,7 @@
           "rank": 7,
           "name": "Step Audio EditX (Mar 2026)",
           "creator": "StepFun",
-          "score": 1100.0,
+          "score": 1101.0,
           "meta": "Feb 2026 · N/A",
           "previous_rank": 7,
           "rank_delta": 0
@@ -2985,7 +2985,7 @@
           "rank": 9,
           "name": "Magpie-Multilingual 357M (Feb 2026)",
           "creator": "NVIDIA",
-          "score": 1063.0,
+          "score": 1064.0,
           "meta": "Feb 2026 · N/A",
           "previous_rank": 9,
           "rank_delta": 0
@@ -3201,7 +3201,7 @@
         "closed_winner": {
           "model": "Qwen-Audio-3.1-TTS-Plus",
           "developer": "Alibaba",
-          "score": "1349",
+          "score": "1350",
           "released": "Sept 2026"
         },
         "open_winner": {
@@ -3224,89 +3224,89 @@
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-28T02:50:23.453720+00:00",
+        "checked_at": "2026-11-28T11:07:41.885562+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-28T02:50:23.453720+00:00"
+        "last_ok_at": "2026-11-28T11:07:41.885562+00:00"
       },
       {
         "name": "AI Search",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-28T02:50:22.312452+00:00",
+        "checked_at": "2026-11-28T11:07:40.858446+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-28T02:50:22.312452+00:00"
+        "last_ok_at": "2026-11-28T11:07:40.858446+00:00"
       },
       {
         "name": "Bijan Bowen",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-28T02:50:26.594513+00:00",
+        "checked_at": "2026-11-28T11:07:44.941095+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-28T02:50:26.594513+00:00"
+        "last_ok_at": "2026-11-28T11:07:44.941095+00:00"
       },
       {
         "name": "Fireship",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-28T02:50:24.478557+00:00",
+        "checked_at": "2026-11-28T11:07:42.903030+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-28T02:50:24.478557+00:00"
+        "last_ok_at": "2026-11-28T11:07:42.903030+00:00"
       },
       {
         "name": "Google AI Blog",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-28T02:50:31.413341+00:00",
+        "checked_at": "2026-11-28T11:07:49.650108+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-28T02:50:31.413341+00:00"
+        "last_ok_at": "2026-11-28T11:07:49.650108+00:00"
       },
       {
         "name": "Google DeepMind",
         "ok": true,
         "items": 25,
         "error": null,
-        "checked_at": "2026-11-28T02:50:30.213791+00:00",
+        "checked_at": "2026-11-28T11:07:48.339666+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-28T02:50:30.213791+00:00"
+        "last_ok_at": "2026-11-28T11:07:48.339666+00:00"
       },
       {
         "name": "Hugging Face Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-28T02:50:28.854944+00:00",
+        "checked_at": "2026-11-28T11:07:47.197178+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-28T02:50:28.854944+00:00"
+        "last_ok_at": "2026-11-28T11:07:47.197178+00:00"
       },
       {
         "name": "MIT Technology Review AI",
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-28T02:50:35.307216+00:00",
+        "checked_at": "2026-11-28T11:07:53.675255+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-28T02:50:35.307216+00:00"
+        "last_ok_at": "2026-11-28T11:07:53.675255+00:00"
       },
       {
         "name": "TechCrunch AI",
         "ok": true,
         "items": 20,
         "error": null,
-        "checked_at": "2026-11-28T02:50:34.183341+00:00",
+        "checked_at": "2026-11-28T11:07:52.516695+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-28T02:50:34.183341+00:00"
+        "last_ok_at": "2026-11-28T11:07:52.516695+00:00"
       },
       {
         "name": "The Batch",
         "ok": false,
         "items": 4,
         "error": "403 Client Error: Forbidden for url: https://www.deeplearning.ai/the-batch/",
-        "checked_at": "2026-11-28T02:50:36.483665+00:00",
-        "failed_streak": 18,
+        "checked_at": "2026-11-28T11:07:54.717128+00:00",
+        "failed_streak": 19,
         "last_ok_at": "2026-11-21T22:35:54.317961+00:00"
       },
       {
@@ -3314,35 +3314,35 @@
         "ok": true,
         "items": 10,
         "error": null,
-        "checked_at": "2026-11-28T02:50:33.094819+00:00",
+        "checked_at": "2026-11-28T11:07:51.453296+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-28T02:50:33.094819+00:00"
+        "last_ok_at": "2026-11-28T11:07:51.453296+00:00"
       },
       {
         "name": "Two Minute Papers",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-28T02:50:25.504515+00:00",
+        "checked_at": "2026-11-28T11:07:43.922076+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-28T02:50:25.504515+00:00"
+        "last_ok_at": "2026-11-28T11:07:43.922076+00:00"
       },
       {
         "name": "World of AI",
         "ok": true,
         "items": 15,
         "error": null,
-        "checked_at": "2026-11-28T02:50:27.634212+00:00",
+        "checked_at": "2026-11-28T11:07:45.973350+00:00",
         "failed_streak": 0,
-        "last_ok_at": "2026-11-28T02:50:27.634212+00:00"
+        "last_ok_at": "2026-11-28T11:07:45.973350+00:00"
       }
     ],
     "leaderboards": {
       "ok": 13,
       "failed": 0,
-      "checked_at": "2026-11-28T02:50:47.051056+00:00",
+      "checked_at": "2026-11-28T11:08:05.121233+00:00",
       "failed_streak": 0,
-      "last_ok_at": "2026-11-28T02:50:47.051056+00:00"
+      "last_ok_at": "2026-11-28T11:08:05.121233+00:00"
     }
   }
 }
